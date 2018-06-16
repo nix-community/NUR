@@ -1,5 +1,5 @@
 
-{ pkgs }:
+{ pkgs ? import <nixpkgs> {} }:
 let
   inherit (pkgs) fetchgit fetchFromGitHub callPackages;
 in {

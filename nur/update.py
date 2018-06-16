@@ -154,7 +154,7 @@ def generate_nix_expression(repos: List[Repo]) -> str:
     joined = "\n\n".join(expressions)
 
     return f"""
-{{ pkgs }}:
+{{ pkgs ? import <nixpkgs> {{}} }}:
 let
   inherit (pkgs) fetchgit fetchFromGitHub callPackages;
 in {{
