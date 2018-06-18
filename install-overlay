@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")"
+
+set -x
+mkdir -p $HOME/.config/nixpkgs/overlays
+ln -sf $PWD/overlay.nix $HOME/.config/nixpkgs/overlays/nur.nix
