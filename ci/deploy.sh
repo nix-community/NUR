@@ -12,7 +12,7 @@ if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]]; then
   rm deploy_key
 fi
 
-unset encrypted_025d6e877aa4_key encrypted_025d6e877aa4_iv
+export encrypted_025d6e877aa4_key= encrypted_025d6e877aa4_iv=
 
 ./nur/update.py
 nix-build
