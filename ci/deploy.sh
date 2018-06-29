@@ -7,12 +7,12 @@ if [[ "$TRAVIS_PULL_REQUEST" != "false" ]] || \
 	[[ "$TRAVIS_BRANCH" != master ]] && \
 	[[ "$TRAVIS_BRANCH" != "$(cat .version)" ]]; then
     echo "Skipping deploy; just doing a build."
-    python ./bin/update.py
+    python ./nur/update.py
     nix-build
     exit 0
 fi
 
-python ./bin/update.py
+python ./nur/update.py
 nix-build
 
 if [ "$TRAVIS_BRANCH" = master ]; then
