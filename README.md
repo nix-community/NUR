@@ -183,7 +183,7 @@ will add options to also provide branches for other Nixpkgs channels.
 ## Contribution guideline
 
 - When adding packages to your repository make sure they build and set
-`meta.broken` attribute to false otherwise.
+  `meta.broken` attribute to true otherwise.
 - Supply meta attributes as described in the [Nixpkgs manual](https://nixos.org/nixpkgs/manual/#sec-standard-meta-attributes), so
   packages can be found by users.
 - Keep your repositories slim - they are downloaded by users and our evaluator
