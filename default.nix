@@ -6,22 +6,21 @@ let
   manifest = (builtins.fromJSON (builtins.readFile ./repos.json)).repos;
   lockedRevisions = (builtins.fromJSON (builtins.readFile ./repos.json.lock)).repos;
 
-  repoSource = name: attr: 
+  repoSource = name: attr:
     let
       revision = lockedRevisions.${name};
     in if lib.hasPrefix "https://github.com" attr.url then
-		  fetchzip {
-				url = "${attr.url}/archive/${revision.rev}.zip";
+      fetchzip {
+        url = "${attr.url}/archive/${revision.rev}.zip";
         inherit (revision) sha256;
-			}
+      }
     else
       fetchgit {
         inherit (attr) url;
         inherit (revision) rev sha256;
       };
 
-  createRepo = (name: attr: callPackages (repoSource name attr) {});
-
+   createRepo = (name: attr: callPackages (repoSource name attr) {});
 in {
   repos = lib.mapAttrs createRepo manifest;
 }
