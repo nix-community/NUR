@@ -201,7 +201,7 @@ Examples for packages that could be in NUR:
 - Experiments
 
 
-## Why package sets instead of a overlays?
+## Why package sets instead of overlays?
 
 To make it easier to review nix expression NUR makes it obvious where the
 package is coming from.
