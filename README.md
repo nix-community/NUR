@@ -179,3 +179,38 @@ and open a pull request towards [https://github.com/nix-community/NUR](https://g
 
 At the moment repositories should be buildable on Nixpkgs unstable. Later we
 will add options to also provide branches for other Nixpkgs channels.
+
+## Contribution guideline
+
+- When adding packages to your repository make sure they build and set
+`meta.broken` attribute to false otherwise.
+- Supply meta attributes as described in the [Nixpkgs manual](https://nixos.org/nixpkgs/manual/#sec-standard-meta-attributes), so
+  packages can be found by users.
+- Keep your repositories slim - they are downloaded by users and our evaluator
+  and needs to be hashed.
+- Reuse packages from Nixpkgs when applicable, so the binary cache can be
+  leveraged
+
+Examples for packages that could be in NUR:
+
+- Packages that are only interesting for a small audience
+- Pre-releases
+- Old versions of packages that are no longer in Nixpkgs, but needed for legacy reason (i.e. old versions of GCC/LLVM)
+- Automatic generated package sets (i.e. generate packages sets from PyPi or CPAN)
+- Software with opinionated patches
+- Experiments
+
+
+## Why package sets instead of a overlays?
+
+To make it easier to review nix expression NUR makes it obvious where the
+package is coming from.
+If NUR would be an overlay malicious repositories could
+override existing packages.
+Also without coordination multiple overlays could easily introduce dependency
+cycles.
+
+## Roadmap
+
+- Implement a search to find packages
+- Add not just packages but also modules/functions
