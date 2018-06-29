@@ -3,6 +3,7 @@
 
 import json
 import shutil
+import re
 import sys
 from pathlib import Path
 from typing import List, Optional, Tuple
@@ -81,16 +82,22 @@ class Repo():
         self.type = RepoType.from_url(url)
 
 
-def prefetch_git(url: str) -> Tuple[str, Path]:
+def prefetch_git(url: str) -> Tuple[str, str, Path]:
     with tempfile.TemporaryDirectory() as tempdir:
-        result = Path(tempdir).joinpath("result")
         try:
-            data = subprocess.check_output(
-                ["nix-prefetch-git", "--out", result, url])
+            result = subprocess.run(
+                ["nix-prefetch-git", url],
+                check=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE)
         except subprocess.CalledProcessError as e:
             raise NurError(f"Failed to prefetch git repository {url}")
 
-        return json.loads(data)["sha256"], result.resolve()
+        metadata = json.loads(result.stdout)
+        lines = result.stderr.decode("utf-8").split("\n")
+        path = re.search("path is (.+)", lines[-5])
+        assert path is not None
+        return metadata["rev"], metadata["sha256"], path.group(1)
 
 
 def prefetch(name: str, url: ParseResult,
@@ -106,7 +113,7 @@ def prefetch(name: str, url: ParseResult,
                 return locked_repo, None
         sha256, path = gh_repo.prefetch(commit)
     else:
-        sha256, path = prefetch_git(url.geturl())
+        commit, sha256, path = prefetch_git(url.geturl())
 
     return Repo(name, url, commit, sha256), path
 
