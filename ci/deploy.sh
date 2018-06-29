@@ -2,19 +2,17 @@
 
 set -eux -o pipefail # Exit with nonzero exit code if anything fails
 
-# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
-if [[ "$TRAVIS_PULL_REQUEST" != "false" ]] || [[ "$TRAVIS_BRANCH" != master ]]; then
-    echo "Skipping deploy; just doing a build."
-    python ./nur/update.py
-    nix-build
-    exit 0
-fi
-
 python ./nur/update.py
 nix-build
 
+# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
+if [[ "$TRAVIS_EVENT_TYPE" != "cron" ]]; then
+  echo "Skipping deploy; just doing a build."
+  exit 0
+fi
+
 git config user.name "Travis CI"
-git config user.email "$COMMIT_AUTHOR_EMAIL"
+git config user.email "travis@travis.org"
 
 if [ -z "$(git diff --exit-code)" ]; then
   echo "No changes to the output on this push; exiting."
