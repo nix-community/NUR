@@ -14,7 +14,7 @@ fi
 
 unset encrypted_025d6e877aa4_key encrypted_025d6e877aa4_iv
 
-python ./nur/update.py
+./nur/update.py
 nix-build
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
