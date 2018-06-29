@@ -22,4 +22,4 @@ fi
 git add --all repos.json*
 
 git commit -m "automatic update"
-git push git@github.com:nix-community/NUR master
+git push git@github.com:nix-community/NUR HEAD:master
