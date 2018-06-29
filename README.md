@@ -4,13 +4,13 @@
 
 The Nix User Repository (NUR) is community-driven meta repository for nix packages
 It provides access to user repositories that contain package descriptions (nix
-expressions) and allow to install those by referencing them via attributes.
+expressions) and allow to install packages by referencing them via attributes.
 In contrast to [nixpkgs](https://github.com/NixOS/nixpkgs/) packages are build
 from source and are not reviewed by Nixpkgs member.
 The NUR was created to share new packages from the community in a faster and
 more decentralized way.
 NUR automatically check its list of repositories and perform evaluation checks
-before it propagated the update.
+before it propagated the updates.
 
 ## How to use
 
@@ -161,8 +161,18 @@ $ git clone https://github.com/nix-community/NUR
 }
 ```
 
-At moment each URL must point to a git repository. By running `nur/update.py`
-the corresponding `repos.json.lock` is updated and the result tested. This will
-perform also an evaluation check, which must be passed. Commit the changed
-`repos.json` but NOT `repos.json.lock` and open a pull request towards
-https://github.com/nix-community/NUR.
+At the moment each URL must point to a git repository. By running `nur/update.py`
+the corresponding `repos.json.lock` is updated and the repository is  tested. This will
+perform also an evaluation check, which must be passed for your repository. Commit the changed
+`repos.json` but NOT `repos.json.lock`
+
+```
+$ git add repo.json
+$ git commit -m "add <your-repo-name> repository"
+$ git push
+```
+
+and open a pull request towards [https://github.com/nix-community/NUR](https://github.com/nix-community/NUR).
+
+At the moment repositories should be buildable on nixpkgs unstable. Later we
+will add options to also provide branches for other nixpkgs channels.
