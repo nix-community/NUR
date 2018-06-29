@@ -1,14 +1,27 @@
 
 { pkgs ? import <nixpkgs> {} }:
 let
-  inherit (pkgs) fetchgit fetchFromGitHub callPackages;
+  inherit (pkgs) fetchgit fetchzip callPackages lib;
+
+  manifest = (builtins.fromJSON (builtins.readFile ./repos.json)).repos;
+  lockedRevisions = (builtins.fromJSON (builtins.readFile ./repos.json.lock)).repos;
+
+  repoSource = name: attr: 
+    let
+      revision = lockedRevisions.${name};
+    in if lib.hasPrefix "https://github.com" attr.url then
+		  fetchzip {
+				url = "${attr.url}/archive/${revision.rev}.zip";
+        inherit (revision) sha256;
+			}
+    else
+      fetchgit {
+        inherit (attr) url;
+        inherit (revision) rev sha256;
+      };
+
+  createRepo = (name: attr: callPackages (repoSource name attr) {});
+
 in {
-  repos = {
-    mic92 = callPackages (fetchFromGitHub {
-      owner = "Mic92";
-      repo = "nur-packages";
-      sha256 = "1sk41q80z6rzrnnzbpkj9jmr9qcsxvh92q7v1jl60f5ms4q0ipx2";
-      rev = "8d61d40bf8e17555e81eeabfa7e5d4ac6e01ac37";
-    }) {};
-  };
+  repos = lib.mapAttrs createRepo manifest;
 }

@@ -14,7 +14,6 @@ import tempfile
 from enum import Enum, auto
 from urllib.parse import urlparse, urljoin, ParseResult
 
-
 ROOT = Path(__file__).parent.parent
 LOCK_PATH = ROOT.joinpath("repos.json.lock")
 MANIFEST_PATH = ROOT.joinpath("repos.json")
@@ -81,22 +80,6 @@ class Repo():
         self.sha256 = sha256
         self.type = RepoType.from_url(url)
 
-    def nix_expression(self) -> str:
-        if self.type == RepoType.GITHUB:
-            parts = Path(self.url.path).parts
-            return f"""    {self.name} = callPackages (fetchFromGitHub {{
-      owner = "{parts[1]}";
-      repo = "{parts[2]}";
-      sha256 = "{self.sha256}";
-      rev = "{self.rev}";
-    }}) {{}};"""
-        else:
-            return f"""    {self.name} = callPackages (fetchgit {{
-      url = "{self.url}";
-      sha256 = "{self.sha256}";
-      rev = "{self.rev}";
-    }}) {{}};"""
-
 
 def prefetch_git(url: str) -> Tuple[str, Path]:
     with tempfile.TemporaryDirectory() as tempdir:
@@ -137,38 +120,22 @@ def update(name: str, url: ParseResult, locked_repo: Optional[Repo]) -> Repo:
 callPackages {path} {{}}
 """)
             f.flush()
-            res = subprocess.call([
-                "nix-env", "-f", f.name, "-qa", "*", "--meta", "--xml",
-                "--drv-path", "--show-trace"
-            ], stdout=subprocess.PIPE)
+            res = subprocess.call(
+                [
+                    "nix-env", "-f", f.name, "-qa", "*", "--meta", "--xml",
+                    "--drv-path", "--show-trace"
+                ],
+                stdout=subprocess.PIPE)
         if res != 0:
             raise NurError(f"{name} does not evaluate")
     return repo
 
 
-def generate_nix_expression(repos: List[Repo]) -> str:
-    expressions = []
-    for repo in repos:
-        expressions.append(repo.nix_expression())
-
-    joined = "\n\n".join(expressions)
-
-    return f"""
-{{ pkgs ? import <nixpkgs> {{}} }}:
-let
-  inherit (pkgs) fetchgit fetchFromGitHub callPackages;
-in {{
-  repos = {{
-{joined}
-  }};
-}}
-"""
-
-
 def update_lock_file(repos: List[Repo]):
     locked_repos = {}
     for repo in repos:
-        locked_repos[repo.url.geturl()] = dict(rev=repo.rev, sha256=repo.sha256)
+        locked_repos[repo.name] = dict(
+            rev=repo.rev, sha256=repo.sha256, url=repo.url.geturl())
 
     tmp_file = str(LOCK_PATH) + "-new"
     with open(tmp_file, "w") as lock_file:
@@ -191,7 +158,9 @@ def main() -> None:
 
     for name, repo in manifest["repos"].items():
         url = urlparse(repo["url"])
-        repo_json = lock_manifest["repos"].get(url.geturl(), None)
+        repo_json = lock_manifest["repos"].get(name, None)
+        if repo_json and repo_json["url"] != url.geturl():
+            repo_json = None
         locked_repo = None
         if repo_json is not None:
             locked_repo = Repo(
@@ -208,14 +177,7 @@ def main() -> None:
             if locked_repo:
                 repos.append(locked_repo)
 
-    default_nix_temp = str(MANIFEST_PATH) + "-new"
-    with open(default_nix_temp, "w") as f:
-        f.write(generate_nix_expression(repos))
-
-    shutil.move(default_nix_temp, ROOT.joinpath("default.nix"))
-
     update_lock_file(repos)
-
 
 
 if __name__ == "__main__":
