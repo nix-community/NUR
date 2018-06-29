@@ -1,10 +1,5 @@
 language: nix
 before_install:
-  - openssl aes-256-cbc -K $encrypted_025d6e877aa4_key -iv $encrypted_025d6e877aa4_iv -in ci/deploy_key.enc -out deploy_key -d
-  - chmod 600 deploy_key
-  - eval "$(ssh-agent -s)"
-  - ssh-add deploy_key
-  - rm deploy_key
   - source ~/virtualenv/python3.6/bin/activate
 script:
   - bash ci/deploy.sh
