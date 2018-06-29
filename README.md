@@ -2,13 +2,15 @@
 
 [![Build Status](https://travis-ci.com/nix-community/NUR.svg?branch=master)](https://travis-ci.com/nix-community/NUR)
 
-The Nix User Repository (NUR) is community-driven meta repository for nix packages
-It provides access to user repositories that contain package descriptions (nix
-expressions) and allow to install packages by referencing them via attributes.
-In contrast to [nixpkgs](https://github.com/NixOS/nixpkgs/) packages are build
-from source and are not reviewed by Nixpkgs member.
+The Nix User Repository (NUR) is community-driven meta repository for Nix packages.
+It provides access to user repositories that contain package descriptions (Nix
+expressions) and allows you to install packages by referencing them via attributes.
+In contrast to [Nixpkgs](https://github.com/NixOS/nixpkgs/), packages are built
+from source and **are not reviewed by any Nixpkgs member**.
+
 The NUR was created to share new packages from the community in a faster and
 more decentralized way.
+
 NUR automatically check its list of repositories and perform evaluation checks
 before it propagated the updates.
 
@@ -40,7 +42,7 @@ For NixOS add the following to your `/etc/nixos/configuration.nix`:
 }
 ```
 
-Then packages can be used or installed from the nur namespace.
+Then packages can be used or installed from the NUR namespace.
 
 ```console
 $ nix-shell -p nur.repos.mic92.inxi
@@ -67,8 +69,9 @@ environment.systemPackages = [
 
 Each contributor can register their repository under a name and is responsible
 for its content.
-NUR does not check repository for malicious content on a regular base and it is
-recommend to check expression before installing them.
+
+***NUR does not check repository for malicious content on a regular base and it is
+recommend to check expression before installing them.***
 
 
 ## How to add your own repository.
@@ -76,8 +79,8 @@ recommend to check expression before installing them.
 First create a repository that contains a `default.nix` in its top-level directory.
 
 DO NOT import packages for example `with import <nixpkgs> {};`.
-Instead take all dependency you want to import from nixpkgs by function arguments.
-Each repository should return a set of nix derivations:
+Instead take all dependency you want to import from Nixpkgs by function arguments.
+Each repository should return a set of Nix derivations:
 
 ```nix
 { callPackage }:
@@ -174,5 +177,5 @@ $ git push
 
 and open a pull request towards [https://github.com/nix-community/NUR](https://github.com/nix-community/NUR).
 
-At the moment repositories should be buildable on nixpkgs unstable. Later we
-will add options to also provide branches for other nixpkgs channels.
+At the moment repositories should be buildable on Nixpkgs unstable. Later we
+will add options to also provide branches for other Nixpkgs channels.
