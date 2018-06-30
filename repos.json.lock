@@ -1,9 +1,19 @@
 {
     "repos": {
+        "dywedir": {
+            "rev": "6cba6cf520185c508d5f1a4445feb849f4d2a49e",
+            "sha256": "1kqvvprnvcnf6r482y9pyl0kd957kl129fx46v4vgvnql9a8rh19",
+            "url": "https://github.com/dywedir/nur-packages"
+        },
         "mic92": {
             "rev": "f16345720229519cc9e72167c187806829fd8fc5",
             "sha256": "0birygrcrivzdah0y0bshphrrwsrk0bbba2yz6d2yqms193vbb0k",
             "url": "https://github.com/Mic92/nur-packages"
+        },
+        "eeva": {
+            "rev": "1702147af6ec29a955b59c58da07a018c588e11d",
+            "sha256": "013dzdc1zwqpcsnsgx9b7qzzkha1rhwaq6jvaf3dq19jkwgddxl2",
+            "url": "https://framagit.org/eeva/nur-packages"
         }
     }
 }
