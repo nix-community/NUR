@@ -20,7 +20,9 @@ let
         inherit (revision) rev sha256;
       };
 
-   createRepo = (name: attr: callPackages (repoSource name attr) {});
+   expressionPath = name: attr: (repoSource name attr) + "/" + (attr.file or "");
+
+   createRepo = (name: attr: callPackages (expressionPath name attr) {});
 in {
   repos = lib.mapAttrs createRepo manifest;
 }
