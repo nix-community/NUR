@@ -197,6 +197,21 @@ option to a path relative to the repository root:
 }
 ```
 
+## Git submodules
+
+To fetch git submodules in repositories set `submodules`:
+
+```json
+{
+    "repos": {
+        "mic92": {
+            "url": "https://github.com/Mic92/nur-packages",
+            "submodules": true
+        }
+    }
+}
+```
+
 ## Conventions for NixOS modules, overlays and library functions
 
 To make NixOS modules, overlays and library functions more discoverable,

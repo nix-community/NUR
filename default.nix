@@ -9,7 +9,8 @@ let
   repoSource = name: attr:
     let
       revision = lockedRevisions.${name};
-    in if lib.hasPrefix "https://github.com" attr.url then
+      submodules = attr.submodules or false;
+    in if lib.hasPrefix "https://github.com" attr.url && !submodules then
       fetchzip {
         url = "${attr.url}/archive/${revision.rev}.zip";
         inherit (revision) sha256;
@@ -18,6 +19,7 @@ let
       fetchgit {
         inherit (attr) url;
         inherit (revision) rev sha256;
+        fetchSubmodules = submodules;
       };
 
    expressionPath = name: attr: (repoSource name attr) + "/" + (attr.file or "");
