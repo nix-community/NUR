@@ -197,6 +197,80 @@ option to a path relative to the repository root:
 }
 ```
 
+## Conventions for NixOS modules, overlays and library functions
+
+To make NixOS modules, overlays and library functions more discoverable,
+we propose to put them in their own namespace within the repository.
+This allows us to make them later searchable, when the indexer is ready.
+
+Put all NixOS modules in the `modules` attribute of your repository:
+
+```nix
+# default.nix
+modules = ./import modules;
+```
+
+```nix
+# modules/default.nix
+{
+  example-module = ./import example-module.nix;
+}
+```
+
+An example can be found [here](https://github.com/Mic92/nur-packages/tree/master/modules).
+
+The resulting module can be then added to `imports = [];` within `configuration.nix`:
+
+```nix
+# /etc/nixos/configuration.nix
+{...}: {
+  imports = [ nur.repos.mic92.modules.transocks ];
+}
+```
+
+For overlays use the `overlays` attribute:
+
+```nix
+# default.nix
+overlays = {
+  hello-overlay = ./import hello-overlay;
+};
+```
+
+```nix
+# hello-overlay/default.nix
+self: super: {
+  hello = super.hello.overrideAttrs (old: {
+    separateDebugInfo = true;
+  });
+}
+```
+
+The result can be used like this:
+
+```nix
+nixpkgs = import <nixpkgs> {
+  overlays = [
+    nixpkgs.nur.repos.mpickering.overlays.haskell-plugins
+  ];
+};
+```
+
+Put reusable nix functions that are intend for public use in the `lib` attribute:
+
+```nix
+{ lib }:
+with lib;
+{
+  lib = {
+    hexint = x: hexvals.${toLower x};
+
+    hexvals = listToAttrs (imap (i: c: { name = c; value = i - 1; })
+      (stringToCharacters "0123456789abcdef"));
+  };
+}
+```
+
 ## Contribution guideline
 
 - When adding packages to your repository make sure they build and set
@@ -230,4 +304,3 @@ cycles.
 ## Roadmap
 
 - Implement a search to find packages
-- Add not just packages but also modules/functions
