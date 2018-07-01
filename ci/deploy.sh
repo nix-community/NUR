@@ -14,6 +14,14 @@ fi
 
 export encrypted_025d6e877aa4_key= encrypted_025d6e877aa4_iv=
 
+./nur/format_repos_manifest
+if [ -n "$(git diff --exit-code repos.json)" ]; then
+  echo "repos.json was not formatted before committing repos.json:" >&2
+  git diff --exit-code repos.json
+  echo "Please run ./nur/format_repos_manifest and updates repos.json accordingly!" >&2
+  exit 1
+fi
+
 ./nur/update.py
 nix-build
 

@@ -1,0 +1,21 @@
+#!/usr/bin/env nix-shell
+#!nix-shell -p python3 -i python3
+
+import json
+import shutil
+from pathlib import Path
+
+ROOT = Path(__file__).parent.parent
+
+
+def main() -> None:
+    path = ROOT.joinpath("repos.json")
+    manifest = json.load(open(path))
+    tmp_path = str(path) + ".tmp"
+    with open(tmp_path, "w+") as tmp:
+        json.dump(manifest, tmp, indent=4, sort_keys=True)
+    shutil.move(tmp_path, path)
+
+
+if __name__ == "__main__":
+    main()

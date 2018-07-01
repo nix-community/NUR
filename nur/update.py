@@ -148,7 +148,7 @@ def update_lock_file(repos: List[Repo]):
 
     tmp_file = str(LOCK_PATH) + "-new"
     with open(tmp_file, "w") as lock_file:
-        json.dump(dict(repos=locked_repos), lock_file, indent=4)
+        json.dump(dict(repos=locked_repos), lock_file, indent=4, sort_keys=True)
 
     shutil.move(tmp_file, LOCK_PATH)
 
