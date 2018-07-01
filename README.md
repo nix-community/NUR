@@ -170,7 +170,8 @@ perform also an evaluation check, which must be passed for your repository. Comm
 `repos.json` but NOT `repos.json.lock`
 
 ```
-$ git add repo.json
+$ git add repos.json
+$ ./nur/format_repos_manifest # ensure repos.json is sorted alphabetically
 $ git commit -m "add <your-repo-name> repository"
 $ git push
 ```
