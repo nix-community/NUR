@@ -207,7 +207,9 @@ Put all NixOS modules in the `modules` attribute of your repository:
 
 ```nix
 # default.nix
-modules = ./import modules;
+{
+  modules = ./import modules;
+}
 ```
 
 ```nix
@@ -232,9 +234,11 @@ For overlays use the `overlays` attribute:
 
 ```nix
 # default.nix
-overlays = {
-  hello-overlay = ./import hello-overlay;
-};
+{
+  overlays = {
+    hello-overlay = ./import hello-overlay;
+  };
+}
 ```
 
 ```nix
@@ -249,11 +253,13 @@ self: super: {
 The result can be used like this:
 
 ```nix
-nixpkgs = import <nixpkgs> {
-  overlays = [
-    nixpkgs.nur.repos.mpickering.overlays.haskell-plugins
-  ];
-};
+{
+  nixpkgs = import <nixpkgs> {
+    overlays = [
+      nixpkgs.nur.repos.mpickering.overlays.haskell-plugins
+    ];
+  };
+}
 ```
 
 Put reusable nix functions that are intend for public use in the `lib` attribute:
