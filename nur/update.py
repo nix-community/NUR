@@ -51,13 +51,13 @@ class GithubRepo():
                     f"Repository {self.owner}/{self.name} not found")
             raise
 
-    def prefetch(self, ref: str) -> Tuple[str, Path]:
+    def prefetch(self, ref: str, nix_file: str) -> Tuple[str, Path]:
         data = subprocess.check_output([
             "nix-prefetch-url", "--unpack", "--print-path",
             self.url(f"archive/{ref}.tar.gz")
         ])
         sha256, path = data.decode().strip().split("\n")
-        return sha256, Path(path)
+        return sha256, Path(path).joinpath(nix_file)
 
 
 class RepoType(Enum):
@@ -82,7 +82,7 @@ class Repo():
         self.type = RepoType.from_url(url)
 
 
-def prefetch_git(url: str) -> Tuple[str, str, Path]:
+def prefetch_git(url: str, nix_file: str) -> Tuple[str, str, Path]:
     with tempfile.TemporaryDirectory() as tempdir:
         try:
             result = subprocess.run(
@@ -95,12 +95,13 @@ def prefetch_git(url: str) -> Tuple[str, str, Path]:
 
         metadata = json.loads(result.stdout)
         lines = result.stderr.decode("utf-8").split("\n")
-        path = re.search("path is (.+)", lines[-5])
-        assert path is not None
-        return metadata["rev"], metadata["sha256"], path.group(1)
+        repo_path = re.search("path is (.+)", lines[-5])
+        assert repo_path is not None
+        path = Path(repo_path.group(1)).joinpath(nix_file)
+        return metadata["rev"], metadata["sha256"], path
 
 
-def prefetch(name: str, url: ParseResult,
+def prefetch(name: str, url: ParseResult, nix_file: str,
              locked_repo: Optional[Repo]) -> Tuple[Repo, Optional[Path]]:
 
     repo_type = RepoType.from_url(url)
@@ -111,15 +112,16 @@ def prefetch(name: str, url: ParseResult,
         if locked_repo is not None:
             if locked_repo.rev == commit:
                 return locked_repo, None
-        sha256, path = gh_repo.prefetch(commit)
+        sha256, path = gh_repo.prefetch(commit, nix_file)
     else:
-        commit, sha256, path = prefetch_git(url.geturl())
+        commit, sha256, path = prefetch_git(url.geturl(), nix_file)
 
     return Repo(name, url, commit, sha256), path
 
 
-def update(name: str, url: ParseResult, locked_repo: Optional[Repo]) -> Repo:
-    repo, path = prefetch(name, url, locked_repo)
+def update(name: str, url: ParseResult, nix_file: str,
+           locked_repo: Optional[Repo]) -> Repo:
+    repo, path = prefetch(name, url, nix_file, locked_repo)
     if path:
         with tempfile.NamedTemporaryFile(mode="w") as f:
             f.write(f"""
@@ -165,6 +167,7 @@ def main() -> None:
 
     for name, repo in manifest["repos"].items():
         url = urlparse(repo["url"])
+        nix_file = repo.get("file", "default.nix")
         repo_json = lock_manifest["repos"].get(name, None)
         if repo_json and repo_json["url"] != url.geturl():
             repo_json = None
@@ -178,7 +181,7 @@ def main() -> None:
             )
 
         try:
-            repos.append(update(name, url, locked_repo))
+            repos.append(update(name, url, nix_file, locked_repo))
         except NurError as e:
             print(f"failed to update repository {name}: {e}", file=sys.stderr)
             if locked_repo:

@@ -180,6 +180,22 @@ and open a pull request towards [https://github.com/nix-community/NUR](https://g
 At the moment repositories should be buildable on Nixpkgs unstable. Later we
 will add options to also provide branches for other Nixpkgs channels.
 
+## Use a different nix file as root expression
+
+To use a different file instead of `default.nix` to load packages from, set the `file`
+option to a path relative to the repository root:
+
+```json
+{
+    "repos": {
+        "mic92": {
+            "url": "https://github.com/Mic92/nur-packages",
+            "file": "subdirectory/default.nix"
+        }
+    }
+}
+```
+
 ## Contribution guideline
 
 - When adding packages to your repository make sure they build and set
