@@ -314,3 +314,4 @@ cycles.
 ## Roadmap
 
 - Implement a search to find packages
+- Figure out how make it working for NixOS modules
