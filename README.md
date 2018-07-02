@@ -197,6 +197,9 @@ option to a path relative to the repository root:
 }
 ```
 
+<!--
+This currently does not work as advertised at least for modules
+
 ## Conventions for NixOS modules, overlays and library functions
 
 To make NixOS modules, overlays and library functions more discoverable,
@@ -276,6 +279,7 @@ with lib;
   };
 }
 ```
+-->
 
 ## Contribution guideline
 
