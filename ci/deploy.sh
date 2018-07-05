@@ -14,6 +14,9 @@ fi
 
 export encrypted_025d6e877aa4_key= encrypted_025d6e877aa4_iv=
 
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
+nix-channel --update
+
 ./nur/format_repos_manifest
 if [ -n "$(git diff --exit-code repos.json)" ]; then
   echo "repos.json was not formatted before committing repos.json:" >&2
