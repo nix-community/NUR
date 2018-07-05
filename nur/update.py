@@ -120,7 +120,7 @@ def prefetch(name: str, url: ParseResult,
 
 
 def nixpkgs_path() -> str:
-    cmd = ["nix", "eval", "(<nixpkgs>)"]
+    cmd = ["nix-instantiate", "--find-file", "nixpkgs"]
     return subprocess.check_output(cmd).decode("utf-8").strip()
 
 
