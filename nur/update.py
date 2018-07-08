@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -p python37 -p nix-prefetch-git -p nix -i python3.7
+#!nix-shell -p python3 -p nix-prefetch-git -p nix -i python3
 
 import json
 import shutil
@@ -13,7 +13,7 @@ import urllib.request
 import urllib.error
 import subprocess
 import tempfile
-from dataclasses import dataclass, field, InitVar
+#from dataclasses import dataclass, field, InitVar
 from enum import Enum, auto
 from urllib.parse import urlparse, urljoin, ParseResult
 
@@ -28,10 +28,13 @@ class NurError(Exception):
     pass
 
 
-@dataclass
+#@dataclass
 class GithubRepo():
-    owner: str
-    name: str
+    def __init__(self, owner: str, name: str) -> None:
+        self.owner = owner
+        self.name = name
+    #owner: str
+    #name: str
 
     def url(self, path: str) -> str:
         return urljoin(f"https://github.com/{self.owner}/{self.name}/", path)
@@ -76,16 +79,20 @@ class RepoType(Enum):
             return RepoType.GIT
 
 
-@dataclass
+#@dataclass
 class Repo():
-    spec: InitVar['RepoSpec']
-    rev: str
-    sha256: str
+    def __init__(self, spec: 'RepoSpec', rev: str, sha256: str) -> None:
+        self.__post_init__(spec)
+        self.rev = rev
+        self.sha256 = sha256
+    #spec: InitVar['RepoSpec']
+    #rev: str
+    #sha256: str
 
-    name: str = field(init=False)
-    url: Url = field(init=False)
-    type: RepoType = field(init=False)
-    submodules: bool = field(init=False)
+    #name: str = field(init=False)
+    #url: Url = field(init=False)
+    ##type: RepoType = field(init=False)
+    #submodules: bool = field(init=False)
 
     def __post_init__(self, spec: 'RepoSpec'):
         self.name = spec.name
@@ -94,12 +101,17 @@ class Repo():
         self.type = RepoType.from_spec(spec)
 
 
-@dataclass
+#@dataclass
 class RepoSpec():
-    name: str
-    url: Url
-    nix_file: str
-    submodules: bool
+    def __init__(self, name: str, url: Url, nix_file: str, submodules: bool) -> None:
+        self.name = name
+        self.url = url
+        self.nix_file = nix_file
+        self.submodules = submodules
+    #name: str
+    #url: Url
+    #nix_file: str
+    #submodules: bool
 
 
 def prefetch_git(spec: RepoSpec) -> Tuple[str, str, Path]:
