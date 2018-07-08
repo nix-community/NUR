@@ -33,6 +33,7 @@ class GithubRepo():
     def __init__(self, owner: str, name: str) -> None:
         self.owner = owner
         self.name = name
+
     #owner: str
     #name: str
 
@@ -85,6 +86,7 @@ class Repo():
         self.__post_init__(spec)
         self.rev = rev
         self.sha256 = sha256
+
     #spec: InitVar['RepoSpec']
     #rev: str
     #sha256: str
@@ -103,11 +105,13 @@ class Repo():
 
 #@dataclass
 class RepoSpec():
-    def __init__(self, name: str, url: Url, nix_file: str, submodules: bool) -> None:
+    def __init__(self, name: str, url: Url, nix_file: str,
+                 submodules: bool) -> None:
         self.name = name
         self.url = url
         self.nix_file = nix_file
         self.submodules = submodules
+
     #name: str
     #url: Url
     #nix_file: str
@@ -123,7 +127,8 @@ def prefetch_git(spec: RepoSpec) -> Tuple[str, str, Path]:
     result = subprocess.run(
         cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode != 0:
-        raise NurError(f"Failed to prefetch git repository {url}: {result.stderr}")
+        raise NurError(
+            f"Failed to prefetch git repository {url}: {result.stderr}")
 
     metadata = json.loads(result.stdout)
     lines = result.stderr.decode("utf-8").split("\n")
@@ -154,7 +159,8 @@ def prefetch(spec: RepoSpec,
 
 def nixpkgs_path() -> str:
     cmd = ["nix-instantiate", "--find-file", "nixpkgs"]
-    return subprocess.check_output(cmd).decode("utf-8").strip()
+    path = subprocess.check_output(cmd).decode("utf-8").strip()
+    return str(Path(path).resolve())
 
 
 def eval_repo(spec: RepoSpec, repo_path: Path) -> None:
@@ -165,23 +171,24 @@ def eval_repo(spec: RepoSpec, repo_path: Path) -> None:
                     with import <nixpkgs> {{}};
 callPackages {repo_path.joinpath(spec.nix_file)} {{}}
 """)
-        nix_path = [
-            f"nixpkgs={nixpkgs_path()}",
-            str(repo_path),
-            str(eval_path),
-        ]
-
-        env = dict(
-            NIX_PATH=":".join(nix_path),
-            PATH=os.environ["PATH"],
-        )
 
         cmd = [
-            "nix-env", "-f",
-            str(eval_path), "-qa", "*", "--meta", "--xml", "--option",
-            "restrict-eval", "true", "--drv-path", "--show-trace"
+            "nix-env",
+            "-f", str(eval_path),
+            "-qa", "*",
+            "--meta",
+            "--xml",
+            "--option", "restrict-eval", "true",
+            "--drv-path",
+            "--show-trace",
+            "-I", f"nixpkgs={nixpkgs_path()}",
+            "-I", str(repo_path),
+            "-I", str(eval_path),
         ]
-        proc = subprocess.Popen(cmd, env=env, stdout=subprocess.PIPE)
+
+        print(f"$ {' '.join(cmd)}")
+        proc = subprocess.Popen(
+            cmd, env=dict(PATH=os.environ["PATH"]), stdout=subprocess.PIPE)
         res = proc.wait()
         if res != 0:
             raise NurError(
