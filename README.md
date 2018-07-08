@@ -196,6 +196,20 @@ option to a path relative to the repository root:
     }
 }
 ```
+## Git submodules
+
+To fetch git submodules in repositories set `submodules`:
+
+```json
+{
+    "repos": {
+        "mic92": {
+            "url": "https://github.com/Mic92/nur-packages",
+            "submodules": true
+        }
+    }
+}
+```
 
 <!--
 This currently does not work as advertised at least for modules

@@ -7,12 +7,13 @@ import re
 import sys
 import os
 from pathlib import Path
-from typing import List, Optional, Tuple
+from typing import List, Optional, Tuple, Dict, Any
 import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.error
 import subprocess
 import tempfile
+#from dataclasses import dataclass, field, InitVar
 from enum import Enum, auto
 from urllib.parse import urlparse, urljoin, ParseResult
 
@@ -20,15 +21,20 @@ ROOT = Path(__file__).parent.parent
 LOCK_PATH = ROOT.joinpath("repos.json.lock")
 MANIFEST_PATH = ROOT.joinpath("repos.json")
 
+Url = ParseResult
+
 
 class NurError(Exception):
     pass
 
 
+#@dataclass
 class GithubRepo():
     def __init__(self, owner: str, name: str) -> None:
         self.owner = owner
         self.name = name
+    #owner: str
+    #name: str
 
     def url(self, path: str) -> str:
         return urljoin(f"https://github.com/{self.owner}/{self.name}/", path)
@@ -66,32 +72,58 @@ class RepoType(Enum):
     GIT = auto()
 
     @staticmethod
-    def from_url(url: ParseResult) -> 'RepoType':
-        if url.hostname == "github.com":
+    def from_spec(spec: 'RepoSpec') -> 'RepoType':
+        if spec.url.hostname == "github.com" and not spec.submodules:
             return RepoType.GITHUB
         else:
             return RepoType.GIT
 
 
+#@dataclass
 class Repo():
-    def __init__(self, name: str, url: ParseResult, rev: str,
-                 sha256: str) -> None:
-        self.name = name
-        self.url = url
+    def __init__(self, spec: 'RepoSpec', rev: str, sha256: str) -> None:
+        self.__post_init__(spec)
         self.rev = rev
         self.sha256 = sha256
-        self.type = RepoType.from_url(url)
+    #spec: InitVar['RepoSpec']
+    #rev: str
+    #sha256: str
+
+    #name: str = field(init=False)
+    #url: Url = field(init=False)
+    ##type: RepoType = field(init=False)
+    #submodules: bool = field(init=False)
+
+    def __post_init__(self, spec: 'RepoSpec'):
+        self.name = spec.name
+        self.url = spec.url
+        self.submodules = spec.submodules
+        self.type = RepoType.from_spec(spec)
 
 
-def prefetch_git(url: str) -> Tuple[str, str, Path]:
-    try:
-        result = subprocess.run(
-            ["nix-prefetch-git", url],
-            check=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE)
-    except subprocess.CalledProcessError as e:
-        raise NurError(f"Failed to prefetch git repository {url}")
+#@dataclass
+class RepoSpec():
+    def __init__(self, name: str, url: Url, nix_file: str, submodules: bool) -> None:
+        self.name = name
+        self.url = url
+        self.nix_file = nix_file
+        self.submodules = submodules
+    #name: str
+    #url: Url
+    #nix_file: str
+    #submodules: bool
+
+
+def prefetch_git(spec: RepoSpec) -> Tuple[str, str, Path]:
+    url = spec.url.geturl()
+    cmd = ["nix-prefetch-git"]
+    if spec.submodules:
+        cmd += ["--fetch-submodules"]
+    cmd += [url]
+    result = subprocess.run(
+        cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if result.returncode != 0:
+        raise NurError(f"Failed to prefetch git repository {url}: {result.stderr}")
 
     metadata = json.loads(result.stdout)
     lines = result.stderr.decode("utf-8").split("\n")
@@ -101,22 +133,23 @@ def prefetch_git(url: str) -> Tuple[str, str, Path]:
     return metadata["rev"], metadata["sha256"], path
 
 
-def prefetch(name: str, url: ParseResult,
+def prefetch(spec: RepoSpec,
              locked_repo: Optional[Repo]) -> Tuple[Repo, Optional[Path]]:
 
-    repo_type = RepoType.from_url(url)
+    repo_type = RepoType.from_spec(spec)
     if repo_type == RepoType.GITHUB:
-        github_path = Path(url.path)
+        github_path = Path(spec.url.path)
         gh_repo = GithubRepo(github_path.parts[1], github_path.parts[2])
         commit = gh_repo.latest_commit()
         if locked_repo is not None:
-            if locked_repo.rev == commit:
+            if locked_repo.rev == commit and \
+                    locked_repo.submodules == spec.submodules:
                 return locked_repo, None
         sha256, path = gh_repo.prefetch(commit)
     else:
-        commit, sha256, path = prefetch_git(url.geturl())
+        commit, sha256, path = prefetch_git(spec)
 
-    return Repo(name, url, commit, sha256), path
+    return Repo(spec, commit, sha256), path
 
 
 def nixpkgs_path() -> str:
@@ -124,13 +157,13 @@ def nixpkgs_path() -> str:
     return subprocess.check_output(cmd).decode("utf-8").strip()
 
 
-def eval_repo(name: str, repo_path: Path, nix_file: str) -> None:
+def eval_repo(spec: RepoSpec, repo_path: Path) -> None:
     with tempfile.TemporaryDirectory() as d:
         eval_path = Path(d).joinpath("default.nix")
         with open(eval_path, "w") as f:
             f.write(f"""
                     with import <nixpkgs> {{}};
-callPackages {repo_path.joinpath(nix_file)} {{}}
+callPackages {repo_path.joinpath(spec.nix_file)} {{}}
 """)
         nix_path = [
             f"nixpkgs={nixpkgs_path()}",
@@ -151,23 +184,26 @@ callPackages {repo_path.joinpath(nix_file)} {{}}
         proc = subprocess.Popen(cmd, env=env, stdout=subprocess.PIPE)
         res = proc.wait()
         if res != 0:
-            raise NurError(f"{name} does not evaluate:\n$ {' '.join(cmd)}")
+            raise NurError(
+                f"{spec.name} does not evaluate:\n$ {' '.join(cmd)}")
 
 
-def update(name: str, url: ParseResult, nix_file: str,
-           locked_repo: Optional[Repo]) -> Repo:
-    repo, repo_path = prefetch(name, url, locked_repo)
+def update(spec: RepoSpec, locked_repo: Optional[Repo]) -> Repo:
+    repo, repo_path = prefetch(spec, locked_repo)
 
     if repo_path:
-        eval_repo(name, repo_path, nix_file)
+        eval_repo(spec, repo_path)
     return repo
 
 
 def update_lock_file(repos: List[Repo]):
     locked_repos = {}
     for repo in repos:
-        locked_repos[repo.name] = dict(
+        locked_repo: Dict[str, Any] = dict(
             rev=repo.rev, sha256=repo.sha256, url=repo.url.geturl())
+        if repo.submodules:
+            locked_repo["submodules"] = True
+        locked_repos[repo.name] = locked_repo
 
     tmp_file = str(LOCK_PATH) + "-new"
     with open(tmp_file, "w") as lock_file:
@@ -191,21 +227,17 @@ def main() -> None:
 
     for name, repo in manifest["repos"].items():
         url = urlparse(repo["url"])
-        nix_file = repo.get("file", "default.nix")
         repo_json = lock_manifest["repos"].get(name, None)
+        spec = RepoSpec(name, url, repo.get("file", "default.nix"),
+                        repo.get("submodules", False))
         if repo_json and repo_json["url"] != url.geturl():
             repo_json = None
         locked_repo = None
         if repo_json is not None:
-            locked_repo = Repo(
-                name=name,
-                url=url,
-                rev=repo_json["rev"],
-                sha256=repo_json["sha256"],
-            )
+            locked_repo = Repo(spec, repo_json["rev"], repo_json["sha256"])
 
         try:
-            repos.append(update(name, url, nix_file, locked_repo))
+            repos.append(update(spec, locked_repo))
         except NurError as e:
             print(f"failed to update repository {name}: {e}", file=sys.stderr)
             if locked_repo:
