@@ -153,7 +153,7 @@ def prefetch(spec: RepoSpec,
 
 
 def nixpkgs_path() -> str:
-    cmd = ["nix-instantiate", "--find-file", "nixpkgs"]
+    cmd = ["nix", "eval", "(<nixpkgs>)"]
     return subprocess.check_output(cmd).decode("utf-8").strip()
 
 
