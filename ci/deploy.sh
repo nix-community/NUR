@@ -15,6 +15,7 @@ fi
 export encrypted_025d6e877aa4_key= encrypted_025d6e877aa4_iv=
 
 nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
+nix-channel --list
 nix-channel --update
 
 ./nur/format_repos_manifest
