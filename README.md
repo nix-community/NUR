@@ -196,7 +196,6 @@ option to a path relative to the repository root:
     }
 }
 ```
-
 ## Git submodules
 
 To fetch git submodules in repositories set `submodules`:
@@ -212,6 +211,9 @@ To fetch git submodules in repositories set `submodules`:
 }
 ```
 
+<!--
+This currently does not work as advertised at least for modules
+
 ## Conventions for NixOS modules, overlays and library functions
 
 To make NixOS modules, overlays and library functions more discoverable,
@@ -222,7 +224,9 @@ Put all NixOS modules in the `modules` attribute of your repository:
 
 ```nix
 # default.nix
-modules = ./import modules;
+{
+  modules = ./import modules;
+}
 ```
 
 ```nix
@@ -247,9 +251,11 @@ For overlays use the `overlays` attribute:
 
 ```nix
 # default.nix
-overlays = {
-  hello-overlay = ./import hello-overlay;
-};
+{
+  overlays = {
+    hello-overlay = ./import hello-overlay;
+  };
+}
 ```
 
 ```nix
@@ -264,11 +270,13 @@ self: super: {
 The result can be used like this:
 
 ```nix
-nixpkgs = import <nixpkgs> {
-  overlays = [
-    nixpkgs.nur.repos.mpickering.overlays.haskell-plugins
-  ];
-};
+{
+  nixpkgs = import <nixpkgs> {
+    overlays = [
+      nixpkgs.nur.repos.mpickering.overlays.haskell-plugins
+    ];
+  };
+}
 ```
 
 Put reusable nix functions that are intend for public use in the `lib` attribute:
@@ -285,6 +293,7 @@ with lib;
   };
 }
 ```
+-->
 
 ## Contribution guideline
 
@@ -319,3 +328,4 @@ cycles.
 ## Roadmap
 
 - Implement a search to find packages
+- Figure out how make it working for NixOS modules
