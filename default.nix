@@ -1,7 +1,9 @@
+{ nurpkgs ? import <nixpkgs> {} # For nixpkgs dependencies used by NUR itself
+  # Dependencies to call NUR repos with
+, pkgs ? null }:
 
-{ pkgs ? import <nixpkgs> {} }:
 let
-  inherit (pkgs) fetchgit fetchzip callPackages lib;
+  inherit (nurpkgs) fetchgit fetchzip lib;
 
   manifest = (builtins.fromJSON (builtins.readFile ./repos.json)).repos;
   lockedRevisions = (builtins.fromJSON (builtins.readFile ./repos.json.lock)).repos;
@@ -40,9 +42,12 @@ let
         fetchSubmodules = submodules;
       };
 
-   expressionPath = name: attr: (repoSource name attr) + "/" + (attr.file or "");
+   createRepo = name: attr: import ./lib/evalRepo.nix {
+     inherit name pkgs lib;
+     inherit (attr) url;
+     src = repoSource name attr + "/" + (attr.file or "");
+   };
 
-   createRepo = (name: attr: callPackages (expressionPath name attr) {});
 in {
   repos =  lib.mapAttrs createRepo manifest;
   repo-sources = lib.mapAttrs repoSource manifest;
