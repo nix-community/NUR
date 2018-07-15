@@ -196,6 +196,20 @@ option to a path relative to the repository root:
     }
 }
 ```
+
+## Update NUR's lock file after updating your repository
+
+By default we only check for repository updates once a day with an automatic
+cron job in travis ci to update our lock file `repos.json.lock`.
+To update NUR faster, you can use our service at https://nur-update.herokuapp.com/
+after you have pushed an update to your repository, e.g.:
+
+```console
+curl -XPOST https://nur-update.herokuapp.com/update?repo=mic92
+```
+
+Check out the [github page](https://github.com/nix-community/nur-update#nur-update-endpoint) for further details
+
 ## Git submodules
 
 To fetch git submodules in repositories set `submodules`:
