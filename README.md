@@ -164,14 +164,14 @@ $ git clone https://github.com/nix-community/NUR
 }
 ```
 
-At the moment each URL must point to a git repository. By running `nur/update.py`
+At the moment each URL must point to a git repository. By running `nur/update`
 the corresponding `repos.json.lock` is updated and the repository is  tested. This will
 perform also an evaluation check, which must be passed for your repository. Commit the changed
 `repos.json` but NOT `repos.json.lock`
 
 ```
 $ git add repos.json
-$ ./nur/format_repos_manifest # ensure repos.json is sorted alphabetically
+$ ./nur/format_manifest # ensure repos.json is sorted alphabetically
 $ git commit -m "add <your-repo-name> repository"
 $ git push
 ```
