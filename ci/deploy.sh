@@ -2,7 +2,7 @@
 
 set -eux -o pipefail # Exit with nonzero exit code if anything fails
 
-if [[ "$TRAVIS_EVENT_TYPE" != "cron" ]] && [[ "$TRAVIS_EVENT_TYPE" != "api" ]]; then
+if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]; then
   openssl aes-256-cbc -K $encrypted_025d6e877aa4_key -iv $encrypted_025d6e877aa4_iv -in ci/deploy_key.enc -out deploy_key -d
   chmod 600 deploy_key
   eval "$(ssh-agent -s)"
