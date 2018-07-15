@@ -26,7 +26,7 @@ fi
 nix-build
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
-if [[ "$TRAVIS_EVENT_TYPE" != "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" != "api" ]]; then
+if [[ "$TRAVIS_EVENT_TYPE" != "cron" ]] && [[ "$TRAVIS_EVENT_TYPE" != "api" ]]; then
   echo "Skipping deploy; just doing a build."
   exit 0
 fi
