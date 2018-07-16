@@ -14,7 +14,7 @@ more decentralized way.
 NUR automatically check its list of repositories and perform evaluation checks
 before it propagated the updates.
 
-## How to use
+## Installation
 
 First include NUR in your `packageOverrides`:
 
@@ -23,9 +23,9 @@ To make NUR accessible for your login user, add the following to `~/.config/nixp
 ```nix
 {
   packageOverrides = pkgs: {
-    nur = pkgs.callPackage (import (builtins.fetchGit {
-      url = "https://github.com/nix-community/NUR";
-    })) {};
+    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
+      inherit pkgs;
+    };
   };
 }
 ```
@@ -35,12 +35,27 @@ For NixOS add the following to your `/etc/nixos/configuration.nix`:
 ```nix
 {
   nixpkgs.config.packageOverrides = pkgs: {
-    nur = pkgs.callPackage (import (builtins.fetchGit {
-      url = "https://github.com/nix-community/NUR";
-    })) {};
+    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
+      inherit pkgs;
+    };
   };
 }
 ```
+
+### Pinning
+
+Using `builtins.fetchTarball` without a sha256 will only cache the download for 1 hour by default, so you need internet access almost every time you build something. You can pin the version if you don't want that:
+
+```nix
+builtins.fetchTarball {
+  # Get the revision by choosing a version from https://github.com/nix-community/NUR/commits/master
+  url = "https://github.com/nix-community/NUR/archive/3a6a6f4da737da41e27922ce2cfacf68a109ebce.tar.gz";
+  # Get the hash by running `nix-prefetch-url --unpack <url>` on the above url
+  sha256 = "04387gzgl8y555b3lkz9aiw9xsldfg4zmzp930m62qw8zbrvrshd";
+}
+```
+
+## How to use
 
 Then packages can be used or installed from the NUR namespace.
 
@@ -62,7 +77,7 @@ or
 
 ```console
 # configuration.nix
-environment.systemPackages = [
+environment.systemPackages = with pkgs; [
   nur.repos.mic92.inxi
 ];
 ```
@@ -73,19 +88,39 @@ for its content.
 ***NUR does not check repository for malicious content on a regular base and it is
 recommend to check expression before installing them.***
 
+### Using modules overlays or library functions on NixOS
+
+If you intend to use modules, overlays or library functions in your NixOS configuration.nix, you need to take care to not introduce infinite recursion. Specifically, you need to import NUR like this in the modules:
+
+```nix
+{ pkgs, config, lib, ... }:
+let
+  nur-no-pkgs = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {};
+in {
+
+  imports = [
+    nur-no-pkgs.repos.paul.modules.foo
+  ];
+
+  nixpkgs.overlays = [
+    nur-no-pkgs.repos.ben.overlays.bar
+  ];
+
+}
+```
 
 ## How to add your own repository.
 
 First create a repository that contains a `default.nix` in its top-level directory.
 
 DO NOT import packages for example `with import <nixpkgs> {};`.
-Instead take all dependency you want to import from Nixpkgs by function arguments.
+Instead take all dependency you want to import from Nixpkgs from the given `pkgs` argument.
 Each repository should return a set of Nix derivations:
 
 ```nix
-{ callPackage }:
+{ pkgs }:
 {
-  inxi = callPackage ./inxi {};
+  inxi = pkgs.callPackage ./inxi {};
 }
 ```
 
@@ -135,13 +170,26 @@ in stdenv.mkDerivation rec {
 You can use `nix-shell` or `nix-build` to build your packages:
 
 ```console
-$ nix-shell -E 'with import <nixpkgs>{}; (callPackage ./default.nix {}).inxi'
+$ nix-shell --arg pkgs 'import <nixpkgs> {}' -A inxi
 nix-shell> inxi
 nix-shell> find $buildInputs
 ```
 
 ```console
-$ nix-build -E 'with import <nixpkgs>{}; (callPackage ./default.nix {})'
+$ nix-build --arg pkgs 'import <nixpkgs> {}' -A inxi
+```
+
+For development convenience, you can also set a default value for the pkgs argument:
+
+```nix
+{ pkgs ? import <nixpkgs> {} }:
+{
+  inxi = pkgs.callPackage ./inxi {};
+}
+```
+
+```console
+$ nix-build -A inxi
 ```
 
 Add your own repository to in the `repos.json` of NUR:
@@ -181,7 +229,7 @@ and open a pull request towards [https://github.com/nix-community/NUR](https://g
 At the moment repositories should be buildable on Nixpkgs unstable. Later we
 will add options to also provide branches for other Nixpkgs channels.
 
-## Use a different nix file as root expression
+### Use a different nix file as root expression
 
 To use a different file instead of `default.nix` to load packages from, set the `file`
 option to a path relative to the repository root:
@@ -197,7 +245,7 @@ option to a path relative to the repository root:
 }
 ```
 
-## Update NUR's lock file after updating your repository
+### Update NUR's lock file after updating your repository
 
 By default we only check for repository updates once a day with an automatic
 cron job in travis ci to update our lock file `repos.json.lock`.
@@ -210,7 +258,7 @@ curl -XPOST https://nur-update.herokuapp.com/update?repo=mic92
 
 Check out the [github page](https://github.com/nix-community/nur-update#nur-update-endpoint) for further details
 
-## Git submodules
+### Git submodules
 
 To fetch git submodules in repositories set `submodules`:
 
@@ -225,41 +273,35 @@ To fetch git submodules in repositories set `submodules`:
 }
 ```
 
-<!--
-This currently does not work as advertised at least for modules
+### NixOS modules, overlays and library function support
 
-## Conventions for NixOS modules, overlays and library functions
+It is also possible to define more than just packages. In fact any Nix expression can be used.
 
 To make NixOS modules, overlays and library functions more discoverable,
 we propose to put them in their own namespace within the repository.
 This allows us to make them later searchable, when the indexer is ready.
 
-Put all NixOS modules in the `modules` attribute of your repository:
+
+#### Providing NixOS modules
+
+NixOS modules should be placed in the `modules` attribute:
 
 ```nix
-# default.nix
-{
-  modules = ./import modules;
+{ pkgs }: {
+  modules = import ./modules;
 }
 ```
 
 ```nix
 # modules/default.nix
 {
-  example-module = ./import example-module.nix;
+  example-module = import ./example-module.nix;
 }
 ```
 
 An example can be found [here](https://github.com/Mic92/nur-packages/tree/master/modules).
 
-The resulting module can be then added to `imports = [];` within `configuration.nix`:
-
-```nix
-# /etc/nixos/configuration.nix
-{...}: {
-  imports = [ nur.repos.mic92.modules.transocks ];
-}
-```
+#### Providing Overlays
 
 For overlays use the `overlays` attribute:
 
@@ -267,7 +309,7 @@ For overlays use the `overlays` attribute:
 # default.nix
 {
   overlays = {
-    hello-overlay = ./import hello-overlay;
+    hello-overlay = import ./hello-overlay;
   };
 }
 ```
@@ -293,11 +335,13 @@ The result can be used like this:
 }
 ```
 
+#### Providing library functions
+
 Put reusable nix functions that are intend for public use in the `lib` attribute:
 
 ```nix
-{ lib }:
-with lib;
+{ pkgs }:
+with pkgs.lib;
 {
   lib = {
     hexint = x: hexvals.${toLower x};
@@ -307,7 +351,7 @@ with lib;
   };
 }
 ```
--->
+
 
 ## Contribution guideline
 
