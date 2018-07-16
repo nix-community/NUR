@@ -7,7 +7,7 @@ import re
 import sys
 import os
 from pathlib import Path
-from typing import List, Optional, Tuple, Dict, Any
+from typing import List, Optional, Tuple, Dict, Any, Tuple
 import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.error
@@ -28,6 +28,30 @@ class NurError(Exception):
     pass
 
 
+def fetch_commit_from_feed(url: str) -> str:
+    req = urllib.request.urlopen(url)
+    try:
+        xml = req.read()
+        root = ET.fromstring(xml)
+        ns = "{http://www.w3.org/2005/Atom}"
+        xpath = f"./{ns}entry/{ns}link"
+        commit_link = root.find(xpath)
+        if commit_link is None:
+            raise NurError(f"No commits found in repository feed {url}")
+        return Path(urlparse(commit_link.attrib["href"]).path).parts[-1]
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            raise NurError(f"Repository feed {url} not found")
+        raise
+
+
+def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
+    data = subprocess.check_output(
+        ["nix-prefetch-url", "--name", "source", "--unpack", "--print-path", url])
+    sha256, path = data.decode().strip().split("\n")
+    return sha256, Path(path)
+
+
 #@dataclass
 class GithubRepo():
     def __init__(self, owner: str, name: str) -> None:
@@ -41,41 +65,39 @@ class GithubRepo():
         return urljoin(f"https://github.com/{self.owner}/{self.name}/", path)
 
     def latest_commit(self) -> str:
-        req = urllib.request.urlopen(self.url("commits/master.atom"))
-        try:
-            xml = req.read()
-            root = ET.fromstring(xml)
-            ns = "{http://www.w3.org/2005/Atom}"
-            xpath = f"./{ns}entry/{ns}link"
-            commit_link = root.find(xpath)
-            if commit_link is None:
-                raise NurError(
-                    f"No commits found in github repository {self.owner}/{self.name}"
-                )
-            return Path(urlparse(commit_link.attrib["href"]).path).parts[-1]
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                raise NurError(
-                    f"Repository {self.owner}/{self.name} not found")
-            raise
+        return fetch_commit_from_feed(self.url("commits/master.atom"))
 
     def prefetch(self, ref: str) -> Tuple[str, Path]:
-        data = subprocess.check_output([
-            "nix-prefetch-url", "--unpack", "--print-path",
-            self.url(f"archive/{ref}.tar.gz")
-        ])
-        sha256, path = data.decode().strip().split("\n")
-        return sha256, Path(path)
+        return nix_prefetch_zip(self.url(f"archive/{ref}.tar.gz"))
+
+
+class GitlabRepo():
+    def __init__(self, domain: str, owner: str, name: str) -> None:
+        self.domain = domain
+        self.owner = owner
+        self.name = name
+
+    def latest_commit(self) -> str:
+        url = f"https://{self.domain}/{self.owner}/{self.name}/commits/master?format=atom"
+        return fetch_commit_from_feed(url)
+
+    def prefetch(self, ref: str) -> Tuple[str, Path]:
+        url = f"https://{self.domain}/api/v4/projects/{self.owner}%2F{self.name}/repository/archive.tar.gz?sha={ref}"
+        return nix_prefetch_zip(url)
 
 
 class RepoType(Enum):
     GITHUB = auto()
+    GITLAB = auto()
     GIT = auto()
 
     @staticmethod
     def from_spec(spec: 'RepoSpec') -> 'RepoType':
         if spec.url.hostname == "github.com" and not spec.submodules:
             return RepoType.GITHUB
+        if (spec.url.hostname == "gitlab.com" or spec.type == "gitlab") \
+                and not spec.submodules:
+            return RepoType.GITLAB
         else:
             return RepoType.GIT
 
@@ -105,12 +127,13 @@ class Repo():
 
 #@dataclass
 class RepoSpec():
-    def __init__(self, name: str, url: Url, nix_file: str,
-                 submodules: bool) -> None:
+    def __init__(self, name: str, url: Url, nix_file: str, submodules: bool,
+                 type_: str) -> None:
         self.name = name
         self.url = url
         self.nix_file = nix_file
         self.submodules = submodules
+        self.type = type_
 
     #name: str
     #url: Url
@@ -138,19 +161,41 @@ def prefetch_git(spec: RepoSpec) -> Tuple[str, str, Path]:
     return metadata["rev"], metadata["sha256"], path
 
 
+def prefetch_github(spec: RepoSpec, locked_repo: Optional[Repo]
+                    ) -> Tuple[str, str, Optional[Path]]:
+    github_path = Path(spec.url.path)
+    repo = GithubRepo(github_path.parts[1], github_path.parts[2])
+    commit = repo.latest_commit()
+    if locked_repo is not None:
+        if locked_repo.rev == commit and \
+                locked_repo.submodules == spec.submodules:
+            return locked_repo.rev, locked_repo.sha256, None
+    sha256, path = repo.prefetch(commit)
+    return commit, sha256, path
+
+
+def prefetch_gitlab(spec: RepoSpec, locked_repo: Optional[Repo]
+                    ) -> Tuple[str, str, Optional[Path]]:
+    gitlab_path = Path(spec.url.path)
+    repo = GitlabRepo(spec.url.hostname, gitlab_path.parts[-2],
+                      gitlab_path.parts[-1])
+    commit = repo.latest_commit()
+    if locked_repo is not None:
+        if locked_repo.rev == commit and \
+                locked_repo.submodules == spec.submodules:
+            return locked_repo.rev, locked_repo.sha256, None
+    sha256, path = repo.prefetch(commit)
+    return commit, sha256, path
+
+
 def prefetch(spec: RepoSpec,
              locked_repo: Optional[Repo]) -> Tuple[Repo, Optional[Path]]:
 
     repo_type = RepoType.from_spec(spec)
     if repo_type == RepoType.GITHUB:
-        github_path = Path(spec.url.path)
-        gh_repo = GithubRepo(github_path.parts[1], github_path.parts[2])
-        commit = gh_repo.latest_commit()
-        if locked_repo is not None:
-            if locked_repo.rev == commit and \
-                    locked_repo.submodules == spec.submodules:
-                return locked_repo, None
-        sha256, path = gh_repo.prefetch(commit)
+        commit, sha256, path = prefetch_github(spec, locked_repo)
+    elif repo_type == RepoType.GITLAB:
+        commit, sha256, path = prefetch_gitlab(spec, locked_repo)
     else:
         commit, sha256, path = prefetch_git(spec)
 
@@ -184,7 +229,7 @@ callPackages {repo_path.joinpath(spec.nix_file)} {{}}
             "-I", f"nixpkgs={nixpkgs_path()}",
             "-I", str(repo_path),
             "-I", str(eval_path),
-        ]
+        ] # yapf: disable
 
         print(f"$ {' '.join(cmd)}")
         proc = subprocess.Popen(
@@ -236,7 +281,7 @@ def main() -> None:
         url = urlparse(repo["url"])
         repo_json = lock_manifest["repos"].get(name, None)
         spec = RepoSpec(name, url, repo.get("file", "default.nix"),
-                        repo.get("submodules", False))
+                        repo.get("submodules", False), repo.get("type", None))
         if repo_json and repo_json["url"] != url.geturl():
             repo_json = None
         locked_repo = None

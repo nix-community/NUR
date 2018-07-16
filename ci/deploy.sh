@@ -14,15 +14,15 @@ fi
 
 export encrypted_025d6e877aa4_key= encrypted_025d6e877aa4_iv=
 
-./nur/format_manifest
+./nur/format-manifest.py
 if [ -n "$(git diff --exit-code repos.json)" ]; then
   echo "repos.json was not formatted before committing repos.json:" >&2
   git diff --exit-code repos.json
-  echo "Please run ./nur/format_manifest and updates repos.json accordingly!" >&2
+  echo "Please run ./nur/format-manifest.py and updates repos.json accordingly!" >&2
   exit 1
 fi
 
-./nur/update
+./nur/update.py
 nix-build
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
