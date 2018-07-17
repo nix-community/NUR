@@ -1,8 +1,8 @@
 {
     "repos": {
         "dtz": {
-            "rev": "2f2d9f8f1a30340aa4e2cd4a8cfeaa07bdbd348e",
-            "sha256": "1i048mpwda6c1mzap2rr8iijc0bbz16jdyl9a0abqjrwf8mg5fxz",
+            "rev": "a3d68f1911be3c4cda786ebee9d1f5ff06b6aa21",
+            "sha256": "069pf2mkpzpfwr62847bnfk73xz0gqlnzhfv3wc10r8wfdisjrv9",
             "url": "https://github.com/dtzWill/nur-packages"
         },
         "dywedir": {
@@ -49,6 +49,11 @@
             "rev": "3beff7885bf40fd0a2f7d56d2bd6a9200d568abe",
             "sha256": "1ax61irr8i7m1nbld2kcg4kn1la7mfzama59ikwbispw5842qkjq",
             "url": "https://github.com/mpickering/nur-packages"
+        },
+        "tilpner": {
+            "rev": "4f76d93067bfe082a492fadc98f14ea192293d59",
+            "sha256": "0p4czvc6fj0nh2dbv2raqs2np2q24sjkb4sivxbjk7diyad7xy6p",
+            "url": "https://github.com/tilpner/nur-packages"
         }
     }
 }
