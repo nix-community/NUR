@@ -21,12 +21,13 @@ let
     let
       revision = lockedRevisions.${name};
       submodules = attr.submodules or false;
+      type = attr.type or null;
     in if lib.hasPrefix "https://github.com" attr.url && !submodules then
       fetchzip {
         url = "${attr.url}/archive/${revision.rev}.zip";
         inherit (revision) sha256;
       }
-    else if (lib.hasPrefix "https://gitlab.com" attr.url || attr.type == "gitlab") && !submodules then
+    else if (lib.hasPrefix "https://gitlab.com" attr.url || type == "gitlab") && !submodules then
       let
         gitlab = parseGitlabUrl attr.url;
       in fetchzip {
