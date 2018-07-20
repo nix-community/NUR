@@ -17,9 +17,10 @@ import tempfile
 from enum import Enum, auto
 from urllib.parse import urlparse, urljoin, ParseResult
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).parent.parent.resolve();
 LOCK_PATH = ROOT.joinpath("repos.json.lock")
 MANIFEST_PATH = ROOT.joinpath("repos.json")
+EVALREPO_PATH = ROOT.joinpath("lib/evalRepo.nix")
 
 Url = ParseResult
 
@@ -214,7 +215,12 @@ def eval_repo(spec: RepoSpec, repo_path: Path) -> None:
         with open(eval_path, "w") as f:
             f.write(f"""
                     with import <nixpkgs> {{}};
-callPackages {repo_path.joinpath(spec.nix_file)} {{}}
+import {EVALREPO_PATH} {{
+  name = "{spec.name}";
+  url = "{spec.url}";
+  src = {repo_path.joinpath(spec.nix_file)};
+  inherit pkgs lib;
+}}
 """)
 
         cmd = [
@@ -229,6 +235,7 @@ callPackages {repo_path.joinpath(spec.nix_file)} {{}}
             "-I", f"nixpkgs={nixpkgs_path()}",
             "-I", str(repo_path),
             "-I", str(eval_path),
+            "-I", str(EVALREPO_PATH),
         ] # yapf: disable
 
         print(f"$ {' '.join(cmd)}")
