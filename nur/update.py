@@ -241,7 +241,7 @@ import {EVALREPO_PATH} {{
             "-I", str(EVALREPO_PATH),
         ] # yapf: disable
 
-        print(f"$ {' '.join(cmd)}")
+        logger.info(f"Evaluate repository {spec.name}")
         proc = subprocess.Popen(
             cmd, env=dict(PATH=os.environ["PATH"]), stdout=subprocess.PIPE)
         res = proc.wait()
@@ -304,7 +304,7 @@ def main() -> None:
             if locked_repo is None:
                 # likely a repository added in a pull request, make it fatal then
                 raise
-            logger.exception(f"Failed to updated repo: {spec.name}")
+            logger.exception(f"Failed to updated repository {spec.name}")
             repos.append(locked_repo)
 
     update_lock_file(repos)

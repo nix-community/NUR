@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eux -o pipefail # Exit with nonzero exit code if anything fails
+set -eu -o pipefail # Exit with nonzero exit code if anything fails
 
 if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]; then
   openssl aes-256-cbc -K $encrypted_025d6e877aa4_key -iv $encrypted_025d6e877aa4_iv -in ci/deploy_key.enc -out deploy_key -d
