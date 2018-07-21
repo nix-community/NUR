@@ -16,6 +16,7 @@ import tempfile
 #from dataclasses import dataclass, field, InitVar
 from enum import Enum, auto
 from urllib.parse import urlparse, urljoin, ParseResult
+import logging
 
 ROOT = Path(__file__).parent.parent.resolve();
 LOCK_PATH = ROOT.joinpath("repos.json.lock")
@@ -23,6 +24,8 @@ MANIFEST_PATH = ROOT.joinpath("repos.json")
 EVALREPO_PATH = ROOT.joinpath("lib/evalRepo.nix")
 
 Url = ParseResult
+
+logger = logging.getLogger(__name__)
 
 
 class NurError(Exception):
@@ -297,10 +300,12 @@ def main() -> None:
 
         try:
             repos.append(update(spec, locked_repo))
-        except NurError as e:
-            print(f"failed to update repository {name}: {e}", file=sys.stderr)
-            if locked_repo:
-                repos.append(locked_repo)
+        except Exception as e:
+            if locked_repo is None:
+                # likely a repository added in a pull request, make it fatal then
+                raise
+            logger.exception(f"Failed to updated repo: {spec.name}")
+            repos.append(locked_repo)
 
     update_lock_file(repos)
 
