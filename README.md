@@ -88,7 +88,7 @@ for its content.
 ***NUR does not check repository for malicious content on a regular base and it is
 recommend to check expression before installing them.***
 
-### Using modules overlays or library functions on NixOS
+### Using modules overlays or library functions in NixOS
 
 If you intend to use modules, overlays or library functions in your NixOS configuration.nix, you need to take care to not introduce infinite recursion. Specifically, you need to import NUR like this in the modules:
 
