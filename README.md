@@ -323,18 +323,6 @@ self: super: {
 }
 ```
 
-The result can be used like this:
-
-```nix
-{
-  nixpkgs = import <nixpkgs> {
-    overlays = [
-      nixpkgs.nur.repos.mpickering.overlays.haskell-plugins
-    ];
-  };
-}
-```
-
 #### Providing library functions
 
 Put reusable nix functions that are intend for public use in the `lib` attribute:
