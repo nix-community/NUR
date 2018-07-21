@@ -295,11 +295,12 @@ NixOS modules should be placed in the `modules` attribute:
 ```nix
 # modules/default.nix
 {
-  example-module = import ./example-module.nix;
+  example-module = ./example-module.nix;
 }
 ```
 
 An example can be found [here](https://github.com/Mic92/nur-packages/tree/master/modules).
+Modules should be defined as paths, not functions, to avoid conflicts if imported from multiple locations.
 
 #### Providing Overlays
 
