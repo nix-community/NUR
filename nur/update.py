@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -p python3 -p nix-prefetch-git -p nix -i python3
+#!nix-shell -p python37 -p nix-prefetch-git -p nix -i python3
 
 import json
 import shutil
@@ -13,7 +13,7 @@ import urllib.request
 import urllib.error
 import subprocess
 import tempfile
-#from dataclasses import dataclass, field, InitVar
+from dataclasses import dataclass, field, InitVar
 from enum import Enum, auto
 from urllib.parse import urlparse, urljoin, ParseResult
 import logging
@@ -56,14 +56,10 @@ def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
     return sha256, Path(path)
 
 
-#@dataclass
+@dataclass
 class GithubRepo():
-    def __init__(self, owner: str, name: str) -> None:
-        self.owner = owner
-        self.name = name
-
-    #owner: str
-    #name: str
+    owner: str
+    name: str
 
     def url(self, path: str) -> str:
         return urljoin(f"https://github.com/{self.owner}/{self.name}/", path)
@@ -75,11 +71,11 @@ class GithubRepo():
         return nix_prefetch_zip(self.url(f"archive/{ref}.tar.gz"))
 
 
+@dataclass
 class GitlabRepo():
-    def __init__(self, domain: str, owner: str, name: str) -> None:
-        self.domain = domain
-        self.owner = owner
-        self.name = name
+    domain: str
+    owner: str
+    name: str
 
     def latest_commit(self) -> str:
         url = f"https://{self.domain}/{self.owner}/{self.name}/commits/master?format=atom"
@@ -106,21 +102,16 @@ class RepoType(Enum):
             return RepoType.GIT
 
 
-#@dataclass
+@dataclass
 class Repo():
-    def __init__(self, spec: 'RepoSpec', rev: str, sha256: str) -> None:
-        self.__post_init__(spec)
-        self.rev = rev
-        self.sha256 = sha256
+    spec: InitVar['RepoSpec']
+    rev: str
+    sha256: str
 
-    #spec: InitVar['RepoSpec']
-    #rev: str
-    #sha256: str
-
-    #name: str = field(init=False)
-    #url: Url = field(init=False)
-    ##type: RepoType = field(init=False)
-    #submodules: bool = field(init=False)
+    name: str = field(init=False)
+    url: Url = field(init=False)
+    type: RepoType = field(init=False)
+    submodules: bool = field(init=False)
 
     def __post_init__(self, spec: 'RepoSpec'):
         self.name = spec.name
@@ -129,20 +120,13 @@ class Repo():
         self.type = RepoType.from_spec(spec)
 
 
-#@dataclass
+@dataclass
 class RepoSpec():
-    def __init__(self, name: str, url: Url, nix_file: str, submodules: bool,
-                 type_: str) -> None:
-        self.name = name
-        self.url = url
-        self.nix_file = nix_file
-        self.submodules = submodules
-        self.type = type_
-
-    #name: str
-    #url: Url
-    #nix_file: str
-    #submodules: bool
+    name: str
+    url: Url
+    nix_file: str
+    submodules: bool
+    type: str
 
 
 def prefetch_git(spec: RepoSpec) -> Tuple[str, str, Path]:

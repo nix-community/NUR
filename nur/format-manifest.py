@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -p python3 -i python3
+#!nix-shell -p python37 -i python3
 
 import json
 import shutil
