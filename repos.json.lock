@@ -21,8 +21,8 @@
             "url": "https://github.com/fgaz/nur-packages"
         },
         "izorkin": {
-            "rev": "3efc2b3091b74b65e2323e18f5eccfd7dfd9c788",
-            "sha256": "1dx3bk8yriagfgdcqxzybq4jis5qkm441070mk6i5jnw0v278vfz",
+            "rev": "0bb183676859bae69a6f883449938479420d3e36",
+            "sha256": "02ar49kwism80ynivx8dnzlvxnbl1sl1ayyl4v78l88vg6lz57wk",
             "url": "https://github.com/Izorkin/nur-packages"
         },
         "kampka": {
@@ -55,6 +55,11 @@
             "sha256": "06qcpzaswhlnnfl8sgs308fi3sq3hmgg8wmzg4dbdkxhi3fhza51",
             "submodules": true,
             "url": "https://github.com/mpickering/nur-packages"
+        },
+        "peel": {
+            "rev": "ea1c3d9066265b989d220736065f0bced49af9e1",
+            "sha256": "18xxjkqjarnvhwrc4xy3g2b68hl5zjaq56zl94rrrc0m9qcy1a4p",
+            "url": "https://github.com/peel/nur-packages"
         },
         "tilpner": {
             "rev": "35bd43bf7bc6419a0035827a5c04be57b4d281bc",
