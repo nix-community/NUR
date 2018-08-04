@@ -112,6 +112,8 @@ in {
 ## How to add your own repository.
 
 First create a repository that contains a `default.nix` in its top-level directory.
+We also provide [repository template](https://github.com/nix-community/nur-packages-template) that contains
+a prepared directory structure.
 
 DO NOT import packages for example `with import <nixpkgs> {};`.
 Instead take all dependency you want to import from Nixpkgs from the given `pkgs` argument.
