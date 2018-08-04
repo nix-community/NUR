@@ -377,4 +377,5 @@ cycles.
 ## Roadmap
 
 - Implement a search to find packages
-- Figure out how make it working for NixOS modules
+- Create a combined repository that receive snapshots of repositories
+  [#46](https://github.com/nix-community/NUR/issues/46)
