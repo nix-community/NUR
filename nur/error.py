@@ -1,0 +1,2 @@
+class NurError(Exception):
+    pass
