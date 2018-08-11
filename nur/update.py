@@ -1,7 +1,5 @@
-import json
 import logging
 import os
-import shutil
 import subprocess
 import tempfile
 from argparse import Namespace
@@ -12,6 +10,7 @@ from .error import NurError
 from .manifest import Repo, load_manifest
 from .path import EVALREPO_PATH, LOCK_PATH, MANIFEST_PATH, nixpkgs_path
 from .prefetch import prefetch
+from .fileutils import write_json_file
 
 logger = logging.getLogger(__name__)
 
@@ -69,17 +68,13 @@ def update(repo: Repo) -> Repo:
     return repo
 
 
-def update_lock_file(repos: List[Repo]):
+def update_lock_file(repos: List[Repo]) -> None:
     locked_repos = {}
     for repo in repos:
         if repo.locked_version:
             locked_repos[repo.name] = repo.locked_version.as_json()
 
-    tmp_file = str(LOCK_PATH) + "-new"
-    with open(tmp_file, "w") as lock_file:
-        json.dump(dict(repos=locked_repos), lock_file, indent=4, sort_keys=True)
-
-    shutil.move(tmp_file, LOCK_PATH)
+    write_json_file(locked_repos, LOCK_PATH)
 
 
 def update_command(args: Namespace) -> None:

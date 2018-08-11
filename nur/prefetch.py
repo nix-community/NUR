@@ -5,7 +5,7 @@ import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Any, Dict, Optional, Tuple
+from typing import Optional, Tuple
 from urllib.parse import urljoin, urlparse
 
 from .error import NurError
