@@ -110,7 +110,7 @@ def load_locked_versions(path: Path) -> Dict[str, LockedVersion]:
     if path.exists():
         return _load_locked_versions(path)
     else:
-        return {}
+        return dict(repos={})
 
 
 def load_manifest(manifest_path: PathType, lock_path: PathType) -> Manifest:
