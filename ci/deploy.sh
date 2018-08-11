@@ -40,11 +40,11 @@ fi
 git config --global user.name "Travis CI"
 git config --global user.email "travis@travis.org"
 
-git clone git@github.com:nix-community/nur-channel
+#git clone git@github.com:nix-community/nur-channel
 
-old_channel_rev=$(git rev-parse HEAD)
-./bin/nur build-channel nur-channel
-new_channel_rev=$(git rev-parse HEAD)
+#old_channel_rev=$(git rev-parse HEAD)
+#./bin/nur build-channel nur-channel
+#new_channel_rev=$(git rev-parse HEAD)
 
 if [[ -z "$(git diff --exit-code)" ]]; then
   echo "No changes to the output on this push; exiting."
@@ -55,6 +55,6 @@ else
   git push git@github.com:nix-community/NUR HEAD:master
 fi
 
-if [[ $old_channel_rev != $new_channel_rev ]]; then
-  (cd nur-channel && git push origin master)
-fi
+#if [[ $old_channel_rev != $new_channel_rev ]]; then
+#  (cd nur-channel && git push origin master)
+#fi
