@@ -1,7 +1,7 @@
 import json
 from enum import Enum, auto
 from pathlib import Path
-from typing import Dict, List, Optional, Union, Any
+from typing import Dict, List, Optional, Any
 from urllib.parse import ParseResult, urlparse
 
 from .fileutils import PathType, to_path
@@ -110,7 +110,7 @@ def load_locked_versions(path: Path) -> Dict[str, LockedVersion]:
     if path.exists():
         return _load_locked_versions(path)
     else:
-        return dict(repos={})
+        return {}
 
 
 def load_manifest(manifest_path: PathType, lock_path: PathType) -> Manifest:

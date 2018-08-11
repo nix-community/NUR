@@ -74,7 +74,7 @@ def update_lock_file(repos: List[Repo]) -> None:
         if repo.locked_version:
             locked_repos[repo.name] = repo.locked_version.as_json()
 
-    write_json_file(locked_repos, LOCK_PATH)
+    write_json_file(dict(repos=locked_repos), LOCK_PATH)
 
 
 def update_command(args: Namespace) -> None:
