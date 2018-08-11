@@ -40,7 +40,7 @@ fi
 git config --global user.name "Travis CI"
 git config --global user.email "travis@travis.org"
 
-git clone git@github.com/nix-community/nur-channel
+git clone git@github.com:nix-community/nur-channel
 
 old_channel_rev=$(git rev-parse HEAD)
 ./bin/nur build-channel nur-channel
