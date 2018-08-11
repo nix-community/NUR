@@ -1,26 +1,24 @@
 #!/usr/bin/env bash
 
-set -eu -o pipefail # Exit with nonzero exit code if anything fails
+set -x -eu -o pipefail # Exit with nonzero exit code if anything fails
 
-add-ssh-key() {
-  key="$1"
-  plain="${key}.plain"
+#if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]; then
+if [[ -n "$encrypted_025d6e877aa4_key=" ]]; then
+  keys_dir=$(mktemp -d)
   openssl aes-256-cbc \
-    -K $encrypted_025d6e877aa4_key -iv $encrypted_025d6e877aa4_iv \
-    -in "$key" -out $plain -d
-  chmod 600 "${key}.plain"
-  ssh-add "${key}.plain"
-  rm "${key}.plain"
-}
+    -K $encrypted_025d6e877aa4_key \
+    -iv $encrypted_025d6e877aa4_iv \
+    -in ci/keys.tar.enc -out ci/keys.tar -d
+  tar -C "$keys_dir" -xvf ci/keys.tar
 
-if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]; then
   eval "$(ssh-agent -s)"
 
-  add-ssh-key ci/deploy_key.enc
-  add-ssh-key ci/deploy_channel_key.enc
+  chmod 600 "$keys_dir/"*
+  ssh-add "$keys_dir/"*
+  rm -rf "$keys_dir"
 fi
 
-export encrypted_025d6e877aa4_key= encrypted_025d6e877aa4_iv=
+export encrypted_080f214a372c_key= encrypted_080f214a372c_iv=
 
 ./bin/nur format-manifest
 if [ -n "$(git diff --exit-code repos.json)" ]; then
