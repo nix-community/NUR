@@ -2,14 +2,22 @@
 
 set -eu -o pipefail # Exit with nonzero exit code if anything fails
 
-if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]; then
-  openssl aes-256-cbc -K $encrypted_025d6e877aa4_key -iv $encrypted_025d6e877aa4_iv -in ci/deploy_key.enc -out deploy_key -d
-  chmod 600 deploy_key
-  eval "$(ssh-agent -s)"
-  ssh-add deploy_key
+add-ssh-key() {
+  key="$1"
+  plain="${key}.plain"
+  openssl aes-256-cbc \
+    -K $encrypted_025d6e877aa4_key -iv $encrypted_025d6e877aa4_iv \
+    -in "$key" -out $plain -d
+  chmod 600 "${key}.plain"
+  ssh-add "${key}.plain"
+  rm "${key}.plain"
+}
 
-  # better safe then sorry
-  rm deploy_key
+if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]; then
+  eval "$(ssh-agent -s)"
+
+  add-ssh-key ci/deploy_key.enc
+  add-ssh-key ci/deploy_channel_key.enc
 fi
 
 export encrypted_025d6e877aa4_key= encrypted_025d6e877aa4_iv=
@@ -31,15 +39,24 @@ if [[ "$TRAVIS_EVENT_TYPE" != "cron" ]] && [[ "$TRAVIS_EVENT_TYPE" != "api" ]]; 
   exit 0
 fi
 
-git config user.name "Travis CI"
-git config user.email "travis@travis.org"
+git config --global user.name "Travis CI"
+git config --global user.email "travis@travis.org"
 
-if [ -z "$(git diff --exit-code)" ]; then
+git clone git@github.com/nix-community/nur-channel
+
+old_channel_rev=$(git rev-parse HEAD)
+./bin/nur build-channel nur-channel
+new_channel_rev=$(git rev-parse HEAD)
+
+if [[ -z "$(git diff --exit-code)" ]]; then
   echo "No changes to the output on this push; exiting."
-  exit 0
+else
+  git add --all repos.json*
+
+  git commit -m "automatic update"
+  git push git@github.com:nix-community/NUR HEAD:master
 fi
 
-git add --all repos.json*
-
-git commit -m "automatic update"
-git push git@github.com:nix-community/NUR HEAD:master
+if [[ $old_channel_rev != $new_channel_rev ]]; then
+  (cd nur-channel && git push origin master)
+fi

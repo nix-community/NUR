@@ -6,7 +6,7 @@ from .format_manifest import format_manifest_command
 from .index import index_command
 from .update import update_command
 
-# from .build import build_channel_command
+from .channel import build_channel_command
 
 
 def parse_arguments(argv: List[str]) -> argparse.Namespace:
@@ -16,8 +16,9 @@ def parse_arguments(argv: List[str]) -> argparse.Namespace:
 
     subparsers = parser.add_subparsers(description="subcommands")
 
-    # build_channel = subparsers.add_parser("build-channel")
-    # build_channel.set_defaults(func=build_channel_command)
+    build_channel = subparsers.add_parser("build-channel")
+    build_channel.add_argument('directory')
+    build_channel.set_defaults(func=build_channel_command)
 
     format_manifest = subparsers.add_parser("format-manifest")
     format_manifest.set_defaults(func=format_manifest_command)

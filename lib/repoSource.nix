@@ -17,8 +17,12 @@ let
   revision = lockedRevisions.${name};
   submodules = attr.submodules or false;
   type = attr.type or null;
+
+  localPath = ../repos + "/${name}";
 in
-  if lib.hasPrefix "https://github.com" attr.url && !submodules then
+  if lib.pathExists localPath then
+    localPath
+  else if lib.hasPrefix "https://github.com" attr.url && !submodules then
     fetchzip {
       url = "${attr.url}/archive/${revision.rev}.zip";
       inherit (revision) sha256;
