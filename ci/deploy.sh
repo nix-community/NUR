@@ -2,8 +2,7 @@
 
 set -x -eu -o pipefail # Exit with nonzero exit code if anything fails
 
-#if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]; then
-if [[ -n "$encrypted_025d6e877aa4_key=" ]]; then
+if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]; then
   keys_dir=$(mktemp -d)
   openssl aes-256-cbc \
     -K $encrypted_025d6e877aa4_key \
