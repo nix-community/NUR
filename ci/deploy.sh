@@ -7,7 +7,7 @@ if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]; 
   openssl aes-256-cbc \
     -K $encrypted_080f214a372c_key \
     -iv $encrypted_080f214a372c_iv \
-    -in ci/keys.tar.gz.enc -out ci/keys.gz.tar -d
+    -in ci/keys.tar.gz.enc -out ci/keys.tar.gz -d
   tar -C "$keys_dir" -xzvf ci/keys.tar.gz
 
   eval "$(ssh-agent -s)"
