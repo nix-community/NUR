@@ -20,15 +20,17 @@ fi
 
 export encrypted_080f214a372c_key= encrypted_080f214a372c_iv=
 
-./bin/nur format-manifest
+nix-build release.nix
+
+result/bin/nur format-manifest
 if [ -n "$(git diff --exit-code repos.json)" ]; then
   echo "repos.json was not formatted before committing repos.json:" >&2
   git diff --exit-code repos.json
-  echo "Please run ./nur/format-manifest.py and updates repos.json accordingly!" >&2
+  echo "Please run ./bin/nur/format-manifest.py and updates repos.json accordingly!" >&2
   exit 1
 fi
 
-./bin/nur update
+result/bin/nur update
 nix-build
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
@@ -44,7 +46,7 @@ git config --global commit.gpgsign true
 
 git clone git@github.com:nix-community/nur-channel
 
-./bin/nur build-channel nur-channel
+result/bin/nur build-channel nur-channel
 
 if [[ -z "$(git diff --exit-code)" ]]; then
   echo "No changes to the output on this push; exiting."
