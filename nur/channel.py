@@ -85,6 +85,14 @@ def remove_repo(repo: Repo, path: Path) -> None:
     commit_files([str(repo_path)], f"{repo.name}: remove")
 
 
+def update_manifest(repos: List[Repo], path: Path) -> None:
+    d = {}
+
+    for repo in repos:
+        d[repo.name] = repo.as_json()
+    write_json_file(dict(repos=d), path)
+
+
 def update_channel(path: Path) -> None:
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
@@ -111,6 +119,8 @@ def update_channel(path: Path) -> None:
 
     for channel_repo in channel_repos.values():
         remove_repo(channel_repo, path)
+
+    update_manifest(updated_repos, path.joinpath("repos.json"))
 
     update_lock_file(updated_repos, path.joinpath("repos.json.lock"))
 

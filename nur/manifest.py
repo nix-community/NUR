@@ -38,7 +38,7 @@ class RepoType(Enum):
     GIT = auto()
 
     @staticmethod
-    def from_repo(repo: "Repo", type_: str) -> "RepoType":
+    def from_repo(repo: "Repo", type_: Optional[str]) -> "RepoType":
         if repo.submodules:
             return RepoType.GIT
         if repo.url.hostname == "github.com":
@@ -55,7 +55,7 @@ class Repo:
         name: str,
         url: Url,
         submodules: bool,
-        type_: str,
+        supplied_type: Optional[str],
         file_: Optional[str],
         locked_version: Optional[LockedVersion],
     ) -> None:
@@ -75,10 +75,29 @@ class Repo:
         ):
             self.locked_version = locked_version
 
-        self.type = RepoType.from_repo(self, type_)
+        self.supplied_type = supplied_type
+        self.computed_type = RepoType.from_repo(self, supplied_type)
+
+    @property
+    def type(self) -> RepoType:
+        return self.computed_type
 
     def __repr__(self) -> str:
         return f"<{self.__class__.__name__} {self.name}>"
+
+    def as_json(self) -> Dict[str, Any]:
+        d = dict(url=self.url.geturl())  # type: Dict[str, Any]
+
+        if self.submodules:
+            d["submodules"] = self.submodules
+
+        if self.supplied_type is not None:
+            d["type"] = self.supplied_type
+
+        if self.file is not None and self.file != "default.nix":
+            d["file"] = self.file
+
+        return d
 
 
 class Manifest:
@@ -99,7 +118,8 @@ def _load_locked_versions(path: PathType) -> Dict[str, LockedVersion]:
         url = urlparse(repo["url"])
         rev = repo["rev"]
         sha256 = repo["sha256"]
-        locked_versions[name] = LockedVersion(url, rev, sha256)
+        submodules = repo.get("submodules", False)
+        locked_versions[name] = LockedVersion(url, rev, sha256, submodules)
 
     return locked_versions
 
