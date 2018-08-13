@@ -377,5 +377,3 @@ cycles.
 ## Roadmap
 
 - Implement a search to find packages
-- Create a combined repository that receive snapshots of repositories
-  [#46](https://github.com/nix-community/NUR/issues/46)
