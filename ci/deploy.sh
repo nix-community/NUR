@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 
-set -x -eu -o pipefail # Exit with nonzero exit code if anything fails
+set -eu -o pipefail # Exit with nonzero exit code if anything fails
 
-if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]; then
+is-automatic-update() {
+  [[ "$TRAVIS_EVENT_TYPE" == "cron" ]] || [[ "$TRAVIS_EVENT_TYPE" == "api" ]]
+}
+
+if is-automatic-update; then
   keys_dir=$(mktemp -d)
   openssl aes-256-cbc \
     -K $encrypted_080f214a372c_key \
@@ -33,8 +37,15 @@ fi
 result/bin/nur update
 nix-build
 
-# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
-if [[ "$TRAVIS_EVENT_TYPE" != "cron" ]] && [[ "$TRAVIS_EVENT_TYPE" != "api" ]]; then
+if ! is-automatic-update; then
+  # Type checker
+  nix run nixpkgs.python3Packages.mypy -c mypy nur
+  # Format checker
+  nix run nixpkgs.python3Packages.black -c black --check .
+  # Linter
+  nix run nixpkgs.python3Packages.flake8 -c flake8 .
+
+  # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
   echo "Skipping deploy; just doing a build."
   exit 0
 fi
