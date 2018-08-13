@@ -8,5 +8,6 @@ python3Packages.buildPythonApplication {
 
   makeWrapperArgs = [
     "--prefix" "PATH" ":" "${stdenv.lib.makeBinPath [ nix-prefetch-git git nix ]}"
+    "--set" "LOCALE_ARCHIVE" "${glibcLocales}/lib/locale/locale-archive"
   ];
 }
