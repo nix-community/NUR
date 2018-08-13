@@ -29,7 +29,14 @@ def parse_arguments(argv: List[str]) -> argparse.Namespace:
     index = subparsers.add_parser("index")
     index.set_defaults(func=index_command)
 
-    return parser.parse_args(argv[1:])
+    args = parser.parse_args(argv[1:])
+
+    if not hasattr(args, "func"):
+        print("subcommand is missing", file=sys.stderr)
+        parser.print_help(sys.stderr)
+        sys.exit(1)
+
+    return args
 
 
 def main() -> None:
