@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Dict, List, Optional, Any
 from urllib.parse import ParseResult, urlparse
 
-from .fileutils import PathType, to_path
+from .fileutils import PathType, to_path, write_json_file
 
 Url = ParseResult
 
@@ -25,9 +25,7 @@ class LockedVersion:
 
     def as_json(self) -> Dict[str, Any]:
         d = dict(
-            url=self.url.geturl(),
-            rev=self.rev,
-            sha256=self.sha256,
+            url=self.url.geturl(), rev=self.rev, sha256=self.sha256
         )  # type: Dict[str, Any]
         if self.submodules:
             d["submodules"] = self.submodules
@@ -111,6 +109,15 @@ def load_locked_versions(path: Path) -> Dict[str, LockedVersion]:
         return _load_locked_versions(path)
     else:
         return {}
+
+
+def update_lock_file(repos: List[Repo], path: Path) -> None:
+    locked_repos = {}
+    for repo in repos:
+        if repo.locked_version:
+            locked_repos[repo.name] = repo.locked_version.as_json()
+
+    write_json_file(dict(repos=locked_repos), path)
 
 
 def load_manifest(manifest_path: PathType, lock_path: PathType) -> Manifest:

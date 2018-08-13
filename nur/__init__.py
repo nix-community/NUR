@@ -17,7 +17,7 @@ def parse_arguments(argv: List[str]) -> argparse.Namespace:
     subparsers = parser.add_subparsers(description="subcommands")
 
     build_channel = subparsers.add_parser("build-channel")
-    build_channel.add_argument('directory')
+    build_channel.add_argument("directory")
     build_channel.set_defaults(func=build_channel_command)
 
     format_manifest = subparsers.add_parser("format-manifest")

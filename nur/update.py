@@ -4,13 +4,11 @@ import subprocess
 import tempfile
 from argparse import Namespace
 from pathlib import Path
-from typing import List
 
 from .error import NurError
-from .manifest import Repo, load_manifest
+from .manifest import Repo, load_manifest, update_lock_file
 from .path import EVALREPO_PATH, LOCK_PATH, MANIFEST_PATH, nixpkgs_path
 from .prefetch import prefetch
-from .fileutils import write_json_file
 
 logger = logging.getLogger(__name__)
 
@@ -68,15 +66,6 @@ def update(repo: Repo) -> Repo:
     return repo
 
 
-def update_lock_file(repos: List[Repo]) -> None:
-    locked_repos = {}
-    for repo in repos:
-        if repo.locked_version:
-            locked_repos[repo.name] = repo.locked_version.as_json()
-
-    write_json_file(dict(repos=locked_repos), LOCK_PATH)
-
-
 def update_command(args: Namespace) -> None:
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
@@ -89,4 +78,4 @@ def update_command(args: Namespace) -> None:
                 raise
             logger.exception(f"Failed to updated repository {repo.name}")
 
-    update_lock_file(manifest.repos)
+    update_lock_file(manifest.repos, LOCK_PATH)
