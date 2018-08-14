@@ -124,6 +124,9 @@ def update_channel(path: Path) -> None:
 
     update_lock_file(updated_repos, path.joinpath("repos.json.lock"))
 
+    with chdir(path):
+        commit_files(["repos.json", "repos.json.lock"], "update repos.json + lock")
+
 
 def setup_channel() -> None:
     manifest_path = "repos.json"
