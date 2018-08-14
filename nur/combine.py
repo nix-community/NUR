@@ -14,12 +14,12 @@ from .path import LOCK_PATH, MANIFEST_PATH, ROOT
 logger = logging.getLogger(__name__)
 
 
-def load_channel_repos(path: Path) -> Dict[str, Repo]:
-    channel_manifest = load_manifest(
+def load_combined_repos(path: Path) -> Dict[str, Repo]:
+    combined_manifest = load_manifest(
         path.joinpath("repos.json"), path.joinpath("repos.json.lock")
     )
     repos = {}
-    for repo in channel_manifest.repos:
+    for repo in combined_manifest.repos:
         repos[repo.name] = repo
     return repos
 
@@ -54,23 +54,23 @@ def commit_repo(repo: Repo, message: str, path: Path) -> Repo:
     return repo
 
 
-def update_channel_repo(
-    channel_repo: Optional[Repo], repo: Repo, path: Path
+def update_combined_repo(
+    combined_repo: Optional[Repo], repo: Repo, path: Path
 ) -> Optional[Repo]:
     if repo.locked_version is None:
         return None
 
     new_rev = repo.locked_version.rev
-    if channel_repo is None:
+    if combined_repo is None:
         return commit_repo(repo, f"{repo.name}: init at {new_rev}", path)
 
-    assert channel_repo.locked_version is not None
-    old_rev = channel_repo.locked_version.rev
+    assert combined_repo.locked_version is not None
+    old_rev = combined_repo.locked_version.rev
 
-    if channel_repo.locked_version == repo.locked_version:
+    if combined_repo.locked_version == repo.locked_version:
         return repo
 
-    if new_rev != new_rev:
+    if new_rev != old_rev:
         message = f"{repo.name}: {old_rev} -> {new_rev}"
     else:
         message = f"{repo.name}: update"
@@ -93,10 +93,10 @@ def update_manifest(repos: List[Repo], path: Path) -> None:
     write_json_file(dict(repos=d), path)
 
 
-def update_channel(path: Path) -> None:
+def update_combined(path: Path) -> None:
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
-    channel_repos = load_channel_repos(path)
+    combined_repos = load_combined_repos(path)
 
     repos_path = path.joinpath("repos")
     os.makedirs(repos_path, exist_ok=True)
@@ -104,12 +104,12 @@ def update_channel(path: Path) -> None:
     updated_repos = []
 
     for repo in manifest.repos:
-        channel_repo = None
-        if repo.name in channel_repos:
-            channel_repo = channel_repos[repo.name]
-            del channel_repos[repo.name]
+        combined_repo = None
+        if repo.name in combined_repos:
+            combined_repo = combined_repos[repo.name]
+            del combined_repos[repo.name]
         try:
-            new_repo = update_channel_repo(channel_repo, repo, repos_path)
+            new_repo = update_combined_repo(combined_repo, repo, repos_path)
         except Exception:
             logger.exception(f"Failed to updated repository {repo.name}")
             continue
@@ -117,15 +117,18 @@ def update_channel(path: Path) -> None:
         if new_repo is not None:
             updated_repos.append(new_repo)
 
-    for channel_repo in channel_repos.values():
-        remove_repo(channel_repo, path)
+    for combined_repo in combined_repos.values():
+        remove_repo(combined_repo, path)
 
     update_manifest(updated_repos, path.joinpath("repos.json"))
 
     update_lock_file(updated_repos, path.joinpath("repos.json.lock"))
 
+    with chdir(path):
+        commit_files(["repos.json", "repos.json.lock"], "update repos.json + lock")
 
-def setup_channel() -> None:
+
+def setup_combined() -> None:
     manifest_path = "repos.json"
 
     if not Path(".git").exists():
@@ -142,12 +145,12 @@ def setup_channel() -> None:
 
     vcs_files = [manifest_path, manifest_lib, default_nix]
 
-    commit_files(vcs_files, "update channel code")
+    commit_files(vcs_files, "update code")
 
 
-def build_channel_command(args: Namespace) -> None:
-    channel_path = Path(args.directory)
+def combine_command(args: Namespace) -> None:
+    combined_path = Path(args.directory)
 
-    with chdir(channel_path):
-        setup_channel()
-    update_channel(channel_path)
+    with chdir(combined_path):
+        setup_combined()
+    update_combined(combined_path)
