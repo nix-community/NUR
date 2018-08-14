@@ -70,7 +70,7 @@ def update_channel_repo(
     if channel_repo.locked_version == repo.locked_version:
         return repo
 
-    if new_rev != new_rev:
+    if new_rev != old_rev:
         message = f"{repo.name}: {old_rev} -> {new_rev}"
     else:
         message = f"{repo.name}: update"
