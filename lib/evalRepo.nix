@@ -27,8 +27,7 @@ let
   # True if not all arguments are either passed by default (e.g. pkgs) or defaulted (e.g. foo ? 10)
   usesCallPackage = ! lib.all (arg: lib.elem arg (lib.attrNames passedArgs) || args.${arg}) (lib.attrNames args);
 
-in if usesCallPackage then lib.warn ''
+in if usesCallPackage then throw ''
     NUR repository ${prettyName} is using the deprecated callPackage syntax which
     might result in infinite recursion when used with NixOS modules.
-  '' (passedArgs.pkgs.callPackages src {})
-  else expr (builtins.intersectAttrs args passedArgs)
+  '' else expr (builtins.intersectAttrs args passedArgs)
