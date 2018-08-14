@@ -112,9 +112,9 @@ in {
 ## Finding packages
 
 At the moment we do not have a dedicated package search available. However our
-[nur-channel](https://github.com/nix-community/nur-channel) that contains all
-nix expressions from all users can be search via
-[github](https://github.com/nix-community/nur-channel/search).
+[nur-combined](https://github.com/nix-community/nur-combined) repository contains all
+nix expressions from all users and can be search via
+[github](https://github.com/nix-community/nur-combined/search).
 
 ## How to add your own repository.
 

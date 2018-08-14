@@ -46,9 +46,9 @@ git config --global user.email "joerg.nur-bot@thalheim.io"
 git config --global user.signingkey "B4E40EEC9053254E"
 git config --global commit.gpgsign true
 
-git clone git@github.com:nix-community/nur-channel
+git clone git@github.com:nix-community/nur-combined
 
-result/bin/nur build-channel nur-channel
+result/bin/nur combine nur-combined
 
 if [[ -z "$(git diff --exit-code)" ]]; then
   echo "No changes to the output on this push; exiting."
@@ -59,4 +59,4 @@ else
   git push git@github.com:nix-community/NUR HEAD:master
 fi
 
-(cd nur-channel && git push origin master)
+(cd nur-combined && git push origin master)
