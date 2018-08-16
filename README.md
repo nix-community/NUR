@@ -350,7 +350,6 @@ with pkgs.lib;
 }
 ```
 
-
 ## Contribution guideline
 
 - When adding packages to your repository make sure they build and set
@@ -380,6 +379,11 @@ If NUR would be an overlay malicious repositories could
 override existing packages.
 Also without coordination multiple overlays could easily introduce dependency
 cycles.
+
+## Contact
+
+You can chat with us on IRC in channel [#nixos-nur](https://webchat.freenode.net/?url=irc%3A%2F%2Firc.freenode.net%2Fnixos-nur).
+Apart from that we also read posts on [https://discourse.nixos.org](https://discourse.nixos.org/).
 
 ## Roadmap
 
