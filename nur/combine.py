@@ -2,6 +2,7 @@ import logging
 import os
 import shutil
 import subprocess
+from tempfile import TemporaryDirectory
 from argparse import Namespace
 from distutils.dir_util import copy_tree
 from pathlib import Path
@@ -44,12 +45,22 @@ def commit_files(files: List[str], message: str) -> None:
 
 
 def commit_repo(repo: Repo, message: str, path: Path) -> Repo:
-    repo_path = str(path.joinpath(repo.name).resolve())
+    repo_path = path.joinpath(repo.name).resolve()
 
-    copy_tree(repo_source(repo.name), repo_path)
+    tmp: Optional[TemporaryDirectory] = TemporaryDirectory(prefix=str(repo_path.parent))
+    assert tmp is not None
+
+    try:
+        copy_tree(repo_source(repo.name), tmp.name)
+        shutil.rmtree(repo_path, ignore_errors=True)
+        os.rename(tmp.name, repo_path)
+        tmp = None
+    finally:
+        if tmp is not None:
+            tmp.cleanup()
 
     with chdir(str(path)):
-        commit_files([repo_path], message)
+        commit_files([str(repo_path)], message)
 
     return repo
 
