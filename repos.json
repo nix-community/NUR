@@ -26,8 +26,8 @@
             "url": "https://gitlab.com/Ma27/nur-packages"
         },
         "makefu": {
-            "type": "gitlab",
             "file": "makefu/5pkgs/nur.nix",
+            "type": "gitlab",
             "url": "https://git.shackspace.de/krebs/stockholm"
         },
         "manveru": {
