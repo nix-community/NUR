@@ -41,8 +41,8 @@
             "url": "https://gitlab.com/Ma27/nur-packages"
         },
         "makefu": {
-            "rev": "fdd7b3cacf398d40df9e71dc38db1a64faa14537",
-            "sha256": "0xz9vxrhzvjbw7vzwvak1gq6kwgkjjj1zrp7j7zgp41psfg2wzgn",
+            "rev": "b15785ef5520a3bd3a5c729c7f2cfb9d106abec8",
+            "sha256": "11gkqifgrf1n5h0y4rd62myciii0dhdvl7z1fm69v6vkavfnzc5h",
             "url": "https://git.shackspace.de/krebs/stockholm"
         },
         "manveru": {
@@ -75,6 +75,11 @@
             "rev": "30cc5ab2260d6bacdc99d466c8677c133d844c4b",
             "sha256": "1q2w6fzx72q69a5lm2z8c2g5zsgwf1all6qp47kgai66yhc3f355",
             "url": "https://github.com/tilpner/nur-packages"
+        },
+        "yurrriq": {
+            "rev": "1fe8d2b29bad86b55e998b9ad169eb2fec694a59",
+            "sha256": "1mvd1fcnznp5nhb6hlcsvn0v7m4awz64fska5hzwhxjcbbiv236q",
+            "url": "https://github.com/yurrriq/nur-packages"
         }
     }
 }
