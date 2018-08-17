@@ -40,14 +40,19 @@
             "sha256": "0isa0vvzfv963hdd4z84dc9s0wh4lwcacqgl6529vp8f9x6qpzdm",
             "url": "https://github.com/kampka/nix-packages"
         },
+        "lschuermann": {
+            "rev": "dde9bcbe90526e61c8bb3a871afb6b9c0fd48740",
+            "sha256": "1vxlwssqrfkjm0d5k510pi08idcs0jnh7qrznvfz7v6jmn4kazjy",
+            "url": "https://github.com/lschuermann/nur-packages"
+        },
         "ma27": {
             "rev": "b13a88463741f8e9d755e932ea6b15764d7225e8",
             "sha256": "18wy5zygnmrrhyh9v3x3ha33kim61imavrmigfn74cxfs9bhbp5d",
             "url": "https://gitlab.com/Ma27/nur-packages"
         },
         "makefu": {
-            "rev": "0b0d425caed45b053efa631b7260599dbf0eae5d",
-            "sha256": "0q5dd252ck95vp6145prjqz49fqsyncxwh5324cj2h01yb4bppf7",
+            "rev": "d3b76b7f9f236535280ca978215cc9e4b4765039",
+            "sha256": "14d6k2kwf2plqp8yvikr4md396js8fjr4820wysg4fr6xkzvn6ni",
             "url": "https://github.com/makefu/nur-packages"
         },
         "manveru": {
