@@ -1,5 +1,9 @@
 {
     "repos": {
+        "crazedprogrammer": {
+            "file": "pkgs/nur-packages.nix",
+            "url": "https://github.com/CrazedProgrammer/nix"
+        },
         "dezgeg": {
             "url": "https://github.com/dezgeg/nur-packages"
         },
