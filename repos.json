@@ -51,6 +51,10 @@
         "mic92": {
             "url": "https://github.com/Mic92/nur-packages"
         },
+        "mozilla": {
+            "file": "package-set.nix",
+            "url": "https://github.com/mozilla/nixpkgs-mozilla"
+        },
         "mpickering": {
             "submodules": true,
             "url": "https://github.com/mpickering/nur-packages"
