@@ -56,8 +56,8 @@
             "url": "https://github.com/lschuermann/nur-packages"
         },
         "ma27": {
-            "rev": "5bcb92cea2b735b591a5bf6b4d16bc1133584da8",
-            "sha256": "1gdvqqvdjysl29g91m209jljyf70g9vib3vzri85wx8irk9wjr6f",
+            "rev": "c3f082d2b0ea1a29eb6c2d9c6db1b8c0aaad7d03",
+            "sha256": "1n8cwa1pai4ffapdjqx5qfgm2496br54f75mj2x26qp87ghnxz8i",
             "url": "https://gitlab.com/Ma27/nur-packages"
         },
         "makefu": {
@@ -79,6 +79,11 @@
             "rev": "2c1f7a1978c79158175f3938696b42cf6ee85382",
             "sha256": "08iap61j4wr1vm7qxs86121s7p7gvy8zak8hzaxdspvi879qhnrk",
             "url": "https://github.com/Mic92/nur-packages"
+        },
+        "mozilla": {
+            "rev": "5ed3b4f96167fab48f48c24ac913470a77d8fad4",
+            "sha256": "1h3czmnvcs27wdprqmn0p6sdcg4x00lxpfrl04wl86a6avqgh81r",
+            "url": "https://github.com/mozilla/nixpkgs-mozilla"
         },
         "mpickering": {
             "rev": "a9fca192f4960341f49acbcd92de1105616f8f63",
