@@ -11,8 +11,8 @@
             "url": "https://github.com/dezgeg/nur-packages"
         },
         "dtz": {
-            "rev": "ce98968ad4136d7d4af96516515f1259a9025bfb",
-            "sha256": "1mm7dfsyrfmhbwc05diw1sgif90hl8rsdr3adcvlv3049k0xp29v",
+            "rev": "5e6ff654c6f166d69491255a74bf6973186b70dd",
+            "sha256": "0nkvp7vlxg0i0cqp9j4annidii3bgqgv71xs1khliym1v437hca0",
             "url": "https://github.com/dtzWill/nur-packages"
         },
         "dywedir": {
@@ -44,6 +44,11 @@
             "rev": "92c2a48b1ab91ed94af7683a22b4206de69e3b51",
             "sha256": "0isa0vvzfv963hdd4z84dc9s0wh4lwcacqgl6529vp8f9x6qpzdm",
             "url": "https://github.com/kampka/nix-packages"
+        },
+        "kreisys": {
+            "rev": "9a834cc1995eb3ee4b67af7a7eb90e19e046245d",
+            "sha256": "1z1c70shc55c77ny49afnp85r58rvlkk5jp2dmj1j1h906bp7w5w",
+            "url": "https://github.com/kreisys/nur-packages"
         },
         "lheckemann": {
             "rev": "19fadaf7819cf43327c8f663c038773e14c36f46",
