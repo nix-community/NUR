@@ -4,5 +4,6 @@ stdenv.mkDerivation {
   buildInputs = [
     bashInteractive
     hugo
+    python3
   ];
 }
