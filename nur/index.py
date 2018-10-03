@@ -1,49 +1,65 @@
 import json
 import subprocess
+import sys
 from argparse import Namespace
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 from typing import Any, Dict
 
-from .path import ROOT
 
-
-def index_repo(repo: str, expression_file: str) -> Dict[str, Any]:
+def index_repo(directory: Path, repo: str, expression_file: str) -> Dict[str, Any]:
     fetch_source_cmd = [
-        "nix-build",
-        str(ROOT),
-        "-A",
+        "nix",
+        "eval",
+        "--raw",
+        "-f",
+        str(directory.joinpath("default.nix")),
         f"repo-sources.{repo}",
-        "--no-out-link",
     ]
 
-    repo_path = subprocess.check_output(fetch_source_cmd).strip()
+    repo_path = subprocess.check_output(fetch_source_cmd).strip().decode("utf-8")
 
-    expression_path = Path(repo_path.decode("utf-8")).joinpath(expression_file)
+    expression_path = Path(repo_path).joinpath(expression_file)
 
     with NamedTemporaryFile(mode="w") as f:
         expr = f"with import <nixpkgs> {{}}; callPackage {expression_path} {{}}"
         f.write(expr)
         f.flush()
         query_cmd = ["nix-env", "-qa", "*", "--json", "-f", str(f.name)]
-        out = subprocess.check_output(query_cmd).strip()
+        try:
+            out = subprocess.check_output(query_cmd)
+        except subprocess.CalledProcessError:
+            print(f"failed to evaluate {repo}")
+            return {}
+
         raw_pkgs = json.loads(out)
         pkgs = {}
         for name, pkg in raw_pkgs.items():
             pkg["_attr"] = name
+            pkg["_repo"] = repo
+            position = pkg["meta"].get("position", None)
+            # TODO commit hash
+            prefix = f"https://github.com/nix-community/nur-combined/tree/master/repos/{repo}"
+            if position is not None and position.startswith(repo_path):
+                prefix_len = len(repo_path)
+                stripped = position[prefix_len:]
+                path, line = stripped.rsplit(":", 1)
+                pkg["meta"]["position"] = f"{prefix}{path}#L{line}"
+            else:
+                pkg["meta"]["position"] = prefix
             pkgs[f"nur.repos.{repo}.{name}"] = pkg
         return pkgs
 
 
 def index_command(args: Namespace) -> None:
-    manifest_path = ROOT.joinpath("repos.json")
+    directory = Path(args.directory)
+    manifest_path = directory.joinpath("repos.json")
     with open(manifest_path) as f:
         manifest = json.load(f)
     repos = manifest.get("repos", [])
     pkgs: Dict[str, Any] = {}
 
     for (repo, data) in repos.items():
-        pkgs.update(index_repo(repo, data.get("file", "default.nix")))
+        pkgs.update(index_repo(directory, repo, data.get("file", "default.nix")))
 
-    with open(ROOT.joinpath("packages.json"), "w") as f:
-        json.dump(pkgs, f, indent=4)
+    json.dump(pkgs, sys.stdout, indent=4)
