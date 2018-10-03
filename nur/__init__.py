@@ -5,6 +5,7 @@ from typing import List
 from .format_manifest import format_manifest_command
 from .index import index_command
 from .update import update_command
+from .path import ROOT
 
 from .combine import combine_command
 
@@ -27,6 +28,7 @@ def parse_arguments(argv: List[str]) -> argparse.Namespace:
     update.set_defaults(func=update_command)
 
     index = subparsers.add_parser("index")
+    index.add_argument("directory", default=ROOT)
     index.set_defaults(func=index_command)
 
     args = parser.parse_args(argv[1:])
