@@ -1,4 +1,5 @@
 public:
+	git woktree prune
 	git worktree add -B gh-pages public origin/gh-pages
 
 all: public
