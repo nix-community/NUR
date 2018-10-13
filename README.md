@@ -11,8 +11,8 @@ from source and **are not reviewed by any Nixpkgs member**.
 The NUR was created to share new packages from the community in a faster and
 more decentralized way.
 
-NUR automatically check its list of repositories and perform evaluation checks
-before it propagated the updates.
+NUR automatically checks its list of repositories and performs evaluation checks
+before it propagates the updates.
 
 ## Installation
 
@@ -85,8 +85,8 @@ environment.systemPackages = with pkgs; [
 Each contributor can register their repository under a name and is responsible
 for its content.
 
-***NUR does not check repository for malicious content on a regular base and it is
-recommend to check expression before installing them.***
+***NUR does not check the repository for malicious content on a regular basis
+and it is recommended to check the expressions before installing them.***
 
 ### Using modules overlays or library functions in NixOS
 
