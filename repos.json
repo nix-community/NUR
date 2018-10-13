@@ -1,5 +1,8 @@
 {
     "repos": {
+        "bhipple": {
+            "url": "https://github.com/bhipple/nur-packages"
+        },
         "crazedprogrammer": {
             "file": "pkgs/nur-packages.nix",
             "url": "https://github.com/CrazedProgrammer/nix"
