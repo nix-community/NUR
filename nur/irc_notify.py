@@ -83,4 +83,4 @@ class _send:
     def main_loop(self, connection: Connection) -> None:
         for notification in self.notifications:
             connection.privmsg(self.channel, notification)
-            connection.quit("Bye")
+        connection.quit("Bye")
