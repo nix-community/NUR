@@ -18,6 +18,11 @@ def parse_arguments(argv: List[str]) -> argparse.Namespace:
     subparsers = parser.add_subparsers(description="subcommands")
 
     combine = subparsers.add_parser("combine")
+    combine.add_argument(
+        "--irc-notify",
+        type=str,
+        help="Example nur-bot@chat.freenode.net:6697/nixos-nur",
+    )
     combine.add_argument("directory")
     combine.set_defaults(func=combine_command)
 

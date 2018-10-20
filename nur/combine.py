@@ -2,11 +2,11 @@ import logging
 import os
 import shutil
 import subprocess
-from tempfile import TemporaryDirectory
 from argparse import Namespace
 from distutils.dir_util import copy_tree
 from pathlib import Path
-from typing import Dict, List, Optional
+from tempfile import TemporaryDirectory
+from typing import Dict, List, Optional, Tuple
 
 from .fileutils import chdir, write_json_file
 from .manifest import Repo, load_manifest, update_lock_file
@@ -65,28 +65,39 @@ def commit_repo(repo: Repo, message: str, path: Path) -> Repo:
     return repo
 
 
+def repo_link(path: Path) -> str:
+    commit = subprocess.check_output(["git", "-C", path, "rev-parse", "HEAD"])
+    rev = commit.decode("utf-8").strip()[:10]
+    return f"https://github.com/nix-community/nur-combined/commit/{rev}"
+
+
 def update_combined_repo(
     combined_repo: Optional[Repo], repo: Repo, path: Path
-) -> Optional[Repo]:
+) -> Tuple[Optional[Repo], Optional[str]]:
     if repo.locked_version is None:
-        return None
+        return None, None
 
     new_rev = repo.locked_version.rev
     if combined_repo is None:
-        return commit_repo(repo, f"{repo.name}: init at {new_rev}", path)
+        message = f"{repo.name}: init at {new_rev[:10]} ({repo_link(path)})"
+        repo = commit_repo(repo, message, path)
+        message += f" ({repo_link(path)})"
+        return repo, message
 
     assert combined_repo.locked_version is not None
     old_rev = combined_repo.locked_version.rev
 
     if combined_repo.locked_version == repo.locked_version:
-        return repo
+        return repo, None
 
     if new_rev != old_rev:
-        message = f"{repo.name}: {old_rev} -> {new_rev}"
+        message = f"{repo.name}: {old_rev[:10]} -> {new_rev[:10]}"
     else:
         message = f"{repo.name}: update"
 
-    return commit_repo(repo, message, path)
+    repo = commit_repo(repo, message, path)
+    message += f" ({repo_link(path)})"
+    return repo, message
 
 
 def remove_repo(repo: Repo, path: Path) -> None:
@@ -104,7 +115,7 @@ def update_manifest(repos: List[Repo], path: Path) -> None:
     write_json_file(dict(repos=d), path)
 
 
-def update_combined(path: Path) -> None:
+def update_combined(path: Path) -> List[str]:
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
     combined_repos = load_combined_repos(path)
@@ -113,6 +124,7 @@ def update_combined(path: Path) -> None:
     os.makedirs(repos_path, exist_ok=True)
 
     updated_repos = []
+    notifications = []
 
     for repo in manifest.repos:
         combined_repo = None
@@ -120,13 +132,17 @@ def update_combined(path: Path) -> None:
             combined_repo = combined_repos[repo.name]
             del combined_repos[repo.name]
         try:
-            new_repo = update_combined_repo(combined_repo, repo, repos_path)
+            new_repo, notification = update_combined_repo(
+                combined_repo, repo, repos_path
+            )
         except Exception:
             logger.exception(f"Failed to updated repository {repo.name}")
             continue
 
         if new_repo is not None:
             updated_repos.append(new_repo)
+        if notification is not None:
+            notifications.append(notification)
 
     for combined_repo in combined_repos.values():
         remove_repo(combined_repo, path)
@@ -137,6 +153,8 @@ def update_combined(path: Path) -> None:
 
     with chdir(path):
         commit_files(["repos.json", "repos.json.lock"], "update repos.json + lock")
+
+    return notifications
 
 
 def setup_combined() -> None:
@@ -164,4 +182,12 @@ def combine_command(args: Namespace) -> None:
 
     with chdir(combined_path):
         setup_combined()
-    update_combined(combined_path)
+    notifications = update_combined(combined_path)
+
+    if args.irc_notify:
+        from .irc_notify import send
+
+        try:
+            send(args.irc_notify, notifications)
+        except Exception as e:
+            print(f"failed to send irc notifications: {e}")
