@@ -35,6 +35,10 @@
         "kampka": {
             "url": "https://github.com/kampka/nix-packages"
         },
+        "krebs": {
+            "submodules": true,
+            "url": "https://github.com/krebs/nur-packages"
+        },
         "kreisys": {
             "url": "https://github.com/kreisys/nur-packages"
         },
