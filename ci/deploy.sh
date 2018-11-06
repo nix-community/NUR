@@ -26,7 +26,7 @@ fi
 
 export encrypted_080f214a372c_key= encrypted_080f214a372c_iv=
 
-nix-build release.nix
+nix-build --quiet release.nix
 
 if ! is-automatic-update; then
   bash $DIR/lint.sh
