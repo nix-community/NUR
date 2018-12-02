@@ -109,6 +109,28 @@ in {
 }
 ```
 
+### Integrating with HomeManager
+
+Integrating with the home-manager can be done by adding your modules to the `extraModules` attribute.
+You can then configure your services like usual.
+
+```nix
+{
+  extraModules = nur.repos.moredhel.home-manager.modules;
+
+  services.unison = {
+    enable = true;
+    profiles = {
+      org = {
+        src = "/home/user/org";"
+        dest = "/home/user/org.backup";
+        extraArgs = "-batch -watch -ui text -repeat 60 -fat";
+      };
+    };
+  };
+}
+```
+
 ## Finding packages
 
 At the moment we do not have a dedicated package search available. However our
