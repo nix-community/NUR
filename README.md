@@ -111,19 +111,22 @@ in {
 
 ### Integrating with HomeManager
 
-Integrating with the home-manager can be done by adding your modules to the `extraModules` attribute.
+Integrating with the home-manager can be done by adding your modules to the `imports` attribute.
 You can then configure your services like usual.
 
 ```nix
+let
+  nur-no-pkgs = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {};
+in
 {
-  extraModules = nur.repos.moredhel.home-manager.modules;
+  imports = lib.attrValues nur-no-pkgs.repos.moredhel.home-manager.modules;
 
   services.unison = {
     enable = true;
     profiles = {
       org = {
-        src = "/home/user/org";"
-        dest = "/home/user/org.backup";
+        src = "/home/moredhel/org";"
+        dest = "/home/moredhel/org.backup";
         extraArgs = "-batch -watch -ui text -repeat 60 -fat";
       };
     };
