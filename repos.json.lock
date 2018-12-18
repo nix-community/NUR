@@ -16,8 +16,8 @@
             "url": "https://github.com/dezgeg/nur-packages"
         },
         "dtz": {
-            "rev": "b43235ddc4dec3381325829dc7b843fcd7e14e42",
-            "sha256": "1pbk0kn2xwpd8dwp3rps0whadn961msb9la33g79kl8k9df9mrnf",
+            "rev": "9c33631949aa540017690daa9c8692f98830591f",
+            "sha256": "07k1bicwdv7cpp3wfalqh5a3wkfzj1i8j5j0br5kcmlnx2nzw1f5",
             "url": "https://github.com/dtzWill/nur-packages"
         },
         "dywedir": {
@@ -63,7 +63,8 @@
         },
         "kreisys": {
             "rev": "7c66402bb68b6d7b775ff101ee4fb4b7cc51e8c7",
-            "sha256": "0n05pmm4jg20a7q55j5y1dbs4p094sybfwmi9ymy38f6is68pk98",
+            "sha256": "10k1yqvkrb1jzyny7b7hazfdnsq3rhwzfdjha5haffp2n40m1v0h",
+            "submodules": true,
             "url": "https://github.com/kreisys/nur-packages"
         },
         "lheckemann": {
