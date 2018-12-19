@@ -1,12 +1,16 @@
 { nurpkgs ? import <nixpkgs> {} # For nixpkgs dependencies used by NUR itself
   # Dependencies to call NUR repos with
-, pkgs ? null }:
+, pkgs ? null
+  # Overrides over normal NUR repos (e.g. development clones)
+, repoOverrides ? {} }:
 
 let
-  manifest = (builtins.fromJSON (builtins.readFile ./repos.json)).repos;
-  lockedRevisions = (builtins.fromJSON (builtins.readFile ./repos.json.lock)).repos;
-
   inherit (nurpkgs) lib;
+
+  manifest = (builtins.fromJSON (builtins.readFile ./repos.json)).repos //
+    lib.mapAttrs (_: attr: removeAttrs attr ["lock"]) repoOverrides;
+  lockedRevisions = (builtins.fromJSON (builtins.readFile ./repos.json.lock)).repos //
+    lib.mapAttrs (_: attr: { inherit (attr) submodules url; } // attr.lock or {}) repoOverrides;
 
   repoSource = name: attr: import ./lib/repoSource.nix {
     inherit name attr manifest lockedRevisions lib;

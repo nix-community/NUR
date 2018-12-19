@@ -22,6 +22,8 @@ let
 in
   if lib.pathExists localPath then
     "${localPath}"
+  else if type == "path" then
+    builtins.toPath attr.url
   else if lib.hasPrefix "https://github.com" attr.url && !submodules then
     fetchzip {
       url = "${attr.url}/archive/${revision.rev}.zip";
