@@ -15,9 +15,14 @@
             "sha256": "0x9q6zdw56sldffqhyvwdx64bjzw5yb6idag4ggrf6ivisrvyszy",
             "url": "https://github.com/dezgeg/nur-packages"
         },
+        "dguibert": {
+            "rev": "42a2cd353f2bfab06737d296945fac37582a92d6",
+            "sha256": "0p1kcf6dpfig77q45syk590p7lcxc9ksbahrxvybb2f4mij62qyl",
+            "url": "https://github.com/dguibert/nur-packages"
+        },
         "dtz": {
-            "rev": "9c33631949aa540017690daa9c8692f98830591f",
-            "sha256": "07k1bicwdv7cpp3wfalqh5a3wkfzj1i8j5j0br5kcmlnx2nzw1f5",
+            "rev": "097f153b2fe5319f8485522ff279ee7aaa07ee77",
+            "sha256": "0jhzkk9nhvx0jcvgrbk3j2d3incsfgvlngpfk1ry30hfh4wwpd00",
             "url": "https://github.com/dtzWill/nur-packages"
         },
         "dywedir": {
@@ -31,8 +36,8 @@
             "url": "https://framagit.org/eeva/nur-packages"
         },
         "fgaz": {
-            "rev": "21ede37bcba4855eb010d3f4902a80a756db0c18",
-            "sha256": "086a22fjch473j986bddwh16pnagbv1rjw5v940kkmhlp7vnw491",
+            "rev": "00fcd7f41cfd8de6ab4df7d76780d9f8aa6c6d2d",
+            "sha256": "07pjl998x5zh3ppfdqjdg480g4m0dd6vp3767jr3xbr7d3i41jkn",
             "url": "https://github.com/fgaz/nur-packages"
         },
         "izorkin": {
