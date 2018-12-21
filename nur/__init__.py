@@ -1,18 +1,28 @@
 import argparse
+import logging
 import sys
 from typing import List
 
+from .combine import combine_command
 from .format_manifest import format_manifest_command
 from .index import index_command
-from .update import update_command
 from .path import ROOT
+from .update import update_command
 
-from .combine import combine_command
+LOG_LEVELS = dict(
+    debug=logging.DEBUG,
+    info=logging.INFO,
+    error=logging.ERROR,
+    critical=logging.CRITICAL,
+)
 
 
 def parse_arguments(argv: List[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         prog=argv[0], description="nur management commands"
+    )
+    parser.add_argument(
+        "--log-level", type=str, default="debug", choices=list(LOG_LEVELS.keys())
     )
 
     subparsers = parser.add_subparsers(description="subcommands")
@@ -48,4 +58,6 @@ def parse_arguments(argv: List[str]) -> argparse.Namespace:
 
 def main() -> None:
     args = parse_arguments(sys.argv)
+    logging.basicConfig(level=LOG_LEVELS[args.log_level])
+
     args.func(args)
