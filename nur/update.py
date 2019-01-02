@@ -50,7 +50,7 @@ import {EVALREPO_PATH} {{
 
         logger.info(f"Evaluate repository {repo.name}")
         proc = subprocess.Popen(
-            cmd, env=dict(PATH=os.environ["PATH"]), stdout=subprocess.PIPE
+            cmd, env=dict(PATH=os.environ["PATH"]), stdout=subprocess.DEVNULL
         )
         try:
             res = proc.wait(5)
