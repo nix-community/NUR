@@ -52,7 +52,10 @@ import {EVALREPO_PATH} {{
         proc = subprocess.Popen(
             cmd, env=dict(PATH=os.environ["PATH"]), stdout=subprocess.PIPE
         )
-        res = proc.wait()
+        try:
+            res = proc.wait(5)
+        except subprocess.TimeoutExpired:
+            raise NurError(f"evaluation for {repo.name} timed out of after 5 seconds")
         if res != 0:
             raise NurError(f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}")
 
