@@ -5,7 +5,7 @@ import tempfile
 from argparse import Namespace
 from pathlib import Path
 
-from .error import NurError
+from .error import EvalError
 from .manifest import Repo, load_manifest, update_lock_file
 from .path import EVALREPO_PATH, LOCK_PATH, MANIFEST_PATH, nixpkgs_path
 from .prefetch import prefetch
@@ -55,9 +55,9 @@ import {EVALREPO_PATH} {{
         try:
             res = proc.wait(5)
         except subprocess.TimeoutExpired:
-            raise NurError(f"evaluation for {repo.name} timed out of after 5 seconds")
+            raise EvalError(f"evaluation for {repo.name} timed out of after 5 seconds")
         if res != 0:
-            raise NurError(f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}")
+            raise EvalError(f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}")
 
 
 def update(repo: Repo) -> Repo:
@@ -71,15 +71,21 @@ def update(repo: Repo) -> Repo:
 
 
 def update_command(args: Namespace) -> None:
+    logging.basicConfig(level=logging.INFO)
+
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
     for repo in manifest.repos:
         try:
             update(repo)
-        except Exception:
+        except EvalError as e:
             if repo.locked_version is None:
                 # likely a repository added in a pull request, make it fatal then
                 raise
+            # Do not print stack traces
+            logger.error(f"repository {repo.name} failed to evaluate: {e}")
+        except Exception:
+            # for non-evaluation errors we want the stack trace
             logger.exception(f"Failed to updated repository {repo.name}")
 
     update_lock_file(manifest.repos, LOCK_PATH)
