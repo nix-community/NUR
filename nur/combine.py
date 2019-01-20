@@ -185,7 +185,11 @@ def combine_command(args: Namespace) -> None:
     notifications = update_combined(combined_path)
 
     if args.irc_notify:
-        from .irc_notify import send
+        try:
+            from .irc_notify import send
+        except ImportError as e:
+            print(f"failed to import irc_notify, skipping notification: {e}")
+            return
 
         try:
             send(args.irc_notify, notifications)
