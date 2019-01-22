@@ -350,6 +350,26 @@ with pkgs.lib;
 }
 ```
 
+## Overriding repositories
+
+You can override repositories using `repoOverrides` argument.
+This allows to test changes before publishing.
+
+```
+{
+  packageOverrides = pkgs: {
+    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
+      inherit pkgs;
+      repoOverrides = {
+        mic92 = import ../nur-packages;
+        ## remote locations are also possible:
+        # mic92 = import (builtins.fetchTarball "https://github.com/your-user/nur-packages/archive/master.tar.gz");
+      };
+    };
+  };
+}
+```
+
 ## Contribution guideline
 
 - When adding packages to your repository make sure they build and set
