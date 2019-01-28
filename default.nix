@@ -1,6 +1,8 @@
 { nurpkgs ? import <nixpkgs> {} # For nixpkgs dependencies used by NUR itself
   # Dependencies to call NUR repos with
-, pkgs ? null }:
+, pkgs ? null
+, repoOverrides ? { }
+}:
 
 let
   manifest = (builtins.fromJSON (builtins.readFile ./repos.json)).repos;
@@ -20,6 +22,6 @@ let
   };
 
 in {
-  repos =  lib.mapAttrs createRepo manifest;
+  repos =  (lib.mapAttrs createRepo manifest) // repoOverrides;
   repo-sources = lib.mapAttrs repoSource manifest;
 }
