@@ -1,5 +1,10 @@
 {
     "repos": {
+        "0x4a6f": {
+            "rev": "293105465d53ea2806a3848b46fbd2e4467dd1d6",
+            "sha256": "017yjav6a05xvqwg5p1xl7p5malazx770a5s49k3qacz3q176sfq",
+            "url": "https://github.com/0x4A6F/nur-packages"
+        },
         "bb010g": {
             "rev": "5c415060b569fb3b17ab34c0a05985950c993bc7",
             "sha256": "19jx4abm20y6zwfby48m0x6xj6qnss3knrxw8aykwscrh14nyfxi",
@@ -149,8 +154,8 @@
             "url": "https://github.com/pschuprikov/nur-packages"
         },
         "smaret": {
-            "rev": "1755eac48d9e510e19e45f85648d5fe113148d34",
-            "sha256": "0s4wy6xjjalv31l51qx7qwfilah0wf5zd2dljmzfk8sbic15m5f4",
+            "rev": "3c971b37b13c855d10dfc8f091d34c912cee46ba",
+            "sha256": "19ajzg6zygqa7sg9bxfg67wzk43ga1h6p852sxwypw74vgwcmq5n",
             "url": "https://github.com/smaret/nur-packages"
         },
         "suhr": {
