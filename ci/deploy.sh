@@ -48,8 +48,7 @@ git config --global commit.gpgsign true
 
 git clone git@github.com:nix-community/nur-combined
 
-result/bin/nur combine \
-  --irc-notify nur-bot@chat.freenode.net:6697/nixos-nur nur-combined
+result/bin/nur combine
 
 if [[ -z "$(git diff --exit-code)" ]]; then
   echo "No changes to the output on this push; exiting."

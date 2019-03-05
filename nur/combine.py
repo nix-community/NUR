@@ -182,16 +182,4 @@ def combine_command(args: Namespace) -> None:
 
     with chdir(combined_path):
         setup_combined()
-    notifications = update_combined(combined_path)
-
-    if args.irc_notify:
-        try:
-            from .irc_notify import send
-        except ImportError as e:
-            print(f"failed to import irc_notify, skipping notification: {e}")
-            return
-
-        try:
-            send(args.irc_notify, notifications)
-        except Exception as e:
-            print(f"failed to send irc notifications: {e}")
+    update_combined(combined_path)
