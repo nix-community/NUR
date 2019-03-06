@@ -59,9 +59,7 @@ class GitlabRepo:
 
     def latest_commit(self) -> str:
         path = "/".join(self.path)
-        url = (
-            f"https://{self.domain}/{path}/commits/master?format=atom"
-        )
+        url = f"https://{self.domain}/{path}/commits/master?format=atom"
         return fetch_commit_from_feed(url)
 
     def prefetch(self, ref: str) -> Tuple[str, Path]:
@@ -106,9 +104,7 @@ def prefetch_github(repo: Repo) -> Tuple[LockedVersion, Optional[Path]]:
 
 def prefetch_gitlab(repo: Repo) -> Tuple[LockedVersion, Optional[Path]]:
     gitlab_path = Path(repo.url.path)
-    gl_repo = GitlabRepo(
-        repo.url.hostname, list(gitlab_path.parts[1:])
-    )
+    gl_repo = GitlabRepo(repo.url.hostname, list(gitlab_path.parts[1:]))
     commit = gl_repo.latest_commit()
     locked_version = repo.locked_version
     if locked_version is not None:
