@@ -5,7 +5,7 @@ import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Optional, Tuple
+from typing import Optional, Tuple, List
 from urllib.parse import urljoin, urlparse
 
 from .error import NurError
@@ -53,19 +53,18 @@ class GithubRepo:
 
 
 class GitlabRepo:
-    def __init__(self, domain: str, owner: str, name: str) -> None:
+    def __init__(self, domain: str, path: List[str]) -> None:
         self.domain = domain
-        self.owner = owner
-        self.name = name
+        self.path = path
 
     def latest_commit(self) -> str:
-        url = (
-            f"https://{self.domain}/{self.owner}/{self.name}/commits/master?format=atom"
-        )
+        path = "/".join(self.path)
+        url = f"https://{self.domain}/{path}/commits/master?format=atom"
         return fetch_commit_from_feed(url)
 
     def prefetch(self, ref: str) -> Tuple[str, Path]:
-        url = f"https://{self.domain}/api/v4/projects/{self.owner}%2F{self.name}/repository/archive.tar.gz?sha={ref}"
+        escaped_path = "%2F".join(self.path)
+        url = f"https://{self.domain}/api/v4/projects/{escaped_path}/repository/archive.tar.gz?sha={ref}"
         return nix_prefetch_zip(url)
 
 
@@ -105,9 +104,7 @@ def prefetch_github(repo: Repo) -> Tuple[LockedVersion, Optional[Path]]:
 
 def prefetch_gitlab(repo: Repo) -> Tuple[LockedVersion, Optional[Path]]:
     gitlab_path = Path(repo.url.path)
-    gl_repo = GitlabRepo(
-        repo.url.hostname, gitlab_path.parts[-2], gitlab_path.parts[-1]
-    )
+    gl_repo = GitlabRepo(repo.url.hostname, list(gitlab_path.parts[1:]))
     commit = gl_repo.latest_commit()
     locked_version = repo.locked_version
     if locked_version is not None:
