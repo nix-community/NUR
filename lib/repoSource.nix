@@ -10,8 +10,8 @@ let
     len = length parts;
   in {
     domain = elemAt parts 2;
-    owner = elemAt parts (len - 2);
-    repo = elemAt parts (len - 1);
+    # Allow for deeper hierarchies than owner/repo (GL has groups and subgroups)
+    path = lib.drop 3 parts;
   };
 
   revision = lockedRevisions.${name};
@@ -30,8 +30,9 @@ in
   else if (lib.hasPrefix "https://gitlab.com" attr.url || type == "gitlab") && !submodules then
     let
       gitlab = parseGitlabUrl attr.url;
+      escapedPath = builtins.concatStringsSep "%2F" gitlab.path;
     in fetchzip {
-      url = "https://${gitlab.domain}/api/v4/projects/${gitlab.owner}%2F${gitlab.repo}/repository/archive.tar.gz?sha=${revision.rev}";
+      url = "https://${gitlab.domain}/api/v4/projects/${escapedPath}/repository/archive.tar.gz?sha=${revision.rev}";
       inherit (revision) sha256;
     }
   else
