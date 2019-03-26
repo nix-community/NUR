@@ -193,6 +193,11 @@
             "sha256": "1hvq5jpsmzd8fih10691l94gkfgh109cfp16kqavps1jy76v24vz",
             "url": "https://github.com/tilpner/nur-packages"
         },
+        "tox": {
+            "rev": "dc8883c326cba0203c7c6e4ce7a1a79615aa1827",
+            "sha256": "04hmwdgzjmqa79f1i0cj6ibqb9fik3j2q6jvsk0icavn0hc8pgai",
+            "url": "https://github.com/tox-rs/nur-tox"
+        },
         "vdemeester": {
             "rev": "adbadd23a894c39699cb1ff462253287ad92a0ae",
             "sha256": "1bmndf9xahsspnjkw0fbaxcz1x8zdf71dwhqh6q96ligvk02g9jw",
