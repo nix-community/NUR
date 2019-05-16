@@ -11,8 +11,8 @@
             "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
         },
         "bb010g": {
-            "rev": "f7e020b53cd7ffb526ff26f1bc295ce381ec2cc9",
-            "sha256": "1l88jp92nl8i4kbk9a93yj32f3pjy4vja2h94af5wzhbayddqrfq",
+            "rev": "7ba15d8688197f792352fabe68d96ef5f4e8478f",
+            "sha256": "1xd4d7l2wri7j7b9xpyzlsjzw8qn5sl1lfjc95j8wjvzimn7rdjm",
             "url": "https://github.com/bb010g/nur-packages"
         },
         "bendlas": {
@@ -31,8 +31,8 @@
             "url": "https://github.com/clefru/nur-packages"
         },
         "crazedprogrammer": {
-            "rev": "954302f1c1a76838900c7f3bd50a966f4b062adc",
-            "sha256": "1dxyksyriggr4llnqziaihrwr3pdb60s1ixgsc65s8z7n1x48y2y",
+            "rev": "1379dc1766ad204942f408ae3dbae43fd86dfe15",
+            "sha256": "17lb85glchzhr30g8iymi2gz6gf40pqs3ihsaw680xsxp5j6isnv",
             "url": "https://github.com/CrazedProgrammer/nix"
         },
         "dezgeg": {
@@ -66,8 +66,8 @@
             "url": "https://github.com/fgaz/nur-packages"
         },
         "izorkin": {
-            "rev": "9d5dbb03c67a60b6b0e76ffb4ab6d4455bdfb113",
-            "sha256": "1zn2h5p5zpp9ba3qj333sipmzq66bkw70p6yqx6yk02268rlfaz6",
+            "rev": "6485cc88065bd8812dc7ad41648badfdb7c62631",
+            "sha256": "18fqj5w70ijp6cyr7b93kyjjxxm6nlvgksw9zb6j8vazp056qx8d",
             "url": "https://github.com/Izorkin/nur-packages"
         },
         "johnazoidberg": {
@@ -113,8 +113,8 @@
             "url": "https://github.com/lschuermann/nur-packages"
         },
         "makefu": {
-            "rev": "464f272ad8ef4011c4326c4d666697f865435b2c",
-            "sha256": "0g487gza4j45ckqc7za9f6j71dvs6kg5h7ixlfy8fgp7dlw51jb5",
+            "rev": "2bb5686ca83322c5cbad7e9fe5449d4459b0d2ce",
+            "sha256": "0lgfh3j26aqs0pygj8449qqvzrwwarl3n4597y5607h9d1xz0766",
             "url": "https://github.com/makefu/nur-packages"
         },
         "matthewbauer": {
@@ -143,8 +143,8 @@
             "url": "https://github.com/mozilla/nixpkgs-mozilla"
         },
         "mpickering": {
-            "rev": "cee1a44479345b0d8f48b518c129de0b996a88bc",
-            "sha256": "1lby8n01vk25w6civl3yhv4fngcv4s5cmsm9g4ywmlr4rzah6ysy",
+            "rev": "4171d7fe71b75d61ac767607889b408005f4d116",
+            "sha256": "0i79rzkc2rlpr8770s6b8hg68fh52ph8qjimhra8x2qf9i9skl72",
             "submodules": true,
             "url": "https://github.com/mpickering/nur-packages"
         },
@@ -169,8 +169,8 @@
             "url": "https://github.com/pschuprikov/nur-packages"
         },
         "rycee": {
-            "rev": "e2590d5f68d2d396f270a31b966b54356eb7b78d",
-            "sha256": "01m9s755c9lxqhh216z6d1lhx2p6pp25dqzsrs1nqmz8cr5qid7x",
+            "rev": "3b57fe0f28dd5e9ea7e10e6b9242e9dca3452c7c",
+            "sha256": "1aq86kxxxv4v6x94dyywbrcp4d3zbh252zij5x6xm4n2sra5r1aa",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "smaret": {
@@ -204,8 +204,8 @@
             "url": "https://github.com/ysndr/nur-packages"
         },
         "yurrriq": {
-            "rev": "9aba610d185b355bf47329b5ff47178068809a98",
-            "sha256": "1m0n71zjsjnwr9gz3nahzbc9ik83jj14l3mvpkvi44zlksz5nrmz",
+            "rev": "91af0de1f0ab501194540ca5356f16ca19055ed8",
+            "sha256": "1mqzsrkv9fh1rsv7rfxyyvzm9sxg3zqd2z22143y785chzrsniv0",
             "url": "https://github.com/yurrriq/nur-packages"
         }
     }
