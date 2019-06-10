@@ -148,8 +148,8 @@
             "url": "https://github.com/mozilla/nixpkgs-mozilla"
         },
         "mpickering": {
-            "rev": "4171d7fe71b75d61ac767607889b408005f4d116",
-            "sha256": "0i79rzkc2rlpr8770s6b8hg68fh52ph8qjimhra8x2qf9i9skl72",
+            "rev": "8e6c3b819fc68229ef832e5df646d0b4d1c7aa8d",
+            "sha256": "03qig0af7vkfk4kwpw9c09agrxfkafxmi8m42ky25piq6ql962a3",
             "submodules": true,
             "url": "https://github.com/mpickering/nur-packages"
         },
@@ -209,8 +209,8 @@
             "url": "https://github.com/ysndr/nur-packages"
         },
         "yurrriq": {
-            "rev": "26882211055a54695ea80a77ee5c359a24b19930",
-            "sha256": "10dy7hjn40rqqf7hj7x5a708bg5iks4ll7razykhf31zyzckf1k8",
+            "rev": "1d4f9cd9dd7d22131baed941fc333247598c05c1",
+            "sha256": "15bwhzpk62pxb93cn4a6fn58x0x0xk7g65zhsg81lz6syhh8nj0z",
             "url": "https://github.com/yurrriq/nur-packages"
         }
     }
