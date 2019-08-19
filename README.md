@@ -111,7 +111,7 @@ in {
 
 ### Integrating with Home Manager
 
-Integrating with the home-manager can be done by adding your modules to the `imports` attribute.
+Integrating with [Home Manager](https://github.com/rycee/home-manager) can be done by adding your modules to the `imports` attribute.
 You can then configure your services like usual.
 
 ```nix
