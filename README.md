@@ -109,7 +109,7 @@ in {
 }
 ```
 
-### Integrating with HomeManager
+### Integrating with Home Manager
 
 Integrating with the home-manager can be done by adding your modules to the `imports` attribute.
 You can then configure your services like usual.
