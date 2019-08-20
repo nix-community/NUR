@@ -125,7 +125,7 @@ in
     enable = true;
     profiles = {
       org = {
-        src = "/home/moredhel/org";"
+        src = "/home/moredhel/org";
         dest = "/home/moredhel/org.backup";
         extraArgs = "-batch -watch -ui text -repeat 60 -fat";
       };
