@@ -137,6 +137,11 @@
             "sha256": "14k1hcjlis31abn1h0avpdqh5md686nbvipc6lsf8v95v3jpb3ga",
             "url": "https://github.com/makefu/nur-packages"
         },
+        "marzipankaiser": {
+            "rev": "6a7a4b98a2801c918c718d2710a92eca62bca19b",
+            "sha256": "1cdflmj71dxgmqykfiapn4ifib5yjlrvc6iv450b6y1ijg40xxi8",
+            "url": "https://github.com/marzipankaiser/nur-packages"
+        },
         "matthewbauer": {
             "rev": "21b678d31d567730921dd932fef6682694715b65",
             "sha256": "0h5al1rd3pklk5m76g47l5c34l272grappbaracxi9ryzmsxckc4",
@@ -199,8 +204,8 @@
             "url": "https://github.com/pschuprikov/nur-packages"
         },
         "rycee": {
-            "rev": "03d6f568332c160feae02bd83f6fd93aa797b39e",
-            "sha256": "1k9whs98b369l5rzammfps5nn5ylwxv9q3izffl651np60753idp",
+            "rev": "073172488c42ae5ca278102248b00b410ad06f31",
+            "sha256": "0ysc569b8s104g4ljiji1mxi7q84s1hrnmxl9y5da2fwv0k6ysq5",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "smaret": {
