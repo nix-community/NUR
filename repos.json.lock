@@ -11,8 +11,8 @@
             "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
         },
         "arc": {
-            "rev": "0aa464d94adf583a43729488fc5a5fb38d7b3a64",
-            "sha256": "06jcysgcj8dm02xlmqfnc0qyh16d5n93rk34szflv9sri99qik7y",
+            "rev": "24a9d625db878f1c047bcc5bcbe5c576cf102476",
+            "sha256": "1ycvv3ayda5jz5rjflnhl9p7q5jihfhwssjlwq5ma670kn8vghxa",
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "balsoft": {
@@ -45,6 +45,11 @@
             "sha256": "1qls6zr63rm3rg9f4jw7k1rkgprzjdw9iwc9k3wrvmwqj5vnz27n",
             "url": "https://github.com/clefru/nur-packages"
         },
+        "cransom": {
+            "rev": "7cd67b0184135c4a2c7406059e92d2aa34e81d3b",
+            "sha256": "1b46l697q0dy5anlxna4l9r7y1gp7zvaz0g9dlvrdlii42y83k8a",
+            "url": "https://github.com/cransom/nur-packages"
+        },
         "crazedprogrammer": {
             "rev": "d6e67757f8124a629636fb8b09baaeb0ba3ac49f",
             "sha256": "09z5qgmsbrygny3b3qxrh6spihl1s5mpqpcqq1a9cj8rjk5jshqb",
@@ -61,8 +66,8 @@
             "url": "https://github.com/dguibert/nur-packages"
         },
         "dtz": {
-            "rev": "f607829df136cfc45d7bcdaf42a588b58f1d6d6b",
-            "sha256": "00z3fh1jjdi1r2yaqh8qxcybh6l27a6g6kr16x7qfb44hikxv67m",
+            "rev": "0506a93f185ef6e89861d916b5756abe902891d9",
+            "sha256": "0nmavkkbqnfqdf7wf6bg0brzrkzx0xjjk1si14b91w1z51x3wljw",
             "url": "https://github.com/dtzWill/nur-packages"
         },
         "dywedir": {
@@ -158,8 +163,8 @@
             "url": "https://github.com/moaxcp/nur"
         },
         "moredhel": {
-            "rev": "dd8d16eb47692e04cff891fed3c23f8db175a1d5",
-            "sha256": "1m23mwibyx77851hvkvmlj2vm6f18hi80ik77823ac8v13mm4z39",
+            "rev": "0efec61d26ae2e84bf14fb4697e390cc971ca574",
+            "sha256": "1w9kqdv9z8phbw5ypxaaz1pbnwsnbl7ybbkghlshk4xqamkcblr0",
             "url": "https://github.com/moredhel/nur-packages"
         },
         "moredread": {
@@ -204,8 +209,8 @@
             "url": "https://github.com/pschuprikov/nur-packages"
         },
         "rycee": {
-            "rev": "bb44de771e0a5c05485cd9b1444220f2bbfa77f6",
-            "sha256": "0k95q12cqmb0ajz5m2xhwxdbhc85msjg9w63w7n7i49fi1pzlahx",
+            "rev": "35b54fb65dbf92017333ed1274c8e90a7759e822",
+            "sha256": "1yyxfcb63k1g1yzidfklb376p5snz85lvfg7alny5cfhaymbvr5w",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "smaret": {
