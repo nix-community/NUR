@@ -65,6 +65,11 @@
             "sha256": "09z5qgmsbrygny3b3qxrh6spihl1s5mpqpcqq1a9cj8rjk5jshqb",
             "url": "https://github.com/CrazedProgrammer/nix"
         },
+        "dandellion": {
+            "rev": "5fe5988ce3314233cdfd9151e9d1f616a5c9023f",
+            "sha256": "1g9czgr9zs2amfga04klgfijah8gwiw1x6l07hjhn6n17w7bfixy",
+            "url": "https://git.dodsorf.as/Dandellion/NUR"
+        },
         "dezgeg": {
             "rev": "2d1018064f60640b6dcc2201efcfc9d0a92a7889",
             "sha256": "0x9q6zdw56sldffqhyvwdx64bjzw5yb6idag4ggrf6ivisrvyszy",
@@ -153,8 +158,8 @@
             "url": "https://github.com/makefu/nur-packages"
         },
         "marzipankaiser": {
-            "rev": "ee348c860d07873e3c81dba6ae261d0d6b7798aa",
-            "sha256": "0clm4c7n1cbiq43z2bn4gn3qarhvgkl7f56h0d61b5s7r9wycjyl",
+            "rev": "6c69a1331d958242a6e0d58c5baa1a67a104bab7",
+            "sha256": "1ydp1inhkmmcjr6036psf876jg68a261a710w3yygmc99mbb1cj8",
             "url": "https://github.com/marzipankaiser/nur-packages"
         },
         "matthewbauer": {
