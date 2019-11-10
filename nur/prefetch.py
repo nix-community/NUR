@@ -75,8 +75,9 @@ def prefetch_git(repo: Repo) -> Tuple[LockedVersion, Path]:
     cmd += [repo.url.geturl()]
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode != 0:
+        stderr = result.stderr.decode("utf-8")
         raise NurError(
-            f"Failed to prefetch git repository {repo.url.geturl()}: {result.stderr}"
+            f"Failed to prefetch git repository {repo.url.geturl()}: {stderr}"
         )
 
     metadata = json.loads(result.stdout)
@@ -104,7 +105,9 @@ def prefetch_github(repo: Repo) -> Tuple[LockedVersion, Optional[Path]]:
 
 def prefetch_gitlab(repo: Repo) -> Tuple[LockedVersion, Optional[Path]]:
     gitlab_path = Path(repo.url.path)
-    gl_repo = GitlabRepo(repo.url.hostname, list(gitlab_path.parts[1:]))
+    hostname = repo.url.hostname
+    assert hostname is not None, f"Expect a hostname for Gitlab repo: {repo.name}"
+    gl_repo = GitlabRepo(hostname, list(gitlab_path.parts[1:]))
     commit = gl_repo.latest_commit()
     locked_version = repo.locked_version
     if locked_version is not None:
