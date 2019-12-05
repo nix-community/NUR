@@ -7,6 +7,9 @@
             "type": "gitlab",
             "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
         },
+        "angr": {
+            "url": "https://github.com/angr/nixpkgs"
+        },
         "arc": {
             "file": "nur.nix",
             "url": "https://github.com/arcnmx/nixexprs"
