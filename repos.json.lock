@@ -10,6 +10,11 @@
             "sha256": "082k3j383zl7vp8fmbwjdh9wmnhv776i6in3pjf3g06ijb4cwcg1",
             "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
         },
+        "angr": {
+            "rev": "44ad920a43c21a1776541da05708c0b972d56025",
+            "sha256": "0nd064cgg13h7ang20cjrcwdk07mah9a8hads5f81k1qmvxhc7jz",
+            "url": "https://github.com/angr/nixpkgs"
+        },
         "arc": {
             "rev": "460f30883949e0dcfb744ce85dc55a3fe4beb33e",
             "sha256": "10mb2j7s1lhwm0nzgq82pxhjmplvz2bqzmgp9a5rbgplgq87w995",
@@ -237,6 +242,11 @@
             "rev": "22776f0dda6df8e38e5c4a57445c35a4c8dbe925",
             "sha256": "036ca4b67cnjny80f9qsfk6vcl2qy8zcc95swaqhbpfabyzbx5sx",
             "url": "https://github.com/pschuprikov/nur-packages"
+        },
+        "rummik": {
+            "rev": "7c563feb6481814adcc47d46d8e062367392c97e",
+            "sha256": "0vc4rz4hkfksj50wlzib2gfcrz6pkja5pl3yybmmaxnqpncwvn1p",
+            "url": "https://gitlab.com/rummik/nixos/nur-packages"
         },
         "rycee": {
             "rev": "a57f2c69294833b6670b150673fec2ea6156b0a0",
