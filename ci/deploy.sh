@@ -32,6 +32,8 @@ if ! is-automatic-update; then
   bash $DIR/lint.sh
 fi
 
+set -x
+
 result/bin/nur update
 nix-build
 
