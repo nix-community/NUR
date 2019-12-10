@@ -51,8 +51,8 @@
             "url": "https://github.com/bhipple/nur-packages"
         },
         "chagra": {
-            "rev": "9e6d0dde0fc5b1c2ca7421716e075702d229a538",
-            "sha256": "1sascrf4y6cf3cj0686jabxvvwmi0bp093pmxyqijl2zj8j898dn",
+            "rev": "64d3f880ee7e3e35561103ea89c767923a760dda",
+            "sha256": "1bagzdjik6xnsv7a0m2ffinb4fvlmr7ih5qfc5md3pa72zj2hlgw",
             "url": "https://github.com/ihebchagra/nur-packages"
         },
         "clefru": {
@@ -109,6 +109,11 @@
             "rev": "52f4ddcb5b8cc3d29b8a62e23908450dacf5a66a",
             "sha256": "0shbzhn3qbdq1vkcinqijc2alvgpkscgryyazg5mvhj3440gafvw",
             "url": "https://github.com/Gricad/nur-packages"
+        },
+        "ilya-fedin": {
+            "rev": "3435b742d9b82e0971b8f14e3d8effa085309efd",
+            "sha256": "082r7m2d3nmppv8lqssgk6x12y8fzalahxssxylnz3cvd4vkbv0n",
+            "url": "https://github.com/ilya-fedin/nur-repository"
         },
         "immae": {
             "rev": "1a0c63d1b305e092b98c4d22d657a303a41ee238",
@@ -249,8 +254,8 @@
             "url": "https://gitlab.com/rummik/nixos/nur-packages"
         },
         "rycee": {
-            "rev": "8361e3c1effddf187bf2208ab918cb8b8c2aecfa",
-            "sha256": "0pxqw1p1sc4cfpwk1fk46kw2fz1fj2kbn9xknwaf8i7fp6965cp5",
+            "rev": "201664dc38b3a5bd48ca54d302437f440aa05fb3",
+            "sha256": "1x3z5ba5j9kharg101wcqj5fdp57gxs00x55rzk53ahmz9kzs55l",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "sgo": {
