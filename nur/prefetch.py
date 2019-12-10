@@ -5,7 +5,7 @@ import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Optional, Tuple, List
+from typing import List, Optional, Tuple
 from urllib.parse import urljoin, urlparse
 
 from .error import NurError
@@ -73,15 +73,22 @@ def prefetch_git(repo: Repo) -> Tuple[LockedVersion, Path]:
     if repo.submodules:
         cmd += ["--fetch-submodules"]
     cmd += [repo.url.geturl()]
-    result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    if result.returncode != 0:
-        stderr = result.stderr.decode("utf-8")
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    try:
+        stdout, stderr = proc.communicate(timeout=30)
+    except subprocess.TimeoutExpired:
+        proc.kill()
         raise NurError(
-            f"Failed to prefetch git repository {repo.url.geturl()}: {stderr}"
+            f"Timeout expired while prefetching git repository {repo.url.geturl()}"
         )
 
-    metadata = json.loads(result.stdout)
-    lines = result.stderr.decode("utf-8").split("\n")
+    if proc.returncode != 0:
+        raise NurError(
+            f"Failed to prefetch git repository {repo.url.geturl()}: {stderr.decode('utf-8')}"
+        )
+
+    metadata = json.loads(stdout)
+    lines = stderr.decode("utf-8").split("\n")
     repo_path = re.search("path is (.+)", lines[-5])
     assert repo_path is not None
     path = Path(repo_path.group(1))
