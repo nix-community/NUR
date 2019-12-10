@@ -78,12 +78,12 @@ def update_command(args: Namespace) -> None:
     for repo in manifest.repos:
         try:
             update(repo)
-        except EvalError as e:
+        except EvalError as err:
             if repo.locked_version is None:
                 # likely a repository added in a pull request, make it fatal then
                 raise
             # Do not print stack traces
-            logger.error(f"repository {repo.name} failed to evaluate: {e}")
+            logger.error(f"repository {repo.name} failed to evaluate: {err}")
         except Exception:
             # for non-evaluation errors we want the stack trace
             logger.exception(f"Failed to updated repository {repo.name}")
