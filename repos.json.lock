@@ -150,6 +150,11 @@
             "sha256": "1xq7cfvks3zznhr1pjj9swy42mlclxidby6ff663zchwn63axg6i",
             "url": "https://github.com/kampka/nix-packages"
         },
+        "kapack": {
+            "rev": "c57e456cd277f373403ae91f8ed9a1f5a4bc41d7",
+            "sha256": "1vssws3z90zxwb8nrm0bvyi6zzkzgsvzwb73wfb851ikpjmy5ja2",
+            "url": "https://github.com/oar-team/nur-kapack"
+        },
         "krebs": {
             "rev": "cbb0e146b851fdc8e62bec9f0885e80b791ba5b4",
             "sha256": "0mv4lbgnypfsb1r3z2lr5kjqjhfbw83xgc1l16r69nyh9q4idn5f",
@@ -193,8 +198,8 @@
             "url": "https://github.com/matthewbauer/nur-packages"
         },
         "mic92": {
-            "rev": "e3015ee7fd5bd95adef4cd6ac3615cdba073cdff",
-            "sha256": "176pssrffdz6kwwahpyabg9vni9klqdcwzcnibz1mcpm2r55imhl",
+            "rev": "957829633c93939edaef8b4a08336b2a7d4d0bc0",
+            "sha256": "0z8jb15i7mip5cgvmiib7hvd6skr3hjvp6j1r423sz8hizwklc5k",
             "url": "https://github.com/Mic92/nur-packages"
         },
         "moaxcp": {
@@ -249,8 +254,8 @@
             "url": "https://github.com/piensa/nur-packages"
         },
         "pschuprikov": {
-            "rev": "876c7ea8ffa20dc55cd89c491fbeca3cb118071b",
-            "sha256": "1kqabjyccvdlxpdz1jz3sw8pdfl5ib9k66kcj2dw7yz21zpsd45k",
+            "rev": "16c3f7a722043ffe76beb024b9a7bbf149875713",
+            "sha256": "1gcjzyj4yl023r561axry9kap7n83wy0gcb8rhnlxdxydbyzs7lw",
             "url": "https://github.com/pschuprikov/nur-packages"
         },
         "rummik": {
