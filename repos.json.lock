@@ -110,6 +110,11 @@
             "sha256": "1a82fj82d09zasqfc6x53gcys10pnbg0hf7rrsiwi9wkykrlja08",
             "url": "https://git.marvid.fr/eeva/nur-packages"
         },
+        "emiller88": {
+            "rev": "ec4268cf1e52a5e865ae69b07cd6ecd90c7be99f",
+            "sha256": "036zj8ii1y7qb7ajvabydmqzs900whb9sdwn8ds81as3whhf6sb7",
+            "url": "https://github.com/emiller88/nur-packages"
+        },
         "fgaz": {
             "rev": "4d9d6c9fcc678f1e0c2963ac35f81e6e3231dd31",
             "sha256": "10dcdvlpgcn9k2rx1765ph85ykrsxv922h0lks24l6c8zvxln1fd",
@@ -156,8 +161,8 @@
             "url": "https://github.com/kalbasit/nur-packages"
         },
         "kampka": {
-            "rev": "cfefeca2328c2c919e29d124155766789b5d1e9e",
-            "sha256": "0iinl10rby4y97g58b99iw7s9hpqs07psa39w5il141zalkzcak6",
+            "rev": "2ae4b3747f38b40106f81d133fb1382ee62036cc",
+            "sha256": "0bhwkjdmmi0grnm7y6ymq0qdxywmfvzx3qzb87gx92cdigjykz9i",
             "url": "https://github.com/kampka/nix-packages"
         },
         "kapack": {
