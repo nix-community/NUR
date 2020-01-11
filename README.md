@@ -60,17 +60,15 @@ builtins.fetchTarball {
 Then packages can be used or installed from the NUR namespace.
 
 ```console
-$ nix-shell -p nur.repos.mic92.inxi
-nix-shell> inxi
-CPU: Dual Core Intel Core i7-5600U (-MT MCP-) speed/min/max: 3061/500/3200 MHz Kernel: 4.14.51 x86_64
-Up: 20h 55m Mem: 12628.4/15926.8 MiB (79.3%) HDD: 465.76 GiB (39.3% used) Procs: 409
-Shell: bash 4.4.23 inxi: 3.0.10
+$ nix-shell -p nur.repos.mic92.hello-nur
+nix-shell> hello
+Hello, NUR!
 ```
 
 or
 
 ```console
-$ nix-env -iA nur.repos.mic92.inxi
+$ nix-env -iA nur.repos.mic92.hello-nur
 ```
 
 or
@@ -78,7 +76,7 @@ or
 ```console
 # configuration.nix
 environment.systemPackages = with pkgs; [
-  nur.repos.mic92.inxi
+  nur.repos.mic92.hello-nur
 ];
 ```
 
@@ -154,49 +152,42 @@ Each repository should return a set of Nix derivations:
 ```nix
 { pkgs }:
 {
-  inxi = pkgs.callPackage ./inxi {};
+  hello-nur = pkgs.callPackage ./hello-nur {};
 }
 ```
 
-In this example `inxi` would be a directory containing a `default.nix`:
+In this example `hello-nur` would be a directory containing a `default.nix`:
 
 ```nix
-{ stdenv, fetchFromGitHub
-, makeWrapper, perl
-, dmidecode, file, hddtemp, nettools, iproute, lm_sensors, usbutils, kmod, xlibs
-}:
+{ stdenv, fetchurl }:
 
-let
-  path = [
-    dmidecode file hddtemp nettools iproute lm_sensors usbutils kmod
-    xlibs.xdpyinfo xlibs.xprop xlibs.xrandr
-  ];
-in stdenv.mkDerivation rec {
-  name = "inxi-${version}";
-  version = "3.0.14-1";
+stdenv.mkDerivation rec {
+  pname = "hello";
+  version = "2.10";
 
-  src = fetchFromGitHub {
-    owner = "smxi";
-    repo = "inxi";
-    rev = version;
-    sha256 = "0wyv8cqwy7jlv2r3j7w8ri73iywawnaihww39vlpnpjjcz1b37hw";
+  src = fetchurl {
+    url = "mirror://gnu/hello/${pname}-${version}.tar.gz";
+    sha256 = "0ssi1wpaf7plaswqqjwigppsg5fyh99vdlb9kzl7c9lng89ndq1i";
   };
 
-  installPhase = ''
-    install -D -m755 inxi $out/bin/inxi
-    install -D inxi.1 $out/man/man1/inxi.1
-    wrapProgram $out/bin/inxi \
-      --prefix PATH : ${ stdenv.lib.makeBinPath path }
+  postPatch = ''
+    sed -i -e 's/Hello, world!/Hello, NUR!/' src/hello.c
   '';
 
-  buildInputs = [ perl ];
-  nativeBuildInputs = [ makeWrapper ];
+  # fails due to patch
+  doCheck = false;
 
   meta = with stdenv.lib; {
-    description = "System information tool";
-    homepage = https://github.com/smxi/inxi;
-    license = licenses.gpl3;
-    platforms = platforms.linux;
+    description = "A program that produces a familiar, friendly greeting";
+    longDescription = ''
+      GNU Hello is a program that prints "Hello, world!" when you run it.
+      It is fully customizable.
+    '';
+    homepage = https://www.gnu.org/software/hello/manual/;
+    changelog = "https://git.savannah.gnu.org/cgit/hello.git/plain/NEWS?h=v${version}";
+    license = licenses.gpl3Plus;
+    maintainers = [ maintainers.eelco ];
+    platforms = platforms.all;
   };
 }
 ```
@@ -204,13 +195,13 @@ in stdenv.mkDerivation rec {
 You can use `nix-shell` or `nix-build` to build your packages:
 
 ```console
-$ nix-shell --arg pkgs 'import <nixpkgs> {}' -A inxi
-nix-shell> inxi
+$ nix-shell --arg pkgs 'import <nixpkgs> {}' -A hello-nur
+nix-shell> hello
 nix-shell> find $buildInputs
 ```
 
 ```console
-$ nix-build --arg pkgs 'import <nixpkgs> {}' -A inxi
+$ nix-build --arg pkgs 'import <nixpkgs> {}' -A hello-nur
 ```
 
 For development convenience, you can also set a default value for the pkgs argument:
@@ -218,12 +209,12 @@ For development convenience, you can also set a default value for the pkgs argum
 ```nix
 { pkgs ? import <nixpkgs> {} }:
 {
-  inxi = pkgs.callPackage ./inxi {};
+  hello-nur = pkgs.callPackage ./hello-nur {};
 }
 ```
 
 ```console
-$ nix-build -A inxi
+$ nix-build -A hello-nur
 ```
 
 Add your own repository to in the `repos.json` of NUR:
