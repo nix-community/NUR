@@ -16,8 +16,8 @@
             "url": "https://github.com/angr/nixpkgs"
         },
         "arc": {
-            "rev": "cec29d1210da85ad43410ff64ecbcfd0be342534",
-            "sha256": "0b4qgd9528l74h5v30in4xp5mj1a09xw1lxsvnhy7lrs5hrjb2l5",
+            "rev": "dc99cc2ded698222cea4e5a39dbe07da574a8f9f",
+            "sha256": "0h6dnh20xfkm88xk8sbnpc86pm0gq8gs0l6gy6wqyfh9fjb4kpkh",
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "awl-fcarza": {
@@ -188,8 +188,8 @@
             "url": "https://github.com/lheckemann/nixwip"
         },
         "lourkeur": {
-            "rev": "8afe7d415e1e6bebe15a398573b0fb831839bc1f",
-            "sha256": "1arc5pavh6smxwqdhc30sbn8cbxf6sh53gp6cpy5cd1n4d02p6aw",
+            "rev": "586a4421e909721de7107ba3e27428ebe82b0db0",
+            "sha256": "0n5zy4854r7v65655wv9kakzmwybmnssd2h4bx70zvbds1j6xlx2",
             "url": "https://github.com/lourkeur/nur-expressions"
         },
         "lschuermann": {
@@ -334,8 +334,8 @@
             "url": "https://github.com/ysndr/nur-packages"
         },
         "yurrriq": {
-            "rev": "33531e688901b123eac7430ce3def6aa62c5f615",
-            "sha256": "1f4q3cwq90xlrywd1j4skbcdx5h0n77ckvrc2icw45l217yx0c28",
+            "rev": "14db6b70c3707fbb225de8af67ac49ad38601caa",
+            "sha256": "0fqzfymp4jvsz67pd8csqqigggwjibl015kzc52bdcij97papqk6",
             "url": "https://github.com/yurrriq/nur-packages"
         }
     }
