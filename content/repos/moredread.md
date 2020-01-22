@@ -7,7 +7,11 @@ title = "moredread"
 
 Name | Attribute | Description
 -----|-----------|------------
-[croc-4.0.4](https://github.com/schollz/croc)|[nur.repos.moredread.croc](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/croc/default.nix#L20)|Warning: WIP, package name might change. Easily and securely send things from one computer to another
-latte-4.0|[nur.repos.moredread.latte](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/latte/default.nix#L29)|Warning: WIP, package name might change.
-lenovo-throttling-fix-0.3|[nur.repos.moredread.lenovo-throttling-fix](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/lenovo-throttling-fix/default.nix#L36)|Warning: WIP, package name might change. Script fixing temperature CPU throttling for some Lenovo and Dell laptops
-[slic3r-prusa-edition-1.41.1](https://github.com/prusa3d/Slic3r)|[nur.repos.moredread.slic3r-prusa3d-latest](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/slic3r/prusa3d.nix#L122)|G-code generator for 3D printer
+[airnef-1.1](http://www.testcams.com/airnef/)|[nur.repos.moredread.airnef](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/airnef/default.nix#L32)|Wireless download from your camera
+[i3status-rust-0.9.0.2019-04-11](https://github.com/greshake/i3status-rust)|[nur.repos.moredread.i3status-rust](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/i3status-rust/default.nix#L24)|Newer version of a very resource-friendly and feature-rich replacement for i3status
+[implicitcad-0.2.0](http://kalli1.faikvm.com/ImplicitCAD/Stable)|[nur.repos.moredread.implicitcad](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/implicitcad/default.nix#L9)|Warning: experimental package, might change at any time. Math-inspired programmatic 2&3D CAD, also known as extopenscad
+[ipbt-20190601](https://www.chiark.greenend.org.uk/~sgtatham/ipbt)|[nur.repos.moredread.ipbt](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/ipbt/default.nix#L16)|WIP: ttyrec player
+nix-search|[nur.repos.moredread.nix-search](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/nix-search/default.nix#L17)|nix-search
+nmigen-0.1|[nur.repos.moredread.nmigen](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/nmigen/default.nix#L6)|
+nmigen-boards-0.1rc1|[nur.repos.moredread.nmigen-boards](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/nmigen-boards/default.nix#L6)|
+[prusa-slicer-2.2.0-alpha2](https://github.com/prusa3d/PrusaSlicer)|[nur.repos.moredread.prusa-slicer-latest](https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/prusa-slicer-latest/default.nix#L90)|G-code generator for 3D printer

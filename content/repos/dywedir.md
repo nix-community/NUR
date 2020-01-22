@@ -7,6 +7,6 @@ title = "dywedir"
 
 Name | Attribute | Description
 -----|-----------|------------
-[iosevka-1.14.3](https://be5invis.github.io/Iosevka/)|[nur.repos.dywedir.iosevka-comp-lig](https://github.com/nix-community/nur-combined/tree/master/repos/dywedir)|Slender monospace sans-serif and slab-serif typeface inspired by PragmataPro, M+ and PF DIN Mono, designed to be the ideal font for programming.
-[pianoteq-stage-6.3.0](https://www.pianoteq.com/)|[nur.repos.dywedir.pianoteq-stage](https://github.com/nix-community/nur-combined/tree/master/repos/dywedir/pkgs/pianoteq-stage/default.nix#L50)|Virtual piano instrument using physical modelling synthesis
-[wl-clipboard-unstable-2018-10-27](https://github.com/bugaevc/wl-clipboard)|[nur.repos.dywedir.wl-clipboard](https://github.com/nix-community/nur-combined/tree/master/repos/dywedir/pkgs/wl-clipboard/default.nix#L18)|Command-line copy/paste utilities for Wayland
+[dssim-2.9.9](https://kornel.ski/dssim)|[nur.repos.dywedir.dssim](https://github.com/nix-community/nur-combined/tree/master/repos/dywedir/pkgs/dssim/default.nix#L18)|Image similarity comparison simulating human perception
+[pianoteq-stage-6.6.0](https://www.pianoteq.com/)|[nur.repos.dywedir.pianoteq-stage](https://github.com/nix-community/nur-combined/tree/master/repos/dywedir/pkgs/pianoteq-stage/default.nix#L49)|Virtual piano instrument using physical modelling synthesis
+[wl-clipboard-x11-4](https://github.com/brunelli/wl-clipboard-x11)|[nur.repos.dywedir.wl-clipboard-x11](https://github.com/nix-community/nur-combined/tree/master/repos/dywedir/pkgs/wl-clipboard-x11/default.nix#L27)|A wrapper to use wl-clipboard as a drop-in replacement to X11 clipboard tools
