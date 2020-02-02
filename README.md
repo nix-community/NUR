@@ -132,6 +132,30 @@ in
 }
 ```
 
+### Flake Support
+
+Using overlays and modules from NUR in your configuration is fairly straight
+forward.
+
+In your flake.nix:
+```nix
+inputs.nur.url = github:nix-community/NUR;
+
+outputs = {self, nixpkgs, nur }:
+{
+  nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
+    # ...
+    modules = [
+      ({
+        nixpkgs.overlays = [ nur."${nur-username}".overlays."${anOverlay}" ]
+      })
+      nur."${nur-username}".modules.${aModule}
+    ];
+  };
+}
+
+```
+
 ## Finding packages
 
 At the moment we do not have a dedicated package search available. However our
