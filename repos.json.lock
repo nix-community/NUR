@@ -96,8 +96,8 @@
             "url": "https://github.com/dguibert/nur-packages"
         },
         "dtn7": {
-            "rev": "f7108b0648dde92b5e81a9c4a16c6aa77af1332c",
-            "sha256": "0nsh532m2l9y1adihiafqg66sg1xc76z7f91z1sayzh0l1gdsayk",
+            "rev": "b3ae1d2a6e30c666a2d9fa8fdcd5d8372bc250f6",
+            "sha256": "1vvqw6n4kgczad0c8myhqb5cnaw5kpway7qggxfpm4h540c6bzvw",
             "url": "https://github.com/dtn7/nur-packages"
         },
         "dtz": {
@@ -218,8 +218,8 @@
             "url": "https://github.com/matthewbauer/nur-packages"
         },
         "metadark": {
-            "rev": "1dff06f6af4b2598695d646b85df7d7fa607e02d",
-            "sha256": "0y9wr6q9lv3mnv36hkiljgdbhf64n5dhjxvj9lcigkqrhh2yg59c",
+            "rev": "12f4409d06e1f81a7d0c6e1eca066e12d3e40a57",
+            "sha256": "0zy6bnndh6d8g80hz9wfimyb4bfwgsly65skiydfmyq91ml3jn28",
             "url": "https://github.com/metadark/nur-packages"
         },
         "mic92": {
@@ -312,6 +312,11 @@
             "rev": "47d9c3410d9e61d3bce3c857edf2a72f33f8a2fc",
             "sha256": "1mwl0srkx8x4pqhjk292ncj16p3l0s14vr67437k8nssa59lpqmd",
             "url": "https://github.com/smaret/nur-packages"
+        },
+        "sondr3": {
+            "rev": "bf1b889b6cfaf448578811ac43c9dc78f14880f9",
+            "sha256": "142b9czn2v3bjl4vqdj2n2p2pyyfcqzh2cqx3in9i0gk45rvxldz",
+            "url": "https://github.com/sondr3/nix-expressions"
         },
         "suhr": {
             "rev": "c9ea64cbff3f42a91e23a60d1f778813d51f5fef",
