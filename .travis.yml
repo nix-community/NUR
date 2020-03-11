@@ -1,6 +1,4 @@
 language: nix
-script:
-  - bash ci/deploy.sh
 
 notifications:
   irc:
@@ -10,3 +8,15 @@ notifications:
       - "irc.freenode.net#nixos-nur"
     template:
       - "%{result} - %{branch} \"%{commit_subject}\" %{build_url}"
+
+jobs:
+  include:
+    - name: deploy to nur-combined
+      script: bash ci/deploy.sh
+      if: branch = master
+
+    - name: update nur-search/data/packages.json
+      script: ci/update-nur-search.sh
+      if: branch = master
+
+
