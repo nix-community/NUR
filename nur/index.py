@@ -8,13 +8,13 @@ from typing import Any, Dict
 
 
 def index_repo(directory: Path, repo: str, expression_file: str) -> Dict[str, Any]:
+    default_nix = directory.joinpath("default.nix")
     fetch_source_cmd = [
-        "nix",
-        "eval",
-        "--raw",
-        "-f",
-        str(directory.joinpath("default.nix")),
-        f"repo-sources.{repo}",
+        "nix-build",
+        "--builders", "",
+        "--no-out-link",
+        default_nix,
+        "-A", f"repo-sources.\"{repo}\"",
     ]
 
     repo_path = subprocess.check_output(fetch_source_cmd).strip().decode("utf-8")
@@ -29,7 +29,7 @@ def index_repo(directory: Path, repo: str, expression_file: str) -> Dict[str, An
         try:
             out = subprocess.check_output(query_cmd)
         except subprocess.CalledProcessError:
-            print(f"failed to evaluate {repo}")
+            print(f"failed to evaluate {repo}", file=sys.stderr)
             return {}
 
         raw_pkgs = json.loads(out)
