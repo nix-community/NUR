@@ -11,10 +11,12 @@ def index_repo(directory: Path, repo: str, expression_file: str) -> Dict[str, An
     default_nix = directory.joinpath("default.nix")
     fetch_source_cmd = [
         "nix-build",
-        "--builders", "",
+        "--builders",
+        "",
         "--no-out-link",
         str(default_nix),
-        "-A", f"repo-sources.\"{repo}\"",
+        "-A",
+        f'repo-sources."{repo}"',
     ]
 
     repo_path = subprocess.check_output(fetch_source_cmd).strip().decode("utf-8")
