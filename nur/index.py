@@ -13,7 +13,7 @@ def index_repo(directory: Path, repo: str, expression_file: str) -> Dict[str, An
         "nix-build",
         "--builders", "",
         "--no-out-link",
-        default_nix,
+        str(default_nix),
         "-A", f"repo-sources.\"{repo}\"",
     ]
 
