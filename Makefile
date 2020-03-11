@@ -4,7 +4,7 @@ all: public
 	cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
 
 public:
-	git woktree prune
+	git worktree prune
 	git worktree add -B gh-pages public origin/gh-pages
 
 publish:
