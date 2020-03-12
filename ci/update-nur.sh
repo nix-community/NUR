@@ -4,27 +4,15 @@ set -eu -o pipefail # Exit with nonzero exit code if anything fails
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
-source ${DIR}/lib/travis-functions.sh
-
-nix-build --quiet release.nix
-
-if ! is-automatic-update; then
-  source $DIR/lint.sh
-fi
-
+source ${DIR}/lib/setup-git.sh
 set -x
 
-result/bin/nur update
+nix run '(import ./release.nix {})' -c nur update
 nix-build
-
-# Move everything below to a different job
-dont-continue-on-pull-requests
-
-source ${DIR}/lib/setup-git.sh
 
 git clone git@github.com:nix-community/nur-combined
 
-result/bin/nur combine \
+nix run '(import ./release.nix {})' -c nur combine \
   --irc-notify nur-bot@chat.freenode.net:6697/nixos-nur \
   nur-combined
 

@@ -4,11 +4,8 @@ set -eu -o pipefail # Exit with nonzero exit code if anything fails
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
-source ${DIR}/lib/travis-functions.sh
-
-dont-continue-on-pull-requests
-
 source ${DIR}/lib/setup-git.sh
+set -x
 
 
 # build package.json for nur-search
@@ -18,7 +15,7 @@ nix-build --quiet release.nix
 
 git clone git@github.com:nix-community/nur-search
 
-result/bin/nur index . > nur-search/data/packages.json
+nix run '(import ./release.nix {})' -c nur index . > nur-search/data/packages.json
 
 # rebuild and publish nur-search repository
 # -----------------------------------------

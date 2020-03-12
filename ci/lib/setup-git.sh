@@ -22,4 +22,3 @@ git config --global user.name "Nur a bot"
 git config --global user.email "joerg.nur-bot@thalheim.io"
 git config --global user.signingkey "B4E40EEC9053254E"
 git config --global commit.gpgsign true
-

@@ -11,12 +11,14 @@ notifications:
 
 jobs:
   include:
-    - name: deploy to nur-combined
-      script: bash ci/deploy.sh
-      if: branch = master
+    - name: test pull request
+      script: bash ci/test.sh
+      if: type = pull_request
+
+    - name: update nur / nur-combined
+      script: bash ci/update-nur.sh
+      if: branch = master AND type != pull_request
 
     - name: update nur-search/data/packages.json
       script: ci/update-nur-search.sh
-      if: branch = master
-
-
+      if: branch = master AND type != pull_request
