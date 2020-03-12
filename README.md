@@ -134,9 +134,11 @@ in
 
 ## Finding packages
 
-At the moment we do not have a dedicated package search available. However our
-[nur-combined](https://github.com/nix-community/nur-combined) repository contains all
-nix expressions from all users and can be search via
+You can find all packages using
+[Packages search for NUR](https://nix-community.github.io/nur-search/)
+or search our 
+[nur-combined](https://github.com/nix-community/nur-combined)
+repository, which contains all nix expressions from all users, via
 [github](https://github.com/nix-community/nur-combined/search).
 
 ## How to add your own repository.
