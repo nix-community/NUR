@@ -136,7 +136,7 @@ in
 
 You can find all packages using
 [Packages search for NUR](https://nix-community.github.io/nur-search/)
-or search our 
+or search our
 [nur-combined](https://github.com/nix-community/nur-combined)
 repository, which contains all nix expressions from all users, via
 [github](https://github.com/nix-community/nur-combined/search).
@@ -422,7 +422,3 @@ cycles.
 
 You can chat with us on IRC in channel [#nixos-nur](https://webchat.freenode.net/?url=irc%3A%2F%2Firc.freenode.net%2Fnixos-nur).
 Apart from that we also read posts on [https://discourse.nixos.org](https://discourse.nixos.org/).
-
-## Roadmap
-
-- Implement a search to find packages
