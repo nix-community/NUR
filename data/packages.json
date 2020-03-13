@@ -33966,6 +33966,51 @@
         "_attr": "lv2vst",
         "_repo": "mrVanDalo"
     },
+    "nur.repos.mrVanDalo.navi": {
+        "name": "navi-2.0.8",
+        "pname": "navi",
+        "version": "2.0.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An interactive cheatsheet tool for the command-line",
+            "homepage": "https://github.com/denisidoro/navi",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "contact@ingolf-wagner.de",
+                    "github": "mrVanDalo",
+                    "githubId": 839693,
+                    "name": "Ingolf Wanger"
+                }
+            ],
+            "name": "navi-2.0.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mrVanDalo/pkgs/navi/default.nix#L30"
+        },
+        "_attr": "navi",
+        "_repo": "mrVanDalo"
+    },
     "nur.repos.mrVanDalo.pixelnuke": {
         "name": "pixelnuke-2019-05-19",
         "pname": "pixelnuke",
@@ -37901,9 +37946,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.bitwarden": {
-        "name": "bitwarden-1.42.2",
+        "name": "bitwarden-1.43.1",
         "pname": "bitwarden",
-        "version": "1.42.2",
+        "version": "1.43.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37915,7 +37960,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "http://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "bitwarden-1.42.2",
+            "name": "bitwarden-1.43.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -45836,33 +45881,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tilpner/pkgs/solarc.nix#L39"
         },
         "_attr": "solarc",
-        "_repo": "tilpner"
-    },
-    "nur.repos.tilpner.spotifyd": {
-        "name": "spotifyd-v0.2.2",
-        "pname": "spotifyd-v0.2.2",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A spotify daemon",
-            "homepage": "https://github.com/Spotifyd/spotifyd",
-            "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0-only",
-                "url": "http://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "name": "spotifyd-v0.2.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tilpner/pkgs/spotifyd.nix#L25"
-        },
-        "_attr": "spotifyd",
         "_repo": "tilpner"
     },
     "nur.repos.tilpner.st": {
