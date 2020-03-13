@@ -33967,9 +33967,9 @@
         "_repo": "mrVanDalo"
     },
     "nur.repos.mrVanDalo.navi": {
-        "name": "navi-2.0.8",
-        "pname": "navi",
-        "version": "2.0.8",
+        "name": "navi-e99e1511e50a2706f0eea3286df94b6373acf8b0",
+        "pname": "navi-e99e1511e50a2706f0eea3286df94b6373acf8b0",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33989,7 +33989,7 @@
                     "name": "Ingolf Wanger"
                 }
             ],
-            "name": "navi-2.0.8",
+            "name": "navi-e99e1511e50a2706f0eea3286df94b6373acf8b0",
             "outputsToInstall": [
                 "out"
             ],
@@ -34006,7 +34006,7 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mrVanDalo/pkgs/navi/default.nix#L29"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mrVanDalo/pkgs/navi/default.nix#L30"
         },
         "_attr": "navi",
         "_repo": "mrVanDalo"
