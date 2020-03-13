@@ -21,8 +21,10 @@ if [[ -z "$(git diff --exit-code)" ]]; then
 else
   git add --all repos.json*
   git commit -m "automatic update"
-  git pull origin master
-  git push git@github.com:nix-community/NUR master
+  # in case we are getting overtaken by a different job
+  git pull --rebase origin master
+  git push git@github.com:nix-community/NUR HEAD:master
 fi
 
-(cd nur-combined && git push origin master)
+git -C nur-combined pull --rebase origin master
+git -C nur-combined push origin HEAD:master
