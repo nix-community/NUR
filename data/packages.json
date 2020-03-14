@@ -41422,8 +41422,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-bb6d6a4",
-        "pname": "gpxsee-bb6d6a4",
+        "name": "gpxsee-aea17c9",
+        "pname": "gpxsee-aea17c9",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -41450,7 +41450,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-bb6d6a4",
+            "name": "gpxsee-aea17c9",
             "outputsToInstall": [
                 "out"
             ],
@@ -41477,8 +41477,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-maps": {
-        "name": "gpxsee-maps-b45e86e",
-        "pname": "gpxsee-maps-b45e86e",
+        "name": "gpxsee-maps-a0448a4",
+        "pname": "gpxsee-maps-a0448a4",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -41505,7 +41505,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-maps-b45e86e",
+            "name": "gpxsee-maps-a0448a4",
             "outputsToInstall": [
                 "out"
             ],
@@ -41848,6 +41848,73 @@
             }
         },
         "_attr": "hiblovgpsmap",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.i18n-editor": {
+        "name": "i18n-editor-2.0.0-beta.1",
+        "pname": "i18n-editor",
+        "version": "2.0.0-beta.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "GUI for editing your i18n translation files",
+            "homepage": "https://github.com/jcbvm/i18n-editor",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "i18n-editor-2.0.0-beta.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/tools/i18n-editor/default.nix#L24",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "i18n-editor",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.ish": {
@@ -42240,9 +42307,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-03-02",
+        "name": "maptourist-2020-03-11",
         "pname": "maptourist",
-        "version": "2020-03-02",
+        "version": "2020-03-11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42266,7 +42333,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-03-02",
+            "name": "maptourist-2020-03-11",
             "outputsToInstall": [
                 "out"
             ],
@@ -42467,9 +42534,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-3a6e7b9",
+        "name": "OpenOrienteering-Mapper-0d56dc4",
         "pname": "OpenOrienteering-Mapper",
-        "version": "3a6e7b9",
+        "version": "0d56dc4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42495,7 +42562,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-3a6e7b9",
+            "name": "OpenOrienteering-Mapper-0d56dc4",
             "outputsToInstall": [
                 "out"
             ],
