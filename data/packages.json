@@ -46098,6 +46098,220 @@
         "_attr": "unison",
         "_repo": "tilpner"
     },
+    "nur.repos.tokudan.cc65": {
+        "name": "cc65-git-20200221",
+        "pname": "cc65-git",
+        "version": "20200221",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "a complete cross development package for 6502/65C02 systems, including a powerful macro assembler, a C compiler, linker, librarian and several other tools",
+            "homepage": "https://cc65.github.io",
+            "license": {
+                "fullName": "zlib License",
+                "shortName": "zlib",
+                "spdxId": "Zlib",
+                "url": "http://spdx.org/licenses/Zlib.html"
+            },
+            "maintainers": [
+                {
+                    "email": "git@danielfrank.net",
+                    "github": "tokudan",
+                    "githubId": 692610,
+                    "name": "Daniel Frank"
+                }
+            ],
+            "name": "cc65-git-20200221",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan/pkgs/cc65/default.nix#L21"
+        },
+        "_attr": "cc65",
+        "_repo": "tokudan"
+    },
+    "nur.repos.tokudan.disk-utilities": {
+        "name": "disk-utilities-2020-02-12",
+        "pname": "disk-utilities",
+        "version": "2020-02-12",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "",
+            "homepage": "https://github.com/keirf/Disk-Utilities",
+            "maintainers": [
+                {
+                    "email": "git@danielfrank.net",
+                    "github": "tokudan",
+                    "githubId": 692610,
+                    "name": "Daniel Frank"
+                }
+            ],
+            "name": "disk-utilities-2020-02-12",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "aarch64-none",
+                "avr-none",
+                "arm-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan/pkgs/disk-utilities/default.nix#L22"
+        },
+        "_attr": "disk-utilities",
+        "_repo": "tokudan"
+    },
+    "nur.repos.tokudan.nibtools": {
+        "name": "nibtools-657",
+        "pname": "nibtools",
+        "version": "657",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "a disk transfer program designed for copying original disks and converting into the G64 and D64 disk image formats",
+            "homepage": "https://c64preservation.com/dp.php?pg=nibtools",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "git@danielfrank.net",
+                    "github": "tokudan",
+                    "githubId": 692610,
+                    "name": "Daniel Frank"
+                }
+            ],
+            "name": "nibtools-657",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan/pkgs/nibtools/default.nix#L66"
+        },
+        "_attr": "nibtools",
+        "_repo": "tokudan"
+    },
+    "nur.repos.tokudan.opencbm": {
+        "name": "opencbm-git-20191221",
+        "pname": "opencbm-git",
+        "version": "20191221",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Tools to access the Commodore 1541 and similar disk drives from PCs",
+            "homepage": "https://github.com/OpenCBM/OpenCBM",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "git@danielfrank.net",
+                    "github": "tokudan",
+                    "githubId": 692610,
+                    "name": "Daniel Frank"
+                }
+            ],
+            "name": "opencbm-git-20191221",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan/pkgs/opencbm/default.nix#L33"
+        },
+        "_attr": "opencbm",
+        "_repo": "tokudan"
+    },
+    "nur.repos.tokudan.writefreely": {
+        "name": "writefreely-0.11.2",
+        "pname": "writefreely",
+        "version": "0.11.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "A simple, federated blogging platform",
+            "homepage": "https://writefreely.org",
+            "license": {
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "shortName": "agpl3",
+                "spdxId": "AGPL-3.0-only",
+                "url": "http://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "git@danielfrank.net",
+                    "github": "tokudan",
+                    "githubId": 692610,
+                    "name": "Daniel Frank"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "writefreely-0.11.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan/pkgs/writefreely/default.nix#L35"
+        },
+        "_attr": "writefreely",
+        "_repo": "tokudan"
+    },
     "nur.repos.tomberek.hello-join": {
         "name": "hello-2.10",
         "pname": "hello",
