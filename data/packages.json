@@ -33390,15 +33390,86 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mrVanDalo/pkgs/navi/default.nix#L29"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mrVanDalo/pkgs/navi/default.nix#L31"
         },
         "_attr": "navi",
+        "_repo": "mrVanDalo"
+    },
+    "nur.repos.mrVanDalo.navi-master": {
+        "name": "navi-master",
+        "pname": "navi-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An interactive cheatsheet tool for the command-line",
+            "homepage": "https://github.com/denisidoro/navi",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "contact@ingolf-wagner.de",
+                    "github": "mrVanDalo",
+                    "githubId": 839693,
+                    "name": "Ingolf Wanger"
+                }
+            ],
+            "name": "navi-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mrVanDalo/pkgs/navi/master.nix#L31"
+        },
+        "_attr": "navi-master",
         "_repo": "mrVanDalo"
     },
     "nur.repos.mrVanDalo.pixelnuke": {
