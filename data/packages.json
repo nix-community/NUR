@@ -32309,13 +32309,13 @@
         "_repo": "mic92"
     },
     "nur.repos.moaxcp.micronaut": {
-        "name": "micronaut-1.2.3",
+        "name": "micronaut-1.3.3",
         "pname": "micronaut",
-        "version": "1.2.3",
+        "version": "1.3.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A modern, JVM-based, full-stack framework for building modular, \neasily testable microservice and serverless applications.\n",
+            "description": "Modern, JVM-based, full-stack framework for building microservice applications",
             "homepage": "https://micronaut.io/",
             "license": {
                 "fullName": "Apache License 2.0",
@@ -32323,7 +32323,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "http://spdx.org/licenses/Apache-2.0.html"
             },
-            "longDescription": "Reflection-based IoC frameworks load and cache reflection data for \nevery single field, method, and constructor in your code, whereas with \nMicronaut, your application startup time and memory consumption are \nnot bound to the size of your codebase.\n",
+            "longDescription": "Micronaut is a modern, JVM-based, full stack microservices framework\ndesigned for building modular, easily testable microservice applications.\nReflection-based IoC frameworks load and cache reflection data for \nevery single field, method, and constructor in your code, whereas with \nMicronaut, your application startup time and memory consumption are \nnot bound to the size of your codebase.\n",
             "maintainers": [
                 {
                     "email": "moaxcp@gmail.com",
@@ -32332,7 +32332,7 @@
                     "name": "John Mercier"
                 }
             ],
-            "name": "micronaut-1.2.3",
+            "name": "micronaut-1.3.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -32377,7 +32377,7 @@
                 "vc4-none",
                 "js-ghcjs"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/micronaut/default.nix#L27"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/micronaut/default.nix#L26"
         },
         "_attr": "micronaut",
         "_repo": "moaxcp"
