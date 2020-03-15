@@ -33184,6 +33184,88 @@
         "_attr": "ghc-head-from",
         "_repo": "mpickering"
     },
+    "nur.repos.mrVanDalo.bitwig-studio-3_1_2": {
+        "name": "bitwig-studio-3.1.2",
+        "pname": "bitwig-studio",
+        "version": "3.1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "A digital audio workstation",
+            "homepage": "https://www.bitwig.com/",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "longDescription": "Bitwig Studio is a multi-platform music-creation system for\nproduction, performance and DJing, with a focus on flexible\nediting tools and a super-fast workflow.\n",
+            "maintainers": [
+                {
+                    "email": "m@michalrus.com",
+                    "github": "michalrus",
+                    "githubId": 4366292,
+                    "name": "Michal Rus"
+                },
+                {
+                    "email": "contact@ingolf-wagner.de",
+                    "github": "mrVanDalo",
+                    "githubId": 839693,
+                    "name": "Ingolf Wanger"
+                }
+            ],
+            "name": "bitwig-studio-3.1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mrVanDalo"
+        },
+        "_attr": "bitwig-studio-3_1_2",
+        "_repo": "mrVanDalo"
+    },
+    "nur.repos.mrVanDalo.bitwig-studio-3_1_3": {
+        "name": "bitwig-studio-3.1.3",
+        "pname": "bitwig-studio",
+        "version": "3.1.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "A digital audio workstation",
+            "homepage": "https://www.bitwig.com/",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "longDescription": "Bitwig Studio is a multi-platform music-creation system for\nproduction, performance and DJing, with a focus on flexible\nediting tools and a super-fast workflow.\n",
+            "maintainers": [
+                {
+                    "email": "m@michalrus.com",
+                    "github": "michalrus",
+                    "githubId": 4366292,
+                    "name": "Michal Rus"
+                },
+                {
+                    "email": "contact@ingolf-wagner.de",
+                    "github": "mrVanDalo",
+                    "githubId": 839693,
+                    "name": "Ingolf Wanger"
+                }
+            ],
+            "name": "bitwig-studio-3.1.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mrVanDalo"
+        },
+        "_attr": "bitwig-studio-3_1_3",
+        "_repo": "mrVanDalo"
+    },
     "nur.repos.mrVanDalo.fuji-cam-wifi-tool": {
         "name": "fuji-cam-wifi-tool-master",
         "pname": "fuji-cam-wifi-tool-master",
@@ -33275,9 +33357,9 @@
         "_repo": "mrVanDalo"
     },
     "nur.repos.mrVanDalo.navi": {
-        "name": "navi-e99e1511e50a2706f0eea3286df94b6373acf8b0",
-        "pname": "navi-e99e1511e50a2706f0eea3286df94b6373acf8b0",
-        "version": "",
+        "name": "navi-2.0.11",
+        "pname": "navi",
+        "version": "2.0.11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33297,7 +33379,7 @@
                     "name": "Ingolf Wanger"
                 }
             ],
-            "name": "navi-e99e1511e50a2706f0eea3286df94b6373acf8b0",
+            "name": "navi-2.0.11",
             "outputsToInstall": [
                 "out"
             ],
@@ -33314,7 +33396,7 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mrVanDalo/pkgs/navi/default.nix#L30"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mrVanDalo/pkgs/navi/default.nix#L29"
         },
         "_attr": "navi",
         "_repo": "mrVanDalo"
