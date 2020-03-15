@@ -32347,6 +32347,84 @@
         "_attr": "adoptopenjdk-hotspot-bin-11",
         "_repo": "moaxcp"
     },
+    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-12": {
+        "name": "adoptopenjdk-hotspot-bin-12.0.2",
+        "pname": "adoptopenjdk-hotspot-bin",
+        "version": "12.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-hotspot-bin-12.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L73"
+        },
+        "_attr": "adoptopenjdk-hotspot-bin-12",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-13": {
+        "name": "adoptopenjdk-hotspot-bin-13.0.2",
+        "pname": "adoptopenjdk-hotspot-bin",
+        "version": "13.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-hotspot-bin-13.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L73"
+        },
+        "_attr": "adoptopenjdk-hotspot-bin-13",
+        "_repo": "moaxcp"
+    },
     "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-8": {
         "name": "adoptopenjdk-hotspot-bin-8.0.242",
         "pname": "adoptopenjdk-hotspot-bin",
@@ -32421,6 +32499,80 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L73"
         },
         "_attr": "adoptopenjdk-jre-hotspot-bin-11",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-12": {
+        "name": "adoptopenjdk-jre-hotspot-bin-12.0.2",
+        "pname": "adoptopenjdk-jre-hotspot-bin",
+        "version": "12.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-hotspot-bin-12.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L73"
+        },
+        "_attr": "adoptopenjdk-jre-hotspot-bin-12",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-13": {
+        "name": "adoptopenjdk-jre-hotspot-bin-13.0.2",
+        "pname": "adoptopenjdk-jre-hotspot-bin",
+        "version": "13.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-hotspot-bin-13.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L73"
+        },
+        "_attr": "adoptopenjdk-jre-hotspot-bin-13",
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-8": {
@@ -32498,6 +32650,78 @@
         "_attr": "adoptopenjdk-jre-openj9-bin-11",
         "_repo": "moaxcp"
     },
+    "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-12": {
+        "name": "adoptopenjdk-jre-openj9-bin-12.0.2",
+        "pname": "adoptopenjdk-jre-openj9-bin",
+        "version": "12.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-openj9-bin-12.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L73"
+        },
+        "_attr": "adoptopenjdk-jre-openj9-bin-12",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-13": {
+        "name": "adoptopenjdk-jre-openj9-bin-13.0.2",
+        "pname": "adoptopenjdk-jre-openj9-bin",
+        "version": "13.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-openj9-bin-13.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L73"
+        },
+        "_attr": "adoptopenjdk-jre-openj9-bin-13",
+        "_repo": "moaxcp"
+    },
     "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-8": {
         "name": "adoptopenjdk-jre-openj9-bin-8.0.242",
         "pname": "adoptopenjdk-jre-openj9-bin",
@@ -32568,6 +32792,78 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L73"
         },
         "_attr": "adoptopenjdk-openj9-bin-11",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-openj9-bin-12": {
+        "name": "adoptopenjdk-openj9-bin-12.0.2",
+        "pname": "adoptopenjdk-openj9-bin",
+        "version": "12.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-openj9-bin-12.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L73"
+        },
+        "_attr": "adoptopenjdk-openj9-bin-12",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-openj9-bin-13": {
+        "name": "adoptopenjdk-openj9-bin-13.0.2",
+        "pname": "adoptopenjdk-openj9-bin",
+        "version": "13.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-openj9-bin-13.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L73"
+        },
+        "_attr": "adoptopenjdk-openj9-bin-13",
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-openj9-bin-8": {
