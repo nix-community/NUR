@@ -31879,9 +31879,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.python3Packages.ldap0": {
-        "name": "python3.7-ldap0-0.6.8",
+        "name": "python3.7-ldap0-0.6.10",
         "pname": "python3.7-ldap0",
-        "version": "0.6.8",
+        "version": "0.6.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -31910,7 +31910,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "http://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "python3.7-ldap0-0.6.8",
+            "name": "python3.7-ldap0-0.6.10",
             "outputsToInstall": [
                 "out"
             ],
@@ -31931,7 +31931,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/python-pkgs/ldap0.nix#L26"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/python-pkgs/ldap0.nix#L30"
         },
         "_attr": "python3Packages.ldap0",
         "_repo": "mic92"
@@ -32267,9 +32267,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.web2ldap": {
-        "name": "web2ldap-1.5.53",
+        "name": "web2ldap-1.5.57",
         "pname": "web2ldap",
-        "version": "1.5.53",
+        "version": "1.5.57",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32298,7 +32298,7 @@
                 "spdxId": "APSL-2.0",
                 "url": "http://spdx.org/licenses/APSL-2.0.html"
             },
-            "name": "web2ldap-1.5.53",
+            "name": "web2ldap-1.5.57",
             "outputsToInstall": [
                 "out"
             ],
@@ -32328,7 +32328,7 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/web2ldap/default.nix#L18"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/web2ldap/default.nix#L20"
         },
         "_attr": "web2ldap",
         "_repo": "mic92"
