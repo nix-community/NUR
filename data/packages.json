@@ -32214,6 +32214,30 @@
         "_attr": "python3Packages.remote-pdb",
         "_repo": "mic92"
     },
+    "nur.repos.mic92.sgx-lkl": {
+        "name": "sgx-lkl-2019-11-19",
+        "pname": "sgx-lkl",
+        "version": "2019-11-19",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "SGX-LKL Library OS for running Linux applications inside of Intel SGX enclaves",
+            "homepage": "https://github.com/lsds/sgx-lkl",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "name": "sgx-lkl-2019-11-19",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/sgx-lkl/default.nix#L159"
+        },
+        "_attr": "sgx-lkl",
+        "_repo": "mic92"
+    },
     "nur.repos.mic92.threema-web": {
         "name": "source",
         "pname": "source",
