@@ -32761,42 +32761,6 @@
         "_attr": "adoptopenjdk-jre-openj9-bin-8",
         "_repo": "moaxcp"
     },
-    "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-14-nightly": {
-        "name": "adoptopenjdk-jre-openj9-bin-jdk14-2020-03-14-05-11",
-        "pname": "adoptopenjdk-jre-openj9-bin-jdk14",
-        "version": "2020-03-14-05-11",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
-                "shortName": "gpl2Classpath",
-                "spdxId": "GPL-2.0-with-classpath-exception",
-                "url": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
-            },
-            "maintainers": [
-                {
-                    "email": "mxxouy6x3m_github@tatapa.org",
-                    "github": "taku0",
-                    "githubId": 870673,
-                    "name": "Takuo Yonezawa"
-                }
-            ],
-            "name": "adoptopenjdk-jre-openj9-bin-jdk14-2020-03-14-05-11",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "packageType-linux",
-                "vmType-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75"
-        },
-        "_attr": "adoptopenjdk-jre-openj9-bin-14-nightly",
-        "_repo": "moaxcp"
-    },
     "nur.repos.moaxcp.adoptopenjdk-openj9-bin-11": {
         "name": "adoptopenjdk-openj9-bin-11.0.6",
         "pname": "adoptopenjdk-openj9-bin",
@@ -32903,42 +32867,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75"
         },
         "_attr": "adoptopenjdk-openj9-bin-8",
-        "_repo": "moaxcp"
-    },
-    "nur.repos.moaxcp.adoptopenjdk-openj9-bin-14-nightly": {
-        "name": "adoptopenjdk-openj9-bin-jdk14-2020-03-14-05-11",
-        "pname": "adoptopenjdk-openj9-bin-jdk14",
-        "version": "2020-03-14-05-11",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
-                "shortName": "gpl2Classpath",
-                "spdxId": "GPL-2.0-with-classpath-exception",
-                "url": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
-            },
-            "maintainers": [
-                {
-                    "email": "mxxouy6x3m_github@tatapa.org",
-                    "github": "taku0",
-                    "githubId": 870673,
-                    "name": "Takuo Yonezawa"
-                }
-            ],
-            "name": "adoptopenjdk-openj9-bin-jdk14-2020-03-14-05-11",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "packageType-linux",
-                "vmType-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75"
-        },
-        "_attr": "adoptopenjdk-openj9-bin-14-nightly",
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.gradle-4_10_3": {
