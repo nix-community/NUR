@@ -9270,9 +9270,9 @@
         "_repo": "gricad"
     },
     "nur.repos.ilya-fedin.kotatogram-desktop": {
-        "name": "kotatogram-desktop-1.1.6-1",
+        "name": "kotatogram-desktop-1.2-1",
         "pname": "kotatogram-desktop",
-        "version": "1.1.6-1",
+        "version": "1.2-1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -9293,7 +9293,7 @@
                     "name": "Ilya Fedin"
                 }
             ],
-            "name": "kotatogram-desktop-1.1.6-1",
+            "name": "kotatogram-desktop-1.2-1",
             "outputsToInstall": [
                 "out"
             ],
@@ -9310,15 +9310,15 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ilya-fedin/pkgs/kotatogram-desktop/default.nix#L50"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ilya-fedin/pkgs/kotatogram-desktop/default.nix#L41"
         },
         "_attr": "kotatogram-desktop",
         "_repo": "ilya-fedin"
     },
     "nur.repos.ilya-fedin.libtgvoip": {
-        "name": "libtgvoip-unstable-2020-01-21",
+        "name": "libtgvoip-unstable-2020-03-02",
         "pname": "libtgvoip-unstable",
-        "version": "2020-01-21",
+        "version": "2020-03-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -9338,7 +9338,7 @@
                     "name": "Ilya Fedin"
                 }
             ],
-            "name": "libtgvoip-unstable-2020-01-21",
+            "name": "libtgvoip-unstable-2020-03-02",
             "outputsToInstall": [
                 "out"
             ],
