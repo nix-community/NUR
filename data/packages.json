@@ -38613,9 +38613,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.cookie-autodelete": {
-        "name": "cookie-autodelete-3.0.4",
+        "name": "cookie-autodelete-3.1.0",
         "pname": "cookie-autodelete",
-        "version": "3.0.4",
+        "version": "3.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -38627,7 +38627,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "cookie-autodelete-3.0.4",
+            "name": "cookie-autodelete-3.1.0",
             "outputsToInstall": [
                 "out"
             ],
