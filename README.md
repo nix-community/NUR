@@ -418,6 +418,11 @@ override existing packages.
 Also without coordination multiple overlays could easily introduce dependency
 cycles.
 
+## Why are my NUR packages not updating?
+With every build triggered via the URL hook all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are in the meta data of a derivation like a wrong license attribute.
+
+You can find out if your evaluation succeeded by checking the [latest travis build job]( https://travis-ci.com/github/nix-community/NUR/ ).
+
 ## Contact
 
 You can chat with us on IRC in channel [#nixos-nur](https://webchat.freenode.net/?url=irc%3A%2F%2Firc.freenode.net%2Fnixos-nur).
