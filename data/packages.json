@@ -38951,9 +38951,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.0",
+        "name": "darkreader-4.9.2",
         "pname": "darkreader",
-        "version": "4.9.0",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -38965,7 +38965,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.0",
+            "name": "darkreader-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
