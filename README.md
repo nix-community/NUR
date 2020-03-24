@@ -134,6 +134,7 @@ in
 
 ### Flake Support
 
+**Experimental** Note that flake support is still experimental and might change in future in a backwards incompatible way.
 Using overlays and modules from NUR in your configuration is fairly straight
 forward.
 
