@@ -31417,9 +31417,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.nix-update": {
-        "name": "nix-update-2020-03-17",
+        "name": "nix-update-2020-03-24",
         "pname": "nix-update",
-        "version": "2020-03-17",
+        "version": "2020-03-24",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -31462,7 +31462,7 @@
                     "name": "J\u00f6rg Thalheim"
                 }
             ],
-            "name": "nix-update-2020-03-17",
+            "name": "nix-update-2020-03-24",
             "outputsToInstall": [
                 "out"
             ],
@@ -31602,9 +31602,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.pandoc-bin": {
-        "name": "pandoc-bin-2.9.2",
+        "name": "pandoc-bin-2.9.2.1",
         "pname": "pandoc-bin",
-        "version": "2.9.2",
+        "version": "2.9.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -31616,7 +31616,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "http://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "pandoc-bin-2.9.2",
+            "name": "pandoc-bin-2.9.2.1",
             "outputsToInstall": [
                 "out"
             ],
