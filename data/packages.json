@@ -8475,7 +8475,7 @@
         "_attr": "psm2",
         "_repo": "gricad"
     },
-    "nur.repos.gricad.openmpi": {
+    "nur.repos.gricad.openmpi1": {
         "name": "openmpi-1.10.7",
         "pname": "openmpi",
         "version": "1.10.7",
@@ -8525,7 +8525,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad/pkgs/openmpi/default.nix#L45"
         },
-        "_attr": "openmpi",
+        "_attr": "openmpi1",
         "_repo": "gricad"
     },
     "nur.repos.gricad.openmpi2": {
@@ -8746,7 +8746,7 @@
         "_attr": "openmpi3",
         "_repo": "gricad"
     },
-    "nur.repos.gricad.openmpi4": {
+    "nur.repos.gricad.openmpi": {
         "name": "openmpi-4.0.3",
         "pname": "openmpi",
         "version": "4.0.3",
@@ -8802,7 +8802,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad/pkgs/openmpi/4.nix#L98"
         },
-        "_attr": "openmpi4",
+        "_attr": "openmpi",
         "_repo": "gricad"
     },
     "nur.repos.gricad.petsc": {
