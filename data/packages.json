@@ -38599,9 +38599,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.bitwarden": {
-        "name": "bitwarden-1.43.3",
+        "name": "bitwarden-1.43.4",
         "pname": "bitwarden",
-        "version": "1.43.3",
+        "version": "1.43.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -38613,7 +38613,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "http://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "bitwarden-1.43.3",
+            "name": "bitwarden-1.43.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -40731,9 +40731,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-moderator-toolbox": {
-        "name": "reddit-moderator-toolbox-5.3.0",
+        "name": "reddit-moderator-toolbox-5.3.1",
         "pname": "reddit-moderator-toolbox",
-        "version": "5.3.0",
+        "version": "5.3.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40745,7 +40745,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "http://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "reddit-moderator-toolbox-5.3.0",
+            "name": "reddit-moderator-toolbox-5.3.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -40861,9 +40861,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-17.0",
+        "name": "save-page-we-17.1",
         "pname": "save-page-we",
-        "version": "17.0",
+        "version": "17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40874,7 +40874,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "http://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-17.0",
+            "name": "save-page-we-17.1",
             "outputsToInstall": [
                 "out"
             ],
