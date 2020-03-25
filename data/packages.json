@@ -31417,9 +31417,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.nix-update": {
-        "name": "nix-update-2020-03-24",
+        "name": "nix-update-2020-03-25",
         "pname": "nix-update",
-        "version": "2020-03-24",
+        "version": "2020-03-25",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -31462,7 +31462,7 @@
                     "name": "J\u00f6rg Thalheim"
                 }
             ],
-            "name": "nix-update-2020-03-24",
+            "name": "nix-update-2020-03-25",
             "outputsToInstall": [
                 "out"
             ],
