@@ -47668,9 +47668,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.ko": {
-        "name": "ko-dev",
-        "pname": "ko-dev",
-        "version": "",
+        "name": "ko-0.4.0",
+        "pname": "ko",
+        "version": "0.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47696,7 +47696,7 @@
                     "name": "Luca Bruno"
                 }
             ],
-            "name": "ko-dev",
+            "name": "ko-0.4.0",
             "outputsToInstall": [
                 "bin"
             ],
