@@ -32477,22 +32477,6 @@
         "_attr": "web2ldap",
         "_repo": "mic92"
     },
-    "nur.repos.mic92.xterm-24bit-terminfo": {
-        "name": "xterm-24bit-terminfo",
-        "pname": "xterm",
-        "version": "24bit-terminfo",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "name": "xterm-24bit-terminfo",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/xterm-24bit-terminfo/default.nix#L3"
-        },
-        "_attr": "xterm-24bit-terminfo",
-        "_repo": "mic92"
-    },
     "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-11": {
         "name": "adoptopenjdk-hotspot-bin-11.0.6",
         "pname": "adoptopenjdk-hotspot-bin",
