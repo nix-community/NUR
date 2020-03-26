@@ -39111,9 +39111,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.2",
+        "name": "darkreader-4.9.3",
         "pname": "darkreader",
-        "version": "4.9.2",
+        "version": "4.9.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39125,7 +39125,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.2",
+            "name": "darkreader-4.9.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -39631,9 +39631,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.gopass-bridge": {
-        "name": "gopass-bridge-0.6.2",
+        "name": "gopass-bridge-0.7.0",
         "pname": "gopass-bridge",
-        "version": "0.6.2",
+        "version": "0.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39645,7 +39645,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "gopass-bridge-0.6.2",
+            "name": "gopass-bridge-0.7.0",
             "outputsToInstall": [
                 "out"
             ],
