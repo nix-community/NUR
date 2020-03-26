@@ -31601,6 +31601,25 @@
         "_attr": "nix-review-unstable",
         "_repo": "mic92"
     },
+    "nur.repos.mic92.speedscope": {
+        "name": "node_speedscope-1.5.3",
+        "pname": "node_speedscope",
+        "version": "1.5.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A fast, interactive web-based viewer for performance profiles. An alternative viewer for [FlameGraphs][1]. Will happily display multi-megabyte profiles without crashing your browser.",
+            "homepage": "https://github.com/jlfwong/speedscope#readme",
+            "license": "MIT",
+            "name": "node_speedscope-1.5.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/node-packages/node-packages.nix#L42"
+        },
+        "_attr": "speedscope",
+        "_repo": "mic92"
+    },
     "nur.repos.mic92.pandoc-bin": {
         "name": "pandoc-bin-2.9.2.1",
         "pname": "pandoc-bin",
