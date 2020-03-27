@@ -39918,15 +39918,15 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.https-everywhere": {
-        "name": "https-everywhere-2019.11.7",
+        "name": "https-everywhere-2020.3.16",
         "pname": "https-everywhere",
-        "version": "2019.11.7",
+        "version": "2020.3.16",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Encrypt the web! HTTPS Everywhere is a Firefox extension to protect your communications by enabling HTTPS encryption automatically on sites that are known to support it, even when you type URLs or follow links that omit the https: prefix.",
             "homepage": "https://www.eff.org/https-everywhere",
-            "name": "https-everywhere-2019.11.7",
+            "name": "https-everywhere-2020.3.16",
             "outputsToInstall": [
                 "out"
             ],
@@ -40100,9 +40100,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.keepassxc-browser": {
-        "name": "keepassxc-browser-1.6.1",
+        "name": "keepassxc-browser-1.6.2",
         "pname": "keepassxc-browser",
-        "version": "1.6.1",
+        "version": "1.6.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40114,7 +40114,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "http://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "keepassxc-browser-1.6.1",
+            "name": "keepassxc-browser-1.6.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -40693,21 +40693,21 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.react-devtools": {
-        "name": "react-devtools-4.5.0",
+        "name": "react-devtools-4.6.0",
         "pname": "react-devtools",
-        "version": "4.5.0",
+        "version": "4.6.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "React Developer Tools is a tool that allows you to inspect a React tree, including the component hierarchy, props, state, and more. To get started, just open the Firefox devtools and switch to the \"\u269b\ufe0f Components\" or \"\u269b\ufe0f Profiler\" tab.",
             "homepage": "https://github.com/facebook/react",
             "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "react-devtools-4.5.0",
+            "name": "react-devtools-4.6.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -40888,9 +40888,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-20.3.22",
+        "name": "refined-github-20.3.26",
         "pname": "refined-github",
-        "version": "20.3.22",
+        "version": "20.3.26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40902,7 +40902,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-20.3.22",
+            "name": "refined-github-20.3.26",
             "outputsToInstall": [
                 "out"
             ],
