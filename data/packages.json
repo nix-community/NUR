@@ -36914,6 +36914,22 @@
         "_attr": "pkgs.shotgun",
         "_repo": "nexromancers"
     },
+    "nur.repos.otevrenamesta.example-package": {
+        "name": "example-package-1.0",
+        "pname": "example-package",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "example-package-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/otevrenamesta/pkgs/example-package/default.nix#L5"
+        },
+        "_attr": "example-package",
+        "_repo": "otevrenamesta"
+    },
     "nur.repos.peel.hoverfly": {
         "name": "hoverfly-v0.17.2",
         "pname": "hoverfly-v0.17.2",
