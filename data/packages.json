@@ -24151,6 +24151,50 @@
         "_attr": "slock",
         "_repo": "jomik"
     },
+    "nur.repos.joshuafern.citra": {
+        "name": "citra-2020-03-21",
+        "pname": "citra",
+        "version": "2020-03-21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An open-source emulator for the Nintendo 3DS",
+            "homepage": "https://citra-emu.org",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ab@fmap.me",
+                    "github": "abbradar",
+                    "name": "Nikolay Amiantov"
+                }
+            ],
+            "name": "citra-2020-03-21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/joshuafern/pkgs/misc/emulators/citra/default.nix#L27"
+        },
+        "_attr": "citra",
+        "_repo": "joshuafern"
+    },
     "nur.repos.joshuafern.dosbox-staging": {
         "name": "dosbox-staging",
         "pname": "dosbox-staging",
@@ -24268,6 +24312,51 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/joshuafern/pkgs/development/mobile/qdl/default.nix#L23"
         },
         "_attr": "qdl",
+        "_repo": "joshuafern"
+    },
+    "nur.repos.joshuafern.samrewritten": {
+        "name": "samrewritten-r133",
+        "pname": "samrewritten-r133",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Allows you to unlock and relock your Steam achievements",
+            "homepage": "https://github.com/PaulCombal/SamRewritten",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "joshuafern@protonmail.com",
+                    "github": "JoshuaFern",
+                    "githubId": 4300747,
+                    "name": "Joshua Fern"
+                }
+            ],
+            "name": "samrewritten-r133",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/joshuafern/pkgs/tools/misc/samrewritten/default.nix#L33"
+        },
+        "_attr": "samrewritten",
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.sbase": {
