@@ -111,282 +111,10 @@
         "_attr": "TS",
         "_repo": "INFO4-19"
     },
-    "nur.repos.awl-fcarza.dask": {
-        "name": "python3.7-dask-2.5.2",
-        "pname": "python3.7-dask",
-        "version": "2.5.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Minimal task scheduling abstraction",
-            "homepage": "https://github.com/ContinuumIO/dask/",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "http://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "maintainers": [
-                {
-                    "email": "fridh@fridh.nl",
-                    "github": "fridh",
-                    "githubId": 2129135,
-                    "name": "Frederik Rietdijk"
-                }
-            ],
-            "name": "python3.7-dask-2.5.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/awl-fcarza/pkgs/development/python-modules/dask/default.nix#L39"
-        },
-        "_attr": "dask",
-        "_repo": "awl-fcarza"
-    },
-    "nur.repos.awl-fcarza.dask-jobqueue": {
-        "name": "python3.7-dask-jobqueue-0.7.0",
-        "pname": "python3.7-dask-jobqueue",
-        "version": "0.7.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Deploy Dask on job schedulers like PBS, SLURM, and SGE",
-            "homepage": "https://github.com/dask/dask-jobqueue",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "http://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "maintainers": [
-                {
-                    "email": "chris.ostrouchov@gmail.com",
-                    "github": "costrouc",
-                    "githubId": 1740337,
-                    "name": "Chris Ostrouchov"
-                }
-            ],
-            "name": "python3.7-dask-jobqueue-0.7.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/awl-fcarza/pkgs/development/python-modules/dask-jobqueue/default.nix#L29"
-        },
-        "_attr": "dask-jobqueue",
-        "_repo": "awl-fcarza"
-    },
-    "nur.repos.awl-fcarza.dask-ml": {
-        "name": "python3.7-dask-ml-1.0.0",
-        "pname": "python3.7-dask-ml",
-        "version": "1.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Scalable Machine Learn with Dask",
-            "homepage": "https://github.com/dask/dask-ml",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "http://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "maintainers": [
-                {
-                    "email": "chris.ostrouchov@gmail.com",
-                    "github": "costrouc",
-                    "githubId": 1740337,
-                    "name": "Chris Ostrouchov"
-                }
-            ],
-            "name": "python3.7-dask-ml-1.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/awl-fcarza/pkgs/development/python-modules/dask-ml/default.nix#L39"
-        },
-        "_attr": "dask-ml",
-        "_repo": "awl-fcarza"
-    },
-    "nur.repos.awl-fcarza.distributed": {
-        "name": "python3.7-distributed-2.5.2",
-        "pname": "python3.7-distributed",
-        "version": "2.5.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Distributed computation in Python.",
-            "homepage": "https://distributed.readthedocs.io/en/latest/",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "http://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "maintainers": [
-                {
-                    "email": "tehunger@gmail.com",
-                    "github": "teh",
-                    "githubId": 139251,
-                    "name": "Tom Hunger"
-                },
-                {
-                    "email": "chris.ostrouchov@gmail.com",
-                    "github": "costrouc",
-                    "githubId": 1740337,
-                    "name": "Chris Ostrouchov"
-                }
-            ],
-            "name": "python3.7-distributed-2.5.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "x86_64-windows",
-                "i686-windows",
-                "i686-none",
-                "x86_64-none"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/awl-fcarza/pkgs/development/python-modules/distributed/default.nix#L56"
-        },
-        "_attr": "distributed",
-        "_repo": "awl-fcarza"
-    },
     "nur.repos.babariviere.godot": {
-        "name": "godot-3.2",
+        "name": "godot-3.2.1",
         "pname": "godot",
-        "version": "3.2",
+        "version": "3.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -405,7 +133,7 @@
                     "name": "James \u2018Twey\u2019 Kay"
                 }
             ],
-            "name": "godot-3.2",
+            "name": "godot-3.2.1",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -560,9 +288,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -570,7 +299,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/tools/text/dwdiff/default.nix#L29"
         },
@@ -686,9 +417,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -696,7 +428,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/applications/misc/finalhe/default.nix#L44"
         },
@@ -826,9 +560,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -836,7 +571,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/development/libraries/gdtoa-desktop/default.nix#L25"
         },
@@ -897,9 +634,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -907,7 +645,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/applications/version-management/git-and-tools/git-my/default.nix#L28"
         },
@@ -988,9 +728,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -998,7 +739,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/applications/version-management/git-and-tools/git-revise/default.nix#L19"
         },
@@ -1076,9 +819,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -1086,7 +830,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/development/tools/heirloom-devtools/default.nix#L154"
         },
@@ -1164,9 +910,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -1174,7 +921,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/shells/heirloom-sh/default.nix#L33"
         },
@@ -1365,9 +1114,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -1375,7 +1125,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
         },
@@ -1620,9 +1372,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -1630,7 +1383,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/tools/compression/lz4json/default.nix#L35"
         },
@@ -1751,9 +1506,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -1761,7 +1517,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/tools/compression/mozlz4-tool/default.nix#L25"
         },
@@ -1859,9 +1617,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -1869,7 +1628,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/tools/misc/psvimgtools/default.nix#L28"
         },
@@ -1934,9 +1695,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -1944,7 +1706,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g/pkgs/applications/misc/qcma/default.nix#L44"
         },
@@ -2453,9 +2217,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -2463,7 +2228,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bendlas/pkgs/lsd/default.nix#L25"
         },
@@ -3812,9 +3579,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -3822,7 +3590,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "Apache License 2.0",
@@ -3877,9 +3647,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -3887,7 +3658,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/alive/default.nix#L60"
         },
@@ -4092,9 +3865,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -4102,7 +3876,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/crex/default.nix#L22"
         },
@@ -4536,9 +4312,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -4546,7 +4323,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/xi/gxi/default.nix#L34"
         },
@@ -4614,9 +4393,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -4624,7 +4404,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/hack/default.nix#L17"
         },
@@ -4900,9 +4682,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -4910,7 +4693,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/xi/kod/default.nix#L27"
         },
@@ -5167,9 +4952,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -5177,7 +4963,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/kittel-koat/default.nix#L45"
         },
@@ -5291,9 +5079,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -5301,7 +5090,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
         },
@@ -5607,9 +5398,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -5617,7 +5409,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/publib/default.nix#L22"
         },
@@ -5662,9 +5456,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -5672,7 +5467,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "Apple Public Source License 2.0",
@@ -5713,9 +5510,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -5723,7 +5521,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/xed/mbuild.nix#L15"
         },
@@ -5853,9 +5653,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -5863,7 +5664,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/slinky/default.nix#L45"
         },
@@ -5938,9 +5741,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -5948,7 +5752,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/slipstream/ipcd.nix#L14"
         },
@@ -6017,9 +5823,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -6027,7 +5834,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/slipstream/libipc.nix#L24"
         },
@@ -6096,9 +5905,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -6106,7 +5916,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/source-code-pro-variable/default.nix#L21"
         },
@@ -6656,9 +6468,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -6666,7 +6479,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/xi/default.nix#L33"
         },
@@ -6735,9 +6550,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -6745,7 +6561,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/xi/xi-gtk/default.nix#L25"
         },
@@ -6814,9 +6632,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -6824,7 +6643,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz/pkgs/xi/xi-term/default.nix#L21"
         },
@@ -7090,9 +6911,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -7100,7 +6922,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dywedir/pkgs/dssim/default.nix#L18"
         },
@@ -7493,9 +7317,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -7503,7 +7328,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "name": "variety-0.6.6",
             "outputsToInstall": [
@@ -7538,9 +7365,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -7548,7 +7376,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/fgaz/pkgs/variety/default.nix#L5"
         },
@@ -7662,9 +7492,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -7672,7 +7503,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad/pkgs/arpack-ng/default.nix#L19"
         },
@@ -7951,9 +7784,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -7961,7 +7795,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad/pkgs/hello/default.nix#L14"
         },
@@ -8262,9 +8098,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -8272,7 +8109,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad/pkgs/lhapdf59/default.nix#L23"
         },
@@ -8413,9 +8252,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -8423,7 +8263,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad/pkgs/obitools/obitools3.nix#L41"
         },
@@ -8853,9 +8695,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -8863,7 +8706,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad/pkgs/petsc/default.nix#L85"
         },
@@ -8918,9 +8763,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -8928,7 +8774,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad/pkgs/petsc/default.nix#L85"
         },
@@ -8983,9 +8831,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -8993,7 +8842,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad/pkgs/plplot/default.nix#L19"
         },
@@ -9221,9 +9072,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -9231,7 +9083,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "Apache License 2.0",
@@ -9504,9 +9358,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -9514,7 +9369,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/tools/curl/default.nix#L113"
         },
@@ -9647,9 +9504,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -9657,7 +9515,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/libssh2/default.nix#L20"
         },
@@ -9720,9 +9580,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -9730,7 +9591,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/servers/mariadb/galera_25.nix#L55"
         },
@@ -9793,9 +9656,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -9803,7 +9667,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/servers/mariadb/galera_26.nix#L55"
         },
@@ -9867,9 +9733,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -9877,7 +9744,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/servers/mariadb/mariadb_10_3.nix#L102"
         },
@@ -9941,9 +9810,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -9951,7 +9821,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/servers/mariadb/mariadb_10_4.nix#L102"
         },
@@ -10015,9 +9887,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -10025,7 +9898,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/servers/mariadb/mariadb_10_5.nix#L102"
         },
@@ -10228,9 +10103,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -10238,7 +10114,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L262"
         },
@@ -10314,9 +10192,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -10324,7 +10203,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L262"
         },
@@ -10400,9 +10281,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -10410,7 +10292,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L262"
         },
@@ -10486,9 +10370,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -10496,7 +10381,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L262"
         },
@@ -10572,9 +10459,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -10582,7 +10470,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L262"
         },
@@ -10658,9 +10548,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -10668,7 +10559,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L262"
         },
@@ -10744,9 +10637,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -10754,7 +10648,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L262"
         },
@@ -10830,9 +10726,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -10840,7 +10737,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L262"
         },
@@ -10916,9 +10815,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -10926,7 +10826,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L262"
         },
@@ -11002,9 +10904,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -11012,7 +10915,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L262"
         },
@@ -20923,9 +20828,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -20933,7 +20839,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
@@ -20982,9 +20890,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -20992,7 +20901,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/chipsec.nix#L27"
         },
@@ -21037,9 +20948,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21047,7 +20959,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
@@ -21096,9 +21010,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21106,7 +21021,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/chipsec.nix#L27"
         },
@@ -21151,9 +21068,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21161,7 +21079,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
@@ -21210,9 +21130,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21220,7 +21141,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/chipsec.nix#L27"
         },
@@ -21265,9 +21188,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21275,7 +21199,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
@@ -21324,9 +21250,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21334,7 +21261,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/chipsec.nix#L27"
         },
@@ -21379,9 +21308,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21389,7 +21319,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
@@ -21438,9 +21370,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21448,7 +21381,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/chipsec.nix#L27"
         },
@@ -21511,9 +21446,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21521,7 +21457,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/dkgpg.nix#L14"
         },
@@ -21715,9 +21653,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21725,7 +21664,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/libthai.nix#L15"
         },
@@ -21788,9 +21729,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21798,7 +21740,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/libdatrie.nix#L24"
         },
@@ -21861,9 +21805,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21871,7 +21816,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/libtmcg.nix#L14"
         },
@@ -21951,9 +21898,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -21961,7 +21909,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/multivault.nix#L27"
         },
@@ -22090,9 +22040,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22100,7 +22051,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/pppconfig.nix#L31"
         },
@@ -22169,9 +22122,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22179,7 +22133,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/prosody-filer/default.nix#L18"
         },
@@ -22259,9 +22215,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22269,7 +22226,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/python-vipaccess.nix#L21"
         },
@@ -22314,9 +22273,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22324,7 +22284,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "Eclipse Public License 1.0",
@@ -22379,9 +22341,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22389,7 +22352,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/python2-pkgs/paho-mqtt.nix#L24"
         },
@@ -22434,9 +22399,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22444,7 +22410,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "MIT License",
@@ -22493,9 +22461,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22503,7 +22472,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/python2-pkgs/pykwalify.nix#L22"
         },
@@ -22548,9 +22519,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22558,7 +22530,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "MIT License",
@@ -22607,9 +22581,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22617,7 +22592,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/python2-pkgs/python-box.nix#L20"
         },
@@ -22662,9 +22639,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22672,7 +22650,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "MIT License",
@@ -22721,9 +22701,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22731,7 +22712,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/python2-pkgs/tavern.nix#L33"
         },
@@ -22811,9 +22794,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22821,7 +22805,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/python-pkgs/cmakeconverter.nix#L16"
         },
@@ -22901,9 +22887,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22911,7 +22898,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/python-pkgs/hkp4py.nix#L18"
         },
@@ -22974,9 +22963,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -22984,7 +22974,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/rederr.nix#L22"
         },
@@ -23029,9 +23021,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -23039,7 +23032,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
@@ -23088,9 +23083,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -23098,7 +23094,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/rfc-reader/default.nix#L46"
         },
@@ -23162,9 +23160,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -23172,7 +23171,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/thpronun.nix#L19"
         },
@@ -23235,9 +23236,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -23245,7 +23247,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/timg.nix#L24"
         },
@@ -23308,9 +23312,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -23318,7 +23323,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/tiv.nix#L24"
         },
@@ -23387,9 +23394,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -23397,7 +23405,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/u-root/default.nix#L18"
         },
@@ -23442,9 +23452,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -23452,7 +23463,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "BSD 2-clause \"Simplified\" License",
@@ -23501,9 +23514,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -23511,7 +23525,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/uefi-driver-wizard.nix#L22"
         },
@@ -23574,9 +23590,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -23584,7 +23601,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/uefitool.nix#L27"
         },
@@ -23711,9 +23730,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -23721,7 +23741,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg/pkgs/youtuberss.nix#L20"
         },
@@ -24054,13 +24076,13 @@
         "_repo": "jomik"
     },
     "nur.repos.jomik.fishPlugins.thefuck": {
-        "name": "fish-plugin-thefuck-3.29",
+        "name": "fish-plugin-thefuck-3.30",
         "pname": "fish-plugin-thefuck",
-        "version": "3.29",
+        "version": "3.30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "fish-plugin-thefuck-3.29",
+            "name": "fish-plugin-thefuck-3.30",
             "outputsToInstall": [
                 "out"
             ],
@@ -24550,9 +24572,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -24560,7 +24583,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kalbasit/pkgs/corgi/default.nix#L19"
         },
@@ -24646,9 +24671,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -24656,7 +24682,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kalbasit/pkgs/gocode/default.nix#L32"
         },
@@ -24736,9 +24764,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -24746,7 +24775,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kalbasit/pkgs/ls-colors/default.nix#L25"
         },
@@ -24858,9 +24889,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -24868,7 +24900,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kalbasit/pkgs/shrinkpdf/default.nix#L22"
         },
@@ -24937,9 +24971,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -24947,7 +24982,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kalbasit/pkgs/swm/default.nix#L18"
         },
@@ -25039,9 +25076,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -25049,7 +25087,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kapack/pkgs/arion/default.nix#L35"
         },
@@ -25283,9 +25323,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -25293,7 +25334,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kapack/pkgs/docopt_cpp/default.nix#L22"
         },
@@ -25376,7 +25419,8 @@
                 "x86_64-solaris",
                 "x86_64-darwin",
                 "x86_64-windows",
-                "x86_64-none"
+                "x86_64-none",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kapack/pkgs/intervalset/default.nix#L21"
         },
@@ -26406,9 +26450,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -26416,7 +26461,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/emacs/generic.nix#L139"
         },
@@ -26496,9 +26543,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -26506,7 +26554,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/emacs/generic.nix#L139"
         },
@@ -26586,9 +26636,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -26596,7 +26647,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/emacs/generic.nix#L139"
         },
@@ -26687,9 +26740,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -26697,7 +26751,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/fish-plugins/package-plugin.nix#L6"
         },
@@ -26744,9 +26800,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -26754,7 +26811,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/fish-plugins/package-plugin.nix#L6"
         },
@@ -26801,9 +26860,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -26811,7 +26871,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/fish-plugins/package-plugin.nix#L6"
         },
@@ -26858,9 +26920,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -26868,7 +26931,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/fish-plugins/package-plugin.nix#L6"
         },
@@ -26964,9 +27029,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -26974,7 +27040,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/make-bash-cli/default.nix#L206"
         },
@@ -27021,9 +27089,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -27031,7 +27100,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/make-bash-cli/default.nix#L206"
         },
@@ -27078,9 +27149,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -27088,7 +27160,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/make-bash-cli/default.nix#L206"
         },
@@ -27135,9 +27209,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -27145,7 +27220,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/make-bash-cli/default.nix#L206"
         },
@@ -27306,9 +27383,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -27316,7 +27394,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys"
         },
@@ -27411,9 +27491,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -27421,7 +27502,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/pragmatapro.nix#L28"
         },
@@ -27476,9 +27559,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -27486,7 +27570,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kreisys/pkgs/silver/default.nix#L14"
         },
@@ -28179,9 +28265,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -28189,7 +28276,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu/cmpforopenssl/default.nix#L72",
             "priority": 0
@@ -28328,9 +28417,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -28338,7 +28428,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "BSD 2-clause \"Simplified\" License",
@@ -28379,9 +28471,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -28389,7 +28482,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu/drozer/default.nix#L31"
         },
@@ -28995,9 +29090,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -29005,7 +29101,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "Apache License 2.0",
@@ -29046,9 +29144,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -29056,7 +29155,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu/mycube-flask/default.nix#L18"
         },
@@ -29101,9 +29202,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -29111,7 +29213,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "Apache License 2.0",
@@ -29152,9 +29256,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -29162,7 +29267,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu/nltk/default.nix#L14"
         },
@@ -29207,9 +29314,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -29217,7 +29325,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "license": {
                 "fullName": "MIT License",
@@ -29258,9 +29368,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -29268,7 +29379,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu/nodemcu-uploader/default.nix#L22"
         },
@@ -30572,9 +30685,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -30582,7 +30696,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/development/tools/misc/texlab/default.nix#L23"
         },
@@ -30644,9 +30760,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -30654,7 +30771,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/vvvvvv/default.nix#L35"
         },
@@ -30733,9 +30852,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -30743,7 +30863,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/bitwarden_rs_ldap/default.nix#L30"
         },
@@ -31265,9 +31387,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -31275,7 +31398,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/healthcheck/default.nix#L15"
         },
@@ -31340,9 +31465,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -31350,7 +31476,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/hello-nur/default.nix#L20"
         },
@@ -31584,9 +31712,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -31594,7 +31723,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/nix-update/default.nix#L34"
         },
@@ -33561,9 +33692,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -33571,7 +33703,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/micronaut/default.nix#L26"
         },
@@ -33635,9 +33769,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -33645,7 +33780,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/spring-boot-cli/default.nix#L28"
         },
@@ -33731,9 +33868,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -33741,7 +33879,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredhel"
         },
@@ -33936,9 +34076,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -33946,7 +34087,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/implicitcad/default.nix#L34"
         },
@@ -34165,9 +34308,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -34175,7 +34319,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mozilla/pkgs/cbindgen/default.nix#L31"
         },
@@ -34701,9 +34847,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -34711,7 +34858,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/n1kolasM/pkgs/avr8-burn-omat/default.nix#L28"
         },
@@ -38136,9 +38285,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -38146,7 +38296,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pschuprikov"
         },
@@ -38209,9 +38361,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -38219,7 +38372,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pschuprikov"
         },
@@ -38462,9 +38617,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -38472,7 +38628,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ptival/pkgs/meslo-nerd-powerlevel10k/default.nix#L18"
         },
@@ -38543,9 +38701,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -38553,7 +38712,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L12"
         },
@@ -38608,9 +38769,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -38618,7 +38780,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L26"
         },
@@ -38673,9 +38837,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -38683,7 +38848,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L40"
         },
@@ -38738,9 +38905,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -38748,7 +38916,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L54"
         },
@@ -38803,9 +38973,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -38813,7 +38984,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L68"
         },
@@ -38862,9 +39035,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -38872,7 +39046,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L82"
         },
@@ -38927,9 +39103,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -38937,7 +39114,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L95"
         },
@@ -38991,9 +39170,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39001,7 +39181,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L108"
         },
@@ -39056,9 +39238,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39066,7 +39249,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L122"
         },
@@ -39121,9 +39306,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39131,7 +39317,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L136"
         },
@@ -39185,9 +39373,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39195,7 +39384,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L149"
         },
@@ -39250,9 +39441,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39260,7 +39452,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L163"
         },
@@ -39315,9 +39509,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39325,7 +39520,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L177"
         },
@@ -39380,9 +39577,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39390,7 +39588,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L191"
         },
@@ -39445,9 +39645,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39455,7 +39656,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L205"
         },
@@ -39510,9 +39713,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39520,7 +39724,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L219"
         },
@@ -39575,9 +39781,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39585,7 +39792,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L233"
         },
@@ -39640,9 +39849,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39650,7 +39860,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L247"
         },
@@ -39705,9 +39917,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39715,7 +39928,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L261"
         },
@@ -39770,9 +39985,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39780,7 +39996,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L275"
         },
@@ -39835,9 +40053,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39845,7 +40064,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L289"
         },
@@ -39900,9 +40121,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39910,7 +40132,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L303"
         },
@@ -39959,9 +40183,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -39969,7 +40194,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L317"
         },
@@ -40018,9 +40245,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40028,7 +40256,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L330"
         },
@@ -40082,9 +40312,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40092,7 +40323,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L342"
         },
@@ -40147,9 +40380,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40157,7 +40391,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L356"
         },
@@ -40212,9 +40448,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40222,7 +40459,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L370"
         },
@@ -40277,9 +40516,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40287,7 +40527,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L384"
         },
@@ -40356,9 +40598,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40366,7 +40609,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons-generator/default.nix#L6"
         },
@@ -40415,9 +40660,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40425,7 +40671,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L398"
         },
@@ -40480,9 +40728,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40490,7 +40739,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L411"
         },
@@ -40545,9 +40796,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40555,7 +40807,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L425"
         },
@@ -40610,9 +40864,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40620,7 +40875,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L439"
         },
@@ -40675,9 +40932,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40685,7 +40943,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L453"
         },
@@ -40740,9 +41000,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40750,7 +41011,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L467"
         },
@@ -40805,9 +41068,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40815,7 +41079,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L481"
         },
@@ -40870,9 +41136,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40880,7 +41147,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L495"
         },
@@ -40935,9 +41204,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -40945,7 +41215,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L509"
         },
@@ -40999,9 +41271,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41009,7 +41282,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L522"
         },
@@ -41064,9 +41339,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41074,7 +41350,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L536"
         },
@@ -41128,9 +41406,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41138,7 +41417,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L549"
         },
@@ -41193,9 +41474,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41203,7 +41485,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L563"
         },
@@ -41258,9 +41542,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41268,7 +41553,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L577"
         },
@@ -41322,9 +41609,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41332,7 +41620,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L590"
         },
@@ -41387,9 +41677,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41397,7 +41688,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L604"
         },
@@ -41452,9 +41745,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41462,7 +41756,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L618"
         },
@@ -41516,9 +41812,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41526,7 +41823,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L631"
         },
@@ -41581,9 +41880,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41591,7 +41891,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L645"
         },
@@ -41646,9 +41948,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41656,7 +41959,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L659"
         },
@@ -41711,9 +42016,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41721,7 +42027,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L673"
         },
@@ -41776,9 +42084,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41786,7 +42095,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L687"
         },
@@ -41841,9 +42152,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41851,7 +42163,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L701"
         },
@@ -41905,9 +42219,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -41915,7 +42230,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L714"
         },
@@ -42180,9 +42497,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -42190,7 +42508,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/dicts/cambridge/default.nix#L20",
             "skip": {
@@ -42540,9 +42860,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -42550,7 +42871,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/tools/docker-reg-tool/default.nix#L13"
         },
@@ -42856,9 +43179,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -42866,7 +43190,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/themes/goldendict-themes/dark-theme.nix#L21"
         },
@@ -43126,9 +43452,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -43136,7 +43463,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/maps/gpxsee-maps/default.nix#L14"
         },
@@ -43260,9 +43589,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -43270,7 +43600,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/tools/dict/gt-bash-client/default.nix#L13"
         },
@@ -43418,9 +43750,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -43428,7 +43761,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/maps/hiblovgpsmap/default.nix#L27",
             "skip": {
@@ -43616,9 +43951,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -43626,7 +43962,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/development/libraries/libshell/default.nix#L30"
         },
@@ -43772,9 +44110,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -43782,7 +44121,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/dicts/macmillan/default.nix#L20",
             "skip": {
@@ -43954,9 +44295,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -43964,7 +44306,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/maps/maptourist/default.nix#L18",
             "skip": {
@@ -44104,9 +44448,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -44114,7 +44459,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/tools/geo/openmtbmap_openvelomap_linux/default.nix#L24"
         },
@@ -44795,9 +45142,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -44805,7 +45153,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/maps/qmapshack-onlinemaps/default.nix#L19"
         },
@@ -44972,9 +45322,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -44982,7 +45333,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/maps/slazav/hr.nix#L41",
             "skip": {
@@ -45052,9 +45405,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -45062,7 +45416,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/maps/slazav/podm.nix#L39",
             "skip": {
@@ -45409,9 +45765,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -45419,7 +45776,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/dicts/webster/default.nix#L20",
             "skip": {
@@ -45545,9 +45904,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -45555,7 +45915,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/smaret/pkgs/sundials2/default.nix#L21"
         },
@@ -45680,9 +46042,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -45690,7 +46053,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr/pkgs/31key/default.nix#L40"
         },
@@ -45753,9 +46118,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -45763,7 +46129,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr/pkgs/augr/default.nix#L17"
         },
@@ -45971,9 +46339,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -45981,7 +46350,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr/pkgs/mimi/default.nix#L40"
         },
@@ -46104,9 +46475,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -46114,7 +46486,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr/pkgs/quake3-data/default.nix#L21"
         },
@@ -46467,9 +46841,9 @@
         "_repo": "tilpner"
     },
     "nur.repos.tilpner.syncthing-short-delay": {
-        "name": "syncthing-1.3.4",
+        "name": "syncthing-1.4.0",
         "pname": "syncthing",
-        "version": "1.3.4",
+        "version": "1.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46519,7 +46893,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "syncthing-1.3.4",
+            "name": "syncthing-1.4.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -46717,9 +47091,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -46727,7 +47102,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan/pkgs/disk-utilities/default.nix#L22"
         },
@@ -47012,9 +47389,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -47022,7 +47400,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tox/pkgs/tox-node/default.nix#L37"
         },
@@ -47137,9 +47517,10 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
                 "aarch64-none",
                 "avr-none",
-                "arm-none",
                 "i686-none",
                 "x86_64-none",
                 "powerpc-none",
@@ -47147,7 +47528,9 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
-                "js-ghcjs"
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/trevorriles/pkgs/iosevka-nerd-font/default.nix#L17"
         },
