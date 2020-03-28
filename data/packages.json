@@ -30867,7 +30867,7 @@
                 "aarch64-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/bitwarden_rs_ldap/default.nix#L30"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/bitwarden_rs_ldap/default.nix#L29"
         },
         "_attr": "bitwarden_rs_ldap",
         "_repo": "mic92"
@@ -31140,7 +31140,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/ferdi/default.nix#L53"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/ferdi/default.nix#L101"
         },
         "_attr": "ferdi",
         "_repo": "mic92"
@@ -31727,7 +31727,7 @@
                 "aarch64-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/nix-update/default.nix#L34"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/nix-update/default.nix#L37"
         },
         "_attr": "nix-update",
         "_repo": "mic92"
@@ -31926,7 +31926,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/peep/default.nix#L23"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/peep/default.nix#L25"
         },
         "_attr": "peep",
         "_repo": "mic92"
@@ -32058,7 +32058,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/python-pkgs/frida.nix#L34"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/python-pkgs/frida.nix#L35"
         },
         "_attr": "python3Packages.frida",
         "_repo": "mic92"
@@ -32711,7 +32711,7 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/web2ldap/default.nix#L20"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/web2ldap/default.nix#L27"
         },
         "_attr": "web2ldap",
         "_repo": "mic92"
