@@ -9831,9 +9831,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb_10_5": {
-        "name": "mariadb-server-10.5.1",
+        "name": "mariadb-server-10.5.2",
         "pname": "mariadb-server",
-        "version": "10.5.1",
+        "version": "10.5.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -9853,7 +9853,7 @@
                     "name": "Austin Seipp"
                 }
             ],
-            "name": "mariadb-server-10.5.1",
+            "name": "mariadb-server-10.5.2",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -10391,9 +10391,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72": {
-        "name": "php-7.2.28",
+        "name": "php-7.2.29",
         "pname": "php",
-        "version": "7.2.28",
+        "version": "7.2.29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10425,7 +10425,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.2.28",
+            "name": "php-7.2.29",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -10480,9 +10480,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72-unit": {
-        "name": "php-7.2.28",
+        "name": "php-7.2.29",
         "pname": "php",
-        "version": "7.2.28",
+        "version": "7.2.29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10514,7 +10514,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.2.28",
+            "name": "php-7.2.29",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -10569,9 +10569,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73-unit": {
-        "name": "php-7.3.15",
+        "name": "php-7.3.16",
         "pname": "php",
-        "version": "7.3.15",
+        "version": "7.3.16",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10603,7 +10603,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.3.15",
+            "name": "php-7.3.16",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -10658,9 +10658,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73": {
-        "name": "php-7.3.15",
+        "name": "php-7.3.16",
         "pname": "php",
-        "version": "7.3.15",
+        "version": "7.3.16",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10692,7 +10692,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.3.15",
+            "name": "php-7.3.16",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -10747,9 +10747,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74-unit": {
-        "name": "php-7.4.3",
+        "name": "php-7.4.4",
         "pname": "php",
-        "version": "7.4.3",
+        "version": "7.4.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10781,7 +10781,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.4.3",
+            "name": "php-7.4.4",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -10836,9 +10836,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74": {
-        "name": "php-7.4.3",
+        "name": "php-7.4.4",
         "pname": "php",
-        "version": "7.4.3",
+        "version": "7.4.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10870,7 +10870,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.4.3",
+            "name": "php-7.4.4",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -11925,9 +11925,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.composer": {
-        "name": "php-composer-1.10.0",
+        "name": "php-composer-1.10.1",
         "pname": "php-composer",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11953,7 +11953,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-1.10.0",
+            "name": "php-composer-1.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -11963,9 +11963,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.composer": {
-        "name": "php-composer-1.10.0",
+        "name": "php-composer-1.10.1",
         "pname": "php-composer",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11991,7 +11991,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-1.10.0",
+            "name": "php-composer-1.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -12001,9 +12001,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.composer": {
-        "name": "php-composer-1.10.0",
+        "name": "php-composer-1.10.1",
         "pname": "php-composer",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12029,7 +12029,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-1.10.0",
+            "name": "php-composer-1.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -12039,9 +12039,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.composer": {
-        "name": "php-composer-1.10.0",
+        "name": "php-composer-1.10.1",
         "pname": "php-composer",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12067,7 +12067,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-1.10.0",
+            "name": "php-composer-1.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -12077,9 +12077,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.composer": {
-        "name": "php-composer-1.10.0",
+        "name": "php-composer-1.10.1",
         "pname": "php-composer",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12105,7 +12105,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-1.10.0",
+            "name": "php-composer-1.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -12115,9 +12115,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.composer": {
-        "name": "php-composer-1.10.0",
+        "name": "php-composer-1.10.1",
         "pname": "php-composer",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12143,7 +12143,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-1.10.0",
+            "name": "php-composer-1.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -12153,9 +12153,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.composer": {
-        "name": "php-composer-1.10.0",
+        "name": "php-composer-1.10.1",
         "pname": "php-composer",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12181,7 +12181,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-1.10.0",
+            "name": "php-composer-1.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -12191,9 +12191,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.composer": {
-        "name": "php-composer-1.10.0",
+        "name": "php-composer-1.10.1",
         "pname": "php-composer",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12219,7 +12219,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-1.10.0",
+            "name": "php-composer-1.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -12229,9 +12229,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.composer": {
-        "name": "php-composer-1.10.0",
+        "name": "php-composer-1.10.1",
         "pname": "php-composer",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12257,7 +12257,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-1.10.0",
+            "name": "php-composer-1.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -12267,9 +12267,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.composer": {
-        "name": "php-composer-1.10.0",
+        "name": "php-composer-1.10.1",
         "pname": "php-composer",
-        "version": "1.10.0",
+        "version": "1.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12295,7 +12295,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-1.10.0",
+            "name": "php-composer-1.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -16431,9 +16431,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.14",
+        "name": "php-phpstan-0.12.18",
         "pname": "php-phpstan",
-        "version": "0.12.14",
+        "version": "0.12.18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16460,7 +16460,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.14",
+            "name": "php-phpstan-0.12.18",
             "outputsToInstall": [
                 "out"
             ],
@@ -16470,9 +16470,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.14",
+        "name": "php-phpstan-0.12.18",
         "pname": "php-phpstan",
-        "version": "0.12.14",
+        "version": "0.12.18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16499,7 +16499,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.14",
+            "name": "php-phpstan-0.12.18",
             "outputsToInstall": [
                 "out"
             ],
@@ -16509,9 +16509,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.14",
+        "name": "php-phpstan-0.12.18",
         "pname": "php-phpstan",
-        "version": "0.12.14",
+        "version": "0.12.18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16538,7 +16538,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.14",
+            "name": "php-phpstan-0.12.18",
             "outputsToInstall": [
                 "out"
             ],
@@ -16548,9 +16548,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.phpstan": {
-        "name": "php-phpstan-0.12.14",
+        "name": "php-phpstan-0.12.18",
         "pname": "php-phpstan",
-        "version": "0.12.14",
+        "version": "0.12.18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16577,7 +16577,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.14",
+            "name": "php-phpstan-0.12.18",
             "outputsToInstall": [
                 "out"
             ],
@@ -16587,9 +16587,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.phpstan": {
-        "name": "php-phpstan-0.12.14",
+        "name": "php-phpstan-0.12.18",
         "pname": "php-phpstan",
-        "version": "0.12.14",
+        "version": "0.12.18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16616,7 +16616,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.14",
+            "name": "php-phpstan-0.12.18",
             "outputsToInstall": [
                 "out"
             ],
@@ -16626,9 +16626,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.14",
+        "name": "php-phpstan-0.12.18",
         "pname": "php-phpstan",
-        "version": "0.12.14",
+        "version": "0.12.18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16655,7 +16655,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.14",
+            "name": "php-phpstan-0.12.18",
             "outputsToInstall": [
                 "out"
             ],
@@ -16665,9 +16665,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.phpstan": {
-        "name": "php-phpstan-0.12.14",
+        "name": "php-phpstan-0.12.18",
         "pname": "php-phpstan",
-        "version": "0.12.14",
+        "version": "0.12.18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16694,7 +16694,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.14",
+            "name": "php-phpstan-0.12.18",
             "outputsToInstall": [
                 "out"
             ],
@@ -16704,9 +16704,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.phpstan": {
-        "name": "php-phpstan-0.12.14",
+        "name": "php-phpstan-0.12.18",
         "pname": "php-phpstan",
-        "version": "0.12.14",
+        "version": "0.12.18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16733,7 +16733,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.14",
+            "name": "php-phpstan-0.12.18",
             "outputsToInstall": [
                 "out"
             ],
@@ -16743,9 +16743,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.14",
+        "name": "php-phpstan-0.12.18",
         "pname": "php-phpstan",
-        "version": "0.12.14",
+        "version": "0.12.18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16772,7 +16772,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.14",
+            "name": "php-phpstan-0.12.18",
             "outputsToInstall": [
                 "out"
             ],
@@ -16782,9 +16782,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.phpstan": {
-        "name": "php-phpstan-0.12.14",
+        "name": "php-phpstan-0.12.18",
         "pname": "php-phpstan",
-        "version": "0.12.14",
+        "version": "0.12.18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16811,7 +16811,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.14",
+            "name": "php-phpstan-0.12.18",
             "outputsToInstall": [
                 "out"
             ],
@@ -17661,9 +17661,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.psalm": {
-        "name": "php-psalm-3.9.5",
+        "name": "php-psalm-3.10.1",
         "pname": "php-psalm",
-        "version": "3.9.5",
+        "version": "3.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17675,7 +17675,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.9.5",
+            "name": "php-psalm-3.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -17685,9 +17685,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.psalm": {
-        "name": "php-psalm-3.9.5",
+        "name": "php-psalm-3.10.1",
         "pname": "php-psalm",
-        "version": "3.9.5",
+        "version": "3.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17699,7 +17699,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.9.5",
+            "name": "php-psalm-3.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -17709,9 +17709,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.psalm": {
-        "name": "php-psalm-3.9.5",
+        "name": "php-psalm-3.10.1",
         "pname": "php-psalm",
-        "version": "3.9.5",
+        "version": "3.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17723,7 +17723,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.9.5",
+            "name": "php-psalm-3.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -17733,9 +17733,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.psalm": {
-        "name": "php-psalm-3.9.5",
+        "name": "php-psalm-3.10.1",
         "pname": "php-psalm",
-        "version": "3.9.5",
+        "version": "3.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17747,7 +17747,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.9.5",
+            "name": "php-psalm-3.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -17757,9 +17757,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.psalm": {
-        "name": "php-psalm-3.9.5",
+        "name": "php-psalm-3.10.1",
         "pname": "php-psalm",
-        "version": "3.9.5",
+        "version": "3.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17771,7 +17771,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.9.5",
+            "name": "php-psalm-3.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -17781,9 +17781,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.psalm": {
-        "name": "php-psalm-3.9.5",
+        "name": "php-psalm-3.10.1",
         "pname": "php-psalm",
-        "version": "3.9.5",
+        "version": "3.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17795,7 +17795,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.9.5",
+            "name": "php-psalm-3.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -17805,9 +17805,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.psalm": {
-        "name": "php-psalm-3.9.5",
+        "name": "php-psalm-3.10.1",
         "pname": "php-psalm",
-        "version": "3.9.5",
+        "version": "3.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17819,7 +17819,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.9.5",
+            "name": "php-psalm-3.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -17829,9 +17829,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.psalm": {
-        "name": "php-psalm-3.9.5",
+        "name": "php-psalm-3.10.1",
         "pname": "php-psalm",
-        "version": "3.9.5",
+        "version": "3.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17843,7 +17843,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.9.5",
+            "name": "php-psalm-3.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -17853,9 +17853,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.psalm": {
-        "name": "php-psalm-3.9.5",
+        "name": "php-psalm-3.10.1",
         "pname": "php-psalm",
-        "version": "3.9.5",
+        "version": "3.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17867,7 +17867,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.9.5",
+            "name": "php-psalm-3.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -17877,9 +17877,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.psalm": {
-        "name": "php-psalm-3.9.5",
+        "name": "php-psalm-3.10.1",
         "pname": "php-psalm",
-        "version": "3.9.5",
+        "version": "3.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17891,7 +17891,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.9.5",
+            "name": "php-psalm-3.10.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -17901,9 +17901,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.psysh": {
-        "name": "php-psysh-0.9.12",
+        "name": "php-psysh-0.10.2",
         "pname": "php-psysh",
-        "version": "0.9.12",
+        "version": "0.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17923,7 +17923,7 @@
                     "name": "Claas Augner"
                 }
             ],
-            "name": "php-psysh-0.9.12",
+            "name": "php-psysh-0.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -17933,9 +17933,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.psysh": {
-        "name": "php-psysh-0.9.12",
+        "name": "php-psysh-0.10.2",
         "pname": "php-psysh",
-        "version": "0.9.12",
+        "version": "0.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17955,7 +17955,7 @@
                     "name": "Claas Augner"
                 }
             ],
-            "name": "php-psysh-0.9.12",
+            "name": "php-psysh-0.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -17965,9 +17965,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.psysh": {
-        "name": "php-psysh-0.9.12",
+        "name": "php-psysh-0.10.2",
         "pname": "php-psysh",
-        "version": "0.9.12",
+        "version": "0.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17987,7 +17987,7 @@
                     "name": "Claas Augner"
                 }
             ],
-            "name": "php-psysh-0.9.12",
+            "name": "php-psysh-0.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -17997,9 +17997,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.psysh": {
-        "name": "php-psysh-0.9.12",
+        "name": "php-psysh-0.10.2",
         "pname": "php-psysh",
-        "version": "0.9.12",
+        "version": "0.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18019,7 +18019,7 @@
                     "name": "Claas Augner"
                 }
             ],
-            "name": "php-psysh-0.9.12",
+            "name": "php-psysh-0.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -18029,9 +18029,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.psysh": {
-        "name": "php-psysh-0.9.12",
+        "name": "php-psysh-0.10.2",
         "pname": "php-psysh",
-        "version": "0.9.12",
+        "version": "0.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18051,7 +18051,7 @@
                     "name": "Claas Augner"
                 }
             ],
-            "name": "php-psysh-0.9.12",
+            "name": "php-psysh-0.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -18061,9 +18061,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.psysh": {
-        "name": "php-psysh-0.9.12",
+        "name": "php-psysh-0.10.2",
         "pname": "php-psysh",
-        "version": "0.9.12",
+        "version": "0.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18083,7 +18083,7 @@
                     "name": "Claas Augner"
                 }
             ],
-            "name": "php-psysh-0.9.12",
+            "name": "php-psysh-0.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -18093,9 +18093,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.psysh": {
-        "name": "php-psysh-0.9.12",
+        "name": "php-psysh-0.10.2",
         "pname": "php-psysh",
-        "version": "0.9.12",
+        "version": "0.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18115,7 +18115,7 @@
                     "name": "Claas Augner"
                 }
             ],
-            "name": "php-psysh-0.9.12",
+            "name": "php-psysh-0.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -18125,9 +18125,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.psysh": {
-        "name": "php-psysh-0.9.12",
+        "name": "php-psysh-0.10.2",
         "pname": "php-psysh",
-        "version": "0.9.12",
+        "version": "0.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18147,7 +18147,7 @@
                     "name": "Claas Augner"
                 }
             ],
-            "name": "php-psysh-0.9.12",
+            "name": "php-psysh-0.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -18157,9 +18157,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.psysh": {
-        "name": "php-psysh-0.9.12",
+        "name": "php-psysh-0.10.2",
         "pname": "php-psysh",
-        "version": "0.9.12",
+        "version": "0.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18179,7 +18179,7 @@
                     "name": "Claas Augner"
                 }
             ],
-            "name": "php-psysh-0.9.12",
+            "name": "php-psysh-0.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -18189,9 +18189,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.psysh": {
-        "name": "php-psysh-0.9.12",
+        "name": "php-psysh-0.10.2",
         "pname": "php-psysh",
-        "version": "0.9.12",
+        "version": "0.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18211,7 +18211,7 @@
                     "name": "Claas Augner"
                 }
             ],
-            "name": "php-psysh-0.9.12",
+            "name": "php-psysh-0.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -19071,14 +19071,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.redis50": {
-        "name": "php-redis-5.2.0",
+        "name": "php-redis-5.2.1",
         "pname": "php-redis",
-        "version": "5.2.0",
+        "version": "5.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-redis-5.2.0",
+            "name": "php-redis-5.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -19088,14 +19088,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.redis": {
-        "name": "php-redis-5.2.0",
+        "name": "php-redis-5.2.1",
         "pname": "php-redis",
-        "version": "5.2.0",
+        "version": "5.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.0",
+            "name": "php-redis-5.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -19105,14 +19105,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.redis": {
-        "name": "php-redis-5.2.0",
+        "name": "php-redis-5.2.1",
         "pname": "php-redis",
-        "version": "5.2.0",
+        "version": "5.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.0",
+            "name": "php-redis-5.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -19122,14 +19122,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.redis": {
-        "name": "php-redis-5.2.0",
+        "name": "php-redis-5.2.1",
         "pname": "php-redis",
-        "version": "5.2.0",
+        "version": "5.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.0",
+            "name": "php-redis-5.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -19139,14 +19139,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.redis50": {
-        "name": "php-redis-5.2.0",
+        "name": "php-redis-5.2.1",
         "pname": "php-redis",
-        "version": "5.2.0",
+        "version": "5.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-redis-5.2.0",
+            "name": "php-redis-5.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -19156,14 +19156,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.redis": {
-        "name": "php-redis-5.2.0",
+        "name": "php-redis-5.2.1",
         "pname": "php-redis",
-        "version": "5.2.0",
+        "version": "5.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.0",
+            "name": "php-redis-5.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -19173,14 +19173,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.redis": {
-        "name": "php-redis-5.2.0",
+        "name": "php-redis-5.2.1",
         "pname": "php-redis",
-        "version": "5.2.0",
+        "version": "5.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.0",
+            "name": "php-redis-5.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -19190,14 +19190,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.redis": {
-        "name": "php-redis-5.2.0",
+        "name": "php-redis-5.2.1",
         "pname": "php-redis",
-        "version": "5.2.0",
+        "version": "5.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.0",
+            "name": "php-redis-5.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -19207,14 +19207,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.redis": {
-        "name": "php-redis-5.2.0",
+        "name": "php-redis-5.2.1",
         "pname": "php-redis",
-        "version": "5.2.0",
+        "version": "5.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.0",
+            "name": "php-redis-5.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -19224,14 +19224,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.redis": {
-        "name": "php-redis-5.2.0",
+        "name": "php-redis-5.2.1",
         "pname": "php-redis",
-        "version": "5.2.0",
+        "version": "5.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.0",
+            "name": "php-redis-5.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -19953,14 +19953,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.xdebug": {
-        "name": "php-xdebug-2.9.2",
+        "name": "php-xdebug-2.9.4",
         "pname": "php-xdebug",
-        "version": "2.9.2",
+        "version": "2.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.2",
+            "name": "php-xdebug-2.9.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -19970,14 +19970,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.xdebug": {
-        "name": "php-xdebug-2.9.2",
+        "name": "php-xdebug-2.9.4",
         "pname": "php-xdebug",
-        "version": "2.9.2",
+        "version": "2.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.2",
+            "name": "php-xdebug-2.9.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -19987,14 +19987,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.xdebug": {
-        "name": "php-xdebug-2.9.2",
+        "name": "php-xdebug-2.9.4",
         "pname": "php-xdebug",
-        "version": "2.9.2",
+        "version": "2.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.2",
+            "name": "php-xdebug-2.9.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -20004,14 +20004,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.xdebug": {
-        "name": "php-xdebug-2.9.2",
+        "name": "php-xdebug-2.9.4",
         "pname": "php-xdebug",
-        "version": "2.9.2",
+        "version": "2.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.2",
+            "name": "php-xdebug-2.9.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -20021,14 +20021,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.xdebug": {
-        "name": "php-xdebug-2.9.2",
+        "name": "php-xdebug-2.9.4",
         "pname": "php-xdebug",
-        "version": "2.9.2",
+        "version": "2.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.2",
+            "name": "php-xdebug-2.9.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -20038,14 +20038,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.xdebug": {
-        "name": "php-xdebug-2.9.2",
+        "name": "php-xdebug-2.9.4",
         "pname": "php-xdebug",
-        "version": "2.9.2",
+        "version": "2.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.2",
+            "name": "php-xdebug-2.9.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -20055,14 +20055,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.xdebug": {
-        "name": "php-xdebug-2.9.2",
+        "name": "php-xdebug-2.9.4",
         "pname": "php-xdebug",
-        "version": "2.9.2",
+        "version": "2.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.2",
+            "name": "php-xdebug-2.9.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -20072,14 +20072,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.xdebug29": {
-        "name": "php-xdebug-2.9.2",
+        "name": "php-xdebug-2.9.4",
         "pname": "php-xdebug",
-        "version": "2.9.2",
+        "version": "2.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-xdebug-2.9.2",
+            "name": "php-xdebug-2.9.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -20089,14 +20089,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.xdebug29": {
-        "name": "php-xdebug-2.9.2",
+        "name": "php-xdebug-2.9.4",
         "pname": "php-xdebug",
-        "version": "2.9.2",
+        "version": "2.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-xdebug-2.9.2",
+            "name": "php-xdebug-2.9.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -20106,14 +20106,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.xdebug": {
-        "name": "php-xdebug-2.9.2",
+        "name": "php-xdebug-2.9.4",
         "pname": "php-xdebug",
-        "version": "2.9.2",
+        "version": "2.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.2",
+            "name": "php-xdebug-2.9.4",
             "outputsToInstall": [
                 "out"
             ],
