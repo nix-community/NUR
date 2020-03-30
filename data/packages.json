@@ -34243,9 +34243,9 @@
         "_repo": "moredread"
     },
     "nur.repos.moredread.prusa-slicer-latest": {
-        "name": "prusa-slicer-2.2.0-rc3",
+        "name": "prusa-slicer-2.2.0",
         "pname": "prusa-slicer",
-        "version": "2.2.0-rc3",
+        "version": "2.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34271,7 +34271,7 @@
                     "name": "Andr\u00e9-Patrick Bubel"
                 }
             ],
-            "name": "prusa-slicer-2.2.0-rc3",
+            "name": "prusa-slicer-2.2.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -48727,6 +48727,53 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester/pkgs/krew/default.nix#L19"
         },
         "_attr": "krew",
+        "_repo": "vdemeester"
+    },
+    "nur.repos.vdemeester.kubernix": {
+        "name": "kubernix-dev-2020-03-30",
+        "pname": "kubernix-dev",
+        "version": "2020-03-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Single dependency Kubernetes clusters for local testing, experimenting and development",
+            "homepage": "https://github.com/saschagrunert/kubernix",
+            "license": [
+                {
+                    "fullName": "MIT License",
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "http://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "mail@saschagrunert.de",
+                    "github": "saschagrunert",
+                    "githubId": 695473,
+                    "name": "Sascha Grunert"
+                }
+            ],
+            "name": "kubernix-dev-2020-03-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester/pkgs/kubernix/default.nix#L18"
+        },
+        "_attr": "kubernix",
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.linuxkit": {
