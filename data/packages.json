@@ -37061,6 +37061,52 @@
         "_attr": "jicofo",
         "_repo": "otevrenamesta"
     },
+    "nur.repos.otevrenamesta.jicofo-git": {
+        "name": "jicofo-git",
+        "pname": "jicofo-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A server side focus component used in Jitsi Meet conferences",
+            "homepage": "https://github.com/jitsi/jicofo",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "JItsi COnference FOcus is a server side focus component used in Jitsi Meet conferences.\n",
+            "maintainers": [
+                {
+                    "email": "martin@martinmilata.cz",
+                    "github": "mmilata",
+                    "githubId": 85857,
+                    "name": "Martin Milata"
+                }
+            ],
+            "name": "jicofo-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/otevrenamesta/pkgs/jicofo-git/default.nix#L51"
+        },
+        "_attr": "jicofo-git",
+        "_repo": "otevrenamesta"
+    },
     "nur.repos.otevrenamesta.jitsi-meet": {
         "name": "jitsi-meet-3729",
         "pname": "jitsi-meet",
@@ -37173,6 +37219,52 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/otevrenamesta/pkgs/jitsi-videobridge/default.nix#L39"
         },
         "_attr": "jitsi-videobridge",
+        "_repo": "otevrenamesta"
+    },
+    "nur.repos.otevrenamesta.jitsi-videobridge-git": {
+        "name": "jitsi-videobridge-git",
+        "pname": "jitsi-videobridge-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A WebRTC compatible video router",
+            "homepage": "https://github.com/jitsi/jitsi-videobridge",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Jitsi Videobridge is an XMPP server component that allows for multiuser video communication.\nUnlike the expensive dedicated hardware videobridges, Jitsi Videobridge does not mix the video\nchannels into a composite video stream, but only relays the received video channels to all call\nparticipants. Therefore, while it does need to run on a server with good network bandwidth,\nCPU horsepower is not that critical for performance.\n",
+            "maintainers": [
+                {
+                    "email": "martin@martinmilata.cz",
+                    "github": "mmilata",
+                    "githubId": 85857,
+                    "name": "Martin Milata"
+                }
+            ],
+            "name": "jitsi-videobridge-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/otevrenamesta/pkgs/jitsi-videobridge-git/default.nix#L51"
+        },
+        "_attr": "jitsi-videobridge-git",
         "_repo": "otevrenamesta"
     },
     "nur.repos.peel.hoverfly": {
