@@ -8,23 +8,20 @@ from typing import Any, Dict
 
 
 def index_repo(directory: Path, repo: str, expression_file: str) -> Dict[str, Any]:
-    default_nix = directory.joinpath("default.nix")
-    fetch_source_cmd = [
-        "nix-build",
-        "--builders",
-        "",
-        "--no-out-link",
-        str(default_nix),
-        "-A",
-        f'repo-sources."{repo}"',
-    ]
-
-    repo_path = subprocess.check_output(fetch_source_cmd).strip().decode("utf-8")
-
-    expression_path = Path(repo_path).joinpath(expression_file)
+    default_nix = directory.joinpath("default.nix").resolve()
+    expr = """
+with import <nixpkgs> {};
+let
+  nur = import %s { nurpkgs = pkgs; inherit pkgs; };
+in
+callPackage (nur.repo-sources."%s" + "/%s") {}
+""" % (
+        default_nix,
+        repo,
+        expression_file,
+    )
 
     with NamedTemporaryFile(mode="w") as f:
-        expr = f"with import <nixpkgs> {{}}; callPackage {expression_path} {{}}"
         f.write(expr)
         f.flush()
         query_cmd = ["nix-env", "-qa", "*", "--json", "-f", str(f.name)]
@@ -42,11 +39,11 @@ def index_repo(directory: Path, repo: str, expression_file: str) -> Dict[str, An
             position = pkg["meta"].get("position", None)
             # TODO commit hash
             prefix = f"https://github.com/nix-community/nur-combined/tree/master/repos/{repo}"
-            if position is not None and position.startswith(repo_path):
-                prefix_len = len(repo_path)
-                stripped = position[prefix_len:]
-                path, line = stripped.rsplit(":", 1)
-                pkg["meta"]["position"] = f"{prefix}{path}#L{line}"
+            if position is not None and position.startswith("/nix/store"):
+                path_str, line = position.rsplit(":", 1)
+                path = Path(path_str)
+                stripped = path.parts[4:]
+                pkg["meta"]["position"] = f"{prefix}{stripped}#L{line}"
             else:
                 pkg["meta"]["position"] = prefix
             pkgs[f"nur.repos.{repo}.{name}"] = pkg
@@ -62,6 +59,7 @@ def index_command(args: Namespace) -> None:
     pkgs: Dict[str, Any] = {}
 
     for (repo, data) in repos.items():
-        pkgs.update(index_repo(directory, repo, data.get("file", "default.nix")))
+        repo_pkgs = index_repo(directory, repo, data.get("file", "default.nix"))
+        pkgs.update(repo_pkgs)
 
     json.dump(pkgs, sys.stdout, indent=4)
