@@ -3342,7 +3342,8 @@
         "version": "1.7.1",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "Python-based Simulations of Chemistry Framework",
             "downloadPage": "https://github.com/pyscf/pyscf/releases",
             "homepage": "http://www.pyscf.org/",
