@@ -15,7 +15,9 @@ nix-build --quiet release.nix
 
 git clone git@github.com:nix-community/nur-search
 
-nix run '(import ./release.nix {})' -c nur index . > nur-search/data/packages.json
+git clone git@github.com:nix-community/nur-combined
+
+nix run '(import ./release.nix {})' -c nur index nur-combined > nur-search/data/packages.json
 
 # rebuild and publish nur-search repository
 # -----------------------------------------
