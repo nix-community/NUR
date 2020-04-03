@@ -37651,9 +37651,9 @@
         "_repo": "nexromancers"
     },
     "nur.repos.otevrenamesta.jicofo": {
-        "name": "jicofo-508",
+        "name": "jicofo-541",
         "pname": "jicofo",
-        "version": "508",
+        "version": "541",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37674,13 +37674,22 @@
                     "name": "Martin Milata"
                 }
             ],
-            "name": "jicofo-508",
+            "name": "jicofo-541",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
                 "i686-linux",
-                "x86_64-linux"
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/otevrenamesta"
         },
@@ -37734,9 +37743,9 @@
         "_repo": "otevrenamesta"
     },
     "nur.repos.otevrenamesta.jitsi-meet": {
-        "name": "jitsi-meet-3729",
+        "name": "jitsi-meet-3962",
         "pname": "jitsi-meet",
-        "version": "3729",
+        "version": "3962",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37757,7 +37766,7 @@
                     "name": "Martin Milata"
                 }
             ],
-            "name": "jitsi-meet-3729",
+            "name": "jitsi-meet-3962",
             "outputsToInstall": [
                 "out"
             ],
@@ -37810,43 +37819,6 @@
         "_attr": "jitsi-meet",
         "_repo": "otevrenamesta"
     },
-    "nur.repos.otevrenamesta.jitsi-videobridge": {
-        "name": "jitsi-videobridge-1132",
-        "pname": "jitsi-videobridge",
-        "version": "1132",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A WebRTC compatible video router",
-            "homepage": "https://github.com/jitsi/jitsi-videobridge",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "http://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "Jitsi Videobridge is an XMPP server component that allows for multiuser video communication.\nUnlike the expensive dedicated hardware videobridges, Jitsi Videobridge does not mix the video\nchannels into a composite video stream, but only relays the received video channels to all call\nparticipants. Therefore, while it does need to run on a server with good network bandwidth,\nCPU horsepower is not that critical for performance.\n",
-            "maintainers": [
-                {
-                    "email": "martin@martinmilata.cz",
-                    "github": "mmilata",
-                    "githubId": 85857,
-                    "name": "Martin Milata"
-                }
-            ],
-            "name": "jitsi-videobridge-1132",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/otevrenamesta"
-        },
-        "_attr": "jitsi-videobridge",
-        "_repo": "otevrenamesta"
-    },
     "nur.repos.otevrenamesta.jitsi-videobridge-git": {
         "name": "jitsi-videobridge-git",
         "pname": "jitsi-videobridge-git",
@@ -37891,6 +37863,52 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/otevrenamesta"
         },
         "_attr": "jitsi-videobridge-git",
+        "_repo": "otevrenamesta"
+    },
+    "nur.repos.otevrenamesta.jitsi-videobridge": {
+        "name": "jitsi-videobridge2-163-g63d2f9da",
+        "pname": "jitsi-videobridge2",
+        "version": "163-g63d2f9da",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A WebRTC compatible video router",
+            "homepage": "https://github.com/jitsi/jitsi-videobridge",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Jitsi Videobridge is an XMPP server component that allows for multiuser video communication.\nUnlike the expensive dedicated hardware videobridges, Jitsi Videobridge does not mix the video\nchannels into a composite video stream, but only relays the received video channels to all call\nparticipants. Therefore, while it does need to run on a server with good network bandwidth,\nCPU horsepower is not that critical for performance.\n",
+            "maintainers": [
+                {
+                    "email": "martin@martinmilata.cz",
+                    "github": "mmilata",
+                    "githubId": 85857,
+                    "name": "Martin Milata"
+                }
+            ],
+            "name": "jitsi-videobridge2-163-g63d2f9da",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/otevrenamesta"
+        },
+        "_attr": "jitsi-videobridge",
         "_repo": "otevrenamesta"
     },
     "nur.repos.peel.hoverfly": {
