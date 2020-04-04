@@ -50785,7 +50785,14 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "description": "Single folder HTTP server",
             "homepage": "https://tulpa.dev/Xe/quickserv",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
             "maintainers": [
                 {
                     "email": "lucabru@src.gnome.org",
