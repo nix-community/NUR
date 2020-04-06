@@ -32549,15 +32549,14 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.nix-review-unstable": {
-        "name": "nixpkgs-review-2.2.0",
+        "name": "nixpkgs-review-2.3.0-rc1",
         "pname": "nixpkgs-review",
-        "version": "2.2.0",
+        "version": "2.3.0-rc1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Review pull-requests on https://github.com/NixOS/nixpkgs",
             "homepage": "https://github.com/Mic92/nixpkgs-review",
-            "hydraPlatforms": [],
             "isBuildPythonPackage": [
                 "aarch64-linux",
                 "armv5tel-linux",
@@ -32595,7 +32594,7 @@
                     "name": "J\u00f6rg Thalheim"
                 }
             ],
-            "name": "nixpkgs-review-2.2.0",
+            "name": "nixpkgs-review-2.3.0-rc1",
             "outputsToInstall": [
                 "out"
             ],
