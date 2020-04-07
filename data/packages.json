@@ -41670,15 +41670,15 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ipfs-companion": {
-        "name": "ipfs-companion-2.10.0",
+        "name": "ipfs-companion-2.11.0",
         "pname": "ipfs-companion",
-        "version": "2.10.0",
+        "version": "2.11.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Official browser extension that simplifies access to IPFS resources",
             "homepage": "https://github.com/ipfs-shipyard/ipfs-companion",
-            "name": "ipfs-companion-2.10.0",
+            "name": "ipfs-companion-2.11.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -43299,9 +43299,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.25.2",
+        "name": "ublock-origin-1.26.0",
         "pname": "ublock-origin",
-        "version": "1.25.2",
+        "version": "1.26.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -43313,7 +43313,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "http://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.25.2",
+            "name": "ublock-origin-1.26.0",
             "outputsToInstall": [
                 "out"
             ],
