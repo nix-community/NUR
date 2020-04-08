@@ -1445,7 +1445,7 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'tools', 'networking', 'mosh', 'default.nix')#L42"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'tools', 'networking', 'mosh', 'default.nix')#L44"
         },
         "_attr": "mosh-unstable",
         "_repo": "bb010g"
@@ -30233,7 +30233,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'pkgs', 'development', 'interpreters', 'python', 'cpython', 'default.nix')#L278"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'pkgs', 'development', 'interpreters', 'python', 'cpython', 'default.nix')#L279"
         },
         "_attr": "devpi-web",
         "_repo": "makefu"
@@ -32066,9 +32066,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.gdbgui-donation": {
-        "name": "gdbgui-0.13.1.1",
+        "name": "gdbgui-0.13.2.0",
         "pname": "gdbgui",
-        "version": "0.13.1.1",
+        "version": "0.13.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32104,7 +32104,7 @@
                     "name": "Yurii Rashkovskii"
                 }
             ],
-            "name": "gdbgui-0.13.1.1",
+            "name": "gdbgui-0.13.2.0",
             "outputsToInstall": [
                 "out"
             ],
