@@ -50469,6 +50469,22 @@
         "_attr": "nr",
         "_repo": "vdemeester"
     },
+    "nur.repos.vdemeester.oc": {
+        "name": "oc-4.4.0-rc.6",
+        "pname": "oc",
+        "version": "4.4.0-rc.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "oc-4.4.0-rc.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "oc",
+        "_repo": "vdemeester"
+    },
     "nur.repos.vdemeester.openshift-installer": {
         "name": "openshift-install-0.16.1",
         "pname": "openshift-install",
