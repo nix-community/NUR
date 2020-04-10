@@ -50535,9 +50535,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.operator-sdk": {
-        "name": "operator-sdk-0.7.0",
+        "name": "operator-sdk-0.16.0",
         "pname": "operator-sdk",
-        "version": "0.7.0",
+        "version": "0.16.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50551,15 +50551,15 @@
             },
             "maintainers": [
                 {
-                    "email": "lucabru@src.gnome.org",
-                    "github": "lethalman",
-                    "githubId": 480920,
-                    "name": "Luca Bruno"
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
                 }
             ],
-            "name": "operator-sdk-0.7.0",
+            "name": "operator-sdk-0.16.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
