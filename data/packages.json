@@ -50223,6 +50223,22 @@
         "_attr": "krew",
         "_repo": "vdemeester"
     },
+    "nur.repos.vdemeester.kss": {
+        "name": "kss-git",
+        "pname": "kss-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "kss-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "kss",
+        "_repo": "vdemeester"
+    },
     "nur.repos.vdemeester.kubernix": {
         "name": "kubernix-dev-2020-03-30",
         "pname": "kubernix-dev",
