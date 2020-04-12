@@ -8045,6 +8045,38 @@
         "_attr": "variety",
         "_repo": "fgaz"
     },
+    "nur.repos.gnidorah.example-package": {
+        "name": "example-package-1.0",
+        "pname": "example-package",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "example-package-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gnidorah"
+        },
+        "_attr": "example-package",
+        "_repo": "gnidorah"
+    },
+    "nur.repos.gnidorah.k380-function-keys-conf": {
+        "name": "k380-function-keys-conf-1.1",
+        "pname": "k380-function-keys-conf",
+        "version": "1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "k380-function-keys-conf-1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gnidorah"
+        },
+        "_attr": "k380-function-keys-conf",
+        "_repo": "gnidorah"
+    },
     "nur.repos.gricad.applgrid": {
         "name": "applgrid-1.4.70",
         "pname": "applgrid",
