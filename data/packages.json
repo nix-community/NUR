@@ -51970,5 +51970,21 @@
         },
         "_attr": "st",
         "_repo": "xe"
+    },
+    "nur.repos.xe.sw": {
+        "name": "sw-git",
+        "pname": "sw-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "sw-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "sw",
+        "_repo": "xe"
     }
 }
