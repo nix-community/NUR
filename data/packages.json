@@ -1129,7 +1129,7 @@
                 "aarch64-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'development', 'tools', 'just', 'default.nix')#L40"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'development', 'tools', 'just', 'default.nix')#L55"
         },
         "_attr": "just",
         "_repo": "bb010g"
@@ -5691,7 +5691,7 @@
         "meta": {
             "available": true,
             "description": "A small utility to modify the dynamic linker and RPATH of ELF executables",
-            "homepage": "https://nixos.org/patchelf.html",
+            "homepage": "https://github.com/NixOS/patchelf/blob/master/README",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
                 "shortName": "gpl3",
@@ -30339,9 +30339,9 @@
         "_repo": "makefu"
     },
     "nur.repos.makefu.devpi-web": {
-        "name": "python3-3.7.6-env",
+        "name": "python3-3.7.7-env",
         "pname": "python3",
-        "version": "3.7.6-env",
+        "version": "3.7.7-env",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30362,7 +30362,7 @@
                     "name": "Frederik Rietdijk"
                 }
             ],
-            "name": "python3-3.7.6",
+            "name": "python3-3.7.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -30383,7 +30383,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'pkgs', 'development', 'interpreters', 'python', 'cpython', 'default.nix')#L279"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'pkgs', 'development', 'interpreters', 'python', 'cpython', 'default.nix')#L280"
         },
         "_attr": "devpi-web",
         "_repo": "makefu"
@@ -31874,9 +31874,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.gatttool": {
-        "name": "bluez-5.53",
+        "name": "bluez-5.54",
         "pname": "bluez",
-        "version": "5.53",
+        "version": "5.54",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -31896,7 +31896,7 @@
                     "url": "http://spdx.org/licenses/LGPL-2.1-only.html"
                 }
             ],
-            "name": "bluez-5.53",
+            "name": "bluez-5.54",
             "outputsToInstall": [
                 "out"
             ],
@@ -49377,9 +49377,9 @@
         "_repo": "tilpner"
     },
     "nur.repos.tilpner.syncthing-short-delay": {
-        "name": "syncthing-1.4.0",
+        "name": "syncthing-1.4.2",
         "pname": "syncthing",
-        "version": "1.4.0",
+        "version": "1.4.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49429,7 +49429,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "syncthing-1.4.0",
+            "name": "syncthing-1.4.2",
             "outputsToInstall": [
                 "out"
             ],
