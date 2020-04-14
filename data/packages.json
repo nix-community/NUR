@@ -3067,7 +3067,8 @@
         "version": "6.1.1",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "isBuildPythonPackage": [
                 "aarch64-linux",
                 "armv5tel-linux",
@@ -3135,7 +3136,8 @@
         "version": "",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "A program to fetch metadata for Japanese Adult Video",
             "homepage": "https://github.com/DoctorD1501/JAVMovieScraper",
             "license": {
@@ -3253,12 +3255,14 @@
         "_repo": "dandellion"
     },
     "nur.repos.dandellion.vcsi": {
-        "name": "vcsi-7",
+        "name": "vcsi-7.0.12",
         "pname": "vcsi",
-        "version": "7",
+        "version": "7.0.12",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "description": "Create video contact sheets",
+            "homepage": "https://github.com/amietn/vcsi",
             "isBuildPythonPackage": [
                 "aarch64-linux",
                 "armv5tel-linux",
@@ -3276,7 +3280,13 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "name": "vcsi-7",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "name": "vcsi-7.0.12",
             "outputsToInstall": [
                 "out"
             ],
@@ -32209,30 +32219,6 @@
         "_attr": "ferdi",
         "_repo": "mic92"
     },
-    "nur.repos.mic92.fira-code-nerdfonts": {
-        "name": "fira-code-nerdfonts-2.0.0",
-        "pname": "fira-code-nerdfonts",
-        "version": "2.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Nerdfont version of Fira Code",
-            "homepage": "https://github.com/ryanoasis/nerd-fonts",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "http://spdx.org/licenses/MIT.html"
-            },
-            "name": "fira-code-nerdfonts-2.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
-        },
-        "_attr": "fira-code-nerdfonts",
-        "_repo": "mic92"
-    },
     "nur.repos.mic92.frida-tools": {
         "name": "frida-tools-7.2.0",
         "pname": "frida-tools",
@@ -32327,80 +32313,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
         },
         "_attr": "gdb-dashboard",
-        "_repo": "mic92"
-    },
-    "nur.repos.mic92.gdbgui-donation": {
-        "name": "gdbgui-0.13.2.0",
-        "pname": "gdbgui",
-        "version": "0.13.2.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A browser-based frontend for GDB",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0-only",
-                "url": "http://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "maintainers": [
-                {
-                    "email": "yrashk@gmail.com",
-                    "github": "yrashk",
-                    "githubId": 452,
-                    "name": "Yurii Rashkovskii"
-                }
-            ],
-            "name": "gdbgui-0.13.2.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92('nixpkgs', 'pkgs', 'development', 'tools', 'misc', 'gdbgui', 'default.nix')#L47"
-        },
-        "_attr": "gdbgui-donation",
         "_repo": "mic92"
     },
     "nur.repos.mic92.healthcheck": {
@@ -32547,30 +32459,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
         },
         "_attr": "hello-nur",
-        "_repo": "mic92"
-    },
-    "nur.repos.mic92.inconsolata-nerdfonts": {
-        "name": "inconsolata-nerdfont-2.0.0",
-        "pname": "inconsolata-nerdfont",
-        "version": "2.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Nerdfont version of inconsolata",
-            "homepage": "https://github.com/ryanoasis/nerd-fonts",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "http://spdx.org/licenses/MIT.html"
-            },
-            "name": "inconsolata-nerdfont-2.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
-        },
-        "_attr": "inconsolata-nerdfonts",
         "_repo": "mic92"
     },
     "nur.repos.mic92.keystone": {
@@ -32745,6 +32633,74 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
         },
         "_attr": "mosh-ssh-agent",
+        "_repo": "mic92"
+    },
+    "nur.repos.mic92.fira-code-pro-nerdfonts": {
+        "name": "nerdfonts-2.1.0",
+        "pname": "nerdfonts",
+        "version": "2.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts",
+            "homepage": "https://nerdfonts.com/",
+            "hydraPlatforms": [],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Nerd Fonts is a project that attempts to patch as many developer targeted\nand/or used fonts as possible. The patch is to specifically add a high\nnumber of additional glyphs from popular 'iconic fonts' such as Font\nAwesome, Devicons, Octicons, and others.\n",
+            "maintainers": [
+                {
+                    "email": "me@doronbehar.com",
+                    "github": "doronbehar",
+                    "githubId": 10998835,
+                    "name": "Doron Behar"
+                }
+            ],
+            "name": "nerdfonts-2.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92('nixpkgs', 'pkgs', 'data', 'fonts', 'nerdfonts', 'default.nix')#L56"
+        },
+        "_attr": "fira-code-pro-nerdfonts",
+        "_repo": "mic92"
+    },
+    "nur.repos.mic92.source-code-pro-nerdfonts": {
+        "name": "nerdfonts-2.1.0",
+        "pname": "nerdfonts",
+        "version": "2.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts",
+            "homepage": "https://nerdfonts.com/",
+            "hydraPlatforms": [],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Nerd Fonts is a project that attempts to patch as many developer targeted\nand/or used fonts as possible. The patch is to specifically add a high\nnumber of additional glyphs from popular 'iconic fonts' such as Font\nAwesome, Devicons, Octicons, and others.\n",
+            "maintainers": [
+                {
+                    "email": "me@doronbehar.com",
+                    "github": "doronbehar",
+                    "githubId": 10998835,
+                    "name": "Doron Behar"
+                }
+            ],
+            "name": "nerdfonts-2.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92('nixpkgs', 'pkgs', 'data', 'fonts', 'nerdfonts', 'default.nix')#L56"
+        },
+        "_attr": "source-code-pro-nerdfonts",
         "_repo": "mic92"
     },
     "nur.repos.mic92.nix-update": {
@@ -33794,30 +33750,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92('nixpkgs', 'pkgs', 'build-support', 'fetchurl', 'default.nix')#L119"
         },
         "_attr": "threema-web",
-        "_repo": "mic92"
-    },
-    "nur.repos.mic92.source-code-pro-nerdfonts": {
-        "name": "source-code-pro-nerdfonts-2.0.0",
-        "pname": "source-code-pro-nerdfonts",
-        "version": "2.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Nerdfont version of Fira Code",
-            "homepage": "https://github.com/ryanoasis/nerd-fonts",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "http://spdx.org/licenses/MIT.html"
-            },
-            "name": "source-code-pro-nerdfonts-2.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
-        },
-        "_attr": "source-code-pro-nerdfonts",
         "_repo": "mic92"
     },
     "nur.repos.mic92.web2ldap": {
