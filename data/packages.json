@@ -8095,22 +8095,6 @@
         "_attr": "variety",
         "_repo": "fgaz"
     },
-    "nur.repos.gnidorah.example-package": {
-        "name": "example-package-1.0",
-        "pname": "example-package",
-        "version": "1.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "name": "example-package-1.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gnidorah"
-        },
-        "_attr": "example-package",
-        "_repo": "gnidorah"
-    },
     "nur.repos.gnidorah.k380-function-keys-conf": {
         "name": "k380-function-keys-conf-1.1",
         "pname": "k380-function-keys-conf",
@@ -8118,9 +8102,38 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "description": "Make function keys default on Logitech k380 bluetooth keyboard",
+            "homepage": "https://github.com/jergusg/k380-function-keys-conf",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "gnidorah@yandex.com",
+                    "github": "gnidorah",
+                    "githubId": 12064730,
+                    "name": "Alex Ivanov"
+                }
+            ],
             "name": "k380-function-keys-conf-1.1",
             "outputsToInstall": [
                 "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gnidorah"
         },
