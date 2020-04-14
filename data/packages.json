@@ -51832,6 +51832,22 @@
         "_attr": "gopls",
         "_repo": "xe"
     },
+    "nur.repos.xe.gruvbox-css": {
+        "name": "gruvbox-css",
+        "pname": "gruvbox-css",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "gruvbox-css",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "gruvbox-css",
+        "_repo": "xe"
+    },
     "nur.repos.xe.ii": {
         "name": "ii-1.8",
         "pname": "ii",
