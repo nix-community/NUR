@@ -4031,9 +4031,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.dtn7.dtn7-go": {
-        "name": "dtn7-go",
+        "name": "dtn7-go-0.5.4",
         "pname": "dtn7-go",
-        "version": "",
+        "version": "0.5.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -4059,7 +4059,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "dtn7-go",
+            "name": "dtn7-go-0.5.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -4086,9 +4086,9 @@
         "_repo": "dtn7"
     },
     "nur.repos.dtn7.dtn7-go-unstable": {
-        "name": "dtn7-go",
-        "pname": "dtn7-go",
-        "version": "",
+        "name": "dtn7-go-unstable-2020-04-14",
+        "pname": "dtn7-go-unstable",
+        "version": "2020-04-14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -4114,7 +4114,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "dtn7-go",
+            "name": "dtn7-go-unstable-2020-04-14",
             "outputsToInstall": [
                 "out"
             ],
@@ -4141,9 +4141,9 @@
         "_repo": "dtn7"
     },
     "nur.repos.dtn7.dtn7-rs": {
-        "name": "dtn7-rs-unstable-2020-01-28",
+        "name": "dtn7-rs-unstable-2020-04-05",
         "pname": "dtn7-rs-unstable",
-        "version": "2020-01-28",
+        "version": "2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -4171,7 +4171,7 @@
                     "name": "Alvar Penning"
                 }
             ],
-            "name": "dtn7-rs-unstable-2020-01-28",
+            "name": "dtn7-rs-unstable-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -4230,9 +4230,9 @@
         "_repo": "dtn7"
     },
     "nur.repos.dtn7.upcn": {
-        "name": "upcn",
+        "name": "upcn-0.7.0",
         "pname": "upcn",
-        "version": "",
+        "version": "0.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -4252,7 +4252,7 @@
                     "name": "Alvar Penning"
                 }
             ],
-            "name": "upcn",
+            "name": "upcn-0.7.0",
             "outputsToInstall": [
                 "out"
             ],
