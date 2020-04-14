@@ -41491,9 +41491,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.facebook-container": {
-        "name": "facebook-container-2.1.0",
+        "name": "facebook-container-2.1.1",
         "pname": "facebook-container",
-        "version": "2.1.0",
+        "version": "2.1.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41505,7 +41505,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "http://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "facebook-container-2.1.0",
+            "name": "facebook-container-2.1.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -41627,9 +41627,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ghostery": {
-        "name": "ghostery-8.4.6",
+        "name": "ghostery-8.4.9",
         "pname": "ghostery",
-        "version": "8.4.6",
+        "version": "8.4.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41641,7 +41641,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "http://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "ghostery-8.4.6",
+            "name": "ghostery-8.4.9",
             "outputsToInstall": [
                 "out"
             ],
@@ -42294,9 +42294,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.multi-account-containers": {
-        "name": "multi-account-containers-6.2.3",
+        "name": "multi-account-containers-6.2.5",
         "pname": "multi-account-containers",
-        "version": "6.2.3",
+        "version": "6.2.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42308,7 +42308,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "http://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "multi-account-containers-6.2.3",
+            "name": "multi-account-containers-6.2.5",
             "outputsToInstall": [
                 "out"
             ],
