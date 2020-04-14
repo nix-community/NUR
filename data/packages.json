@@ -46088,9 +46088,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-04-12",
+        "name": "maptourist-2020-04-13",
         "pname": "maptourist",
-        "version": "2020-04-12",
+        "version": "2020-04-13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46114,7 +46114,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-04-12",
+            "name": "maptourist-2020-04-13",
             "outputsToInstall": [
                 "out"
             ],
@@ -46402,9 +46402,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-f5bcce0",
-        "pname": "OpenOrienteering-Mapper-f5bcce0",
-        "version": "",
+        "name": "OpenOrienteering-Mapper-1b5e0d5",
+        "pname": "OpenOrienteering-Mapper",
+        "version": "1b5e0d5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46430,7 +46430,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-f5bcce0",
+            "name": "OpenOrienteering-Mapper-1b5e0d5",
             "outputsToInstall": [
                 "out"
             ],
