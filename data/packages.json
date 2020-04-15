@@ -31974,7 +31974,8 @@
         "version": "5.54",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "Bluetooth support for Linux",
             "homepage": "http://www.bluez.org/",
             "license": [
@@ -33740,7 +33741,8 @@
         "version": "2019-11-19",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "SGX-LKL Library OS for running Linux applications inside of Intel SGX enclaves",
             "homepage": "https://github.com/lsds/sgx-lkl",
             "license": {
@@ -51101,13 +51103,13 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.oc": {
-        "name": "oc-4.4.0-rc.6",
+        "name": "oc-4.4.0-rc.8",
         "pname": "oc",
-        "version": "4.4.0-rc.6",
+        "version": "4.4.0-rc.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "oc-4.4.0-rc.6",
+            "name": "oc-4.4.0-rc.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -51116,10 +51118,10 @@
         "_attr": "oc",
         "_repo": "vdemeester"
     },
-    "nur.repos.vdemeester.openshift-installer": {
-        "name": "openshift-install-0.16.1",
+    "nur.repos.vdemeester.openshift-install": {
+        "name": "openshift-install-4.4.0-rc.8",
         "pname": "openshift-install",
-        "version": "0.16.1",
+        "version": "4.4.0-rc.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51131,38 +51133,13 @@
                 "spdxId": "Apache-2.0",
                 "url": "http://spdx.org/licenses/Apache-2.0.html"
             },
-            "maintainers": [
-                {
-                    "email": "lucabru@src.gnome.org",
-                    "github": "lethalman",
-                    "githubId": 480920,
-                    "name": "Luca Bruno"
-                }
-            ],
-            "name": "openshift-install-0.16.1",
+            "name": "openshift-install-4.4.0-rc.8",
             "outputsToInstall": [
-                "bin"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
+                "out"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
         },
-        "_attr": "openshift-installer",
+        "_attr": "openshift-install",
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.operator-sdk": {
