@@ -1,14 +1,15 @@
 all: public
 	./scripts/generate_pages.py
 	hugo
-	cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
+	git -C public add --all
+	git -C public commit -m "Publishing to gh-pages"
 
 public:
 	git worktree prune
 	git worktree add -B gh-pages public origin/gh-pages
 
 publish:
-	cd public && git push origin gh-pages
+	git -C public push origin gh-pages
 
 clean:
 	rm -rf public
