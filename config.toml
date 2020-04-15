@@ -1,7 +1,7 @@
 baseURL = "https://nix-community.github.io/nur-search"
 languageCode = "en-us"
 title = "Packages search for NUR"
-theme = "docdock-2018.04.25"
+theme = "docdock"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
