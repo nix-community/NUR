@@ -26,6 +26,7 @@ cd nur-search
 if [[ ! -z "$(git diff --exit-code)" ]]; then
     git add ./data/packages.json
     git commit -m "automatic update package.json"
+    git pull --rebase origin master
     git push origin master
     nix-shell --run "make && make publish"
 else
