@@ -13,7 +13,7 @@ set -x
 
 nix-build --quiet release.nix
 
-git clone git@github.com:nix-community/nur-search
+git clone --recurse-submodules git@github.com:nix-community/nur-search
 
 git clone git@github.com:nix-community/nur-combined
 
