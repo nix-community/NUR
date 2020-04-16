@@ -46349,6 +46349,57 @@
         "_attr": "morse-talk",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.ocad2mp": {
+        "name": "ocad2mp-2011-01-26",
+        "pname": "ocad2mp",
+        "version": "2011-01-26",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Converter from OCAD map format to Polish format",
+            "homepage": "https://sourceforge.net/projects/ocad2mp/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "ocad2mp-2011-01-26",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "ocad2mp",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.openmtbmap_openvelomap_linux": {
         "name": "openmtbmap_openvelomap_linux-6d00e27",
         "pname": "openmtbmap_openvelomap_linux",
