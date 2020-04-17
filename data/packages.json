@@ -49474,6 +49474,22 @@
         "_attr": "slirp4netns",
         "_repo": "tilpner"
     },
+    "nur.repos.tilpner.screenlock": {
+        "name": "slock",
+        "pname": "slock",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "slock",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tilpner('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "screenlock",
+        "_repo": "tilpner"
+    },
     "nur.repos.tilpner.solarc": {
         "name": "solarc-theme-v1.0.2",
         "pname": "solarc-theme-v1.0.2",
