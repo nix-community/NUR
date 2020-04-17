@@ -42547,9 +42547,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.plasma-integration": {
-        "name": "plasma-integration-1.7",
+        "name": "plasma-integration-1.7.5",
         "pname": "plasma-integration",
-        "version": "1.7",
+        "version": "1.7.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42561,7 +42561,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "http://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "plasma-integration-1.7",
+            "name": "plasma-integration-1.7.5",
             "outputsToInstall": [
                 "out"
             ],
