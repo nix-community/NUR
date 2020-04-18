@@ -25249,6 +25249,7 @@
         "meta": {
             "available": true,
             "description": "A simple GOG client for Linux",
+            "downloadPage": "https://github.com/sharkwouter/minigalaxy/releases",
             "homepage": "https://sharkwouter.github.io/minigalaxy/",
             "isBuildPythonPackage": [
                 "aarch64-linux",
