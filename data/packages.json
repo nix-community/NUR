@@ -11227,9 +11227,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72": {
-        "name": "php-7.2.29",
+        "name": "php-7.2.30",
         "pname": "php",
-        "version": "7.2.29",
+        "version": "7.2.30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11261,7 +11261,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.2.29",
+            "name": "php-7.2.30",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -11316,9 +11316,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72-unit": {
-        "name": "php-7.2.29",
+        "name": "php-7.2.30",
         "pname": "php",
-        "version": "7.2.29",
+        "version": "7.2.30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11350,7 +11350,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.2.29",
+            "name": "php-7.2.30",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -11405,9 +11405,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73-unit": {
-        "name": "php-7.3.16",
+        "name": "php-7.3.17",
         "pname": "php",
-        "version": "7.3.16",
+        "version": "7.3.17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11439,7 +11439,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.3.16",
+            "name": "php-7.3.17",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -11494,9 +11494,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73": {
-        "name": "php-7.3.16",
+        "name": "php-7.3.17",
         "pname": "php",
-        "version": "7.3.16",
+        "version": "7.3.17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11528,7 +11528,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.3.16",
+            "name": "php-7.3.17",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -11583,9 +11583,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74-unit": {
-        "name": "php-7.4.4",
+        "name": "php-7.4.5",
         "pname": "php",
-        "version": "7.4.4",
+        "version": "7.4.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11617,7 +11617,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.4.4",
+            "name": "php-7.4.5",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -11672,9 +11672,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74": {
-        "name": "php-7.4.4",
+        "name": "php-7.4.5",
         "pname": "php",
-        "version": "7.4.4",
+        "version": "7.4.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11706,7 +11706,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.4.4",
+            "name": "php-7.4.5",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -15577,14 +15577,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.pdo_sqlsrv": {
-        "name": "php-pdo_sqlsrv-5.8.0",
+        "name": "php-pdo_sqlsrv-5.8.1",
         "pname": "php-pdo_sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pdo_sqlsrv-5.8.0",
+            "name": "php-pdo_sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15594,14 +15594,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.pdo_sqlsrv": {
-        "name": "php-pdo_sqlsrv-5.8.0",
+        "name": "php-pdo_sqlsrv-5.8.1",
         "pname": "php-pdo_sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pdo_sqlsrv-5.8.0",
+            "name": "php-pdo_sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15611,14 +15611,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.pdo_sqlsrv": {
-        "name": "php-pdo_sqlsrv-5.8.0",
+        "name": "php-pdo_sqlsrv-5.8.1",
         "pname": "php-pdo_sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pdo_sqlsrv-5.8.0",
+            "name": "php-pdo_sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15628,14 +15628,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.pdo_sqlsrv": {
-        "name": "php-pdo_sqlsrv-5.8.0",
+        "name": "php-pdo_sqlsrv-5.8.1",
         "pname": "php-pdo_sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pdo_sqlsrv-5.8.0",
+            "name": "php-pdo_sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15645,14 +15645,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.pdo_sqlsrv": {
-        "name": "php-pdo_sqlsrv-5.8.0",
+        "name": "php-pdo_sqlsrv-5.8.1",
         "pname": "php-pdo_sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pdo_sqlsrv-5.8.0",
+            "name": "php-pdo_sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15662,14 +15662,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.pdo_sqlsrv": {
-        "name": "php-pdo_sqlsrv-5.8.0",
+        "name": "php-pdo_sqlsrv-5.8.1",
         "pname": "php-pdo_sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pdo_sqlsrv-5.8.0",
+            "name": "php-pdo_sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15679,14 +15679,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.pdo_sqlsrv": {
-        "name": "php-pdo_sqlsrv-5.8.0",
+        "name": "php-pdo_sqlsrv-5.8.1",
         "pname": "php-pdo_sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pdo_sqlsrv-5.8.0",
+            "name": "php-pdo_sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15696,14 +15696,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.pdo_sqlsrv": {
-        "name": "php-pdo_sqlsrv-5.8.0",
+        "name": "php-pdo_sqlsrv-5.8.1",
         "pname": "php-pdo_sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pdo_sqlsrv-5.8.0",
+            "name": "php-pdo_sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15713,14 +15713,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.pdo_sqlsrv": {
-        "name": "php-pdo_sqlsrv-5.8.0",
+        "name": "php-pdo_sqlsrv-5.8.1",
         "pname": "php-pdo_sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-pdo_sqlsrv-5.8.0",
+            "name": "php-pdo_sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15730,14 +15730,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.pdo_sqlsrv": {
-        "name": "php-pdo_sqlsrv-5.8.0",
+        "name": "php-pdo_sqlsrv-5.8.1",
         "pname": "php-pdo_sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-pdo_sqlsrv-5.8.0",
+            "name": "php-pdo_sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15747,9 +15747,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.16.2",
+        "name": "php-php-cs-fixer-2.16.3",
         "pname": "php-php-cs-fixer",
-        "version": "2.16.2",
+        "version": "2.16.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15769,7 +15769,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.16.2",
+            "name": "php-php-cs-fixer-2.16.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -15779,9 +15779,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.16.2",
+        "name": "php-php-cs-fixer-2.16.3",
         "pname": "php-php-cs-fixer",
-        "version": "2.16.2",
+        "version": "2.16.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15801,7 +15801,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.16.2",
+            "name": "php-php-cs-fixer-2.16.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -15811,9 +15811,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.16.2",
+        "name": "php-php-cs-fixer-2.16.3",
         "pname": "php-php-cs-fixer",
-        "version": "2.16.2",
+        "version": "2.16.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15833,7 +15833,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.16.2",
+            "name": "php-php-cs-fixer-2.16.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -15843,9 +15843,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.16.2",
+        "name": "php-php-cs-fixer-2.16.3",
         "pname": "php-php-cs-fixer",
-        "version": "2.16.2",
+        "version": "2.16.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15865,7 +15865,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.16.2",
+            "name": "php-php-cs-fixer-2.16.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -15875,9 +15875,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.16.2",
+        "name": "php-php-cs-fixer-2.16.3",
         "pname": "php-php-cs-fixer",
-        "version": "2.16.2",
+        "version": "2.16.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15897,7 +15897,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.16.2",
+            "name": "php-php-cs-fixer-2.16.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -15907,9 +15907,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.16.2",
+        "name": "php-php-cs-fixer-2.16.3",
         "pname": "php-php-cs-fixer",
-        "version": "2.16.2",
+        "version": "2.16.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15929,7 +15929,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.16.2",
+            "name": "php-php-cs-fixer-2.16.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -15939,9 +15939,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.16.2",
+        "name": "php-php-cs-fixer-2.16.3",
         "pname": "php-php-cs-fixer",
-        "version": "2.16.2",
+        "version": "2.16.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15961,7 +15961,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.16.2",
+            "name": "php-php-cs-fixer-2.16.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -15971,9 +15971,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.16.2",
+        "name": "php-php-cs-fixer-2.16.3",
         "pname": "php-php-cs-fixer",
-        "version": "2.16.2",
+        "version": "2.16.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15993,7 +15993,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.16.2",
+            "name": "php-php-cs-fixer-2.16.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -16003,9 +16003,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.16.2",
+        "name": "php-php-cs-fixer-2.16.3",
         "pname": "php-php-cs-fixer",
-        "version": "2.16.2",
+        "version": "2.16.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16025,7 +16025,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.16.2",
+            "name": "php-php-cs-fixer-2.16.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -16035,9 +16035,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.16.2",
+        "name": "php-php-cs-fixer-2.16.3",
         "pname": "php-php-cs-fixer",
-        "version": "2.16.2",
+        "version": "2.16.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16057,7 +16057,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.16.2",
+            "name": "php-php-cs-fixer-2.16.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -16827,9 +16827,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.phpcs": {
-        "name": "php-phpcs-3.5.4",
+        "name": "php-phpcs-3.5.5",
         "pname": "php-phpcs",
-        "version": "3.5.4",
+        "version": "3.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16861,7 +16861,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpcs-3.5.4",
+            "name": "php-phpcs-3.5.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -16871,9 +16871,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.phpcs": {
-        "name": "php-phpcs-3.5.4",
+        "name": "php-phpcs-3.5.5",
         "pname": "php-phpcs",
-        "version": "3.5.4",
+        "version": "3.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16905,7 +16905,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpcs-3.5.4",
+            "name": "php-phpcs-3.5.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -16915,9 +16915,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.phpcs": {
-        "name": "php-phpcs-3.5.4",
+        "name": "php-phpcs-3.5.5",
         "pname": "php-phpcs",
-        "version": "3.5.4",
+        "version": "3.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16949,7 +16949,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpcs-3.5.4",
+            "name": "php-phpcs-3.5.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -16959,9 +16959,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.phpcs": {
-        "name": "php-phpcs-3.5.4",
+        "name": "php-phpcs-3.5.5",
         "pname": "php-phpcs",
-        "version": "3.5.4",
+        "version": "3.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16993,7 +16993,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpcs-3.5.4",
+            "name": "php-phpcs-3.5.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -17003,9 +17003,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.phpcs": {
-        "name": "php-phpcs-3.5.4",
+        "name": "php-phpcs-3.5.5",
         "pname": "php-phpcs",
-        "version": "3.5.4",
+        "version": "3.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17037,7 +17037,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpcs-3.5.4",
+            "name": "php-phpcs-3.5.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -17047,9 +17047,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.phpcs": {
-        "name": "php-phpcs-3.5.4",
+        "name": "php-phpcs-3.5.5",
         "pname": "php-phpcs",
-        "version": "3.5.4",
+        "version": "3.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17081,7 +17081,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpcs-3.5.4",
+            "name": "php-phpcs-3.5.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -17091,9 +17091,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.phpcs": {
-        "name": "php-phpcs-3.5.4",
+        "name": "php-phpcs-3.5.5",
         "pname": "php-phpcs",
-        "version": "3.5.4",
+        "version": "3.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17125,7 +17125,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpcs-3.5.4",
+            "name": "php-phpcs-3.5.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -17135,9 +17135,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.phpcs": {
-        "name": "php-phpcs-3.5.4",
+        "name": "php-phpcs-3.5.5",
         "pname": "php-phpcs",
-        "version": "3.5.4",
+        "version": "3.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17169,7 +17169,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpcs-3.5.4",
+            "name": "php-phpcs-3.5.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -17179,9 +17179,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.phpcs": {
-        "name": "php-phpcs-3.5.4",
+        "name": "php-phpcs-3.5.5",
         "pname": "php-phpcs",
-        "version": "3.5.4",
+        "version": "3.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17213,7 +17213,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpcs-3.5.4",
+            "name": "php-phpcs-3.5.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -17223,9 +17223,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.phpcs": {
-        "name": "php-phpcs-3.5.4",
+        "name": "php-phpcs-3.5.5",
         "pname": "php-phpcs",
-        "version": "3.5.4",
+        "version": "3.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17257,7 +17257,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpcs-3.5.4",
+            "name": "php-phpcs-3.5.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -20263,14 +20263,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.sqlsrv": {
-        "name": "php-sqlsrv-5.8.0",
+        "name": "php-sqlsrv-5.8.1",
         "pname": "php-sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-sqlsrv-5.8.0",
+            "name": "php-sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -20280,14 +20280,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.sqlsrv": {
-        "name": "php-sqlsrv-5.8.0",
+        "name": "php-sqlsrv-5.8.1",
         "pname": "php-sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-sqlsrv-5.8.0",
+            "name": "php-sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -20297,14 +20297,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.sqlsrv": {
-        "name": "php-sqlsrv-5.8.0",
+        "name": "php-sqlsrv-5.8.1",
         "pname": "php-sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-sqlsrv-5.8.0",
+            "name": "php-sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -20314,14 +20314,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.sqlsrv": {
-        "name": "php-sqlsrv-5.8.0",
+        "name": "php-sqlsrv-5.8.1",
         "pname": "php-sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-sqlsrv-5.8.0",
+            "name": "php-sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -20331,14 +20331,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.sqlsrv": {
-        "name": "php-sqlsrv-5.8.0",
+        "name": "php-sqlsrv-5.8.1",
         "pname": "php-sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-sqlsrv-5.8.0",
+            "name": "php-sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -20348,14 +20348,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.sqlsrv": {
-        "name": "php-sqlsrv-5.8.0",
+        "name": "php-sqlsrv-5.8.1",
         "pname": "php-sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-sqlsrv-5.8.0",
+            "name": "php-sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -20365,14 +20365,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.sqlsrv": {
-        "name": "php-sqlsrv-5.8.0",
+        "name": "php-sqlsrv-5.8.1",
         "pname": "php-sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-sqlsrv-5.8.0",
+            "name": "php-sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -20382,14 +20382,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.sqlsrv": {
-        "name": "php-sqlsrv-5.8.0",
+        "name": "php-sqlsrv-5.8.1",
         "pname": "php-sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-sqlsrv-5.8.0",
+            "name": "php-sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -20399,14 +20399,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.sqlsrv": {
-        "name": "php-sqlsrv-5.8.0",
+        "name": "php-sqlsrv-5.8.1",
         "pname": "php-sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-sqlsrv-5.8.0",
+            "name": "php-sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -20416,14 +20416,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.sqlsrv": {
-        "name": "php-sqlsrv-5.8.0",
+        "name": "php-sqlsrv-5.8.1",
         "pname": "php-sqlsrv",
-        "version": "5.8.0",
+        "version": "5.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-sqlsrv-5.8.0",
+            "name": "php-sqlsrv-5.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -21469,9 +21469,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.unit": {
-        "name": "unit-1.16.0",
+        "name": "unit-1.17.0",
         "pname": "unit",
-        "version": "1.16.0",
+        "version": "1.17.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -21491,7 +21491,7 @@
                     "name": "Yurii Izorkin"
                 }
             ],
-            "name": "unit-1.16.0",
+            "name": "unit-1.17.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -25239,6 +25239,68 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/joshuafern"
         },
         "_attr": "libspeedhack",
+        "_repo": "joshuafern"
+    },
+    "nur.repos.joshuafern.minigalaxy": {
+        "name": "minigalaxy-2020-04-11",
+        "pname": "minigalaxy",
+        "version": "2020-04-11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A simple GOG client for Linux",
+            "homepage": "https://sharkwouter.github.io/minigalaxy/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "joshuafern@protonmail.com",
+                    "github": "JoshuaFern",
+                    "githubId": 4300747,
+                    "name": "Joshua Fern"
+                }
+            ],
+            "name": "minigalaxy-2020-04-11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/joshuafern"
+        },
+        "_attr": "minigalaxy",
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.qdl": {
