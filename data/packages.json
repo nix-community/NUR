@@ -48177,44 +48177,6 @@
         "_attr": "astrochem",
         "_repo": "smaret"
     },
-    "nur.repos.smaret.casa": {
-        "name": "casa-5.4.0",
-        "pname": "casa",
-        "version": "5.4.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Casa binary distribution",
-            "maintainers": [
-                {
-                    "email": "Bruno@bzizou.net",
-                    "github": "bzizou",
-                    "githubId": 2647566,
-                    "name": "Bruno Bzeznik"
-                }
-            ],
-            "name": "casa-5.4.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/smaret"
-        },
-        "_attr": "casa",
-        "_repo": "smaret"
-    },
     "nur.repos.smaret.sundials2": {
         "name": "sundials-2.7.0",
         "pname": "sundials",
