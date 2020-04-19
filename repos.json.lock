@@ -212,8 +212,8 @@
             "url": "https://github.com/krebs/nur-packages"
         },
         "kreisys": {
-            "rev": "1f6c7d3291454639903f085c9e173f5f375b3ad0",
-            "sha256": "1bhcg7k3xnvqvr08y3rzvi3mrkih29kgszy42lgllw7marqrw9ll",
+            "rev": "a8da98008d3d7d03cd32cc3ab18a4a9ab78445d7",
+            "sha256": "12ankiz0n59lw1x9c8hy0s0rc5r7b0m9q1pn0gxr20rcqznxvhy3",
             "submodules": true,
             "url": "https://github.com/kreisys/nur-packages"
         },
@@ -428,6 +428,11 @@
             "rev": "f5705a675314ea267e8ace5f2af360b349eb90f3",
             "sha256": "180z3rn0g8lkg155z5fg0iw5rlx3ixras3g5fhfvkqbd1nkyj575",
             "url": "https://github.com/vdemeester/nur-packages"
+        },
+        "wamserma": {
+            "rev": "7e85b11d37afb9ef0d919a930a74fd7c280e5dea",
+            "sha256": "147gzahrh97xnc9n6sgv2789hy1mpl3gcbwy1bc4vkcwl231lqwg",
+            "url": "https://github.com/wamserma/nur-packages"
         },
         "xe": {
             "rev": "881e6e1b764e08bd240e0b5b98b87e2fe38eacdd",
