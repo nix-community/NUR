@@ -25092,9 +25092,9 @@
         "_repo": "jomik"
     },
     "nur.repos.joshuafern.citra": {
-        "name": "citra-2020-03-21",
+        "name": "citra-2020-04-20",
         "pname": "citra",
-        "version": "2020-03-21",
+        "version": "2020-04-20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25114,7 +25114,7 @@
                     "name": "Nikolay Amiantov"
                 }
             ],
-            "name": "citra-2020-03-21",
+            "name": "citra-2020-04-20",
             "outputsToInstall": [
                 "out"
             ],
@@ -25305,13 +25305,13 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.qdl": {
-        "name": "qdl-760b3dffb03d2b7dfb82c6eac652a092f51c572d",
+        "name": "qdl-2019-04-30",
         "pname": "qdl",
-        "version": "760b3dffb03d2b7dfb82c6eac652a092f51c572d",
+        "version": "2019-04-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Qualcomm Download",
+            "description": "A flasher for Qualcomm's Emergency Download (EDL) mode",
             "homepage": "https://github.com/andersson/qdl/",
             "license": {
                 "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
@@ -25319,7 +25319,6 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "http://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "longDescription": "This tool communicates with USB devices of id 05c6:9008 to upload a flash loader and use this to flash images.\n",
             "maintainers": [
                 {
                     "email": "joshuafern@protonmail.com",
@@ -25328,7 +25327,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "qdl-760b3dffb03d2b7dfb82c6eac652a092f51c572d",
+            "name": "qdl-2019-04-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -25432,9 +25431,9 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.steamgrid": {
-        "name": "steamgrid-unstable-2020-01-28",
+        "name": "steamgrid-unstable-2020-03-22",
         "pname": "steamgrid-unstable",
-        "version": "2020-01-28",
+        "version": "2020-03-22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25462,7 +25461,7 @@
                     "name": "Luca Bruno"
                 }
             ],
-            "name": "steamgrid-unstable-2020-01-28",
+            "name": "steamgrid-unstable-2020-03-22",
             "outputsToInstall": [
                 "bin"
             ],
