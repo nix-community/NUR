@@ -310,6 +310,12 @@ curl -XPOST https://nur-update.herokuapp.com/update?repo=mic92
 
 Check out the [github page](https://github.com/nix-community/nur-update#nur-update-endpoint) for further details
 
+### HELP! Why are my NUR packages not updating?
+With every build triggered via the URL hook all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are in the meta data of a derivation like a wrong license attribute.
+
+You can find out if your evaluation succeeded by checking the [latest travis build job]( https://travis-ci.com/github/nix-community/NUR/ ).
+
+
 ### Git submodules
 
 To fetch git submodules in repositories set `submodules`:
@@ -443,10 +449,6 @@ override existing packages.
 Also without coordination multiple overlays could easily introduce dependency
 cycles.
 
-## Why are my NUR packages not updating?
-With every build triggered via the URL hook all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are in the meta data of a derivation like a wrong license attribute.
-
-You can find out if your evaluation succeeded by checking the [latest travis build job]( https://travis-ci.com/github/nix-community/NUR/ ).
 
 ## Contact
 
