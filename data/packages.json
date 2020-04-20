@@ -50253,9 +50253,9 @@
         "_repo": "trevorriles"
     },
     "nur.repos.vdemeester.ape": {
-        "name": "ape-0.3.0",
+        "name": "ape-0.4.0",
         "pname": "ape",
-        "version": "0.3.0",
+        "version": "0.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50269,15 +50269,15 @@
             },
             "maintainers": [
                 {
-                    "email": "lucabru@src.gnome.org",
-                    "github": "lethalman",
-                    "githubId": 480920,
-                    "name": "Luca Bruno"
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
                 }
             ],
-            "name": "ape-0.3.0",
+            "name": "ape-0.4.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -51174,9 +51174,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.nr": {
-        "name": "nr-0.3.0",
+        "name": "nr-0.4.0",
         "pname": "nr",
-        "version": "0.3.0",
+        "version": "0.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51190,15 +51190,15 @@
             },
             "maintainers": [
                 {
-                    "email": "lucabru@src.gnome.org",
-                    "github": "lethalman",
-                    "githubId": 480920,
-                    "name": "Luca Bruno"
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
                 }
             ],
-            "name": "nr-0.3.0",
+            "name": "nr-0.4.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -51557,9 +51557,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.sec": {
-        "name": "sec-0.1.0",
+        "name": "sec-0.2.0",
         "pname": "sec",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51573,15 +51573,15 @@
             },
             "maintainers": [
                 {
-                    "email": "lucabru@src.gnome.org",
-                    "github": "lethalman",
-                    "githubId": 480920,
-                    "name": "Luca Bruno"
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
                 }
             ],
-            "name": "sec-0.1.0",
+            "name": "sec-0.2.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
