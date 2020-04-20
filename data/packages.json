@@ -9014,9 +9014,9 @@
         "_repo": "gricad"
     },
     "nur.repos.gricad.obitools3": {
-        "name": "obitools3-3.0.0-beta11",
+        "name": "obitools3-3.0.0-beta14",
         "pname": "obitools3",
-        "version": "3.0.0-beta11",
+        "version": "3.0.0-beta14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -9053,7 +9053,7 @@
                     "name": "Bruno Bzeznik"
                 }
             ],
-            "name": "obitools3-3.0.0-beta11",
+            "name": "obitools3-3.0.0-beta14",
             "outputsToInstall": [
                 "out"
             ],
@@ -52124,6 +52124,24 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
         },
         "_attr": "ii",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.ix": {
+        "name": "ix",
+        "pname": "ix",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "command line pastebin",
+            "homepage": "https://ix.io",
+            "name": "ix",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "ix",
         "_repo": "xe"
     },
     "nur.repos.xe.johaus": {
