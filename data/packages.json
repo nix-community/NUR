@@ -25092,8 +25092,8 @@
         "_repo": "jomik"
     },
     "nur.repos.joshuafern.citra": {
-        "name": "citra-2020-04-20",
-        "pname": "citra",
+        "name": "citra-unstable-2020-04-20",
+        "pname": "citra-unstable",
         "version": "2020-04-20",
         "system": "x86_64-linux",
         "meta": {
@@ -25114,7 +25114,7 @@
                     "name": "Nikolay Amiantov"
                 }
             ],
-            "name": "citra-2020-04-20",
+            "name": "citra-unstable-2020-04-20",
             "outputsToInstall": [
                 "out"
             ],
@@ -25203,7 +25203,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A simple dynamic library to slow down or speed up applications",
+            "description": "A simple dynamic library to tweak the speed of applications",
             "homepage": "https://github.com/evg-zhabotinsky/libspeedhack",
             "license": {
                 "fullName": "MIT License",
@@ -25242,8 +25242,8 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.minigalaxy": {
-        "name": "minigalaxy-2020-04-18",
-        "pname": "minigalaxy",
+        "name": "minigalaxy-unstable-2020-04-18",
+        "pname": "minigalaxy-unstable",
         "version": "2020-04-18",
         "system": "x86_64-linux",
         "meta": {
@@ -25282,7 +25282,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "minigalaxy-2020-04-18",
+            "name": "minigalaxy-unstable-2020-04-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -25305,8 +25305,8 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.qdl": {
-        "name": "qdl-2019-04-30",
-        "pname": "qdl",
+        "name": "qdl-unstable-2019-04-30",
+        "pname": "qdl-unstable",
         "version": "2019-04-30",
         "system": "x86_64-linux",
         "meta": {
@@ -25327,7 +25327,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "qdl-2019-04-30",
+            "name": "qdl-unstable-2019-04-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -25408,9 +25408,9 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.sbase": {
-        "name": "sbase-unstable-2020-01-21",
+        "name": "sbase-unstable-2020-04-15",
         "pname": "sbase-unstable",
-        "version": "2020-01-21",
+        "version": "2020-04-15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25421,7 +25421,15 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "sbase-unstable-2020-01-21",
+            "maintainers": [
+                {
+                    "email": "joshuafern@protonmail.com",
+                    "github": "JoshuaFern",
+                    "githubId": 4300747,
+                    "name": "Joshua Fern"
+                }
+            ],
+            "name": "sbase-unstable-2020-04-15",
             "outputsToInstall": [
                 "out"
             ],
@@ -25510,6 +25518,14 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "joshuafern@protonmail.com",
+                    "github": "JoshuaFern",
+                    "githubId": 4300747,
+                    "name": "Joshua Fern"
+                }
+            ],
             "name": "ubase-unstable-2019-03-12",
             "outputsToInstall": [
                 "out"
@@ -52188,6 +52204,43 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
         },
         "_attr": "jvozba",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.luakit": {
+        "name": "luakit-git",
+        "pname": "luakit-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Fast, small, webkit based browser framework extensible in Lua",
+            "homepage": "https://luakit.github.io/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "luakit-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "luakit",
         "_repo": "xe"
     },
     "nur.repos.xe.minica": {
