@@ -52350,10 +52350,10 @@
             },
             "maintainers": [
                 {
-                    "email": "andsild@gmail.com",
-                    "github": "andsild",
-                    "githubId": 3808928,
-                    "name": "Anders Sildnes"
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
                 }
             ],
             "name": "st-0.8.2",
@@ -52373,7 +52373,7 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe('nixpkgs', 'pkgs', 'applications', 'misc', 'st', 'default.nix')#L29"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
         },
         "_attr": "st",
         "_repo": "xe"
