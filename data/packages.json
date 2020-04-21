@@ -49577,76 +49577,6 @@
         "_attr": "disk-utilities",
         "_repo": "tokudan"
     },
-    "nur.repos.tokudan.superdiskindex": {
-        "name": "disk-utilities-git",
-        "pname": "disk-utilities-git",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "",
-            "homepage": "https://github.com/shamada-code/superdiskindex",
-            "maintainers": [
-                {
-                    "email": "git@danielfrank.net",
-                    "github": "tokudan",
-                    "githubId": 692610,
-                    "name": "Daniel Frank"
-                }
-            ],
-            "name": "disk-utilities-git",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-windows",
-                "i686-windows",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "arm-none",
-                "armv6l-none",
-                "aarch64-none",
-                "avr-none",
-                "i686-none",
-                "x86_64-none",
-                "powerpc-none",
-                "msp430-none",
-                "riscv64-none",
-                "riscv32-none",
-                "vc4-none",
-                "js-ghcjs",
-                "aarch64-genode",
-                "x86_64-genode"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan"
-        },
-        "_attr": "superdiskindex",
-        "_repo": "tokudan"
-    },
     "nur.repos.tokudan.nibtools": {
         "name": "nibtools-657",
         "pname": "nibtools",
@@ -49708,6 +49638,76 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan"
         },
         "_attr": "opencbm",
+        "_repo": "tokudan"
+    },
+    "nur.repos.tokudan.superdiskindex": {
+        "name": "superdiskindex-git",
+        "pname": "superdiskindex-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "",
+            "homepage": "https://github.com/shamada-code/superdiskindex",
+            "maintainers": [
+                {
+                    "email": "git@danielfrank.net",
+                    "github": "tokudan",
+                    "githubId": 692610,
+                    "name": "Daniel Frank"
+                }
+            ],
+            "name": "superdiskindex-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan"
+        },
+        "_attr": "superdiskindex",
         "_repo": "tokudan"
     },
     "nur.repos.tokudan.writefreely": {
