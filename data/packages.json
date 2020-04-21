@@ -44264,24 +44264,15 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
                 "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
                 "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
+                "armv7a-darwin"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -46299,7 +46290,11 @@
                 "x86_64-linux",
                 "powerpc64le-linux",
                 "riscv32-linux",
-                "riscv64-linux"
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -46629,21 +46624,8 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
                 "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
                 "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux"
@@ -47520,7 +47502,11 @@
                 "x86_64-linux",
                 "powerpc64le-linux",
                 "riscv32-linux",
-                "riscv64-linux"
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -47786,7 +47772,11 @@
                 "x86_64-linux",
                 "powerpc64le-linux",
                 "riscv32-linux",
-                "riscv64-linux"
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
