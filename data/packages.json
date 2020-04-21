@@ -25242,9 +25242,9 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.minigalaxy": {
-        "name": "minigalaxy-unstable-2020-04-18",
-        "pname": "minigalaxy-unstable",
-        "version": "2020-04-18",
+        "name": "minigalaxy-0.9.4",
+        "pname": "minigalaxy",
+        "version": "0.9.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25282,7 +25282,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "minigalaxy-unstable-2020-04-18",
+            "name": "minigalaxy-0.9.4",
             "outputsToInstall": [
                 "out"
             ],
