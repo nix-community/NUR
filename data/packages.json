@@ -25599,21 +25599,36 @@
         "version": "2020-04-13",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
-            "description": "An experimental open-source emulator for the Nintendo Switch",
+            "available": false,
+            "description": "An experimental Nintendo Switch emulator",
             "homepage": "https://yuzu-emu.org",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
-                "spdxId": "GPL-2.0-only",
-                "url": "http://spdx.org/licenses/GPL-2.0-only.html"
-            },
+            "license": [
+                {
+                    "fullName": "GNU General Public License v2.0 only",
+                    "shortName": "gpl2",
+                    "spdxId": "GPL-2.0-only",
+                    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+                },
+                {
+                    "free": false,
+                    "fullName": "Creative Commons Attribution-No Derivative Works v3.00",
+                    "shortName": "cc-by-nd-30",
+                    "spdxId": "CC-BY-ND-3.0",
+                    "url": "http://spdx.org/licenses/CC-BY-ND-3.0.html"
+                },
+                {
+                    "fullName": "Creative Commons Zero v1.0 Universal",
+                    "shortName": "cc0",
+                    "spdxId": "CC0-1.0",
+                    "url": "http://spdx.org/licenses/CC0-1.0.html"
+                }
+            ],
             "maintainers": [
                 {
-                    "email": "ivar.scholten@protonmail.com",
-                    "github": "IvarWithoutBones",
-                    "githubId": 41924494,
-                    "name": "Ivar"
+                    "email": "joshuafern@protonmail.com",
+                    "github": "JoshuaFern",
+                    "githubId": 4300747,
+                    "name": "Joshua Fern"
                 }
             ],
             "name": "yuzu-mainline-unstable-2020-04-13",
