@@ -50265,9 +50265,9 @@
         "_repo": "trevorriles"
     },
     "nur.repos.vdemeester.ape": {
-        "name": "ape-0.4.0",
+        "name": "ape-0.4.1",
         "pname": "ape",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50287,7 +50287,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "ape-0.4.0",
+            "name": "ape-0.4.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -51422,9 +51422,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.ram": {
-        "name": "ram-0.2.3",
+        "name": "ram-0.3.0",
         "pname": "ram",
-        "version": "0.2.3",
+        "version": "0.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51438,15 +51438,15 @@
             },
             "maintainers": [
                 {
-                    "email": "lucabru@src.gnome.org",
-                    "github": "lethalman",
-                    "githubId": 480920,
-                    "name": "Luca Bruno"
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
                 }
             ],
-            "name": "ram-0.2.3",
+            "name": "ram-0.3.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
