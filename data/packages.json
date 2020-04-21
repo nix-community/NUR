@@ -32815,13 +32815,13 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.nixos-shell": {
-        "name": "nixos-shell-0.1.0",
+        "name": "nixos-shell-0.1.1",
         "pname": "nixos-shell",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "nixos-shell-0.1.0",
+            "name": "nixos-shell-0.1.1",
             "outputsToInstall": [
                 "out"
             ],
