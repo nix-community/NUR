@@ -25593,6 +25593,51 @@
         "_attr": "vban",
         "_repo": "joshuafern"
     },
+    "nur.repos.joshuafern.yuzu-mainline": {
+        "name": "yuzu-mainline-unstable-2020-04-13",
+        "pname": "yuzu-mainline-unstable",
+        "version": "2020-04-13",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An experimental open-source emulator for the Nintendo Switch",
+            "homepage": "https://yuzu-emu.org",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ivar.scholten@protonmail.com",
+                    "github": "IvarWithoutBones",
+                    "githubId": 41924494,
+                    "name": "Ivar"
+                }
+            ],
+            "name": "yuzu-mainline-unstable-2020-04-13",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/joshuafern"
+        },
+        "_attr": "yuzu-mainline",
+        "_repo": "joshuafern"
+    },
     "nur.repos.kalbasit.chroot-enter": {
         "name": "chroot-enter-0.0.1",
         "pname": "chroot-enter",
