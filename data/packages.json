@@ -25137,14 +25137,13 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.dosbox-staging": {
-        "name": "dosbox-staging",
-        "pname": "dosbox-staging",
-        "version": "",
+        "name": "dosbox-staging-unstable-2020-04-19",
+        "pname": "dosbox-staging-unstable",
+        "version": "2020-04-19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "A modernized DOS emulator",
-            "downloadPage": "https://github.com/dreamer/dosbox-staging/releases",
             "homepage": "https://github.com/dreamer/dosbox-staging",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
@@ -25152,7 +25151,6 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "http://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "longDescription": "This repository attempts to modernize the DOSBox project by using current development practices and tools, fixing issues, adding features that better support today's systems, and sending patches upstream.\n",
             "maintainers": [
                 {
                     "email": "joshuafern@protonmail.com",
@@ -25161,7 +25159,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "dosbox-staging",
+            "name": "dosbox-staging-unstable-2020-04-19",
             "outputsToInstall": [
                 "out"
             ],
