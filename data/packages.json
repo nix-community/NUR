@@ -32192,9 +32192,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.ferdi": {
-        "name": "ferdi-5.4.4-beta.3",
+        "name": "ferdi-5.5.0-gm",
         "pname": "ferdi",
-        "version": "5.4.4-beta.3",
+        "version": "5.5.0-gm",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32219,7 +32219,7 @@
                     "name": "J\u00f6rg Thalheim"
                 }
             ],
-            "name": "ferdi-5.4.4-beta.3",
+            "name": "ferdi-5.5.0-gm",
             "outputsToInstall": [
                 "out"
             ],
@@ -32831,9 +32831,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.nix-review-unstable": {
-        "name": "nixpkgs-review-2.3.0-rc1",
+        "name": "nixpkgs-review-2.3.0-rc2",
         "pname": "nixpkgs-review",
-        "version": "2.3.0-rc1",
+        "version": "2.3.0-rc2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32876,7 +32876,7 @@
                     "name": "J\u00f6rg Thalheim"
                 }
             ],
-            "name": "nixpkgs-review-2.3.0-rc1",
+            "name": "nixpkgs-review-2.3.0-rc2",
             "outputsToInstall": [
                 "out"
             ],
