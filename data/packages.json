@@ -3555,6 +3555,204 @@
         "_attr": "python3Packages.cvxpy",
         "_repo": "drewrisinger"
     },
+    "nur.repos.drewrisinger.python3Packages.dlx": {
+        "name": "python3.7-dlx-1.0.4",
+        "pname": "python3.7-dlx",
+        "version": "1.0.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Implementation of Donald Knuth's Dancing Links algorithm",
+            "homepage": "https://github.com/sraaphorst/dlx_python",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-dlx-1.0.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.dlx",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.docloud": {
+        "name": "python3.7-docloud-1.0.375",
+        "pname": "python3.7-docloud",
+        "version": "1.0.375",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The IBM Decision Optimization on Cloud Python client",
+            "homepage": "https://onboarding-oaas.docloud.ibmcloud.com/software/analytics/docloud/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-docloud-1.0.375",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.docloud",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.docplex": {
+        "name": "python3.7-docplex-2.12.182",
+        "pname": "python3.7-docplex",
+        "version": "2.12.182",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "IBM Decision Optimization CPLEX Modeling for Python",
+            "homepage": "https://onboarding-oaas.docloud.ibmcloud.com/software/analytics/docloud/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-docplex-2.12.182",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.docplex",
+        "_repo": "drewrisinger"
+    },
     "nur.repos.drewrisinger.python3Packages.ecos": {
         "name": "python3.7-ecos-2.0.7.post1",
         "pname": "python3.7-ecos",
@@ -3620,6 +3818,337 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
         },
         "_attr": "python3Packages.ecos",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.fastdtw": {
+        "name": "python3.7-fastdtw-0.3.4",
+        "pname": "python3.7-fastdtw",
+        "version": "0.3.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Python implementation of FastDTW (Dynamic Time Warping)",
+            "homepage": "https://github.com/slaypni/fastdtw",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "FastDTW is an approximate Dynamic Time Warping (DTW) algorithm that provides\noptimal or near-optimal alignments with an O(N) time and memory complexity.\n",
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-fastdtw-0.3.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.fastdtw",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.fastjsonschema": {
+        "name": "python3.7-fastjsonschema-2.14.4",
+        "pname": "python3.7-fastjsonschema",
+        "version": "2.14.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Fast JSON schema validator for Python.",
+            "homepage": "https://horejsek.github.io/python-fastjsonschema/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-fastjsonschema-2.14.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.fastjsonschema",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.ipyvue": {
+        "name": "python3.7-ipyvue-1.3.1",
+        "pname": "python3.7-ipyvue",
+        "version": "1.3.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Jupyter widgets base for Vue libraries.",
+            "homepage": "https://github.com/mariobuikhuizen/ipyvuetify",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-ipyvue-1.3.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.ipyvue",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.ipyvuetify": {
+        "name": "python3.7-ipyvuetify-1.2.2",
+        "pname": "python3.7-ipyvuetify",
+        "version": "1.2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Jupyter widgets based on Vuetify UI Components.",
+            "homepage": "https://github.com/mariobuikhuizen/ipyvuetify",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-ipyvuetify-1.2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.ipyvuetify",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.marshmallow-polyfield": {
+        "name": "python3.7-marshmallow-polyfield-5.9",
+        "pname": "python3.7-marshmallow-polyfield",
+        "version": "5.9",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An unofficial extension to Marshmallow to allow for polymorphic fields",
+            "homepage": "https://github.com/Bachmann1234/marshmallow-polyfield",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-marshmallow-polyfield-5.9",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.marshmallow-polyfield",
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.nose-timer": {
@@ -3748,6 +4277,72 @@
         "_attr": "python3Packages.osqp",
         "_repo": "drewrisinger"
     },
+    "nur.repos.drewrisinger.python3Packages.pproxy": {
+        "name": "python3.7-pproxy-2.3.2",
+        "pname": "python3.7-pproxy",
+        "version": "2.3.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Proxy server that can tunnel among remote servers by regex rules",
+            "homepage": "https://github.com/qwj/python-proxy",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-pproxy-2.3.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.pproxy",
+        "_repo": "drewrisinger"
+    },
     "nur.repos.drewrisinger.python3Packages.pygsti": {
         "name": "python3.7-pygsti-0.9.9.1",
         "pname": "python3.7-pygsti",
@@ -3866,6 +4461,73 @@
         "_attr": "python3Packages.pygsti-cirq",
         "_repo": "drewrisinger"
     },
+    "nur.repos.drewrisinger.python3Packages.pylatexenc": {
+        "name": "python3.7-pylatexenc-2.1",
+        "pname": "python3.7-pylatexenc",
+        "version": "2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Simple LaTeX parser providing latex-to-unicode and unicode-to-latex conversion",
+            "downloadPage": "https;//www.github.com/phfaist/pylatexenc",
+            "homepage": "https://pylatexenc.readthedocs.io",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-pylatexenc-2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.pylatexenc",
+        "_repo": "drewrisinger"
+    },
     "nur.repos.drewrisinger.python3Packages.pyscf": {
         "name": "python3.7-pyscf-1.7.1",
         "pname": "python3.7-pyscf",
@@ -3925,6 +4587,529 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
         },
         "_attr": "python3Packages.pyscf",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.python-constraint": {
+        "name": "python3.7-python-constraint-1.4.0",
+        "pname": "python3.7-python-constraint",
+        "version": "1.4.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Constraint Solving Problem resolver for Python.",
+            "downloadPage": "https://github.com/python-constraint/python-constraint/releases",
+            "homepage": "https://labix.org/doc/constraint/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "http://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-python-constraint-1.4.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.python-constraint",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.qiskit": {
+        "name": "python3.7-qiskit-0.18.1",
+        "pname": "python3.7-qiskit",
+        "version": "0.18.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Software for developing quantum computing programs",
+            "downloadPage": "https://github.com/QISKit/qiskit/releases",
+            "homepage": "https://qiskit.org",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                },
+                {
+                    "email": "kointosudesuyo@infoseek.jp",
+                    "github": "pandaman64",
+                    "githubId": 1788628,
+                    "name": "pandaman"
+                }
+            ],
+            "name": "python3.7-qiskit-0.18.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.qiskit",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.qiskit-aer": {
+        "name": "python3.7-qiskit-aer-0.5.0",
+        "pname": "python3.7-qiskit-aer",
+        "version": "0.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "High performance simulators for Qiskit",
+            "downloadPage": "https://github.com/QISKit/qiskit-aer/releases",
+            "homepage": "https://qiskit.org/aer",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "python3.7-qiskit-aer-0.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "x86_64-windows",
+                "x86_64-none",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.qiskit-aer",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.qiskit-aqua": {
+        "name": "python3.7-qiskit-aqua-0.6.6",
+        "pname": "python3.7-qiskit-aqua",
+        "version": "0.6.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An extensible library of quantum computing algorithms",
+            "homepage": "https://github.com/QISKit/qiskit-aqua",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-qiskit-aqua-0.6.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.qiskit-aqua",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-provider": {
+        "name": "python3.7-qiskit-ibmq-provider-0.6.0",
+        "pname": "python3.7-qiskit-ibmq-provider",
+        "version": "0.6.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Qiskit provider for accessing the quantum devices and simulators at IBMQ",
+            "homepage": "https://github.com/Qiskit/qiskit-ibmq-provider",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-qiskit-ibmq-provider-0.6.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.qiskit-ibmq-provider",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.qiskit-ignis": {
+        "name": "python3.7-qiskit-ignis-0.3.0",
+        "pname": "python3.7-qiskit-ignis",
+        "version": "0.3.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Qiskit tools for quantum hardware verification, noise characterization, and error correction",
+            "downloadPage": "https://github.com/QISKit/qiskit-ignis/releases",
+            "homepage": "https://qiskit.org/ignis",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-qiskit-ignis-0.3.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.qiskit-ignis",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.qiskit-terra": {
+        "name": "python3.7-qiskit-terra-0.13.0",
+        "pname": "python3.7-qiskit-terra",
+        "version": "0.13.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Provides the foundations for Qiskit.",
+            "downloadPage": "https://github.com/QISKit/qiskit-terra/releases",
+            "homepage": "https://qiskit.org/terra",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Allows the user to write quantum circuits easily, and takes care of the constraints of real hardware.\n",
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-qiskit-terra-0.13.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.qiskit-terra",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.retworkx": {
+        "name": "python3.7-retworkx-0.3.3",
+        "pname": "python3.7-retworkx",
+        "version": "0.3.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A python graph library implemented in Rust.",
+            "downloadPage": "https://github.com/Qiskit/retworkx/releases",
+            "homepage": "https://retworkx.readthedocs.io/en/latest/index.html",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.7-retworkx-0.3.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "x86_64-windows",
+                "x86_64-none",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.retworkx",
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.scs": {
@@ -45172,9 +46357,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-cbe312d",
-        "pname": "gpxsee-cbe312d",
-        "version": "",
+        "name": "gpxsee-159e5ae",
+        "pname": "gpxsee",
+        "version": "159e5ae",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -45200,7 +46385,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-cbe312d",
+            "name": "gpxsee-159e5ae",
             "outputsToInstall": [
                 "out"
             ],
@@ -45886,6 +47071,53 @@
         "_attr": "lsdreader",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.macpass": {
+        "name": "MacPass-0.7.12",
+        "pname": "MacPass",
+        "version": "0.7.12",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "A native OS X KeePass client",
+            "homepage": "https://macpassapp.org/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "MacPass-0.7.12",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "macpass",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.mapsoft": {
         "name": "mapsoft-904e2da",
         "pname": "mapsoft",
@@ -45989,9 +47221,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-04-19",
+        "name": "maptourist-2020-04-21",
         "pname": "maptourist",
-        "version": "2020-04-19",
+        "version": "2020-04-21",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46015,7 +47247,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-04-19",
+            "name": "maptourist-2020-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -47355,9 +48587,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-routinodb": {
-        "name": "qmapshack-routinodb-200419",
+        "name": "qmapshack-routinodb-200421",
         "pname": "qmapshack-routinodb",
-        "version": "200419",
+        "version": "200421",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47381,7 +48613,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qmapshack-routinodb-200419",
+            "name": "qmapshack-routinodb-200421",
             "outputsToInstall": [
                 "out"
             ],
