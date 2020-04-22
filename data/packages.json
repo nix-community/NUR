@@ -25137,9 +25137,9 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.dosbox-staging": {
-        "name": "dosbox-staging-unstable-2020-04-19",
-        "pname": "dosbox-staging-unstable",
-        "version": "2020-04-19",
+        "name": "dosbox-staging-v0.75.0-rc1",
+        "pname": "dosbox-staging-v0.75.0-rc1",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25159,7 +25159,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "dosbox-staging-unstable-2020-04-19",
+            "name": "dosbox-staging-v0.75.0-rc1",
             "outputsToInstall": [
                 "out"
             ],
