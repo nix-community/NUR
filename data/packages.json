@@ -42222,9 +42222,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.cookie-autodelete": {
-        "name": "cookie-autodelete-3.1.1",
+        "name": "cookie-autodelete-3.2.0",
         "pname": "cookie-autodelete",
-        "version": "3.1.1",
+        "version": "3.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42236,7 +42236,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "cookie-autodelete-3.1.1",
+            "name": "cookie-autodelete-3.2.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -42425,9 +42425,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.5",
+        "name": "darkreader-4.9.6",
         "pname": "darkreader",
-        "version": "4.9.5",
+        "version": "4.9.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42439,7 +42439,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.5",
+            "name": "darkreader-4.9.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -44391,9 +44391,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.stylus": {
-        "name": "stylus-1.5.10",
+        "name": "stylus-1.5.11",
         "pname": "stylus",
-        "version": "1.5.10",
+        "version": "1.5.11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -44405,7 +44405,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "http://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "stylus-1.5.10",
+            "name": "stylus-1.5.11",
             "outputsToInstall": [
                 "out"
             ],
