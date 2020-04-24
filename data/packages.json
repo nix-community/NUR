@@ -11329,6 +11329,1455 @@
         "_attr": "silver",
         "_repo": "ilya-fedin"
     },
+    "nur.repos.immae.bitlbee-mastodon": {
+        "name": "bitlbee-mastodon-v1.4.4",
+        "pname": "bitlbee-mastodon-v1.4.4",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Bitlbee plugin for Mastodon",
+            "homepage": "https://github.com/kensanata/bitlbee-mastodon",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "name": "bitlbee-mastodon-v1.4.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "bitlbee-mastodon",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.boinctui": {
+        "name": "boinctui-2.5.0",
+        "pname": "boinctui",
+        "version": "2.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "boinctui-2.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "boinctui",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.cardano-cli": {
+        "name": "cardano-cli-master",
+        "pname": "cardano-cli-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "cardano-cli-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "cardano-cli",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.cnagios": {
+        "name": "cnagios-3bd27fb-master",
+        "pname": "cnagios",
+        "version": "3bd27fb-master",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "cnagios-3bd27fb-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "cnagios",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.dovecot_deleted-to-trash": {
+        "name": "dovecot-deleted_to_trash-81b0754-master",
+        "pname": "dovecot-deleted_to_trash",
+        "version": "81b0754-master",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "dovecot-deleted_to_trash-81b0754-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "dovecot_deleted-to-trash",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.duply": {
+        "name": "duply-2.1",
+        "pname": "duply",
+        "version": "2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Shell front end for the duplicity backup tool",
+            "homepage": "http://duply.net/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "longDescription": "Duply is a shell front end for the duplicity backup tool\nhttp://duplicity.nongnu.org/. It greatly simplifies it's usage by\nimplementing backup job profiles, batch commands and more. Who says\nsecure backups on non-trusted spaces are no child's play?\n",
+            "maintainers": [
+                {
+                    "email": "bjorn.forsman@gmail.com",
+                    "github": "bjornfor",
+                    "githubId": 133602,
+                    "name": "Bj\u00f8rn Forsman"
+                }
+            ],
+            "name": "duply-2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "duply",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.cardano": {
+        "name": "empty",
+        "pname": "empty",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "empty",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "cardano",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.fiche": {
+        "name": "fiche-4bba916-master",
+        "pname": "fiche",
+        "version": "4bba916-master",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "fiche-4bba916-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "fiche",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.flrn": {
+        "name": "flrn-860d642-master",
+        "pname": "flrn",
+        "version": "860d642-master",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "flrn-860d642-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "flrn",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.dovecot_fts-xapian": {
+        "name": "fts-xapian-9a94b4a-master",
+        "pname": "fts-xapian",
+        "version": "9a94b4a-master",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "fts-xapian-9a94b4a-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "dovecot_fts-xapian",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.genius": {
+        "name": "genius-1.0.24",
+        "pname": "genius",
+        "version": "1.0.24",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "genius-1.0.24",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "genius",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.monitoring-plugins": {
+        "name": "monitoring-plugins-2.2",
+        "pname": "monitoring-plugins",
+        "version": "2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "monitoring-plugins-2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "monitoring-plugins",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.mpd": {
+        "name": "mpd-0.21.21",
+        "pname": "mpd",
+        "version": "0.21.21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A flexible, powerful daemon for playing music",
+            "homepage": "https://www.musicpd.org/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "longDescription": "Music Player Daemon (MPD) is a flexible, powerful daemon for playing\nmusic. Through plugins and libraries it can play a variety of sound\nfiles while being controlled by its network protocol.\n",
+            "maintainers": [
+                {
+                    "email": "astsmtl@yandex.ru",
+                    "github": "astsmtl",
+                    "githubId": 2093941,
+                    "name": "Alexander Tsamutali"
+                },
+                {
+                    "email": "ehmry@posteo.net",
+                    "github": "ehmry",
+                    "githubId": 537775,
+                    "name": "Emery Hemingway"
+                },
+                {
+                    "email": "fpletz@fnordicwalking.de",
+                    "github": "fpletz",
+                    "githubId": 114159,
+                    "keys": [
+                        {
+                            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+                            "longkeyid": "rsa4096/0x846FDED7792617B4"
+                        }
+                    ],
+                    "name": "Franz Pletz"
+                },
+                {
+                    "email": "nix@tobim.fastmail.fm",
+                    "github": "tobim",
+                    "githubId": 858790,
+                    "name": "Tobias Mayer"
+                }
+            ],
+            "name": "mpd-0.21.21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "mpd",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.mpd-small": {
+        "name": "mpd-0.21.21",
+        "pname": "mpd",
+        "version": "0.21.21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A flexible, powerful daemon for playing music",
+            "homepage": "https://www.musicpd.org/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "longDescription": "Music Player Daemon (MPD) is a flexible, powerful daemon for playing\nmusic. Through plugins and libraries it can play a variety of sound\nfiles while being controlled by its network protocol.\n",
+            "maintainers": [
+                {
+                    "email": "astsmtl@yandex.ru",
+                    "github": "astsmtl",
+                    "githubId": 2093941,
+                    "name": "Alexander Tsamutali"
+                },
+                {
+                    "email": "ehmry@posteo.net",
+                    "github": "ehmry",
+                    "githubId": 537775,
+                    "name": "Emery Hemingway"
+                },
+                {
+                    "email": "fpletz@fnordicwalking.de",
+                    "github": "fpletz",
+                    "githubId": 114159,
+                    "keys": [
+                        {
+                            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+                            "longkeyid": "rsa4096/0x846FDED7792617B4"
+                        }
+                    ],
+                    "name": "Franz Pletz"
+                },
+                {
+                    "email": "nix@tobim.fastmail.fm",
+                    "github": "tobim",
+                    "githubId": 858790,
+                    "name": "Tobias Mayer"
+                }
+            ],
+            "name": "mpd-0.21.21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "mpd-small",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.mutt-ics": {
+        "name": "mutt-ics-d291187-master",
+        "pname": "mutt-ics-d291187-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "mutt-ics-d291187-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "mutt-ics",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.muttprint": {
+        "name": "muttprint-0.73",
+        "pname": "muttprint",
+        "version": "0.73",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "muttprint-0.73",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "muttprint",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.naemon": {
+        "name": "naemon-ba6fd20-master",
+        "pname": "naemon-ba6fd20-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "naemon-ba6fd20-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "naemon",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.naemon-livestatus": {
+        "name": "naemon-livestatus-33dbcfe-master",
+        "pname": "naemon-livestatus",
+        "version": "33dbcfe-master",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "naemon-livestatus-33dbcfe-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "naemon-livestatus",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.nagios-cli": {
+        "name": "nagios-cli-edc51ea-master",
+        "pname": "nagios-cli-edc51ea-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "name": "nagios-cli-edc51ea-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "nagios-cli",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.nagnu": {
+        "name": "nagnu-c7e65fc-master",
+        "pname": "nagnu-c7e65fc-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "nagnu-c7e65fc-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "nagnu",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.iota-cli-app": {
+        "name": "node-iota-cli-app-1.0.8",
+        "pname": "node-iota-cli-app",
+        "version": "1.0.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "IOTA CLI",
+            "homepage": "https://github.com/iotaledger/cli-app#readme",
+            "license": "MIT",
+            "name": "node-iota-cli-app-1.0.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "iota-cli-app",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.notmuch-python2": {
+        "name": "notmuch-python-2.7.17-0.29.3",
+        "pname": "notmuch-python",
+        "version": "2.7.17-0.29.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "notmuch-python-2.7.17-0.29.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "notmuch-python2",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.notmuch-python3": {
+        "name": "notmuch-python3-3.7.7-0.29.3",
+        "pname": "notmuch-python3",
+        "version": "3.7.7-0.29.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "notmuch-python3-3.7.7-0.29.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "notmuch-python3",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.notmuch-vim": {
+        "name": "notmuch-vim-0.29.3",
+        "pname": "notmuch-vim",
+        "version": "0.29.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "notmuch-vim-0.29.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "notmuch-vim",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.openarc": {
+        "name": "openarc-355ee2a-master",
+        "pname": "openarc",
+        "version": "355ee2a-master",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Open source ARC implementation",
+            "homepage": "https://github.com/trusteddomainproject/OpenARC",
+            "name": "openarc-355ee2a-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "openarc",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.opendmarc": {
+        "name": "opendmarc-1.3.2",
+        "pname": "opendmarc",
+        "version": "1.3.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Free open source software implementation of the DMARC specification",
+            "homepage": "http://www.trusteddomain.org/opendmarc/",
+            "name": "opendmarc-1.3.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "opendmarc",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.mtop": {
+        "name": "perl5.30.1-mtop-0.6.6",
+        "pname": "perl5.30.1-mtop",
+        "version": "0.6.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "MySQL top (monitor and examine slow queries)",
+            "homepage": "http://mtop.sourceforge.net/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mprewitt@chelsea.net",
+                    "name": "Marc Prewitt"
+                }
+            ],
+            "name": "perl5.30.1-mtop-0.6.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae('nixpkgs', 'lib', 'attrsets.nix')#L344"
+        },
+        "_attr": "mtop",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.note": {
+        "name": "perl5.30.1-note-1.3.26",
+        "pname": "perl5.30.1-note",
+        "version": "1.3.26",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A perl script for maintaining notes",
+            "homepage": "http://www.daemon.de/NOTE",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "http://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "tlinden@cpan.org",
+                    "name": "T.v.Dein"
+                }
+            ],
+            "name": "perl5.30.1-note-1.3.26",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae('nixpkgs', 'lib', 'attrsets.nix')#L344"
+        },
+        "_attr": "note",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.tiv": {
+        "name": "perl5.30.1-tiv-2015",
+        "pname": "perl5.30.1-tiv",
+        "version": "2015",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "homepage": "https://metacpan.org/release/tiv",
+            "name": "perl5.30.1-tiv-2015",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae('nixpkgs', 'pkgs', 'development', 'perl-modules', 'generic', 'default.nix')#L42"
+        },
+        "_attr": "tiv",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.pgloader": {
+        "name": "pgloader-3.6.1",
+        "pname": "pgloader",
+        "version": "3.6.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "pgloader loads data into PostgreSQL and allows you to implement Continuous Migration from your current database to PostgreSQL",
+            "homepage": "https://pgloader.io/",
+            "license": {
+                "fullName": "PostgreSQL License",
+                "shortName": "postgresql",
+                "spdxId": "PostgreSQL",
+                "url": "http://spdx.org/licenses/PostgreSQL.html"
+            },
+            "maintainers": [
+                {
+                    "email": "code@klandest.in",
+                    "github": "mguentner",
+                    "githubId": 668926,
+                    "name": "Maximilian G\u00fcntner"
+                }
+            ],
+            "name": "pgloader-3.6.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "pgloader",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.pg_activity": {
+        "name": "pg_activity-v1.4.0",
+        "pname": "pg_activity-v1.4.0",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "name": "pg_activity-v1.4.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "pg_activity",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.predixy": {
+        "name": "predixy-dacf3fb-master",
+        "pname": "predixy-dacf3fb-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "predixy-dacf3fb-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "predixy",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.pure-ftpd": {
+        "name": "pure-ftpd-1.0.47",
+        "pname": "pure-ftpd",
+        "version": "1.0.47",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A free, secure, production-quality and standard-conformant FTP server",
+            "homepage": "https://www.pureftpd.org",
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "http://spdx.org/licenses/ISC.html"
+            },
+            "maintainers": [
+                {
+                    "email": "lucabru@src.gnome.org",
+                    "github": "lethalman",
+                    "githubId": 480920,
+                    "name": "Luca Bruno"
+                }
+            ],
+            "name": "pure-ftpd-1.0.47",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "pure-ftpd",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.rrsync_sudo": {
+        "name": "rrsync-3.1.3",
+        "pname": "rrsync",
+        "version": "3.1.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A helper to run rsync-only environments from ssh-logins",
+            "homepage": "https://rsync.samba.org/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "arnold@arnoldarts.de",
+                    "github": "kampfschlaefer",
+                    "githubId": 3831860,
+                    "name": "Arnold Krille"
+                }
+            ],
+            "name": "rrsync-3.1.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae('nixpkgs', 'pkgs', 'applications', 'networking', 'sync', 'rsync', 'rrsync.nix')#L29"
+        },
+        "_attr": "rrsync_sudo",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.sia": {
+        "name": "Sia-v1.4.3",
+        "pname": "Sia-v1.4.3",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "Sia-v1.4.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "sia",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.telegram-cli": {
+        "name": "telegram-cli-3da0e4a-master",
+        "pname": "telegram-cli",
+        "version": "3da0e4a-master",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "telegram-cli-3da0e4a-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "telegram-cli",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.telegram-history-dump": {
+        "name": "telegram-history-dump-468ea91-master",
+        "pname": "telegram-history-dump",
+        "version": "468ea91-master",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "telegram-history-dump-468ea91-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "telegram-history-dump",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.telegramircd": {
+        "name": "telegramircd-master",
+        "pname": "telegramircd-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "telegramircd-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "telegramircd",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.terminal-velocity": {
+        "name": "terminal-velocity-git-0.2.0",
+        "pname": "terminal-velocity-git",
+        "version": "0.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "terminal-velocity-git-0.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
+        },
+        "_attr": "terminal-velocity",
+        "_repo": "immae"
+    },
+    "nur.repos.immae.unicodeDoc": {
+        "name": "unicode",
+        "pname": "unicode",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "unicode",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "unicodeDoc",
+        "_repo": "immae"
+    },
     "nur.repos.izorkin.bison2": {
         "name": "bison-2.7.1",
         "pname": "bison",
