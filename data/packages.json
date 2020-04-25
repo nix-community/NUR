@@ -27785,9 +27785,9 @@
         "_repo": "jomik"
     },
     "nur.repos.joshuafern.citra": {
-        "name": "citra-unstable-2020-04-20",
+        "name": "citra-unstable-2020-04-24",
         "pname": "citra-unstable",
-        "version": "2020-04-20",
+        "version": "2020-04-24",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27805,9 +27805,15 @@
                     "github": "abbradar",
                     "githubId": 1174810,
                     "name": "Nikolay Amiantov"
+                },
+                {
+                    "email": "joshuafern@protonmail.com",
+                    "github": "JoshuaFern",
+                    "githubId": 4300747,
+                    "name": "Joshua Fern"
                 }
             ],
-            "name": "citra-unstable-2020-04-20",
+            "name": "citra-unstable-2020-04-24",
             "outputsToInstall": [
                 "out"
             ],
@@ -28252,6 +28258,12 @@
                 }
             ],
             "maintainers": [
+                {
+                    "email": "ivar.scholten@protonmail.com",
+                    "github": "IvarWithoutBones",
+                    "githubId": 41924494,
+                    "name": "Ivar"
+                },
                 {
                     "email": "joshuafern@protonmail.com",
                     "github": "JoshuaFern",
@@ -47151,7 +47163,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "GNU-alike tools for parsing RFC 4180 CSVs at high speed.",
+            "description": "GNU-alike tools for parsing RFC 4180 CSVs at high speed",
             "homepage": "https://github.com/DavyLandman/csvtools",
             "license": {
                 "fullName": "MIT License",
@@ -47261,7 +47273,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Docker registry cli tool, primarily for deleting images.",
+            "description": "Docker registry cli tool, primarily for deleting images",
             "homepage": "https://github.com/byrnedo/docker-reg-tool",
             "license": {
                 "fullName": "MIT License",
@@ -47343,7 +47355,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Python script to download global terrain digital elevation models, SRTM 30m DEM and SRTM 90m DEM.",
+            "description": "Python script to download global terrain digital elevation models, SRTM 30m DEM and SRTM 90m DEM",
             "homepage": "http://elevation.bopen.eu",
             "isBuildPythonPackage": [
                 "aarch64-linux",
@@ -47880,7 +47892,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "GPS log file viewer and analyzer with support for GPX, TCX, KML, FIT, IGC, NMEA, SLF, LOC, GeoJSON and OziExplorer files.",
+            "description": "GPS log file viewer and analyzer",
             "homepage": "https://www.gpxsee.org",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
@@ -48017,7 +48029,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A collection of c++ tools for using GPX files ",
+            "description": "A collection of c++ tools for using GPX files",
             "homepage": "https://notabug.org/irdvo/gpxtools",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
@@ -49280,7 +49292,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "OpenOrienteering Mapper is a software for creating maps for the orienteering sport.",
+            "description": "OpenOrienteering Mapper is a software for creating maps for the orienteering sport",
             "homepage": "https://www.openorienteering.org/apps/mapper/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
@@ -49649,7 +49661,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Cheetah3 is a free (MIT) and open source template engine for Python.",
+            "description": "Cheetah3 is a free (MIT) and open source template engine for Python",
             "homepage": "https://cheetahtemplate.org/",
             "isBuildPythonPackage": [
                 "aarch64-linux",
@@ -50357,7 +50369,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A dictionary for Linux, based on C++/Qt development.",
+            "description": "A dictionary for Linux, based on C++/Qt development",
             "homepage": "https://github.com/rekols/redict",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
@@ -50763,7 +50775,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Bash script for upload file to cloud storage based on OpenStack Swift API.",
+            "description": "Bash script for upload file to cloud storage based on OpenStack Swift API",
             "homepage": "https://github.com/selectel/supload",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
