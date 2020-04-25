@@ -36864,9 +36864,9 @@
         "_repo": "mmilata"
     },
     "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-11": {
-        "name": "adoptopenjdk-hotspot-bin-11.0.6",
+        "name": "adoptopenjdk-hotspot-bin-11.0.7",
         "pname": "adoptopenjdk-hotspot-bin",
-        "version": "11.0.6",
+        "version": "11.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -36885,7 +36885,7 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-hotspot-bin-11.0.6",
+            "name": "adoptopenjdk-hotspot-bin-11.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -36942,9 +36942,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-14": {
-        "name": "adoptopenjdk-hotspot-bin-14.0.0",
+        "name": "adoptopenjdk-hotspot-bin-14.0.1",
         "pname": "adoptopenjdk-hotspot-bin",
-        "version": "14.0.0",
+        "version": "14.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -36963,12 +36963,14 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-hotspot-bin-14.0.0",
+            "name": "adoptopenjdk-hotspot-bin-14.0.1",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
                 "packageType-linux",
                 "vmType-linux",
                 "x86_64-linux"
@@ -36979,9 +36981,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-8": {
-        "name": "adoptopenjdk-hotspot-bin-8.0.242",
+        "name": "adoptopenjdk-hotspot-bin-8.0.252",
         "pname": "adoptopenjdk-hotspot-bin",
-        "version": "8.0.242",
+        "version": "8.0.252",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37000,7 +37002,7 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-hotspot-bin-8.0.242",
+            "name": "adoptopenjdk-hotspot-bin-8.0.252",
             "outputsToInstall": [
                 "out"
             ],
@@ -37018,9 +37020,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-11": {
-        "name": "adoptopenjdk-jre-hotspot-bin-11.0.6",
+        "name": "adoptopenjdk-jre-hotspot-bin-11.0.7",
         "pname": "adoptopenjdk-jre-hotspot-bin",
-        "version": "11.0.6",
+        "version": "11.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37039,12 +37041,14 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-jre-hotspot-bin-11.0.6",
+            "name": "adoptopenjdk-jre-hotspot-bin-11.0.7",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
                 "packageType-linux",
                 "vmType-linux",
                 "x86_64-linux"
@@ -37092,9 +37096,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-14": {
-        "name": "adoptopenjdk-jre-hotspot-bin-14.0.0",
+        "name": "adoptopenjdk-jre-hotspot-bin-14.0.1",
         "pname": "adoptopenjdk-jre-hotspot-bin",
-        "version": "14.0.0",
+        "version": "14.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37113,12 +37117,14 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-jre-hotspot-bin-14.0.0",
+            "name": "adoptopenjdk-jre-hotspot-bin-14.0.1",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
                 "packageType-linux",
                 "vmType-linux",
                 "x86_64-linux"
@@ -37129,9 +37135,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-8": {
-        "name": "adoptopenjdk-jre-hotspot-bin-8.0.242",
+        "name": "adoptopenjdk-jre-hotspot-bin-8.0.252",
         "pname": "adoptopenjdk-jre-hotspot-bin",
-        "version": "8.0.242",
+        "version": "8.0.252",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37150,7 +37156,7 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-jre-hotspot-bin-8.0.242",
+            "name": "adoptopenjdk-jre-hotspot-bin-8.0.252",
             "outputsToInstall": [
                 "out"
             ],
@@ -37168,9 +37174,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-11": {
-        "name": "adoptopenjdk-jre-openj9-bin-11.0.6",
+        "name": "adoptopenjdk-jre-openj9-bin-11.0.7",
         "pname": "adoptopenjdk-jre-openj9-bin",
-        "version": "11.0.6",
+        "version": "11.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37189,11 +37195,12 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-jre-openj9-bin-11.0.6",
+            "name": "adoptopenjdk-jre-openj9-bin-11.0.7",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
+                "aarch64-linux",
                 "packageType-linux",
                 "vmType-linux",
                 "x86_64-linux"
@@ -37240,9 +37247,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-14": {
-        "name": "adoptopenjdk-jre-openj9-bin-14.0.0",
+        "name": "adoptopenjdk-jre-openj9-bin-14.0.1",
         "pname": "adoptopenjdk-jre-openj9-bin",
-        "version": "14.0.0",
+        "version": "14.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37261,7 +37268,7 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-jre-openj9-bin-14.0.0",
+            "name": "adoptopenjdk-jre-openj9-bin-14.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -37276,9 +37283,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-8": {
-        "name": "adoptopenjdk-jre-openj9-bin-8.0.242",
+        "name": "adoptopenjdk-jre-openj9-bin-8.0.252",
         "pname": "adoptopenjdk-jre-openj9-bin",
-        "version": "8.0.242",
+        "version": "8.0.252",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37297,7 +37304,7 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-jre-openj9-bin-8.0.242",
+            "name": "adoptopenjdk-jre-openj9-bin-8.0.252",
             "outputsToInstall": [
                 "out"
             ],
@@ -37312,9 +37319,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-openj9-bin-11": {
-        "name": "adoptopenjdk-openj9-bin-11.0.6",
+        "name": "adoptopenjdk-openj9-bin-11.0.7",
         "pname": "adoptopenjdk-openj9-bin",
-        "version": "11.0.6",
+        "version": "11.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37333,11 +37340,12 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-openj9-bin-11.0.6",
+            "name": "adoptopenjdk-openj9-bin-11.0.7",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
+                "aarch64-linux",
                 "packageType-linux",
                 "vmType-linux",
                 "x86_64-linux"
@@ -37384,9 +37392,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-openj9-bin-14": {
-        "name": "adoptopenjdk-openj9-bin-14.0.0",
+        "name": "adoptopenjdk-openj9-bin-14.0.1",
         "pname": "adoptopenjdk-openj9-bin",
-        "version": "14.0.0",
+        "version": "14.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37405,7 +37413,7 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-openj9-bin-14.0.0",
+            "name": "adoptopenjdk-openj9-bin-14.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -37420,9 +37428,9 @@
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-openj9-bin-8": {
-        "name": "adoptopenjdk-openj9-bin-8.0.242",
+        "name": "adoptopenjdk-openj9-bin-8.0.252",
         "pname": "adoptopenjdk-openj9-bin",
-        "version": "8.0.242",
+        "version": "8.0.252",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37441,7 +37449,7 @@
                     "name": "Takuo Yonezawa"
                 }
             ],
-            "name": "adoptopenjdk-openj9-bin-8.0.242",
+            "name": "adoptopenjdk-openj9-bin-8.0.252",
             "outputsToInstall": [
                 "out"
             ],
