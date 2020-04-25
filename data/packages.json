@@ -43093,6 +43093,90 @@
         "_attr": "meslo-nerd-powerlevel10k",
         "_repo": "ptival"
     },
+    "nur.repos.pwnytail.portfolio-performance": {
+        "name": "PortfolioPerformance-0.46.1",
+        "pname": "PortfolioPerformance",
+        "version": "0.46.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Portfolio Performance",
+            "homepage": "https://www.portfolio-performance.info",
+            "license": {
+                "fullName": "Eclipse Public License 1.0",
+                "shortName": "epl10",
+                "spdxId": "EPL-1.0",
+                "url": "http://spdx.org/licenses/EPL-1.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "PortfolioPerformance-0.46.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail"
+        },
+        "_attr": "portfolio-performance",
+        "_repo": "pwnytail"
+    },
+    "nur.repos.pwnytail.realvnc": {
+        "name": "VNC-Viewer-6.20.113-Linux-x64",
+        "pname": "VNC-Viewer",
+        "version": "6.20.113-Linux-x64",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Real VNC Viewer",
+            "homepage": "https://www.realvnc.com/",
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "VNC-Viewer-6.20.113-Linux-x64",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail"
+        },
+        "_attr": "realvnc",
+        "_repo": "pwnytail"
+    },
     "nur.repos.rencire.neovim": {
         "name": "neovim-0.4.3",
         "pname": "neovim",
