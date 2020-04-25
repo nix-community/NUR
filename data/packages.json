@@ -1,20 +1,4 @@
 {
-    "nur.repos.0x4a6f.example-package": {
-        "name": "example-package-1.0",
-        "pname": "example-package",
-        "version": "1.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "name": "example-package-1.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/0x4a6f"
-        },
-        "_attr": "example-package",
-        "_repo": "0x4a6f"
-    },
     "nur.repos.INFO4-19.ALM1": {
         "name": "ALM1",
         "pname": "ALM1",
@@ -35421,9 +35405,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.nix-update": {
-        "name": "nix-update-2020-04-21",
+        "name": "nix-update-2020-04-25",
         "pname": "nix-update",
-        "version": "2020-04-21",
+        "version": "2020-04-25",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35466,7 +35450,7 @@
                     "name": "J\u00f6rg Thalheim"
                 }
             ],
-            "name": "nix-update-2020-04-21",
+            "name": "nix-update-2020-04-25",
             "outputsToInstall": [
                 "out"
             ],
