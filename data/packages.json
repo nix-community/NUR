@@ -28264,10 +28264,10 @@
         "_attr": "vban",
         "_repo": "joshuafern"
     },
-    "nur.repos.joshuafern.yuzu-mainline": {
-        "name": "yuzu-mainline-unstable-2020-04-13",
-        "pname": "yuzu-mainline-unstable",
-        "version": "2020-04-13",
+    "nur.repos.joshuafern.yuzu": {
+        "name": "yuzu-unstable-2020-04-25",
+        "pname": "yuzu-unstable",
+        "version": "2020-04-25",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -28275,10 +28275,10 @@
             "homepage": "https://yuzu-emu.org",
             "license": [
                 {
-                    "fullName": "GNU General Public License v2.0 only",
-                    "shortName": "gpl2",
-                    "spdxId": "GPL-2.0-only",
-                    "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+                    "fullName": "GNU General Public License v2.0 or later",
+                    "shortName": "gpl2Plus",
+                    "spdxId": "GPL-2.0-or-later",
+                    "url": "http://spdx.org/licenses/GPL-2.0-or-later.html"
                 },
                 {
                     "free": false,
@@ -28308,7 +28308,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-unstable-2020-04-13",
+            "name": "yuzu-unstable-2020-04-25",
             "outputsToInstall": [
                 "out"
             ],
@@ -28327,7 +28327,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/joshuafern"
         },
-        "_attr": "yuzu-mainline",
+        "_attr": "yuzu",
         "_repo": "joshuafern"
     },
     "nur.repos.kalbasit.chroot-enter": {
