@@ -27981,7 +27981,8 @@
         "version": "0.9.4",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "A simple GOG client for Linux",
             "downloadPage": "https://github.com/sharkwouter/minigalaxy/releases",
             "homepage": "https://sharkwouter.github.io/minigalaxy/",
