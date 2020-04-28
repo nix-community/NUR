@@ -47815,6 +47815,57 @@
         "_attr": "gef",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.geographiclib": {
+        "name": "geographiclib-1.50.1",
+        "pname": "geographiclib",
+        "version": "1.50.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "GeographicLib offers a C++ interfaces to a small (but important!) set of geographic transformations",
+            "homepage": "http://geographiclib.sourceforge.io/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "http://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "geographiclib-1.50.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "geographiclib",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.gimgtools": {
         "name": "gimgtools-92d0157",
         "pname": "gimgtools",
