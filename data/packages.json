@@ -35338,6 +35338,30 @@
         "_attr": "keystone",
         "_repo": "mic92"
     },
+    "nur.repos.mic92.kvmtool": {
+        "name": "kvmtool-0.20200424",
+        "pname": "kvmtool",
+        "version": "0.20200424",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A lightweight tool for hosting KVM guests",
+            "homepage": "https://git.kernel.org/pub/scm/linux/kernel/git/will/kvmtool.git/tree/README",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "http://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "kvmtool-0.20200424",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
+        },
+        "_attr": "kvmtool",
+        "_repo": "mic92"
+    },
     "nur.repos.mic92.lualdap": {
         "name": "lua5.2-lualdap-1.2.0",
         "pname": "lua5.2-lualdap",
@@ -35413,9 +35437,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.mosh-ssh-agent": {
-        "name": "mosh-ssh-agent-2019-06-13",
+        "name": "mosh-ssh-agent-2020-04-29",
         "pname": "mosh-ssh-agent",
-        "version": "2019-06-13",
+        "version": "2020-04-29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35427,7 +35451,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "http://spdx.org/licenses/GPL-3.0-or-later.html"
             },
-            "name": "mosh-ssh-agent-2019-06-13",
+            "name": "mosh-ssh-agent-2020-04-29",
             "outputsToInstall": [
                 "out"
             ],
