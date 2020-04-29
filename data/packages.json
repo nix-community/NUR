@@ -51893,9 +51893,9 @@
         "_repo": "smaret"
     },
     "nur.repos.smaret.pvextractor": {
-        "name": "python3.7-pvextractor-0.1",
+        "name": "python3.7-pvextractor-0.2",
         "pname": "python3.7-pvextractor",
-        "version": "0.1",
+        "version": "0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51938,7 +51938,7 @@
                     "name": "S\u00e9bastien Maret"
                 }
             ],
-            "name": "python3.7-pvextractor-0.1",
+            "name": "python3.7-pvextractor-0.2",
             "outputsToInstall": [
                 "out"
             ],
