@@ -55065,13 +55065,13 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.oc": {
-        "name": "oc-4.4.0-rc.8",
+        "name": "oc-4.4.1",
         "pname": "oc",
-        "version": "4.4.0-rc.8",
+        "version": "4.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "oc-4.4.0-rc.8",
+            "name": "oc-4.4.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -55081,9 +55081,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.openshift-install": {
-        "name": "openshift-install-4.4.0-rc.8",
+        "name": "openshift-install-4.4.1",
         "pname": "openshift-install",
-        "version": "4.4.0-rc.8",
+        "version": "4.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55095,7 +55095,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "http://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "openshift-install-4.4.0-rc.8",
+            "name": "openshift-install-4.4.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -55532,6 +55532,22 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
         },
         "_attr": "tkn",
+        "_repo": "vdemeester"
+    },
+    "nur.repos.vdemeester.toolbox": {
+        "name": "toolbox-0.0.18",
+        "pname": "toolbox",
+        "version": "0.0.18",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "toolbox-0.0.18",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "toolbox",
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.yak": {
