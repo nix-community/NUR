@@ -54911,9 +54911,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.kubernix": {
-        "name": "kubernix-dev-2020-04-16",
+        "name": "kubernix-dev-2020-04-30",
         "pname": "kubernix-dev",
-        "version": "2020-04-16",
+        "version": "2020-04-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54935,7 +54935,7 @@
                     "name": "Sascha Grunert"
                 }
             ],
-            "name": "kubernix-dev-2020-04-16",
+            "name": "kubernix-dev-2020-04-30",
             "outputsToInstall": [
                 "out"
             ],
