@@ -55064,6 +55064,54 @@
         "_attr": "nr",
         "_repo": "vdemeester"
     },
+    "nur.repos.vdemeester.oc_4_1": {
+        "name": "oc-4.1.38",
+        "pname": "oc",
+        "version": "4.1.38",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "oc-4.1.38",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "oc_4_1",
+        "_repo": "vdemeester"
+    },
+    "nur.repos.vdemeester.oc_4_2": {
+        "name": "oc-4.2.30",
+        "pname": "oc",
+        "version": "4.2.30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "oc-4.2.30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "oc_4_2",
+        "_repo": "vdemeester"
+    },
+    "nur.repos.vdemeester.oc_4_3": {
+        "name": "oc-4.3.18",
+        "pname": "oc",
+        "version": "4.3.18",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "oc-4.3.18",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "oc_4_3",
+        "_repo": "vdemeester"
+    },
     "nur.repos.vdemeester.oc": {
         "name": "oc-4.4.1",
         "pname": "oc",
