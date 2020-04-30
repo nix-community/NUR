@@ -48084,9 +48084,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gef": {
-        "name": "gef-f17bea5",
-        "pname": "gef-f17bea5",
-        "version": "",
+        "name": "gef-5f18c62",
+        "pname": "gef",
+        "version": "5f18c62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48112,7 +48112,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gef-f17bea5",
+            "name": "gef-5f18c62",
             "outputsToInstall": [
                 "out"
             ],
@@ -48620,9 +48620,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-159e5ae",
-        "pname": "gpxsee",
-        "version": "159e5ae",
+        "name": "gpxsee-a958544",
+        "pname": "gpxsee-a958544",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48648,7 +48648,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-159e5ae",
+            "name": "gpxsee-a958544",
             "outputsToInstall": [
                 "out"
             ],
@@ -49669,9 +49669,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-04-24",
+        "name": "maptourist-2020-04-29",
         "pname": "maptourist",
-        "version": "2020-04-24",
+        "version": "2020-04-29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49695,7 +49695,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-04-24",
+            "name": "maptourist-2020-04-29",
             "outputsToInstall": [
                 "out"
             ],
@@ -50070,9 +50070,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-5d7095e",
+        "name": "nnn-plugins-3ba456c",
         "pname": "nnn-plugins",
-        "version": "5d7095e",
+        "version": "3ba456c",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50098,7 +50098,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-5d7095e",
+            "name": "nnn-plugins-3ba456c",
             "outputsToInstall": [
                 "out"
             ],
@@ -51201,9 +51201,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-routinodb": {
-        "name": "qmapshack-routinodb-200424",
+        "name": "qmapshack-routinodb-200428",
         "pname": "qmapshack-routinodb",
-        "version": "200424",
+        "version": "200428",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51227,7 +51227,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qmapshack-routinodb-200424",
+            "name": "qmapshack-routinodb-200428",
             "outputsToInstall": [
                 "out"
             ],
