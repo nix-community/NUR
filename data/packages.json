@@ -5193,9 +5193,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit": {
-        "name": "python3.7-qiskit-0.18.3",
+        "name": "python3.7-qiskit-0.19.1",
         "pname": "python3.7-qiskit",
-        "version": "0.18.3",
+        "version": "0.19.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5239,7 +5239,7 @@
                     "name": "pandaman"
                 }
             ],
-            "name": "python3.7-qiskit-0.18.3",
+            "name": "python3.7-qiskit-0.19.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -5320,9 +5320,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-aqua": {
-        "name": "python3.7-qiskit-aqua-0.6.6",
+        "name": "python3.7-qiskit-aqua-0.7.0",
         "pname": "python3.7-qiskit-aqua",
-        "version": "0.6.6",
+        "version": "0.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5359,7 +5359,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.7-qiskit-aqua-0.6.6",
+            "name": "python3.7-qiskit-aqua-0.7.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -5386,9 +5386,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-provider": {
-        "name": "python3.7-qiskit-ibmq-provider-0.6.1",
+        "name": "python3.7-qiskit-ibmq-provider-0.7.0",
         "pname": "python3.7-qiskit-ibmq-provider",
-        "version": "0.6.1",
+        "version": "0.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5425,7 +5425,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.7-qiskit-ibmq-provider-0.6.1",
+            "name": "python3.7-qiskit-ibmq-provider-0.7.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -5519,9 +5519,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-terra": {
-        "name": "python3.7-qiskit-terra-0.13.0",
+        "name": "python3.7-qiskit-terra-0.14.1",
         "pname": "python3.7-qiskit-terra",
-        "version": "0.13.0",
+        "version": "0.14.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5560,7 +5560,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.7-qiskit-terra-0.13.0",
+            "name": "python3.7-qiskit-terra-0.14.1",
             "outputsToInstall": [
                 "out"
             ],
