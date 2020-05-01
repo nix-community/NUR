@@ -38292,10 +38292,10 @@
         "_attr": "micronaut-1_3_4",
         "_repo": "moaxcp"
     },
-    "nur.repos.moaxcp.spring-boot-cli-2_2_5": {
-        "name": "spring-boot-2.2.5",
-        "pname": "spring-boot",
-        "version": "2.2.5",
+    "nur.repos.moaxcp.spring-boot-cli-2_2_6": {
+        "name": "spring-boot-cli-2.2.6",
+        "pname": "spring-boot-cli",
+        "version": "2.2.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -38316,7 +38316,7 @@
                     "name": "John Mercier"
                 }
             ],
-            "name": "spring-boot-2.2.5",
+            "name": "spring-boot-cli-2.2.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -38366,7 +38366,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
         },
-        "_attr": "spring-boot-cli-2_2_5",
+        "_attr": "spring-boot-cli-2_2_6",
         "_repo": "moaxcp"
     },
     "nur.repos.moredhel.emacs": {
