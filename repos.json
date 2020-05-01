@@ -265,6 +265,10 @@
         "tox": {
             "url": "https://github.com/tox-rs/nur-tox"
         },
+        "transitracer": {
+            "file": "nur.nix",
+            "url": "https://github.com/transitracer/nix-extra"
+        },
         "trevorriles": {
             "url": "https://github.com/trevorriles/nur-packages"
         },
