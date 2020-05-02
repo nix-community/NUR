@@ -391,9 +391,9 @@
         "_repo": "bb010g"
     },
     "nur.repos.bb010g.pkgs.edb-debugger": {
-        "name": "edb-debugger-1.1.0",
+        "name": "edb-debugger-1.2.0",
         "pname": "edb-debugger",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -413,7 +413,7 @@
                     "name": "Brayden Banks"
                 }
             ],
-            "name": "edb-debugger-1.1.0",
+            "name": "edb-debugger-1.2.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -663,9 +663,9 @@
         "_repo": "bb010g"
     },
     "nur.repos.bb010g.pkgs.gdtoa-desktop": {
-        "name": "gdtoa-desktop-unstable-2019-12-12",
+        "name": "gdtoa-desktop-unstable-2020-05-01",
         "pname": "gdtoa-desktop-unstable",
-        "version": "2019-12-12",
+        "version": "2020-05-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -685,7 +685,7 @@
                     "name": "Brayden Banks"
                 }
             ],
-            "name": "gdtoa-desktop-unstable-2019-12-12",
+            "name": "gdtoa-desktop-unstable-2020-05-01",
             "outputsToInstall": [
                 "out"
             ],
