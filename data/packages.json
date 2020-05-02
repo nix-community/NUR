@@ -41798,12 +41798,13 @@
         "_repo": "neumantm"
     },
     "nur.repos.nexromancers.pkgs.hacksaw": {
-        "name": "hacksaw-unstable-2019-10-16",
+        "name": "hacksaw-unstable-2020-05-02",
         "pname": "hacksaw-unstable",
-        "version": "2019-10-16",
+        "version": "2020-05-02",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "Lets you select areas of your screen (on X11)",
             "homepage": "https://github.com/neXromancers/hacksaw",
             "license": {
@@ -41820,7 +41821,7 @@
                     "name": "Brayden Banks"
                 }
             ],
-            "name": "hacksaw-unstable-2019-10-16",
+            "name": "hacksaw-unstable-2020-05-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -41861,7 +41862,8 @@
         "version": "2.2.0",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "A minimal screenshot utility for X11",
             "homepage": "https://github.com/neXromancers/shotgun",
             "license": {
@@ -41911,6 +41913,65 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nexromancers"
         },
         "_attr": "pkgs.shotgun",
+        "_repo": "nexromancers"
+    },
+    "nur.repos.nexromancers.pkgs.shotgun-unstable": {
+        "name": "shotgun-unstable-2020-04-24",
+        "pname": "shotgun-unstable",
+        "version": "2020-04-24",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "A minimal screenshot utility for X11",
+            "homepage": "https://github.com/neXromancers/shotgun",
+            "license": {
+                "fullName": "Mozilla Public License 2.0",
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "http://spdx.org/licenses/MPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "me@bb010g.com",
+                    "github": "bb010g",
+                    "githubId": 340132,
+                    "name": "Brayden Banks"
+                }
+            ],
+            "name": "shotgun-unstable-2020-04-24",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nexromancers"
+        },
+        "_attr": "pkgs.shotgun-unstable",
         "_repo": "nexromancers"
     },
     "nur.repos.peel.hoverfly": {
