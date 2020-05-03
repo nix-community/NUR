@@ -68,7 +68,7 @@ Hello, NUR!
 or
 
 ```console
-$ nix-env -iA nur.repos.mic92.hello-nur
+$ nix-env -f '<nixpkgs>' -iA nur.repos.mic92.hello-nur
 ```
 
 or
