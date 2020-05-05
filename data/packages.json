@@ -4996,14 +4996,14 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pylatexenc": {
-        "name": "python3.7-pylatexenc-2.1",
+        "name": "python3.7-pylatexenc-2.3",
         "pname": "python3.7-pylatexenc",
-        "version": "2.1",
+        "version": "2.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Simple LaTeX parser providing latex-to-unicode and unicode-to-latex conversion",
-            "downloadPage": "https;//www.github.com/phfaist/pylatexenc",
+            "downloadPage": "https;//www.github.com/phfaist/pylatexenc/releases",
             "homepage": "https://pylatexenc.readthedocs.io",
             "isBuildPythonPackage": [
                 "aarch64-linux",
@@ -5036,7 +5036,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.7-pylatexenc-2.1",
+            "name": "python3.7-pylatexenc-2.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -10744,8 +10744,7 @@
         "version": "4.2.7",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
             "description": "Integrated Rule-Oriented Data System (iRODS) CLI clients",
             "homepage": "https://irods.org",
             "license": {
