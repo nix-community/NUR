@@ -50247,10 +50247,10 @@
         "_attr": "buildkit",
         "_repo": "vdemeester"
     },
-    "nur.repos.vdemeester.containerd": {
-        "name": "containerd-1.3.3",
+    "nur.repos.vdemeester.containerd_1_2": {
+        "name": "containerd-1.2.13",
         "pname": "containerd",
-        "version": "1.3.3",
+        "version": "1.2.13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50282,7 +50282,65 @@
                     "name": "Luca Bruno"
                 }
             ],
-            "name": "containerd-1.3.3",
+            "name": "containerd-1.2.13",
+            "outputsToInstall": [
+                "bin",
+                "man"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "containerd_1_2",
+        "_repo": "vdemeester"
+    },
+    "nur.repos.vdemeester.containerd": {
+        "name": "containerd-1.3.4",
+        "pname": "containerd",
+        "version": "1.3.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A daemon to control runC",
+            "homepage": "https://containerd.io/",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "http://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "jaka@x-truder.net",
+                    "github": "offlinehacker",
+                    "githubId": 585547,
+                    "name": "Jaka Hudoklin"
+                },
+                {
+                    "email": "vincent@sbr.pm",
+                    "github": "vdemeester",
+                    "githubId": 6508,
+                    "name": "Vincent Demeester"
+                },
+                {
+                    "email": "lucabru@src.gnome.org",
+                    "github": "lethalman",
+                    "githubId": 480920,
+                    "name": "Luca Bruno"
+                }
+            ],
+            "name": "containerd-1.3.4",
             "outputsToInstall": [
                 "bin",
                 "man"
