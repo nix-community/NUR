@@ -50199,8 +50199,8 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.buildkit": {
-        "name": "buildkit0.4.0",
-        "pname": "buildkit0.4.0",
+        "name": "buildkit0.7.1",
+        "pname": "buildkit0.7.1",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -50221,7 +50221,7 @@
                     "name": "Luca Bruno"
                 }
             ],
-            "name": "buildkit0.4.0",
+            "name": "buildkit0.7.1",
             "outputsToInstall": [
                 "bin"
             ],
