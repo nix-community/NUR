@@ -52554,6 +52554,28 @@
         "_attr": "quickserv",
         "_repo": "xe"
     },
+    "nur.repos.xe.sm64pc": {
+        "name": "sm64pc-latest",
+        "pname": "sm64pc-latest",
+        "version": "",
+        "system": "i686-linux",
+        "meta": {
+            "available": false,
+            "description": "Super Mario 64 PC port, requires rom :)",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "sm64pc-latest",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "sm64pc",
+        "_repo": "xe"
+    },
     "nur.repos.xe.st": {
         "name": "st-0.8.2",
         "pname": "st",
