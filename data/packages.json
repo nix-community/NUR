@@ -44782,9 +44782,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.7",
+        "name": "darkreader-4.9.8",
         "pname": "darkreader",
-        "version": "4.9.7",
+        "version": "4.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -44796,7 +44796,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.7",
+            "name": "darkreader-4.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -47425,9 +47425,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.vim-vixen": {
-        "name": "vim-vixen-0.28",
+        "name": "vim-vixen-0.29",
         "pname": "vim-vixen",
-        "version": "0.28",
+        "version": "0.29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47439,7 +47439,7 @@
                 "spdxId": "MIT",
                 "url": "http://spdx.org/licenses/MIT.html"
             },
-            "name": "vim-vixen-0.28",
+            "name": "vim-vixen-0.29",
             "outputsToInstall": [
                 "out"
             ],
