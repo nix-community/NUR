@@ -34851,6 +34851,22 @@
         "_attr": "prusa-slicer-latest",
         "_repo": "moredread"
     },
+    "nur.repos.moredread.sc3-plugins": {
+        "name": "sc3-plugins-3.11.0-rc2",
+        "pname": "sc3-plugins",
+        "version": "3.11.0-rc2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "sc3-plugins-3.11.0-rc2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread"
+        },
+        "_attr": "sc3-plugins",
+        "_repo": "moredread"
+    },
     "nur.repos.mozilla.git-cinnabar": {
         "name": "git-cinnabar-0.5.2",
         "pname": "git-cinnabar",
