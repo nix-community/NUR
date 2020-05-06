@@ -1287,7 +1287,7 @@
                 "aarch64-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'development', 'tools', 'just', 'default.nix')#L55"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'development', 'tools', 'just', 'default.nix')#L56"
         },
         "_attr": "pkgs.just",
         "_repo": "bb010g"
@@ -44944,9 +44944,9 @@
         "_repo": "tilpner"
     },
     "nur.repos.tilpner.syncthing-short-delay": {
-        "name": "syncthing-1.4.2",
+        "name": "syncthing-1.5.0",
         "pname": "syncthing",
-        "version": "1.4.2",
+        "version": "1.5.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -44996,7 +44996,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "syncthing-1.4.2",
+            "name": "syncthing-1.5.0",
             "outputsToInstall": [
                 "out"
             ],
