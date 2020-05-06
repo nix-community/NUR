@@ -5190,6 +5190,137 @@
         "_attr": "python3Packages.python-constraint",
         "_repo": "drewrisinger"
     },
+    "nur.repos.drewrisinger.python3Packages.pyvisa": {
+        "name": "python3.7-pyvisa-1.10.1",
+        "pname": "python3.7-pyvisa",
+        "version": "1.10.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A python library with bindings to the VISA library.",
+            "downloadPage": "https://github.com/pyvisa/pyvisa/releases",
+            "homepage": "https://pyvisa.readthedocs.io",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "A Python package with bindings to the \"Virtual Instrument Software Architecture\" VISA library,\nin order to control measurement devices and test equipment via GPIB, RS232, or USB.\n",
+            "maintainers": {
+                "email": "drisinger+nixpkgs@gmail.com",
+                "github": "drewrisinger",
+                "githubId": 10198051,
+                "name": "Drew Risinger"
+            },
+            "name": "python3.7-pyvisa-1.10.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.pyvisa",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.pyvisa-py": {
+        "name": "python3.7-pyvisa-py-0.3.1",
+        "pname": "python3.7-pyvisa-py",
+        "version": "0.3.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A pure python PyVISA backend",
+            "downloadPage": "https://github.com/pyvisa/pyvisa-py/releases",
+            "homepage": "https://pyvisa-py.readthedocs.io",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": {
+                "email": "drisinger+nixpkgs@gmail.com",
+                "github": "drewrisinger",
+                "githubId": 10198051,
+                "name": "Drew Risinger"
+            },
+            "name": "python3.7-pyvisa-py-0.3.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.pyvisa-py",
+        "_repo": "drewrisinger"
+    },
     "nur.repos.drewrisinger.python3Packages.qiskit": {
         "name": "python3.7-qiskit-0.19.1",
         "pname": "python3.7-qiskit",
