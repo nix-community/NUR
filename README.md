@@ -311,7 +311,10 @@ curl -XPOST https://nur-update.herokuapp.com/update?repo=mic92
 Check out the [github page](https://github.com/nix-community/nur-update#nur-update-endpoint) for further details
 
 ### HELP! Why are my NUR packages not updating?
-With every build triggered via the URL hook all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are in the meta data of a derivation like a wrong license attribute.
+With every build triggered via the URL hook all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are:
+
+* Using a wrong license attribute in the metadata.
+* Using a builtin fetcher because it will cause access to external URLs during evaluation. Use pkgs.fetch* instead.
 
 You can find out if your evaluation succeeded by checking the [latest travis build job]( https://travis-ci.com/github/nix-community/NUR/ ).
 
