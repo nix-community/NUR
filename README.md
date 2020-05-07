@@ -314,7 +314,7 @@ Check out the [github page](https://github.com/nix-community/nur-update#nur-upda
 With every build triggered via the URL hook all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are:
 
 * Using a wrong license attribute in the metadata.
-* Using a builtin fetcher because it will cause access to external URLs during evaluation. Use pkgs.fetch* instead.
+* Using a builtin fetcher because it will cause access to external URLs during evaluation. Use pkgs.fetch* instead (i.e. instead of `builtins.fetchGit` use `pkgs.fetchgit`)
 
 You can find out if your evaluation succeeded by checking the [latest travis build job]( https://travis-ci.com/github/nix-community/NUR/ ).
 
