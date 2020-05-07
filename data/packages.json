@@ -3733,9 +3733,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.cirq": {
-        "name": "python3.7-cirq-0.7.0",
+        "name": "python3.7-cirq-0.8.0",
         "pname": "python3.7-cirq",
-        "version": "0.7.0",
+        "version": "0.8.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -3764,7 +3764,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "python3.7-cirq-0.7.0",
+            "name": "python3.7-cirq-0.8.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -4635,7 +4635,8 @@
         "meta": {
             "available": true,
             "description": "Quantum circuits for simulations of quantum chemistry and materials.",
-            "homepage": "https://github.com/quantumlib/openfermion-cirq",
+            "downloadPage": "https://github.com/quantumlib/openfermion-cirq/releases",
+            "homepage": "https://openfermion-cirq.readthedocs.io/en/latest/",
             "isBuildPythonPackage": [
                 "aarch64-linux",
                 "armv5tel-linux",
