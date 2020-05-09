@@ -33120,9 +33120,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.python3Packages.ldap0": {
-        "name": "python3.7-ldap0-0.6.10",
+        "name": "python3.7-ldap0-1.0.6",
         "pname": "python3.7-ldap0",
-        "version": "0.6.10",
+        "version": "1.0.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33151,7 +33151,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "python3.7-ldap0-0.6.10",
+            "name": "python3.7-ldap0-1.0.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -33549,9 +33549,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.web2ldap": {
-        "name": "web2ldap-1.5.57",
+        "name": "web2ldap-1.5.75",
         "pname": "web2ldap",
-        "version": "1.5.57",
+        "version": "1.5.75",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33580,7 +33580,7 @@
                 "spdxId": "APSL-2.0",
                 "url": "https://spdx.org/licenses/APSL-2.0.html"
             },
-            "name": "web2ldap-1.5.57",
+            "name": "web2ldap-1.5.75",
             "outputsToInstall": [
                 "out"
             ],
