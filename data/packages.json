@@ -26989,14 +26989,14 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.dosbox-staging": {
-        "name": "dosbox-staging-v0.75.0-rc1",
-        "pname": "dosbox-staging-v0.75.0-rc1",
-        "version": "",
+        "name": "dosbox-staging-0.75.0",
+        "pname": "dosbox-staging",
+        "version": "0.75.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "A modernized DOS emulator",
-            "homepage": "https://github.com/dreamer/dosbox-staging",
+            "homepage": "https://dosbox-staging.github.io/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
                 "shortName": "gpl2",
@@ -27011,7 +27011,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "dosbox-staging-v0.75.0-rc1",
+            "name": "dosbox-staging-0.75.0",
             "outputsToInstall": [
                 "out"
             ],
