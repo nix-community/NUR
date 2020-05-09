@@ -47120,6 +47120,22 @@
         "_attr": "nix-simple-deploy",
         "_repo": "xe"
     },
+    "nur.repos.xe.orca": {
+        "name": "orca",
+        "pname": "orca",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "orca",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "orca",
+        "_repo": "xe"
+    },
     "nur.repos.xe.quickserv": {
         "name": "quickserv",
         "pname": "quickserv",
