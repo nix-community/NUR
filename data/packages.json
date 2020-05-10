@@ -7341,7 +7341,7 @@
             ],
             "name": "kod-unstable-2018-10-16",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -8394,7 +8394,7 @@
             ],
             "name": "slipstream-ipcd-2015-08-10",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -9057,7 +9057,7 @@
             "homepage": "https://github.com/kjellwinblad/wtplan",
             "name": "wtplan-2019-05-09",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -24861,7 +24861,7 @@
             ],
             "name": "prosody-filer-1.0.0-rc3",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -26127,7 +26127,7 @@
             ],
             "name": "u-root-v1.0.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -27316,7 +27316,7 @@
             ],
             "name": "steamgrid-unstable-2020-03-22",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -27538,7 +27538,7 @@
             ],
             "name": "corgi-v0.2.3",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -27631,7 +27631,7 @@
             ],
             "name": "gocode-unstable-2018-10-22",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -29523,7 +29523,7 @@
             },
             "name": "buildkite-cli-0.4.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -29564,7 +29564,7 @@
             },
             "name": "consulate-0.0.6",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -29613,7 +29613,7 @@
             ],
             "name": "distribution-2.7.1",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -30117,7 +30117,7 @@
             },
             "name": "img2ansi-1.0.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -30725,7 +30725,7 @@
             ],
             "name": "vgo2nix-f2694cd",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -30766,7 +30766,7 @@
             },
             "name": "webhook-2.6.8",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -30962,7 +30962,7 @@
             "homepage": "https://github.com/martin-helmich/prometheus-nginxlog-exporter",
             "name": "prometheus-nginxlog-exporter-1.2.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -31108,7 +31108,7 @@
             },
             "name": "sync3c-git-e7b331b9a7f376298466bd45380b7ff11592a0f4",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -33742,7 +33742,7 @@
             },
             "name": "yubikey-touch-detector-1.2.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -38612,7 +38612,7 @@
             },
             "name": "hoverfly-v0.17.2",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -45411,9 +45411,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-298599-5.4.38",
+        "name": "v4l2loopback-dc-298599-5.4.39",
         "pname": "v4l2loopback-dc",
-        "version": "298599-5.4.38",
+        "version": "298599-5.4.39",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -45432,7 +45432,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-298599-5.4.38",
+            "name": "v4l2loopback-dc-298599-5.4.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -45587,7 +45587,7 @@
             "homepage": "https://github.com/m13253/dns-over-https",
             "name": "dns-over-https-2.0",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -45670,7 +45670,7 @@
             },
             "name": "primitive-2017-09-26",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -46442,7 +46442,7 @@
             ],
             "name": "flarectl-v0.11.5",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -46774,7 +46774,7 @@
             "homepage": "https://golang.org/x/tools",
             "name": "gopls-git",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
@@ -47153,7 +47153,7 @@
             },
             "name": "quickserv",
             "outputsToInstall": [
-                "bin"
+                "out"
             ],
             "platforms": [
                 "aarch64-linux",
