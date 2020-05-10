@@ -31523,8 +31523,8 @@
             "homepage": "https://github.com/TerryCavanagh/VVVVVV",
             "license": {
                 "free": false,
-                "fullName": "VVVVVV Source Code License v1.0",
-                "url": "https://github.com/TerryCavanagh/VVVVVV/blob/master/LICENSE.md"
+                "fullName": "Unfree",
+                "shortName": "unfree"
             },
             "maintainers": [
                 {
@@ -31599,6 +31599,7 @@
             "license": {
                 "free": false,
                 "fullName": "VVVVVV Source Code License v1.0",
+                "redistributable": true,
                 "url": "https://github.com/TerryCavanagh/VVVVVV/blob/master/LICENSE.md"
             },
             "maintainers": [
