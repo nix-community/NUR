@@ -27006,9 +27006,9 @@
         "_repo": "jomik"
     },
     "nur.repos.joshuafern.citra": {
-        "name": "citra-unstable-2020-04-24",
+        "name": "citra-unstable-2020-05-11",
         "pname": "citra-unstable",
-        "version": "2020-04-24",
+        "version": "2020-05-11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27034,7 +27034,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "citra-unstable-2020-04-24",
+            "name": "citra-unstable-2020-05-11",
             "outputsToInstall": [
                 "out"
             ],
@@ -27499,9 +27499,9 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.vban": {
-        "name": "vban",
-        "pname": "vban",
-        "version": "",
+        "name": "vban-unstable-2020-02-21",
+        "pname": "vban-unstable",
+        "version": "2020-02-21",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27521,7 +27521,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "vban",
+            "name": "vban-unstable-2020-02-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -27557,9 +27557,9 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.vkbasalt": {
-        "name": "vkbasalt-unstable-2020-04-24",
+        "name": "vkbasalt-unstable-2020-05-03",
         "pname": "vkbasalt-unstable",
-        "version": "2020-04-24",
+        "version": "2020-05-03",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27579,7 +27579,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "vkbasalt-unstable-2020-04-24",
+            "name": "vkbasalt-unstable-2020-05-03",
             "outputsToInstall": [
                 "out"
             ],
