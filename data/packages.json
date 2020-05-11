@@ -34135,45 +34135,6 @@
         "_attr": "adoptopenjdk-hotspot-bin-11",
         "_repo": "moaxcp"
     },
-    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-13": {
-        "name": "adoptopenjdk-hotspot-bin-13.0.2",
-        "pname": "adoptopenjdk-hotspot-bin",
-        "version": "13.0.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
-                "shortName": "gpl2Classpath",
-                "spdxId": "GPL-2.0-with-classpath-exception",
-                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
-            },
-            "maintainers": [
-                {
-                    "email": "mxxouy6x3m_github@tatapa.org",
-                    "github": "taku0",
-                    "githubId": 870673,
-                    "name": "Takuo Yonezawa"
-                }
-            ],
-            "name": "adoptopenjdk-hotspot-bin-13.0.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv6l-linux",
-                "armv7l-linux",
-                "packageType-linux",
-                "vmType-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
-        },
-        "_attr": "adoptopenjdk-hotspot-bin-13",
-        "_repo": "moaxcp"
-    },
     "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-14": {
         "name": "adoptopenjdk-hotspot-bin-14.0.1",
         "pname": "adoptopenjdk-hotspot-bin",
@@ -34291,43 +34252,6 @@
         "_attr": "adoptopenjdk-jre-hotspot-bin-11",
         "_repo": "moaxcp"
     },
-    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-13": {
-        "name": "adoptopenjdk-jre-hotspot-bin-13.0.2",
-        "pname": "adoptopenjdk-jre-hotspot-bin",
-        "version": "13.0.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
-                "shortName": "gpl2Classpath",
-                "spdxId": "GPL-2.0-with-classpath-exception",
-                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
-            },
-            "maintainers": [
-                {
-                    "email": "mxxouy6x3m_github@tatapa.org",
-                    "github": "taku0",
-                    "githubId": 870673,
-                    "name": "Takuo Yonezawa"
-                }
-            ],
-            "name": "adoptopenjdk-jre-hotspot-bin-13.0.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "packageType-linux",
-                "vmType-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
-        },
-        "_attr": "adoptopenjdk-jre-hotspot-bin-13",
-        "_repo": "moaxcp"
-    },
     "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-14": {
         "name": "adoptopenjdk-jre-hotspot-bin-14.0.1",
         "pname": "adoptopenjdk-jre-hotspot-bin",
@@ -34443,42 +34367,6 @@
         "_attr": "adoptopenjdk-jre-openj9-bin-11",
         "_repo": "moaxcp"
     },
-    "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-13": {
-        "name": "adoptopenjdk-jre-openj9-bin-13.0.2",
-        "pname": "adoptopenjdk-jre-openj9-bin",
-        "version": "13.0.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
-                "shortName": "gpl2Classpath",
-                "spdxId": "GPL-2.0-with-classpath-exception",
-                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
-            },
-            "maintainers": [
-                {
-                    "email": "mxxouy6x3m_github@tatapa.org",
-                    "github": "taku0",
-                    "githubId": 870673,
-                    "name": "Takuo Yonezawa"
-                }
-            ],
-            "name": "adoptopenjdk-jre-openj9-bin-13.0.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "packageType-linux",
-                "vmType-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
-        },
-        "_attr": "adoptopenjdk-jre-openj9-bin-13",
-        "_repo": "moaxcp"
-    },
     "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-14": {
         "name": "adoptopenjdk-jre-openj9-bin-14.0.1",
         "pname": "adoptopenjdk-jre-openj9-bin",
@@ -34586,42 +34474,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
         },
         "_attr": "adoptopenjdk-openj9-bin-11",
-        "_repo": "moaxcp"
-    },
-    "nur.repos.moaxcp.adoptopenjdk-openj9-bin-13": {
-        "name": "adoptopenjdk-openj9-bin-13.0.2",
-        "pname": "adoptopenjdk-openj9-bin",
-        "version": "13.0.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
-                "shortName": "gpl2Classpath",
-                "spdxId": "GPL-2.0-with-classpath-exception",
-                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
-            },
-            "maintainers": [
-                {
-                    "email": "mxxouy6x3m_github@tatapa.org",
-                    "github": "taku0",
-                    "githubId": 870673,
-                    "name": "Takuo Yonezawa"
-                }
-            ],
-            "name": "adoptopenjdk-openj9-bin-13.0.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "packageType-linux",
-                "vmType-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
-        },
-        "_attr": "adoptopenjdk-openj9-bin-13",
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.adoptopenjdk-openj9-bin-14": {
@@ -34898,6 +34750,57 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
         },
         "_attr": "gradle-6_3",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.gradle-6_4": {
+        "name": "gradle-6.4",
+        "pname": "gradle",
+        "version": "6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Enterprise-grade build system",
+            "homepage": "http://www.gradle.org/",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Gradle is a build system which offers you ease, power and freedom.\nYou can choose the balance for yourself. It has powerful multi-project\nbuild support. It has a layer on top of Ivy that provides a\nbuild-by-convention integration for Ivy. It gives you always the choice\nbetween the flexibility of Ant and the convenience of a\nbuild-by-convention behavior.\n",
+            "name": "gradle-6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
+        },
+        "_attr": "gradle-6_4",
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.groovy-2_4_19": {
@@ -35205,7 +35108,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "longDescription": "Micronaut is a modern, JVM-based, full stack microservices framework\ndesigned for building modular, easily testable microservice applications.\nReflection-based IoC frameworks load and cache reflection data for \nevery single field, method, and constructor in your code, whereas with \nMicronaut, your application startup time and memory consumption are \nnot bound to the size of your codebase.\n",
+            "longDescription": "Micronaut is a modern, JVM-based, full stack microservices framework\ndesigned for building modular, easily testable microservice applications.\nReflection-based IoC frameworks load and cache reflection data for\nevery single field, method, and constructor in your code, whereas with\nMicronaut, your application startup time and memory consumption are\nnot bound to the size of your codebase.\n",
             "maintainers": [
                 {
                     "email": "moaxcp@gmail.com",
@@ -35265,6 +35168,83 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
         },
         "_attr": "micronaut-1_3_4",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.micronaut-1_3_5": {
+        "name": "micronaut-1.3.5",
+        "pname": "micronaut",
+        "version": "1.3.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Modern, JVM-based, full-stack framework for building microservice applications",
+            "homepage": "https://micronaut.io/",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Micronaut is a modern, JVM-based, full stack microservices framework\ndesigned for building modular, easily testable microservice applications.\nReflection-based IoC frameworks load and cache reflection data for\nevery single field, method, and constructor in your code, whereas with\nMicronaut, your application startup time and memory consumption are\nnot bound to the size of your codebase.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "micronaut-1.3.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
+        },
+        "_attr": "micronaut-1_3_5",
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.spring-boot-cli-2_2_6": {
