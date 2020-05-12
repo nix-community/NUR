@@ -46360,13 +46360,13 @@
         "_repo": "xe"
     },
     "nur.repos.xe.orca": {
-        "name": "orca",
-        "pname": "orca",
+        "name": "orca-git",
+        "pname": "orca-git",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "orca",
+            "name": "orca-git",
             "outputsToInstall": [
                 "out"
             ],
