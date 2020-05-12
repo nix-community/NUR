@@ -205,11 +205,6 @@
             "sha256": "0vl95cf1rg51921q4sq29jzp4q9wj5xi2b28lz1g4s7crp8qc10m",
             "url": "https://github.com/oar-team/nur-kapack"
         },
-        "kmein": {
-            "rev": "32d2ea60bf3f385fd1a6daa2ccf006e5bc48a6ed",
-            "sha256": "0m0xpbfnng81xlrmsl6k6dd8y51g1cpkkf1q0q89qvhbqyk32cx9",
-            "url": "https://github.com/kmein/nur-packages"
-        },
         "kolloch": {
             "rev": "98cf44acc6df8c69ba9fe337d26bfa720c7a6fd0",
             "sha256": "1pwkh84vl91xs55dn8maaxbmaghqmx68b1y4pb10wmzmsvlhly34",
@@ -440,8 +435,8 @@
             "url": "https://github.com/tox-rs/nur-tox"
         },
         "transitracer": {
-            "rev": "2f50765d85c3ab2dadee3cd2b4e3e9a0f2996e00",
-            "sha256": "0cy22snkwg9qsd8x5wcwfqk1zsy63bxsm9nzfdkd2nm1hnyni7sn",
+            "rev": "f806b3bc15bf27ff26959f296121c0c3eb6d3378",
+            "sha256": "14jx89k3056ll2am0rpxkq21ir0ryyzwaxz9fdv8md6zhz3vpjm3",
             "url": "https://github.com/transitracer/nix-extra"
         },
         "trevorriles": {
