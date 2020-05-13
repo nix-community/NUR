@@ -16,8 +16,8 @@
             "url": "https://github.com/angr/nixpkgs"
         },
         "arc": {
-            "rev": "e6359c52fe96f99a98b482caf707ee9c85d56e18",
-            "sha256": "0s8wgr5xa3p2ih333ml3jqq5jqvcbcb6dki4a0m4hc52kjwmy5a4",
+            "rev": "7203fe1cecdde67285364e8b538dda5e18fa0b8a",
+            "sha256": "0cic39y57d08vxkacpl4ixgpcnz2vjfxbkxlfw68q3wqswcqlidp",
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "awl-fcarza": {
@@ -205,6 +205,12 @@
             "sha256": "0vl95cf1rg51921q4sq29jzp4q9wj5xi2b28lz1g4s7crp8qc10m",
             "url": "https://github.com/oar-team/nur-kapack"
         },
+        "kmein": {
+            "rev": "9f2eae93dc2022a38807a8c5767331abf237a0b0",
+            "sha256": "040dr1pbrk8nw25d7f08dahpswvhkwxw1qgimxl072d7frw9fc2h",
+            "submodules": true,
+            "url": "https://github.com/kmein/nur-packages"
+        },
         "kolloch": {
             "rev": "98cf44acc6df8c69ba9fe337d26bfa720c7a6fd0",
             "sha256": "1pwkh84vl91xs55dn8maaxbmaghqmx68b1y4pb10wmzmsvlhly34",
@@ -370,8 +376,8 @@
             "url": "https://gitlab.com/rummik/nixos/nur-packages"
         },
         "rycee": {
-            "rev": "cc78254afd11f572ded965030b46a733d2159215",
-            "sha256": "1yyl0i2ddy1i9hw9ir5b7a7cvq3632lz2z4az73whpwxa3l0qn69",
+            "rev": "fcb1e482ce035777104f93f3f6c78328ae0e402c",
+            "sha256": "0pkmlsymxg69j3v8p8nx8fhw2nbk8j8njfik5mc1q06kpj0ns3aa",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "sehqlr": {
@@ -420,8 +426,8 @@
             "url": "https://github.com/tilpner/nur-packages"
         },
         "tokudan": {
-            "rev": "2e48708579fd33f0c819b1f8d03a552af764c7b5",
-            "sha256": "0w6cyf6dh3zdw4ydyl331ah77n8yp203a911q8phscwkxmbaqpg3",
+            "rev": "d29033ff501402c080985b7dcbbe3565ad74cf0c",
+            "sha256": "0xa1r5z9l0hzgbdg29vmm5wx6qx5fdibnx6mrwpzza86y5mfzmxx",
             "url": "https://codeberg.org/tokudan/nur.git"
         },
         "tomberek": {
