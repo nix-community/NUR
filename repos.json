@@ -144,6 +144,10 @@
             "submodules": true,
             "url": "https://github.com/kreisys/nur-packages"
         },
+        "lambdadog": {
+            "file": "nur.nix",
+            "url": "https://github.com/lambdadog/nix-extra"
+        },
         "lheckemann": {
             "url": "https://github.com/lheckemann/nixwip"
         },
@@ -274,10 +278,6 @@
         },
         "tox": {
             "url": "https://github.com/tox-rs/nur-tox"
-        },
-        "transitracer": {
-            "file": "nur.nix",
-            "url": "https://github.com/transitracer/nix-extra"
         },
         "trevorriles": {
             "url": "https://github.com/trevorriles/nur-packages"
