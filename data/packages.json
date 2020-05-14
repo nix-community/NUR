@@ -3707,9 +3707,9 @@
         "_repo": "dezgeg"
     },
     "nur.repos.drewrisinger.libcint": {
-        "name": "libcint-3.0.19",
+        "name": "libcint-3.0.20",
         "pname": "libcint",
-        "version": "3.0.19",
+        "version": "3.0.20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -3723,7 +3723,7 @@
                 "url": "https://spdx.org/licenses/BSD-2-Clause.html"
             },
             "longDescription": "libcint is an open source library for analytical Gaussian integrals.\nIt provides C/Fortran API to evaluate one-electron / two-electron\nintegrals for Cartesian / real-spheric / spinor Gaussian type functions.\n",
-            "name": "libcint-3.0.19",
+            "name": "libcint-3.0.20",
             "outputsToInstall": [
                 "out"
             ],
@@ -5064,9 +5064,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pyscf": {
-        "name": "python3.7-pyscf-1.7.1",
+        "name": "python3.7-pyscf-1.7.2",
         "pname": "python3.7-pyscf",
-        "version": "1.7.1",
+        "version": "1.7.2",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -5098,7 +5098,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "longDescription": "PySCF is an open-source collection of electronic structure modules powered by Python.\nThe package aims to provide a simple, lightweight, and efficient platform\nfor quantum chemistry calculations and methodology development.\n",
-            "name": "python3.7-pyscf-1.7.1",
+            "name": "python3.7-pyscf-1.7.2",
             "outputsToInstall": [
                 "out"
             ],
