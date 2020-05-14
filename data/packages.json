@@ -42217,9 +42217,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.privacy-badger": {
-        "name": "privacy-badger-2020.2.19",
+        "name": "privacy-badger-2020.5.12",
         "pname": "privacy-badger",
-        "version": "2020.2.19",
+        "version": "2020.5.12",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42231,7 +42231,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "privacy-badger-2020.2.19",
+            "name": "privacy-badger-2020.5.12",
             "outputsToInstall": [
                 "out"
             ],
