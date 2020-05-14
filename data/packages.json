@@ -46139,6 +46139,37 @@
         "_attr": "cabytcini",
         "_repo": "xe"
     },
+    "nur.repos.xe.deno": {
+        "name": "deno-bin-1.0.0",
+        "pname": "deno-bin",
+        "version": "1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A secure runtime for JavaScript and TypeScript",
+            "homepage": "https://deno.land",
+            "name": "deno-bin-1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "deno",
+        "_repo": "xe"
+    },
     "nur.repos.xe.dwm": {
         "name": "dwm-6.2",
         "pname": "dwm",
