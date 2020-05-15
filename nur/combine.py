@@ -101,10 +101,11 @@ def update_combined_repo(
 
 
 def remove_repo(repo: Repo, path: Path) -> None:
-    repo_path = path.joinpath("repos", repo.name)
+    repo_path = path.joinpath("repos", repo.name).resolve()
     if repo_path.exists():
         shutil.rmtree(repo_path)
-    commit_files([str(repo_path)], f"{repo.name}: remove")
+    with chdir(path):
+        commit_files([str(repo_path)], f"{repo.name}: remove")
 
 
 def update_manifest(repos: List[Repo], path: Path) -> None:
