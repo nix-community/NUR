@@ -96,8 +96,8 @@
             "url": "https://github.com/dguibert/nur-packages"
         },
         "drewrisinger": {
-            "rev": "2b1941ac9975c0791804cc8b5db5736def2c6b83",
-            "sha256": "15bd602jlmf1a7hf8d86rr6kcjksq185kk872brmg02i0m0xavqb",
+            "rev": "e4302ca27948941ae340fe7288ad9e17ae842297",
+            "sha256": "0xkrcgddhg1x1mj6x9mya26gcwxrvyk4qcbr9camdzvzgaayavqs",
             "url": "https://github.com/drewrisinger/nur-packages"
         },
         "dtn7": {
@@ -156,8 +156,8 @@
             "url": "https://git.immae.eu/perso/Immae/Config/Nix/NUR.git"
         },
         "izorkin": {
-            "rev": "9537898120825e1c276dd045d0ffd69ffef83d68",
-            "sha256": "1cn263q4lavy6d0p1v8cb3z7b10hpxi1y28p8arw6wqyb88z3vab",
+            "rev": "7e82beff5e3246ca304a04d08bb3c8acb6716a26",
+            "sha256": "05lxxvqw6ii37l6nv5d53z8vpy0pvj3ylpbgmfshz3blpqdr1f9d",
             "url": "https://github.com/Izorkin/nur-packages"
         },
         "jakobrs": {
@@ -166,8 +166,8 @@
             "url": "https://github.com/jakobrs/nur-packages"
         },
         "jbarthelmes": {
-            "rev": "a31c7729afe0b4fadb3b8c44b3a2192bd00bb7a6",
-            "sha256": "1spx6m3n1g3hrq4rvp2ymff9gz0iqdjx4c8fv0gg0nc6m9kqnjh4",
+            "rev": "ccc9d183bc4f1dc4433e7b6f5188b09cf791ebdc",
+            "sha256": "1dg55m7w5s5i9g4qcckiclgs010hg2i9v1isrlhhnnhhk06f9hq8",
             "url": "https://github.com/jbarthelmes/nur-packages"
         },
         "jd91mzm2": {
@@ -227,6 +227,11 @@
             "sha256": "12ankiz0n59lw1x9c8hy0s0rc5r7b0m9q1pn0gxr20rcqznxvhy3",
             "submodules": true,
             "url": "https://github.com/kreisys/nur-packages"
+        },
+        "lambdadog": {
+            "rev": "28baa7e1b06f77e062a34cc69b9b4b34b71f9109",
+            "sha256": "0sfnp1377g8dkmnsmf98aram6cix9gzjk4qw7d4gxivdiyw9nnwq",
+            "url": "https://github.com/lambdadog/nix-extra"
         },
         "lheckemann": {
             "rev": "19fadaf7819cf43327c8f663c038773e14c36f46",
@@ -439,11 +444,6 @@
             "rev": "4e7ae501331e081f1679e657bbe9d6067f179db5",
             "sha256": "18gcn013rl41c9asc2c11l2kgl3w7nw1f9h1kqcf0hya0q4066b2",
             "url": "https://github.com/tox-rs/nur-tox"
-        },
-        "transitracer": {
-            "rev": "28baa7e1b06f77e062a34cc69b9b4b34b71f9109",
-            "sha256": "0sfnp1377g8dkmnsmf98aram6cix9gzjk4qw7d4gxivdiyw9nnwq",
-            "url": "https://github.com/transitracer/nix-extra"
         },
         "trevorriles": {
             "rev": "f45e5a2ab2f29c9b7e7eee6c62289db755545329",
