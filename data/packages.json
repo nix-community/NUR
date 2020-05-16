@@ -10376,6 +10376,1959 @@
         "_attr": "k380-function-keys-conf",
         "_repo": "gnidorah"
     },
+    "nur.repos.gricad.applgrid": {
+        "name": "applgrid-1.4.70",
+        "pname": "applgrid",
+        "version": "1.4.70",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The APPLgrid project provides a fast and flexible way to reproduce the results of full NLO calculations with any input parton distribution set in only a few milliseconds rather than the weeks normally required to gain adequate statistics",
+            "homepage": "http://applgrid.hepforge.org",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "veprbl@gmail.com",
+                    "github": "veprbl",
+                    "githubId": 245573,
+                    "name": "Dmitry Kalinkin"
+                }
+            ],
+            "name": "applgrid-1.4.70",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "applgrid",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.arpackNG": {
+        "name": "arpack-ng-3.5.0",
+        "pname": "arpack-ng",
+        "version": "3.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Library for eigenvalues and eigenvectors",
+            "homepage": "https://github.com/opencollab/arpack-ng",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "arpack-ng-3.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "arpackNG",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.bagel": {
+        "name": "bagel",
+        "pname": "bagel",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "BAGEL is a parallel electronic-structure program licensed under the GNU General Public License.",
+            "homepage": "https://nubakery.org/index.html",
+            "name": "bagel",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "bagel",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.dcw-gmt": {
+        "name": "dcw-gmt-1.1.4",
+        "pname": "dcw-gmt",
+        "version": "1.1.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Digital Chart of the World (DCW) for GMT",
+            "homepage": "http://www.soest.hawaii.edu/pwessel/dcw/index.html",
+            "license": [
+                {
+                    "fullName": "GNU Lesser General Public License v3.0 or later",
+                    "shortName": "lgpl3Plus",
+                    "spdxId": "LGPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+                }
+            ],
+            "longDescription": "DCW-GMT is an enhancement to the original 1:1,000,000 scale vector basemap \nof the world available from the Princeton University Digital Map and \nGeospatial Information Center and from GeoCommunity at \nhttp://data.geocomm.com/readme/dcw/dcw.html. \nThis data is for use by GMT, the Generic Mapping Tools.\n",
+            "maintainers": [
+                {
+                    "email": "laure.tavard@univ-grenoble-alpes.fr",
+                    "github": "ltavard",
+                    "githubId": 8555953,
+                    "name": "Laure Tavard"
+                }
+            ],
+            "name": "dcw-gmt-1.1.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "dcw-gmt",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.gdal": {
+        "name": "gdal-3.0.4",
+        "pname": "gdal",
+        "version": "3.0.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Translator library for raster geospatial data formats",
+            "homepage": "https://www.gdal.org/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "marco-oweber@gmx.de",
+                    "github": "marcweber",
+                    "githubId": 34086,
+                    "name": "Marc Weber"
+                }
+            ],
+            "name": "gdal-3.0.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "gdal",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.gmt": {
+        "name": "gmt-5.4.5",
+        "pname": "gmt",
+        "version": "5.4.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The Generic Mapping Tools",
+            "homepage": "http://gmt.soest.hawaii.edu/",
+            "license": [
+                {
+                    "fullName": "GNU Lesser General Public License v3.0 or later",
+                    "shortName": "lgpl3Plus",
+                    "spdxId": "LGPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+                },
+                {
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                }
+            ],
+            "longDescription": "and Cartesian data sets and producing PostScript illustrations ranging from \nsimple x-y plots via contour maps to artificially illuminated surfaces and \n3D perspective views.\n",
+            "maintainers": [
+                {
+                    "email": "laure.tavard@univ-grenoble-alpes.fr",
+                    "github": "ltavard",
+                    "githubId": 8555953,
+                    "name": "Laure Tavard"
+                }
+            ],
+            "name": "gmt-5.4.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "gmt",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.gshhg-gmt": {
+        "name": "gshhg-gmt-2.3.7",
+        "pname": "gshhg-gmt",
+        "version": "2.3.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Global Self-consistent Hierarchical High-resolution Geography (GSHHG)",
+            "homepage": "http://www.soest.hawaii.edu/pwessel/gshhg/index.html",
+            "license": [
+                {
+                    "fullName": "GNU Lesser General Public License v3.0 or later",
+                    "shortName": "lgpl3Plus",
+                    "spdxId": "LGPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+                }
+            ],
+            "longDescription": "GSHHG is a high-resolution shoreline data set amalgamated from two databases: \nGlobal Self-consistent Hierarchical High-resolution Shorelines (GSHHS) and \nCIA World Data Bank II (WDBII). \nGSHHG contains vector descriptions at five different resolutions of land \noutlines, lakes, rivers, and political boundaries. \nThis data is for use by GMT, the Generic Mapping Tools.\n",
+            "maintainers": [
+                {
+                    "email": "laure.tavard@univ-grenoble-alpes.fr",
+                    "github": "ltavard",
+                    "githubId": 8555953,
+                    "name": "Laure Tavard"
+                }
+            ],
+            "name": "gshhg-gmt-2.3.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "gshhg-gmt",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.hello": {
+        "name": "hello-2.10",
+        "pname": "hello",
+        "version": "2.10",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A program that produces a familiar, friendly greeting",
+            "homepage": "http://www.gnu.org/software/hello/manual/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "GNU Hello is a program that prints \"Hello, world!\" when you run it.\nIt is fully customizable.\n",
+            "maintainers": [
+                {
+                    "email": "edolstra+nixpkgs@gmail.com",
+                    "github": "edolstra",
+                    "githubId": 1148549,
+                    "name": "Eelco Dolstra"
+                }
+            ],
+            "name": "hello-2.10",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "hello",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.hoppet": {
+        "name": "hoppet-1.2.0",
+        "pname": "hoppet",
+        "version": "1.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Higher Order Perturbative Parton Evolution Toolkit",
+            "homepage": "https://hoppet.hepforge.org",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "veprbl@gmail.com",
+                    "github": "veprbl",
+                    "githubId": 245573,
+                    "name": "Dmitry Kalinkin"
+                }
+            ],
+            "name": "hoppet-1.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "hoppet",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.hp2p": {
+        "name": "hp2p-3.3",
+        "pname": "hp2p",
+        "version": "3.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "a MPI based benchmark for network diagnostic",
+            "homepage": "https://github.com/cea-hpc/hp2p",
+            "license": {
+                "fullName": "CeCILL-C Free Software License Agreement",
+                "shortName": "cecill-c",
+                "spdxId": "CECILL-C",
+                "url": "https://spdx.org/licenses/CECILL-C.html"
+            },
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "hp2p-3.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "hp2p",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.hpl": {
+        "name": "hpl-2.3",
+        "pname": "hpl",
+        "version": "2.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Portable Implementation of the Linpack Benchmark for Distributed-Memory Computers",
+            "homepage": "http://www.netlib.org/benchmark/hpl/",
+            "license": {
+                "fullName": "BSD 4-clause \"Original\" or \"Old\" License",
+                "shortName": "bsdOriginal",
+                "spdxId": "BSD-4-Clause",
+                "url": "https://spdx.org/licenses/BSD-4-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "markus.kowalewski@gmail.com",
+                    "github": "markuskowa",
+                    "githubId": 26470037,
+                    "name": "Markus Kowalewski"
+                }
+            ],
+            "name": "hpl-2.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "hpl",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.intel-compilers-2017": {
+        "name": "intel-compilers-2017",
+        "pname": "intel-compilers",
+        "version": "2017",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Intel compilers and libraries 2017",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "intel-compilers-2017",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "intel-compilers-2017",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.intel-compilers-2018": {
+        "name": "intel-compilers-2018u4",
+        "pname": "intel-compilers",
+        "version": "2018u4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Intel compilers and libraries 2018 update 4",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "intel-compilers-2018u4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "intel-compilers-2018",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.intel-compilers-2019": {
+        "name": "intel-compilers-2019u3",
+        "pname": "intel-compilers",
+        "version": "2019u3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Intel compilers and libraries 2019 update 3",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "intel-compilers-2019u3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "intel-compilers-2019",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.irods": {
+        "name": "irods-4.2.7",
+        "pname": "irods",
+        "version": "4.2.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Integrated Rule-Oriented Data System (iRODS)",
+            "homepage": "https://irods.org",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "longDescription": "The Integrated Rule-Oriented Data System (iRODS) is open source data management\nsoftware used by research organizations and government agencies worldwide.\niRODS is released as a production-level distribution aimed at deployment in mission\ncritical environments.  It virtualizes data storage resources, so users can take\ncontrol of their data, regardless of where and on what device the data is stored.\nAs data volumes grow and data services become more complex, iRODS is increasingly\nimportant in data management. The development infrastructure supports exhaustive\ntesting on supported platforms; plug-in support for microservices, storage resources,\ndrivers, and databases; and extensive documentation, training and support services.This package provides the servers and libraries.",
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "irods-4.2.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "irods",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.irods-icommands": {
+        "name": "irods-icommands-4.2.7",
+        "pname": "irods-icommands",
+        "version": "4.2.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Integrated Rule-Oriented Data System (iRODS) CLI clients",
+            "homepage": "https://irods.org",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "longDescription": "The Integrated Rule-Oriented Data System (iRODS) is open source data management\nsoftware used by research organizations and government agencies worldwide.\niRODS is released as a production-level distribution aimed at deployment in mission\ncritical environments.  It virtualizes data storage resources, so users can take\ncontrol of their data, regardless of where and on what device the data is stored.\nAs data volumes grow and data services become more complex, iRODS is increasingly\nimportant in data management. The development infrastructure supports exhaustive\ntesting on supported platforms; plug-in support for microservices, storage resources,\ndrivers, and databases; and extensive documentation, training and support services.This package provides the CLI clients, called 'icommands'.",
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "irods-icommands-4.2.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "irods-icommands",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.lhapdf59": {
+        "name": "lhapdf59",
+        "pname": "lhapdf59",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "LHApdf 59",
+            "homepage": "https://lhapdf.hepforge.org/",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "lhapdf59",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "lhapdf59",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.libfabric": {
+        "name": "libfabric-1.9.0",
+        "pname": "libfabric",
+        "version": "1.9.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Open Fabric Interfaces",
+            "homepage": "http://libfabric.org/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "libfabric-1.9.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "libfabric",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.mpi-ping": {
+        "name": "mpi-ping-1.0",
+        "pname": "mpi-ping",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "mpi-ping-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "mpi-ping",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.obitools3": {
+        "name": "obitools3-3.0.0-beta14",
+        "pname": "obitools3",
+        "version": "3.0.0-beta14",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Management of analyses and data in DNA metabarcoding",
+            "homepage": "https://git.metabarcoding.org/obitools/obitools3",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "CeCILL Free Software License Agreement v2.0",
+                "shortName": "cecill20",
+                "spdxId": "CECILL-2.0",
+                "url": "https://spdx.org/licenses/CECILL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "obitools3-3.0.0-beta14",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "obitools3",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.psm2": {
+        "name": "opa-psm2-10_10_1_0_36",
+        "pname": "opa-psm2",
+        "version": "10_10_1_0_36",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The PSM2 library supports a number of fabric media and stacks",
+            "homepage": "https://github.com/intel/opa-psm2",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "opa-psm2-10_10_1_0_36",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "psm2",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.openmpi1": {
+        "name": "openmpi-1.10.7",
+        "pname": "openmpi",
+        "version": "1.10.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Open source MPI-2 implementation",
+            "homepage": "http://www.open-mpi.org/",
+            "longDescription": "The Open MPI Project is an open source MPI-2 implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers.",
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "openmpi-1.10.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "openmpi1",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.openmpi2": {
+        "name": "openmpi-2.1.6",
+        "pname": "openmpi",
+        "version": "2.1.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Open source MPI-2 implementation",
+            "homepage": "http://www.open-mpi.org/",
+            "longDescription": "The Open MPI Project is an open source MPI-2 implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers.",
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "openmpi-2.1.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "openmpi2",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.openmpi2-ib": {
+        "name": "openmpi-2.1.6",
+        "pname": "openmpi",
+        "version": "2.1.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Open source MPI-2 implementation",
+            "homepage": "http://www.open-mpi.org/",
+            "longDescription": "The Open MPI Project is an open source MPI-2 implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers.",
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "openmpi-2.1.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "openmpi2-ib",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.openmpi2-opa": {
+        "name": "openmpi-2.1.6",
+        "pname": "openmpi",
+        "version": "2.1.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Open source MPI-2 implementation",
+            "homepage": "http://www.open-mpi.org/",
+            "longDescription": "The Open MPI Project is an open source MPI-2 implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers.",
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "openmpi-2.1.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "openmpi2-opa",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.openmpi3": {
+        "name": "openmpi-3.1.5",
+        "pname": "openmpi",
+        "version": "3.1.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Open source MPI-3 implementation",
+            "homepage": "http://www.open-mpi.org/",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "longDescription": "The Open MPI Project is an open source MPI-3 implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers.",
+            "maintainers": [
+                {
+                    "email": "markus.kowalewski@gmail.com",
+                    "github": "markuskowa",
+                    "githubId": 26470037,
+                    "name": "Markus Kowalewski"
+                }
+            ],
+            "name": "openmpi-3.1.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "openmpi3",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.openmpi": {
+        "name": "openmpi-4.0.3",
+        "pname": "openmpi",
+        "version": "4.0.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Open source MPI-3 implementation",
+            "homepage": "https://www.open-mpi.org/",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "longDescription": "The Open MPI Project is an open source MPI-3 implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers.",
+            "maintainers": [
+                {
+                    "email": "markus.kowalewski@gmail.com",
+                    "github": "markuskowa",
+                    "githubId": 26470037,
+                    "name": "Markus Kowalewski"
+                }
+            ],
+            "name": "openmpi-4.0.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "openmpi",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.petsc": {
+        "name": "petsc-3.11.4",
+        "pname": "petsc",
+        "version": "3.11.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Library of linear algebra algorithms for solving partial differential equations",
+            "homepage": "https://www.mcs.anl.gov/petsc/index.html",
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "name": "petsc-3.11.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "petsc",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.petscReal": {
+        "name": "petsc-3.11.4",
+        "pname": "petsc",
+        "version": "3.11.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Library of linear algebra algorithms for solving partial differential equations",
+            "homepage": "https://www.mcs.anl.gov/petsc/index.html",
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "name": "petsc-3.11.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "petscReal",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.plplot": {
+        "name": "plplot",
+        "pname": "plplot",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "PLplot is a cross-platform software package for creating scientific plots",
+            "homepage": "http://plplot.sourceforge.net/",
+            "license": {
+                "fullName": "GNU Library General Public License v2 only",
+                "shortName": "lgpl2",
+                "spdxId": "LGPL-2.0-only",
+                "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
+            },
+            "name": "plplot",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "plplot",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.singularity": {
+        "name": "singularity-3.5.3",
+        "pname": "singularity",
+        "version": "3.5.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Application containers for linux",
+            "homepage": "http://www.sylabs.io/",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "cu@cua0.org",
+                    "github": "jbedo",
+                    "githubId": 372912,
+                    "name": "Justin Bed\u0151"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "singularity-3.5.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "singularity",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.suitesparse": {
+        "name": "suitesparse-5.7.1",
+        "pname": "suitesparse",
+        "version": "5.7.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A suite of sparse matrix algorithms",
+            "homepage": "http://faculty.cse.tamu.edu/davis/suitesparse.html",
+            "license": [
+                {
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                },
+                {
+                    "fullName": "GNU General Public License v2.0 or later",
+                    "shortName": "gpl2Plus",
+                    "spdxId": "GPL-2.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+                },
+                {
+                    "fullName": "GNU Lesser General Public License v2.1 or later",
+                    "shortName": "lgpl21Plus",
+                    "spdxId": "LGPL-2.1-or-later",
+                    "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "ttuegel@mailbox.org",
+                    "github": "ttuegel",
+                    "githubId": 563054,
+                    "name": "Thomas Tuegel"
+                }
+            ],
+            "name": "suitesparse-5.7.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "suitesparse",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.szip": {
+        "name": "szip-2.1.1",
+        "pname": "szip",
+        "version": "2.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Compression library that can be used with the hdf5 library",
+            "homepage": "http://www.hdfgroup.org/doc_resource/SZIP/",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "szip-2.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "szip",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.trilinos": {
+        "name": "trilinos-release-12-18-1",
+        "pname": "trilinos-release",
+        "version": "12-18-1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "A self-contained collection of software in Trilinos\n         focused on one primary class of numerical methods.",
+            "homepage": "https://trilinos.org/",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "trilinos-release-12-18-1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "trilinos",
+        "_repo": "gricad"
+    },
+    "nur.repos.gricad.udocker": {
+        "name": "udocker-1.1.1",
+        "pname": "udocker",
+        "version": "1.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "basic user tool to execute simple docker containers in user space without root privileges",
+            "homepage": "https://www.gitbook.com/book/indigo-dc/udocker",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "Bruno@bzizou.net",
+                    "github": "bzizou",
+                    "githubId": 2647566,
+                    "name": "Bruno Bzeznik"
+                }
+            ],
+            "name": "udocker-1.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gricad"
+        },
+        "_attr": "udocker",
+        "_repo": "gricad"
+    },
     "nur.repos.ilya-fedin.kotatogram-desktop": {
         "name": "kotatogram-desktop-1.2-1",
         "pname": "kotatogram-desktop",
