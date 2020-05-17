@@ -50,6 +50,11 @@
             "sha256": "0g3xffjdg5cnmqc4nsij6ij8nxvn7by2vfdlksvrmp6403awj52j",
             "url": "https://github.com/bhipple/nur-packages"
         },
+        "c0deaddict": {
+            "rev": "e497ab10b1cf509a211b25ad956fce5cc098c3fc",
+            "sha256": "0y9i950kgqnv7f6cddz4nh1869y39zywqx2pajayllp8wgxzfygh",
+            "url": "https://github.com/c0deaddict/nur-packages"
+        },
         "chagra": {
             "rev": "48e11e3bb7df3aa9a23b309b543a47cbb29ee40b",
             "sha256": "18x03ga9l41nzj32nrmw39gssnza69inki0jh6bg4xv6mygmrdy2",
@@ -186,8 +191,8 @@
             "url": "https://gitlab.com/jomik/nur-expressions"
         },
         "joshuafern": {
-            "rev": "d0dc4c00a96c1ee2197b3958b10598643fe666ad",
-            "sha256": "09zm159xlch5n4hxb2d4b49pg8cvzkg9xypgfh14dq4sshmpi5pw",
+            "rev": "a1e1a50e82e5663c25c56803b028724c7f90100e",
+            "sha256": "1m0h8y3dx73wkl6fpycviw40qfc9nv044s6iad85whkxahy0ifp3",
             "url": "https://github.com/JoshuaFern/nur-package-lab"
         },
         "kalbasit": {
