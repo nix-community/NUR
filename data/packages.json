@@ -9781,6 +9781,51 @@
         "_attr": "century-gothic",
         "_repo": "emmanuelrosa"
     },
+    "nur.repos.emmanuelrosa.electrum-hardened": {
+        "name": "electrum-hardened",
+        "pname": "electrum-hardened",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The Electrum Bitcoin wallet, but restricted by a Bubblewrap Linux container for enhanced privacy protection.",
+            "homepage": "https://github.com/spesmilo/electrum",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "emmanuel_rosa@aol.com",
+                    "github": "emmanuelrosa",
+                    "githubId": 13485450,
+                    "name": "Emmanuel Rosa"
+                }
+            ],
+            "name": "electrum-hardened",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa"
+        },
+        "_attr": "electrum-hardened",
+        "_repo": "emmanuelrosa"
+    },
     "nur.repos.emmanuelrosa.electrum-personal-server": {
         "name": "electrum-personal-server-0.2.0",
         "pname": "electrum-personal-server",
