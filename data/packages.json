@@ -28986,20 +28986,35 @@
         "_repo": "jomik"
     },
     "nur.repos.joshuafern.citra": {
-        "name": "citra-unstable-2020-05-11",
+        "name": "citra-unstable-2020-05-13",
         "pname": "citra-unstable",
-        "version": "2020-05-11",
+        "version": "2020-05-13",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
             "description": "An open-source emulator for the Nintendo 3DS",
             "homepage": "https://citra-emu.org",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
+            "license": [
+                {
+                    "fullName": "GNU General Public License v2.0 or later",
+                    "shortName": "gpl2Plus",
+                    "spdxId": "GPL-2.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+                },
+                {
+                    "free": false,
+                    "fullName": "Creative Commons Attribution-No Derivative Works v3.00",
+                    "shortName": "cc-by-nd-30",
+                    "spdxId": "CC-BY-ND-3.0",
+                    "url": "https://spdx.org/licenses/CC-BY-ND-3.0.html"
+                },
+                {
+                    "fullName": "Creative Commons Zero v1.0 Universal",
+                    "shortName": "cc0",
+                    "spdxId": "CC0-1.0",
+                    "url": "https://spdx.org/licenses/CC0-1.0.html"
+                }
+            ],
             "maintainers": [
                 {
                     "email": "ab@fmap.me",
@@ -29014,7 +29029,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "citra-unstable-2020-05-11",
+            "name": "citra-unstable-2020-05-13",
             "outputsToInstall": [
                 "out"
             ],
@@ -29595,9 +29610,9 @@
         "_repo": "joshuafern"
     },
     "nur.repos.joshuafern.yuzu": {
-        "name": "yuzu-unstable-2020-04-25",
+        "name": "yuzu-unstable-2020-05-08",
         "pname": "yuzu-unstable",
-        "version": "2020-04-25",
+        "version": "2020-05-08",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -29639,7 +29654,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-unstable-2020-04-25",
+            "name": "yuzu-unstable-2020-05-08",
             "outputsToInstall": [
                 "out"
             ],
