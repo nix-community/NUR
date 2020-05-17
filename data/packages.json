@@ -40581,7 +40581,10 @@
             "available": true,
             "description": "Concatenative array language inspired by kdb/+q",
             "homepage": "https://github.com/smabie/xs",
-            "license": null,
+            "license": {
+                "fullName": "Public Domain",
+                "shortName": "publicDomain"
+            },
             "name": "ocaml4.10.0-xs-0.1.0",
             "outputsToInstall": [
                 "out"
