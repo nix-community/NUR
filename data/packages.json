@@ -10892,6 +10892,51 @@
         "_attr": "k380-function-keys-conf",
         "_repo": "gnidorah"
     },
+    "nur.repos.gnidorah.knobkraft-orm": {
+        "name": "KnobKraft-orm-1.4.0",
+        "pname": "KnobKraft-orm",
+        "version": "1.4.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Free modern cross-platform MIDI Sysex Librarian",
+            "homepage": "https://github.com/christofmuc/KnobKraft-orm",
+            "license": {
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "shortName": "agpl3",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "gnidorah@yandex.com",
+                    "github": "gnidorah",
+                    "githubId": 12064730,
+                    "name": "Alex Ivanov"
+                }
+            ],
+            "name": "KnobKraft-orm-1.4.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gnidorah"
+        },
+        "_attr": "knobkraft-orm",
+        "_repo": "gnidorah"
+    },
     "nur.repos.gricad.applgrid": {
         "name": "applgrid-1.4.70",
         "pname": "applgrid",
