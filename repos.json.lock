@@ -211,7 +211,7 @@
             "url": "https://github.com/oar-team/nur-kapack"
         },
         "kmein": {
-            "rev": "d9602816b7aa95597ffe5a5dc0cf7af63a421586",
+            "rev": "e14ddec298237e18f63cb20074f168425cbb3429",
             "sha256": "00hw68cqrhgf8ch9d760pjdrj735inxkn7g2sxa6lzh8wz19cymy",
             "submodules": true,
             "url": "https://github.com/kmein/nur-packages"
@@ -234,8 +234,8 @@
             "url": "https://github.com/kreisys/nur-packages"
         },
         "lambdadog": {
-            "rev": "28baa7e1b06f77e062a34cc69b9b4b34b71f9109",
-            "sha256": "0sfnp1377g8dkmnsmf98aram6cix9gzjk4qw7d4gxivdiyw9nnwq",
+            "rev": "e3c338c640433638b1934451f9e5aea2abb7371f",
+            "sha256": "0baf5gwy6bn54kvynygayv6fx1blhvkn6ix4ra1l7fx3d1hajc45",
             "url": "https://github.com/lambdadog/nix-extra"
         },
         "lheckemann": {
