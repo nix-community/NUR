@@ -48328,6 +48328,51 @@
         "_attr": "superdiskindex",
         "_repo": "tokudan"
     },
+    "nur.repos.tokudan.vice": {
+        "name": "vice-3.4",
+        "pname": "vice",
+        "version": "3.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Commodore 64, 128 and other emulators",
+            "homepage": "http://www.viceteam.org",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "git@danielfrank.net",
+                    "github": "tokudan",
+                    "githubId": 692610,
+                    "name": "Daniel Frank"
+                }
+            ],
+            "name": "vice-3.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan"
+        },
+        "_attr": "vice",
+        "_repo": "tokudan"
+    },
     "nur.repos.tokudan.writefreely": {
         "name": "writefreely-0.12.0",
         "pname": "writefreely",
@@ -48378,6 +48423,38 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan"
         },
         "_attr": "writefreely",
+        "_repo": "tokudan"
+    },
+    "nur.repos.tokudan.xa": {
+        "name": "xa-2.3.11",
+        "pname": "xa",
+        "version": "2.3.11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "",
+            "homepage": "https://www.floodgap.com/retrotech/xa/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "git@danielfrank.net",
+                    "github": "tokudan",
+                    "githubId": 692610,
+                    "name": "Daniel Frank"
+                }
+            ],
+            "name": "xa-2.3.11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tokudan"
+        },
+        "_attr": "xa",
         "_repo": "tokudan"
     },
     "nur.repos.tomberek.hello-join": {
