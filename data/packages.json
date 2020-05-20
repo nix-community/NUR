@@ -40258,20 +40258,42 @@
         "_attr": "simulavr",
         "_repo": "n1kolasM"
     },
-    "nur.repos.neumantm.example-package": {
-        "name": "example-package-1.0",
-        "pname": "example-package",
-        "version": "1.0",
+    "nur.repos.neumantm.multiEclipse": {
+        "name": "multiEclipse",
+        "pname": "multiEclipse",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "example-package-1.0",
+            "descripytion": "An eclipse varaiant chooser.",
+            "homepage": "https://github.com/neumantm/nur-packages",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Let's you choose the eclipse variant you need before starting.",
+            "name": "multiEclipse",
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/neumantm"
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/neumantm('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
         },
-        "_attr": "example-package",
+        "_attr": "multiEclipse",
         "_repo": "neumantm"
     },
     "nur.repos.neumantm.pythonWithPipenv": {
