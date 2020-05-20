@@ -49147,6 +49147,22 @@
         "_attr": "gruvbox-css",
         "_repo": "xe"
     },
+    "nur.repos.xe.hewwo": {
+        "name": "hewwo-watest",
+        "pname": "hewwo-watest",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "hewwo-watest",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "hewwo",
+        "_repo": "xe"
+    },
     "nur.repos.xe.ii": {
         "name": "ii-1.8",
         "pname": "ii",
