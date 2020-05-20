@@ -10475,6 +10475,51 @@
         "_attr": "example-package",
         "_repo": "emmanuelrosa"
     },
+    "nur.repos.emmanuelrosa.pdf2png": {
+        "name": "pdf2png-0.1.0.0",
+        "pname": "pdf2png",
+        "version": "0.1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A simple script to convert a PDF into multiple PNGs.",
+            "homepage": "https://github.com/emmanuelrosa/pdf2png",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "emmanuel_rosa@aol.com",
+                    "github": "emmanuelrosa",
+                    "githubId": 13485450,
+                    "name": "Emmanuel Rosa"
+                }
+            ],
+            "name": "pdf2png-0.1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa"
+        },
+        "_attr": "pdf2png",
+        "_repo": "emmanuelrosa"
+    },
     "nur.repos.emmanuelrosa.wingdings": {
         "name": "wingdings-2015-11-10",
         "pname": "wingdings",
