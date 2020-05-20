@@ -48769,8 +48769,8 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A tool designed to find common security issues in Python code",
-            "homepage": "https://bandit.readthedocs.io/",
+            "description": "Security oriented static analyser for python code",
+            "homepage": "https://bandit.readthedocs.io/en/latest/",
             "isBuildPythonPackage": [
                 "aarch64-linux",
                 "armv5tel-linux",
@@ -48788,20 +48788,24 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "license": [
-                {
-                    "fullName": "Apache License 2.0",
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                }
-            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
             "maintainers": [
                 {
-                    "email": "github-dev@mail2013.wamser.eu",
-                    "github": "wamserma",
-                    "githubId": 60148,
-                    "name": "Markus S. Wamser"
+                    "email": "kamadorueda@gmail.com",
+                    "github": "kamadorueda",
+                    "githubId": 47480384,
+                    "keys": [
+                        {
+                            "fingerprint": "2BE3 BAFD 793E A349 ED1F  F00F 04D0 CEAF 916A 9A40",
+                            "longkeyid": "rsa4096/0x04D0CEAF916A9A40"
+                        }
+                    ],
+                    "name": "Kevin Amado"
                 }
             ],
             "name": "python3.7-bandit-1.6.2",
@@ -48825,7 +48829,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma('nixpkgs', 'pkgs', 'development', 'python-modules', 'bandit', 'default.nix')#L37"
         },
         "_attr": "bandit",
         "_repo": "wamserma"
