@@ -14864,9 +14864,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb-galera_26": {
-        "name": "mariadb-galera-26.4.3",
+        "name": "mariadb-galera-26.4.5",
         "pname": "mariadb-galera",
-        "version": "26.4.3",
+        "version": "26.4.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -14886,7 +14886,7 @@
                     "name": "Yurii Izorkin"
                 }
             ],
-            "name": "mariadb-galera-26.4.3",
+            "name": "mariadb-galera-26.4.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -17738,9 +17738,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.event": {
-        "name": "php-event-2.5.5",
+        "name": "php-event-2.5.6",
         "pname": "php-event",
-        "version": "2.5.5",
+        "version": "2.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17752,7 +17752,7 @@
                 "spdxId": "PHP-3.01",
                 "url": "https://spdx.org/licenses/PHP-3.01.html"
             },
-            "name": "php-event-2.5.5",
+            "name": "php-event-2.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -17762,9 +17762,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.event": {
-        "name": "php-event-2.5.5",
+        "name": "php-event-2.5.6",
         "pname": "php-event",
-        "version": "2.5.5",
+        "version": "2.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17776,7 +17776,7 @@
                 "spdxId": "PHP-3.01",
                 "url": "https://spdx.org/licenses/PHP-3.01.html"
             },
-            "name": "php-event-2.5.5",
+            "name": "php-event-2.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -17786,9 +17786,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.event": {
-        "name": "php-event-2.5.5",
+        "name": "php-event-2.5.6",
         "pname": "php-event",
-        "version": "2.5.5",
+        "version": "2.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17800,7 +17800,7 @@
                 "spdxId": "PHP-3.01",
                 "url": "https://spdx.org/licenses/PHP-3.01.html"
             },
-            "name": "php-event-2.5.5",
+            "name": "php-event-2.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -17810,9 +17810,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.event": {
-        "name": "php-event-2.5.5",
+        "name": "php-event-2.5.6",
         "pname": "php-event",
-        "version": "2.5.5",
+        "version": "2.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17824,7 +17824,7 @@
                 "spdxId": "PHP-3.01",
                 "url": "https://spdx.org/licenses/PHP-3.01.html"
             },
-            "name": "php-event-2.5.5",
+            "name": "php-event-2.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -17834,9 +17834,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.event": {
-        "name": "php-event-2.5.5",
+        "name": "php-event-2.5.6",
         "pname": "php-event",
-        "version": "2.5.5",
+        "version": "2.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17848,7 +17848,7 @@
                 "spdxId": "PHP-3.01",
                 "url": "https://spdx.org/licenses/PHP-3.01.html"
             },
-            "name": "php-event-2.5.5",
+            "name": "php-event-2.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -17858,9 +17858,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.event": {
-        "name": "php-event-2.5.5",
+        "name": "php-event-2.5.6",
         "pname": "php-event",
-        "version": "2.5.5",
+        "version": "2.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17872,7 +17872,7 @@
                 "spdxId": "PHP-3.01",
                 "url": "https://spdx.org/licenses/PHP-3.01.html"
             },
-            "name": "php-event-2.5.5",
+            "name": "php-event-2.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -17882,9 +17882,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.event": {
-        "name": "php-event-2.5.5",
+        "name": "php-event-2.5.6",
         "pname": "php-event",
-        "version": "2.5.5",
+        "version": "2.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17896,7 +17896,7 @@
                 "spdxId": "PHP-3.01",
                 "url": "https://spdx.org/licenses/PHP-3.01.html"
             },
-            "name": "php-event-2.5.5",
+            "name": "php-event-2.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -17906,9 +17906,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.event": {
-        "name": "php-event-2.5.5",
+        "name": "php-event-2.5.6",
         "pname": "php-event",
-        "version": "2.5.5",
+        "version": "2.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17920,7 +17920,7 @@
                 "spdxId": "PHP-3.01",
                 "url": "https://spdx.org/licenses/PHP-3.01.html"
             },
-            "name": "php-event-2.5.5",
+            "name": "php-event-2.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -17930,9 +17930,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.event": {
-        "name": "php-event-2.5.5",
+        "name": "php-event-2.5.6",
         "pname": "php-event",
-        "version": "2.5.5",
+        "version": "2.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17944,7 +17944,7 @@
                 "spdxId": "PHP-3.01",
                 "url": "https://spdx.org/licenses/PHP-3.01.html"
             },
-            "name": "php-event-2.5.5",
+            "name": "php-event-2.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -17954,9 +17954,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.event": {
-        "name": "php-event-2.5.5",
+        "name": "php-event-2.5.6",
         "pname": "php-event",
-        "version": "2.5.5",
+        "version": "2.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17968,7 +17968,7 @@
                 "spdxId": "PHP-3.01",
                 "url": "https://spdx.org/licenses/PHP-3.01.html"
             },
-            "name": "php-event-2.5.5",
+            "name": "php-event-2.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -22684,9 +22684,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.protobuf": {
-        "name": "php-protobuf-3.11.4",
+        "name": "php-protobuf-3.12.1",
         "pname": "php-protobuf",
-        "version": "3.11.4",
+        "version": "3.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22698,7 +22698,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.11.4",
+            "name": "php-protobuf-3.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -22708,9 +22708,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.protobuf": {
-        "name": "php-protobuf-3.11.4",
+        "name": "php-protobuf-3.12.1",
         "pname": "php-protobuf",
-        "version": "3.11.4",
+        "version": "3.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22722,7 +22722,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.11.4",
+            "name": "php-protobuf-3.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -22732,9 +22732,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.protobuf": {
-        "name": "php-protobuf-3.11.4",
+        "name": "php-protobuf-3.12.1",
         "pname": "php-protobuf",
-        "version": "3.11.4",
+        "version": "3.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22746,7 +22746,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.11.4",
+            "name": "php-protobuf-3.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -22756,9 +22756,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.protobuf": {
-        "name": "php-protobuf-3.11.4",
+        "name": "php-protobuf-3.12.1",
         "pname": "php-protobuf",
-        "version": "3.11.4",
+        "version": "3.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22770,7 +22770,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.11.4",
+            "name": "php-protobuf-3.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -22780,9 +22780,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.protobuf": {
-        "name": "php-protobuf-3.11.4",
+        "name": "php-protobuf-3.12.1",
         "pname": "php-protobuf",
-        "version": "3.11.4",
+        "version": "3.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22794,7 +22794,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.11.4",
+            "name": "php-protobuf-3.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -22804,9 +22804,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.protobuf": {
-        "name": "php-protobuf-3.11.4",
+        "name": "php-protobuf-3.12.1",
         "pname": "php-protobuf",
-        "version": "3.11.4",
+        "version": "3.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22818,7 +22818,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.11.4",
+            "name": "php-protobuf-3.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -22828,9 +22828,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.protobuf": {
-        "name": "php-protobuf-3.11.4",
+        "name": "php-protobuf-3.12.1",
         "pname": "php-protobuf",
-        "version": "3.11.4",
+        "version": "3.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22842,7 +22842,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.11.4",
+            "name": "php-protobuf-3.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -22852,9 +22852,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.protobuf": {
-        "name": "php-protobuf-3.11.4",
+        "name": "php-protobuf-3.12.1",
         "pname": "php-protobuf",
-        "version": "3.11.4",
+        "version": "3.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22866,7 +22866,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.11.4",
+            "name": "php-protobuf-3.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -22876,9 +22876,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.protobuf": {
-        "name": "php-protobuf-3.11.4",
+        "name": "php-protobuf-3.12.1",
         "pname": "php-protobuf",
-        "version": "3.11.4",
+        "version": "3.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22890,7 +22890,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.11.4",
+            "name": "php-protobuf-3.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -22900,9 +22900,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.protobuf": {
-        "name": "php-protobuf-3.11.4",
+        "name": "php-protobuf-3.12.1",
         "pname": "php-protobuf",
-        "version": "3.11.4",
+        "version": "3.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22914,7 +22914,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.11.4",
+            "name": "php-protobuf-3.12.1",
             "outputsToInstall": [
                 "out"
             ],
