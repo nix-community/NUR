@@ -26175,6 +26175,38 @@
         "_attr": "st",
         "_repo": "jd91mzm2"
     },
+    "nur.repos.jjjollyjim.exploitdb": {
+        "name": "exploitdb",
+        "pname": "exploitdb",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "exploitdb",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jjjollyjim('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "exploitdb",
+        "_repo": "jjjollyjim"
+    },
+    "nur.repos.jjjollyjim.exploitdbFull": {
+        "name": "exploitdb",
+        "pname": "exploitdb",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "exploitdb",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jjjollyjim('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "exploitdbFull",
+        "_repo": "jjjollyjim"
+    },
     "nur.repos.johnazoidberg.linuxPackages_4_14.chipsec": {
         "name": "chipsec-1.3.7",
         "pname": "chipsec",
