@@ -29697,6 +29697,50 @@
         "_attr": "slock",
         "_repo": "jomik"
     },
+    "nur.repos.joshuafern.checkra1n": {
+        "name": "checkra1n-0.10.1",
+        "pname": "checkra1n",
+        "version": "0.10.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Jailbreak for iPhone 5s though iPhone X, iOS 12.3 and up",
+            "homepage": "https://checkra.in/",
+            "license": {
+                "free": false,
+                "fullName": "Unfree redistributable",
+                "shortName": "unfreeRedistributable"
+            },
+            "maintainers": [
+                {
+                    "email": "joshuafern@protonmail.com",
+                    "github": "JoshuaFern",
+                    "githubId": 4300747,
+                    "name": "Joshua Fern"
+                }
+            ],
+            "name": "checkra1n-0.10.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/joshuafern"
+        },
+        "_attr": "checkra1n",
+        "_repo": "joshuafern"
+    },
     "nur.repos.joshuafern.citra": {
         "name": "citra-unstable-2020-05-13",
         "pname": "citra-unstable",
