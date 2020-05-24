@@ -2800,6 +2800,38 @@
         "_attr": "keyhub-cli",
         "_repo": "c0deaddict"
     },
+    "nur.repos.c0deaddict.marble-marcher": {
+        "name": "MarbleMarcher",
+        "pname": "MarbleMarcher",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Fractal Physics Game",
+            "homepage": "https://github.com/HackerPoet/MarbleMarcher",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "josvanbakel@protonmail.com",
+                    "github": "c0deaddict",
+                    "githubId": 510553,
+                    "name": "Jos van Bakel"
+                }
+            ],
+            "name": "MarbleMarcher",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/c0deaddict"
+        },
+        "_attr": "marble-marcher",
+        "_repo": "c0deaddict"
+    },
     "nur.repos.c0deaddict.pg_flame": {
         "name": "pg_flame",
         "pname": "pg_flame",
