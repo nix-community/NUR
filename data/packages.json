@@ -37883,6 +37883,35 @@
         "_attr": "ipbt",
         "_repo": "moredread"
     },
+    "nur.repos.moredread.joplin-desktop": {
+        "name": "joplin-desktop-1.0.216",
+        "pname": "joplin-desktop",
+        "version": "1.0.216",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Prereleases: An open source note taking and to-do application with synchronisation capabilities",
+            "homepage": "https://joplinapp.org",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Joplin is a free, open source note taking and to-do application, which can\nhandle a large number of notes organised into notebooks. The notes are\nsearchable, can be copied, tagged and modified either from the\napplications directly or from your own text editor. The notes are in\nMarkdown format.\n",
+            "maintainers": [],
+            "name": "joplin-desktop-1.0.216",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread"
+        },
+        "_attr": "joplin-desktop",
+        "_repo": "moredread"
+    },
     "nur.repos.moredread.nix-search": {
         "name": "nix-search",
         "pname": "nix-search",
