@@ -14663,6 +14663,161 @@
         "_attr": "unicodeDoc",
         "_repo": "immae"
     },
+    "nur.repos.ivar.sm64pc": {
+        "name": "sm64pc-unstable-2020-05-19",
+        "pname": "sm64pc-unstable",
+        "version": "2020-05-19",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Super Mario 64 port based off of decompilation",
+            "homepage": "https://github.com/sm64pc/sm64pc",
+            "license": {
+                "fullName": "Public Domain",
+                "shortName": "publicDomain"
+            },
+            "longDescription": "Super Mario 64 port based off of decompilation. Note that you must supply a US baserom yourself to extract assets from",
+            "maintainers": [
+                {
+                    "email": "ivar.scholten@protonmail.com",
+                    "github": "IvarWithoutBones",
+                    "githubId": 41924494,
+                    "name": "Ivar"
+                }
+            ],
+            "name": "sm64pc-unstable-2020-05-19",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar"
+        },
+        "_attr": "sm64pc",
+        "_repo": "ivar"
+    },
+    "nur.repos.ivar.xwallpaper": {
+        "name": "xwallpaper-0.6.5",
+        "pname": "xwallpaper",
+        "version": "0.6.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Utility for setting wallpapers in X",
+            "homepage": "https://github.com/stoeckmann/xwallpaper",
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ivar.scholten@protonmail.com",
+                    "github": "IvarWithoutBones",
+                    "githubId": 41924494,
+                    "name": "Ivar"
+                }
+            ],
+            "name": "xwallpaper-0.6.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar"
+        },
+        "_attr": "xwallpaper",
+        "_repo": "ivar"
+    },
+    "nur.repos.ivar.yuzu": {
+        "name": "yuzu-266",
+        "pname": "yuzu",
+        "version": "266",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "An experimental Nintendo Switch emulator",
+            "homepage": "https://yuzu-emu.org",
+            "license": [
+                {
+                    "fullName": "GNU General Public License v2.0 or later",
+                    "shortName": "gpl2Plus",
+                    "spdxId": "GPL-2.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+                },
+                {
+                    "free": false,
+                    "fullName": "Creative Commons Attribution-No Derivative Works v3.00",
+                    "shortName": "cc-by-nd-30",
+                    "spdxId": "CC-BY-ND-3.0",
+                    "url": "https://spdx.org/licenses/CC-BY-ND-3.0.html"
+                },
+                {
+                    "fullName": "Creative Commons Zero v1.0 Universal",
+                    "shortName": "cc0",
+                    "spdxId": "CC0-1.0",
+                    "url": "https://spdx.org/licenses/CC0-1.0.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "ivar.scholten@protonmail.com",
+                    "github": "IvarWithoutBones",
+                    "githubId": 41924494,
+                    "name": "Ivar"
+                },
+                {
+                    "email": "joshuafern@protonmail.com",
+                    "github": "JoshuaFern",
+                    "githubId": 4300747,
+                    "name": "Joshua Fern"
+                }
+            ],
+            "name": "yuzu-266",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar"
+        },
+        "_attr": "yuzu",
+        "_repo": "ivar"
+    },
     "nur.repos.izorkin.bison2": {
         "name": "bison-2.7.1",
         "pname": "bison",
