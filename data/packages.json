@@ -34211,9 +34211,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.ferdi": {
-        "name": "ferdi-5.5.0",
+        "name": "ferdi-5.5.1-nightly.15",
         "pname": "ferdi",
-        "version": "5.5.0",
+        "version": "5.5.1-nightly.15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34238,7 +34238,7 @@
                     "name": "J\u00f6rg Thalheim"
                 }
             ],
-            "name": "ferdi-5.5.0",
+            "name": "ferdi-5.5.1-nightly.15",
             "outputsToInstall": [
                 "out"
             ],
