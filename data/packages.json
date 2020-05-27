@@ -43227,10 +43227,86 @@
         "_attr": "meslo-nerd-powerlevel10k",
         "_repo": "ptival"
     },
+    "nur.repos.pwnytail.AIMicroStructure": {
+        "name": "perl5.30.2-AI-MicroStructure-0.20",
+        "pname": "perl5.30.2-AI-MicroStructure",
+        "version": "0.20",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "AI::MicroStructure   Creates Concepts for words",
+            "homepage": "http://active-memory.de:2323",
+            "license": [
+                {
+                    "fullName": "Artistic License 1.0",
+                    "shortName": "artistic1",
+                    "spdxId": "Artistic-1.0",
+                    "url": "https://spdx.org/licenses/Artistic-1.0.html"
+                },
+                {
+                    "fullName": "GNU General Public License v1.0 or later",
+                    "shortName": "gpl1Plus",
+                    "spdxId": "GPL-1.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-1.0-or-later.html"
+                }
+            ],
+            "name": "perl5.30.2-AI-MicroStructure-0.20",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
+        },
+        "_attr": "AIMicroStructure",
+        "_repo": "pwnytail"
+    },
     "nur.repos.pwnytail.portfolio-performance": {
-        "name": "PortfolioPerformance-0.46.1",
+        "name": "PortfolioPerformance-0.46.3",
         "pname": "PortfolioPerformance",
-        "version": "0.46.1",
+        "version": "0.46.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -43250,7 +43326,7 @@
                     "name": "Felix Richter"
                 }
             ],
-            "name": "PortfolioPerformance-0.46.1",
+            "name": "PortfolioPerformance-0.46.3",
             "outputsToInstall": [
                 "out"
             ],
