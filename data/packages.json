@@ -14714,14 +14714,15 @@
         "version": "2020-05-19",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
             "description": "Super Mario 64 port based off of decompilation",
             "homepage": "https://github.com/sm64pc/sm64pc",
             "license": {
-                "fullName": "Public Domain",
-                "shortName": "publicDomain"
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
             },
-            "longDescription": "Super Mario 64 port based off of decompilation. Note that you must supply a US baserom yourself to extract assets from",
+            "longDescription": "Super Mario 64 port based off of decompilation. Note that you must supply a baserom yourself to extract assets from",
             "maintainers": [
                 {
                     "email": "ivar.scholten@protonmail.com",
@@ -14798,9 +14799,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu": {
-        "name": "yuzu-266",
+        "name": "yuzu-267",
         "pname": "yuzu",
-        "version": "266",
+        "version": "267",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -14841,7 +14842,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-266",
+            "name": "yuzu-267",
             "outputsToInstall": [
                 "out"
             ],
