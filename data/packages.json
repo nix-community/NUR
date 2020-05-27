@@ -11133,6 +11133,51 @@
         "_attr": "knobkraft-orm",
         "_repo": "gnidorah"
     },
+    "nur.repos.gnidorah.munt-jack": {
+        "name": "munt-jack-2020-03-29",
+        "pname": "munt-jack",
+        "version": "2020-03-29",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Multi-platform software synthesiser emulating Roland MT-32, CM-32L, CM-64 and LAPC-I devices",
+            "homepage": "http://munt.sourceforge.net/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "gnidorah@yandex.com",
+                    "github": "gnidorah",
+                    "githubId": 12064730,
+                    "name": "Alex Ivanov"
+                }
+            ],
+            "name": "munt-jack-2020-03-29",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gnidorah('nixpkgs', 'pkgs', 'applications', 'audio', 'munt', 'default.nix')#L32"
+        },
+        "_attr": "munt-jack",
+        "_repo": "gnidorah"
+    },
     "nur.repos.gricad.applgrid": {
         "name": "applgrid-1.4.70",
         "pname": "applgrid",
