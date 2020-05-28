@@ -37853,7 +37853,7 @@
                 "aarch64-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredhel('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'default.nix')#L139"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredhel('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'default.nix')#L138"
         },
         "_attr": "emacs",
         "_repo": "moredhel"
@@ -49997,9 +49997,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.crc_driver_libvirt": {
-        "name": "crc_driver_libvirt-20.09pre226586.571212eb839",
+        "name": "crc_driver_libvirt-20.09pre227348.4454219156a",
         "pname": "crc_driver_libvirt",
-        "version": "20.09pre226586.571212eb839",
+        "version": "20.09pre227348.4454219156a",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50011,7 +50011,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "crc_driver_libvirt-20.09pre226586.571212eb839",
+            "name": "crc_driver_libvirt-20.09pre227348.4454219156a",
             "outputsToInstall": [
                 "out"
             ],
