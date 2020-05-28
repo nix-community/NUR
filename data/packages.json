@@ -51923,13 +51923,13 @@
         "_repo": "xe"
     },
     "nur.repos.xe.quickserv": {
-        "name": "quickserv",
+        "name": "quickserv-0.1.0",
         "pname": "quickserv",
-        "version": "",
+        "version": "0.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Single folder HTTP server",
+            "description": "A quick HTTP server for when you've given up on life",
             "homepage": "https://tulpa.dev/Xe/quickserv",
             "license": {
                 "fullName": "MIT License",
@@ -51937,7 +51937,15 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "quickserv",
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "quickserv-0.1.0",
             "outputsToInstall": [
                 "out"
             ],
