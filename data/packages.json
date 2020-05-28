@@ -48445,9 +48445,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-298599-5.4.42",
+        "name": "v4l2loopback-dc-298599-5.4.43",
         "pname": "v4l2loopback-dc",
-        "version": "298599-5.4.42",
+        "version": "298599-5.4.43",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -48466,7 +48466,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-298599-5.4.42",
+            "name": "v4l2loopback-dc-298599-5.4.43",
             "outputsToInstall": [
                 "out"
             ],
@@ -49997,9 +49997,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.crc_driver_libvirt": {
-        "name": "crc_driver_libvirt-20.09pre227348.4454219156a",
+        "name": "crc_driver_libvirt-20.09pre227514.da60549504f",
         "pname": "crc_driver_libvirt",
-        "version": "20.09pre227348.4454219156a",
+        "version": "20.09pre227514.da60549504f",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50011,7 +50011,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "crc_driver_libvirt-20.09pre227348.4454219156a",
+            "name": "crc_driver_libvirt-20.09pre227514.da60549504f",
             "outputsToInstall": [
                 "out"
             ],
