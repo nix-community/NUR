@@ -51385,15 +51385,15 @@
         "_repo": "xe"
     },
     "nur.repos.xe.deno": {
-        "name": "deno-bin-1.0.0",
+        "name": "deno-bin-1.0.2",
         "pname": "deno-bin",
-        "version": "1.0.0",
+        "version": "1.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "A secure runtime for JavaScript and TypeScript",
             "homepage": "https://deno.land",
-            "name": "deno-bin-1.0.0",
+            "name": "deno-bin-1.0.2",
             "outputsToInstall": [
                 "out"
             ],
