@@ -38814,6 +38814,94 @@
         "_attr": "wolf-spectrum",
         "_repo": "mrVanDalo"
     },
+    "nur.repos.mweinelt.hassLovelaceModules.multiple-entity-row": {
+        "name": "multiple-entity-row-v3.1.1",
+        "pname": "multiple-entity-row-v3.1.1",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Show multiple entity states and attributes on entity rows in Home Assistant's Lovelace UI",
+            "homepage": "https://github.com/benct/lovelace-multiple-entity-row",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "multiple-entity-row-v3.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
+        },
+        "_attr": "hassLovelaceModules.multiple-entity-row",
+        "_repo": "mweinelt"
+    },
+    "nur.repos.mweinelt.hassLovelaceModules.mini-graph-card": {
+        "name": "node_mini-graph-card-0.9.3",
+        "pname": "node_mini-graph-card",
+        "version": "0.9.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Minimalistic graph card for Home Assistant Lovelace UI",
+            "homepage": "https://github.com/kalkih/mini-graph-card",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "hexa@darmstadt.ccc.de",
+                    "github": "mweinelt",
+                    "githubId": 131599,
+                    "name": "Martin Weinelt"
+                }
+            ],
+            "name": "node_mini-graph-card-0.9.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
+        },
+        "_attr": "hassLovelaceModules.mini-graph-card",
+        "_repo": "mweinelt"
+    },
+    "nur.repos.mweinelt.hassLovelaceModules.mini-media-player": {
+        "name": "node_mini-media-player-v1.9.1",
+        "pname": "node_mini-media-player-v1.9.1",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Minimalistic media card for Home Assistant Lovelace UI",
+            "homepage": "https://github.com/kalkih/mini-media-player",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "hexa@darmstadt.ccc.de",
+                    "github": "mweinelt",
+                    "githubId": 131599,
+                    "name": "Martin Weinelt"
+                }
+            ],
+            "name": "node_mini-media-player-v1.9.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
+        },
+        "_attr": "hassLovelaceModules.mini-media-player",
+        "_repo": "mweinelt"
+    },
     "nur.repos.n1kolasM.avr8-burn-omat": {
         "name": "avr8-burn-omat-2.1.2",
         "pname": "avr8-burn-omat",
