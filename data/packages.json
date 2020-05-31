@@ -52971,9 +52971,9 @@
         "_repo": "xe"
     },
     "nur.repos.xe.dwm": {
-        "name": "dwm-6.2",
+        "name": "dwm-6.2-kadis",
         "pname": "dwm",
-        "version": "6.2",
+        "version": "6.2-kadis",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -52987,13 +52987,13 @@
             },
             "maintainers": [
                 {
-                    "email": "viric@viric.name",
-                    "github": "viric",
-                    "githubId": 66664,
-                    "name": "Llu\u00eds Batlle i Rossell"
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
                 }
             ],
-            "name": "dwm-6.2",
+            "name": "dwm-6.2-kadis",
             "outputsToInstall": [
                 "out"
             ],
@@ -53041,7 +53041,7 @@
                 "aarch64-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe('nixpkgs', 'pkgs', 'applications', 'window-managers', 'dwm', 'default.nix')#L25"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
         },
         "_attr": "dwm",
         "_repo": "xe"
