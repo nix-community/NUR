@@ -52869,6 +52869,22 @@
         "_attr": "cabytcini",
         "_repo": "xe"
     },
+    "nur.repos.xe.comma": {
+        "name": "comma",
+        "pname": "comma",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "comma",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "comma",
+        "_repo": "xe"
+    },
     "nur.repos.xe.deno": {
         "name": "deno-bin-1.0.2",
         "pname": "deno-bin",
