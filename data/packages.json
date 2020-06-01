@@ -52894,6 +52894,53 @@
         "_attr": "bundlewrap",
         "_repo": "wamserma"
     },
+    "nur.repos.wamserma.dietlibc": {
+        "name": "dietlibc-0.34",
+        "pname": "dietlibc",
+        "version": "0.34",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "a libc optimized for small size",
+            "homepage": "https://www.fefe.de/dietlibc/",
+            "license": [
+                {
+                    "fullName": "GNU General Public License v2.0 only",
+                    "shortName": "gpl2",
+                    "spdxId": "GPL-2.0-only",
+                    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "dietlibc-0.34",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma"
+        },
+        "_attr": "dietlibc",
+        "_repo": "wamserma"
+    },
     "nur.repos.xe.cabytcini": {
         "name": "cabytcini-0.2.1",
         "pname": "cabytcini",
