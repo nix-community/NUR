@@ -38744,9 +38744,33 @@
         "_attr": "wolf-spectrum",
         "_repo": "mrVanDalo"
     },
-    "nur.repos.mweinelt.hassThemes.clear-theme-dark": {
-        "name": "clear-theme-dark-1.3",
-        "pname": "clear-theme-dark",
+    "nur.repos.mweinelt.hassThemes.clear": {
+        "name": "clear-1.1",
+        "pname": "clear",
+        "version": "1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Clear Theme for Home Assistant",
+            "homepage": "https://github.com/naofireblade/clear-theme-dark",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "clear-1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
+        },
+        "_attr": "hassThemes.clear",
+        "_repo": "mweinelt"
+    },
+    "nur.repos.mweinelt.hassThemes.clear-dark": {
+        "name": "clear-dark-1.3",
+        "pname": "clear-dark",
         "version": "1.3",
         "system": "x86_64-linux",
         "meta": {
@@ -38759,13 +38783,13 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "clear-theme-dark-1.3",
+            "name": "clear-dark-1.3",
             "outputsToInstall": [
                 "out"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
         },
-        "_attr": "hassThemes.clear-theme-dark",
+        "_attr": "hassThemes.clear-dark",
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.hassLovelaceModules.multiple-entity-row": {
