@@ -38954,8 +38954,7 @@
         "version": "0.2.0",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
             "description": "GTK+ UI for Neovim",
             "homepage": "https://github.com/daa84/neovim-gtk",
             "license": [
