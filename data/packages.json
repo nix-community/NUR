@@ -52964,6 +52964,100 @@
         "_attr": "dietlibc",
         "_repo": "wamserma"
     },
+    "nur.repos.wamserma.encpipe": {
+        "name": "encpipe-0.5",
+        "pname": "encpipe",
+        "version": "0.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "a simple, pipeable encryption tool without runtime deps",
+            "homepage": "https://github.com/jedisct1/encpipe",
+            "license": [
+                {
+                    "fullName": "GNU General Public License v2.0 only",
+                    "shortName": "gpl2",
+                    "spdxId": "GPL-2.0-only",
+                    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "encpipe-0.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma"
+        },
+        "_attr": "encpipe",
+        "_repo": "wamserma"
+    },
+    "nur.repos.wamserma.encpipe-static": {
+        "name": "encpipe-static-0.5",
+        "pname": "encpipe-static",
+        "version": "0.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "a simple, pipeable encryption tool without runtime deps",
+            "homepage": "https://github.com/jedisct1/encpipe",
+            "license": [
+                {
+                    "fullName": "GNU General Public License v2.0 only",
+                    "shortName": "gpl2",
+                    "spdxId": "GPL-2.0-only",
+                    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "encpipe-static-0.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma"
+        },
+        "_attr": "encpipe-static",
+        "_repo": "wamserma"
+    },
     "nur.repos.xe.cabytcini": {
         "name": "cabytcini-0.2.1",
         "pname": "cabytcini",
