@@ -52773,9 +52773,9 @@
         "_repo": "tilpner"
     },
     "nur.repos.tilpner.syncthing-short-delay": {
-        "name": "syncthing-1.5.0",
+        "name": "syncthing-1.6.1",
         "pname": "syncthing",
-        "version": "1.5.0",
+        "version": "1.6.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -52825,7 +52825,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "syncthing-1.5.0",
+            "name": "syncthing-1.6.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -53969,9 +53969,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.crc_driver_libvirt": {
-        "name": "crc_driver_libvirt-20.09pre228333.1ae28ebfdb7",
+        "name": "crc_driver_libvirt-20.09pre228384.c27e54de99d",
         "pname": "crc_driver_libvirt",
-        "version": "20.09pre228333.1ae28ebfdb7",
+        "version": "20.09pre228384.c27e54de99d",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53983,7 +53983,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "crc_driver_libvirt-20.09pre228333.1ae28ebfdb7",
+            "name": "crc_driver_libvirt-20.09pre228384.c27e54de99d",
             "outputsToInstall": [
                 "out"
             ],
