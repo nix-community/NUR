@@ -4225,9 +4225,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.cirq": {
-        "name": "python3.7-cirq-0.8.0",
+        "name": "python3.7-cirq-0.8.1",
         "pname": "python3.7-cirq",
-        "version": "0.8.0",
+        "version": "0.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -4256,7 +4256,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "python3.7-cirq-0.8.0",
+            "name": "python3.7-cirq-0.8.1",
             "outputsToInstall": [
                 "out"
             ],
