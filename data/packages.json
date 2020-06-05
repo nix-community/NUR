@@ -41432,6 +41432,54 @@
         "_attr": "hassLovelaceModules.mini-media-player",
         "_repo": "mweinelt"
     },
+    "nur.repos.mweinelt.trinitycore_825": {
+        "name": "TrinityCore-8.2.5-32978",
+        "pname": "TrinityCore",
+        "version": "8.2.5-32978",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "TrinityCore Open Source MMO Framework",
+            "homepage": "https://www.trinitycore.org",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "TrinityCore-8.2.5-32978",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
+        },
+        "_attr": "trinitycore_825",
+        "_repo": "mweinelt"
+    },
+    "nur.repos.mweinelt.trinitycore_335": {
+        "name": "TrinityCore-TDB335.20051",
+        "pname": "TrinityCore-TDB335.20051",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "TrinityCore Open Source MMO Framework",
+            "homepage": "https://www.trinitycore.org",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "TrinityCore-TDB335.20051",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
+        },
+        "_attr": "trinitycore_335",
+        "_repo": "mweinelt"
+    },
     "nur.repos.n1kolasM.avr8-burn-omat": {
         "name": "avr8-burn-omat-2.1.2",
         "pname": "avr8-burn-omat",
