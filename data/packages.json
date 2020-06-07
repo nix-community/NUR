@@ -28802,51 +28802,6 @@
         "_attr": "poloniexlendingbot",
         "_repo": "jbarthelmes"
     },
-    "nur.repos.jd91mzm2.st": {
-        "name": "st-0.8.3",
-        "pname": "st",
-        "version": "0.8.3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Simple Terminal for X from Suckless.org Community",
-            "homepage": "https://st.suckless.org/",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "andsild@gmail.com",
-                    "github": "andsild",
-                    "githubId": 3808928,
-                    "name": "Anders Sildnes"
-                }
-            ],
-            "name": "st-0.8.3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jd91mzm2('nixpkgs', 'pkgs', 'applications', 'misc', 'st', 'default.nix')#L28"
-        },
-        "_attr": "st",
-        "_repo": "jd91mzm2"
-    },
     "nur.repos.jjjollyjim.exploitdb": {
         "name": "exploitdb",
         "pname": "exploitdb",
@@ -38353,6 +38308,78 @@
         "_attr": "python3Packages.remote-pdb",
         "_repo": "mic92"
     },
+    "nur.repos.mic92.rhasspy": {
+        "name": "python3.7-rhasspy-2.5.0",
+        "pname": "python3.7-rhasspy",
+        "version": "2.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Combination of multiple Rhasspy services running together",
+            "homepage": "https://github.com/rhasspy/rhasspy",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "joerg@thalheim.io",
+                    "github": "mic92",
+                    "githubId": 96200,
+                    "keys": [
+                        {
+                            "fingerprint": "3DEE 1C55 6E1C 3DC5 54F5  875A 003F 2096 411B 5F92",
+                            "longkeyid": "rsa4096/0x003F2096411B5F92"
+                        }
+                    ],
+                    "name": "J\u00f6rg Thalheim"
+                }
+            ],
+            "name": "python3.7-rhasspy-2.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
+        },
+        "_attr": "rhasspy",
+        "_repo": "mic92"
+    },
     "nur.repos.mic92.python3Packages.web2ldap": {
         "name": "python3.7-web2ldap-1.5.75",
         "pname": "python3.7-web2ldap",
@@ -43917,74 +43944,6 @@
         "_attr": "butler",
         "_repo": "nprindle"
     },
-    "nur.repos.nprindle.aurora": {
-        "name": "node_aurora-1.0.0",
-        "pname": "node_aurora",
-        "version": "1.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Spring 2020 VGDev Game",
-            "homepage": "https://github.com/GRarer/Aurora",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "name": "node_aurora-1.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-windows",
-                "i686-windows",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "arm-none",
-                "armv6l-none",
-                "aarch64-none",
-                "avr-none",
-                "i686-none",
-                "x86_64-none",
-                "powerpc-none",
-                "msp430-none",
-                "riscv64-none",
-                "riscv32-none",
-                "vc4-none",
-                "js-ghcjs",
-                "aarch64-genode",
-                "x86_64-genode"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nprindle"
-        },
-        "_attr": "aurora",
-        "_repo": "nprindle"
-    },
     "nur.repos.nprindle.carbon-now": {
         "name": "node_carbon-now-cli-1.4.0",
         "pname": "node_carbon-now-cli",
@@ -44200,6 +44159,23 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nprindle"
         },
         "_attr": "riscv-gnu-toolchain",
+        "_repo": "nprindle"
+    },
+    "nur.repos.nprindle.rover": {
+        "name": "rover",
+        "pname": "rover",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "rover",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nprindle"
+        },
+        "_attr": "rover",
         "_repo": "nprindle"
     },
     "nur.repos.nprindle.githug": {
@@ -47872,9 +47848,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.bitwarden": {
-        "name": "bitwarden-1.43.4",
+        "name": "bitwarden-1.44.3",
         "pname": "bitwarden",
-        "version": "1.43.4",
+        "version": "1.44.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47886,7 +47862,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "bitwarden-1.43.4",
+            "name": "bitwarden-1.44.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -48070,9 +48046,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.buster-captcha-solver": {
-        "name": "buster-captcha-solver-0.7.1",
+        "name": "buster-captcha-solver-0.7.3",
         "pname": "buster-captcha-solver",
-        "version": "0.7.1",
+        "version": "0.7.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48084,7 +48060,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "buster-captcha-solver-0.7.1",
+            "name": "buster-captcha-solver-0.7.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -48205,9 +48181,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.cookie-autodelete": {
-        "name": "cookie-autodelete-3.2.0",
+        "name": "cookie-autodelete-3.3.1",
         "pname": "cookie-autodelete",
-        "version": "3.2.0",
+        "version": "3.3.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48219,7 +48195,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "cookie-autodelete-3.2.0",
+            "name": "cookie-autodelete-3.3.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -48408,9 +48384,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.8",
+        "name": "darkreader-4.9.9",
         "pname": "darkreader",
-        "version": "4.9.8",
+        "version": "4.9.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48422,7 +48398,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.8",
+            "name": "darkreader-4.9.9",
             "outputsToInstall": [
                 "out"
             ],
@@ -48747,10 +48723,146 @@
         "_attr": "firefox-addons.facebook-container",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.firefox-addons.firefox-color": {
+        "name": "firefox-color-2.1.5",
+        "pname": "firefox-color",
+        "version": "2.1.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Build, save and share beautiful Firefox themes.",
+            "homepage": "https://color.firefox.com",
+            "license": {
+                "fullName": "Mozilla Public License 2.0",
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "name": "firefox-color-2.1.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
+        },
+        "_attr": "firefox-addons.firefox-color",
+        "_repo": "rycee"
+    },
+    "nur.repos.rycee.firefox-addons.fraidycat": {
+        "name": "fraidycat-1.1.5",
+        "pname": "fraidycat",
+        "version": "1.1.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Follow from afar. Follow blogs, wikis, Twitter, Instagram, Tumblr - anyone on nearly any blog-like network - from your browser. No notifications, no unread messages, no 'inbox'. Just a single page overview of all your follows.",
+            "homepage": "https://fraidyc.at/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "fraidycat-1.1.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
+        },
+        "_attr": "firefox-addons.fraidycat",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons.gesturefy": {
-        "name": "gesturefy-2.1.6",
+        "name": "gesturefy-3.0.0",
         "pname": "gesturefy",
-        "version": "2.1.6",
+        "version": "3.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48762,7 +48874,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "gesturefy-2.1.6",
+            "name": "gesturefy-3.0.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -48816,9 +48928,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ghostery": {
-        "name": "ghostery-8.4.9",
+        "name": "ghostery-8.5.0",
         "pname": "ghostery",
-        "version": "8.4.9",
+        "version": "8.5.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48830,7 +48942,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "ghostery-8.4.9",
+            "name": "ghostery-8.5.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -49155,16 +49267,84 @@
         "_attr": "firefox-addons.header-editor",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.firefox-addons.honey": {
+        "name": "honey-12.1.1",
+        "pname": "honey",
+        "version": "12.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Automatically find and try coupon codes with 1-click. Works at thousands of stores in the US, Canada, Australia, India and the UK.",
+            "homepage": "https://www.joinhoney.com",
+            "license": {
+                "free": false,
+                "fullName": "Custom License for Honey",
+                "shortName": "honeyl",
+                "url": "https://addons.mozilla.org/en-US/firefox/addon/honey/license/"
+            },
+            "name": "honey-12.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
+        },
+        "_attr": "firefox-addons.honey",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons.https-everywhere": {
-        "name": "https-everywhere-2020.3.16",
+        "name": "https-everywhere-2020.5.20",
         "pname": "https-everywhere",
-        "version": "2020.3.16",
+        "version": "2020.5.20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Encrypt the web! HTTPS Everywhere is a Firefox extension to protect your communications by enabling HTTPS encryption automatically on sites that are known to support it, even when you type URLs or follow links that omit the https: prefix.",
             "homepage": "https://www.eff.org/https-everywhere",
-            "name": "https-everywhere-2020.3.16",
+            "name": "https-everywhere-2020.5.20",
             "outputsToInstall": [
                 "out"
             ],
@@ -49217,16 +49397,90 @@
         "_attr": "firefox-addons.https-everywhere",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.firefox-addons.i-dont-care-about-cookies": {
+        "name": "i-dont-care-about-cookies-3.1.7",
+        "pname": "i-dont-care-about-cookies",
+        "version": "3.1.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Get rid of cookie warnings from almost all websites!",
+            "homepage": "https://www.i-dont-care-about-cookies.eu/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "i-dont-care-about-cookies-3.1.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
+        },
+        "_attr": "firefox-addons.i-dont-care-about-cookies",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons.ipfs-companion": {
-        "name": "ipfs-companion-2.11.0",
+        "name": "ipfs-companion-2.13.0",
         "pname": "ipfs-companion",
-        "version": "2.11.0",
+        "version": "2.13.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Official browser extension that simplifies access to IPFS resources",
             "homepage": "https://github.com/ipfs-shipyard/ipfs-companion",
-            "name": "ipfs-companion-2.11.0",
+            "license": {
+                "fullName": "Creative Commons Zero v1.0 Universal",
+                "shortName": "cc0",
+                "spdxId": "CC0-1.0",
+                "url": "https://spdx.org/licenses/CC0-1.0.html"
+            },
+            "name": "ipfs-companion-2.13.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -49551,9 +49805,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons-generator": {
-        "name": "nixpkgs-firefox-addons-0.5.0",
+        "name": "nixpkgs-firefox-addons-0.6.0",
         "pname": "nixpkgs-firefox-addons",
-        "version": "0.5.0",
+        "version": "0.6.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49579,7 +49833,7 @@
                     "name": "Robert Helgesson"
                 }
             ],
-            "name": "nixpkgs-firefox-addons-0.5.0",
+            "name": "nixpkgs-firefox-addons-0.6.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -49633,15 +49887,15 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-4.2.1",
+        "name": "octotree-5.0.0",
         "pname": "octotree",
-        "version": "4.2.1",
+        "version": "5.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "GitHub on steroids",
             "homepage": "https://github.com/buunguyen/octotree/",
-            "name": "octotree-4.2.1",
+            "name": "octotree-5.0.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -49899,21 +50153,21 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.privacy-badger": {
-        "name": "privacy-badger-2020.5.12",
+        "name": "privacy-badger-2020.6.2",
         "pname": "privacy-badger",
-        "version": "2020.5.12",
+        "version": "2020.6.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Automatically learns to block invisible trackers.",
-            "homepage": "https://www.eff.org/privacybadger",
+            "homepage": "https://privacybadger.org/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
                 "shortName": "gpl3",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "privacy-badger-2020.5.12",
+            "name": "privacy-badger-2020.6.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -50035,9 +50289,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.react-devtools": {
-        "name": "react-devtools-4.6.0",
+        "name": "react-devtools-4.7.0",
         "pname": "react-devtools",
-        "version": "4.6.0",
+        "version": "4.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50049,7 +50303,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "react-devtools-4.6.0",
+            "name": "react-devtools-4.7.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -50109,7 +50363,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "NOTE: Reddit Enhancement Suite is developed independently, and is not officially endorsed by or affiliated with reddit.\n\nRES is a suite of tools to enhance your reddit browsing experience.",
+            "description": "Reddit Enhancement Suite (RES) is a suite of tools to enhance your Reddit browsing experience.",
             "homepage": "https://redditenhancementsuite.com/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
@@ -50239,9 +50493,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-20.5.11",
+        "name": "refined-github-20.6.4",
         "pname": "refined-github",
-        "version": "20.5.11",
+        "version": "20.6.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50253,7 +50507,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-20.5.11",
+            "name": "refined-github-20.6.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -50307,9 +50561,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-17.2",
+        "name": "save-page-we-17.3",
         "pname": "save-page-we",
-        "version": "17.2",
+        "version": "17.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50320,7 +50574,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-17.2",
+            "name": "save-page-we-17.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -50371,6 +50625,74 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
         },
         "_attr": "firefox-addons.save-page-we",
+        "_repo": "rycee"
+    },
+    "nur.repos.rycee.firefox-addons.sidebery": {
+        "name": "sidebery-4.9.0",
+        "pname": "sidebery",
+        "version": "4.9.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Tabs tree and bookmarks in sidebar with advanced containers configuration.",
+            "homepage": "https://github.com/mbnuqw/sidebery",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "sidebery-4.9.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
+        },
+        "_attr": "firefox-addons.sidebery",
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.stylus": {
@@ -50914,10 +51236,78 @@
         "_attr": "firefox-addons.transparent-standalone-image",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.firefox-addons.tridactyl": {
+        "name": "tridactyl-1.19.1",
+        "pname": "tridactyl",
+        "version": "1.19.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Vim, but in your browser. Replace Firefox's control mechanism with one modelled on Vim.\n\nThis addon is very usable, but is in an early stage of development. We intend to implement the majority of Vimperator's features.",
+            "homepage": "https://github.com/cmcaine/tridactyl",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "tridactyl-1.19.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
+        },
+        "_attr": "firefox-addons.tridactyl",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.26.2",
+        "name": "ublock-origin-1.27.10",
         "pname": "ublock-origin",
-        "version": "1.26.2",
+        "version": "1.27.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50929,7 +51319,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.26.2",
+            "name": "ublock-origin-1.27.10",
             "outputsToInstall": [
                 "out"
             ],
@@ -51255,9 +51645,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.zoom-page-we": {
-        "name": "zoom-page-we-17.2",
+        "name": "zoom-page-we-17.4",
         "pname": "zoom-page-we",
-        "version": "17.2",
+        "version": "17.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51268,7 +51658,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "zoom-page-we-17.2",
+            "name": "zoom-page-we-17.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -51557,6 +51947,86 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "day-night-plasma-wallpapers",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.scripts": {
+        "name": "Scripts-unstable",
+        "pname": "Scripts-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Scripts to make my life easier",
+            "homepage": "https://github.com/SCOTT-HAMILTON/Scripts",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "Scripts-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "scripts",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.spectacle-clipboard": {
+        "name": "spectacle-clipboard-master",
+        "pname": "spectacle-clipboard-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The new screenshot capture utility, replaces KSnapshot",
+            "homepage": "https://github.com/SCOTT-HAMILTON/spectacle",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nur@protonmail.com>"
+            ],
+            "name": "spectacle-clipboard-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "spectacle-clipboard",
         "_repo": "shamilton"
     },
     "nur.repos.smaret.astrochem": {
@@ -53967,9 +54437,34 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
             "name": "bus",
             "outputsToInstall": [
                 "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
         },
@@ -54007,7 +54502,7 @@
             ],
             "name": "containerd-1.2.13",
             "outputsToInstall": [
-                "bin",
+                "out",
                 "man"
             ],
             "platforms": [
@@ -54059,7 +54554,7 @@
             ],
             "name": "containerd-1.3.4",
             "outputsToInstall": [
-                "bin",
+                "out",
                 "man"
             ],
             "platforms": [
@@ -54078,6 +54573,58 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
         },
         "_attr": "containerd",
+        "_repo": "vdemeester"
+    },
+    "nur.repos.vdemeester.containerd_1_4": {
+        "name": "containerd-1.4.0-beta.0",
+        "pname": "containerd",
+        "version": "1.4.0-beta.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A daemon to control runC",
+            "homepage": "https://containerd.io/",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "jaka@x-truder.net",
+                    "github": "offlinehacker",
+                    "githubId": 585547,
+                    "name": "Jaka Hudoklin"
+                },
+                {
+                    "email": "vincent@sbr.pm",
+                    "github": "vdemeester",
+                    "githubId": 6508,
+                    "name": "Vincent Demeester"
+                }
+            ],
+            "name": "containerd-1.4.0-beta.0",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "containerd_1_4",
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.crc": {
@@ -56089,6 +56636,38 @@
         "_attr": "jvozba",
         "_repo": "xe"
     },
+    "nur.repos.xe.lchat": {
+        "name": "lchat-git",
+        "pname": "lchat-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "lchat-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "lchat",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.libutf": {
+        "name": "libutf-git",
+        "pname": "libutf-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "libutf-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "libutf",
+        "_repo": "xe"
+    },
     "nur.repos.xe.luakit": {
         "name": "luakit-git",
         "pname": "luakit-git",
@@ -56308,6 +56887,49 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
         },
         "_attr": "quickserv",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.sctd": {
+        "name": "sctd-0.1.2",
+        "pname": "sctd",
+        "version": "0.1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "set color temperature daemon ",
+            "homepage": "https://github.com/amir/sctd",
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "sctd-0.1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "sctd",
         "_repo": "xe"
     },
     "nur.repos.xe.sm64pc": {
