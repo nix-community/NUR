@@ -14638,6 +14638,57 @@
         "_attr": "unicodeDoc",
         "_repo": "immae"
     },
+    "nur.repos.ivar.betterdiscordctl": {
+        "name": "betterdiscordctl-1.7.0",
+        "pname": "betterdiscordctl",
+        "version": "1.7.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A utility for managing BetterDiscord on Linux",
+            "homepage": "https://github.com/bb010g/betterdiscordctl",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ivar.scholten@protonmail.com",
+                    "github": "IvarWithoutBones",
+                    "githubId": 41924494,
+                    "name": "Ivar"
+                },
+                {
+                    "email": "me@bb010g.com",
+                    "github": "bb010g",
+                    "githubId": 340132,
+                    "name": "Brayden Banks"
+                }
+            ],
+            "name": "betterdiscordctl-1.7.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar"
+        },
+        "_attr": "betterdiscordctl",
+        "_repo": "ivar"
+    },
     "nur.repos.ivar.sm64pc": {
         "name": "sm64pc-unstable-2020-05-19",
         "pname": "sm64pc-unstable",
