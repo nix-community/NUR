@@ -81,6 +81,7 @@ def update_command(args: Namespace) -> None:
         except EvalError as err:
             if repo.locked_version is None:
                 # likely a repository added in a pull request, make it fatal then
+                logger.error("repository {repo.name} failed to evaluate: {err}. This repo is not yet in our lock file!!!!")
                 raise
             # Do not print stack traces
             logger.error(f"repository {repo.name} failed to evaluate: {err}")
