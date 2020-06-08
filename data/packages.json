@@ -4871,66 +4871,6 @@
         "_attr": "python3Packages.ipyvuetify",
         "_repo": "drewrisinger"
     },
-    "nur.repos.drewrisinger.python3Packages.lmfit": {
-        "name": "python3.7-lmfit-1.0.1",
-        "pname": "python3.7-lmfit",
-        "version": "1.0.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Non-linear least-squares minimization, with flexible parameter settings",
-            "downloadPage": "https://github.com/lmfit/lmfit-py/releases",
-            "homepage": "https://lmfit.github.io/lmfit-py/index.html",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "longDescription": "Based on scipy.optimize.leastsq and with many additional classes and methods for curve fitting",
-            "name": "python3.7-lmfit-1.0.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
-        },
-        "_attr": "python3Packages.lmfit",
-        "_repo": "drewrisinger"
-    },
     "nur.repos.drewrisinger.python3Packages.marshmallow-polyfield": {
         "name": "python3.7-marshmallow-polyfield-5.9",
         "pname": "python3.7-marshmallow-polyfield",
