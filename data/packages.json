@@ -5549,9 +5549,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pylatexenc": {
-        "name": "python3.7-pylatexenc-2.3",
+        "name": "python3.7-pylatexenc-2.5",
         "pname": "python3.7-pylatexenc",
-        "version": "2.3",
+        "version": "2.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5589,7 +5589,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.7-pylatexenc-2.3",
+            "name": "python3.7-pylatexenc-2.5",
             "outputsToInstall": [
                 "out"
             ],
