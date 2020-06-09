@@ -52271,6 +52271,86 @@
         "_attr": "inkscape",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.kapptemplate": {
+        "name": "KAppTemplate-19.12.3",
+        "pname": "KAppTemplate",
+        "version": "19.12.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "KDE App Code Template Generator",
+            "homepage": "https://kde.org/applications/en/development/org.kde.kapptemplate",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "KAppTemplate-19.12.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "kapptemplate",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.kbreakout": {
+        "name": "KBreakOut-19.12.3",
+        "pname": "KBreakOut",
+        "version": "19.12.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "KDE's Breakout-like Game",
+            "homepage": "https://kde.org/applications/en/games/org.kde.kbreakout",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "KBreakOut-19.12.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "kbreakout",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.keysmith": {
         "name": "keysmith-0.1",
         "pname": "keysmith",
@@ -52309,6 +52389,46 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "keysmith",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.kirigami-gallery": {
+        "name": "KirigamiGallery-20.04.1",
+        "pname": "KirigamiGallery",
+        "version": "20.04.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "View examples of Kirigami components",
+            "homepage": "https://kde.org/applications/en/development/org.kde.kirigami2.gallery",
+            "license": {
+                "fullName": "GNU Library General Public License v2 only",
+                "shortName": "lgpl2",
+                "spdxId": "LGPL-2.0-only",
+                "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "KirigamiGallery-20.04.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "kirigami-gallery",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.ksmoothdock": {
@@ -52366,6 +52486,9 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
             "name": "Lokalize-20.04.1",
             "outputsToInstall": [
                 "out"
