@@ -3881,6 +3881,23 @@
         "_attr": "photini",
         "_repo": "dandellion"
     },
+    "nur.repos.dandellion.plotbitrate": {
+        "name": "plot_bitrate",
+        "pname": "plot_bitrate",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "plot bitrate in video.",
+            "name": "plot_bitrate",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
+        },
+        "_attr": "plotbitrate",
+        "_repo": "dandellion"
+    },
     "nur.repos.dandellion.radical-native": {
         "name": "radical-nativeFull",
         "pname": "radical-nativeFull",
@@ -3895,23 +3912,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
         },
         "_attr": "radical-native",
-        "_repo": "dandellion"
-    },
-    "nur.repos.dandellion.plotbitrate": {
-        "name": "rank_photos",
-        "pname": "rank_photos",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "plot bitrate in video.",
-            "name": "rank_photos",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
-        },
-        "_attr": "plotbitrate",
         "_repo": "dandellion"
     },
     "nur.repos.dandellion.rank_photos": {
