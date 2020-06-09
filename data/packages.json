@@ -41542,9 +41542,9 @@
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.hassLovelaceModules.multiple-entity-row": {
-        "name": "multiple-entity-row-v3.1.1",
-        "pname": "multiple-entity-row-v3.1.1",
-        "version": "",
+        "name": "multiple-entity-row-3.2.0",
+        "pname": "multiple-entity-row",
+        "version": "3.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41556,7 +41556,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "multiple-entity-row-v3.1.1",
+            "name": "multiple-entity-row-3.2.0",
             "outputsToInstall": [
                 "out"
             ],
