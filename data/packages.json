@@ -52147,6 +52147,86 @@
         "_attr": "zef",
         "_repo": "sgo"
     },
+    "nur.repos.shamilton.baobab": {
+        "name": "baobab-3.34.0",
+        "pname": "baobab",
+        "version": "3.34.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Gnome disk utility fixed icons for KDE",
+            "homepage": "https://wiki.gnome.org/Apps/DiskUsageAnalyzer",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "baobab-3.34.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "baobab",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.bomber": {
+        "name": "Bomber-19.12.3",
+        "pname": "Bomber",
+        "version": "19.12.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Arcade Bombing Game",
+            "homepage": "https://kde.org/applications/en/games/org.kde.bomber",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "Bomber-19.12.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "bomber",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.controls-for-fake": {
         "name": "ControlsForFake-unstable",
         "pname": "ControlsForFake-unstable",
@@ -52457,6 +52537,46 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "keysmith",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.killbots": {
+        "name": "Killbots-19.12.3",
+        "pname": "Killbots",
+        "version": "19.12.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Strategy Game with Robots",
+            "homepage": "https://kde.org/applications/en/games/org.kde.killbots",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "Killbots-19.12.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "killbots",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.kirigami-gallery": {
