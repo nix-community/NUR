@@ -54258,6 +54258,22 @@
         "_attr": "worksnaps-client",
         "_repo": "suhr"
     },
+    "nur.repos.syberant.rofi-unwrapped-git": {
+        "name": "rofi-unwrapped-git-1.6.0",
+        "pname": "rofi-unwrapped-git",
+        "version": "1.6.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "rofi-unwrapped-git-1.6.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/syberant"
+        },
+        "_attr": "rofi-unwrapped-git",
+        "_repo": "syberant"
+    },
     "nur.repos.thilobillerbeck.ddev": {
         "name": "ddev-v1.12.3",
         "pname": "ddev-v1.12.3",
