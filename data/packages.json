@@ -54303,6 +54303,22 @@
         "_attr": "worksnaps-client",
         "_repo": "suhr"
     },
+    "nur.repos.syberant.powermenu": {
+        "name": "powermenu",
+        "pname": "powermenu",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "powermenu",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/syberant('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "powermenu",
+        "_repo": "syberant"
+    },
     "nur.repos.syberant.rofi-unwrapped-git": {
         "name": "rofi-unwrapped-git-1.6.0",
         "pname": "rofi-unwrapped-git",
