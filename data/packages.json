@@ -10319,9 +10319,9 @@
         "_repo": "emmanuelrosa"
     },
     "nur.repos.emmanuelrosa.electrum-personal-server": {
-        "name": "electrum-personal-server-0.2.0",
+        "name": "electrum-personal-server-0.2.1.1",
         "pname": "electrum-personal-server",
-        "version": "0.2.0",
+        "version": "0.2.1.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10359,7 +10359,7 @@
                     "name": "Emmanuel Rosa"
                 }
             ],
-            "name": "electrum-personal-server-0.2.0",
+            "name": "electrum-personal-server-0.2.1.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -10539,6 +10539,51 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa"
         },
         "_attr": "pdf2png",
+        "_repo": "emmanuelrosa"
+    },
+    "nur.repos.emmanuelrosa.rofi-menu": {
+        "name": "rofi-menu-0.1.0.0",
+        "pname": "rofi-menu",
+        "version": "0.1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Various rofi menus (aka. modi)",
+            "homepage": "https://github.com/emmanuelrosa/rofi-menu",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "emmanuel_rosa@aol.com",
+                    "github": "emmanuelrosa",
+                    "githubId": 13485450,
+                    "name": "Emmanuel Rosa"
+                }
+            ],
+            "name": "rofi-menu-0.1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa"
+        },
+        "_attr": "rofi-menu",
         "_repo": "emmanuelrosa"
     },
     "nur.repos.emmanuelrosa.wingdings": {
