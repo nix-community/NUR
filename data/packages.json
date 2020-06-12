@@ -54319,6 +54319,22 @@
         "_attr": "launchers-git",
         "_repo": "syberant"
     },
+    "nur.repos.syberant.polybar-1": {
+        "name": "polybar-1",
+        "pname": "polybar",
+        "version": "1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "polybar-1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/syberant('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "polybar-1",
+        "_repo": "syberant"
+    },
     "nur.repos.syberant.powermenu": {
         "name": "powermenu",
         "pname": "powermenu",
@@ -54349,18 +54365,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/syberant"
         },
         "_attr": "rofi-unwrapped-git",
-        "_repo": "syberant"
-    },
-    "nur.repos.syberant.source-rofi": {
-        "name": "source",
-        "pname": "source",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "homepage": "https://github.com/adi1090x/rofi",
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/syberant"
-        },
-        "_attr": "source-rofi",
         "_repo": "syberant"
     },
     "nur.repos.thilobillerbeck.ddev": {
