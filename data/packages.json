@@ -54599,6 +54599,22 @@
         "_attr": "polybar-1",
         "_repo": "syberant"
     },
+    "nur.repos.syberant.polybar-3": {
+        "name": "polybar-3",
+        "pname": "polybar",
+        "version": "3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "polybar-3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/syberant('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "polybar-3",
+        "_repo": "syberant"
+    },
     "nur.repos.syberant.powermenu": {
         "name": "powermenu",
         "pname": "powermenu",
