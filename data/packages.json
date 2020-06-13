@@ -52749,6 +52749,46 @@
         "_attr": "inkscape",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.juk": {
+        "name": "juk-19.12.3",
+        "pname": "juk",
+        "version": "19.12.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Audio jukebox app, supporting collections of MP3, Ogg Vorbis and FLAC audio files",
+            "homepage": "https://kde.org/applications/en/multimedia/org.kde.juk",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "juk-19.12.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "juk",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.kapptemplate": {
         "name": "KAppTemplate-19.12.3",
         "pname": "KAppTemplate",
@@ -53027,6 +53067,230 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "lokalize",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.merge-keepass": {
+        "name": "python3.7-merge-keepass-unstable",
+        "pname": "python3.7-merge-keepass-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Keepass Databases Merging script",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-merge-keepass-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "merge-keepass",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.parallel-ssh": {
+        "name": "python3.7-parallel-ssh-1.9.1",
+        "pname": "python3.7-parallel-ssh",
+        "version": "1.9.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Keepass Databases Merging script",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-parallel-ssh-1.9.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "parallel-ssh",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.ssh2-python": {
+        "name": "python3.7-ssh2-python-0.17.0",
+        "pname": "python3.7-ssh2-python",
+        "version": "0.17.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Super fast SSH2 protocol library",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU Library General Public License v2 only",
+                "shortName": "lgpl2",
+                "spdxId": "LGPL-2.0-only",
+                "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-ssh2-python-0.17.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "ssh2-python",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.sync-database": {
+        "name": "python3.7-sync-database-unstable",
+        "pname": "python3.7-sync-database-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Keepass databases syncing script to ssh servers",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-sync-database-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "sync-database",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.scripts": {
