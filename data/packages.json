@@ -49211,9 +49211,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.google-search-link-fix": {
-        "name": "google-search-link-fix-1.6.9",
+        "name": "google-search-link-fix-1.6.10",
         "pname": "google-search-link-fix",
-        "version": "1.6.9",
+        "version": "1.6.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49225,7 +49225,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "google-search-link-fix-1.6.9",
+            "name": "google-search-link-fix-1.6.10",
             "outputsToInstall": [
                 "out"
             ],
