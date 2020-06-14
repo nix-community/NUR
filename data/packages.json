@@ -16205,9 +16205,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73": {
-        "name": "php-7.3.18",
+        "name": "php-7.3.19",
         "pname": "php",
-        "version": "7.3.18",
+        "version": "7.3.19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16239,7 +16239,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.3.18",
+            "name": "php-7.3.19",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -16294,9 +16294,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73-unit": {
-        "name": "php-7.3.18",
+        "name": "php-7.3.19",
         "pname": "php",
-        "version": "7.3.18",
+        "version": "7.3.19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16328,7 +16328,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.3.18",
+            "name": "php-7.3.19",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -16383,9 +16383,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74": {
-        "name": "php-7.4.6",
+        "name": "php-7.4.7",
         "pname": "php",
-        "version": "7.4.6",
+        "version": "7.4.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16417,7 +16417,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.4.6",
+            "name": "php-7.4.7",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -16472,9 +16472,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74-unit": {
-        "name": "php-7.4.6",
+        "name": "php-7.4.7",
         "pname": "php",
-        "version": "7.4.6",
+        "version": "7.4.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16506,7 +16506,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.4.6",
+            "name": "php-7.4.7",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -21363,14 +21363,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-pcs-1.3.3",
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21380,14 +21380,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pcs-1.3.3",
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21397,14 +21397,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pcs-1.3.3",
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21414,14 +21414,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pcs-1.3.3",
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21431,14 +21431,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pcs-1.3.3",
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21448,14 +21448,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pcs-1.3.3",
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21465,14 +21465,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
-            "name": "php-pcs-1.3.3",
+            "available": true,
+            "broken": false,
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21482,14 +21482,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-pcs-1.3.3",
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21499,14 +21499,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pcs-1.3.3",
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21516,14 +21516,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pcs-1.3.3",
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21533,14 +21533,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-pcs-1.3.3",
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -21550,14 +21550,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.pcs": {
-        "name": "php-pcs-1.3.3",
+        "name": "php-pcs-1.3.5",
         "pname": "php-pcs",
-        "version": "1.3.3",
+        "version": "1.3.5",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
-            "name": "php-pcs-1.3.3",
+            "available": true,
+            "broken": false,
+            "name": "php-pcs-1.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -23611,9 +23611,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23640,7 +23640,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -23650,9 +23650,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23679,7 +23679,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -23689,9 +23689,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23718,7 +23718,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -23728,9 +23728,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23757,7 +23757,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -23767,9 +23767,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23796,7 +23796,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -23806,9 +23806,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23835,7 +23835,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -23845,9 +23845,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23874,7 +23874,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -23884,9 +23884,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23913,7 +23913,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -23923,9 +23923,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23952,7 +23952,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -23962,9 +23962,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23991,7 +23991,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -24001,9 +24001,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24030,7 +24030,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -24040,9 +24040,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.25",
+        "name": "php-phpstan-0.12.28",
         "pname": "php-phpstan",
-        "version": "0.12.25",
+        "version": "0.12.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24069,7 +24069,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.25",
+            "name": "php-phpstan-0.12.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -52659,7 +52659,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "KDE Plasma utility to automatically change to a night wallpaper when the sun is reaching sunset.",
+            "description": "KDE Plasma utility to automatically change to a night wallpaper when the sun is reaching sunset",
             "homepage": "https://github.com/SCOTT-HAMILTON/Day-night-plasma-wallpapers",
             "license": {
                 "fullName": "MIT License",
@@ -52699,8 +52699,8 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A cool desktop panel for KDE Plasma 5",
-            "homepage": "https://dangvd.github.io/ksmoothdock/",
+            "description": "A pulseaudio client to play wav in a simulated microphone",
+            "homepage": "https://github.com/SCOTT-HAMILTON/FakeMicWavPlayer",
             "license": {
                 "fullName": "MIT License",
                 "shortName": "mit",
@@ -53187,7 +53187,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Keepass Databases Merging script",
+            "description": "Asynchronous parallel SSH client library",
             "isBuildPythonPackage": [
                 "aarch64-linux",
                 "armv5tel-linux",
@@ -53299,7 +53299,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Keepass databases syncing script to ssh servers",
+            "description": "Keepass databases synching script to ssh servers and phone",
             "isBuildPythonPackage": [
                 "aarch64-linux",
                 "armv5tel-linux",
@@ -53389,13 +53389,13 @@
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.spectacle-clipboard": {
-        "name": "spectacle-clipboard-master",
-        "pname": "spectacle-clipboard-master",
+        "name": "spectacle-clipboard-unstable",
+        "pname": "spectacle-clipboard-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "The new screenshot capture utility, replaces KSnapshot",
+            "description": "KDE Spectacle fork to enable clipboard funcionnalities",
             "homepage": "https://github.com/SCOTT-HAMILTON/spectacle",
             "license": {
                 "fullName": "MIT License",
@@ -53404,9 +53404,9 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nur@protonmail.com>"
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "spectacle-clipboard-master",
+            "name": "spectacle-clipboard-unstable",
             "outputsToInstall": [
                 "out"
             ],
