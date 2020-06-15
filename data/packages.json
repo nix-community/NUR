@@ -48316,9 +48316,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.buster-captcha-solver": {
-        "name": "buster-captcha-solver-0.7.3",
+        "name": "buster-captcha-solver-1.0.1",
         "pname": "buster-captcha-solver",
-        "version": "0.7.3",
+        "version": "1.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48330,7 +48330,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "buster-captcha-solver-0.7.3",
+            "name": "buster-captcha-solver-1.0.1",
             "outputsToInstall": [
                 "out"
             ],
