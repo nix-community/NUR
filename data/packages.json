@@ -35895,6 +35895,2425 @@
         "_attr": "wekan",
         "_repo": "lschuermann"
     },
+    "nur.repos.makefu._4nxci": {
+        "name": "4nxci-4.03",
+        "pname": "4nxci",
+        "version": "4.03",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "convert xci to nsp",
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "name": "4nxci-4.03",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "_4nxci",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.airsensor-py": {
+        "name": "airsensor-py-2017-12-05",
+        "pname": "airsensor-py",
+        "version": "2017-12-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "airsensor-py-2017-12-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "airsensor-py",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.alsa-hdspconf": {
+        "name": "alsa-hdspconf-1.0.29",
+        "pname": "alsa-hdspconf",
+        "version": "1.0.29",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "ALSA tools - alsa-hdspconf-1.0.29",
+            "homepage": "http://www.alsa-project.org/",
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "alsa-hdspconf-1.0.29",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "alsa-hdspconf",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.alsa-hdsploader": {
+        "name": "alsa-hdsploader-1.0.29",
+        "pname": "alsa-hdsploader",
+        "version": "1.0.29",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "ALSA tools - alsa-hdsploader-1.0.29",
+            "homepage": "http://www.alsa-project.org/",
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "alsa-hdsploader-1.0.29",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "alsa-hdsploader",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.alsa-hdspmixer": {
+        "name": "alsa-hdspmixer-1.0.29",
+        "pname": "alsa-hdspmixer",
+        "version": "1.0.29",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "ALSA tools - alsa-hdspmixer-1.0.29",
+            "homepage": "http://www.alsa-project.org/",
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "alsa-hdspmixer-1.0.29",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "alsa-hdspmixer",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.baidudl": {
+        "name": "baidudl-2018-01-16",
+        "pname": "baidudl",
+        "version": "2018-01-16",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "This is a multi-thread download tool for pan.baidu.com",
+            "homepage": "https://github.com/yzfedora/baidudl",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "baidudl-2018-01-16",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "baidudl",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.beef": {
+        "name": "beef-2018-09-21",
+        "pname": "beef",
+        "version": "2018-09-21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The Browser Exploitation Framework",
+            "homepage": "https://beefproject.com/",
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "beef-2018-09-21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "beef",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.bin2iso": {
+        "name": "bin2iso-1.9b",
+        "pname": "bin2iso",
+        "version": "1.9b",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "converts bin+cue to iso",
+            "homepage": "https://github.com/einsteinx2/bin2iso",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "bin2iso-1.9b",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "bin2iso",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.cc-tool": {
+        "name": "cc-tool-407fd7e",
+        "pname": "cc-tool",
+        "version": "407fd7e",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "copy isos to psx hdd",
+            "homepage": "https://github.com/AKuHAK/hdl-dump",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "cc-tool-407fd7e",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "cc-tool",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.cmpforopenssl": {
+        "name": "cmpforopenssl-462b3",
+        "pname": "cmpforopenssl",
+        "version": "462b3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A cryptographic library that implements the SSL and TLS protocols",
+            "homepage": "https://sourceforge.net/p/cmpforopenssl",
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "cmpforopenssl-462b3",
+            "outputsToInstall": [
+                "bin",
+                "man"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu",
+            "priority": 0
+        },
+        "_attr": "cmpforopenssl",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.cue2pops": {
+        "name": "cue2pops-2",
+        "pname": "cue2pops",
+        "version": "2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "converts bin+cue to iso",
+            "homepage": "http://users.eastlink.ca/~doiron/bin2iso/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "cue2pops-2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "cue2pops",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.drozer": {
+        "name": "drozer-2.4.3",
+        "pname": "drozer",
+        "version": "2.4.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The Leading Security Assessment Framework for Android",
+            "homepage": "https://github.com/mwrlabs/drozer/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "name": "drozer-2.4.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "drozer",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.Fluffy": {
+        "name": "Fluffy-2.9",
+        "pname": "Fluffy",
+        "version": "2.9",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A feature-rich tool for installing NSPs",
+            "homepage": "https://github.com/fourminute/Fluffy",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "Fluffy-2.9",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "Fluffy",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.gen-oath-safe": {
+        "name": "gen-oath-safe-2017-06-30",
+        "pname": "gen-oath-safe",
+        "version": "2017-06-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "gen-oath-safe-2017-06-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "gen-oath-safe",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.git-xlsx-textconv": {
+        "name": "git-xlsx-textconv-70685e7f8",
+        "pname": "git-xlsx-textconv",
+        "version": "70685e7f8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "homepage": "https://github.com/tokuhirom/git-xlsx-textconv",
+            "name": "git-xlsx-textconv-70685e7f8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "git-xlsx-textconv",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.hdl-dump": {
+        "name": "hdl-dump-75df8d7",
+        "pname": "hdl-dump",
+        "version": "75df8d7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "copy isos to psx hdd",
+            "homepage": "https://github.com/AKuHAK/hdl-dump",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "hdl-dump-75df8d7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "hdl-dump",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.logstash-filter-tld": {
+        "name": "logstash-filter-tld-3.0.3",
+        "pname": "logstash-filter-tld",
+        "version": "3.0.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "logstash filter plugin",
+            "homepage": "https://github.com/logstash-plugins/logstash-filter-tld",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "logstash-filter-tld-3.0.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "logstash-filter-tld",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.logstash-output-exec": {
+        "name": "logstash-input-github-3.1.0",
+        "pname": "logstash-input-github",
+        "version": "3.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "logstash output plugin",
+            "homepage": "https://github.com/logstash-plugins/logstash-output-exec",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "logstash-input-github-3.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "logstash-output-exec",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.logstash-input-rss": {
+        "name": "logstash-input-rss-3.0.3",
+        "pname": "logstash-input-rss",
+        "version": "3.0.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "logstash output plugin",
+            "homepage": "https://github.com/logstash-plugins/logstash-input-rss",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "logstash-input-rss-3.0.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "logstash-input-rss",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.novnc": {
+        "name": "novnc-0.6.2",
+        "pname": "novnc",
+        "version": "0.6.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A HTML5 VNC Client\n",
+            "homepage": "http://novnc.com/info.html",
+            "license": {
+                "fullName": "Mozilla Public License 2.0",
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "name": "novnc-0.6.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu",
+            "repositories": {
+                "git": "git://github.com/novnc/noVNC.git"
+            }
+        },
+        "_attr": "novnc",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.ns-atmosphere-programmer": {
+        "name": "ns-atmosphere-programmer-0.1",
+        "pname": "ns-atmosphere-programmer",
+        "version": "0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Payload programmer for ns-atmosphere injector for nintendo switch",
+            "homepage": "http://www.ns-atmosphere.com",
+            "license": [
+                {
+                    "free": false,
+                    "fullName": "Unfree",
+                    "shortName": "unfree"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "ns-atmosphere-programmer-0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "ns-atmosphere-programmer",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.opl-utils": {
+        "name": "opl-utils-881c0d2",
+        "pname": "opl-utils",
+        "version": "881c0d2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "open-ps2-loader utils (opl2iso,iso2opl,genvmc)",
+            "homepage": "https://github.com/ifcaro/Open-PS2-Loader",
+            "name": "opl-utils-881c0d2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "opl-utils",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.pavumeter": {
+        "name": "pavumeter-0.9.3",
+        "pname": "pavumeter",
+        "version": "0.9.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "PulseAudio volumene meter",
+            "homepage": "http://0pointer.de/lennart/projects/pavumeter",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "pavumeter-0.9.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "pavumeter",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.debmirror": {
+        "name": "perl5.30.2-debmirror-2.25",
+        "pname": "perl5.30.2-debmirror",
+        "version": "2.25",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "mirror apt repos",
+            "homepage": "https://tracker.debian.org/pkg/debmirror",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "perl5.30.2-debmirror-2.25",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'lib', 'attrsets.nix')#L344"
+        },
+        "_attr": "debmirror",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.pfsshell": {
+        "name": "pfsshell-64f8c2",
+        "pname": "pfsshell",
+        "version": "64f8c2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "browse and transfer files to/from PFS filesystems",
+            "homepage": "https://github.com/uyjulian/pfsshell",
+            "name": "pfsshell-64f8c2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "pfsshell",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.pkg2zip": {
+        "name": "pkg2zip-2018-06-15",
+        "pname": "pkg2zip",
+        "version": "2018-06-15",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "St4rk's Vita pkg decrypter",
+            "homepage": "https://github.com/St4rk/PkgDecrypt",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "pkg2zip-2018-06-15",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "pkg2zip",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.PkgDecrypt": {
+        "name": "PkgDecrypt-2017-12-01",
+        "pname": "PkgDecrypt",
+        "version": "2017-12-01",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "St4rk's Vita pkg decrypter",
+            "homepage": "https://github.com/St4rk/PkgDecrypt",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "PkgDecrypt-2017-12-01",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "PkgDecrypt",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.mycube-flask": {
+        "name": "python2.7-mycube-flask-0.2.3.4",
+        "pname": "python2.7-mycube-flask",
+        "version": "0.2.3.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "flask app for mycube",
+            "homepage": "https://github.com/makefu/mycube-flask",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "python2.7-mycube-flask-0.2.3.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "mycube-flask",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.nltk": {
+        "name": "python2.7-nltk-3.2.1",
+        "pname": "python2.7-nltk",
+        "version": "3.2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Natural languages Toolkit",
+            "homepage": "http://nltk.org",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "python2.7-nltk-3.2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "nltk",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.nodemcu-uploader": {
+        "name": "python2.7-nodemcu-uploader-0.4.1",
+        "pname": "python2.7-nodemcu-uploader",
+        "version": "0.4.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "tool for uploading files to NodeMCU filesystem",
+            "homepage": "https://github.com/kmpm/nodemcu-uploader",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "python2.7-nodemcu-uploader-0.4.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "nodemcu-uploader",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.devpi-web": {
+        "name": "python3-3.7.7-env",
+        "pname": "python3",
+        "version": "3.7.7-env",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A high-level dynamically-typed programming language",
+            "homepage": "http://python.org",
+            "license": {
+                "fullName": "Python Software Foundation License version 2",
+                "shortName": "psfl",
+                "spdxId": "Python-2.0",
+                "url": "https://spdx.org/licenses/Python-2.0.html"
+            },
+            "longDescription": "Python is a remarkably powerful dynamic programming language that\nis used in a wide variety of application domains. Some of its key\ndistinguishing features include: clear, readable syntax; strong\nintrospection capabilities; intuitive object orientation; natural\nexpression of procedural code; full modularity, supporting\nhierarchical packages; exception-based error handling; and very\nhigh level dynamic data types.\n",
+            "maintainers": [
+                {
+                    "email": "fridh@fridh.nl",
+                    "github": "fridh",
+                    "githubId": 2129135,
+                    "name": "Frederik Rietdijk"
+                }
+            ],
+            "name": "python3-3.7.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'pkgs', 'development', 'interpreters', 'python', 'cpython', 'default.nix')#L284"
+        },
+        "_attr": "devpi-web",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.acdcli": {
+        "name": "python3.7-acdcli-0.3.2",
+        "pname": "python3.7-acdcli",
+        "version": "0.3.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "communicate with amazon drive",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "python3.7-acdcli-0.3.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "acdcli",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.ampel": {
+        "name": "python3.7-ampel-0.2.5",
+        "pname": "python3.7-ampel",
+        "version": "0.2.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "change colors of rgb cubes",
+            "homepage": "http://cgit.euer.krebsco.de/ampel",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "python3.7-ampel-0.2.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "ampel",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.bintray-upload": {
+        "name": "python3.7-bintray-upload-0.1.2",
+        "pname": "python3.7-bintray-upload",
+        "version": "0.1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Simple BinTray utility for uploading packages",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "python3.7-bintray-upload-0.1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "bintray-upload",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.cameraupload-server": {
+        "name": "python3.7-cameraupload-server-0.2.4",
+        "pname": "python3.7-cameraupload-server",
+        "version": "0.2.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "server side for cameraupload_full",
+            "homepage": "https://github.com/makefu/cameraupload-server",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "python3.7-cameraupload-server-0.2.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "cameraupload-server",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.elchhub": {
+        "name": "python3.7-elchhub-1.0.5",
+        "pname": "python3.7-elchhub",
+        "version": "1.0.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "elchhub",
+            "homepage": "https://github.com/krebs/elchhub",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Do What The F*ck You Want To Public License",
+                "shortName": "wtfpl",
+                "spdxId": "WTFPL",
+                "url": "https://spdx.org/licenses/WTFPL.html"
+            },
+            "name": "python3.7-elchhub-1.0.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "elchhub",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.hydra-check": {
+        "name": "python3.7-hydra-check",
+        "pname": "python3.7-hydra-check",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "python3.7-hydra-check",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "hydra-check",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.liveproxy": {
+        "name": "python3.7-liveproxy-0.3.0",
+        "pname": "python3.7-liveproxy",
+        "version": "0.3.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "LiveProxy is a local Proxyserver between Streamlink and an URL",
+            "homepage": "https://github.com/back-to/liveproxy",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "name": "python3.7-liveproxy-0.3.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "liveproxy",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.minibar": {
+        "name": "python3.7-minibar-0.5.0",
+        "pname": "python3.7-minibar",
+        "version": "0.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "python3.7-minibar-0.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "minibar",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.nixpkgs-pytools": {
+        "name": "python3.7-nixpkgs-pytools-1.3.0",
+        "pname": "python3.7-nixpkgs-pytools",
+        "version": "1.3.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Tools for removing the tedious nature of creating nixpkgs derivations",
+            "homepage": "https://github.com/nix-community/nixpkgs-pytools/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "python3.7-nixpkgs-pytools-1.3.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "nixpkgs-pytools",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.switch-launcher": {
+        "name": "python3.7-nodemcu-uploader-0.1.0",
+        "pname": "python3.7-nodemcu-uploader",
+        "version": "0.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Desktop switch payload launcher based on a modified reswitched injector",
+            "homepage": "https://github.com/ksmit799/switch-launcher",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "python3.7-nodemcu-uploader-0.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "switch-launcher",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.prison-break": {
+        "name": "python3.7-prison-break-1.3.0",
+        "pname": "python3.7-prison-break",
+        "version": "1.3.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "python3.7-prison-break-1.3.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "prison-break",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.qcma": {
+        "name": "qcma-8e6cafedc0f47733f33323f829624e3fc847a176",
+        "pname": "qcma",
+        "version": "8e6cafedc0f47733f33323f829624e3fc847a176",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Content Manager Assistant for the PS Vita",
+            "homepage": "https://github.com/codestation/qcma",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "qcma-8e6cafedc0f47733f33323f829624e3fc847a176",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "qcma",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.quodlibet": {
+        "name": "quodlibet-4.2.1",
+        "pname": "quodlibet",
+        "version": "4.2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "GTK-based audio player written in Python, using the Mutagen tagging library",
+            "homepage": "https://quodlibet.readthedocs.io/en/latest/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "Quod Libet is a GTK-based audio player written in Python, using\nthe Mutagen tagging library. It's designed around the idea that\nyou know how to organize your music better than we do. It lets\nyou make playlists based on regular expressions (don't worry,\nregular searches work too). It lets you display and edit any\ntags you want in the file. And it lets you do this for all the\nfile formats it supports. Quod Libet easily scales to libraries\nof thousands (or even tens of thousands) of songs. It also\nsupports most of the features you expect from a modern media\nplayer, like Unicode support, tag editing, Replay Gain, podcasts\n& internet radio, and all major audio formats.\n",
+            "maintainers": [
+                {
+                    "email": "jonas@chaoflow.net",
+                    "github": "coroa",
+                    "githubId": 2552981,
+                    "name": "Jonas H\u00f6rsch"
+                },
+                {
+                    "email": "s@uyon.co",
+                    "github": "sauyon",
+                    "githubId": 2347889,
+                    "name": "Sauyon Lee"
+                }
+            ],
+            "name": "quodlibet-4.2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'pkgs', 'applications', 'audio', 'quodlibet', 'default.nix')#L59"
+        },
+        "_attr": "quodlibet",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.shiori": {
+        "name": "shiori-1.6.0-warc",
+        "pname": "shiori",
+        "version": "1.6.0-warc",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "homepage": "https://github.com/go-shiori/shiori",
+            "name": "shiori-1.6.0-warc",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "shiori",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.skytraq-logger": {
+        "name": "skytraq-datalogger-4966a8",
+        "pname": "skytraq-datalogger",
+        "version": "4966a8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "datalogger for skytraq",
+            "homepage": "http://github.com/makefu/skytraq-datalogger",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "skytraq-datalogger-4966a8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "skytraq-logger",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.soldat": {
+        "name": "soldat-1.0.0",
+        "pname": "soldat",
+        "version": "1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "soldat-1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "soldat",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.tw-upload-plugin": {
+        "name": "source",
+        "pname": "source",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "homepage": "https://github.com/makefu/tw-upload-plugin",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "tw-upload-plugin",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.studio-link": {
+        "name": "studio-link-17.03.1-beta",
+        "pname": "studio-link",
+        "version": "17.03.1-beta",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Voip transfer",
+            "homepage": "https://studio-link.com",
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "studio-link-17.03.1-beta",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "studio-link",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.tinymediamanager": {
+        "name": "tinymediamanager-3.1.5",
+        "pname": "tinymediamanager",
+        "version": "3.1.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "converts bin+cue to iso",
+            "homepage": "http://users.eastlink.ca/~doiron/bin2iso/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "tinymediamanager-3.1.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "tinymediamanager",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.uhub": {
+        "name": "uhub-2019-06-18",
+        "pname": "uhub",
+        "version": "2019-06-18",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "High performance peer-to-peer hub for the ADC network",
+            "homepage": "https://www.uhub.org/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ehmry@posteo.net",
+                    "github": "ehmry",
+                    "githubId": 537775,
+                    "name": "Emery Hemingway"
+                }
+            ],
+            "name": "uhub-2019-06-18",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "uhub",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.vpn-ws": {
+        "name": "vpn-ws-9d0e866",
+        "pname": "vpn-ws",
+        "version": "9d0e866",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A VPN system over websockets",
+            "homepage": "https://github.com/unbit/vpn-ws",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "vpn-ws-9d0e866",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "vpn-ws",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.youtube-dl2kodi": {
+        "name": "youtube-dl2kodi",
+        "pname": "youtube-dl2kodi",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "youtube-dl2kodi",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "youtube-dl2kodi",
+        "_repo": "makefu"
+    },
     "nur.repos.marzipankaiser.drinklist-cli": {
         "name": "drinklist-cli",
         "pname": "drinklist-cli",
