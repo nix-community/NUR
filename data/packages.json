@@ -47650,9 +47650,9 @@
         "_repo": "priegger"
     },
     "nur.repos.priegger.nanoc": {
-        "name": "nanoc-4.11.16",
+        "name": "nanoc-4.11.17",
         "pname": "nanoc",
-        "version": "4.11.16",
+        "version": "4.11.17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47665,7 +47665,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "longDescription": "Nanoc is a static-site generator, fit for building anything from a small\npersonal blog to a large corporate website. \n",
-            "name": "nanoc-4.11.16",
+            "name": "nanoc-4.11.17",
             "outputsToInstall": [
                 "out"
             ],
