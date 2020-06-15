@@ -44447,6 +44447,30 @@
         "_attr": "hassLovelaceModules.mini-media-player",
         "_repo": "mweinelt"
     },
+    "nur.repos.mweinelt.oscam": {
+        "name": "oscam-1.20-svn11581",
+        "pname": "oscam",
+        "version": "1.20-svn11581",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Open Source Conditional Access Module software",
+            "homepage": "http://www.streamboard.tv/oscam/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "oscam-1.20-svn11581",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
+        },
+        "_attr": "oscam",
+        "_repo": "mweinelt"
+    },
     "nur.repos.mweinelt.trinitycore_825": {
         "name": "TrinityCore-8.2.5-32978",
         "pname": "TrinityCore",
