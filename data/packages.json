@@ -3730,22 +3730,6 @@
         "_attr": "rfm",
         "_repo": "cransom"
     },
-    "nur.repos.crazazy.ClassiCube": {
-        "name": "ClassiCube",
-        "pname": "ClassiCube",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "name": "ClassiCube",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
-        },
-        "_attr": "ClassiCube",
-        "_repo": "crazazy"
-    },
     "nur.repos.crazazy.efm-langserver": {
         "name": "efm-langserver",
         "pname": "efm-langserver",
