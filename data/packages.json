@@ -148,6 +148,305 @@
         "_attr": "TS",
         "_repo": "INFO4-19"
     },
+    "nur.repos.aasg.dma": {
+        "name": "dma-0.13",
+        "pname": "dma",
+        "version": "0.13",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Small mail transport agent (MTA) designed for home and office use",
+            "homepage": "https://github.com/corecode/dma",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "dma-0.13",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg"
+        },
+        "_attr": "dma",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.dyndnsc": {
+        "name": "dyndnsc-0.5.1",
+        "pname": "dyndnsc",
+        "version": "0.5.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Dynamic DNS update client with support for multiple protocols",
+            "homepage": "https://github.com/infothrill/python-dyndnsc",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "dyndnsc-0.5.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg"
+        },
+        "_attr": "dyndnsc",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.guile-commonmark": {
+        "name": "guile-commonmark-0.1.2",
+        "pname": "guile-commonmark",
+        "version": "0.1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "CommonMark parser for Guile",
+            "homepage": "https://github.com/OrangeShark/guile-commonmark",
+            "license": {
+                "fullName": "GNU Lesser General Public License v3.0 or later",
+                "shortName": "lgpl3Plus",
+                "spdxId": "LGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+            },
+            "longDescription": "guile-commonmark is a library for parsing CommonMark, a fully\nspecified variant of Markdown.  The library is written in Guile\nScheme and is designed to transform a CommonMark document to\nSXML.  guile-commonmark tries to closely follow the CommonMark\nspec, the main difference is no support for parsing block and\ninline level HTML.\n",
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "guile-commonmark-0.1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg"
+        },
+        "_attr": "guile-commonmark",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.haunt": {
+        "name": "haunt-0.2.4",
+        "pname": "haunt",
+        "version": "0.2.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Functional static site generator",
+            "homepage": "https://dthompson.us/projects/haunt.html",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "Haunt is a static site generator written in Guile Scheme.\nHaunt features a functional build system and an extensible\ninterface for reading articles in any format.\n",
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "haunt-0.2.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg"
+        },
+        "_attr": "haunt",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.python3": {
+        "name": "python3-3.7.7",
+        "pname": "python3",
+        "version": "3.7.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A high-level dynamically-typed programming language",
+            "homepage": "http://python.org",
+            "license": {
+                "fullName": "Python Software Foundation License version 2",
+                "shortName": "psfl",
+                "spdxId": "Python-2.0",
+                "url": "https://spdx.org/licenses/Python-2.0.html"
+            },
+            "longDescription": "Python is a remarkably powerful dynamic programming language that\nis used in a wide variety of application domains. Some of its key\ndistinguishing features include: clear, readable syntax; strong\nintrospection capabilities; intuitive object orientation; natural\nexpression of procedural code; full modularity, supporting\nhierarchical packages; exception-based error handling; and very\nhigh level dynamic data types.\n",
+            "maintainers": [
+                {
+                    "email": "fridh@fridh.nl",
+                    "github": "fridh",
+                    "githubId": 2129135,
+                    "name": "Frederik Rietdijk"
+                }
+            ],
+            "name": "python3-3.7.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg('nixpkgs', 'pkgs', 'development', 'interpreters', 'python', 'cpython', 'default.nix')#L284"
+        },
+        "_attr": "python3",
+        "_repo": "aasg"
+    },
     "nur.repos.babariviere.godot": {
         "name": "godot-3.2.1",
         "pname": "godot",
