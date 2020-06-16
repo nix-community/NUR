@@ -52612,9 +52612,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ipfs-companion": {
-        "name": "ipfs-companion-2.13.0",
+        "name": "ipfs-companion-2.13.1",
         "pname": "ipfs-companion",
-        "version": "2.13.0",
+        "version": "2.13.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -52626,7 +52626,7 @@
                 "spdxId": "CC0-1.0",
                 "url": "https://spdx.org/licenses/CC0-1.0.html"
             },
-            "name": "ipfs-companion-2.13.0",
+            "name": "ipfs-companion-2.13.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -52747,9 +52747,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.keepassxc-browser": {
-        "name": "keepassxc-browser-1.6.3",
+        "name": "keepassxc-browser-1.6.4",
         "pname": "keepassxc-browser",
-        "version": "1.6.3",
+        "version": "1.6.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -52761,7 +52761,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "keepassxc-browser-1.6.3",
+            "name": "keepassxc-browser-1.6.4",
             "outputsToInstall": [
                 "out"
             ],
