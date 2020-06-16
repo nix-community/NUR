@@ -155,7 +155,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Small mail transport agent (MTA) designed for home and office use",
+            "description": "Small mail transport agent designed for home and office use",
             "homepage": "https://github.com/corecode/dma",
             "license": {
                 "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
@@ -163,6 +163,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "longDescription": "The DragonFly Mail Agent is a small Mail Transport Agent (MTA),\ndesigned for home and office use.  It accepts mails from locally\ninstalled Mail User Agents (MUA) and delivers the mails either\nlocally or to a remote destination.  Remote delivery includes\nseveral features like TLS/SSL support and SMTP authentication.\n\ndma is not intended as a replacement for real, big MTAs like\nsendmail(8) or postfix(1).  Consequently, dma does not listen\non port 25 for incoming connections.\n",
             "maintainers": [
                 {
                     "email": "aluisio@aasg.name",
@@ -244,6 +245,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "longDescription": "Dyndnsc is a command line client for sending updates to Dynamic\nDNS (DDNS, DynDNS) services.  It supports multiple protocols and\nservices, and it has native support for IPv6.  The configuration\nfile allows using foreign, but compatible services.  Dyndnsc\nships many different IP detection mechanisms, support for\nconfiguring multiple services in one place and it has a daemon\nmode for running unattended.  It has a plugin system to provide\nexternal notification services.\n",
             "maintainers": [
                 {
                     "email": "aluisio@aasg.name",
@@ -397,35 +399,16 @@
         "_attr": "haunt",
         "_repo": "aasg"
     },
-    "nur.repos.aasg.python3": {
-        "name": "python3-3.7.7",
-        "pname": "python3",
-        "version": "3.7.7",
+    "nur.repos.aasg.python3Packages.daemonocle": {
+        "name": "python3.7-daemonocle-1.0.1",
+        "pname": "python3.7-daemonocle",
+        "version": "1.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A high-level dynamically-typed programming language",
-            "homepage": "http://python.org",
-            "license": {
-                "fullName": "Python Software Foundation License version 2",
-                "shortName": "psfl",
-                "spdxId": "Python-2.0",
-                "url": "https://spdx.org/licenses/Python-2.0.html"
-            },
-            "longDescription": "Python is a remarkably powerful dynamic programming language that\nis used in a wide variety of application domains. Some of its key\ndistinguishing features include: clear, readable syntax; strong\nintrospection capabilities; intuitive object orientation; natural\nexpression of procedural code; full modularity, supporting\nhierarchical packages; exception-based error handling; and very\nhigh level dynamic data types.\n",
-            "maintainers": [
-                {
-                    "email": "fridh@fridh.nl",
-                    "github": "fridh",
-                    "githubId": 2129135,
-                    "name": "Frederik Rietdijk"
-                }
-            ],
-            "name": "python3-3.7.7",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
+            "description": "A Python library for creating super fancy Unix daemons",
+            "homepage": "https://github.com/jnrbsn/daemonocle",
+            "isBuildPythonPackage": [
                 "aarch64-linux",
                 "armv5tel-linux",
                 "armv6l-linux",
@@ -442,9 +425,160 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg('nixpkgs', 'pkgs', 'development', 'interpreters', 'python', 'cpython', 'default.nix')#L284"
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "daemonocle is a library for creating your own Unix-style daemons\nwritten in Python.  It solves many problems that other daemon\nlibraries have and provides some really useful features you don't\noften see in other daemons.\n",
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "python3.7-daemonocle-1.0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg"
         },
-        "_attr": "python3",
+        "_attr": "python3Packages.daemonocle",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.linuxPackages.rtl8723bu": {
+        "name": "rtl8723bu-5.4.46-2020-04-05",
+        "pname": "rtl8723bu",
+        "version": "5.4.46-2020-04-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Driver for RTL8723BU",
+            "homepage": "https://github.com/lwfinger/rtl8723bu",
+            "license": {
+                "fullName": "Unfree redistributable firmware",
+                "shortName": "unfreeRedistributableFirmware"
+            },
+            "longDescription": "Kernel driver for Realtek RTL8723BU Wireless Adapter with hardware ID 0bda:b720.\n",
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "rtl8723bu-5.4.46-2020-04-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg"
+        },
+        "_attr": "linuxPackages.rtl8723bu",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.linuxPackages_latest.rtl8723bu": {
+        "name": "rtl8723bu-5.7.2-2020-04-05",
+        "pname": "rtl8723bu",
+        "version": "5.7.2-2020-04-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Driver for RTL8723BU",
+            "homepage": "https://github.com/lwfinger/rtl8723bu",
+            "license": {
+                "fullName": "Unfree redistributable firmware",
+                "shortName": "unfreeRedistributableFirmware"
+            },
+            "longDescription": "Kernel driver for Realtek RTL8723BU Wireless Adapter with hardware ID 0bda:b720.\n",
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "rtl8723bu-5.7.2-2020-04-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg"
+        },
+        "_attr": "linuxPackages_latest.rtl8723bu",
         "_repo": "aasg"
     },
     "nur.repos.babariviere.godot": {
