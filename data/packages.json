@@ -6319,9 +6319,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit": {
-        "name": "python3.7-qiskit-0.19.3",
+        "name": "python3.7-qiskit-0.19.4",
         "pname": "python3.7-qiskit",
-        "version": "0.19.3",
+        "version": "0.19.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6365,7 +6365,7 @@
                     "name": "pandaman"
                 }
             ],
-            "name": "python3.7-qiskit-0.19.3",
+            "name": "python3.7-qiskit-0.19.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -6446,9 +6446,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-aqua": {
-        "name": "python3.7-qiskit-aqua-0.7.1",
+        "name": "python3.7-qiskit-aqua-0.7.2",
         "pname": "python3.7-qiskit-aqua",
-        "version": "0.7.1",
+        "version": "0.7.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6485,7 +6485,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.7-qiskit-aqua-0.7.1",
+            "name": "python3.7-qiskit-aqua-0.7.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -6645,9 +6645,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-terra": {
-        "name": "python3.7-qiskit-terra-0.14.1",
+        "name": "python3.7-qiskit-terra-0.14.2",
         "pname": "python3.7-qiskit-terra",
-        "version": "0.14.1",
+        "version": "0.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6686,7 +6686,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.7-qiskit-terra-0.14.1",
+            "name": "python3.7-qiskit-terra-0.14.2",
             "outputsToInstall": [
                 "out"
             ],
