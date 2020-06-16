@@ -90,6 +90,9 @@
         "emmanuelrosa": {
             "url": "https://github.com/emmanuelrosa/nur-packages"
         },
+        "extends": {
+            "url": "https://github.com/ImExtends/nur-packages-template"
+        },
         "fgaz": {
             "url": "https://github.com/fgaz/nur-packages"
         },
