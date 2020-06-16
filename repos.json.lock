@@ -140,6 +140,11 @@
             "sha256": "1hmg53w771rfnm8cls1z10jdijq5ihq1qr2bb5mxl7lv0h0yaam8",
             "url": "https://github.com/emmanuelrosa/nur-packages"
         },
+        "extends": {
+            "rev": "2966d6a2a48624d5f750e97cdaf8333e8d2aaff8",
+            "sha256": "05zlgn55nkrkxdii4r4w1flvsi12wx5nfiv92g0vr3grxnihj5rw",
+            "url": "https://github.com/ImExtends/nur-packages-template"
+        },
         "fgaz": {
             "rev": "436ef43690ac1c40103e59b725d5711a0d82bf1f",
             "sha256": "1178pclhpfnwf1crhp3m1fgfa1w2nsj4zkvl91cknv3vg5fz5h10",
