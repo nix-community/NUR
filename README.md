@@ -1,6 +1,6 @@
 # NUR search
 
-Hosted [here](https://nix-community.github.io/nur-search/)
+Hosted [here](https://nur.nix-community.org/)
 
 The actual html is in the [gh-pages](https://github.com/nix-community/nur-search/tree/gh-pages) branch
 
