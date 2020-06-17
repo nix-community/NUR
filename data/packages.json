@@ -11172,7 +11172,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Allows you to your linux processes as a tree",
+            "description": "Allows you see to your linux processes as a tree",
             "homepage": "https://gitlab.com/mildlyparallel/pscircle",
             "license": {
                 "fullName": "MIT License",
@@ -61646,6 +61646,22 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
         },
         "_attr": "orca",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.pridecat": {
+        "name": "pridecat-git",
+        "pname": "pridecat-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "pridecat-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "pridecat",
         "_repo": "xe"
     },
     "nur.repos.xe.quickserv": {
