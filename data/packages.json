@@ -34031,6 +34031,42 @@
         "_attr": "swm",
         "_repo": "kalbasit"
     },
+    "nur.repos.kampka.nix-search": {
+        "name": "nix-search",
+        "pname": "nix-search",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Command line util for accelerated package search in nix environments",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "nix-search",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kampka"
+        },
+        "_attr": "nix-search",
+        "_repo": "kampka"
+    },
     "nur.repos.kampka.nixify": {
         "name": "nixify",
         "pname": "nixify",
