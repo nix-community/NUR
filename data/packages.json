@@ -41197,9 +41197,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.python3Packages.Mastodon": {
-        "name": "python3.7-Mastodon.py-1.5.0",
+        "name": "python3.7-Mastodon.py-1.5.1",
         "pname": "python3.7-Mastodon.py",
-        "version": "1.5.0",
+        "version": "1.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41228,7 +41228,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "python3.7-Mastodon.py-1.5.0",
+            "name": "python3.7-Mastodon.py-1.5.1",
             "outputsToInstall": [
                 "out"
             ],
