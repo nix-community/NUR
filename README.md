@@ -160,7 +160,7 @@ outputs = {self, nixpkgs, nur }:
 ## Finding packages
 
 You can find all packages using
-[Packages search for NUR](https://nix-community.github.io/nur-search/)
+[Packages search for NUR](https://nur.nix-community.org/)
 or search our
 [nur-combined](https://github.com/nix-community/nur-combined)
 repository, which contains all nix expressions from all users, via
