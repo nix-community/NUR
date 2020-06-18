@@ -58,7 +58,14 @@ def main() -> None:
         shutil.rmtree(repos_path, ignore_errors=True)
         os.makedirs(repos_path)
         with open(repos_path.joinpath("_index.md"), "w+") as f:
-            f.write("+++\ntitle=\"Repos\"\n+++\n# Repo index")
+            f.write("""
++++
+title = "Repos"
+weight = 1
+alwaysopen = true
++++
+# Repo index
+""")
 
         for repo_name, pkgs in repos.items():
             write_repo_page(repos_path, repo_name, pkgs)
