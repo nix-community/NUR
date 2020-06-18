@@ -54182,20 +54182,20 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-18.0",
+        "name": "save-page-we-19.0",
         "pname": "save-page-we",
-        "version": "18.0",
+        "version": "19.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Save a complete web page (as curently displayed) as a single HTML file that can be opened in any browser. Choose which items to save. Define the format of the saved filename. Enter user comments.",
+            "description": "Save a complete web page (as currently displayed) as a single HTML file that can be opened in any browser. Save a single page, multiple selected pages or a list of page URLs. Automate saving from command line.",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
                 "shortName": "gpl2",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-18.0",
+            "name": "save-page-we-19.0",
             "outputsToInstall": [
                 "out"
             ],
