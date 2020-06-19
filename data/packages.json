@@ -5774,9 +5774,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit": {
-        "name": "python3.8-qiskit-0.19.4",
+        "name": "python3.8-qiskit-0.19.5",
         "pname": "python3.8-qiskit",
-        "version": "0.19.4",
+        "version": "0.19.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5820,7 +5820,7 @@
                     "name": "pandaman"
                 }
             ],
-            "name": "python3.8-qiskit-0.19.4",
+            "name": "python3.8-qiskit-0.19.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -5901,9 +5901,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-aqua": {
-        "name": "python3.8-qiskit-aqua-0.7.2",
+        "name": "python3.8-qiskit-aqua-0.7.3",
         "pname": "python3.8-qiskit-aqua",
-        "version": "0.7.2",
+        "version": "0.7.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5940,7 +5940,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-aqua-0.7.2",
+            "name": "python3.8-qiskit-aqua-0.7.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -6033,9 +6033,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ignis": {
-        "name": "python3.8-qiskit-ignis-0.3.0",
+        "name": "python3.8-qiskit-ignis-0.3.2",
         "pname": "python3.8-qiskit-ignis",
-        "version": "0.3.0",
+        "version": "0.3.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6073,7 +6073,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-ignis-0.3.0",
+            "name": "python3.8-qiskit-ignis-0.3.2",
             "outputsToInstall": [
                 "out"
             ],
