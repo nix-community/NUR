@@ -46913,9 +46913,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons-generator": {
-        "name": "nixpkgs-firefox-addons-0.6.0",
+        "name": "nixpkgs-firefox-addons-0.7.0",
         "pname": "nixpkgs-firefox-addons",
-        "version": "0.6.0",
+        "version": "0.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46941,7 +46941,7 @@
                     "name": "Robert Helgesson"
                 }
             ],
-            "name": "nixpkgs-firefox-addons-0.6.0",
+            "name": "nixpkgs-firefox-addons-0.7.0",
             "outputsToInstall": [
                 "out"
             ],
