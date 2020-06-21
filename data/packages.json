@@ -38623,6 +38623,30 @@
         "_attr": "oscam",
         "_repo": "mweinelt"
     },
+    "nur.repos.mweinelt.hassLovelaceModules.rmv-card": {
+        "name": "rmv-card-unstable-2020-05-25",
+        "pname": "rmv-card-unstable",
+        "version": "2020-05-25",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Custom card for the RMV component",
+            "homepage": "https://github.com/cgtobi/rmv-card",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "rmv-card-unstable-2020-05-25",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
+        },
+        "_attr": "hassLovelaceModules.rmv-card",
+        "_repo": "mweinelt"
+    },
     "nur.repos.mweinelt.trinitycore_825": {
         "name": "TrinityCore-8.2.5-32978",
         "pname": "TrinityCore",
