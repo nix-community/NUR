@@ -46387,6 +46387,12 @@
             "available": true,
             "description": "Encrypt the web! HTTPS Everywhere is a Firefox extension to protect your communications by enabling HTTPS encryption automatically on sites that are known to support it, even when you type URLs or follow links that omit the https: prefix.",
             "homepage": "https://www.eff.org/https-everywhere",
+            "license": {
+                "free": true,
+                "fullName": "Multiple",
+                "shortName": "https-everywhere-license",
+                "url": "https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/license/"
+            },
             "name": "https-everywhere-2020.5.20",
             "outputsToInstall": [
                 "out"
@@ -47074,6 +47080,12 @@
             "available": true,
             "description": "GitHub on steroids",
             "homepage": "https://github.com/buunguyen/octotree/",
+            "license": {
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "shortName": "agpl3",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
             "name": "octotree-5.1.0",
             "outputsToInstall": [
                 "out"
@@ -47536,9 +47548,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-enhancement-suite": {
-        "name": "reddit-enhancement-suite-5.18.14",
+        "name": "reddit-enhancement-suite-5.20.0",
         "pname": "reddit-enhancement-suite",
-        "version": "5.18.14",
+        "version": "5.20.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47550,7 +47562,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "reddit-enhancement-suite-5.18.14",
+            "name": "reddit-enhancement-suite-5.20.0",
             "outputsToInstall": [
                 "out"
             ],
