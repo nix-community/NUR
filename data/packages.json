@@ -47844,9 +47844,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-19.0",
+        "name": "save-page-we-20.0",
         "pname": "save-page-we",
-        "version": "19.0",
+        "version": "20.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47857,7 +47857,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-19.0",
+            "name": "save-page-we-20.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -48317,9 +48317,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.textern": {
-        "name": "textern-0.6",
+        "name": "textern-0.7",
         "pname": "textern",
-        "version": "0.6",
+        "version": "0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48331,7 +48331,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "textern-0.6",
+            "name": "textern-0.7",
             "outputsToInstall": [
                 "out"
             ],
