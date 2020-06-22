@@ -9277,10 +9277,10 @@
         "_attr": "betterdiscordctl",
         "_repo": "ivar"
     },
-    "nur.repos.ivar.sm64pc": {
-        "name": "sm64pc-unstable-2020-05-19",
-        "pname": "sm64pc-unstable",
-        "version": "2020-05-19",
+    "nur.repos.ivar.sm64ex": {
+        "name": "sm64ex-unstable-2020-06-19",
+        "pname": "sm64ex-unstable",
+        "version": "2020-06-19",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -9291,7 +9291,7 @@
                 "fullName": "Unfree",
                 "shortName": "unfree"
             },
-            "longDescription": "Super Mario 64 port based off of decompilation. Note that you must supply a baserom yourself to extract assets from",
+            "longDescription": "Super Mario 64 port based off of decompilation.\nNote that you must supply a baserom yourself to extract assets from.\nIf you are not using an US baserom, you must overwrite the \"region\" attribute with either \"eu\" or \"jp\".\nIf you would like to use patches sm64pc distributes as makeflags, add them to the \"compileFlags\" attribute.\n",
             "maintainers": [
                 {
                     "email": "ivar.scholten@protonmail.com",
@@ -9300,7 +9300,7 @@
                     "name": "Ivar"
                 }
             ],
-            "name": "sm64pc-unstable-2020-05-19",
+            "name": "sm64ex-unstable-2020-06-19",
             "outputsToInstall": [
                 "out"
             ],
@@ -9311,15 +9311,28 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar"
         },
-        "_attr": "sm64pc",
+        "_attr": "sm64ex",
         "_repo": "ivar"
     },
     "nur.repos.ivar.xwallpaper": {
