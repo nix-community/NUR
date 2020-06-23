@@ -33759,16 +33759,15 @@
         "_attr": "lightdm-webkit2-greeter",
         "_repo": "metadark"
     },
-    "nur.repos.metadark.ptvsd": {
-        "name": "python3.8-ptvsd-4.3.2",
-        "pname": "python3.8-ptvsd",
-        "version": "4.3.2",
+    "nur.repos.metadark.debugpy": {
+        "name": "python3.8-debugpy-1.0.0b11",
+        "pname": "python3.8-debugpy",
+        "version": "1.0.0b11",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
             "description": "Python debugger package for use with Visual Studio and Visual Studio Code",
-            "homepage": "https://github.com/microsoft/ptvsd",
+            "homepage": "https://github.com/microsoft/debugpy",
             "isBuildPythonPackage": [
                 "aarch64-linux",
                 "armv5tel-linux",
@@ -33800,7 +33799,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "python3.8-ptvsd-4.3.2",
+            "name": "python3.8-debugpy-1.0.0b11",
             "outputsToInstall": [
                 "out"
             ],
@@ -33812,7 +33811,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
         },
-        "_attr": "ptvsd",
+        "_attr": "debugpy",
         "_repo": "metadark"
     },
     "nur.repos.metadark.pygls": {
