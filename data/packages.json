@@ -50048,6 +50048,46 @@
         "_attr": "waterfox-unwrapped",
         "_repo": "shados"
     },
+    "nur.repos.shamilton.argparse": {
+        "name": "argparse-2.1",
+        "pname": "argparse",
+        "version": "2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Argument Parser for Modern C++",
+            "homepage": "https://github.com/p-ranav/argparse",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "argparse-2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "argparse",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.baobab": {
         "name": "baobab-3.34.0",
         "pname": "baobab",
@@ -50598,6 +50638,46 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "ksmoothdock",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.libfake": {
+        "name": "libfake-unstable",
+        "pname": "libfake-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An easy wrapper library around pulseaudio, written in c++",
+            "homepage": "https://github.com/SCOTT-HAMILTON/FakeLib",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "libfake-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "libfake",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.lokalize": {
