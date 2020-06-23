@@ -42054,6 +42054,41 @@
         "_attr": "githug",
         "_repo": "nprindle"
     },
+    "nur.repos.nprindle.surfraw": {
+        "name": "surfraw-unstable-2020-03-09",
+        "pname": "surfraw-unstable",
+        "version": "2020-03-09",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Provides a fast unix command line interface to a variety of popular WWW search engines and other artifacts of power",
+            "homepage": "https://gitlab.com/surfraw/Surfraw",
+            "license": {
+                "fullName": "Public Domain",
+                "shortName": "publicDomain"
+            },
+            "name": "surfraw-unstable-2020-03-09",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nprindle"
+        },
+        "_attr": "surfraw",
+        "_repo": "nprindle"
+    },
     "nur.repos.peel.hoverfly": {
         "name": "hoverfly-v0.17.2",
         "pname": "hoverfly-v0.17.2",
