@@ -45852,9 +45852,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.cookie-autodelete": {
-        "name": "cookie-autodelete-3.3.1",
+        "name": "cookie-autodelete-3.4.0",
         "pname": "cookie-autodelete",
-        "version": "3.3.1",
+        "version": "3.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -45866,7 +45866,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "cookie-autodelete-3.3.1",
+            "name": "cookie-autodelete-3.4.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -46531,9 +46531,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.gesturefy": {
-        "name": "gesturefy-3.0.2",
+        "name": "gesturefy-3.0.3",
         "pname": "gesturefy",
-        "version": "3.0.2",
+        "version": "3.0.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46545,7 +46545,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "gesturefy-3.0.2",
+            "name": "gesturefy-3.0.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -49464,9 +49464,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.zoom-page-we": {
-        "name": "zoom-page-we-17.5",
+        "name": "zoom-page-we-17.6",
         "pname": "zoom-page-we",
-        "version": "17.5",
+        "version": "17.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49477,7 +49477,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "zoom-page-we-17.5",
+            "name": "zoom-page-we-17.6",
             "outputsToInstall": [
                 "out"
             ],
