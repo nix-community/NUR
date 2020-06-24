@@ -51362,8 +51362,8 @@
         "_repo": "shamilton"
     },
     "nur.repos.sikmir.cfiles": {
-        "name": "cfiles-eab68e4",
-        "pname": "cfiles-eab68e4",
+        "name": "cfiles-c225a0d",
+        "pname": "cfiles-c225a0d",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -51390,7 +51390,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "cfiles-eab68e4",
+            "name": "cfiles-c225a0d",
             "outputsToInstall": [
                 "out"
             ],
@@ -51836,6 +51836,70 @@
             }
         },
         "_attr": "embox",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.foma": {
+        "name": "foma-7c9984b",
+        "pname": "foma",
+        "version": "7c9984b",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "xfst-compatible C++ finite-state transducer library",
+            "homepage": "https://github.com/mhulden/foma",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "foma-7c9984b",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "foma",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.freizeitkarte-osm": {
@@ -52886,6 +52950,70 @@
         "_attr": "gt4gd",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.hfst": {
+        "name": "hfst-265bc37",
+        "pname": "hfst",
+        "version": "265bc37",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Helsinki Finite-State Technology (library and application suite)",
+            "homepage": "https://hfst.github.io",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "hfst-265bc37",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "hfst",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.hiblovgpsmap": {
         "name": "hiblovgpsmap-2019-10-28",
         "pname": "hiblovgpsmap",
@@ -53495,9 +53623,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-06-13",
+        "name": "maptourist-2020-06-23",
         "pname": "maptourist",
-        "version": "2020-06-13",
+        "version": "2020-06-23",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53521,7 +53649,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-06-13",
+            "name": "maptourist-2020-06-23",
             "outputsToInstall": [
                 "out"
             ],
@@ -53729,9 +53857,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mtk-suomi": {
-        "name": "mtk-suomi-2020-05-26",
+        "name": "mtk-suomi-2020-05-30",
         "pname": "mtk-suomi",
-        "version": "2020-05-26",
+        "version": "2020-05-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53755,7 +53883,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "mtk-suomi-2020-05-26",
+            "name": "mtk-suomi-2020-05-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -53896,9 +54024,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-c5f0a25",
-        "pname": "nnn-plugins-c5f0a25",
-        "version": "",
+        "name": "nnn-plugins-306af78",
+        "pname": "nnn-plugins",
+        "version": "306af78",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53924,7 +54052,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-c5f0a25",
+            "name": "nnn-plugins-306af78",
             "outputsToInstall": [
                 "out"
             ],
@@ -54116,9 +54244,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-916b05a",
-        "pname": "OpenOrienteering-Mapper",
-        "version": "916b05a",
+        "name": "OpenOrienteering-Mapper-a35fba5",
+        "pname": "OpenOrienteering-Mapper-a35fba5",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54144,7 +54272,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-916b05a",
+            "name": "OpenOrienteering-Mapper-a35fba5",
             "outputsToInstall": [
                 "out"
             ],
@@ -54624,9 +54752,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mercantile": {
-        "name": "python3.8-mercantile-4cd0c36",
+        "name": "python3.8-mercantile-9e7b52f",
         "pname": "python3.8-mercantile",
-        "version": "4cd0c36",
+        "version": "9e7b52f",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54669,7 +54797,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-mercantile-4cd0c36",
+            "name": "python3.8-mercantile-9e7b52f",
             "outputsToInstall": [
                 "out"
             ],
@@ -54702,6 +54830,87 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "mercantile",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.mikatools": {
+        "name": "python3.8-mikatools-64a21f2",
+        "pname": "python3.8-mikatools",
+        "version": "64a21f2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Mikatools provides fast and easy methods for common Python coding tasks",
+            "homepage": "https://github.com/mikahama/mikatools",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "python3.8-mikatools-64a21f2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "mikatools",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.pyephem": {
@@ -54864,6 +55073,87 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "pymbtiles",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.python-hfst": {
+        "name": "python3.8-python-hfst-265bc37",
+        "pname": "python3.8-python-hfst",
+        "version": "265bc37",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Python bindings for HFST",
+            "homepage": "https://github.com/hfst/python/wiki",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "python3.8-python-hfst-265bc37",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "python-hfst",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-dem": {
@@ -55030,9 +55320,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-routinodb": {
-        "name": "qmapshack-routinodb-200613",
+        "name": "qmapshack-routinodb-200622",
         "pname": "qmapshack-routinodb",
-        "version": "200613",
+        "version": "200622",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55056,7 +55346,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qmapshack-routinodb-200613",
+            "name": "qmapshack-routinodb-200622",
             "outputsToInstall": [
                 "out"
             ],
