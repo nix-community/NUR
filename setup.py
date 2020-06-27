@@ -14,8 +14,10 @@ setup(
     license="MIT",
     packages=find_packages(),
     entry_points={"console_scripts": ["nur = nur:main"]},
-    install_requires=["irc"],
-    extras_require={"dev": ["mypy", "flake8>=3.5,<3.6", "black"]},
+    extras_require={
+        "dev": ["mypy", "flake8>=3.5,<3.6", "black"],
+        "irc-notifications": ["irc"]
+    },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
