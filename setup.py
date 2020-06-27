@@ -16,7 +16,7 @@ setup(
     entry_points={"console_scripts": ["nur = nur:main"]},
     extras_require={
         "dev": ["mypy", "flake8>=3.5,<3.6", "black"],
-        "irc-notifications": ["irc"]
+        "irc-notifications": ["irc"],
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
