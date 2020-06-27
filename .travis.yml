@@ -10,6 +10,9 @@ notifications:
     template:
       - "%{result} - %{branch} \"%{commit_subject}\" %{build_url}"
 
+before_script:
+  - echo "trusted-users = $USER" | sudo tee -a /etc/nix/nix.conf
+  - sudo systemctl restart nix-daemon
 jobs:
   include:
     - name: test pull request
