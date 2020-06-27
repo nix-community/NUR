@@ -21,8 +21,8 @@
             "url": "https://github.com/angr/nixpkgs"
         },
         "arc": {
-            "rev": "03465baa8b486d4617b23785b0d82205f5e6b9be",
-            "sha256": "0qas2b8866z6m6v88q5ccq60hmvbjkflky49ayiah5glv7djp3mb",
+            "rev": "fd5739a99845054bd1c55225f48c70dad753c3b4",
+            "sha256": "16ybig411yb3x9iapsl227yj57lf3n8zcpqmgy59dwmnq0zrnn2x",
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "awl-fcarza": {
@@ -76,8 +76,8 @@
             "url": "https://github.com/cransom/nur-packages"
         },
         "crazazy": {
-            "rev": "dd2cc8361478a035fb78a8ecb462bfcf080d0f65",
-            "sha256": "06li9r7qfnk3imxn1w5vldr5l43bf2wfgnc11aqry4hdrqsxyipy",
+            "rev": "288bbf740784f0608e6f55e5f16ceff49a202ee9",
+            "sha256": "1l0p10km6k98rqmcxkh8aj44rhyy2j92qhbr78j7mxrafrgh89py",
             "url": "https://github.com/crazazy/nixos-config"
         },
         "crazedprogrammer": {
@@ -106,8 +106,8 @@
             "url": "https://github.com/dguibert/nur-packages"
         },
         "drewrisinger": {
-            "rev": "3fd6ce098139871b2e6570c8a9167d0ebff09440",
-            "sha256": "0dxzjndrx95z05kczr0rxky77klffs79c9jij00zwczc9wwdi1vc",
+            "rev": "704604599197e8cc5b7b0ef5ca1d30d3edac0492",
+            "sha256": "0s4sbdciq2yx7qygxxjb1hayk0lw3hgzbkcgyrg24rck7b52spph",
             "url": "https://github.com/drewrisinger/nur-packages"
         },
         "dtn7": {
@@ -136,8 +136,8 @@
             "url": "https://github.com/emiller88/nur-packages"
         },
         "emmanuelrosa": {
-            "rev": "9795366f129804f766088c149073db8cc249efd7",
-            "sha256": "1hmg53w771rfnm8cls1z10jdijq5ihq1qr2bb5mxl7lv0h0yaam8",
+            "rev": "fc82e89320629d77619f7416c0665fdbd7e0ef62",
+            "sha256": "174q4sgd708j231gri5fqx2d61669pzf2gh9pqlm6ym2cn6izgcd",
             "url": "https://github.com/emmanuelrosa/nur-packages"
         },
         "extends": {
@@ -171,13 +171,13 @@
             "url": "https://git.immae.eu/perso/Immae/Config/Nix/NUR.git"
         },
         "ivar": {
-            "rev": "e40c0d17013dafe5e6ab1f02505054da29917395",
-            "sha256": "1v7ddvv9d0abh0wg00ng58cxk09x2x1slqa4fgp1b29sz9im0cbz",
+            "rev": "ddd2ed7221ccb55b9166f53d076fa4f74887e2c4",
+            "sha256": "0ayq8qhyr3kxlm1cp0n0h8za9s4zwswgw7ysnybzl3d9l7dwphq2",
             "url": "https://github.com/IvarWithoutBones/NUR"
         },
         "izorkin": {
-            "rev": "fc6a827822491b4a8bdcd079d9039973afae5a2c",
-            "sha256": "0bm2n3c016gdyp2nq1xnmpi6apsici8wsqjz3l7ixyq92zwldcgq",
+            "rev": "e07353c8c0934ad8ee111e8fdbfdb1129a1c0bf0",
+            "sha256": "18wr2w9lqm9inj7xbafb0r2crd3nyr9xxjg6apzfwwh7ib40xb3c",
             "url": "https://github.com/Izorkin/nur-packages"
         },
         "jakobrs": {
@@ -294,13 +294,13 @@
             "url": "https://github.com/matthewbauer/nur-packages"
         },
         "metadark": {
-            "rev": "80954648a65e45e59edb460ec7362d89816733a5",
-            "sha256": "0ar2k3rwqx90p7np02fizs1ms9z77i8r1va21nfpix8dy9gq50zd",
+            "rev": "3c746fe327958966150596b9c85c8b961a38f139",
+            "sha256": "0hddljvj84ysinnrq4px7a6sgjc5ki9xa1m92j0nrr8pgjp2akwi",
             "url": "https://github.com/metadark/nur-packages"
         },
         "mic92": {
-            "rev": "e871c0592da15535f5831e4a713d7dc38f7ee0e4",
-            "sha256": "1bjlqi2yai3rkls2m98g310xm235v1dv70nzm758fn8dpnldl1i8",
+            "rev": "2a3b9505ae7ee81f14de45ed01f52f9010eff0e6",
+            "sha256": "16m8fprb5rj3aqq2g79502iyrjdms1i2rk633h21qw7vjd7q9d8z",
             "url": "https://github.com/Mic92/nur-packages"
         },
         "mmilata": {
@@ -345,8 +345,8 @@
             "url": "https://github.com/mweinelt/nur-packages"
         },
         "n1kolasM": {
-            "rev": "59b67689381d1db7223036d824cb91e50f080094",
-            "sha256": "02l6gwa5ln6jfdcvygjcxmiknqznqapaql9aynvq5gnfhzpbqisn",
+            "rev": "04ba5a002b651550d00293bebc5f0a96709073d7",
+            "sha256": "0zmpk35i096rp2bl8dsik0dgjf1b3hwp0m51b67w2s2prv757nb5",
             "url": "https://github.com/n1kolasM/nur-packages"
         },
         "neumantm": {
@@ -370,8 +370,8 @@
             "url": "https://github.com/otevrenamesta/nur-packages"
         },
         "pamplemousse": {
-            "rev": "2c0ba0264826403638a6d57059fd03a488c32ee7",
-            "sha256": "1wag63f4bs22mp9nv53krpadv5mf88ikg5yr370pcpc8rijfg4an",
+            "rev": "ae47a4503ccfe9525f2a9e20ade01240defbe370",
+            "sha256": "0czs5i99p34bsn7mq03jd1qz58r0x4ic78isab6bhyq4wcxrbnwl",
             "url": "https://github.com/pamplemousse/nur-packages"
         },
         "peel": {
@@ -436,13 +436,13 @@
             "url": "https://github.com/Shados/nur-packages"
         },
         "shamilton": {
-            "rev": "d9d979e9ed58a5ec0b10e5be1992cbcbedf0edac",
-            "sha256": "152psi6lrz2myixyw65nav8a3j553828b2wysa2vax7i95axg76f",
+            "rev": "ffe878096aa0489bc7162624e6da0ff8bc7719d6",
+            "sha256": "1x5ah7nv68zydzpgkwjscd4k71xc12nh2bcc6dg3zkhsdkvydazn",
             "url": "https://github.com/SCOTT-HAMILTON/nur-packages-template"
         },
         "sikmir": {
-            "rev": "776640f523112c0d679d67891f42683318bfe0bd",
-            "sha256": "12a2w5a1k93f8yqillzli48428ra9rscjg1akxidpfrbmzyr9zyk",
+            "rev": "54f40c86147125f3e39e4315508273f4cc24ebac",
+            "sha256": "0n7jncfxnj4n7vby0c5k0dqyagsj61gian2956xjnvrpw15z8in1",
             "url": "https://github.com/sikmir/nur-packages"
         },
         "smaret": {
