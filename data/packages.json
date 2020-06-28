@@ -3454,9 +3454,9 @@
         "_repo": "c0deaddict"
     },
     "nur.repos.c0deaddict.solaredge-influx": {
-        "name": "solaredge-influx-0.0.1",
+        "name": "solaredge-influx-0.0.2",
         "pname": "solaredge-influx",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -3493,7 +3493,7 @@
                     "name": "Jos van Bakel"
                 }
             ],
-            "name": "solaredge-influx-0.0.1",
+            "name": "solaredge-influx-0.0.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -59024,6 +59024,52 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma"
         },
         "_attr": "encpipe-static",
+        "_repo": "wamserma"
+    },
+    "nur.repos.wamserma.genius-sf-600-firmware": {
+        "name": "genius-sf-600-firmware-5.3.1",
+        "pname": "genius-sf",
+        "version": "600-firmware-5.3.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "firmware blob for Genius SF-600 scanner",
+            "homepage": "http://download.geniusnet.com",
+            "license": [
+                {
+                    "free": false,
+                    "fullName": "Unfree",
+                    "shortName": "unfree"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "genius-sf-600-firmware-5.3.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma"
+        },
+        "_attr": "genius-sf-600-firmware",
         "_repo": "wamserma"
     }
 }
