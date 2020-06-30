@@ -52971,9 +52971,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-1fc4dbb",
+        "name": "gpxsee-14f4dea",
         "pname": "gpxsee",
-        "version": "1fc4dbb",
+        "version": "14f4dea",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -52999,7 +52999,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-1fc4dbb",
+            "name": "gpxsee-14f4dea",
             "outputsToInstall": [
                 "out"
             ],
@@ -53194,9 +53194,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxtools": {
-        "name": "gpxtools-f7d289a",
-        "pname": "gpxtools-f7d289a",
-        "version": "",
+        "name": "gpxtools-919fb59",
+        "pname": "gpxtools",
+        "version": "919fb59",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53222,7 +53222,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxtools-f7d289a",
+            "name": "gpxtools-919fb59",
             "outputsToInstall": [
                 "out"
             ],
@@ -53779,6 +53779,50 @@
         "_attr": "libgarmin",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.librewolf": {
+        "name": "librewolf-78.0",
+        "pname": "librewolf",
+        "version": "78.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "A fork of Firefox, focused on privacy, security and freedom",
+            "homepage": "https://librewolf-community.gitlab.io/",
+            "license": {
+                "fullName": "Mozilla Public License 2.0",
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "librewolf-78.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "librewolf",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.libshell": {
         "name": "libshell-62559f8",
         "pname": "libshell",
@@ -54087,9 +54131,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-06-26",
+        "name": "maptourist-2020-06-30",
         "pname": "maptourist",
-        "version": "2020-06-26",
+        "version": "2020-06-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54113,7 +54157,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-06-26",
+            "name": "maptourist-2020-06-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -54403,10 +54447,80 @@
         "_attr": "mtk-suomi",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.musig": {
+        "name": "musig-f445fa1",
+        "pname": "musig-f445fa1",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A shazam like tool to store musics fingerprints and retrieve them",
+            "homepage": "https://github.com/sfluor/musig",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "musig-f445fa1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "musig",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-379c622",
+        "name": "nakarte-27befc0",
         "pname": "nakarte",
-        "version": "379c622",
+        "version": "27befc0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -54433,7 +54547,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-379c622",
+            "name": "nakarte-27befc0",
             "outputsToInstall": [
                 "out"
             ],
@@ -54488,9 +54602,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-235eb29",
+        "name": "nnn-plugins-1faf9f2",
         "pname": "nnn-plugins",
-        "version": "235eb29",
+        "version": "1faf9f2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54516,7 +54630,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-235eb29",
+            "name": "nnn-plugins-1faf9f2",
             "outputsToInstall": [
                 "out"
             ],
@@ -54637,8 +54751,10 @@
             "description": "A blazingly-fast replacement for Apple Dictionaries, Babylon, StarDict, etc.",
             "homepage": "https://odict.org",
             "license": {
-                "fullName": "Unspecified free software license",
-                "shortName": "free"
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [
                 {
@@ -54779,9 +54895,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-0e06e7b",
+        "name": "OpenOrienteering-Mapper-71f8201",
         "pname": "OpenOrienteering-Mapper",
-        "version": "0e06e7b",
+        "version": "71f8201",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54807,7 +54923,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-0e06e7b",
+            "name": "OpenOrienteering-Mapper-71f8201",
             "outputsToInstall": [
                 "out"
             ],
@@ -55858,9 +55974,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-routinodb": {
-        "name": "qmapshack-routinodb-200622",
+        "name": "qmapshack-routinodb-200629",
         "pname": "qmapshack-routinodb",
-        "version": "200622",
+        "version": "200629",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55884,7 +56000,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qmapshack-routinodb-200622",
+            "name": "qmapshack-routinodb-200629",
             "outputsToInstall": [
                 "out"
             ],
