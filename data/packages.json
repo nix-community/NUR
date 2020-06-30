@@ -8336,9 +8336,9 @@
         "_repo": "gnidorah"
     },
     "nur.repos.gnidorah.knobkraft-orm": {
-        "name": "KnobKraft-orm-1.6.1",
+        "name": "KnobKraft-orm-1.6.2",
         "pname": "KnobKraft-orm",
-        "version": "1.6.1",
+        "version": "1.6.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -8358,7 +8358,7 @@
                     "name": "gnidorah"
                 }
             ],
-            "name": "KnobKraft-orm-1.6.1",
+            "name": "KnobKraft-orm-1.6.2",
             "outputsToInstall": [
                 "out"
             ],
