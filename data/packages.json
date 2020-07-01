@@ -10008,9 +10008,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.curl": {
-        "name": "curl-7.71.0",
+        "name": "curl-7.71.1",
         "pname": "curl",
-        "version": "7.71.0",
+        "version": "7.71.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10030,7 +10030,7 @@
                     "name": "Jason O'Conal"
                 }
             ],
-            "name": "curl-7.71.0",
+            "name": "curl-7.71.1",
             "outputsToInstall": [
                 "bin",
                 "man"
@@ -11632,9 +11632,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80-unit": {
-        "name": "php-8.0.0-dev-2020.06.03",
+        "name": "php-8.0.0-alpha-1",
         "pname": "php",
-        "version": "8.0.0-dev-2020.06.03",
+        "version": "8.0.0-alpha-1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11666,7 +11666,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-8.0.0-dev-2020.06.03",
+            "name": "php-8.0.0-alpha-1",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -11721,9 +11721,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80": {
-        "name": "php-8.0.0-dev-2020.06.03",
+        "name": "php-8.0.0-alpha-1",
         "pname": "php",
-        "version": "8.0.0-dev-2020.06.03",
+        "version": "8.0.0-alpha-1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11755,7 +11755,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-8.0.0-dev-2020.06.03",
+            "name": "php-8.0.0-alpha-1",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -18682,9 +18682,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18711,7 +18711,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -18721,9 +18721,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18750,7 +18750,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -18760,9 +18760,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18789,7 +18789,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -18799,9 +18799,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18828,7 +18828,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -18838,9 +18838,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18867,7 +18867,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -18877,9 +18877,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18906,7 +18906,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -18916,9 +18916,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18945,7 +18945,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -18955,9 +18955,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18984,7 +18984,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -18994,9 +18994,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19023,7 +19023,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -19033,9 +19033,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19062,7 +19062,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -19072,9 +19072,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19101,7 +19101,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -19111,9 +19111,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.31",
+        "name": "php-phpstan-0.12.32",
         "pname": "php-phpstan",
-        "version": "0.12.31",
+        "version": "0.12.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19140,7 +19140,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.31",
+            "name": "php-phpstan-0.12.32",
             "outputsToInstall": [
                 "out"
             ],
@@ -21862,14 +21862,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.redis50": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-redis-5.2.2",
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -21879,14 +21879,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.redis": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.2",
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -21896,14 +21896,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.redis": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.2",
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -21913,14 +21913,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.redis50": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-redis-5.2.2",
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -21930,14 +21930,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.redis": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.2",
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -21947,14 +21947,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.redis": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.2",
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -21964,14 +21964,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.redis": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.2",
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -21981,14 +21981,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.redis": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
-            "name": "php-redis-5.2.2",
+            "available": true,
+            "broken": false,
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -21998,14 +21998,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.redis": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.2",
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -22015,14 +22015,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.redis": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
-            "name": "php-redis-5.2.2",
+            "available": true,
+            "broken": false,
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -22032,14 +22032,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.redis": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.2",
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -22049,14 +22049,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.redis": {
-        "name": "php-redis-5.2.2",
+        "name": "php-redis-5.3.0",
         "pname": "php-redis",
-        "version": "5.2.2",
+        "version": "5.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-redis-5.2.2",
+            "name": "php-redis-5.3.0",
             "outputsToInstall": [
                 "out"
             ],
