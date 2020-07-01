@@ -51181,9 +51181,9 @@
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.keysmith": {
-        "name": "keysmith-0.1",
+        "name": "keysmith-0.2",
         "pname": "keysmith",
-        "version": "0.1",
+        "version": "0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51198,7 +51198,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "keysmith-0.1",
+            "name": "keysmith-0.2",
             "outputsToInstall": [
                 "out"
             ],
