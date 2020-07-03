@@ -13,9 +13,10 @@ from .manifest import LockedVersion, Repo, RepoType
 
 
 def fetch_commit_from_feed(url: str) -> str:
-    req = urllib.request.urlopen(url)
+    req = urllib.request.Request(url, headers={"User-Agent": "nur-updater"})
+    res = urllib.request.urlopen(req)
     try:
-        xml = req.read()
+        xml = res.read()
         root = ET.fromstring(xml)
         ns = "{http://www.w3.org/2005/Atom}"
         xpath = f"./{ns}entry/{ns}link"
