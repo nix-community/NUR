@@ -46395,9 +46395,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.auto-tab-discard": {
-        "name": "auto-tab-discard-0.3.5.2",
+        "name": "auto-tab-discard-0.3.6",
         "pname": "auto-tab-discard",
-        "version": "0.3.5.2",
+        "version": "0.3.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46409,7 +46409,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "auto-tab-discard-0.3.5.2",
+            "name": "auto-tab-discard-0.3.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -46463,9 +46463,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.bitwarden": {
-        "name": "bitwarden-1.44.3",
+        "name": "bitwarden-1.45.0",
         "pname": "bitwarden",
-        "version": "1.44.3",
+        "version": "1.45.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46477,7 +46477,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "bitwarden-1.44.3",
+            "name": "bitwarden-1.45.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -46531,9 +46531,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.browserpass": {
-        "name": "browserpass-3.4.1",
+        "name": "browserpass-3.5.0",
         "pname": "browserpass",
-        "version": "3.4.1",
+        "version": "3.5.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46545,7 +46545,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
-            "name": "browserpass-3.4.1",
+            "name": "browserpass-3.5.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -46803,7 +46803,7 @@
         "meta": {
             "available": true,
             "description": "Control your cookies! This WebExtension is inspired by Self Destructing Cookies. When a tab closes, any cookies not being used are automatically deleted. Whitelist the ones you trust while deleting the rest. Support for Container Tabs.",
-            "homepage": "https://github.com/mrdokenny/Cookie-AutoDelete",
+            "homepage": "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete",
             "license": {
                 "fullName": "MIT License",
                 "shortName": "mit",
@@ -46999,9 +46999,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.9",
+        "name": "darkreader-4.9.13",
         "pname": "darkreader",
-        "version": "4.9.9",
+        "version": "4.9.13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47013,7 +47013,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.9",
+            "name": "darkreader-4.9.13",
             "outputsToInstall": [
                 "out"
             ],
@@ -47406,6 +47406,74 @@
         "_attr": "firefox-addons.firefox-color",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.firefox-addons.foxyproxy-standard": {
+        "name": "foxyproxy-standard-7.4.3",
+        "pname": "foxyproxy-standard",
+        "version": "7.4.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "FoxyProxy is an advanced proxy management tool that completely replaces Firefox's limited proxying capabilities. For a simpler tool and less advanced configuration options, please use FoxyProxy Basic.",
+            "homepage": "https://getfoxyproxy.org",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "foxyproxy-standard-7.4.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
+        },
+        "_attr": "firefox-addons.foxyproxy-standard",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons.fraidycat": {
         "name": "fraidycat-1.1.5",
         "pname": "fraidycat",
@@ -47475,9 +47543,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.gesturefy": {
-        "name": "gesturefy-3.0.3",
+        "name": "gesturefy-3.0.4",
         "pname": "gesturefy",
-        "version": "3.0.3",
+        "version": "3.0.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47489,7 +47557,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "gesturefy-3.0.3",
+            "name": "gesturefy-3.0.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -48290,9 +48358,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.leechblock-ng": {
-        "name": "leechblock-ng-1.0.5",
+        "name": "leechblock-ng-1.0.6",
         "pname": "leechblock-ng",
-        "version": "1.0.5",
+        "version": "1.0.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48304,7 +48372,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "leechblock-ng-1.0.5",
+            "name": "leechblock-ng-1.0.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -48644,9 +48712,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-5.1.0",
+        "name": "octotree-5.2.2",
         "pname": "octotree",
-        "version": "5.1.0",
+        "version": "5.2.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48658,7 +48726,7 @@
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
-            "name": "octotree-5.1.0",
+            "name": "octotree-5.2.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -48916,9 +48984,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.privacy-badger": {
-        "name": "privacy-badger-2020.6.2",
+        "name": "privacy-badger-2020.6.29",
         "pname": "privacy-badger",
-        "version": "2020.6.2",
+        "version": "2020.6.29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48930,7 +48998,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "privacy-badger-2020.6.2",
+            "name": "privacy-badger-2020.6.29",
             "outputsToInstall": [
                 "out"
             ],
@@ -49256,9 +49324,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-20.6.18",
+        "name": "refined-github-20.7.2",
         "pname": "refined-github",
-        "version": "20.6.18",
+        "version": "20.7.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49270,7 +49338,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-20.6.18",
+            "name": "refined-github-20.7.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -49324,9 +49392,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-20.0",
+        "name": "save-page-we-20.1",
         "pname": "save-page-we",
-        "version": "20.0",
+        "version": "20.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49337,7 +49405,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-20.0",
+            "name": "save-page-we-20.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -49727,6 +49795,40 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
         },
         "_attr": "firefox-addons.temporary-containers",
+        "_repo": "rycee"
+    },
+    "nur.repos.rycee.terraform-provider-keycloak": {
+        "name": "terraform-provider-keycloak-1.19.0",
+        "pname": "terraform-provider-keycloak",
+        "version": "1.19.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "homepage": "https://github.com/mrparkers/terraform-provider-keycloak",
+            "name": "terraform-provider-keycloak-1.19.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
+        },
+        "_attr": "terraform-provider-keycloak",
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.text-contrast-for-dark-themes": {
