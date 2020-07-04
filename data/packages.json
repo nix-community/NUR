@@ -50894,6 +50894,46 @@
         "_attr": "bomber",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.compton-fork": {
+        "name": "ComptonFork-0.1_beta2",
+        "pname": "ComptonFork",
+        "version": "0.1_beta2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Compositor for X11",
+            "homepage": "https://github.com/tryone144/compton",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "ComptonFork-0.1_beta2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "compton-fork",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.controls-for-fake": {
         "name": "ControlsForFake-unstable",
         "pname": "ControlsForFake-unstable",
@@ -51084,6 +51124,46 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "inkscape",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.instantwm": {
+        "name": "InstantWM-",
+        "pname": "InstantWM-",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Window manager of instantOS.",
+            "homepage": "https://github.com/instantOS/instantWM",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "InstantWM-",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "instantwm",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.juk": {
@@ -51668,6 +51748,113 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "sync-database",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.qtile": {
+        "name": "qtile-0.15.1",
+        "pname": "qtile",
+        "version": "0.15.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A small, flexible, scriptable tiling window manager written in Python",
+            "homepage": "http://www.qtile.org/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kamil.chm@gmail.com",
+                    "github": "kamilchm",
+                    "githubId": 1621930,
+                    "name": "Kamil Chmielewski"
+                }
+            ],
+            "name": "qtile-0.15.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "qtile",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.rofi": {
+        "name": "rofi-unwrapped-1.5.4",
+        "pname": "rofi-unwrapped",
+        "version": "1.5.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Window switcher, run dialog and dmenu replacement",
+            "homepage": "https://github.com/davatorium/rofi",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mbakke@fastmail.com",
+                    "github": "mbakke",
+                    "githubId": 1269099,
+                    "name": "Marius Bakke"
+                }
+            ],
+            "name": "rofi-unwrapped-1.5.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "rofi",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.scripts": {
