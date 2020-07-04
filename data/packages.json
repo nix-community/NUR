@@ -33970,6 +33970,31 @@
         "_attr": "lightdm-webkit2-greeter",
         "_repo": "metadark"
     },
+    "nur.repos.metadark.caprine": {
+        "name": "node_caprine-2.48.0",
+        "pname": "node_caprine",
+        "version": "2.48.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "homepage": "https://sindresorhus.com/caprine",
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@gmail.com",
+                    "github": "metadark",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "node_caprine-2.48.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
+        },
+        "_attr": "caprine",
+        "_repo": "metadark"
+    },
     "nur.repos.metadark.debugpy": {
         "name": "python3.8-debugpy-1.0.0b11",
         "pname": "python3.8-debugpy",
@@ -34123,6 +34148,40 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
         },
         "_attr": "runescape-launcher",
+        "_repo": "metadark"
+    },
+    "nur.repos.metadark.runescape-launcher-unwrapped": {
+        "name": "runescape-launcher-2.2.7",
+        "pname": "runescape-launcher",
+        "version": "2.2.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "RuneScape Game Client (NXT)",
+            "homepage": "https://www.runescape.com",
+            "license": {
+                "free": false,
+                "fullName": "RuneScape EULA",
+                "url": "http://content.runescape.com/downloads/LICENCE.txt"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@gmail.com",
+                    "github": "metadark",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "runescape-launcher-2.2.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
+        },
+        "_attr": "runescape-launcher-unwrapped",
         "_repo": "metadark"
     },
     "nur.repos.metadark.texlab": {
