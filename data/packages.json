@@ -50953,9 +50953,9 @@
         "_attr": "bomber",
         "_repo": "shamilton"
     },
-    "nur.repos.shamilton.compton-fork": {
-        "name": "ComptonFork-0.1_beta2",
-        "pname": "ComptonFork",
+    "nur.repos.shamilton.compton": {
+        "name": "Compton-0.1_beta2",
+        "pname": "Compton",
         "version": "0.1_beta2",
         "system": "x86_64-linux",
         "meta": {
@@ -50969,9 +50969,14 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+                {
+                    "email": "sgn.hamilton@protonmail.com",
+                    "github": "SCOTT-HAMILTON",
+                    "githubId": 24496705,
+                    "name": "Scott Hamilton"
+                }
             ],
-            "name": "ComptonFork-0.1_beta2",
+            "name": "Compton-0.1_beta2",
             "outputsToInstall": [
                 "out"
             ],
@@ -50990,7 +50995,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
-        "_attr": "compton-fork",
+        "_attr": "compton",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.controls-for-fake": {
@@ -51361,7 +51366,12 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+                {
+                    "email": "sgn.hamilton@protonmail.com",
+                    "github": "SCOTT-HAMILTON",
+                    "githubId": 24496705,
+                    "name": "Scott Hamilton"
+                }
             ],
             "name": "keysmith-0.2",
             "outputsToInstall": [
