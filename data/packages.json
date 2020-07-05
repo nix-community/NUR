@@ -7506,9 +7506,9 @@
         "_repo": "emmanuelrosa"
     },
     "nur.repos.extends.bashtop": {
-        "name": "bashtop-0.9.9",
+        "name": "bashtop-0.9.19",
         "pname": "bashtop",
-        "version": "0.9.9",
+        "version": "0.9.19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7523,7 +7523,7 @@
             "maintainers": [
                 "Extends <sharosari@gmail.com>"
             ],
-            "name": "bashtop-0.9.9",
+            "name": "bashtop-0.9.19",
             "outputsToInstall": [
                 "out"
             ],
