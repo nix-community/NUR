@@ -48688,6 +48688,22 @@
         "_attr": "firefox-addons.multi-account-containers",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.nix-stray-roots": {
+        "name": "nix-stray-roots",
+        "pname": "nix-stray-roots",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "nix-stray-roots",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "nix-stray-roots",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons-generator": {
         "name": "nixpkgs-firefox-addons-0.7.0",
         "pname": "nixpkgs-firefox-addons",
