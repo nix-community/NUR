@@ -60516,13 +60516,13 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.oc_4_2": {
-        "name": "oc-4.2.34",
+        "name": "oc-4.2.36",
         "pname": "oc",
-        "version": "4.2.34",
+        "version": "4.2.36",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "oc-4.2.34",
+            "name": "oc-4.2.36",
             "outputsToInstall": [
                 "out"
             ],
@@ -60532,13 +60532,13 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.oc_4_3": {
-        "name": "oc-4.3.24",
+        "name": "oc-4.3.28",
         "pname": "oc",
-        "version": "4.3.24",
+        "version": "4.3.28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "oc-4.3.24",
+            "name": "oc-4.3.28",
             "outputsToInstall": [
                 "out"
             ],
@@ -60548,19 +60548,35 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.oc": {
-        "name": "oc-4.4.5",
+        "name": "oc-4.4.11",
         "pname": "oc",
-        "version": "4.4.5",
+        "version": "4.4.11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "oc-4.4.5",
+            "name": "oc-4.4.11",
             "outputsToInstall": [
                 "out"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
         },
         "_attr": "oc",
+        "_repo": "vdemeester"
+    },
+    "nur.repos.vdemeester.oc_4_5": {
+        "name": "oc-4.5.0-rc.6",
+        "pname": "oc",
+        "version": "4.5.0-rc.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "oc-4.5.0-rc.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "oc_4_5",
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.openshift-install": {
