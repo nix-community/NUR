@@ -147,10 +147,11 @@ outputs = {self, nixpkgs, nur }:
   nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
     # ...
     modules = [
-      ({
-        nixpkgs.overlays = [ nur."${nur-username}".overlays."${anOverlay}" ]
-      })
-      nur."${nur-username}".modules.${aModule}
+      # this adds a nur attribute set that can be used for example like this:
+      #  ({ pkgs, ... }: {
+      #    environment.systemPackages = [ pkgs.nur.repos.mic92.hello-nur ];
+      #  })
+      { nixpkgs.overlays = [ nur.overlay ]; }
     ];
   };
 }
