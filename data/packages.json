@@ -5941,9 +5941,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pylatexenc": {
-        "name": "python3.8-pylatexenc-2.5",
+        "name": "python3.8-pylatexenc-2.6",
         "pname": "python3.8-pylatexenc",
-        "version": "2.5",
+        "version": "2.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5981,7 +5981,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-pylatexenc-2.5",
+            "name": "python3.8-pylatexenc-2.6",
             "outputsToInstall": [
                 "out"
             ],
