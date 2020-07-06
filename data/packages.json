@@ -42947,100 +42947,10 @@
         "_attr": "surfraw",
         "_repo": "nprindle"
     },
-    "nur.repos.peel.hoverfly": {
-        "name": "hoverfly-v0.17.2",
-        "pname": "hoverfly-v0.17.2",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Lightweight service virtualization/API simulation tool for developers and testers",
-            "homepage": "http://hoverfly.io",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "name": "hoverfly-v0.17.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/peel"
-        },
-        "_attr": "hoverfly",
-        "_repo": "peel"
-    },
-    "nur.repos.peel.ix": {
-        "name": "ix-1.0.0",
-        "pname": "ix",
-        "version": "1.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A command line pastebin",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "name": "ix-1.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/peel"
-        },
-        "_attr": "ix",
-        "_repo": "peel"
-    },
     "nur.repos.peel.metals": {
-        "name": "metals-0.7.6",
+        "name": "metals-0.9.1",
         "pname": "metals",
-        "version": "0.7.6",
+        "version": "0.9.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -43060,7 +42970,7 @@
                     "name": "Kevin Rauscher"
                 }
             ],
-            "name": "metals-0.7.6",
+            "name": "metals-0.9.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -43116,56 +43026,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/peel"
         },
         "_attr": "scripts",
-        "_repo": "peel"
-    },
-    "nur.repos.peel.qarma": {
-        "name": "qarma-0.1.0",
-        "pname": "qarma",
-        "version": "0.1.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A drop-in replacement clone for zenity, written in Qt4/5",
-            "homepage": "https://github.com/luebking/qarma",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "name": "qarma-0.1.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/peel"
-        },
-        "_attr": "qarma",
         "_repo": "peel"
     },
     "nur.repos.peel.rofi-emoji": {
@@ -43238,48 +43098,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/peel"
         },
         "_attr": "rofi-wifi-menu",
-        "_repo": "peel"
-    },
-    "nur.repos.peel.zenity": {
-        "name": "zenity-3.28.0",
-        "pname": "zenity",
-        "version": "3.28.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "name": "zenity-3.28.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/peel"
-        },
-        "_attr": "zenity",
         "_repo": "peel"
     },
     "nur.repos.priegger.annotatego": {
