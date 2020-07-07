@@ -34051,9 +34051,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.pygls": {
-        "name": "python3.8-pygls-0.8.1",
+        "name": "python3.8-pygls-0.9.0",
         "pname": "python3.8-pygls",
-        "version": "0.8.1",
+        "version": "0.9.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34090,7 +34090,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "python3.8-pygls-0.8.1",
+            "name": "python3.8-pygls-0.9.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -39194,13 +39194,13 @@
         "_repo": "moredread"
     },
     "nur.repos.mozilla.git-cinnabar": {
-        "name": "git-cinnabar-0.5.2",
+        "name": "git-cinnabar-0.5.4",
         "pname": "git-cinnabar",
-        "version": "0.5.2",
+        "version": "0.5.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "git-cinnabar-0.5.2",
+            "name": "git-cinnabar-0.5.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -61641,6 +61641,897 @@
         },
         "_attr": "genius-sf-600-firmware",
         "_repo": "wamserma"
+    },
+    "nur.repos.xe.cabytcini": {
+        "name": "cabytcini-0.2.1",
+        "pname": "cabytcini",
+        "version": "0.2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "lo mi cabytcini cankyuijde",
+            "homepage": "https://tulpa.dev/cadey/cabytcini",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "cabytcini-0.2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "cabytcini",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.comma": {
+        "name": "comma",
+        "pname": "comma",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "comma",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "comma",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.deno": {
+        "name": "deno-bin-1.0.2",
+        "pname": "deno-bin",
+        "version": "1.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A secure runtime for JavaScript and TypeScript",
+            "homepage": "https://deno.land",
+            "name": "deno-bin-1.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "deno",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.dwm": {
+        "name": "dwm-6.2-kadis",
+        "pname": "dwm",
+        "version": "6.2-kadis",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Dynamic window manager for X",
+            "homepage": "https://suckless.org/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "dwm-6.2-kadis",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "dwm",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.girara": {
+        "name": "girara-0.3.4",
+        "pname": "girara",
+        "version": "0.3.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "User interface library",
+            "homepage": "https://git.pwmt.org/pwmt/girara",
+            "license": {
+                "fullName": "zlib License",
+                "shortName": "zlib",
+                "spdxId": "Zlib",
+                "url": "https://spdx.org/licenses/Zlib.html"
+            },
+            "longDescription": "girara is a library that implements a GTK based VIM-like user interface\nthat focuses on simplicity and minimalism.\n",
+            "maintainers": [],
+            "name": "girara-0.3.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "girara",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.gopls": {
+        "name": "gopls-git",
+        "pname": "gopls-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "homepage": "https://golang.org/x/tools",
+            "name": "gopls-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "gopls",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.gruvbox-css": {
+        "name": "gruvbox-css",
+        "pname": "gruvbox-css",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "gruvbox-css",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "gruvbox-css",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.hewwo": {
+        "name": "hewwo-watest",
+        "pname": "hewwo-watest",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "hewwo-watest",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "hewwo",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.ii": {
+        "name": "ii-1.8",
+        "pname": "ii",
+        "version": "1.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Irc it, simple FIFO based irc client",
+            "homepage": "https://tools.suckless.org/ii/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "ii-1.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "ii",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.ix": {
+        "name": "ix",
+        "pname": "ix",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "command line pastebin",
+            "homepage": "https://ix.io",
+            "name": "ix",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "ix",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.johaus": {
+        "name": "johaus-1.1.0",
+        "pname": "johaus",
+        "version": "1.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "johaus-1.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "johaus",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.jvozba": {
+        "name": "jvozba-0.1.1",
+        "pname": "jvozba",
+        "version": "0.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "jvozba-0.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "jvozba",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.lchat": {
+        "name": "lchat-git",
+        "pname": "lchat-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "lchat-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "lchat",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.libutf": {
+        "name": "libutf-git",
+        "pname": "libutf-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "libutf-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "libutf",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.luakit": {
+        "name": "luakit-git",
+        "pname": "luakit-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Fast, small, webkit based browser framework extensible in Lua",
+            "homepage": "https://luakit.github.io/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "luakit-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "luakit",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.minica": {
+        "name": "minica-1.0.2",
+        "pname": "minica",
+        "version": "1.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "minica-1.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "minica",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.nix-simple-deploy": {
+        "name": "nix-simple-deploy-0.1.1",
+        "pname": "nix-simple-deploy",
+        "version": "0.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Deploy software or an entire NixOS system configuration to another NixOS system",
+            "homepage": "https://github.com/misuzu/nix-simple-deploy",
+            "license": [
+                {
+                    "fullName": "MIT License",
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "bakalolka@gmail.com",
+                    "github": "misuzu",
+                    "githubId": 248143,
+                    "name": "misuzu"
+                }
+            ],
+            "name": "nix-simple-deploy-0.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "nix-simple-deploy",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.orca": {
+        "name": "orca-git",
+        "pname": "orca-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "orca-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "orca",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.pridecat": {
+        "name": "pridecat-git",
+        "pname": "pridecat-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "pridecat-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "pridecat",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.quickserv": {
+        "name": "quickserv-0.1.0",
+        "pname": "quickserv",
+        "version": "0.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A quick HTTP server for when you've given up on life",
+            "homepage": "https://tulpa.dev/Xe/quickserv",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "quickserv-0.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "quickserv",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.sctd": {
+        "name": "sctd-0.1.2",
+        "pname": "sctd",
+        "version": "0.1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "set color temperature daemon ",
+            "homepage": "https://github.com/amir/sctd",
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "sctd-0.1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "sctd",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.sm64pc": {
+        "name": "sm64pc-latest",
+        "pname": "sm64pc-latest",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Super Mario 64 PC port, requires rom :)",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "sm64pc-latest",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "sm64pc",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.st": {
+        "name": "st-0.8.2",
+        "pname": "st",
+        "version": "0.8.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Simple Terminal for X from Suckless.org Community",
+            "homepage": "https://st.suckless.org/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "st-0.8.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "st",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.sw": {
+        "name": "sw-git",
+        "pname": "sw-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "sw-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "sw",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.zathura": {
+        "name": "zathura-with-plugins-0.4.5",
+        "pname": "zathura-with-plugins",
+        "version": "0.4.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A highly customizable and functional PDF viewer",
+            "homepage": "https://git.pwmt.org/pwmt/zathura/",
+            "license": {
+                "fullName": "zlib License",
+                "shortName": "zlib",
+                "spdxId": "Zlib",
+                "url": "https://spdx.org/licenses/Zlib.html"
+            },
+            "longDescription": "Zathura is a highly customizable and functional PDF viewer based on the\npoppler rendering library and the GTK toolkit. The idea behind zathura\nis an application that provides a minimalistic and space saving interface\nas well as an easy usage that mainly focuses on keyboard interaction.\n",
+            "maintainers": [
+                {
+                    "email": "grrwlf@gmail.com",
+                    "github": "grwlf",
+                    "githubId": 4477729,
+                    "name": "Sergey Mironov"
+                },
+                {
+                    "email": "mail@glob.in",
+                    "github": "globin",
+                    "githubId": 1447245,
+                    "name": "Robin Gloster"
+                }
+            ],
+            "name": "zathura-with-plugins-0.4.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
+        },
+        "_attr": "zathura",
+        "_repo": "xe"
     },
     "nur.repos.zeratax.mangohud": {
         "name": "mangohud-0.4.1",
