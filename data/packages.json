@@ -34462,6 +34462,43 @@
         "_attr": "VVVVVV-unwrapped",
         "_repo": "metadark"
     },
+    "nur.repos.metadark.xpadneo": {
+        "name": "xpadneo-0.7.5",
+        "pname": "xpadneo",
+        "version": "0.7.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Advanced Linux driver for Xbox One wireless controllers",
+            "homepage": "https://atar-axis.github.io/xpadneo",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "name": "xpadneo-0.7.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
+        },
+        "_attr": "xpadneo",
+        "_repo": "metadark"
+    },
     "nur.repos.metadark.zyn-fusion": {
         "name": "zyn-fusion-3.0.5",
         "pname": "zyn-fusion",
