@@ -711,7 +711,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/babariviere('nixpkgs', 'pkgs', 'build-support', 'fetchurl', 'default.nix')#L119"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/babariviere('nixpkgs', 'pkgs', 'build-support', 'fetchurl', 'default.nix')#L122"
         },
         "_attr": "nerd-font-symbols",
         "_repo": "babariviere"
@@ -37415,7 +37415,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92('nixpkgs', 'pkgs', 'build-support', 'fetchurl', 'default.nix')#L119"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92('nixpkgs', 'pkgs', 'build-support', 'fetchurl', 'default.nix')#L122"
         },
         "_attr": "threema-web",
         "_repo": "mic92"
@@ -41813,6 +41813,20 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "sirio@b-ad.ch",
+                    "github": "siriobalmelli",
+                    "githubId": 23038812,
+                    "keys": [
+                        {
+                            "fingerprint": "B234 EFD4 2B42 FE81 EE4D  7627 F72C 4A88 7F9A 24CA",
+                            "longkeyid": "ed25519/0xF72C4A887F9A24CA"
+                        }
+                    ],
+                    "name": "Sirio Balmelli"
+                }
+            ],
             "name": "python3.7-testfixtures-6.14.1",
             "outputsToInstall": [
                 "out"
@@ -41834,7 +41848,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/n1kolasM('nixpkgs', 'pkgs', 'development', 'python-modules', 'testfixtures', 'default.nix')#L23"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/n1kolasM('nixpkgs', 'pkgs', 'development', 'python-modules', 'testfixtures', 'default.nix')#L26"
         },
         "_attr": "python37Packages.testfixtures",
         "_repo": "n1kolasM"
@@ -59280,7 +59294,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tomberek('nixpkgs', 'pkgs', 'build-support', 'fetchurl', 'default.nix')#L119"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tomberek('nixpkgs', 'pkgs', 'build-support', 'fetchurl', 'default.nix')#L122"
         },
         "_attr": "fasttext-langid",
         "_repo": "tomberek"
