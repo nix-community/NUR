@@ -53180,9 +53180,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gef": {
-        "name": "gef-c206d37",
-        "pname": "gef-c206d37",
-        "version": "",
+        "name": "gef-1d5cffd",
+        "pname": "gef",
+        "version": "1d5cffd",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53208,7 +53208,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gef-c206d37",
+            "name": "gef-1d5cffd",
             "outputsToInstall": [
                 "out"
             ],
@@ -53710,9 +53710,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-14f4dea",
-        "pname": "gpxsee",
-        "version": "14f4dea",
+        "name": "gpxsee-d6e0757",
+        "pname": "gpxsee-d6e0757",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53738,7 +53738,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-14f4dea",
+            "name": "gpxsee-d6e0757",
             "outputsToInstall": [
                 "out"
             ],
@@ -54154,9 +54154,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.hfst": {
-        "name": "hfst-265bc37",
-        "pname": "hfst",
-        "version": "265bc37",
+        "name": "hfst-a140e28",
+        "pname": "hfst-a140e28",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54182,7 +54182,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "hfst-265bc37",
+            "name": "hfst-a140e28",
             "outputsToInstall": [
                 "out"
             ],
@@ -54468,8 +54468,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.libgarmin": {
-        "name": "libgarmin-2008-12-27",
-        "pname": "libgarmin",
+        "name": "libgarmin-unstable-2008-12-27",
+        "pname": "libgarmin-unstable",
         "version": "2008-12-27",
         "system": "x86_64-linux",
         "meta": {
@@ -54496,7 +54496,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "libgarmin-2008-12-27",
+            "name": "libgarmin-unstable-2008-12-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -54819,8 +54819,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mapsoft2": {
-        "name": "mapsoft2-2020-06-22",
-        "pname": "mapsoft2",
+        "name": "mapsoft2-unstable-2020-06-22",
+        "pname": "mapsoft2-unstable",
         "version": "2020-06-22",
         "system": "x86_64-linux",
         "meta": {
@@ -54847,7 +54847,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "mapsoft2-2020-06-22",
+            "name": "mapsoft2-unstable-2020-06-22",
             "outputsToInstall": [
                 "out"
             ],
@@ -54870,9 +54870,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-06-30",
+        "name": "maptourist-2020-07-08",
         "pname": "maptourist",
-        "version": "2020-06-30",
+        "version": "2020-07-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54896,7 +54896,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-06-30",
+            "name": "maptourist-2020-07-08",
             "outputsToInstall": [
                 "out"
             ],
@@ -55257,9 +55257,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-27befc0",
+        "name": "nakarte-681d20a",
         "pname": "nakarte",
-        "version": "27befc0",
+        "version": "681d20a",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -55286,7 +55286,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-27befc0",
+            "name": "nakarte-681d20a",
             "outputsToInstall": [
                 "out"
             ],
@@ -55341,9 +55341,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-1faf9f2",
+        "name": "nnn-plugins-53bbcbc",
         "pname": "nnn-plugins",
-        "version": "1faf9f2",
+        "version": "53bbcbc",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55369,7 +55369,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-1faf9f2",
+            "name": "nnn-plugins-53bbcbc",
             "outputsToInstall": [
                 "out"
             ],
@@ -55426,8 +55426,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.ocad2mp": {
-        "name": "ocad2mp-2011-01-26",
-        "pname": "ocad2mp",
+        "name": "ocad2mp-unstable-2011-01-26",
+        "pname": "ocad2mp-unstable",
         "version": "2011-01-26",
         "system": "x86_64-linux",
         "meta": {
@@ -55454,7 +55454,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "ocad2mp-2011-01-26",
+            "name": "ocad2mp-unstable-2011-01-26",
             "outputsToInstall": [
                 "out"
             ],
@@ -55481,9 +55481,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.odict": {
-        "name": "odict-0a0a6e6",
+        "name": "odict-3fba965",
         "pname": "odict",
-        "version": "0a0a6e6",
+        "version": "3fba965",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55515,7 +55515,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "odict-0a0a6e6",
+            "name": "odict-3fba965",
             "outputsToInstall": [
                 "out"
             ],
@@ -55550,9 +55550,9 @@
         "_attr": "odict",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.openmtbmap_openvelomap_linux": {
-        "name": "openmtbmap_openvelomap_linux-de24cd5",
-        "pname": "openmtbmap_openvelomap_linux-de24cd5",
+    "nur.repos.sikmir.openmtbmap": {
+        "name": "openmtbmap-de24cd5",
+        "pname": "openmtbmap-de24cd5",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -55577,7 +55577,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "openmtbmap_openvelomap_linux-de24cd5",
+            "name": "openmtbmap-de24cd5",
             "outputsToInstall": [
                 "out"
             ],
@@ -55630,13 +55630,13 @@
                 "ci": true
             }
         },
-        "_attr": "openmtbmap_openvelomap_linux",
+        "_attr": "openmtbmap",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-71f8201",
+        "name": "OpenOrienteering-Mapper-838d06b",
         "pname": "OpenOrienteering-Mapper",
-        "version": "71f8201",
+        "version": "838d06b",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55662,7 +55662,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-71f8201",
+            "name": "OpenOrienteering-Mapper-838d06b",
             "outputsToInstall": [
                 "out"
             ],
@@ -55837,8 +55837,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.ocad2img": {
-        "name": "perl5.30.3-ocad2img-2009-10-11",
-        "pname": "perl5.30.3-ocad2img",
+        "name": "perl5.30.3-ocad2img-unstable-2009-10-11",
+        "pname": "perl5.30.3-ocad2img-unstable",
         "version": "2009-10-11",
         "system": "x86_64-linux",
         "meta": {
@@ -55865,7 +55865,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "perl5.30.3-ocad2img-2009-10-11",
+            "name": "perl5.30.3-ocad2img-unstable-2009-10-11",
             "outputsToInstall": [
                 "out"
             ],
@@ -56083,7 +56083,7 @@
         "_attr": "cheetah3",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.click": {
+    "nur.repos.sikmir.click-6-7": {
         "name": "python3.8-click-6.7",
         "pname": "python3.8-click",
         "version": "6.7",
@@ -56138,7 +56138,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
-        "_attr": "click",
+        "_attr": "click-6-7",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mercantile": {
@@ -56304,9 +56304,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.pyephem": {
-        "name": "python3.8-pyephem-2b61672",
+        "name": "python3.8-pyephem-1bb605c",
         "pname": "python3.8-pyephem",
-        "version": "2b61672",
+        "version": "1bb605c",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -56349,7 +56349,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-pyephem-2b61672",
+            "name": "python3.8-pyephem-1bb605c",
             "outputsToInstall": [
                 "out"
             ],
@@ -56466,9 +56466,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.python-hfst": {
-        "name": "python3.8-python-hfst-265bc37",
-        "pname": "python3.8-python-hfst",
-        "version": "265bc37",
+        "name": "python3.8-python-hfst-a140e28",
+        "pname": "python3.8-python-hfst-a140e28",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -56511,7 +56511,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-python-hfst-265bc37",
+            "name": "python3.8-python-hfst-a140e28",
             "outputsToInstall": [
                 "out"
             ],
@@ -56713,9 +56713,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-routinodb": {
-        "name": "qmapshack-routinodb-200629",
+        "name": "qmapshack-routinodb-200707",
         "pname": "qmapshack-routinodb",
-        "version": "200629",
+        "version": "200707",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -56739,7 +56739,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qmapshack-routinodb-200629",
+            "name": "qmapshack-routinodb-200707",
             "outputsToInstall": [
                 "out"
             ],
@@ -56974,8 +56974,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.shavit": {
-        "name": "shavit-2020-03-14",
-        "pname": "shavit",
+        "name": "shavit-unstable-2020-03-14",
+        "pname": "shavit-unstable",
         "version": "2020-03-14",
         "system": "x86_64-linux",
         "meta": {
@@ -57008,7 +57008,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "shavit-2020-03-14",
+            "name": "shavit-unstable-2020-03-14",
             "outputsToInstall": [
                 "out"
             ],
