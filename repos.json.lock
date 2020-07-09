@@ -170,6 +170,11 @@
             "sha256": "05irxc736ahckv4cn1f0l2cprwqx6h56m2a61ipjr795h72gmlcd",
             "url": "https://git.immae.eu/perso/Immae/Config/Nix/NUR.git"
         },
+        "instantos": {
+            "rev": "43392ee0e549522ab57c22d059c85396588e533c",
+            "sha256": "0rsqh7g4r6wjiqahzf83vaqginn31zbb1zzpf4d3fyzvfw5dky83",
+            "url": "https://github.com/instantOS/nix"
+        },
         "ivar": {
             "rev": "ddd2ed7221ccb55b9166f53d076fa4f74887e2c4",
             "sha256": "0ayq8qhyr3kxlm1cp0n0h8za9s4zwswgw7ysnybzl3d9l7dwphq2",
