@@ -10276,6 +10276,46 @@
         "_attr": "instantwm",
         "_repo": "instantos"
     },
+    "nur.repos.instantos.islide": {
+        "name": "islide-unstable",
+        "pname": "islide-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "InstantOS Slide",
+            "homepage": "https://github.com/instantOS/islide",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "islide-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
+        },
+        "_attr": "islide",
+        "_repo": "instantos"
+    },
     "nur.repos.instantos.paperbash": {
         "name": "Paperbash-unstable",
         "pname": "Paperbash-unstable",
@@ -53250,7 +53290,10 @@
                 "i686-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
         },
         "_attr": "cgpsmapper",
         "_repo": "sikmir"
@@ -53912,7 +53955,10 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": false
+            }
         },
         "_attr": "geographiclib",
         "_repo": "sikmir"
@@ -54007,7 +54053,10 @@
                 "i686-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
         },
         "_attr": "gmaptool",
         "_repo": "sikmir"
@@ -55018,7 +55067,10 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": false
+            }
         },
         "_attr": "imgdecode",
         "_repo": "sikmir"
@@ -55067,7 +55119,10 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": false
+            }
         },
         "_attr": "ish",
         "_repo": "sikmir"
@@ -55118,7 +55173,10 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": false
+            }
         },
         "_attr": "libgarmin",
         "_repo": "sikmir"
@@ -55244,7 +55302,10 @@
                 "aarch64-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": false
+            }
         },
         "_attr": "libshell",
         "_repo": "sikmir"
@@ -55418,7 +55479,10 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": false
+            }
         },
         "_attr": "mapsoft",
         "_repo": "sikmir"
@@ -55469,7 +55533,10 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": false
+            }
         },
         "_attr": "mapsoft2",
         "_repo": "sikmir"
@@ -56092,7 +56159,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A blazingly-fast replacement for Apple Dictionaries, Babylon, StarDict, etc.",
+            "description": "A blazingly-fast replacement for Apple Dictionaries, Babylon, StarDict, etc",
             "homepage": "https://odict.org",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
@@ -56487,7 +56554,10 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir('nixpkgs', 'lib', 'attrsets.nix')#L344"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir('nixpkgs', 'lib', 'attrsets.nix')#L344",
+            "skip": {
+                "ci": false
+            }
         },
         "_attr": "ocad2img",
         "_repo": "sikmir"
@@ -56563,7 +56633,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A very thin PostGIS-only tile server in Go. Takes in HTTP tile requests, executes SQL, returns MVT tiles.",
+            "description": "A very thin PostGIS-only tile server in Go. Takes in HTTP tile requests, executes SQL, returns MVT tiles",
             "homepage": "https://github.com/CrunchyData/pg_tileserv",
             "license": {
                 "fullName": "Apache License 2.0",
@@ -56672,7 +56742,10 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": false
+            }
         },
         "_attr": "ptunnel",
         "_repo": "sikmir"
@@ -57643,7 +57716,10 @@
                 "i686-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
         },
         "_attr": "sendmap20",
         "_repo": "sikmir"
