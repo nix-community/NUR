@@ -4526,6 +4526,22 @@
         "_attr": "rank_photos",
         "_repo": "dandellion"
     },
+    "nur.repos.dandellion.wallpapers": {
+        "name": "source",
+        "pname": "source",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "source",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion('nixpkgs', 'pkgs', 'build-support', 'fetchurl', 'default.nix')#L122"
+        },
+        "_attr": "wallpapers",
+        "_repo": "dandellion"
+    },
     "nur.repos.dandellion.vcsi": {
         "name": "vcsi-7.0.12",
         "pname": "vcsi",
@@ -51010,12 +51026,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [
-                {
-                    "email": "sgn.hamilton@protonmail.com",
-                    "github": "SCOTT-HAMILTON",
-                    "githubId": 24496705,
-                    "name": "Scott Hamilton"
-                }
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
             "name": "Compton-0.1_beta2",
             "outputsToInstall": [
@@ -51727,12 +51738,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [
-                {
-                    "email": "sgn.hamilton@protonmail.com",
-                    "github": "SCOTT-HAMILTON",
-                    "githubId": 24496705,
-                    "name": "Scott Hamilton"
-                }
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
             "name": "keysmith-0.2",
             "outputsToInstall": [
