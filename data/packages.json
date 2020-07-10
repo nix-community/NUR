@@ -9830,13 +9830,13 @@
         "_repo": "immae"
     },
     "nur.repos.instantos.instantassist": {
-        "name": "InstantASSIST-unstable",
-        "pname": "InstantASSIST-unstable",
+        "name": "instantASSIST-unstable",
+        "pname": "instantASSIST-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "InstantOS Utils",
+            "description": "instantOS Utils",
             "homepage": "https://github.com/instantOS/instantASSIST",
             "license": {
                 "fullName": "MIT License",
@@ -9847,7 +9847,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantASSIST-unstable",
+            "name": "instantASSIST-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -9870,13 +9870,13 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantconf": {
-        "name": "InstantConf-unstable",
-        "pname": "InstantConf-unstable",
+        "name": "instantConf-unstable",
+        "pname": "instantConf-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "InstantOS Conf",
+            "description": "instantOS Conf",
             "homepage": "https://github.com/instantOS/instantWM",
             "license": {
                 "fullName": "MIT License",
@@ -9887,7 +9887,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantConf-unstable",
+            "name": "instantConf-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -9910,13 +9910,13 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantdata": {
-        "name": "InstantData-unstable",
-        "pname": "InstantData-unstable",
+        "name": "instantData-unstable",
+        "pname": "instantData-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "InstantOS Data",
+            "description": "instantOS Data",
             "license": {
                 "fullName": "MIT License",
                 "shortName": "mit",
@@ -9926,7 +9926,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantData-unstable",
+            "name": "instantData-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -9949,13 +9949,13 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantdotfiles": {
-        "name": "InstantDotfiles-unstable",
-        "pname": "InstantDotfiles-unstable",
+        "name": "instantDotfiles-unstable",
+        "pname": "instantDotfiles-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "InstantOS dotfiles",
+            "description": "instantOS dotfiles",
             "homepage": "https://github.com/paperbenni/dotfiles",
             "license": {
                 "fullName": "MIT License",
@@ -9966,7 +9966,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantDotfiles-unstable",
+            "name": "instantDotfiles-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -9989,8 +9989,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantlogo": {
-        "name": "InstantLOGO-unstable",
-        "pname": "InstantLOGO-unstable",
+        "name": "instantLOGO-unstable",
+        "pname": "instantLOGO-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10006,7 +10006,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantLOGO-unstable",
+            "name": "instantLOGO-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10029,8 +10029,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantmenu": {
-        "name": "InstantMENU-unstable",
-        "pname": "InstantMENU-unstable",
+        "name": "instantMENU-unstable",
+        "pname": "instantMENU-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10046,7 +10046,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantMENU-unstable",
+            "name": "instantMENU-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10068,14 +10068,54 @@
         "_attr": "instantmenu",
         "_repo": "instantos"
     },
-    "nur.repos.instantos.instantshell": {
-        "name": "InstantShell-unstable",
-        "pname": "InstantShell-unstable",
+    "nur.repos.instantos.instantsettings": {
+        "name": "instantSETTINGS-unstable",
+        "pname": "instantSETTINGS-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "InstantOS Shell",
+            "description": "Simple settings app for instant-OS",
+            "homepage": "https://github.com/instantOS/instantSETTINGS",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "instantSETTINGS-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
+        },
+        "_attr": "instantsettings",
+        "_repo": "instantos"
+    },
+    "nur.repos.instantos.instantshell": {
+        "name": "instantShell-unstable",
+        "pname": "instantShell-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "instantOS Shell",
             "homepage": "https://github.com/instantOS/instantshell",
             "license": {
                 "fullName": "MIT License",
@@ -10086,7 +10126,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantShell-unstable",
+            "name": "instantShell-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10109,13 +10149,13 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantthemes": {
-        "name": "InstantTHEMES-unstable",
-        "pname": "InstantTHEMES-unstable",
+        "name": "instantTHEMES-unstable",
+        "pname": "instantTHEMES-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "InstantOS Themes",
+            "description": "instantOS Themes",
             "homepage": "https://github.com/instantOS/instantTHEMES",
             "license": {
                 "fullName": "MIT License",
@@ -10126,7 +10166,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantTHEMES-unstable",
+            "name": "instantTHEMES-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10149,13 +10189,13 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantutils": {
-        "name": "InstantUtils-unstable",
-        "pname": "InstantUtils-unstable",
+        "name": "instantUtils-unstable",
+        "pname": "instantUtils-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "InstantOS Utils",
+            "description": "instantOS Utils",
             "homepage": "https://github.com/instantOS/instantWM",
             "license": {
                 "fullName": "MIT License",
@@ -10166,7 +10206,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantUtils-unstable",
+            "name": "instantUtils-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10229,13 +10269,13 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantwidgets": {
-        "name": "InstantWidgets-unstable",
-        "pname": "InstantWidgets-unstable",
+        "name": "instantWidgets-unstable",
+        "pname": "instantWidgets-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "InstantOS widgets",
+            "description": "instantOS widgets",
             "homepage": "https://github.com/instantOS/instantwidgets",
             "license": {
                 "fullName": "MIT License",
@@ -10246,7 +10286,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantWidgets-unstable",
+            "name": "instantWidgets-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10269,8 +10309,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantwm": {
-        "name": "InstantWM-beta2",
-        "pname": "InstantWM-beta2",
+        "name": "instantWM-beta2",
+        "pname": "instantWM-beta2",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10286,7 +10326,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "InstantWM-beta2",
+            "name": "instantWM-beta2",
             "outputsToInstall": [
                 "out"
             ],
@@ -10315,7 +10355,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "InstantOS Slide",
+            "description": "instantOS Slide",
             "homepage": "https://github.com/instantOS/islide",
             "license": {
                 "fullName": "MIT License",
@@ -10395,7 +10435,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "InstantOS rangerplugins",
+            "description": "instantOS rangerplugins",
             "homepage": "https://github.com/paperbenni/dotfiles",
             "license": {
                 "fullName": "MIT License",
