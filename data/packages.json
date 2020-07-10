@@ -4351,6 +4351,38 @@
         "_attr": "colors",
         "_repo": "dandellion"
     },
+    "nur.repos.dandellion.grav1": {
+        "name": "grav1-0.0.0-20200708",
+        "pname": "grav1",
+        "version": "0.0.0-20200708",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "grav1-0.0.0-20200708",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
+        },
+        "_attr": "grav1",
+        "_repo": "dandellion"
+    },
+    "nur.repos.dandellion.grav1c": {
+        "name": "grav1c-0.0.0-20200708",
+        "pname": "grav1c",
+        "version": "0.0.0-20200708",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "grav1c-0.0.0-20200708",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
+        },
+        "_attr": "grav1c",
+        "_repo": "dandellion"
+    },
     "nur.repos.dandellion.janus": {
         "name": "janus-66.4",
         "pname": "janus",
