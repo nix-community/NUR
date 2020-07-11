@@ -10102,6 +10102,46 @@
         "_attr": "instantdotfiles",
         "_repo": "instantos"
     },
+    "nur.repos.instantos.instantixos": {
+        "name": "instantixos",
+        "pname": "instantixos",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "instantOS metapackage for Nix",
+            "homepage": "https://github.com/instantOS/instantOS",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "instantixos",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
+        },
+        "_attr": "instantixos",
+        "_repo": "instantos"
+    },
     "nur.repos.instantos.instantlogo": {
         "name": "instantLOGO-unstable",
         "pname": "instantLOGO-unstable",
@@ -34988,9 +35028,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.debugpy": {
-        "name": "python3.8-debugpy-1.0.0b11",
+        "name": "python3.8-debugpy-1.0.0b12",
         "pname": "python3.8-debugpy",
-        "version": "1.0.0b11",
+        "version": "1.0.0b12",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35027,7 +35067,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "python3.8-debugpy-1.0.0b11",
+            "name": "python3.8-debugpy-1.0.0b12",
             "outputsToInstall": [
                 "out"
             ],
@@ -35258,10 +35298,10 @@
         "_attr": "texlab",
         "_repo": "metadark"
     },
-    "nur.repos.metadark.vkbasalt": {
-        "name": "vkbasalt-0.3.2.1",
-        "pname": "vkbasalt",
-        "version": "0.3.2.1",
+    "nur.repos.metadark.vkBasalt": {
+        "name": "vkBasalt-0.3.2.2",
+        "pname": "vkBasalt",
+        "version": "0.3.2.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35281,7 +35321,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "vkbasalt-0.3.2.1",
+            "name": "vkBasalt-0.3.2.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -35300,13 +35340,13 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
         },
-        "_attr": "vkbasalt",
+        "_attr": "vkBasalt",
         "_repo": "metadark"
     },
     "nur.repos.metadark.VVVVVV": {
-        "name": "VVVVVV-9804fbc",
+        "name": "VVVVVV-15319b9",
         "pname": "VVVVVV",
-        "version": "9804fbc",
+        "version": "15319b9",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -35325,7 +35365,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "VVVVVV-unwrapped-9804fbc",
+            "name": "VVVVVV-unwrapped-15319b9",
             "outputsToInstall": [
                 "out"
             ],
@@ -35379,9 +35419,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.VVVVVV-unwrapped": {
-        "name": "VVVVVV-unwrapped-9804fbc",
+        "name": "VVVVVV-unwrapped-15319b9",
         "pname": "VVVVVV-unwrapped",
-        "version": "9804fbc",
+        "version": "15319b9",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -35401,7 +35441,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "VVVVVV-unwrapped-9804fbc",
+            "name": "VVVVVV-unwrapped-15319b9",
             "outputsToInstall": [
                 "out"
             ],
@@ -35455,9 +35495,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.xpadneo": {
-        "name": "xpadneo-0.7.5",
+        "name": "xpadneo-0.7.6",
         "pname": "xpadneo",
-        "version": "0.7.5",
+        "version": "0.7.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35469,7 +35509,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
-            "name": "xpadneo-0.7.5",
+            "name": "xpadneo-0.7.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -55759,6 +55799,51 @@
         "_attr": "ish",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.keeweb": {
+        "name": "keeweb-1.15.5",
+        "pname": "keeweb",
+        "version": "1.15.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Free cross-platform password manager compatible with KeePass",
+            "homepage": "https://keeweb.info/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "keeweb-1.15.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "keeweb",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.libgarmin": {
         "name": "libgarmin-unstable-2008-12-27",
         "pname": "libgarmin-unstable",
@@ -56174,9 +56259,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-07-08",
+        "name": "maptourist-2020-07-10",
         "pname": "maptourist",
-        "version": "2020-07-08",
+        "version": "2020-07-10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -56200,7 +56285,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-07-08",
+            "name": "maptourist-2020-07-10",
             "outputsToInstall": [
                 "out"
             ],
@@ -57521,6 +57606,87 @@
         "_attr": "click-6-7",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.jsonseq": {
+        "name": "python3.8-jsonseq-unstable-2019-07-31",
+        "pname": "python3.8-jsonseq-unstable",
+        "version": "2019-07-31",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Python implementation of RFC 7464",
+            "homepage": "https://github.com/sgillies/jsonseq",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "python3.8-jsonseq-unstable-2019-07-31",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "jsonseq",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.mercantile": {
         "name": "python3.8-mercantile-unstable-2020-06-16",
         "pname": "python3.8-mercantile-unstable",
@@ -58791,6 +58957,87 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "supload",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.tilesets-cli": {
+        "name": "tilesets-cli-unstable-2020-06-22",
+        "pname": "tilesets-cli-unstable",
+        "version": "2020-06-22",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "CLI for interacting with the Mapbox Tilesets API",
+            "homepage": "https://docs.mapbox.com/api/maps/#tilesets",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "tilesets-cli-unstable-2020-06-22",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "tilesets-cli",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tpkutils": {
