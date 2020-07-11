@@ -4284,6 +4284,22 @@
         "_attr": "thelounge",
         "_repo": "crazedprogrammer"
     },
+    "nur.repos.dandellion.av1client": {
+        "name": "av1client-0.13.0",
+        "pname": "av1client",
+        "version": "0.13.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "av1client-0.13.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
+        },
+        "_attr": "av1client",
+        "_repo": "dandellion"
+    },
     "nur.repos.dandellion.botamusique": {
         "name": "botamusique-6.1.1",
         "pname": "botamusique",
