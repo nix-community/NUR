@@ -47851,9 +47851,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.14",
+        "name": "darkreader-4.9.15",
         "pname": "darkreader",
-        "version": "4.9.14",
+        "version": "4.9.15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47865,7 +47865,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.14",
+            "name": "darkreader-4.9.15",
             "outputsToInstall": [
                 "out"
             ],
@@ -49007,9 +49007,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ipfs-companion": {
-        "name": "ipfs-companion-2.13.1",
+        "name": "ipfs-companion-2.14.0",
         "pname": "ipfs-companion",
-        "version": "2.13.1",
+        "version": "2.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49021,7 +49021,7 @@
                 "spdxId": "CC0-1.0",
                 "url": "https://spdx.org/licenses/CC0-1.0.html"
             },
-            "name": "ipfs-companion-2.13.1",
+            "name": "ipfs-companion-2.14.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -49414,9 +49414,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.multi-account-containers": {
-        "name": "multi-account-containers-6.2.5",
+        "name": "multi-account-containers-7.0.0",
         "pname": "multi-account-containers",
-        "version": "6.2.5",
+        "version": "7.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49428,7 +49428,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "multi-account-containers-6.2.5",
+            "name": "multi-account-containers-7.0.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -49988,9 +49988,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.react-devtools": {
-        "name": "react-devtools-4.8.0",
+        "name": "react-devtools-4.8.1",
         "pname": "react-devtools",
-        "version": "4.8.0",
+        "version": "4.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50002,7 +50002,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "react-devtools-4.8.0",
+            "name": "react-devtools-4.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -50260,9 +50260,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-20.4",
+        "name": "save-page-we-20.5",
         "pname": "save-page-we",
-        "version": "20.4",
+        "version": "20.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50273,7 +50273,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-20.4",
+            "name": "save-page-we-20.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -51038,9 +51038,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.27.10",
+        "name": "ublock-origin-1.28.0",
         "pname": "ublock-origin",
-        "version": "1.27.10",
+        "version": "1.28.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51052,7 +51052,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.27.10",
+            "name": "ublock-origin-1.28.0",
             "outputsToInstall": [
                 "out"
             ],
