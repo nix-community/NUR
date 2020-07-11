@@ -35615,14 +35615,14 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.zyn-fusion": {
-        "name": "zyn-fusion-3.0.5",
-        "pname": "zyn-fusion",
+        "name": "zynaddsubfx-3.0.5",
+        "pname": "zynaddsubfx",
         "version": "3.0.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "ZynAddSubFX with a new interactive UI",
-            "homepage": "https://zynaddsubfx.sourceforge.io/zyn-fusion.html",
+            "description": "High quality software synthesizer",
+            "homepage": "https://zynaddsubfx.sourceforge.io",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
                 "shortName": "gpl2",
@@ -35649,7 +35649,7 @@
                     "name": "Nicol\u00f2 Balzarotti"
                 }
             ],
-            "name": "zyn-fusion-3.0.5",
+            "name": "zynaddsubfx-3.0.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -35672,8 +35672,8 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.zynaddsubfx-fltk": {
-        "name": "zynaddsubfx-fltk-3.0.5",
-        "pname": "zynaddsubfx-fltk",
+        "name": "zynaddsubfx-3.0.5",
+        "pname": "zynaddsubfx",
         "version": "3.0.5",
         "system": "x86_64-linux",
         "meta": {
@@ -35706,7 +35706,7 @@
                     "name": "Nicol\u00f2 Balzarotti"
                 }
             ],
-            "name": "zynaddsubfx-fltk-3.0.5",
+            "name": "zynaddsubfx-3.0.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -35728,9 +35728,9 @@
         "_attr": "zynaddsubfx-fltk",
         "_repo": "metadark"
     },
-    "nur.repos.metadark.zynaddsubfx": {
-        "name": "zynaddsubfx-ntk-3.0.5",
-        "pname": "zynaddsubfx-ntk",
+    "nur.repos.metadark.zynaddsubfx-ntk": {
+        "name": "zynaddsubfx-3.0.5",
+        "pname": "zynaddsubfx",
         "version": "3.0.5",
         "system": "x86_64-linux",
         "meta": {
@@ -35763,7 +35763,7 @@
                     "name": "Nicol\u00f2 Balzarotti"
                 }
             ],
-            "name": "zynaddsubfx-ntk-3.0.5",
+            "name": "zynaddsubfx-3.0.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -35782,7 +35782,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
         },
-        "_attr": "zynaddsubfx",
+        "_attr": "zynaddsubfx-ntk",
         "_repo": "metadark"
     },
     "nur.repos.mic92.bitwarden_rs_ldap": {
