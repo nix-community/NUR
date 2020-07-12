@@ -64508,15 +64508,15 @@
         "_repo": "xe"
     },
     "nur.repos.zeratax.mangohud": {
-        "name": "mangohud-0.4.1",
+        "name": "mangohud",
         "pname": "mangohud",
-        "version": "0.4.1",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
             "homepage": "https://github.com/flightlessmango/MangoHud",
-            "name": "mangohud-0.4.1",
+            "name": "mangohud",
             "outputsToInstall": [
                 "out"
             ],
@@ -64525,7 +64525,7 @@
         "_attr": "mangohud",
         "_repo": "zeratax"
     },
-    "nur.repos.zeratax.mangohud-x86": {
+    "nur.repos.zeratax.mangohud_32": {
         "name": "mangohud-0.4.1",
         "pname": "mangohud",
         "version": "0.4.1",
@@ -64540,7 +64540,25 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax"
         },
-        "_attr": "mangohud-x86",
+        "_attr": "mangohud_32",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.mangohud_64": {
+        "name": "mangohud-0.4.1",
+        "pname": "mangohud",
+        "version": "0.4.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
+            "homepage": "https://github.com/flightlessmango/MangoHud",
+            "name": "mangohud-0.4.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax"
+        },
+        "_attr": "mangohud_64",
         "_repo": "zeratax"
     },
     "nur.repos.zeratax.mirage-im": {
