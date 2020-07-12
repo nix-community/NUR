@@ -60494,6 +60494,22 @@
         "_attr": "worksnaps-client",
         "_repo": "suhr"
     },
+    "nur.repos.syberant.emojipicker": {
+        "name": "emojipicker",
+        "pname": "emojipicker",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "emojipicker",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/syberant"
+        },
+        "_attr": "emojipicker",
+        "_repo": "syberant"
+    },
     "nur.repos.syberant.launchers-git": {
         "name": "launchers-git",
         "pname": "launchers-git",
