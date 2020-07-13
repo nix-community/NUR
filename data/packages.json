@@ -48199,6 +48199,57 @@
         "_attr": "firefox-addons.darkreader",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.dbus-codegen-rust": {
+        "name": "dbus-codegen-rust-0.5.0",
+        "pname": "dbus-codegen-rust",
+        "version": "0.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "D-Bus binding for the Rust language",
+            "homepage": "https://github.com/diwic/dbus-rs",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "robert@rycee.net",
+                    "github": "rycee",
+                    "githubId": 798147,
+                    "keys": [
+                        {
+                            "fingerprint": "36CA CF52 D098 CC0E 78FB  0CB1 3573 356C 25C4 24D4",
+                            "longkeyid": "rsa4096/0x3573356C25C424D4"
+                        }
+                    ],
+                    "name": "Robert Helgesson"
+                }
+            ],
+            "name": "dbus-codegen-rust-0.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
+        },
+        "_attr": "dbus-codegen-rust",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons.decentraleyes": {
         "name": "decentraleyes-2.0.14",
         "pname": "decentraleyes",
