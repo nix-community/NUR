@@ -35040,6 +35040,51 @@
         "_attr": "emacs-pure-gtk3",
         "_repo": "metadark"
     },
+    "nur.repos.metadark.goverlay": {
+        "name": "goverlay-0.3.5",
+        "pname": "goverlay",
+        "version": "0.3.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays",
+            "homepage": "https://github.com/benjamimgois/goverlay",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@gmail.com",
+                    "github": "metadark",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "goverlay-0.3.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
+        },
+        "_attr": "goverlay",
+        "_repo": "metadark"
+    },
     "nur.repos.metadark.lightdm-webkit2-greeter": {
         "name": "lightdm-webkit2-greeter-2.2.5",
         "pname": "lightdm-webkit2-greeter",
