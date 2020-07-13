@@ -52216,7 +52216,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados('nixpkgs', 'pkgs', 'applications', 'networking', 'browsers', 'firefox', 'wrapper.nix')#L173",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados('nixpkgs', 'pkgs', 'applications', 'networking', 'browsers', 'firefox', 'wrapper.nix')#L175",
             "priority": -1
         },
         "_attr": "waterfox",
@@ -60825,9 +60825,9 @@
         "_repo": "tilpner"
     },
     "nur.repos.tilpner.syncthing-short-delay": {
-        "name": "syncthing-1.6.1",
+        "name": "syncthing-1.7.0",
         "pname": "syncthing",
-        "version": "1.6.1",
+        "version": "1.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -60877,7 +60877,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "syncthing-1.6.1",
+            "name": "syncthing-1.7.0",
             "outputsToInstall": [
                 "out"
             ],
