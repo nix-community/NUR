@@ -50473,9 +50473,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-20.7.10",
+        "name": "refined-github-20.7.12",
         "pname": "refined-github",
-        "version": "20.7.10",
+        "version": "20.7.12",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50487,7 +50487,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-20.7.10",
+            "name": "refined-github-20.7.12",
             "outputsToInstall": [
                 "out"
             ],
@@ -50541,9 +50541,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-20.5",
+        "name": "save-page-we-20.6",
         "pname": "save-page-we",
-        "version": "20.5",
+        "version": "20.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50554,7 +50554,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-20.5",
+            "name": "save-page-we-20.6",
             "outputsToInstall": [
                 "out"
             ],
