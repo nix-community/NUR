@@ -49271,9 +49271,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.i-dont-care-about-cookies": {
-        "name": "i-dont-care-about-cookies-3.1.8",
+        "name": "i-dont-care-about-cookies-3.1.9",
         "pname": "i-dont-care-about-cookies",
-        "version": "3.1.8",
+        "version": "3.1.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49285,7 +49285,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "i-dont-care-about-cookies-3.1.8",
+            "name": "i-dont-care-about-cookies-3.1.9",
             "outputsToInstall": [
                 "out"
             ],
@@ -49474,9 +49474,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.keepassxc-browser": {
-        "name": "keepassxc-browser-1.6.5",
+        "name": "keepassxc-browser-1.6.6",
         "pname": "keepassxc-browser",
-        "version": "1.6.5",
+        "version": "1.6.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49488,7 +49488,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "keepassxc-browser-1.6.5",
+            "name": "keepassxc-browser-1.6.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -51370,9 +51370,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.28.0",
+        "name": "ublock-origin-1.28.2",
         "pname": "ublock-origin",
-        "version": "1.28.0",
+        "version": "1.28.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51384,7 +51384,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.28.0",
+            "name": "ublock-origin-1.28.2",
             "outputsToInstall": [
                 "out"
             ],
