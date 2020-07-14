@@ -30260,9 +30260,9 @@
         "_repo": "kapack"
     },
     "nur.repos.kapack.glibc-batsky": {
-        "name": "glibc-2.30",
+        "name": "glibc-2.31",
         "pname": "glibc",
-        "version": "2.30",
+        "version": "2.31",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30283,7 +30283,7 @@
                     "name": "Eelco Dolstra"
                 }
             ],
-            "name": "glibc-2.30",
+            "name": "glibc-2.31",
             "outputsToInstall": [
                 "bin"
             ],
@@ -33718,7 +33718,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'pkgs', 'development', 'interpreters', 'python', 'cpython', 'default.nix')#L302"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'pkgs', 'development', 'interpreters', 'python', 'cpython', 'default.nix')#L305"
         },
         "_attr": "devpi-web",
         "_repo": "makefu"
