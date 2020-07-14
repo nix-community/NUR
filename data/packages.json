@@ -3169,9 +3169,9 @@
         "_repo": "c0deaddict"
     },
     "nur.repos.c0deaddict.goreleaser": {
-        "name": "goreleaser-0.134.0",
+        "name": "goreleaser-0.140.0",
         "pname": "goreleaser",
-        "version": "0.134.0",
+        "version": "0.140.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -3197,7 +3197,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "goreleaser-0.134.0",
+            "name": "goreleaser-0.140.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -3221,6 +3221,61 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/c0deaddict"
         },
         "_attr": "goreleaser",
+        "_repo": "c0deaddict"
+    },
+    "nur.repos.c0deaddict.goreplay": {
+        "name": "goreplay-1.1.0",
+        "pname": "goreplay",
+        "version": "1.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Open-source tool for capturing and replaying live HTTP traffic",
+            "homepage": "https://goreplay.org/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "josvanbakel@protonmail.com",
+                    "github": "c0deaddict",
+                    "githubId": 510553,
+                    "name": "Jos van Bakel"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "goreplay-1.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/c0deaddict"
+        },
+        "_attr": "goreplay",
         "_repo": "c0deaddict"
     },
     "nur.repos.c0deaddict.import-garmin-connect": {
