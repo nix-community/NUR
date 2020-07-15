@@ -1,13 +1,56 @@
+import socket
 import ssl
 from typing import List, Optional
 from urllib.parse import urlparse
 
-from irc.client import Connection, Event, Reactor, ServerConnectionError, is_channel
-from irc.connection import Factory
 
+def notify_irc(
+    server: str,
+    nick: str,
+    password: Optional[str],
+    channel: str,
+    tls: bool = True,
+    port: int = 6697,
+    messages: List[str] = [],
+) -> None:
+    if not messages:
+        return
 
-class Exit(SystemExit):
-    pass
+    sock = socket.socket()
+    if tls:
+        sock = ssl.wrap_socket(
+            sock, cert_reqs=ssl.CERT_NONE, ssl_version=ssl.PROTOCOL_TLSv1_2
+        )
+
+    def _send(command: str) -> int:
+        return sock.send((f"{command}\r\n").encode())
+
+    sock.connect((server, port))
+    if password:
+        _send(f"PASS {password}")
+    _send(f"NICK {nick}")
+    _send(f"USER {nick} {server} bla :{nick}")
+    _send(f"JOIN :{channel}")
+
+    for m in messages:
+        _send(f"PRIVMSG {channel} :{m}")
+
+    _send("INFO")
+
+    while True:
+        data = sock.recv(4096)
+        if not data:
+            raise RuntimeError("Received empty data")
+
+        # Assume INFO reply means we are done
+        if b"End of /INFO list" in data:
+            break
+
+        if data.startswith(b"PING"):
+            sock.send(data.replace(b"PING", b"PONG"))
+
+    sock.send(b"QUIT")
+    sock.close()
 
 
 def send(url: str, notifications: List[str]) -> None:
@@ -22,65 +65,11 @@ def send(url: str, notifications: List[str]) -> None:
     password = parsed.password
     if len(notifications) == 0:
         return
-    _send(
-        notifications=notifications,
-        nickname=username,
-        password=password,
+    notify_irc(
         server=server,
+        nick=username,
+        password=password,
         channel=channel,
         port=port,
+        messages=notifications,
     )
-
-
-class _send:
-    def __init__(
-        self,
-        notifications: List[str],
-        server: str,
-        nickname: str,
-        port: int,
-        channel: str,
-        password: Optional[str] = None,
-        use_ssl: bool = True,
-    ) -> None:
-        self.notifications = notifications
-        self.channel = channel
-
-        ssl_factory = None
-        if use_ssl:
-            ssl_factory = Factory(wrapper=ssl.wrap_socket)
-        reactor = Reactor()
-        try:
-            s = reactor.server()
-            c = s.connect(
-                server, port, nickname, password=password, connect_factory=ssl_factory
-            )
-        except ServerConnectionError as e:
-            print(f"error sending irc notification {e}")
-            return
-
-        c.add_global_handler("welcome", self.on_connect)
-        c.add_global_handler("join", self.on_join)
-        c.add_global_handler("disconnect", self.on_disconnect)
-
-        try:
-            reactor.process_forever()
-        except Exit:
-            pass
-
-    def on_connect(self, connection: Connection, event: Event) -> None:
-        if is_channel(self.channel):
-            connection.join(self.channel)
-            return
-        self.main_loop(connection)
-
-    def on_join(self, connection: Connection, event: Event) -> None:
-        self.main_loop(connection)
-
-    def on_disconnect(self, connection: Connection, event: Event) -> None:
-        raise Exit()
-
-    def main_loop(self, connection: Connection) -> None:
-        for notification in self.notifications:
-            connection.privmsg(self.channel, notification)
-        connection.quit("Bye")

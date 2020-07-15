@@ -6,11 +6,7 @@ python3Packages.buildPythonApplication {
   name = "nur";
   src = ./.;
 
-  # FIXME: uncomment after the next nixpkgs channel bump
-  #propagatedBuildInputs = [ python3Packages.irc ];
-
-  # import irc does not work right now.
-  doCheck = false;
+  doCheck = true;
 
   makeWrapperArgs = [
     "--prefix" "PATH" ":" "${stdenv.lib.makeBinPath [ nix-prefetch-git git nix ]}"

@@ -11,6 +11,7 @@ from typing import Dict, List, Optional, Tuple
 from .fileutils import chdir, write_json_file
 from .manifest import Repo, load_manifest, update_lock_file
 from .path import LOCK_PATH, MANIFEST_PATH, ROOT
+from .irc_notify import send
 
 logger = logging.getLogger(__name__)
 
@@ -186,12 +187,6 @@ def combine_command(args: Namespace) -> None:
     notifications = update_combined(combined_path)
 
     if args.irc_notify:
-        try:
-            from .irc_notify import send
-        except ImportError as e:
-            print(f"failed to import irc_notify, skipping notification: {e}")
-            return
-
         try:
             send(args.irc_notify, notifications)
         except Exception as e:
