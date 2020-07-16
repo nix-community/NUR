@@ -52866,366 +52866,6 @@
         "_attr": "inkscape",
         "_repo": "shamilton"
     },
-    "nur.repos.shamilton.instantconf": {
-        "name": "InstantConf-unstable",
-        "pname": "InstantConf-unstable",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "InstantOS Conf",
-            "homepage": "https://github.com/instantOS/instantWM",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "InstantConf-unstable",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "instantconf",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.instantdotfiles": {
-        "name": "InstantDotfiles-unstable",
-        "pname": "InstantDotfiles-unstable",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Window manager of instantOS.",
-            "homepage": "https://github.com/instantOS/instantWM",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "InstantDotfiles-unstable",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "instantdotfiles",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.instantlogo": {
-        "name": "InstantLOGO-unstable",
-        "pname": "InstantLOGO-unstable",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Window manager of instantOS.",
-            "homepage": "https://github.com/instantOS/instantWM",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "InstantLOGO-unstable",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "instantlogo",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.instantmenu": {
-        "name": "InstantMENU-unstable",
-        "pname": "InstantMENU-unstable",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Window manager of instantOS.",
-            "homepage": "https://github.com/instantOS/instantWM",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "InstantMENU-unstable",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "instantmenu",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.instantshell": {
-        "name": "InstantShell-unstable",
-        "pname": "InstantShell-unstable",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "InstantOS Shell",
-            "homepage": "https://github.com/instantOS/instantshell",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "InstantShell-unstable",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "instantshell",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.instantthemes": {
-        "name": "InstantTHEMES-unstable",
-        "pname": "InstantTHEMES-unstable",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "InstantOS Themes",
-            "homepage": "https://github.com/instantOS/instantTHEMES",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "InstantTHEMES-unstable",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "instantthemes",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.instantutils": {
-        "name": "InstantUtils-unstable",
-        "pname": "InstantUtils-unstable",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "InstantOS Utils",
-            "homepage": "https://github.com/instantOS/instantWM",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "InstantUtils-unstable",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "instantutils",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.instantwallpaper": {
-        "name": "instantWALLPAPER-unstable",
-        "pname": "instantWALLPAPER-unstable",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Window manager of instantOS.",
-            "homepage": "https://github.com/instantOS/instantWM",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "instantWALLPAPER-unstable",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "instantwallpaper",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.instantwm": {
-        "name": "InstantWM-beta2",
-        "pname": "InstantWM-beta2",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Window manager of instantOS.",
-            "homepage": "https://github.com/instantOS/instantWM",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "InstantWM-beta2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "instantwm",
-        "_repo": "shamilton"
-    },
     "nur.repos.shamilton.juk": {
         "name": "juk-19.12.3",
         "pname": "juk",
@@ -53586,25 +53226,42 @@
         "_attr": "lokalize",
         "_repo": "shamilton"
     },
-    "nur.repos.shamilton.paperbash": {
-        "name": "Paperbash-unstable",
-        "pname": "Paperbash-unstable",
-        "version": "",
+    "nur.repos.shamilton.gufw": {
+        "name": "python3.8-gufw-19.0.0",
+        "pname": "python3.8-gufw",
+        "version": "19.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Collection of neat little bash functions, meant for use in Scripting",
-            "homepage": "https://github.com/paperbenni/bash",
+            "description": "Feature complete cross-platform Wii Remote access library",
+            "homepage": "https://github.com/wiiuse/wiiuse",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
             "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "Paperbash-unstable",
+            "name": "python3.8-gufw-19.0.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -53623,7 +53280,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
-        "_attr": "paperbash",
+        "_attr": "gufw",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.python-iconf": {
@@ -62726,13 +62383,13 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.oc_4_3": {
-        "name": "oc-4.3.28",
+        "name": "oc-4.3.29",
         "pname": "oc",
-        "version": "4.3.28",
+        "version": "4.3.29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "oc-4.3.28",
+            "name": "oc-4.3.29",
             "outputsToInstall": [
                 "out"
             ],
@@ -62742,13 +62399,13 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.oc": {
-        "name": "oc-4.4.11",
+        "name": "oc-4.4.13",
         "pname": "oc",
-        "version": "4.4.11",
+        "version": "4.4.13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "oc-4.4.11",
+            "name": "oc-4.4.13",
             "outputsToInstall": [
                 "out"
             ],
@@ -62758,13 +62415,13 @@
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.oc_4_5": {
-        "name": "oc-4.5.0-rc.6",
+        "name": "oc-4.5.2",
         "pname": "oc",
-        "version": "4.5.0-rc.6",
+        "version": "4.5.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "oc-4.5.0-rc.6",
+            "name": "oc-4.5.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -62773,10 +62430,10 @@
         "_attr": "oc_4_5",
         "_repo": "vdemeester"
     },
-    "nur.repos.vdemeester.openshift-install": {
-        "name": "openshift-install-4.4.1",
+    "nur.repos.vdemeester.openshift-install_4_3": {
+        "name": "openshift-install-4.3.29",
         "pname": "openshift-install",
-        "version": "4.4.1",
+        "version": "4.3.29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -62788,13 +62445,61 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "openshift-install-4.4.1",
+            "name": "openshift-install-4.3.29",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "openshift-install_4_3",
+        "_repo": "vdemeester"
+    },
+    "nur.repos.vdemeester.openshift-install": {
+        "name": "openshift-install-4.4.13",
+        "pname": "openshift-install",
+        "version": "4.4.13",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Install an OpenShift cluster",
+            "homepage": "https://github.com/openshift/installer",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "openshift-install-4.4.13",
             "outputsToInstall": [
                 "out"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
         },
         "_attr": "openshift-install",
+        "_repo": "vdemeester"
+    },
+    "nur.repos.vdemeester.openshift-install_4_5": {
+        "name": "openshift-install-4.5.2",
+        "pname": "openshift-install",
+        "version": "4.5.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Install an OpenShift cluster",
+            "homepage": "https://github.com/openshift/installer",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "openshift-install-4.5.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester"
+        },
+        "_attr": "openshift-install_4_5",
         "_repo": "vdemeester"
     },
     "nur.repos.vdemeester.operator-sdk_0_16": {
