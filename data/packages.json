@@ -49950,9 +49950,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.multi-account-containers": {
-        "name": "multi-account-containers-7.0.0",
+        "name": "multi-account-containers-7.0.1",
         "pname": "multi-account-containers",
-        "version": "7.0.0",
+        "version": "7.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49964,7 +49964,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "multi-account-containers-7.0.0",
+            "name": "multi-account-containers-7.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -50524,9 +50524,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.react-devtools": {
-        "name": "react-devtools-4.8.1",
+        "name": "react-devtools-4.8.2",
         "pname": "react-devtools",
-        "version": "4.8.1",
+        "version": "4.8.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50538,7 +50538,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "react-devtools-4.8.1",
+            "name": "react-devtools-4.8.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -50592,9 +50592,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-enhancement-suite": {
-        "name": "reddit-enhancement-suite-5.20.1",
+        "name": "reddit-enhancement-suite-5.20.2",
         "pname": "reddit-enhancement-suite",
-        "version": "5.20.1",
+        "version": "5.20.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50606,7 +50606,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "reddit-enhancement-suite-5.20.1",
+            "name": "reddit-enhancement-suite-5.20.2",
             "outputsToInstall": [
                 "out"
             ],
