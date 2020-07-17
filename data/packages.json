@@ -240,6 +240,10 @@
                         }
                     ],
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "drep-0.1.1",
@@ -614,9 +618,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages_latest.rtl8723bu": {
-        "name": "rtl8723bu-5.7.8-2020-04-05",
+        "name": "rtl8723bu-5.7.9-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.7.8-2020-04-05",
+        "version": "5.7.9-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -641,7 +645,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.7.8-2020-04-05",
+            "name": "rtl8723bu-5.7.9-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -1752,6 +1756,10 @@
                     "github": "xrelkd",
                     "githubId": 46590321,
                     "name": "xrelkd"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "just-0.5.8",
@@ -2144,6 +2152,10 @@
                     "github": "bb010g",
                     "githubId": 340132,
                     "name": "Brayden Banks"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "mozlz4-tool-0.2.0+c561c2f",
@@ -2795,6 +2807,10 @@
                     "github": "bb010g",
                     "githubId": 340132,
                     "name": "Brayden Banks"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "xcolor-0.4.0",
@@ -2920,6 +2936,10 @@
                     "github": "bendlas",
                     "githubId": 214787,
                     "name": "Herwig Hochleitner"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "lsd-0.14.0",
@@ -7006,6 +7026,10 @@
                     "github": "dywedir",
                     "githubId": 399312,
                     "name": "Vladyslav M."
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "dssim-2.9.9",
@@ -7774,6 +7798,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "cordless-2020-06-26",
@@ -8486,6 +8514,12 @@
                 "spdxId": "Unlicense",
                 "url": "https://spdx.org/licenses/Unlicense.html"
             },
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "silver-1.1.0",
             "outputsToInstall": [
                 "out"
@@ -8568,6 +8602,12 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "cardano-cli-master",
             "outputsToInstall": [
                 "out"
@@ -26500,6 +26540,10 @@
                     "github": "johnazoidberg",
                     "githubId": 5307138,
                     "name": "Daniel Sch\u00e4fer"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "prosody-filer-1.0.0-rc3",
@@ -27766,6 +27810,10 @@
                     "github": "johnazoidberg",
                     "githubId": 5307138,
                     "name": "Daniel Sch\u00e4fer"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "u-root-v1.0.0",
@@ -29134,6 +29182,10 @@
                     "github": "JoshuaFern",
                     "githubId": 4300747,
                     "name": "Joshua Fern"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "steamgrid-unstable-2020-03-22",
@@ -29423,6 +29475,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "corgi-v0.2.3",
@@ -29516,6 +29572,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "gocode-unstable-2018-10-22",
@@ -29816,6 +29876,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "swm-0.2.2",
@@ -31504,6 +31568,10 @@
                     "github": "kmein",
                     "githubId": 10352507,
                     "name": "Kier\u00e1n Meinhardt"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "slide-0.1.0",
@@ -32135,6 +32203,12 @@
         "meta": {
             "available": true,
             "homepage": "https://github.com/martin-helmich/prometheus-nginxlog-exporter",
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "prometheus-nginxlog-exporter-1.2.0",
             "outputsToInstall": [
                 "out"
@@ -32808,6 +32882,12 @@
         "meta": {
             "available": true,
             "homepage": "https://github.com/tokuhirom/git-xlsx-textconv",
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "git-xlsx-textconv-70685e7f8",
             "outputsToInstall": [
                 "out"
@@ -33053,6 +33133,10 @@
                     "github": "mrVanDalo",
                     "githubId": 839693,
                     "name": "Ingolf Wanger"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "navi-2.1.1",
@@ -34455,6 +34539,12 @@
         "meta": {
             "available": true,
             "homepage": "https://github.com/go-shiori/shiori",
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "shiori-1.6.0-warc",
             "outputsToInstall": [
                 "out"
@@ -34758,6 +34848,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "sync3c-git-e7b331b9a7f376298466bd45380b7ff11592a0f4",
             "outputsToInstall": [
                 "out"
@@ -35426,6 +35522,10 @@
                     "github": "metadark",
                     "githubId": 382041,
                     "name": "Kira Bruneau"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "texlab-2.2.0",
@@ -35900,6 +36000,12 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "bitwarden_rs_ldap-0.1.1-cargo-fix",
             "outputsToInstall": [
                 "out"
@@ -36149,6 +36255,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "cntr-1.2.0",
             "outputsToInstall": [
                 "out"
@@ -36951,6 +37063,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "nix-build-uncached-0.1.1",
@@ -37340,6 +37456,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "peep-unstable-2020-02-06",
             "outputsToInstall": [
                 "out"
@@ -38474,6 +38596,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "rnix-lsp-unstable-2020-05-09",
             "outputsToInstall": [
                 "out"
@@ -38702,6 +38830,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "yubikey-touch-detector-1.2.0",
             "outputsToInstall": [
                 "out"
@@ -40629,6 +40763,10 @@
                     "github": "andir",
                     "githubId": 638836,
                     "name": "Andreas Rammhold"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "rust-cbindgen-0.13.1",
@@ -40979,6 +41117,10 @@
                     "github": "mrVanDalo",
                     "githubId": 839693,
                     "name": "Ingolf Wanger"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "navi-2.0.11",
@@ -41037,6 +41179,10 @@
                     "github": "mrVanDalo",
                     "githubId": 839693,
                     "name": "Ingolf Wanger"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "navi-master",
@@ -41470,6 +41616,12 @@
                     "shortName": "gpl3",
                     "spdxId": "GPL-3.0-only",
                     "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "neovim-gtk-unstable-0.2.0",
@@ -43517,6 +43669,10 @@
                     "github": "bb010g",
                     "githubId": 340132,
                     "name": "Brayden Banks"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "hacksaw-unstable-2020-05-02",
@@ -43575,6 +43731,10 @@
                     "github": "bb010g",
                     "githubId": 340132,
                     "name": "Brayden Banks"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "shotgun-2.2.0",
@@ -43633,6 +43793,10 @@
                     "github": "bb010g",
                     "githubId": 340132,
                     "name": "Brayden Banks"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "shotgun-unstable-2020-04-24",
@@ -43692,6 +43856,10 @@
                     "github": "bb010g",
                     "githubId": 340132,
                     "name": "Brayden Banks"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "uniconize-1.0.0",
@@ -43751,6 +43919,10 @@
                     "github": "bb010g",
                     "githubId": 340132,
                     "name": "Brayden Banks"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "uniconize-unstable-2020-05-02",
@@ -43871,6 +44043,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "butler-15.17.0",
             "outputsToInstall": [
                 "out"
@@ -44468,6 +44646,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "annotatego",
@@ -44517,6 +44699,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "go-hello-world",
@@ -44611,6 +44797,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "rust-hello-world",
             "outputsToInstall": [
                 "out"
@@ -48362,6 +48554,10 @@
                         }
                     ],
                     "name": "Robert Helgesson"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "dbus-codegen-rust-0.5.0",
@@ -51209,6 +51405,12 @@
         "meta": {
             "available": true,
             "homepage": "https://github.com/mrparkers/terraform-provider-keycloak",
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "terraform-provider-keycloak-1.19.0",
             "outputsToInstall": [
                 "out"
@@ -54691,6 +54893,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "glauth-unstable-2020-02-24",
@@ -56414,6 +56620,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "mbtileserver-unstable-2020-05-11",
@@ -56648,6 +56858,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "musig-unstable-2020-02-22",
@@ -56942,6 +57156,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "odict-unstable-2020-06-27",
@@ -57416,6 +57634,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "pg_tileserv-unstable-2020-06-12",
@@ -58596,6 +58818,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "shavit-unstable-2020-03-14",
@@ -59486,6 +59712,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "maple-0.8",
             "outputsToInstall": [
                 "out"
@@ -59770,7 +60002,12 @@
                     "url": "https://spdx.org/licenses/MIT.html"
                 }
             ],
-            "maintainers": [],
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "31key-0.1.0",
             "outputsToInstall": [
                 "out"
@@ -59846,6 +60083,10 @@
                     "github": "suhr",
                     "githubId": 65870,
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "augr-0.2.1",
@@ -60146,7 +60387,12 @@
                     "url": "https://spdx.org/licenses/MIT.html"
                 }
             ],
-            "maintainers": [],
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "mimi-0.1.0",
             "outputsToInstall": [
                 "out"
@@ -60555,6 +60801,12 @@
         "meta": {
             "available": true,
             "homepage": "https://github.com/m13253/dns-over-https",
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "dns-over-https-2.0",
             "outputsToInstall": [
                 "out"
@@ -60638,6 +60890,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "primitive-2017-09-26",
             "outputsToInstall": [
                 "out"
@@ -60787,6 +61045,10 @@
                     "github": "kalbasit",
                     "githubId": 87115,
                     "name": "Wael Nasreddine"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "syncthing-1.7.0",
@@ -61035,7 +61297,12 @@
                     "url": "https://spdx.org/licenses/MIT.html"
                 }
             ],
-            "maintainers": [],
+            "maintainers": [
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
+                }
+            ],
             "name": "tox-node-0.0.7",
             "outputsToInstall": [
                 "out"
@@ -61121,7 +61388,11 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [
-                "trevor@trevorriles.com"
+                "trevor@trevorriles.com",
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
             ],
             "name": "flarectl-v0.11.5",
             "outputsToInstall": [
@@ -61340,6 +61611,12 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "buildkit-0.7.1",
             "outputsToInstall": [
                 "out"
@@ -61434,6 +61711,10 @@
                     "github": "vdemeester",
                     "githubId": 6508,
                     "name": "Vincent Demeester"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "containerd-1.2.13",
@@ -61486,6 +61767,10 @@
                     "github": "vdemeester",
                     "githubId": 6508,
                     "name": "Vincent Demeester"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "containerd-1.3.6",
@@ -61538,6 +61823,10 @@
                     "github": "vdemeester",
                     "githubId": 6508,
                     "name": "Vincent Demeester"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "containerd-1.4.0-beta.1",
@@ -61584,6 +61873,10 @@
                     "github": "vdemeester",
                     "githubId": 6508,
                     "name": "Vincent Demeester"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "crc-1.10.0",
@@ -61633,6 +61926,10 @@
                     "github": "vdemeester",
                     "githubId": 6508,
                     "name": "Vincent Demeester"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "crc-1.11.0",
@@ -61682,6 +61979,10 @@
                     "github": "vdemeester",
                     "githubId": 6508,
                     "name": "Vincent Demeester"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "crc-1.9.0",
@@ -61902,6 +62203,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "envbox-0.2.0",
             "outputsToInstall": [
                 "out"
@@ -61943,6 +62250,12 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "esc-0.2.0",
             "outputsToInstall": [
                 "out"
@@ -62073,6 +62386,12 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "gorun-unstable-2018-04-08",
             "outputsToInstall": [
                 "out"
@@ -62161,6 +62480,10 @@
                     "github": "vdemeester",
                     "githubId": 6508,
                     "name": "Vincent Demeester"
+                },
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
                 }
             ],
             "name": "ko-0.5.1",
@@ -62277,6 +62600,10 @@
                     "github": "saschagrunert",
                     "githubId": 695473,
                     "name": "Sascha Grunert"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "kubernix-unstable-2020-05-07",
@@ -63227,6 +63554,12 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "yak-0.0.1",
             "outputsToInstall": [
                 "out"
@@ -63268,6 +63601,12 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "yaspell-1.0.4",
             "outputsToInstall": [
                 "out"
@@ -63642,6 +63981,10 @@
                     "github": "Xe",
                     "githubId": 529003,
                     "name": "Christine Dodrill"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "cabytcini-0.2.1",
@@ -63844,6 +64187,12 @@
         "meta": {
             "available": true,
             "homepage": "https://golang.org/x/tools",
+            "maintainers": [
+                {
+                    "email": "go@nixpkgs",
+                    "name": "Nixpkgs Go Packages"
+                }
+            ],
             "name": "gopls-git",
             "outputsToInstall": [
                 "out"
@@ -64185,6 +64534,10 @@
                     "github": "misuzu",
                     "githubId": 248143,
                     "name": "misuzu"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "nix-simple-deploy-0.1.1",
@@ -64293,6 +64646,10 @@
                     "github": "Xe",
                     "githubId": 529003,
                     "name": "Christine Dodrill"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "quickserv-0.1.0",
@@ -64336,6 +64693,10 @@
                     "github": "Xe",
                     "githubId": 529003,
                     "name": "Christine Dodrill"
+                },
+                {
+                    "email": "rust@nixpkgs",
+                    "name": "Nixpkgs Rust Packages"
                 }
             ],
             "name": "sctd-0.1.2",
