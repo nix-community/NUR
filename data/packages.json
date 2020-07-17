@@ -9998,8 +9998,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantassist": {
-        "name": "instantASSIST-unstable",
-        "pname": "instantASSIST-unstable",
+        "name": "instantAssist-unstable",
+        "pname": "instantAssist-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10015,7 +10015,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "instantASSIST-unstable",
+            "name": "instantAssist-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10198,8 +10198,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantlogo": {
-        "name": "instantLOGO-unstable",
-        "pname": "instantLOGO-unstable",
+        "name": "instantLogo-unstable",
+        "pname": "instantLogo-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10215,7 +10215,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "instantLOGO-unstable",
+            "name": "instantLogo-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10238,8 +10238,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantmenu": {
-        "name": "instantMENU-unstable",
-        "pname": "instantMENU-unstable",
+        "name": "instantMenu-unstable",
+        "pname": "instantMenu-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10255,7 +10255,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "instantMENU-unstable",
+            "name": "instantMenu-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10278,8 +10278,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantsettings": {
-        "name": "instantSETTINGS-unstable",
-        "pname": "instantSETTINGS-unstable",
+        "name": "instantSettings-unstable",
+        "pname": "instantSettings-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10312,7 +10312,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "instantSETTINGS-unstable",
+            "name": "instantSettings-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10375,8 +10375,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantthemes": {
-        "name": "instantTHEMES-unstable",
-        "pname": "instantTHEMES-unstable",
+        "name": "instantThemes-unstable",
+        "pname": "instantThemes-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10392,7 +10392,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "instantTHEMES-unstable",
+            "name": "instantThemes-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10455,8 +10455,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantwallpaper": {
-        "name": "instantWALLPAPER-unstable",
-        "pname": "instantWALLPAPER-unstable",
+        "name": "instantWallpaper-unstable",
+        "pname": "instantWallpaper-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10472,7 +10472,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "instantWALLPAPER-unstable",
+            "name": "instantWallpaper-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10495,8 +10495,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantwelcome": {
-        "name": "instantWELCOME-unstable",
-        "pname": "instantWELCOME-unstable",
+        "name": "instantWelcome-unstable",
+        "pname": "instantWelcome-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10528,7 +10528,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "instantWELCOME-unstable",
+            "name": "instantWelcome-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -10591,8 +10591,8 @@
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantwm": {
-        "name": "instantWM-beta2",
-        "pname": "instantWM-beta2",
+        "name": "instantWm-unstable",
+        "pname": "instantWm-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -10608,7 +10608,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "instantWM-beta2",
+            "name": "instantWm-unstable",
             "outputsToInstall": [
                 "out"
             ],
