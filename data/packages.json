@@ -50278,9 +50278,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.multi-account-containers": {
-        "name": "multi-account-containers-7.0.1",
+        "name": "multi-account-containers-7.0.2",
         "pname": "multi-account-containers",
-        "version": "7.0.1",
+        "version": "7.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50292,7 +50292,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "multi-account-containers-7.0.1",
+            "name": "multi-account-containers-7.0.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -50444,9 +50444,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-5.2.2",
+        "name": "octotree-5.4.0",
         "pname": "octotree",
-        "version": "5.2.2",
+        "version": "5.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50458,7 +50458,7 @@
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
-            "name": "octotree-5.2.2",
+            "name": "octotree-5.4.0",
             "outputsToInstall": [
                 "out"
             ],
