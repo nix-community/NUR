@@ -11,7 +11,7 @@
             "license": [
                 {
                     "fullName": "GNU General Public License v2.0 only",
-                    "shortName": "gpl2",
+                    "shortName": "gpl2Only",
                     "spdxId": "GPL-2.0-only",
                     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
                 }
@@ -568,9 +568,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages.rtl8723bu": {
-        "name": "rtl8723bu-5.4.51-2020-04-05",
+        "name": "rtl8723bu-5.4.52-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.4.51-2020-04-05",
+        "version": "5.4.52-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -595,7 +595,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.4.51-2020-04-05",
+            "name": "rtl8723bu-5.4.52-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -843,7 +843,7 @@
             "homepage": "https://os.ghalkes.nl/dwdiff.html",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -1142,7 +1142,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -2334,7 +2334,7 @@
             "homepage": "https://codestation.github.io/qcma/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -2411,7 +2411,7 @@
             "homepage": "https://sayonara-player.com/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -2746,7 +2746,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -3148,7 +3148,7 @@
             "homepage": "https://github.com/mattydebie/bitwarden-rofi",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -3254,7 +3254,7 @@
             "homepage": "https://goreplay.org/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -3458,7 +3458,7 @@
             "homepage": "https://github.com/HackerPoet/MarbleMarcher",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -3562,7 +3562,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -3816,7 +3816,7 @@
             "license": [
                 {
                     "fullName": "GNU General Public License v2.0 only",
-                    "shortName": "gpl2",
+                    "shortName": "gpl2Only",
                     "spdxId": "GPL-2.0-only",
                     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
                 }
@@ -3912,7 +3912,7 @@
             "homepage": "https://github.com/jubalh/nudoku",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -3966,7 +3966,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -4260,7 +4260,7 @@
             "homepage": "https://docs.espressif.com/projects/esp-idf/en/stable/get-started/linux-setup.html",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -4325,7 +4325,7 @@
             "homepage": "http://luakit.org",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -4561,7 +4561,7 @@
             "homepage": "https://github.com/DoctorD1501/JAVMovieScraper",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -7018,7 +7018,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -7146,7 +7146,7 @@
             "license": [
                 {
                     "fullName": "GNU Affero General Public License v3.0 only",
-                    "shortName": "agpl3",
+                    "shortName": "agpl3Only",
                     "spdxId": "AGPL-3.0-only",
                     "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
                 }
@@ -8408,7 +8408,7 @@
             "homepage": "https://github.com/jergusg/k380-function-keys-conf",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -8453,7 +8453,7 @@
             "homepage": "https://github.com/christofmuc/KnobKraft-orm",
             "license": {
                 "fullName": "GNU Affero General Public License v3.0 only",
-                "shortName": "agpl3",
+                "shortName": "agpl3Only",
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
@@ -8499,13 +8499,13 @@
             "license": [
                 {
                     "fullName": "GNU Lesser General Public License v2.1 only",
-                    "shortName": "lgpl21",
+                    "shortName": "lgpl21Only",
                     "spdxId": "LGPL-2.1-only",
                     "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
                 },
                 {
                     "fullName": "GNU General Public License v3.0 only",
-                    "shortName": "gpl3",
+                    "shortName": "gpl3Only",
                     "spdxId": "GPL-3.0-only",
                     "url": "https://spdx.org/licenses/GPL-3.0-only.html"
                 }
@@ -8551,7 +8551,7 @@
             "homepage": "https://kotatogram.github.io",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -8809,7 +8809,7 @@
             "homepage": "http://duply.net/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -8964,7 +8964,7 @@
             "homepage": "https://www.musicpd.org/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -9047,7 +9047,7 @@
             "homepage": "https://www.musicpd.org/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -9503,7 +9503,7 @@
             "homepage": "http://mtop.sourceforge.net/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -9559,7 +9559,7 @@
             "homepage": "http://www.daemon.de/NOTE",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -11423,7 +11423,7 @@
             "homepage": "https://galeracluster.com/",
             "license": {
                 "fullName": "GNU Library General Public License v2 only",
-                "shortName": "lgpl2",
+                "shortName": "lgpl2Only",
                 "spdxId": "LGPL-2.0-only",
                 "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
             },
@@ -11499,7 +11499,7 @@
             "homepage": "https://galeracluster.com/",
             "license": {
                 "fullName": "GNU Library General Public License v2 only",
-                "shortName": "lgpl2",
+                "shortName": "lgpl2Only",
                 "spdxId": "LGPL-2.0-only",
                 "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
             },
@@ -11575,7 +11575,7 @@
             "homepage": "https://mariadb.org/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -11652,7 +11652,7 @@
             "homepage": "https://mariadb.org/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -11729,7 +11729,7 @@
             "homepage": "https://mariadb.org/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -11838,19 +11838,19 @@
                 },
                 {
                     "fullName": "GNU General Public License v2.0 only",
-                    "shortName": "gpl2",
+                    "shortName": "gpl2Only",
                     "spdxId": "GPL-2.0-only",
                     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
                 },
                 {
                     "fullName": "GNU Library General Public License v2 only",
-                    "shortName": "lgpl2",
+                    "shortName": "lgpl2Only",
                     "spdxId": "LGPL-2.0-only",
                     "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
                 },
                 {
                     "fullName": "GNU Lesser General Public License v2.1 only",
-                    "shortName": "lgpl21",
+                    "shortName": "lgpl21Only",
                     "spdxId": "LGPL-2.1-only",
                     "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
                 },
@@ -25239,7 +25239,7 @@
             "homepage": "https://ntop.org/n2n/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -25320,7 +25320,7 @@
             "homepage": "https://papermc.io/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -25436,7 +25436,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -25556,7 +25556,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -25676,7 +25676,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -25796,7 +25796,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -25916,7 +25916,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -25992,7 +25992,7 @@
             "homepage": "https://www.nongnu.org/dkgpg/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -26068,7 +26068,7 @@
             "homepage": "http://users.telenet.be/geertu/Linux/fbdev/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -26113,7 +26113,7 @@
             "homepage": "https://github.com/zdavkeos/gtkterm",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -26199,7 +26199,7 @@
             "homepage": "https://github.com/tlwg/libthai",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -26275,7 +26275,7 @@
             "homepage": "https://linux.thai.net/projects/datrie",
             "license": {
                 "fullName": "GNU Library General Public License v2 only",
-                "shortName": "lgpl2",
+                "shortName": "lgpl2Only",
                 "spdxId": "LGPL-2.0-only",
                 "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
             },
@@ -26351,7 +26351,7 @@
             "homepage": "ttps://www.nongnu.org/libtmcg/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -26586,7 +26586,7 @@
             "homepage": "http://ftp.debian.org/debian/pool/main/p/pppconfig/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -27338,7 +27338,7 @@
             ],
             "license": {
                 "fullName": "GNU Affero General Public License v3.0 only",
-                "shortName": "agpl3",
+                "shortName": "agpl3Only",
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
@@ -27627,7 +27627,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -27704,7 +27704,7 @@
             "homepage": "https://github.com/tlwg/thpronun",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -27780,7 +27780,7 @@
             "homepage": "https://github.com/hzeller/timg",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -28773,7 +28773,7 @@
             "hydraPlatforms": [],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -28951,7 +28951,7 @@
             "homepage": "https://dosbox-staging.github.io/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -29073,7 +29073,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -29118,7 +29118,7 @@
             "homepage": "https://sourceforge.net/projects/oblige/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -29226,7 +29226,7 @@
             "homepage": "https://github.com/PaulCombal/SamRewritten",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -29397,7 +29397,7 @@
             "homepage": "https://github.com/quiniouben/vban",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -30077,7 +30077,7 @@
             "description": "Command line util for accelerated package search in nix environments",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -30236,7 +30236,7 @@
             ],
             "licence": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -30287,7 +30287,7 @@
             "homepage": "https://github.com/oar-team/cigri",
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
@@ -30329,7 +30329,7 @@
             ],
             "licence": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -30513,7 +30513,7 @@
             "homepage": "https://framagit.org/batsim/intervalset",
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
@@ -30642,7 +30642,7 @@
             ],
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
@@ -30702,7 +30702,7 @@
             ],
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
@@ -30771,7 +30771,7 @@
             ],
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
@@ -31096,7 +31096,7 @@
             "homepage": "http://www.schedmd.com/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -31147,7 +31147,7 @@
             "homepage": "http://www.schedmd.com/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -31198,7 +31198,7 @@
             "homepage": "http://www.schedmd.com/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -31249,7 +31249,7 @@
             "homepage": "https://www.grid5000.fr/mediawiki/index.php/TGZ-G5K",
             "license": {
                 "fullName": "GNU Library General Public License v2 only",
-                "shortName": "lgpl2",
+                "shortName": "lgpl2Only",
                 "spdxId": "LGPL-2.0-only",
                 "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
             },
@@ -31342,7 +31342,7 @@
             "homepage": "https://github.com/salman-abedin/devour",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -32624,7 +32624,7 @@
             "homepage": "https://github.com/yzfedora/baidudl",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -32687,7 +32687,7 @@
             "homepage": "https://github.com/einsteinx2/bin2iso",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -32711,7 +32711,7 @@
             "homepage": "https://github.com/AKuHAK/hdl-dump",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -32807,7 +32807,7 @@
             "homepage": "http://users.eastlink.ca/~doiron/bin2iso/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -32960,7 +32960,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -33057,7 +33057,7 @@
             "homepage": "https://github.com/AKuHAK/hdl-dump",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -33408,7 +33408,7 @@
             "homepage": "http://0pointer.de/lennart/projects/pavumeter",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -33453,7 +33453,7 @@
             "homepage": "https://tracker.debian.org/pkg/debmirror",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -33516,7 +33516,7 @@
             "homepage": "https://github.com/St4rk/PkgDecrypt",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -33540,7 +33540,7 @@
             "homepage": "https://github.com/St4rk/PkgDecrypt",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -34556,7 +34556,7 @@
             "homepage": "https://github.com/codestation/qcma",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -34714,7 +34714,7 @@
             "homepage": "http://github.com/makefu/skytraq-datalogger",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -34805,7 +34805,7 @@
             "homepage": "http://users.eastlink.ca/~doiron/bin2iso/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -34829,7 +34829,7 @@
             "homepage": "https://www.uhub.org/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -34927,7 +34927,7 @@
             "homepage": "https://github.com/FIUS/drinklist-cli",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -35379,7 +35379,7 @@
             "homepage": "http://antergos.github.io/web-greeter",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -35957,7 +35957,7 @@
             "homepage": "https://zynaddsubfx.sourceforge.io",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -36014,7 +36014,7 @@
             "homepage": "https://zynaddsubfx.sourceforge.io",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -36071,7 +36071,7 @@
             "homepage": "https://zynaddsubfx.sourceforge.io",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -36128,7 +36128,7 @@
             "homepage": "https://github.com/ViViDboarder/bitwarden_rs_ldap",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -36204,13 +36204,13 @@
             "license": [
                 {
                     "fullName": "GNU General Public License v2.0 only",
-                    "shortName": "gpl2",
+                    "shortName": "gpl2Only",
                     "spdxId": "GPL-2.0-only",
                     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
                 },
                 {
                     "fullName": "GNU Lesser General Public License v2.1 only",
-                    "shortName": "lgpl21",
+                    "shortName": "lgpl21Only",
                     "spdxId": "LGPL-2.1-only",
                     "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
                 }
@@ -36309,7 +36309,7 @@
             "homepage": "https://checkmk.com/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -36888,7 +36888,7 @@
             "homepage": "https://git.kernel.org/pub/scm/linux/kernel/git/will/kvmtool.git/tree/README",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -37453,7 +37453,7 @@
             "homepage": "https://github.com/jgm/pandoc",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -37664,7 +37664,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -38464,7 +38464,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -40510,7 +40510,7 @@
             "homepage": "https://github.com/dashesy/cc-tool",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -40616,7 +40616,7 @@
             "homepage": "http://kalli1.faikvm.com/ImplicitCAD/Stable",
             "license": {
                 "fullName": "GNU Affero General Public License v3.0 only",
-                "shortName": "agpl3",
+                "shortName": "agpl3Only",
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
@@ -40749,7 +40749,7 @@
             "homepage": "https://github.com/prusa3d/PrusaSlicer",
             "license": {
                 "fullName": "GNU Affero General Public License v3.0 only",
-                "shortName": "agpl3",
+                "shortName": "agpl3Only",
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
@@ -41194,7 +41194,7 @@
             "homepage": "https://github.com/x42/lv2vst",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -41408,7 +41408,7 @@
             "homepage": "https://pdesaulniers.github.io/wolf-shaper/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -41580,7 +41580,7 @@
             "homepage": "http://www.streamboard.tv/oscam/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -41628,7 +41628,7 @@
             "homepage": "https://www.trinitycore.org",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -41652,7 +41652,7 @@
             "homepage": "https://www.trinitycore.org",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -41676,7 +41676,7 @@
             "homepage": "http://avr8-burn-o-mat.aaabbb.de/avr8_burn_o_mat_avrdude_gui_en.html",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -41745,7 +41745,7 @@
             "license": [
                 {
                     "fullName": "GNU General Public License v3.0 only",
-                    "shortName": "gpl3",
+                    "shortName": "gpl3Only",
                     "spdxId": "GPL-3.0-only",
                     "url": "https://spdx.org/licenses/GPL-3.0-only.html"
                 }
@@ -42160,7 +42160,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -42573,7 +42573,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -42691,7 +42691,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -44463,7 +44463,7 @@
             "homepage": "https://github.com/riscv/riscv-gnu-toolchain",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -44646,7 +44646,7 @@
             "description": "Some useful scripts I often use",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -44768,7 +44768,7 @@
             "homepage": "https://git.sr.ht/~sircmpwn/annotatego",
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
@@ -45072,7 +45072,7 @@
             "homepage": "http://130.235.244.92/ARAGORN/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -45325,7 +45325,7 @@
             "homepage": "http://weizhongli-lab.org/cd-hit/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -45375,7 +45375,7 @@
             "homepage": "http://www.microbesonline.org/fasttree/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -45644,7 +45644,7 @@
                 },
                 {
                     "fullName": "GNU General Public License v2.0 only",
-                    "shortName": "gpl2",
+                    "shortName": "gpl2Only",
                     "spdxId": "GPL-2.0-only",
                     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
                 }
@@ -47862,7 +47862,7 @@
             "homepage": "https://gitlab.com/adsum/firefox-notabs",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -47930,7 +47930,7 @@
             "homepage": "http://dascritch.net/post/2014/06/24/Sniffeur-d-ancre",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -48066,7 +48066,7 @@
             "homepage": "https://bitwarden.com",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -48264,7 +48264,7 @@
             "homepage": "https://github.com/dessant/buster",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -48467,7 +48467,7 @@
             "homepage": "https://darknightmode.com",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -48534,7 +48534,7 @@
             "description": "Makes the scrollbars on TweetDeck and other sites dark in Firefox. This should be done by the site itself, not by an addon :(\n\nImage based on Scroll by Juan Pablo Bravo, CL <a href=\"https://outgoing.prod.mozaws.net/v1/f9c83bffbd0bf3bfa6ea46deecfa4fa4e9d5a69f49f323c020877e0bf283efac/https%3A//thenounproject.com/term/scroll/18607/\" rel=\"nofollow\">https://thenounproject.com/term/scroll/18607/</a>",
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
@@ -48793,7 +48793,7 @@
             "homepage": "https://disconnect.me/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -49065,7 +49065,7 @@
             "homepage": "https://getfoxyproxy.org",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -49201,7 +49201,7 @@
             "homepage": "https://github.com/Robbendebiene/Gesturefy",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -49541,7 +49541,7 @@
             "homepage": "http://team.firefoxcn.net",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -49745,7 +49745,7 @@
             "homepage": "https://www.i-dont-care-about-cookies.eu/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -49948,7 +49948,7 @@
             "homepage": "https://keepassxc.org/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -50152,7 +50152,7 @@
             "homepage": "https://github.com/idlewan/link_cleaner",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -50372,7 +50372,7 @@
             "homepage": "https://gitlab.com/rycee/nix-firefox-addons",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -50454,7 +50454,7 @@
             "homepage": "https://github.com/buunguyen/octotree/",
             "license": {
                 "fullName": "GNU Affero General Public License v3.0 only",
-                "shortName": "agpl3",
+                "shortName": "agpl3Only",
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
@@ -50590,7 +50590,7 @@
             "homepage": "https://gitlab.com/Ealhad/peertubeify",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -50658,7 +50658,7 @@
             "homepage": "http://kde.org",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -50726,7 +50726,7 @@
             "homepage": "https://privacybadger.org/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -50794,7 +50794,7 @@
             "homepage": "https://github.com/cowlicks/privacypossum",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -50930,7 +50930,7 @@
             "homepage": "https://redditenhancementsuite.com/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -51133,7 +51133,7 @@
             "description": "Save a complete web page (as currently displayed) as a single HTML file that can be opened in any browser. Save a single page, multiple selected pages or a list of page URLs. Automate saving from command line.",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -51269,7 +51269,7 @@
             "homepage": "https://add0n.com/stylus.html",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -51336,7 +51336,7 @@
             "description": "Swedish spell-check dictionary.",
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
@@ -51647,7 +51647,7 @@
             "homepage": "https://github.com/jlebon/textern",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -51715,7 +51715,7 @@
             "homepage": "https://gitlab.com/faridb/TorSwitch",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -51918,7 +51918,7 @@
             "homepage": "https://github.com/gorhill/uBlock#ublock-origin",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -51986,7 +51986,7 @@
             "homepage": "https://github.com/gorhill/uMatrix",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -52273,7 +52273,7 @@
             "description": "Zoom web pages (either per-site or per-tab) using full-page zoom, text-only zoom and minimum font size. Fit-to-width zooming can be applied to pages automatically. Fit-to-window scaling  can be applied to small images.",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -52689,7 +52689,7 @@
             "homepage": "https://tagsistant.net/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -52751,7 +52751,7 @@
             "homepage": "https://github.com/daedreth/URXVTConfig",
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
@@ -52899,7 +52899,7 @@
             "homepage": "https://wiki.gnome.org/Apps/DiskUsageAnalyzer",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -52939,7 +52939,7 @@
             "homepage": "https://kde.org/applications/en/games/org.kde.bomber",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -53211,7 +53211,7 @@
             "homepage": "https://kde.org/applications/en/multimedia/org.kde.juk",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -53251,7 +53251,7 @@
             "homepage": "https://kde.org/applications/en/development/org.kde.kapptemplate",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -53291,7 +53291,7 @@
             "homepage": "https://kde.org/applications/en/games/org.kde.kbreakout",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -53331,7 +53331,7 @@
             "homepage": "https://github.com/KDE/keysmith",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -53371,7 +53371,7 @@
             "homepage": "https://kde.org/applications/en/games/org.kde.killbots",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -53411,7 +53411,7 @@
             "homepage": "https://kde.org/applications/en/development/org.kde.kirigami2.gallery",
             "license": {
                 "fullName": "GNU Library General Public License v2 only",
-                "shortName": "lgpl2",
+                "shortName": "lgpl2Only",
                 "spdxId": "LGPL-2.0-only",
                 "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
             },
@@ -53588,7 +53588,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -53812,7 +53812,7 @@
             ],
             "license": {
                 "fullName": "GNU Library General Public License v2 only",
-                "shortName": "lgpl2",
+                "shortName": "lgpl2Only",
                 "spdxId": "LGPL-2.0-only",
                 "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
             },
@@ -54147,7 +54147,7 @@
             "homepage": "https://github.com/wiiuse/wiiuse",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -55369,7 +55369,7 @@
             "homepage": "https://github.com/BourgeoisLab/GPXLab",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -55592,7 +55592,7 @@
             "homepage": "https://www.gpxsee.org",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -55647,7 +55647,7 @@
             "homepage": "https://notabug.org/irdvo/gpxtools",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -55804,7 +55804,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -55868,7 +55868,7 @@
             "homepage": "https://hfst.github.io",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -56233,7 +56233,7 @@
             "homepage": "http://libgarmin.sourceforge.net/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -56331,7 +56331,7 @@
             "homepage": "https://github.com/legionus/libshell",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -56495,7 +56495,7 @@
             "homepage": "https://macpassapp.org/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -56539,7 +56539,7 @@
             "homepage": "http://slazav.mccme.ru/prog/mapsoft.htm",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -56593,7 +56593,7 @@
             "homepage": "http://slazav.github.io/mapsoft2",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -56821,7 +56821,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -57211,7 +57211,7 @@
             "homepage": "https://sourceforge.net/projects/ocad2mp/",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -57266,7 +57266,7 @@
             "homepage": "https://odict.org",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -57423,7 +57423,7 @@
             "homepage": "https://www.openorienteering.org/apps/mapper/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -57626,7 +57626,7 @@
             "homepage": "http://news.worldofo.com/2009/10/11/howto-convert-any-orienteering-map-to-a-garmin-map/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -57680,7 +57680,7 @@
             "homepage": "https://github.com/liosha/osm2mp",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -58271,7 +58271,7 @@
             ],
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
@@ -58433,7 +58433,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -58830,7 +58830,7 @@
             "homepage": "https://github.com/rekols/redict",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -58928,7 +58928,7 @@
             "homepage": "https://git.sr.ht/~yotam/shavit",
             "license": {
                 "fullName": "GNU Affero General Public License v3.0 only",
-                "shortName": "agpl3",
+                "shortName": "agpl3Only",
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
@@ -59168,7 +59168,7 @@
             "homepage": "https://github.com/huzheng001/stardict-3",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -59304,7 +59304,7 @@
             "homepage": "https://github.com/selectel/supload",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -59530,7 +59530,7 @@
             "homepage": "https://github.com/aequitas/macos-menubar-wireguard",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -60205,7 +60205,7 @@
             "homepage": "https://github.com/Geemili/augr",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -60285,7 +60285,7 @@
             "homepage": "https://cadabra.science/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -60322,7 +60322,7 @@
             "description": "A general purpose, multi-paradigm programming language in the Prolog family",
             "license": {
                 "fullName": "GNU Library General Public License v2 only",
-                "shortName": "lgpl2",
+                "shortName": "lgpl2Only",
                 "spdxId": "LGPL-2.0-only",
                 "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
             },
@@ -60400,7 +60400,7 @@
             "homepage": "https://github.com/aramg/droidcam",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -60463,7 +60463,7 @@
             ],
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -60625,7 +60625,7 @@
             "description": "An IBM PC emulator",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -60748,9 +60748,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-1.3-5.4.51",
+        "name": "v4l2loopback-dc-1.3-5.4.52",
         "pname": "v4l2loopback-dc",
-        "version": "1.3-5.4.51",
+        "version": "1.3-5.4.52",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -60758,7 +60758,7 @@
             "homepage": "https://github.com/aramg/droidcam",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2",
+                "shortName": "gpl2Only",
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
@@ -60770,7 +60770,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-1.3-5.4.51",
+            "name": "v4l2loopback-dc-1.3-5.4.52",
             "outputsToInstall": [
                 "out"
             ],
@@ -61097,7 +61097,7 @@
             "homepage": "https://github.com/schemar/solarc-theme",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -61229,7 +61229,7 @@
             "homepage": "https://github.com/ASzc/tungsten",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -62441,7 +62441,7 @@
             "homepage": "https://github.com/pop-os/shell",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -62514,7 +62514,7 @@
             "homepage": "https://github.com/erning/gorun",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -63315,7 +63315,7 @@
             "homepage": "https://github.com/juruen/rmapi",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -63866,7 +63866,7 @@
             "license": [
                 {
                     "fullName": "GNU General Public License v3.0 only",
-                    "shortName": "gpl3",
+                    "shortName": "gpl3Only",
                     "spdxId": "GPL-3.0-only",
                     "url": "https://spdx.org/licenses/GPL-3.0-only.html"
                 }
@@ -63917,7 +63917,7 @@
             "license": [
                 {
                     "fullName": "GNU General Public License v2.0 only",
-                    "shortName": "gpl2",
+                    "shortName": "gpl2Only",
                     "spdxId": "GPL-2.0-only",
                     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
                 }
@@ -63964,7 +63964,7 @@
             "license": [
                 {
                     "fullName": "GNU General Public License v2.0 only",
-                    "shortName": "gpl2",
+                    "shortName": "gpl2Only",
                     "spdxId": "GPL-2.0-only",
                     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
                 }
@@ -64011,7 +64011,7 @@
             "license": [
                 {
                     "fullName": "GNU General Public License v2.0 only",
-                    "shortName": "gpl2",
+                    "shortName": "gpl2Only",
                     "spdxId": "GPL-2.0-only",
                     "url": "https://spdx.org/licenses/GPL-2.0-only.html"
                 }
@@ -64576,7 +64576,7 @@
             "homepage": "https://luakit.github.io/",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3",
+                "shortName": "gpl3Only",
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
@@ -65070,7 +65070,7 @@
             "homepage": "https://github.com/mirukana/mirage/",
             "license": {
                 "fullName": "GNU Lesser General Public License v3.0 only",
-                "shortName": "lgpl3",
+                "shortName": "lgpl3Only",
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
