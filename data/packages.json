@@ -3730,9 +3730,9 @@
         "_repo": "c0deaddict"
     },
     "nur.repos.c0deaddict.prometheus-unbound-exporter": {
-        "name": "unbound_exporter-1739a339d3404a4164a5664dc38e328108c6a2a6",
+        "name": "unbound_exporter-0.3",
         "pname": "unbound_exporter",
-        "version": "1739a339d3404a4164a5664dc38e328108c6a2a6",
+        "version": "0.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -3758,7 +3758,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "unbound_exporter-1739a339d3404a4164a5664dc38e328108c6a2a6",
+            "name": "unbound_exporter-0.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -10088,6 +10088,30 @@
         },
         "_attr": "unicodeDoc",
         "_repo": "immae"
+    },
+    "nur.repos.instantos.firacodenerd": {
+        "name": "FiraCode-nerdfont-v2.1.0",
+        "pname": "FiraCode-nerdfont-v2.1.0",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Nerdfont version of Fira Code",
+            "homepage": "https://github.com/ryanoasis/nerd-fonts",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "FiraCode-nerdfont-v2.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
+        },
+        "_attr": "firacodenerd",
+        "_repo": "instantos"
     },
     "nur.repos.instantos.imenu": {
         "name": "imenu-unstable",
