@@ -37063,9 +37063,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.nix-build-uncached": {
-        "name": "nix-build-uncached-0.1.1",
+        "name": "nix-build-uncached-1.0.0rc1",
         "pname": "nix-build-uncached",
-        "version": "0.1.1",
+        "version": "1.0.0rc1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -37085,7 +37085,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "nix-build-uncached-0.1.1",
+            "name": "nix-build-uncached-1.0.0rc1",
             "outputsToInstall": [
                 "out"
             ],
