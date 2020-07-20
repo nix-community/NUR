@@ -4412,57 +4412,6 @@
         "_attr": "av1client",
         "_repo": "dandellion"
     },
-    "nur.repos.dandellion.botamusique": {
-        "name": "botamusique-6.1.1",
-        "pname": "botamusique",
-        "version": "6.1.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": true,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "name": "botamusique-6.1.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
-        },
-        "_attr": "botamusique",
-        "_repo": "dandellion"
-    },
     "nur.repos.dandellion.colors": {
         "name": "colors-latest-2018-04-15",
         "pname": "colors-latest",
@@ -4477,6 +4426,75 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
         },
         "_attr": "colors",
+        "_repo": "dandellion"
+    },
+    "nur.repos.dandellion.eplot": {
+        "name": "eplot-unstable-2018-09-03",
+        "pname": "eplot-unstable",
+        "version": "2018-09-03",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Create plots quickly with gnuplot",
+            "homepage": "http://liris.cnrs.fr/christian.wolf/software/eplot/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "eplot (\"easy gnuplot\") is a ruby script which allows to pipe data easily\nthrough gnuplot and create plots quickly, which can be saved in\npostscript, PDF, PNG or EMF files. Plotting of multiple files into a\nsingle diagram is supported.\n\nThis package also includes the complementary 'ec' tool (say \"extract\ncolumn\").\n",
+            "name": "eplot-unstable-2018-09-03",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
+        },
+        "_attr": "eplot",
         "_repo": "dandellion"
     },
     "nur.repos.dandellion.grav1": {
@@ -4509,65 +4527,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
         },
         "_attr": "grav1c",
-        "_repo": "dandellion"
-    },
-    "nur.repos.dandellion.janus": {
-        "name": "janus-66.4",
-        "pname": "janus",
-        "version": "66.4",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "VR Social app like the web",
-            "name": "janus-66.4",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
-        },
-        "_attr": "janus",
-        "_repo": "dandellion"
-    },
-    "nur.repos.dandellion.JAVMovieScraper": {
-        "name": "JAVMovieScraper-v0.3.7",
-        "pname": "JAVMovieScraper-v0.3.7",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": true,
-            "description": "A program to fetch metadata for Japanese Adult Video",
-            "homepage": "https://github.com/DoctorD1501/JAVMovieScraper",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "name": "JAVMovieScraper-v0.3.7",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
-        },
-        "_attr": "JAVMovieScraper",
-        "_repo": "dandellion"
-    },
-    "nur.repos.dandellion.mangohud": {
-        "name": "mangohud-0.3.1",
-        "pname": "mangohud",
-        "version": "0.3.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "name": "mangohud-0.3.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
-        },
-        "_attr": "mangohud",
         "_repo": "dandellion"
     },
     "nur.repos.dandellion.mesloNFp10k": {
