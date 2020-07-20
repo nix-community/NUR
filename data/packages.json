@@ -10072,6 +10072,63 @@
         "_attr": "firacodenerd",
         "_repo": "instantos"
     },
+    "nur.repos.instantos.gufw": {
+        "name": "gufw-20.04.1",
+        "pname": "gufw",
+        "version": "20.04.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Graphical user interface for Ubuntu's Uncomplicated Firewall",
+            "homepage": "https://github.com/costales/gufw",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "gufw-20.04.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
+        },
+        "_attr": "gufw",
+        "_repo": "instantos"
+    },
     "nur.repos.instantos.imenu": {
         "name": "imenu-unstable",
         "pname": "imenu-unstable",
@@ -10359,8 +10416,8 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "basic menu for instantOS.",
-            "homepage": "https://github.com/instantOS/instantWM",
+            "description": "Basic menu for instantOS",
+            "homepage": "https://github.com/instantOS/instantMENU",
             "license": {
                 "fullName": "MIT License",
                 "shortName": "mit",
@@ -10401,23 +10458,6 @@
             "available": true,
             "description": "Simple settings app for instant-OS",
             "homepage": "https://github.com/instantOS/instantSETTINGS",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
             "license": {
                 "fullName": "MIT License",
                 "shortName": "mit",
@@ -10576,7 +10616,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Wallpaper manager of instantOS.",
+            "description": "Wallpaper manager of instantOS",
             "homepage": "https://github.com/instantOS/instantWM",
             "license": {
                 "fullName": "MIT License",
@@ -35131,6 +35171,14 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
             "longDescription": "GNU Emacs is an extensible, customizable text editor\u2014and more.  At its\ncore is an interpreter for Emacs Lisp, a dialect of the Lisp\nprogramming language with extensions to support text editing.\n\nThe features of GNU Emacs include: content-sensitive editing modes,\nincluding syntax coloring, for a wide variety of file types including\nplain text, source code, and HTML; complete built-in documentation,\nincluding a tutorial for new users; full Unicode support for nearly all\nhuman languages and their scripts; highly customizable, using Emacs\nLisp code or a graphical interface; a large number of extensions that\nadd other functionality, including a project planner, mail and news\nreader, debugger interface, calendar, and more.  Many of these\nextensions are distributed with GNU Emacs; others are available\nseparately.\n",
+            "maintainer": [
+                {
+                    "email": "kira.bruneau@gmail.com",
+                    "github": "metadark",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
             "maintainers": [
                 {
                     "email": "jason@oconal.id.au",
@@ -36060,6 +36108,32 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
         },
         "_attr": "VVVVVV-unwrapped",
+        "_repo": "metadark"
+    },
+    "nur.repos.metadark.wine-Guy1524": {
+        "name": "wine-Guy1524",
+        "pname": "wine-Guy1524",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A custom fork of Wine to support games with anticheat",
+            "homepage": "https://github.com/Guy1524/wine",
+            "maintainer": [
+                {
+                    "email": "kira.bruneau@gmail.com",
+                    "github": "metadark",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "wine-Guy1524",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
+        },
+        "_attr": "wine-Guy1524",
         "_repo": "metadark"
     },
     "nur.repos.metadark.xpadneo": {
