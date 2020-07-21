@@ -48097,9 +48097,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.auto-tab-discard": {
-        "name": "auto-tab-discard-0.3.6",
+        "name": "auto-tab-discard-0.3.7",
         "pname": "auto-tab-discard",
-        "version": "0.3.6",
+        "version": "0.3.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48111,7 +48111,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "auto-tab-discard-0.3.6",
+            "name": "auto-tab-discard-0.3.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -49160,9 +49160,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.foxyproxy-standard": {
-        "name": "foxyproxy-standard-7.4.3",
+        "name": "foxyproxy-standard-7.5",
         "pname": "foxyproxy-standard",
-        "version": "7.4.3",
+        "version": "7.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49174,7 +49174,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "foxyproxy-standard-7.4.3",
+            "name": "foxyproxy-standard-7.5",
             "outputsToInstall": [
                 "out"
             ],
