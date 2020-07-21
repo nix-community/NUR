@@ -7073,6 +7073,3313 @@
         "_attr": "lib-scs",
         "_repo": "drewrisinger"
     },
+    "nur.repos.dtz.pkgs.alive": {
+        "name": "alive-2018-03-03",
+        "pname": "alive",
+        "version": "2018-03-03",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Automatic LLVM's Instcombine Verifier",
+            "homepage": "https://github.com/nunoplopes/alive",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "alive-2018-03-03",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.alive",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.allvm-tools": {
+        "name": "allvm-tools-2019-04-09-0a4d2cf",
+        "pname": "allvm-tools",
+        "version": "2019-04-09-0a4d2cf",
+        "system": "builtin",
+        "meta": {
+            "description": "ALLVM Tools (multiplexed)",
+            "homepage": "https://github.com/allvm/allvm-tools",
+            "license": {
+                "fullName": "University of Illinois/NCSA Open Source License",
+                "shortName": "ncsa",
+                "spdxId": "NCSA",
+                "url": "https://spdx.org/licenses/NCSA.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.allvm-tools",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.ccontrol": {
+        "name": "ccontrol-1.0",
+        "pname": "ccontrol",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Compilation Controller",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "ccontrol-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.ccontrol",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.chamferwm": {
+        "name": "chamferwm-2019-05-16",
+        "pname": "chamferwm",
+        "version": "2019-05-16",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "chamferwm-2019-05-16",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.chamferwm",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.chelf": {
+        "name": "chelf-0.2.2",
+        "pname": "chelf",
+        "version": "0.2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "change or display the stack size of an ELF binary",
+            "homepage": "https://github.com/Gottox/chelf",
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "chelf-0.2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.chelf",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.crex": {
+        "name": "crex-0.2.5",
+        "pname": "crex",
+        "version": "0.2.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Explore, test, and check regular expressions in the terminal.",
+            "homepage": "https://octobanana.com/software/crex",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "crex-0.2.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.crex",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.dedupsqlfs": {
+        "name": "dedupsqlfs-1.2.938",
+        "pname": "dedupsqlfs",
+        "version": "1.2.938",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "dedupsqlfs-1.2.938",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.dedupsqlfs",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.dg_5": {
+        "name": "dg_llvm5.0.2-2019-03-25",
+        "pname": "dg_llvm5.0.2",
+        "version": "2019-03-25",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Dependence graph for programs",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "dg_llvm5.0.2-2019-03-25",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.dg_5",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.dg_6": {
+        "name": "dg_llvm6.0.1-2019-03-25",
+        "pname": "dg_llvm6.0.1",
+        "version": "2019-03-25",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Dependence graph for programs",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "dg_llvm6.0.1-2019-03-25",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.dg_6",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.dg_7": {
+        "name": "dg_llvm7.1.0-2019-03-25",
+        "pname": "dg_llvm7.1.0",
+        "version": "2019-03-25",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Dependence graph for programs",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "dg_llvm7.1.0-2019-03-25",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.dg_7",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.diva": {
+        "name": "diva-2018-01-24",
+        "pname": "diva",
+        "version": "2018-01-24",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Debug Information Visual Analyzer",
+            "homepage": "https://github.com/SNSystems/DIVA",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "diva-2018-01-24",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.diva",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.dwarf-type-reader": {
+        "name": "dwarf-type-reader-2017-08-21",
+        "pname": "dwarf-type-reader",
+        "version": "2017-08-21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Reading type information from debug info section of executable",
+            "homepage": "https://github.com/sdasgup3/dwarf-type-reader",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "dwarf-type-reader-2017-08-21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.dwarf-type-reader",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.dyninst": {
+        "name": "dyninst-10.1.0",
+        "pname": "dyninst",
+        "version": "10.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Tools for binary instrumentation, analysis, and modification",
+            "homepage": "https://dyninst.org/dyninst",
+            "license": {
+                "fullName": "GNU Lesser General Public License v2.1 or later",
+                "shortName": "lgpl21Plus",
+                "spdxId": "LGPL-2.1-or-later",
+                "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "dyninst-10.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.dyninst",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.focal": {
+        "name": "focal-2020-03-05",
+        "pname": "focal",
+        "version": "2020-03-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Calendar application for Linux with CalDAV",
+            "homepage": "https://github.com/ohwgiles/focal",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "focal-2020-03-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.focal",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.glog-cmake": {
+        "name": "glog-0.3.5",
+        "pname": "glog",
+        "version": "0.3.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Library for application-level logging",
+            "homepage": "https://github.com/google/glog",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "glog-0.3.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.glog-cmake",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.gxi": {
+        "name": "gxi-unstable-2019-03-23",
+        "pname": "gxi-unstable",
+        "version": "2019-03-23",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "GTK frontend for the xi text editor, written in rust",
+            "homepage": "https://github.com/bvinc/gxi",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "gxi-unstable-2019-03-23",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.gxi",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.hack": {
+        "name": "hack-font-4pre",
+        "pname": "hack-font",
+        "version": "4pre",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A typeface designed for source code",
+            "homepage": "https://sourcefoundry.org/hack/",
+            "license": {
+                "fullName": "Unspecified free software license",
+                "shortName": "free"
+            },
+            "longDescription": "Hack is hand groomed and optically balanced to be a workhorse face for\ncode. It has deep roots in the libre, open source typeface community and\nexpands upon the contributions of the Bitstream Vera & DejaVu projects.\nThe face has been re-designed with a larger glyph set, modifications of\nthe original glyph shapes, and meticulous attention to metrics.\n",
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "hack-font-4pre",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.hack",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.htop3beta": {
+        "name": "htop-3.0.0beta5",
+        "pname": "htop",
+        "version": "3.0.0beta5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An interactive process viewer for Linux",
+            "homepage": "https://hisham.hm/htop/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "htop-3.0.0beta5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.htop3beta",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.iml": {
+        "name": "iml-1.0.5",
+        "pname": "iml",
+        "version": "1.0.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Algorithms for computing exact solutions to dense systems of linear equations over the integers",
+            "homepage": "https://cs.uwaterloo.ca/~astorjoh/iml.html",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "7c6f434c@mail.ru",
+                    "github": "7c6f434c",
+                    "githubId": 1891350,
+                    "name": "Michael Raskin"
+                }
+            ],
+            "name": "iml-1.0.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz",
+            "updateWalker": true,
+            "version": "1.0.5"
+        },
+        "_attr": "pkgs.iml",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.intelxed": {
+        "name": "intelxed-2019-03-01",
+        "pname": "intelxed",
+        "version": "2019-03-01",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "x86 encoder decoder",
+            "homepage": "https://github.com/intelxed/xed",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "intelxed-2019-03-01",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.intelxed",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.isolate": {
+        "name": "isolate-1.8.1",
+        "pname": "isolate",
+        "version": "1.8.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Sandbox for securely executing untrusted programs",
+            "homepage": "https://github.com/ioi/isolate",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "Isolate is a sandbox built to safely run untrusted executables,\noffering them a limited-access environment and preventing them from\naffecting the host system. It takes advantage of features specific to\nthe Linux kernel, like namespaces and control groups.\n",
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "isolate-1.8.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.isolate",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.iwinfo": {
+        "name": "iwinfo-2020-06-03",
+        "pname": "iwinfo",
+        "version": "2020-06-03",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "iwinfo-2020-06-03",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.iwinfo",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.iwinfo-libnl": {
+        "name": "iwinfo-2020-06-03",
+        "pname": "iwinfo",
+        "version": "2020-06-03",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "iwinfo-2020-06-03",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.iwinfo-libnl",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.joycontrol": {
+        "name": "joycontrol-unstable-2020-07-11",
+        "pname": "joycontrol-unstable",
+        "version": "2020-07-11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "joycontrol-unstable-2020-07-11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.joycontrol",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.kod": {
+        "name": "kod-unstable-2018-10-16",
+        "pname": "kod-unstable",
+        "version": "2018-10-16",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "terminal text editor written in Go, using xi-editor as backend",
+            "homepage": "https://github.com/linde12/kod",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "kod-unstable-2018-10-16",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.kod",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.laptop-mode-tools": {
+        "name": "laptop-mode-tools-1.72.2",
+        "pname": "laptop-mode-tools",
+        "version": "1.72.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Power Savings tool for Linux",
+            "homepage": "http://rickysarraf.github.io/laptop-mode-tools",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "laptop-mode-tools-1.72.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.laptop-mode-tools",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.libnl-tiny": {
+        "name": "libnl-tiny-2019-10-29",
+        "pname": "libnl-tiny",
+        "version": "2019-10-29",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Stripped-down version of libnl",
+            "homepage": "https://git.openwrt.org/?p=project/libnl-tiny.git;a=summary",
+            "license": {
+                "fullName": "GNU Lesser General Public License v2.1 only",
+                "shortName": "lgpl21Only",
+                "spdxId": "LGPL-2.1-only",
+                "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "libnl-tiny-2019-10-29",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.libnl-tiny",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.libubox": {
+        "name": "libubox-2020-06-30",
+        "pname": "libubox",
+        "version": "2020-06-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "libubox-2020-06-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.libubox",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.nix-mux": {
+        "name": "nix-2.4dtz-mux-e892ccd",
+        "pname": "nix",
+        "version": "2.4dtz-mux-e892ccd",
+        "system": "x86_64-linux",
+        "meta": {
+            "description": "Nix All-in-One! (multiplexed)",
+            "homepage": "https://github.com/allvm/allvm-tools",
+            "license": {
+                "fullName": "GNU Library General Public License v2 or later",
+                "shortName": "lgpl2Plus",
+                "spdxId": "LGPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.nix-mux",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.nlmon": {
+        "name": "nlmon-2015-07-28",
+        "pname": "nlmon",
+        "version": "2015-07-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "nlmon-2015-07-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.nlmon",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.nltrace": {
+        "name": "nltrace-2018-03-18",
+        "pname": "nltrace",
+        "version": "2018-03-18",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Netlink tracing tool",
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "nltrace-2018-03-18",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.nltrace",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.notify-send-sh": {
+        "name": "notify-send.sh-1.0",
+        "pname": "notify-send.sh",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "notify-send.sh-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.notify-send-sh",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.kittel-koat": {
+        "name": "ocaml-kittel-koat-2017-01-15",
+        "pname": "ocaml-kittel-koat",
+        "version": "2017-01-15",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "KITTeL/KoAT",
+            "homepage": "https://github.com/s-falke/kittel-koat",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "ocaml-kittel-koat-2017-01-15",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.kittel-koat",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.pahole": {
+        "name": "pahole-1.12",
+        "pname": "pahole",
+        "version": "1.12",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Pahole and other DWARF utils",
+            "homepage": "https://git.kernel.org/cgit/devel/pahole/pahole.git/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "pahole-1.12",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.pahole",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.patchelf-git": {
+        "name": "patchelf-2019-03-28",
+        "pname": "patchelf",
+        "version": "2019-03-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A small utility to modify the dynamic linker and RPATH of ELF executables",
+            "homepage": "https://github.com/NixOS/patchelf/blob/master/README",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "edolstra+nixpkgs@gmail.com",
+                    "github": "edolstra",
+                    "githubId": 1148549,
+                    "name": "Eelco Dolstra"
+                }
+            ],
+            "name": "patchelf-2019-03-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz('nixpkgs', 'pkgs', 'development', 'tools', 'misc', 'patchelf', 'default.nix')#L19"
+        },
+        "_attr": "pkgs.patchelf-git",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.protobuf3_2": {
+        "name": "protobuf-3.2.0",
+        "pname": "protobuf",
+        "version": "3.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Google's data interchange format",
+            "homepage": "https://developers.google.com/protocol-buffers/",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "longDescription": "Protocol Buffers are a way of encoding structured data in an efficient\n        yet extensible format. Google uses Protocol Buffers for almost all of\n        its internal RPC protocols and file formats.\n",
+            "name": "protobuf-3.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.protobuf3_2",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.svfPkgs_master.ptaben-fs": {
+        "name": "ptaben-2018-12-05",
+        "pname": "ptaben",
+        "version": "2018-12-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Micro-benchmark Suite for Pointer Analysis",
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "ptaben-2018-12-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.svfPkgs_master.ptaben-fs",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.svfPkgs_master.ptaben-fi": {
+        "name": "ptaben-2018-12-05",
+        "pname": "ptaben",
+        "version": "2018-12-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Micro-benchmark Suite for Pointer Analysis",
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "ptaben-2018-12-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.svfPkgs_master.ptaben-fi",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.svfPkgs_7.ptaben-fs": {
+        "name": "ptaben-2018-12-05",
+        "pname": "ptaben",
+        "version": "2018-12-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Micro-benchmark Suite for Pointer Analysis",
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "ptaben-2018-12-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.svfPkgs_7.ptaben-fs",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.svfPkgs_7.ptaben-fi": {
+        "name": "ptaben-2018-12-05",
+        "pname": "ptaben",
+        "version": "2018-12-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Micro-benchmark Suite for Pointer Analysis",
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "ptaben-2018-12-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.svfPkgs_7.ptaben-fi",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.svfPkgs_6.ptaben-fs": {
+        "name": "ptaben-2018-12-05",
+        "pname": "ptaben",
+        "version": "2018-12-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Micro-benchmark Suite for Pointer Analysis",
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "ptaben-2018-12-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.svfPkgs_6.ptaben-fs",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.svfPkgs_6.ptaben-fi": {
+        "name": "ptaben-2018-12-05",
+        "pname": "ptaben",
+        "version": "2018-12-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Micro-benchmark Suite for Pointer Analysis",
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "ptaben-2018-12-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.svfPkgs_6.ptaben-fi",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.publib": {
+        "name": "publib-0.40",
+        "pname": "publib",
+        "version": "0.40",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Heterogenous library for the C programming language",
+            "homepage": "https://code.google.com/archive/p/publib",
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "publib-0.40",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.publib",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.mbuild": {
+        "name": "python2.7-mbuild-2018-12-20",
+        "pname": "python2.7-mbuild",
+        "version": "2018-12-20",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "python-based build system used for building XED",
+            "homepage": "https://github.com/intelxed/mbuild",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "license": {
+                "fullName": "Apple Public Source License 2.0",
+                "shortName": "apsl20",
+                "spdxId": "APSL-2.0",
+                "url": "https://spdx.org/licenses/APSL-2.0.html"
+            },
+            "name": "python2.7-mbuild-2018-12-20",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.mbuild",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.remill": {
+        "name": "remill-2019-03-23",
+        "pname": "remill",
+        "version": "2019-03-23",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "remill-2019-03-23",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "pkgs.remill",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.samurai": {
+        "name": "samurai-1.0",
+        "pname": "samurai",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "ninja-compatible build tool written in C",
+            "license": [
+                {
+                    "fullName": "MIT License",
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "fullName": "Apache License 2.0",
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "samurai-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.samurai",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.slinky": {
+        "name": "slinky-2014",
+        "pname": "slinky",
+        "version": "2014",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Static linking tools",
+            "homepage": "http://slinky.cs.arizona.edu/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "slinky-2014",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.slinky",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.slipstream-ipcd": {
+        "name": "slipstream-ipcd-2015-08-10",
+        "pname": "slipstream-ipcd",
+        "version": "2015-08-10",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Slipstream daemon",
+            "homepage": "https://wdtz.org/slipstream",
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "slipstream-ipcd-2015-08-10",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.slipstream-ipcd",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.slipstream-libipc": {
+        "name": "slipstream-libipc-2015-08-10",
+        "pname": "slipstream-libipc",
+        "version": "2015-08-10",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Slipstream library component",
+            "homepage": "https://wdtz.org/slipstream",
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "slipstream-libipc-2015-08-10",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.slipstream-libipc",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.source-code-pro-variable": {
+        "name": "source-code-pro-variable-fonts-1.010",
+        "pname": "source-code-pro-variable-fonts",
+        "version": "1.010",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A set of monospaced OpenType fonts designed for coding environments (variable)",
+            "homepage": "https://blog.typekit.com/2012/09/24/source-code-pro/",
+            "license": {
+                "fullName": "SIL Open Font License 1.1",
+                "shortName": "ofl",
+                "spdxId": "OFL-1.1",
+                "url": "https://spdx.org/licenses/OFL-1.1.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "source-code-pro-variable-fonts-1.010",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.source-code-pro-variable",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.stoke-haswell": {
+        "name": "stoke-haswell-2016-03-11",
+        "pname": "stoke-haswell",
+        "version": "2016-03-11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Stochastic superoptimizer and program synthesizer",
+            "homepage": "http://stoke.stanford.edu/",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "stoke-haswell-2016-03-11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.stoke-haswell",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.stoke": {
+        "name": "stoke-sandybridge-2016-03-11",
+        "pname": "stoke-sandybridge",
+        "version": "2016-03-11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Stochastic superoptimizer and program synthesizer",
+            "homepage": "http://stoke.stanford.edu/",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "stoke-sandybridge-2016-03-11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.stoke",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.stoke-sandybridge": {
+        "name": "stoke-sandybridge-2016-03-11",
+        "pname": "stoke-sandybridge",
+        "version": "2016-03-11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Stochastic superoptimizer and program synthesizer",
+            "homepage": "http://stoke.stanford.edu/",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "stoke-sandybridge-2016-03-11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.stoke-sandybridge",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.svfPkgs_6.svf": {
+        "name": "SVF-6.0.1-1.5",
+        "pname": "SVF",
+        "version": "6.0.1-1.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Pointer Analysis and Program Dependence Analysis for C and C++ Programs",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "SVF-6.0.1-1.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.svfPkgs_6.svf",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.svfPkgs_7.svf": {
+        "name": "SVF-7.1.0-2019-02-11",
+        "pname": "SVF",
+        "version": "7.1.0-2019-02-11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Pointer Analysis and Program Dependence Analysis for C and C++ Programs",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "SVF-7.1.0-2019-02-11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.svfPkgs_7.svf",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.svfPkgs_master.svf": {
+        "name": "SVF-7.1.0-2019-02-11",
+        "pname": "SVF",
+        "version": "7.1.0-2019-02-11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Pointer Analysis and Program Dependence Analysis for C and C++ Programs",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "SVF-7.1.0-2019-02-11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.svfPkgs_master.svf",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.toybox": {
+        "name": "toybox-0.8.0",
+        "pname": "toybox",
+        "version": "0.8.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Common linux utilities in a multicall binary",
+            "homepage": "https://landley.net/toybox/",
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "toybox-0.8.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.toybox",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.ubox": {
+        "name": "ubox-2019-12-18",
+        "pname": "ubox",
+        "version": "2019-12-18",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "ubox-2019-12-18",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.ubox",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.ubus": {
+        "name": "ubus-2019-12-27",
+        "pname": "ubus",
+        "version": "2019-12-27",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "ubus-2019-12-27",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.ubus",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.uci": {
+        "name": "uci-2020-01-27",
+        "pname": "uci",
+        "version": "2020-01-27",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "uci-2020-01-27",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.uci",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.vmir": {
+        "name": "vmir-2018-08-28",
+        "pname": "vmir",
+        "version": "2018-08-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Virtual Machine for Intermediate Representation",
+            "homepage": "https://github.com/andoma/vmir",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "vmir-2018-08-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.vmir",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.vmir-clang5": {
+        "name": "vmir-2018-08-28",
+        "pname": "vmir",
+        "version": "2018-08-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Virtual Machine for Intermediate Representation",
+            "homepage": "https://github.com/andoma/vmir",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "vmir-2018-08-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.vmir-clang5",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.vmir-clang6": {
+        "name": "vmir-2018-08-28",
+        "pname": "vmir",
+        "version": "2018-08-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Virtual Machine for Intermediate Representation",
+            "homepage": "https://github.com/andoma/vmir",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "vmir-2018-08-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.vmir-clang6",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.wrapXiFrontendHook": {
+        "name": "wrapXiFrontend-hook",
+        "pname": "wrapXiFrontend-hook",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "wrapXiFrontend-hook",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "pkgs.wrapXiFrontendHook",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.wtplan": {
+        "name": "wtplan-2019-05-09",
+        "pname": "wtplan",
+        "version": "2019-05-09",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "homepage": "https://github.com/kjellwinblad/wtplan",
+            "name": "wtplan-2019-05-09",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.wtplan",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.xi-core": {
+        "name": "xi-core-2019-03-23",
+        "pname": "xi-core",
+        "version": "2019-03-23",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A modern editor with a backend written in Rust",
+            "homepage": "https://github.com/xi-editor/xi-editor",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "xi-core-2019-03-23",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.xi-core",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.xi-gtk": {
+        "name": "xi-gtk-2018-12-28",
+        "pname": "xi-gtk",
+        "version": "2018-12-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A GTK+ front-end for the Xi editor",
+            "homepage": "https://github.com/eyelash/xi-gtk",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "xi-gtk-2018-12-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.xi-gtk",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.xi-term": {
+        "name": "xi-term-2019-02-13",
+        "pname": "xi-term",
+        "version": "2019-02-13",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A terminal frontend for Xi",
+            "homepage": "https://github.com/xi-frontend/xi-term",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "xi-term-2019-02-13",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.xi-term",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.xlayoutdisplay": {
+        "name": "xlayoutdisplay-1.0.2",
+        "pname": "xlayoutdisplay",
+        "version": "1.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Detects and arranges linux display outputs, using XRandR for detection and xrandr for arrangement",
+            "homepage": "https://github.com/alex-courtis/xlayoutdisplay",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "xlayoutdisplay-1.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.xlayoutdisplay",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.yarpgen": {
+        "name": "yarpgen-unstable-2019-09-16",
+        "pname": "yarpgen-unstable",
+        "version": "2019-09-16",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Yet Another Random Program Generator",
+            "homepage": "https://github.com/intel/yarpgen",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "yarpgen-unstable-2019-09-16",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.yarpgen",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.ycomp": {
+        "name": "yComp-1.3.19",
+        "pname": "yComp",
+        "version": "1.3.19",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Visualization tool for program dependency graphs in VCG format",
+            "homepage": "https://pp.ipd.kit.edu/firm/yComp.html",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "yComp-1.3.19",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.ycomp",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.yubikey-touch-detector": {
+        "name": "yubikey-touch-detector-1.5.0",
+        "pname": "yubikey-touch-detector",
+        "version": "1.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Detect when your YubiKey is waiting for a touch",
+            "homepage": "https://github.com/maximbaz/yubikey-touch-detector",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "yubikey-touch-detector-1.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.yubikey-touch-detector",
+        "_repo": "dtz"
+    },
+    "nur.repos.dtz.pkgs.zps": {
+        "name": "zps-1.2.1",
+        "pname": "zps",
+        "version": "1.2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Small utility for listing and reaping zombie processes",
+            "homepage": "https://github.com/orhun/zps",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "w@wdtz.org",
+                    "github": "dtzWill",
+                    "githubId": 817330,
+                    "keys": [
+                        {
+                            "fingerprint": "389A 78CB CD88 5E0C 4701  DEB9 FD42 C7D0 D414 94C8",
+                            "longkeyid": "rsa4096/0xFD42C7D0D41494C8"
+                        }
+                    ],
+                    "name": "Will Dietz"
+                }
+            ],
+            "name": "zps-1.2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
+        },
+        "_attr": "pkgs.zps",
+        "_repo": "dtz"
+    },
     "nur.repos.dywedir.dssim": {
         "name": "dssim-2.9.9",
         "pname": "dssim",
