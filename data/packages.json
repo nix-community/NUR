@@ -40498,9 +40498,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.mosh-ssh-agent": {
-        "name": "mosh-ssh-agent-2020-04-29",
+        "name": "mosh-ssh-agent-2020-07-22",
         "pname": "mosh-ssh-agent",
-        "version": "2020-04-29",
+        "version": "2020-07-22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40512,7 +40512,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
-            "name": "mosh-ssh-agent-2020-04-29",
+            "name": "mosh-ssh-agent-2020-07-22",
             "outputsToInstall": [
                 "out"
             ],
