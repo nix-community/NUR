@@ -39417,14 +39417,14 @@
         "_attr": "VVVVVV-unwrapped",
         "_repo": "metadark"
     },
-    "nur.repos.metadark.wine-Guy1524": {
-        "name": "wine-Guy1524",
-        "pname": "wine-Guy1524",
+    "nur.repos.metadark.wine-eac": {
+        "name": "wine-eac",
+        "pname": "wine-eac",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A custom fork of Wine to support games with anticheat",
+            "description": "A custom fork of Wine to support games with Easy Anti-Cheat",
             "homepage": "https://github.com/Guy1524/wine",
             "maintainer": [
                 {
@@ -39434,13 +39434,13 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "wine-Guy1524",
+            "name": "wine-eac",
             "outputsToInstall": [
                 "out"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
         },
-        "_attr": "wine-Guy1524",
+        "_attr": "wine-eac",
         "_repo": "metadark"
     },
     "nur.repos.metadark.xpadneo": {
