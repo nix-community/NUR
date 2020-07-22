@@ -35980,6 +35980,22 @@
         "_attr": "cc-tool",
         "_repo": "makefu"
     },
+    "nur.repos.makefu.chapter-marker": {
+        "name": "chapter-marker-master",
+        "pname": "chapter-marker-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "chapter-marker-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "chapter-marker",
+        "_repo": "makefu"
+    },
     "nur.repos.makefu.cmpforopenssl": {
         "name": "cmpforopenssl-462b3",
         "pname": "cmpforopenssl",
