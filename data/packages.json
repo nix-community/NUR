@@ -52469,9 +52469,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.firefox-color": {
-        "name": "firefox-color-2.1.5",
+        "name": "firefox-color-2.1.6",
         "pname": "firefox-color",
-        "version": "2.1.5",
+        "version": "2.1.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -52483,7 +52483,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "firefox-color-2.1.5",
+            "name": "firefox-color-2.1.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -52605,9 +52605,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.fraidycat": {
-        "name": "fraidycat-1.1.5",
+        "name": "fraidycat-1.1.6",
         "pname": "fraidycat",
-        "version": "1.1.5",
+        "version": "1.1.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -52619,7 +52619,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "fraidycat-1.1.5",
+            "name": "fraidycat-1.1.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -53556,9 +53556,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.leechblock-ng": {
-        "name": "leechblock-ng-1.0.6",
+        "name": "leechblock-ng-1.0.6.1",
         "pname": "leechblock-ng",
-        "version": "1.0.6",
+        "version": "1.0.6.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53570,7 +53570,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "leechblock-ng-1.0.6",
+            "name": "leechblock-ng-1.0.6.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -54266,9 +54266,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.privacy-badger": {
-        "name": "privacy-badger-2020.6.29",
+        "name": "privacy-badger-2020.7.21",
         "pname": "privacy-badger",
-        "version": "2020.6.29",
+        "version": "2020.7.21",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54280,7 +54280,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "privacy-badger-2020.6.29",
+            "name": "privacy-badger-2020.7.21",
             "outputsToInstall": [
                 "out"
             ],
@@ -54470,9 +54470,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-enhancement-suite": {
-        "name": "reddit-enhancement-suite-5.20.2",
+        "name": "reddit-enhancement-suite-5.20.3",
         "pname": "reddit-enhancement-suite",
-        "version": "5.20.2",
+        "version": "5.20.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54484,7 +54484,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "reddit-enhancement-suite-5.20.2",
+            "name": "reddit-enhancement-suite-5.20.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -55452,9 +55452,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.28.2",
+        "name": "ublock-origin-1.28.4",
         "pname": "ublock-origin",
-        "version": "1.28.2",
+        "version": "1.28.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55466,7 +55466,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.28.2",
+            "name": "ublock-origin-1.28.4",
             "outputsToInstall": [
                 "out"
             ],
