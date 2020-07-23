@@ -57832,15 +57832,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -57930,15 +57939,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -57985,15 +58003,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -58040,15 +58067,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -58219,9 +58255,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-07-17",
+        "name": "embox-unstable-2020-07-23",
         "pname": "embox-unstable",
-        "version": "2020-07-17",
+        "version": "2020-07-23",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -58247,7 +58283,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-07-17",
+            "name": "embox-unstable-2020-07-23",
             "outputsToInstall": [
                 "out"
             ],
@@ -58258,15 +58294,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
             "skip": {
@@ -58423,7 +58468,7 @@
         "_attr": "freizeitkarte-osm",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.fx": {
+    "nur.repos.sikmir.fx-bin": {
         "name": "fx-18.0.1",
         "pname": "fx",
         "version": "18.0.1",
@@ -58465,13 +58510,13 @@
                 "ci": true
             }
         },
-        "_attr": "fx",
+        "_attr": "fx-bin",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gef": {
-        "name": "gef-unstable-2020-07-19",
+        "name": "gef-unstable-2020-07-20",
         "pname": "gef-unstable",
-        "version": "2020-07-19",
+        "version": "2020-07-20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -58497,7 +58542,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gef-unstable-2020-07-19",
+            "name": "gef-unstable-2020-07-20",
             "outputsToInstall": [
                 "out"
             ],
@@ -58548,6 +58593,70 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "gef",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.geminid": {
+        "name": "geminid-unstable-2020-07-11",
+        "pname": "geminid-unstable",
+        "version": "2020-07-11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Gemini Server in C",
+            "homepage": "https://github.com/jovoro/geminid",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "geminid-unstable-2020-07-11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "geminid",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.geographiclib": {
@@ -58642,15 +58751,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -59059,19 +59177,92 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "gpxlab",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.gpxlib": {
+        "name": "gpxlib-unstable-2019-11-27",
+        "pname": "gpxlib-unstable",
+        "version": "2019-11-27",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A c++ library for parsing, browsing, changing and writing of GPX files",
+            "homepage": "http://irdvo.nl/gpxlib/",
+            "license": {
+                "fullName": "GNU Lesser General Public License v3.0 only",
+                "shortName": "lgpl3Only",
+                "spdxId": "LGPL-3.0-only",
+                "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "gpxlib-unstable-2019-11-27",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "gpxlib",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-dem": {
@@ -59282,15 +59473,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -59337,15 +59537,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -59838,7 +60047,7 @@
         "_attr": "ish",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.keeweb": {
+    "nur.repos.sikmir.keeweb-bin": {
         "name": "keeweb-1.15.5",
         "pname": "keeweb",
         "version": "1.15.5",
@@ -59880,7 +60089,7 @@
                 "ci": true
             }
         },
-        "_attr": "keeweb",
+        "_attr": "keeweb-bin",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.libgarmin": {
@@ -60145,7 +60354,7 @@
         "_attr": "lsdreader",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.macpass": {
+    "nur.repos.sikmir.macpass-bin": {
         "name": "MacPass-0.7.12",
         "pname": "MacPass",
         "version": "0.7.12",
@@ -60186,7 +60395,7 @@
                 "ci": true
             }
         },
-        "_attr": "macpass",
+        "_attr": "macpass-bin",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mapsoft": {
@@ -60298,9 +60507,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-07-19",
+        "name": "maptourist-2020-07-22",
         "pname": "maptourist",
-        "version": "2020-07-19",
+        "version": "2020-07-22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -60324,7 +60533,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-07-19",
+            "name": "maptourist-2020-07-22",
             "outputsToInstall": [
                 "out"
             ],
@@ -60769,9 +60978,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-unstable-2020-07-14",
+        "name": "nnn-plugins-unstable-2020-07-22",
         "pname": "nnn-plugins-unstable",
-        "version": "2020-07-14",
+        "version": "2020-07-22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -60797,7 +61006,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-unstable-2020-07-14",
+            "name": "nnn-plugins-unstable-2020-07-22",
             "outputsToInstall": [
                 "out"
             ],
@@ -60893,15 +61102,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -61061,6 +61279,50 @@
         "_attr": "openmtbmap",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.openorienteering-mapper-bin": {
+        "name": "Openorienteering-Mapper-0.9.3",
+        "pname": "Openorienteering-Mapper",
+        "version": "0.9.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "OpenOrienteering Mapper is a software for creating maps for the orienteering sport",
+            "homepage": "https://www.openorienteering.org/apps/mapper/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "Openorienteering-Mapper-0.9.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "openorienteering-mapper-bin",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.openorienteering-mapper": {
         "name": "OpenOrienteering-Mapper-unstable-2020-07-18",
         "pname": "OpenOrienteering-Mapper-unstable",
@@ -61101,15 +61363,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -62131,6 +62402,50 @@
         "_attr": "python-hfst",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.qmapshack-bin": {
+        "name": "qmapshack-1.15.0",
+        "pname": "qmapshack",
+        "version": "1.15.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Consumer grade GIS software",
+            "homepage": "https://github.com/Maproom/qmapshack",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "qmapshack-1.15.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "qmapshack-bin",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.qmapshack-dem": {
         "name": "qmapshack-dem-2014-05-25",
         "pname": "qmapshack-dem",
@@ -62298,9 +62613,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-routinodb": {
-        "name": "qmapshack-routinodb-2020-07-16",
+        "name": "qmapshack-routinodb-2020-07-22",
         "pname": "qmapshack-routinodb",
-        "version": "2020-07-16",
+        "version": "2020-07-22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -62324,7 +62639,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qmapshack-routinodb-2020-07-16",
+            "name": "qmapshack-routinodb-2020-07-22",
             "outputsToInstall": [
                 "out"
             ],
@@ -62504,15 +62819,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -62838,15 +63162,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
@@ -63200,15 +63533,24 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
                 "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
                 "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
                 "x86_64-darwin",
                 "i686-darwin",
                 "aarch64-darwin",
-                "armv7a-darwin"
+                "armv7a-darwin",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
