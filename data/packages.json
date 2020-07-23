@@ -4936,9 +4936,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.cirq": {
-        "name": "python3.8-cirq-0.8.1",
+        "name": "python3.8-cirq-0.8.2",
         "pname": "python3.8-cirq",
-        "version": "0.8.1",
+        "version": "0.8.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -4967,7 +4967,15 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "python3.8-cirq-0.8.1",
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.8-cirq-0.8.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -44276,9 +44284,9 @@
         "_repo": "moredread"
     },
     "nur.repos.moredread.joplin-desktop": {
-        "name": "joplin-desktop-1.0.227",
+        "name": "joplin-desktop-1.0.229",
         "pname": "joplin-desktop",
-        "version": "1.0.227",
+        "version": "1.0.229",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -44292,7 +44300,7 @@
             },
             "longDescription": "Joplin is a free, open source note taking and to-do application, which can\nhandle a large number of notes organised into notebooks. The notes are\nsearchable, can be copied, tagged and modified either from the\napplications directly or from your own text editor. The notes are in\nMarkdown format.\n",
             "maintainers": [],
-            "name": "joplin-desktop-1.0.227",
+            "name": "joplin-desktop-1.0.229",
             "outputsToInstall": [
                 "out"
             ],
@@ -45235,6 +45243,30 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
         },
         "_attr": "trinitycore_335",
+        "_repo": "mweinelt"
+    },
+    "nur.repos.mweinelt.hassLovelaceModules.weather-card-chart": {
+        "name": "weather-card-chart-0.2.6",
+        "pname": "weather-card-chart",
+        "version": "0.2.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Custom weather card with charts",
+            "homepage": "https://github.com/Yevgenium/lovelace-weather-card-chart",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "weather-card-chart-0.2.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
+        },
+        "_attr": "hassLovelaceModules.weather-card-chart",
         "_repo": "mweinelt"
     },
     "nur.repos.n1kolasM.avr8-burn-omat": {
