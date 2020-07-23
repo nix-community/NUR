@@ -14186,6 +14186,46 @@
         "_attr": "islide",
         "_repo": "instantos"
     },
+    "nur.repos.instantos.lxsession": {
+        "name": "lxsession-0.5.5",
+        "pname": "lxsession",
+        "version": "0.5.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Classic LXDE session manager",
+            "homepage": "http://git.lxde.org/gitweb/?p=lxde/lxsession.git",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "lxsession-0.5.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
+        },
+        "_attr": "lxsession",
+        "_repo": "instantos"
+    },
     "nur.repos.instantos.paperbash": {
         "name": "Paperbash-unstable",
         "pname": "Paperbash-unstable",
