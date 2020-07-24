@@ -58890,6 +58890,50 @@
         "_attr": "gmaptool",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.goldendict-bin": {
+        "name": "goldendict-1.5.0-RC2-gc3ff15f",
+        "pname": "goldendict",
+        "version": "1.5.0-RC2-gc3ff15f",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "A feature-rich dictionary lookup program",
+            "homepage": "http://goldendict.org/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "goldendict-1.5.0-RC2-gc3ff15f",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "goldendict-bin",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.goldendict-dark-theme": {
         "name": "goldendict-dark-theme-2018-11-08",
         "pname": "goldendict-dark-theme",
@@ -59263,6 +59307,50 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "gpxlib",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.gpxsee-bin": {
+        "name": "gpxsee-7.31",
+        "pname": "gpxsee",
+        "version": "7.31",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "GPS log file viewer and analyzer",
+            "homepage": "https://www.gpxsee.org",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "gpxsee-7.31",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "gpxsee-bin",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-dem": {
@@ -65134,22 +65222,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tilpner"
         },
         "_attr": "primitive",
-        "_repo": "tilpner"
-    },
-    "nur.repos.tilpner.slirp4netns": {
-        "name": "slirp4netns-0.3.0-alpha.2",
-        "pname": "slirp4netns",
-        "version": "0.3.0-alpha.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "name": "slirp4netns-0.3.0-alpha.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tilpner"
-        },
-        "_attr": "slirp4netns",
         "_repo": "tilpner"
     },
     "nur.repos.tilpner.screenlock": {
