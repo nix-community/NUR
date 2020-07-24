@@ -41053,9 +41053,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.pandoc-bin": {
-        "name": "pandoc-bin-2.9.2.1",
+        "name": "pandoc-bin-2.10.1",
         "pname": "pandoc-bin",
-        "version": "2.9.2.1",
+        "version": "2.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41067,7 +41067,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "pandoc-bin-2.9.2.1",
+            "name": "pandoc-bin-2.10.1",
             "outputsToInstall": [
                 "out"
             ],
