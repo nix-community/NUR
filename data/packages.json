@@ -39562,9 +39562,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.xpadneo": {
-        "name": "xpadneo-0.8",
+        "name": "xpadneo-0.8.2",
         "pname": "xpadneo",
-        "version": "0.8",
+        "version": "0.8.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39576,7 +39576,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
-            "name": "xpadneo-0.8",
+            "name": "xpadneo-0.8.2",
             "outputsToInstall": [
                 "out"
             ],
