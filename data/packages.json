@@ -58255,9 +58255,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-07-23",
+        "name": "embox-unstable-2020-07-24",
         "pname": "embox-unstable",
-        "version": "2020-07-23",
+        "version": "2020-07-24",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -58283,7 +58283,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-07-23",
+            "name": "embox-unstable-2020-07-24",
             "outputsToInstall": [
                 "out"
             ],
@@ -58514,9 +58514,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gef": {
-        "name": "gef-unstable-2020-07-20",
+        "name": "gef-unstable-2020-07-23",
         "pname": "gef-unstable",
-        "version": "2020-07-20",
+        "version": "2020-07-23",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -58542,7 +58542,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gef-unstable-2020-07-20",
+            "name": "gef-unstable-2020-07-23",
             "outputsToInstall": [
                 "out"
             ],
@@ -59101,9 +59101,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxelevations": {
-        "name": "gpxelevations-unstable-2020-07-13",
+        "name": "gpxelevations-unstable-2020-07-24",
         "pname": "gpxelevations-unstable",
-        "version": "2020-07-13",
+        "version": "2020-07-24",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -59146,7 +59146,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxelevations-unstable-2020-07-13",
+            "name": "gpxelevations-unstable-2020-07-24",
             "outputsToInstall": [
                 "out"
             ],
@@ -62726,9 +62726,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-onlinemaps": {
-        "name": "qmapshack-onlinemaps-2019-12-26",
+        "name": "qmapshack-onlinemaps-2020-07-25",
         "pname": "qmapshack-onlinemaps",
-        "version": "2019-12-26",
+        "version": "2020-07-25",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -62752,7 +62752,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qmapshack-onlinemaps-2019-12-26",
+            "name": "qmapshack-onlinemaps-2020-07-25",
             "outputsToInstall": [
                 "out"
             ],
@@ -63528,9 +63528,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tilesets-cli": {
-        "name": "tilesets-cli-unstable-2020-07-16",
+        "name": "tilesets-cli-unstable-2020-07-24",
         "pname": "tilesets-cli-unstable",
-        "version": "2020-07-16",
+        "version": "2020-07-24",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -63573,7 +63573,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tilesets-cli-unstable-2020-07-16",
+            "name": "tilesets-cli-unstable-2020-07-24",
             "outputsToInstall": [
                 "out"
             ],
