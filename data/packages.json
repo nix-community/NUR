@@ -1815,7 +1815,7 @@
                 "aarch64-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'development', 'tools', 'just', 'default.nix')#L55"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'development', 'tools', 'just', 'default.nix')#L46"
         },
         "_attr": "pkgs.just",
         "_repo": "bb010g"
@@ -44267,7 +44267,7 @@
                 "aarch64-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredhel('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'default.nix')#L138"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredhel('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'default.nix')#L178"
         },
         "_attr": "emacs",
         "_repo": "moredhel"
@@ -66954,7 +66954,7 @@
                 "aarch64-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'default.nix')#L138"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'default.nix')#L178"
         },
         "_attr": "emacs",
         "_repo": "vdemeester"
