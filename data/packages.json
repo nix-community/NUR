@@ -12709,13 +12709,13 @@
         "_repo": "immae"
     },
     "nur.repos.immae.notmuch-python2": {
-        "name": "notmuch-python-2.7.18-0.29.3",
+        "name": "notmuch-python-2.7.18-0.30",
         "pname": "notmuch-python",
-        "version": "2.7.18-0.29.3",
+        "version": "2.7.18-0.30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "notmuch-python-2.7.18-0.29.3",
+            "name": "notmuch-python-2.7.18-0.30",
             "outputsToInstall": [
                 "out"
             ],
@@ -12725,13 +12725,13 @@
         "_repo": "immae"
     },
     "nur.repos.immae.notmuch-python3": {
-        "name": "notmuch-python3-3.8.3-0.29.3",
+        "name": "notmuch-python3-3.8.3-0.30",
         "pname": "notmuch-python3",
-        "version": "3.8.3-0.29.3",
+        "version": "3.8.3-0.30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "notmuch-python3-3.8.3-0.29.3",
+            "name": "notmuch-python3-3.8.3-0.30",
             "outputsToInstall": [
                 "out"
             ],
@@ -12741,13 +12741,13 @@
         "_repo": "immae"
     },
     "nur.repos.immae.notmuch-vim": {
-        "name": "notmuch-vim-0.29.3",
+        "name": "notmuch-vim-0.30",
         "pname": "notmuch-vim",
-        "version": "0.29.3",
+        "version": "0.30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "notmuch-vim-0.29.3",
+            "name": "notmuch-vim-0.30",
             "outputsToInstall": [
                 "out"
             ],
@@ -56759,7 +56759,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados('nixpkgs', 'pkgs', 'applications', 'networking', 'browsers', 'firefox', 'wrapper.nix')#L175",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados('nixpkgs', 'pkgs', 'applications', 'networking', 'browsers', 'firefox', 'wrapper.nix')#L182",
             "priority": -1
         },
         "_attr": "waterfox",
