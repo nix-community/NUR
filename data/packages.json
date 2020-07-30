@@ -69013,59 +69013,6 @@
         "_attr": "deno",
         "_repo": "xe"
     },
-    "nur.repos.xe.discord": {
-        "name": "discord-0.0.10",
-        "pname": "discord",
-        "version": "0.0.10",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "description": "All-in-one cross-platform voice and text chat for gamers",
-            "downloadPage": "https://discordapp.com/download",
-            "homepage": "https://discordapp.com/",
-            "license": {
-                "free": false,
-                "fullName": "Unfree",
-                "shortName": "unfree"
-            },
-            "maintainers": [
-                {
-                    "email": "ldesgoui@gmail.com",
-                    "github": "ldesgoui",
-                    "githubId": 2472678,
-                    "name": "Lucas Desgouilles"
-                },
-                {
-                    "email": "MP2E@archlinux.us",
-                    "github": "MP2E",
-                    "githubId": 167708,
-                    "name": "Cray Elliott"
-                },
-                {
-                    "email": "me@tadeo.ca",
-                    "github": "tadeokondrak",
-                    "githubId": 4098453,
-                    "keys": [
-                        {
-                            "fingerprint": "0F2B C0C7 E77C 5B42 AC5B  4C18 FBE6 07FC C495 16D3",
-                            "longkeyid": "ed25519/0xFBE607FCC49516D3"
-                        }
-                    ],
-                    "name": "Tadeo Kondrak"
-                }
-            ],
-            "name": "discord-0.0.10",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
-        },
-        "_attr": "discord",
-        "_repo": "xe"
-    },
     "nur.repos.xe.dwm": {
         "name": "dwm-6.2-kadis",
         "pname": "dwm",
