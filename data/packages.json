@@ -16407,9 +16407,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80-unit": {
-        "name": "php-8.0.0-alpha-2",
+        "name": "php-8.0.0-alpha-3",
         "pname": "php",
-        "version": "8.0.0-alpha-2",
+        "version": "8.0.0-alpha-3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16441,7 +16441,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-8.0.0-alpha-2",
+            "name": "php-8.0.0-alpha-3",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -16497,9 +16497,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80": {
-        "name": "php-8.0.0-alpha-2",
+        "name": "php-8.0.0-alpha-3",
         "pname": "php",
-        "version": "8.0.0-alpha-2",
+        "version": "8.0.0-alpha-3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16531,7 +16531,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-8.0.0-alpha-2",
+            "name": "php-8.0.0-alpha-3",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -17272,8 +17272,8 @@
         "version": "1.0.7",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "name": "php-ast-1.0.7",
             "outputsToInstall": [
                 "out"
@@ -17391,8 +17391,8 @@
         "version": "1.0.7",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "name": "php-ast-1.0.7",
             "outputsToInstall": [
                 "out"
@@ -24647,9 +24647,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24662,7 +24662,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24672,9 +24672,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24687,7 +24687,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24697,9 +24697,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24712,7 +24712,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24722,9 +24722,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24737,7 +24737,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24747,9 +24747,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24762,7 +24762,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24772,9 +24772,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -24787,7 +24787,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24797,9 +24797,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24812,7 +24812,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24822,9 +24822,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24837,7 +24837,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24847,9 +24847,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -24862,7 +24862,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24872,9 +24872,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24887,7 +24887,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24897,9 +24897,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24912,7 +24912,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -24922,9 +24922,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.protobuf": {
-        "name": "php-protobuf-3.12.3",
+        "name": "php-protobuf-3.12.4",
         "pname": "php-protobuf",
-        "version": "3.12.3",
+        "version": "3.12.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24937,7 +24937,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.12.3",
+            "name": "php-protobuf-3.12.4",
             "outputsToInstall": [
                 "out"
             ],
