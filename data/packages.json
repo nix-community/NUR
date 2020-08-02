@@ -4232,6 +4232,211 @@
         "_attr": "nix-gen-node-tools",
         "_repo": "crazazy"
     },
+    "nur.repos.crazazy.js.CRA": {
+        "name": "node_create-react-app-3.4.1",
+        "pname": "node_create-react-app",
+        "version": "3.4.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Create React apps with no build configuration.",
+            "license": "MIT",
+            "name": "node_create-react-app-3.4.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.CRA",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.js.eslint": {
+        "name": "node_eslint-7.6.0",
+        "pname": "node_eslint",
+        "version": "7.6.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An AST-based pattern checker for JavaScript.",
+            "homepage": "https://eslint.org/",
+            "license": "MIT",
+            "name": "node_eslint-7.6.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.eslint",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.js.jspm": {
+        "name": "node_jspm-2.0.0-beta.7",
+        "pname": "node_jspm",
+        "version": "2.0.0-beta.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Universal ES Module Package Manager",
+            "license": "Apache-2.0",
+            "name": "node_jspm-2.0.0-beta.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.jspm",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.js.npe": {
+        "name": "node_npe-1.1.3",
+        "pname": "node_npe",
+        "version": "1.1.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Node Package Editor: a CLI for one-off inspection and editing of properties in package.json files.",
+            "homepage": "https://github.com/zeke/npe",
+            "license": "MIT",
+            "name": "node_npe-1.1.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.npe",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.js.parcel": {
+        "name": "node_parcel-bundler-1.12.4",
+        "pname": "node_parcel-bundler",
+        "version": "1.12.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Blazing fast, zero configuration web application bundler",
+            "license": "MIT",
+            "name": "node_parcel-bundler-1.12.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.parcel",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.js.pnpm": {
+        "name": "node_pnpm-5.4.9",
+        "pname": "node_pnpm",
+        "version": "5.4.9",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Fast, disk space efficient package manager",
+            "homepage": "https://pnpm.js.org/",
+            "license": "MIT",
+            "name": "node_pnpm-5.4.9",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.pnpm",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.js.preact-cli": {
+        "name": "node_preact-cli-3.0.1",
+        "pname": "node_preact-cli",
+        "version": "3.0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Start building a Preact Progressive Web App in seconds.",
+            "homepage": "https://github.com/preactjs/preact-cli",
+            "license": "MIT",
+            "name": "node_preact-cli-3.0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.preact-cli",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.js.rollup": {
+        "name": "node_rollup-2.23.0",
+        "pname": "node_rollup",
+        "version": "2.23.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Next-generation ES module bundler",
+            "homepage": "https://rollupjs.org/",
+            "license": "MIT",
+            "name": "node_rollup-2.23.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.rollup",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.js.tldr": {
+        "name": "node_tldr-3.3.2",
+        "pname": "node_tldr",
+        "version": "3.3.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Simplified and community-driven man pages",
+            "homepage": "http://tldr-pages.github.io/",
+            "license": "MIT",
+            "name": "node_tldr-3.3.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.tldr",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.js.typescript": {
+        "name": "node_typescript-3.9.7",
+        "pname": "node_typescript",
+        "version": "3.9.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "TypeScript is a language for application scale JavaScript development",
+            "homepage": "https://www.typescriptlang.org/",
+            "license": "Apache-2.0",
+            "name": "node_typescript-3.9.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.typescript",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.js.webpack": {
+        "name": "node_webpack-cli-3.3.12",
+        "pname": "node_webpack-cli",
+        "version": "3.3.12",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "CLI for webpack & friends",
+            "license": "MIT",
+            "name": "node_webpack-cli-3.3.12",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy"
+        },
+        "_attr": "js.webpack",
+        "_repo": "crazazy"
+    },
     "nur.repos.crazedprogrammer.bobthefish": {
         "name": "bobthefish",
         "pname": "bobthefish",
