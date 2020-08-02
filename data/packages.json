@@ -58613,6 +58613,50 @@
         "_attr": "wiiuse",
         "_repo": "shamilton"
     },
+    "nur.repos.sikmir.anki-bin": {
+        "name": "anki-2.1.29",
+        "pname": "anki",
+        "version": "2.1.29",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Spaced repetition flashcard program",
+            "homepage": "https://apps.ankiweb.net/",
+            "license": {
+                "fullName": "GNU Affero General Public License v3.0 or later",
+                "shortName": "agpl3Plus",
+                "spdxId": "AGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "anki-2.1.29",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "anki-bin",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.cfiles": {
         "name": "cfiles-unstable-2020-06-09",
         "pname": "cfiles-unstable",
@@ -59082,9 +59126,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-07-28",
+        "name": "embox-unstable-2020-08-02",
         "pname": "embox-unstable",
-        "version": "2020-07-28",
+        "version": "2020-08-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -59110,7 +59154,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-07-28",
+            "name": "embox-unstable-2020-08-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -59344,9 +59388,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gef": {
-        "name": "gef-unstable-2020-07-23",
+        "name": "gef-unstable-2020-07-30",
         "pname": "gef-unstable",
-        "version": "2020-07-23",
+        "version": "2020-07-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -59372,7 +59416,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gef-unstable-2020-07-23",
+            "name": "gef-unstable-2020-07-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -61510,9 +61554,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-07-28",
+        "name": "maptourist-2020-07-31",
         "pname": "maptourist",
-        "version": "2020-07-28",
+        "version": "2020-07-31",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -61536,7 +61580,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-07-28",
+            "name": "maptourist-2020-07-31",
             "outputsToInstall": [
                 "out"
             ],
@@ -61967,9 +62011,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-unstable-2020-07-29",
+        "name": "nakarte-unstable-2020-08-01",
         "pname": "nakarte-unstable",
-        "version": "2020-07-29",
+        "version": "2020-08-01",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -61996,7 +62040,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-unstable-2020-07-29",
+            "name": "nakarte-unstable-2020-08-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -62055,9 +62099,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-unstable-2020-07-22",
+        "name": "nnn-plugins-unstable-2020-08-02",
         "pname": "nnn-plugins-unstable",
-        "version": "2020-07-22",
+        "version": "2020-08-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -62083,7 +62127,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-unstable-2020-07-22",
+            "name": "nnn-plugins-unstable-2020-08-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -62405,9 +62449,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-07-18",
+        "name": "OpenOrienteering-Mapper-unstable-2020-08-01",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-07-18",
+        "version": "2020-08-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -62433,7 +62477,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-07-18",
+            "name": "OpenOrienteering-Mapper-unstable-2020-08-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -63919,6 +63963,50 @@
         "_attr": "qtpbfimageplugin-styles",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.qutebrowser-bin": {
+        "name": "qutebrowser-1.13.1",
+        "pname": "qutebrowser",
+        "version": "1.13.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "A keyboard-driven, vim-like browser based on PyQt5",
+            "homepage": "https://www.qutebrowser.org/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "qutebrowser-1.13.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "qutebrowser-bin",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.redict": {
         "name": "redict-unstable-2019-06-20",
         "pname": "redict-unstable",
@@ -64274,6 +64362,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "broken": false,
             "description": "Automatically exported from code.google.com/p/stardict-3",
             "homepage": "https://github.com/huzheng001/stardict-3",
             "license": {
@@ -64545,9 +64634,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tilesets-cli": {
-        "name": "tilesets-cli-unstable-2020-07-24",
+        "name": "tilesets-cli-unstable-2020-07-31",
         "pname": "tilesets-cli-unstable",
-        "version": "2020-07-24",
+        "version": "2020-07-31",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -64590,7 +64679,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tilesets-cli-unstable-2020-07-24",
+            "name": "tilesets-cli-unstable-2020-07-31",
             "outputsToInstall": [
                 "out"
             ],
