@@ -59769,9 +59769,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.goldendict-bin": {
-        "name": "goldendict-1.5.0-RC2-gc3ff15f",
+        "name": "goldendict-1.5.0-RC2-372-gc3ff15f",
         "pname": "goldendict",
-        "version": "1.5.0-RC2-gc3ff15f",
+        "version": "1.5.0-RC2-372-gc3ff15f",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -59797,7 +59797,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "goldendict-1.5.0-RC2-gc3ff15f",
+            "name": "goldendict-1.5.0-RC2-372-gc3ff15f",
             "outputsToInstall": [
                 "out"
             ],
@@ -63581,6 +63581,94 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "python-hfst",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.qgis-ltr-bin": {
+        "name": "qgis-3.10.8",
+        "pname": "qgis",
+        "version": "3.10.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "A Free and Open Source Geographic Information System",
+            "homepage": "https://qgis.org",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "qgis-3.10.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "qgis-ltr-bin",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.qgis-bin": {
+        "name": "qgis-3.14.1",
+        "pname": "qgis",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "A Free and Open Source Geographic Information System",
+            "homepage": "https://qgis.org",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "qgis-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "qgis-bin",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-bin": {
