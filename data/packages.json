@@ -2997,51 +2997,6 @@
         "_attr": "lsd",
         "_repo": "bendlas"
     },
-    "nur.repos.bhipple.gccjit": {
-        "name": "gcc-9.3.0",
-        "pname": "gcc",
-        "version": "9.3.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "GNU Compiler Collection",
-            "homepage": "https://gcc.gnu.org/",
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "nix@hilhorst.be",
-                    "github": "Synthetica9",
-                    "githubId": 7075751,
-                    "name": "Patrick Hilhorst"
-                }
-            ],
-            "name": "gcc-9.3.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bhipple"
-        },
-        "_attr": "gccjit",
-        "_repo": "bhipple"
-    },
     "nur.repos.bhipple.gmpydl": {
         "name": "gmpydl-2019-09-12",
         "pname": "gmpydl",
