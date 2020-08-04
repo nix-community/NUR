@@ -54342,9 +54342,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.lastpass-password-manager": {
-        "name": "lastpass-password-manager-4.51.0.1",
+        "name": "lastpass-password-manager-4.53.0.5",
         "pname": "lastpass-password-manager",
-        "version": "4.51.0.1",
+        "version": "4.53.0.5",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -54356,7 +54356,7 @@
                 "shortName": "unfree",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/license/"
             },
-            "name": "lastpass-password-manager-4.51.0.1",
+            "name": "lastpass-password-manager-4.53.0.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -55062,9 +55062,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.plasma-integration": {
-        "name": "plasma-integration-1.7.5",
+        "name": "plasma-integration-1.7.6",
         "pname": "plasma-integration",
-        "version": "1.7.5",
+        "version": "1.7.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55076,7 +55076,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "plasma-integration-1.7.5",
+            "name": "plasma-integration-1.7.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -55407,9 +55407,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-moderator-toolbox": {
-        "name": "reddit-moderator-toolbox-5.3.2",
+        "name": "reddit-moderator-toolbox-5.3.3",
         "pname": "reddit-moderator-toolbox",
-        "version": "5.3.2",
+        "version": "5.3.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55421,7 +55421,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "reddit-moderator-toolbox-5.3.2",
+            "name": "reddit-moderator-toolbox-5.3.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -55545,9 +55545,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-20.8",
+        "name": "save-page-we-20.9",
         "pname": "save-page-we",
-        "version": "20.8",
+        "version": "20.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55558,7 +55558,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-20.8",
+            "name": "save-page-we-20.9",
             "outputsToInstall": [
                 "out"
             ],
