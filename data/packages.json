@@ -568,9 +568,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages.rtl8723bu": {
-        "name": "rtl8723bu-5.4.54-2020-04-05",
+        "name": "rtl8723bu-5.4.55-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.4.54-2020-04-05",
+        "version": "5.4.55-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -595,7 +595,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.4.54-2020-04-05",
+            "name": "rtl8723bu-5.4.55-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -618,9 +618,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages_latest.rtl8723bu": {
-        "name": "rtl8723bu-5.7.11-2020-04-05",
+        "name": "rtl8723bu-5.8-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.7.11-2020-04-05",
+        "version": "5.8-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -645,7 +645,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.7.11-2020-04-05",
+            "name": "rtl8723bu-5.8-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -66553,9 +66553,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-1.3-5.4.54",
+        "name": "v4l2loopback-dc-1.3-5.4.55",
         "pname": "v4l2loopback-dc",
-        "version": "1.3-5.4.54",
+        "version": "1.3-5.4.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66575,7 +66575,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-1.3-5.4.54",
+            "name": "v4l2loopback-dc-1.3-5.4.55",
             "outputsToInstall": [
                 "out"
             ],
