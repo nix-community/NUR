@@ -7393,9 +7393,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.dtn7.dtn7-go": {
-        "name": "dtn7-go-0.7.1",
+        "name": "dtn7-go-0.8.0",
         "pname": "dtn7-go",
-        "version": "0.7.1",
+        "version": "0.8.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7421,7 +7421,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "dtn7-go-0.7.1",
+            "name": "dtn7-go-0.8.0",
             "outputsToInstall": [
                 "out"
             ],
