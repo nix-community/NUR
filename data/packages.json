@@ -14231,15 +14231,15 @@
         "_attr": "instantdotfiles",
         "_repo": "instantos"
     },
-    "nur.repos.instantos.instantixos": {
-        "name": "instantixos",
-        "pname": "instantixos",
+    "nur.repos.instantos.instantlock": {
+        "name": "instantLock-unstable",
+        "pname": "instantLock-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "instantOS metapackage for Nix",
-            "homepage": "https://github.com/instantOS/instantOS",
+            "description": "Screen lock manager of instantOS.",
+            "homepage": "https://github.com/instantOS/instantLOCK",
             "license": {
                 "fullName": "MIT License",
                 "shortName": "mit",
@@ -14249,7 +14249,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "instantixos",
+            "name": "instantLock-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -14268,7 +14268,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
         },
-        "_attr": "instantixos",
+        "_attr": "instantlock",
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantlogo": {
@@ -14349,6 +14349,46 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
         },
         "_attr": "instantmenu",
+        "_repo": "instantos"
+    },
+    "nur.repos.instantos.instantnix": {
+        "name": "instantnix",
+        "pname": "instantnix",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "instantOS metapackage for Nix",
+            "homepage": "https://github.com/instantOS/instantOS",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "instantnix",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
+        },
+        "_attr": "instantnix",
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantnotify": {
