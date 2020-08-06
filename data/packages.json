@@ -12262,9 +12262,9 @@
         "_repo": "gnidorah"
     },
     "nur.repos.gnidorah.knobkraft-orm": {
-        "name": "KnobKraft-orm-1.6.2",
+        "name": "KnobKraft-orm-1.6.3",
         "pname": "KnobKraft-orm",
-        "version": "1.6.2",
+        "version": "1.6.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12284,7 +12284,7 @@
                     "name": "gnidorah"
                 }
             ],
-            "name": "KnobKraft-orm-1.6.2",
+            "name": "KnobKraft-orm-1.6.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -12307,9 +12307,9 @@
         "_repo": "gnidorah"
     },
     "nur.repos.gnidorah.munt-jack": {
-        "name": "munt-jack-2020-03-29",
+        "name": "munt-jack-2020-07-26",
         "pname": "munt-jack",
-        "version": "2020-03-29",
+        "version": "2020-07-26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12337,7 +12337,7 @@
                     "name": "gnidorah"
                 }
             ],
-            "name": "munt-jack-2020-03-29",
+            "name": "munt-jack-2020-07-26",
             "outputsToInstall": [
                 "out"
             ],
