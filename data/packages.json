@@ -7448,9 +7448,9 @@
         "_repo": "dtn7"
     },
     "nur.repos.dtn7.dtn7-go-unstable": {
-        "name": "dtn7-go-unstable-2020-08-05",
+        "name": "dtn7-go-unstable-2020-08-06",
         "pname": "dtn7-go-unstable",
-        "version": "2020-08-05",
+        "version": "2020-08-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7476,7 +7476,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "dtn7-go-unstable-2020-08-05",
+            "name": "dtn7-go-unstable-2020-08-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -66749,9 +66749,30 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "description": "Window switcher, run dialog and dmenu replacement",
+            "homepage": "https://github.com/davatorium/rofi",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
             "name": "rofi-unwrapped-git-1.6.0",
             "outputsToInstall": [
                 "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/syberant"
         },
