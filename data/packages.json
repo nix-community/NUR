@@ -61889,9 +61889,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-08-02",
+        "name": "maptourist-2020-08-06",
         "pname": "maptourist",
-        "version": "2020-08-02",
+        "version": "2020-08-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -61915,7 +61915,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-08-02",
+            "name": "maptourist-2020-08-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -62434,9 +62434,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-unstable-2020-08-05",
+        "name": "nnn-plugins-unstable-2020-08-06",
         "pname": "nnn-plugins-unstable",
-        "version": "2020-08-05",
+        "version": "2020-08-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -62462,7 +62462,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-unstable-2020-08-05",
+            "name": "nnn-plugins-unstable-2020-08-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -62784,9 +62784,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-08-05",
+        "name": "OpenOrienteering-Mapper-unstable-2020-08-06",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-08-05",
+        "version": "2020-08-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -62812,7 +62812,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-08-05",
+            "name": "OpenOrienteering-Mapper-unstable-2020-08-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -63594,9 +63594,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mikatools": {
-        "name": "python3.8-mikatools-unstable-2020-08-05",
+        "name": "python3.8-mikatools-unstable-2020-08-06",
         "pname": "python3.8-mikatools-unstable",
-        "version": "2020-08-05",
+        "version": "2020-08-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -63639,7 +63639,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-mikatools-unstable-2020-08-05",
+            "name": "python3.8-mikatools-unstable-2020-08-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -64332,9 +64332,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-08-03",
+        "name": "routinodb-2020-08-06",
         "pname": "routinodb",
-        "version": "2020-08-03",
+        "version": "2020-08-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -64358,7 +64358,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-08-03",
+            "name": "routinodb-2020-08-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -64613,10 +64613,94 @@
         "_attr": "slazav-hr",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.slazav-podm": {
-        "name": "slazav-podm-unstable-2020-08-05",
-        "pname": "slazav-podm-unstable",
+    "nur.repos.sikmir.slazav-podm-bin": {
+        "name": "slazav-podm-2020-08-05",
+        "pname": "slazav-podm",
         "version": "2020-08-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "\u041a\u0430\u0440\u0442\u044b \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
+            "homepage": "http://slazav.mccme.ru/maps/podm/index.htm",
+            "license": {
+                "fullName": "Unspecified free software license",
+                "shortName": "free"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "slazav-podm-2020-08-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "slazav-podm-bin",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.slazav-podm": {
+        "name": "slazav-podm-unstable-2020-08-06",
+        "pname": "slazav-podm-unstable",
+        "version": "2020-08-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -64640,7 +64724,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "slazav-podm-unstable-2020-08-05",
+            "name": "slazav-podm-unstable-2020-08-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -64976,9 +65060,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tilesets-cli": {
-        "name": "tilesets-cli-unstable-2020-08-04",
+        "name": "tilesets-cli-unstable-2020-08-06",
         "pname": "tilesets-cli-unstable",
-        "version": "2020-08-04",
+        "version": "2020-08-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -65021,7 +65105,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tilesets-cli-unstable-2020-08-04",
+            "name": "tilesets-cli-unstable-2020-08-06",
             "outputsToInstall": [
                 "out"
             ],
