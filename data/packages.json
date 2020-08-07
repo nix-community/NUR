@@ -55575,9 +55575,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-20.8.2",
+        "name": "refined-github-20.8.6",
         "pname": "refined-github",
-        "version": "20.8.2",
+        "version": "20.8.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55589,7 +55589,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-20.8.2",
+            "name": "refined-github-20.8.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -55644,9 +55644,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-20.9",
+        "name": "save-page-we-20.10",
         "pname": "save-page-we",
-        "version": "20.9",
+        "version": "20.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55657,7 +55657,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-20.9",
+            "name": "save-page-we-20.10",
             "outputsToInstall": [
                 "out"
             ],
@@ -55987,9 +55987,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.temporary-containers": {
-        "name": "temporary-containers-1.8",
+        "name": "temporary-containers-1.9",
         "pname": "temporary-containers",
-        "version": "1.8",
+        "version": "1.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -56001,7 +56001,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "temporary-containers-1.8",
+            "name": "temporary-containers-1.9",
             "outputsToInstall": [
                 "out"
             ],
@@ -56433,9 +56433,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tridactyl": {
-        "name": "tridactyl-1.19.1",
+        "name": "tridactyl-1.20.0",
         "pname": "tridactyl",
-        "version": "1.19.1",
+        "version": "1.20.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -56447,7 +56447,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "tridactyl-1.19.1",
+            "name": "tridactyl-1.20.0",
             "outputsToInstall": [
                 "out"
             ],
