@@ -4280,16 +4280,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.4.9",
+        "name": "node_pnpm-5.4.12",
         "pname": "node_pnpm",
-        "version": "5.4.9",
+        "version": "5.4.12",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Fast, disk space efficient package manager",
             "homepage": "https://pnpm.js.org/",
             "license": "MIT",
-            "name": "node_pnpm-5.4.9",
+            "name": "node_pnpm-5.4.12",
             "outputsToInstall": [
                 "out"
             ],
@@ -4318,16 +4318,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.23.0",
+        "name": "node_rollup-2.23.1",
         "pname": "node_rollup",
-        "version": "2.23.0",
+        "version": "2.23.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Next-generation ES module bundler",
             "homepage": "https://rollupjs.org/",
             "license": "MIT",
-            "name": "node_rollup-2.23.0",
+            "name": "node_rollup-2.23.1",
             "outputsToInstall": [
                 "out"
             ],
