@@ -52162,9 +52162,9 @@
         "_repo": "pwnytail"
     },
     "nur.repos.rencire.neovim": {
-        "name": "neovim-0.4.3",
+        "name": "neovim-0.4.4",
         "pname": "neovim",
-        "version": "0.4.3",
+        "version": "0.4.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -52206,7 +52206,7 @@
                     "name": "Maximilian Bosch"
                 }
             ],
-            "name": "neovim-unwrapped-0.4.3",
+            "name": "neovim-unwrapped-0.4.4",
             "outputsToInstall": [
                 "out"
             ],
