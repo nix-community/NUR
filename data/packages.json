@@ -49350,6 +49350,22 @@
         "_attr": "rofi-wifi-menu",
         "_repo": "peel"
     },
+    "nur.repos.pn.example-package": {
+        "name": "example-package-1.0",
+        "pname": "example-package",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "example-package-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "example-package",
+        "_repo": "pn"
+    },
     "nur.repos.priegger.annotatego": {
         "name": "annotatego",
         "pname": "annotatego",
