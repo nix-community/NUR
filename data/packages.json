@@ -18,7 +18,7 @@
             ],
             "maintainers": [
                 {
-                    "email": "0x4A6F@shackspace.de",
+                    "email": "mail-maintainer@0x4A6F.dev",
                     "github": "0x4A6F",
                     "githubId": 9675338,
                     "keys": [
@@ -568,9 +568,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages.rtl8723bu": {
-        "name": "rtl8723bu-5.4.56-2020-04-05",
+        "name": "rtl8723bu-5.4.57-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.4.56-2020-04-05",
+        "version": "5.4.57-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -595,7 +595,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.4.56-2020-04-05",
+            "name": "rtl8723bu-5.4.57-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -618,9 +618,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages_latest.rtl8723bu": {
-        "name": "rtl8723bu-5.7.13-2020-04-05",
+        "name": "rtl8723bu-5.7.14-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.7.13-2020-04-05",
+        "version": "5.7.14-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -645,7 +645,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.7.13-2020-04-05",
+            "name": "rtl8723bu-5.7.14-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -66856,9 +66856,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-1.3-5.4.56",
+        "name": "v4l2loopback-dc-1.3-5.4.57",
         "pname": "v4l2loopback-dc",
-        "version": "1.3-5.4.56",
+        "version": "1.3-5.4.57",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66878,7 +66878,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-1.3-5.4.56",
+            "name": "v4l2loopback-dc-1.3-5.4.57",
             "outputsToInstall": [
                 "out"
             ],
@@ -67473,7 +67473,7 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tilpner('nixpkgs', 'pkgs', 'applications', 'networking', 'syncthing', 'default.nix')#L45"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tilpner('nixpkgs', 'pkgs', 'applications', 'networking', 'syncthing', 'default.nix')#L47"
         },
         "_attr": "syncthing-short-delay",
         "_repo": "tilpner"
