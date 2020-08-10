@@ -48365,6 +48365,30 @@
         "_attr": "multiEclipse",
         "_repo": "neumantm"
     },
+    "nur.repos.neumantm.prusa-slicer-2_3-alpha": {
+        "name": "prusa-slicer-2.3.0-alpha0",
+        "pname": "prusa-slicer",
+        "version": "2.3.0-alpha0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Alpha version of G-code generator for 3D printer",
+            "homepage": "https://github.com/prusa3d/PrusaSlicer",
+            "license": {
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "name": "prusa-slicer-2.3.0-alpha0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/neumantm"
+        },
+        "_attr": "prusa-slicer-2_3-alpha",
+        "_repo": "neumantm"
+    },
     "nur.repos.neumantm.pythonWithPipenv": {
         "name": "pythonWithPipenv",
         "pname": "pythonWithPipenv",
