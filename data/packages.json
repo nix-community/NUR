@@ -15764,9 +15764,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb_10_3": {
-        "name": "mariadb-server-10.3.23",
+        "name": "mariadb-server-10.3.24",
         "pname": "mariadb-server",
-        "version": "10.3.23",
+        "version": "10.3.24",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15786,7 +15786,7 @@
                     "name": "Austin Seipp"
                 }
             ],
-            "name": "mariadb-server-10.3.23",
+            "name": "mariadb-server-10.3.24",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -15842,9 +15842,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb_10_4": {
-        "name": "mariadb-server-10.4.13",
+        "name": "mariadb-server-10.4.14",
         "pname": "mariadb-server",
-        "version": "10.4.13",
+        "version": "10.4.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15864,7 +15864,7 @@
                     "name": "Austin Seipp"
                 }
             ],
-            "name": "mariadb-server-10.4.13",
+            "name": "mariadb-server-10.4.14",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -15920,9 +15920,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb_10_5": {
-        "name": "mariadb-server-10.5.4",
+        "name": "mariadb-server-10.5.5",
         "pname": "mariadb-server",
-        "version": "10.5.4",
+        "version": "10.5.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15942,7 +15942,7 @@
                     "name": "Austin Seipp"
                 }
             ],
-            "name": "mariadb-server-10.5.4",
+            "name": "mariadb-server-10.5.5",
             "outputsToInstall": [
                 "out",
                 "man"
