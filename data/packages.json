@@ -71759,39 +71759,40 @@
         "_repo": "yoctocell"
     },
     "nur.repos.zeratax.mangohud": {
-        "name": "mangohud",
+        "name": "mangohud-0.4.1",
         "pname": "mangohud",
-        "version": "",
+        "version": "0.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
             "homepage": "https://github.com/flightlessmango/MangoHud",
-            "name": "mangohud",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax"
-        },
-        "_attr": "mangohud",
-        "_repo": "zeratax"
-    },
-    "nur.repos.zeratax.mangohud_32": {
-        "name": "mangohud-0.4.1",
-        "pname": "mangohud",
-        "version": "0.4.1",
-        "system": "i686-linux",
-        "meta": {
-            "available": true,
-            "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
-            "homepage": "https://github.com/flightlessmango/MangoHud",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
             "name": "mangohud-0.4.1",
             "outputsToInstall": [
                 "out"
             ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax"
         },
-        "_attr": "mangohud_32",
+        "_attr": "mangohud",
         "_repo": "zeratax"
     },
     "nur.repos.zeratax.mangohud_64": {
@@ -71803,13 +71804,69 @@
             "available": true,
             "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
             "homepage": "https://github.com/flightlessmango/MangoHud",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
             "name": "mangohud-0.4.1",
             "outputsToInstall": [
                 "out"
             ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax"
         },
         "_attr": "mangohud_64",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.mangohud_32": {
+        "name": "mangohud_32-0.4.1",
+        "pname": "mangohud_32",
+        "version": "0.4.1",
+        "system": "i686-linux",
+        "meta": {
+            "available": true,
+            "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
+            "homepage": "https://github.com/flightlessmango/MangoHud",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "mangohud_32-0.4.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax"
+        },
+        "_attr": "mangohud_32",
         "_repo": "zeratax"
     },
     "nur.repos.zeratax.mirage-im": {
