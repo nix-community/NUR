@@ -41645,6 +41645,18 @@
         "_attr": "hello-nur",
         "_repo": "mic92"
     },
+    "nur.repos.mic92.irc-announce": {
+        "name": "irc-announce",
+        "pname": "irc-announce",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "description": "IRC notifications implemented in ~25 lines shell script",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
+        },
+        "_attr": "irc-announce",
+        "_repo": "mic92"
+    },
     "nur.repos.mic92.keystone": {
         "name": "keystone-engine-unstable-0.9.2-rc1.post2",
         "pname": "keystone-engine-unstable",
@@ -43717,6 +43729,18 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
         },
         "_attr": "traceshark",
+        "_repo": "mic92"
+    },
+    "nur.repos.mic92.untilport": {
+        "name": "untilport",
+        "pname": "untilport",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "description": "Wait until tcp port is reachable",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
+        },
+        "_attr": "untilport",
         "_repo": "mic92"
     },
     "nur.repos.mic92.term-24bit-terminfo": {
