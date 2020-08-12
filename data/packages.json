@@ -7612,9 +7612,9 @@
         "_repo": "dtn7"
     },
     "nur.repos.dtn7.dtn7-go-unstable": {
-        "name": "dtn7-go-unstable-2020-08-11",
+        "name": "dtn7-go-unstable-2020-08-12",
         "pname": "dtn7-go-unstable",
-        "version": "2020-08-11",
+        "version": "2020-08-12",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7640,7 +7640,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "dtn7-go-unstable-2020-08-11",
+            "name": "dtn7-go-unstable-2020-08-12",
             "outputsToInstall": [
                 "out"
             ],
@@ -49431,25 +49431,6 @@
         },
         "_attr": "surfraw",
         "_repo": "nprindle"
-    },
-    "nur.repos.onny.hyperpotamus": {
-        "name": "node_hyperpotamus-0.37.3",
-        "pname": "node_hyperpotamus",
-        "version": "0.37.3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "YAML based HTTP script processing engine",
-            "homepage": "https://github.com/pmarkert/hyperpotamus/wiki",
-            "license": "MIT",
-            "name": "node_hyperpotamus-0.37.3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
-        },
-        "_attr": "hyperpotamus",
-        "_repo": "onny"
     },
     "nur.repos.peel.metals": {
         "name": "metals-0.9.1",
