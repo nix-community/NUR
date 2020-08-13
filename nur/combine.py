@@ -130,6 +130,10 @@ def update_combined(path: Path) -> List[str]:
 
     for repo in manifest.repos:
         combined_repo = None
+        if repo.name == "shamilton":
+            logger.info("Skip shamilton due to https://github.com/nix-community/nur-combined/commit/00b4f9809c#r41441760")
+            continue
+
         if repo.name in combined_repos:
             combined_repo = combined_repos[repo.name]
             del combined_repos[repo.name]
