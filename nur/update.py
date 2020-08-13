@@ -76,9 +76,6 @@ def update_command(args: Namespace) -> None:
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
     for repo in manifest.repos:
-        if repo.name == "shamilton":
-            print("Skip shamilton due to https://github.com/nix-community/nur-combined/commit/00b4f9809c#r41441760")
-
         try:
             update(repo)
         except EvalError as err:
