@@ -58054,6 +58054,1283 @@
         "_attr": "waterfox-unwrapped",
         "_repo": "shados"
     },
+    "nur.repos.shamilton.argparse": {
+        "name": "argparse-2.1",
+        "pname": "argparse",
+        "version": "2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Argument Parser for Modern C++",
+            "homepage": "https://github.com/p-ranav/argparse",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "argparse-2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "argparse",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.baobab": {
+        "name": "baobab-3.34.0",
+        "pname": "baobab",
+        "version": "3.34.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Gnome disk utility fixed icons for KDE",
+            "homepage": "https://wiki.gnome.org/Apps/DiskUsageAnalyzer",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "baobab-3.34.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "baobab",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.bomber": {
+        "name": "Bomber-19.12.3",
+        "pname": "Bomber",
+        "version": "19.12.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Arcade Bombing Game",
+            "homepage": "https://kde.org/applications/en/games/org.kde.bomber",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "Bomber-19.12.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "bomber",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.compton": {
+        "name": "Compton-0.1_beta2",
+        "pname": "Compton",
+        "version": "0.1_beta2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Compositor for X11",
+            "homepage": "https://github.com/tryone144/compton",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "Compton-0.1_beta2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "compton",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.controls-for-fake": {
+        "name": "ControlsForFake-unstable",
+        "pname": "ControlsForFake-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The Qt gui frontend for FakeMicWavPlayer",
+            "homepage": "https://github.com/SCOTT-HAMILTON/ControlsForFake",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "ControlsForFake-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "controls-for-fake",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.day-night-plasma-wallpapers": {
+        "name": "day-night-plasma-wallpapers-unstable",
+        "pname": "day-night-plasma-wallpapers-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "KDE Plasma utility to automatically change to a night wallpaper when the sun is reaching sunset",
+            "homepage": "https://github.com/SCOTT-HAMILTON/Day-night-plasma-wallpapers",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "day-night-plasma-wallpapers-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "day-night-plasma-wallpapers",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.fake-mic-wav-player": {
+        "name": "FakeMicWavPlayer-unstable",
+        "pname": "FakeMicWavPlayer-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A pulseaudio client to play wav in a simulated microphone",
+            "homepage": "https://github.com/SCOTT-HAMILTON/FakeMicWavPlayer",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "FakeMicWavPlayer-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "fake-mic-wav-player",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.inkscape": {
+        "name": "inkscape-1.0",
+        "pname": "inkscape",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Vector graphics editor",
+            "homepage": "https://www.inkscape.org",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "Inkscape is a feature-rich vector graphics editor that edits\nfiles in the W3C SVG (Scalable Vector Graphics) file format.\n\nIf you want to import .eps files install ps2edit.\n",
+            "maintainers": [
+                {
+                    "email": "jtojnar@gmail.com",
+                    "github": "jtojnar",
+                    "githubId": 705123,
+                    "name": "Jan Tojnar"
+                }
+            ],
+            "name": "inkscape-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "inkscape",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.juk": {
+        "name": "juk-19.12.3",
+        "pname": "juk",
+        "version": "19.12.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Audio jukebox app, supporting collections of MP3, Ogg Vorbis and FLAC audio files",
+            "homepage": "https://kde.org/applications/en/multimedia/org.kde.juk",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "juk-19.12.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "juk",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.kapptemplate": {
+        "name": "KAppTemplate-19.12.3",
+        "pname": "KAppTemplate",
+        "version": "19.12.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "KDE App Code Template Generator",
+            "homepage": "https://kde.org/applications/en/development/org.kde.kapptemplate",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "KAppTemplate-19.12.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "kapptemplate",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.kbreakout": {
+        "name": "KBreakOut-19.12.3",
+        "pname": "KBreakOut",
+        "version": "19.12.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "KDE's Breakout-like Game",
+            "homepage": "https://kde.org/applications/en/games/org.kde.kbreakout",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "KBreakOut-19.12.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "kbreakout",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.keysmith": {
+        "name": "keysmith-0.2",
+        "pname": "keysmith",
+        "version": "0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "OTP client for Plasma Mobile and Desktop",
+            "homepage": "https://github.com/KDE/keysmith",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "keysmith-0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "keysmith",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.killbots": {
+        "name": "Killbots-19.12.3",
+        "pname": "Killbots",
+        "version": "19.12.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Strategy Game with Robots",
+            "homepage": "https://kde.org/applications/en/games/org.kde.killbots",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "Killbots-19.12.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "killbots",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.kirigami-gallery": {
+        "name": "KirigamiGallery-20.07.90",
+        "pname": "KirigamiGallery",
+        "version": "20.07.90",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "View examples of Kirigami components",
+            "homepage": "https://kde.org/applications/en/development/org.kde.kirigami2.gallery",
+            "license": {
+                "fullName": "GNU Library General Public License v2 only",
+                "shortName": "lgpl2Only",
+                "spdxId": "LGPL-2.0-only",
+                "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "KirigamiGallery-20.07.90",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "kirigami-gallery",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.ksmoothdock": {
+        "name": "KSmoothDock-6.2",
+        "pname": "KSmoothDock",
+        "version": "6.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A cool desktop panel for KDE Plasma 5",
+            "homepage": "https://dangvd.github.io/ksmoothdock/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "KSmoothDock-6.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "ksmoothdock",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.libfake": {
+        "name": "libfake-unstable",
+        "pname": "libfake-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An easy wrapper library around pulseaudio, written in c++",
+            "homepage": "https://github.com/SCOTT-HAMILTON/FakeLib",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "libfake-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "libfake",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.lokalize": {
+        "name": "Lokalize-20.04.1",
+        "pname": "Lokalize",
+        "version": "20.04.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Computer-aided translation system that focuses on productivity and quality assurance",
+            "homepage": "https://dangvd.github.io/ksmoothdock/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "Lokalize-20.04.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "lokalize",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.python-iconf": {
+        "name": "python3.8-iconf-0.0.2",
+        "pname": "python3.8-iconf",
+        "version": "0.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Simple method used to load configuration variables from different sources",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-iconf-0.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "python-iconf",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.merge-keepass": {
+        "name": "python3.8-merge-keepass-unstable",
+        "pname": "python3.8-merge-keepass-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Keepass Databases Merging script",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-merge-keepass-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "merge-keepass",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.parallel-ssh": {
+        "name": "python3.8-parallel-ssh-1.9.1",
+        "pname": "python3.8-parallel-ssh",
+        "version": "1.9.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Asynchronous parallel SSH client library",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-parallel-ssh-1.9.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "parallel-ssh",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.ssh2-python": {
+        "name": "python3.8-ssh2-python-0.17.0",
+        "pname": "python3.8-ssh2-python",
+        "version": "0.17.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Super fast SSH2 protocol library",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU Library General Public License v2 only",
+                "shortName": "lgpl2Only",
+                "spdxId": "LGPL-2.0-only",
+                "url": "https://spdx.org/licenses/LGPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-ssh2-python-0.17.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "ssh2-python",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.sync-database": {
+        "name": "python3.8-sync-database-unstable",
+        "pname": "python3.8-sync-database-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Keepass databases synching script to ssh servers and phone",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-sync-database-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "sync-database",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.qtile": {
+        "name": "qtile-0.15.1",
+        "pname": "qtile",
+        "version": "0.15.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A small, flexible, scriptable tiling window manager written in Python",
+            "homepage": "http://www.qtile.org/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kamil.chm@gmail.com",
+                    "github": "kamilchm",
+                    "githubId": 1621930,
+                    "name": "Kamil Chmielewski"
+                }
+            ],
+            "name": "qtile-0.15.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "qtile",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.rofi": {
+        "name": "rofi-unwrapped-1.5.4",
+        "pname": "rofi-unwrapped",
+        "version": "1.5.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Window switcher, run dialog and dmenu replacement",
+            "homepage": "https://github.com/davatorium/rofi",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mbakke@fastmail.com",
+                    "github": "mbakke",
+                    "githubId": 1269099,
+                    "name": "Marius Bakke"
+                }
+            ],
+            "name": "rofi-unwrapped-1.5.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "rofi",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.scripts": {
+        "name": "Scripts-unstable",
+        "pname": "Scripts-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Scripts to make my life easier",
+            "homepage": "https://github.com/SCOTT-HAMILTON/Scripts",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "Scripts-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "scripts",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.spectacle-clipboard": {
+        "name": "spectacle-clipboard-unstable",
+        "pname": "spectacle-clipboard-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "KDE Spectacle fork to enable clipboard funcionnalities",
+            "homepage": "https://github.com/SCOTT-HAMILTON/spectacle",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "spectacle-clipboard-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "spectacle-clipboard",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.super-tux-kart": {
+        "name": "supertuxkart-1.1",
+        "pname": "supertuxkart",
+        "version": "1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A Free 3D kart racing game",
+            "homepage": "https://supertuxkart.net/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "SuperTuxKart is a Free 3D kart racing game, with many tracks,\ncharacters and items for you to try, similar in spirit to Mario\nKart.\n",
+            "maintainers": [
+                {
+                    "email": "pyrolagus@gmail.com",
+                    "github": "PyroLagus",
+                    "githubId": 4579165,
+                    "name": "Danny Bautista"
+                },
+                {
+                    "email": "peter@hoeg.com",
+                    "github": "peterhoeg",
+                    "githubId": 722550,
+                    "name": "Peter Hoeg"
+                }
+            ],
+            "name": "supertuxkart-1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "super-tux-kart",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.wiiuse": {
+        "name": "WiiUse-0.15.5",
+        "pname": "WiiUse",
+        "version": "0.15.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Feature complete cross-platform Wii Remote access library",
+            "homepage": "https://github.com/wiiuse/wiiuse",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "WiiUse-0.15.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "wiiuse",
+        "_repo": "shamilton"
+    },
     "nur.repos.sikmir.anki-bin": {
         "name": "anki-2.1.29",
         "pname": "anki",
