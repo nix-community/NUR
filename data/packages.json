@@ -290,6 +290,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg"
@@ -568,9 +569,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages.rtl8723bu": {
-        "name": "rtl8723bu-5.4.57-2020-04-05",
+        "name": "rtl8723bu-5.4.58-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.4.57-2020-04-05",
+        "version": "5.4.58-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -595,7 +596,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.4.57-2020-04-05",
+            "name": "rtl8723bu-5.4.58-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -618,9 +619,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages_latest.rtl8723bu": {
-        "name": "rtl8723bu-5.7.14-2020-04-05",
+        "name": "rtl8723bu-5.7.15-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.7.14-2020-04-05",
+        "version": "5.7.15-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -645,7 +646,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.7.14-2020-04-05",
+            "name": "rtl8723bu-5.7.15-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -903,6 +904,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -980,6 +982,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -1110,6 +1113,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -1254,6 +1258,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -1329,6 +1334,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -1424,6 +1430,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -1516,6 +1523,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -1608,6 +1616,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -1813,6 +1822,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'development', 'tools', 'just', 'default.nix')#L46"
@@ -2073,6 +2083,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -2209,6 +2220,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -2321,6 +2333,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -2400,6 +2413,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g"
@@ -2990,6 +3004,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bendlas"
@@ -4156,6 +4171,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy('nixpkgs', 'pkgs', 'development', 'compilers', 'elm', 'packages', 'elm.nix')#L10"
@@ -4743,6 +4759,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dandellion"
@@ -7483,6 +7500,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
@@ -7773,6 +7791,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -7842,6 +7861,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -8062,6 +8082,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -8511,6 +8532,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -8593,6 +8615,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -8893,6 +8916,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -9164,6 +9188,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -9292,6 +9317,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz('nixpkgs', 'pkgs', 'development', 'tools', 'misc', 'patchelf', 'default.nix')#L24"
@@ -9613,6 +9639,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -9672,6 +9699,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -9727,6 +9755,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -9871,6 +9900,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -9954,6 +9984,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -10037,6 +10068,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -10120,6 +10152,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -10676,6 +10709,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -10759,6 +10793,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -10842,6 +10877,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dtz"
@@ -11122,6 +11158,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dywedir"
@@ -11355,6 +11392,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa"
@@ -11495,6 +11533,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa"
@@ -11564,6 +11603,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa"
@@ -11746,6 +11786,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa"
@@ -11818,6 +11859,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/extends"
@@ -11896,6 +11938,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/extends"
@@ -11968,6 +12011,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/extends"
@@ -12258,6 +12302,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "name": "variety-0.6.6",
@@ -12307,6 +12352,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/fgaz"
@@ -13199,6 +13245,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "name": "nagios-cli-edc51ea-master",
@@ -13248,6 +13295,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
@@ -13291,13 +13339,13 @@
         "_repo": "immae"
     },
     "nur.repos.immae.notmuch-python2": {
-        "name": "notmuch-python-2.7.18-0.30",
+        "name": "notmuch-python-2.7.18-0.30.1c80020",
         "pname": "notmuch-python",
-        "version": "2.7.18-0.30",
+        "version": "2.7.18-0.30.1c80020",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "notmuch-python-2.7.18-0.30",
+            "name": "notmuch-python-2.7.18-0.30.1c80020",
             "outputsToInstall": [
                 "out"
             ],
@@ -13307,13 +13355,13 @@
         "_repo": "immae"
     },
     "nur.repos.immae.notmuch-python3": {
-        "name": "notmuch-python3-3.8.5-0.30",
+        "name": "notmuch-python3-3.8.5-0.30.1c80020",
         "pname": "notmuch-python3",
-        "version": "3.8.5-0.30",
+        "version": "3.8.5-0.30.1c80020",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "notmuch-python3-3.8.5-0.30",
+            "name": "notmuch-python3-3.8.5-0.30.1c80020",
             "outputsToInstall": [
                 "out"
             ],
@@ -13323,13 +13371,13 @@
         "_repo": "immae"
     },
     "nur.repos.immae.notmuch-vim": {
-        "name": "notmuch-vim-0.30",
+        "name": "notmuch-vim-0.30.1c80020",
         "pname": "notmuch-vim",
-        "version": "0.30",
+        "version": "0.30.1c80020",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "notmuch-vim-0.30",
+            "name": "notmuch-vim-0.30.1c80020",
             "outputsToInstall": [
                 "out"
             ],
@@ -13598,6 +13646,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae('nixpkgs', 'pkgs', 'development', 'perl-modules', 'generic', 'default.nix')#L42"
@@ -13675,6 +13724,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
@@ -13732,6 +13782,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "name": "pg_activity-v1.4.0",
@@ -13781,6 +13832,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/immae"
@@ -15388,6 +15440,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -15536,6 +15589,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -15613,6 +15667,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -15690,6 +15745,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -15768,6 +15824,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -15846,6 +15903,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -15924,6 +15982,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -16142,6 +16201,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -16232,6 +16292,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -16322,6 +16383,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -16412,6 +16474,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -16502,6 +16565,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -16592,6 +16656,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -16682,6 +16747,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -16772,6 +16838,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -16862,6 +16929,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -16952,6 +17020,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -17042,6 +17111,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -17132,6 +17202,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
@@ -29786,6 +29857,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -29849,6 +29921,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -29908,6 +29981,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -29971,6 +30045,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -30030,6 +30105,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -30093,6 +30169,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -30152,6 +30229,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -30215,6 +30293,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -30274,6 +30353,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -30337,6 +30417,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -30414,6 +30495,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -30622,6 +30704,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -30699,6 +30782,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -30776,6 +30860,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -30870,6 +30955,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -31013,6 +31099,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -31090,6 +31177,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -31184,6 +31272,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -31243,6 +31332,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -31312,6 +31402,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -31371,6 +31462,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -31434,6 +31526,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -31493,6 +31586,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -31556,6 +31650,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -31615,6 +31710,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -31678,6 +31774,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -31772,6 +31869,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -31866,6 +31964,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -31943,6 +32042,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -32002,6 +32102,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -32065,6 +32166,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -32143,6 +32245,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -32220,6 +32323,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -32297,6 +32401,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -32374,6 +32479,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -32433,6 +32539,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -32496,6 +32603,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -32573,6 +32681,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -32714,6 +32823,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/johnazoidberg"
@@ -33208,6 +33318,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jorsn"
@@ -34043,6 +34154,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kalbasit"
@@ -34137,6 +34249,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kalbasit"
@@ -34231,6 +34344,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kalbasit"
@@ -34357,6 +34471,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kalbasit"
@@ -34440,6 +34555,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kalbasit"
@@ -34582,6 +34698,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kapack"
@@ -34832,6 +34949,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kapack"
@@ -35782,6 +35900,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kmein"
@@ -35901,6 +36020,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kmein"
@@ -35964,6 +36084,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kmein"
@@ -36141,6 +36262,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kmein"
@@ -36327,6 +36449,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kolloch"
@@ -36451,6 +36574,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kolloch"
@@ -36580,6 +36704,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kolloch"
@@ -37192,6 +37317,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu",
@@ -37276,6 +37402,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -37331,6 +37458,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
@@ -38005,6 +38133,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -38060,6 +38189,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
@@ -38119,6 +38249,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -38174,6 +38305,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
@@ -38233,6 +38365,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -38288,6 +38421,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
@@ -39720,6 +39854,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
@@ -39887,6 +40022,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
@@ -40378,6 +40514,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
@@ -40499,6 +40636,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
@@ -40576,6 +40714,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
@@ -40938,6 +41077,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
@@ -41493,6 +41633,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
@@ -41572,6 +41713,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
@@ -42066,6 +42208,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
@@ -44812,6 +44955,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
@@ -44890,6 +45034,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
@@ -45040,6 +45185,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
@@ -45118,6 +45264,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp"
@@ -45214,9 +45361,10 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredhel('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'default.nix')#L178"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredhel('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'default.nix')#L173"
         },
         "_attr": "emacs",
         "_repo": "moredhel"
@@ -45423,6 +45571,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread"
@@ -45701,6 +45850,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mozilla"
@@ -46500,6 +46650,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/n1kolasM"
@@ -48225,9 +48376,9 @@
         "_repo": "n1kolasM"
     },
     "nur.repos.n1kolasM.python37Packages.zope_component": {
-        "name": "python3.7-zope.component-4.6.1",
+        "name": "python3.7-zope.component-4.6.2",
         "pname": "python3.7-zope.component",
-        "version": "4.6.1",
+        "version": "4.6.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48264,7 +48415,7 @@
                     "name": "Cillian de R\u00f3iste"
                 }
             ],
-            "name": "python3.7-zope.component-4.6.1",
+            "name": "python3.7-zope.component-4.6.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -49034,6 +49185,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nprindle"
@@ -49154,6 +49306,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nprindle"
@@ -49582,6 +49735,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
@@ -49651,6 +49805,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
@@ -50797,6 +50952,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pschuprikov('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -50874,6 +51030,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pschuprikov('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51131,6 +51288,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ptival"
@@ -51208,6 +51366,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51285,6 +51444,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51362,6 +51522,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51439,6 +51600,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51516,6 +51678,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51585,6 +51748,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51648,6 +51812,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51725,6 +51890,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51802,6 +51968,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51879,6 +52046,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -51956,6 +52124,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -52033,6 +52202,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -52095,6 +52265,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'pkgs', 'development', 'perl-modules', 'generic', 'default.nix')#L42"
@@ -52158,6 +52329,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -52220,6 +52392,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'pkgs', 'development', 'perl-modules', 'generic', 'default.nix')#L42"
@@ -52297,6 +52470,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -52359,6 +52533,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'pkgs', 'development', 'perl-modules', 'generic', 'default.nix')#L42"
@@ -52421,6 +52596,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'pkgs', 'development', 'perl-modules', 'generic', 'default.nix')#L42"
@@ -52484,6 +52660,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -52546,6 +52723,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'pkgs', 'development', 'perl-modules', 'generic', 'default.nix')#L42"
@@ -52609,6 +52787,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -52672,6 +52851,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pwnytail('nixpkgs', 'lib', 'attrsets.nix')#L344"
@@ -52923,6 +53103,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -52992,6 +53173,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53061,6 +53243,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53130,6 +53313,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53199,6 +53383,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53262,6 +53447,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53331,6 +53517,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53399,6 +53586,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53468,6 +53656,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53537,6 +53726,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53605,6 +53795,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53674,6 +53865,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53794,6 +53986,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53863,6 +54056,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -53932,6 +54126,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54001,6 +54196,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54070,6 +54266,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54139,6 +54336,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54208,6 +54406,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54277,6 +54476,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54346,6 +54546,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54415,6 +54616,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54484,6 +54686,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54553,6 +54756,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54622,6 +54826,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54691,6 +54896,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54760,6 +54966,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54829,6 +55036,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54898,6 +55106,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -54966,6 +55175,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55035,6 +55245,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55104,6 +55315,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55173,6 +55385,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55242,6 +55455,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55311,6 +55525,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55380,6 +55595,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55479,6 +55695,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55548,6 +55765,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55617,6 +55835,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55686,6 +55905,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55755,6 +55975,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55824,6 +56045,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55893,6 +56115,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -55962,6 +56185,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56031,6 +56255,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56100,6 +56325,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56169,6 +56395,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56238,6 +56465,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56306,6 +56534,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56375,6 +56604,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56444,6 +56674,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56512,6 +56743,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56581,6 +56813,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56650,6 +56883,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56752,6 +56986,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56821,6 +57056,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56890,6 +57126,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -56959,6 +57196,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -57027,6 +57265,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -57096,6 +57335,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -57165,6 +57405,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -57234,6 +57475,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -57319,6 +57561,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -57388,6 +57631,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -57457,6 +57701,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -57525,6 +57770,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
@@ -58405,6 +58651,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
@@ -59795,6 +60042,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -59881,6 +60129,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
@@ -60177,6 +60426,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -60390,6 +60640,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
@@ -60808,6 +61059,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "skip": {
@@ -60892,6 +61144,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -61234,6 +61487,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -61453,6 +61707,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -61684,6 +61939,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -62196,6 +62452,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -62512,6 +62769,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -62814,6 +63072,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -62972,6 +63231,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -63059,6 +63319,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -63279,6 +63540,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -63478,6 +63740,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -64677,6 +64940,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -64761,6 +65025,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -64955,6 +65220,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -65153,6 +65419,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -65237,6 +65504,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -65321,6 +65589,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -66125,6 +66394,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/smaret"
@@ -66225,6 +66495,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/smaret"
@@ -66362,6 +66633,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/splintah"
@@ -66421,6 +66693,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "license": {
@@ -66477,6 +66750,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/splintah"
@@ -66582,6 +66856,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr"
@@ -66660,6 +66935,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr"
@@ -66960,6 +67236,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr"
@@ -67097,6 +67374,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr"
@@ -67138,9 +67416,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-1.3-5.4.57",
+        "name": "v4l2loopback-dc-1.3-5.4.58",
         "pname": "v4l2loopback-dc",
-        "version": "1.3-5.4.57",
+        "version": "1.3-5.4.58",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -67160,7 +67438,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-1.3-5.4.57",
+            "name": "v4l2loopback-dc-1.3-5.4.58",
             "outputsToInstall": [
                 "out"
             ],
@@ -67297,6 +67575,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/syberant"
@@ -67374,6 +67653,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/syberant('nixpkgs', 'pkgs', 'applications', 'window-managers', 'dwm', 'default.nix')#L25"
@@ -67672,14 +67952,14 @@
         "_repo": "tilpner"
     },
     "nur.repos.tilpner.syncthing-short-delay": {
-        "name": "syncthing-1.7.1",
+        "name": "syncthing-1.8.0",
         "pname": "syncthing",
-        "version": "1.7.1",
+        "version": "1.8.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Open Source Continuous File Synchronization",
-            "homepage": "https://www.syncthing.net/",
+            "homepage": "https://syncthing.net/",
             "license": {
                 "fullName": "Mozilla Public License 2.0",
                 "shortName": "mpl20",
@@ -67724,7 +68004,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "syncthing-1.7.1",
+            "name": "syncthing-1.8.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -68020,6 +68300,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tox"
@@ -68143,6 +68424,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/trevorriles"
@@ -68820,9 +69102,10 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'default.nix')#L178"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'default.nix')#L173"
         },
         "_attr": "emacs",
         "_repo": "vdemeester"
@@ -70727,6 +71010,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
@@ -71176,6 +71460,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe"
@@ -71518,6 +71803,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/yoctocell"
@@ -71587,6 +71873,7 @@
                 "vc4-none",
                 "js-ghcjs",
                 "aarch64-genode",
+                "i686-genode",
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/yoctocell"
