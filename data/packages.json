@@ -4222,16 +4222,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.eslint": {
-        "name": "node_eslint-7.6.0",
+        "name": "node_eslint-7.7.0",
         "pname": "node_eslint",
-        "version": "7.6.0",
+        "version": "7.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "An AST-based pattern checker for JavaScript.",
             "homepage": "https://eslint.org/",
             "license": "MIT",
-            "name": "node_eslint-7.6.0",
+            "name": "node_eslint-7.7.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -4296,16 +4296,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.4.12",
+        "name": "node_pnpm-5.5.1",
         "pname": "node_pnpm",
-        "version": "5.4.12",
+        "version": "5.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Fast, disk space efficient package manager",
             "homepage": "https://pnpm.js.org/",
             "license": "MIT",
-            "name": "node_pnpm-5.4.12",
+            "name": "node_pnpm-5.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -4334,16 +4334,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.23.1",
+        "name": "node_rollup-2.25.0",
         "pname": "node_rollup",
-        "version": "2.23.1",
+        "version": "2.25.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Next-generation ES module bundler",
             "homepage": "https://rollupjs.org/",
             "license": "MIT",
-            "name": "node_rollup-2.23.1",
+            "name": "node_rollup-2.25.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -67075,13 +67075,13 @@
         "_repo": "splintah"
     },
     "nur.repos.splintah.onedrive": {
-        "name": "onedrive-2.3.11",
+        "name": "onedrive-2.4.5",
         "pname": "onedrive",
-        "version": "2.3.11",
+        "version": "2.4.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "onedrive-2.3.11",
+            "name": "onedrive-2.4.5",
             "outputsToInstall": [
                 "out"
             ],
