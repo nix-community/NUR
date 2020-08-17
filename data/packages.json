@@ -5872,8 +5872,8 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Yahoo! Finance market data downloader (+faster Pandas Datareader)",
-            "homepage": "https://aroussi.com/post/python-yahoo-finance",
+            "description": "Non-blocking Python methods using decorators",
+            "homepage": "https://github.com/ranaroussi/multitasking",
             "isBuildPythonPackage": [
                 "aarch64-linux",
                 "armv5tel-linux",
@@ -6762,6 +6762,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "changelog": "https://qiskit.org/documentation/release_notes.html",
             "description": "Software for developing quantum computing programs",
             "downloadPage": "https://github.com/QISKit/qiskit/releases",
             "homepage": "https://qiskit.org",
@@ -6835,6 +6836,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "changelog": "https://qiskit.org/documentation/release_notes.html",
             "description": "High performance simulators for Qiskit",
             "downloadPage": "https://github.com/QISKit/qiskit-aer/releases",
             "homepage": "https://qiskit.org/aer",
@@ -6861,22 +6863,34 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
             "name": "python3.8-qiskit-aer-0.6.1",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
-                "x86_64-cygwin",
-                "x86_64-freebsd",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
                 "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
                 "x86_64-darwin",
-                "x86_64-windows",
-                "x86_64-redox",
-                "x86_64-none",
-                "x86_64-genode"
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
         },
@@ -6890,6 +6904,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "changelog": "https://qiskit.org/documentation/release_notes.html",
             "description": "An extensible library of quantum computing algorithms",
             "homepage": "https://github.com/QISKit/qiskit-aqua",
             "isBuildPythonPackage": [
@@ -6956,6 +6971,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "changelog": "https://qiskit.org/documentation/release_notes.html",
             "description": "Qiskit provider for accessing the quantum devices and simulators at IBMQ",
             "homepage": "https://github.com/Qiskit/qiskit-ibmq-provider",
             "isBuildPythonPackage": [
@@ -7022,6 +7038,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "changelog": "https://qiskit.org/documentation/release_notes.html",
             "description": "Qiskit tools for quantum hardware verification, noise characterization, and error correction",
             "downloadPage": "https://github.com/QISKit/qiskit-ignis/releases",
             "homepage": "https://qiskit.org/ignis",
@@ -7089,6 +7106,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "changelog": "https://qiskit.org/documentation/release_notes.html",
             "description": "Provides the foundations for Qiskit.",
             "downloadPage": "https://github.com/QISKit/qiskit-terra/releases",
             "homepage": "https://qiskit.org/terra",
@@ -7357,6 +7375,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "changelog": "https://github.com/Qiskit/retworkx/releases/tag/0.4.0",
             "description": "A python graph library implemented in Rust.",
             "downloadPage": "https://github.com/Qiskit/retworkx/releases",
             "homepage": "https://retworkx.readthedocs.io/en/latest/index.html",
