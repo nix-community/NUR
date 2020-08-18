@@ -3425,6 +3425,61 @@
         "_attr": "nats-utils",
         "_repo": "c0deaddict"
     },
+    "nur.repos.c0deaddict.nsc": {
+        "name": "nsc-0.4.10",
+        "pname": "nsc",
+        "version": "0.4.10",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Tool for creating nkey/jwt based configurations",
+            "homepage": "https://github.com/nats-io/nsc",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "josvanbakel@protonmail.com",
+                    "github": "c0deaddict",
+                    "githubId": 510553,
+                    "name": "Jos van Bakel"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "nsc-0.4.10",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/c0deaddict"
+        },
+        "_attr": "nsc",
+        "_repo": "c0deaddict"
+    },
     "nur.repos.c0deaddict.oversteer": {
         "name": "oversteer-0.4.1",
         "pname": "oversteer",
