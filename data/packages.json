@@ -58689,46 +58689,6 @@
         "_attr": "compton",
         "_repo": "shamilton"
     },
-    "nur.repos.shamilton.controls-for-fake": {
-        "name": "ControlsForFake-unstable",
-        "pname": "ControlsForFake-unstable",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "The Qt gui frontend for FakeMicWavPlayer",
-            "homepage": "https://github.com/SCOTT-HAMILTON/ControlsForFake",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "ControlsForFake-unstable",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "controls-for-fake",
-        "_repo": "shamilton"
-    },
     "nur.repos.shamilton.day-night-plasma-wallpapers": {
         "name": "day-night-plasma-wallpapers-unstable",
         "pname": "day-night-plasma-wallpapers-unstable",
