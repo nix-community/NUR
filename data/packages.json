@@ -40726,6 +40726,52 @@
         "_attr": "vdf",
         "_repo": "metadark"
     },
+    "nur.repos.metadark.rofi-wayland": {
+        "name": "rofi-unstable-2020-08-14",
+        "pname": "rofi-unstable",
+        "version": "2020-08-14",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Window switcher, run dialog and dmenu replacement (built for Wayland)",
+            "homepage": "https://github.com/lbonn/rofi",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@gmail.com",
+                    "github": "metadark",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "rofi-wayland-unstable-2020-08-14",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark",
+            "priority": -1
+        },
+        "_attr": "rofi-wayland",
+        "_repo": "metadark"
+    },
     "nur.repos.metadark.runescape-launcher": {
         "name": "runescape-launcher",
         "pname": "runescape-launcher",
