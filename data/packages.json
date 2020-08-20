@@ -54216,9 +54216,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.cookie-autodelete": {
-        "name": "cookie-autodelete-3.4.0",
+        "name": "cookie-autodelete-3.5.0",
         "pname": "cookie-autodelete",
-        "version": "3.4.0",
+        "version": "3.5.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54230,7 +54230,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "cookie-autodelete-3.4.0",
+            "name": "cookie-autodelete-3.5.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -55106,9 +55106,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ghostery": {
-        "name": "ghostery-8.5.1",
+        "name": "ghostery-8.5.2",
         "pname": "ghostery",
-        "version": "8.5.1",
+        "version": "8.5.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55120,7 +55120,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "ghostery-8.5.1",
+            "name": "ghostery-8.5.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -55526,9 +55526,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.https-everywhere": {
-        "name": "https-everywhere-2020.5.20",
+        "name": "https-everywhere-2020.8.13",
         "pname": "https-everywhere",
-        "version": "2020.5.20",
+        "version": "2020.8.13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55540,7 +55540,7 @@
                 "shortName": "https-everywhere-license",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/license/"
             },
-            "name": "https-everywhere-2020.5.20",
+            "name": "https-everywhere-2020.8.13",
             "outputsToInstall": [
                 "out"
             ],
@@ -57095,9 +57095,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-22.0",
+        "name": "save-page-we-22.1",
         "pname": "save-page-we",
-        "version": "22.0",
+        "version": "22.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -57108,7 +57108,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-22.0",
+            "name": "save-page-we-22.1",
             "outputsToInstall": [
                 "out"
             ],
