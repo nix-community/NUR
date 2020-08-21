@@ -49550,6 +49550,22 @@
         "_attr": "delta",
         "_repo": "npkgs"
     },
+    "nur.repos.npkgs.motd": {
+        "name": "motd-v0.1.0",
+        "pname": "motd-v0.1.0",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "motd-v0.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/npkgs"
+        },
+        "_attr": "motd",
+        "_repo": "npkgs"
+    },
     "nur.repos.npkgs.pista": {
         "name": "pista-0.1.4",
         "pname": "pista",
