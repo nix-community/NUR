@@ -55697,9 +55697,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.i-dont-care-about-cookies": {
-        "name": "i-dont-care-about-cookies-3.1.9",
+        "name": "i-dont-care-about-cookies-3.2.0",
         "pname": "i-dont-care-about-cookies",
-        "version": "3.1.9",
+        "version": "3.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -55711,7 +55711,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "i-dont-care-about-cookies-3.1.9",
+            "name": "i-dont-care-about-cookies-3.2.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -58066,9 +58066,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.29.0",
+        "name": "ublock-origin-1.29.2",
         "pname": "ublock-origin",
-        "version": "1.29.0",
+        "version": "1.29.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -58080,7 +58080,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.29.0",
+            "name": "ublock-origin-1.29.2",
             "outputsToInstall": [
                 "out"
             ],
