@@ -3835,6 +3835,38 @@
         "_attr": "prometheus-unbound-exporter",
         "_repo": "c0deaddict"
     },
+    "nur.repos.c0deaddict.zpool_prometheus": {
+        "name": "zpool_prometheus",
+        "pname": "zpool_prometheus",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Prometheus-style metrics scraper for ZFS pools",
+            "homepage": "https://github.com/richardelling/zpool_prometheus",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "josvanbakel@protonmail.com",
+                    "github": "c0deaddict",
+                    "githubId": 510553,
+                    "name": "Jos van Bakel"
+                }
+            ],
+            "name": "zpool_prometheus",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/c0deaddict"
+        },
+        "_attr": "zpool_prometheus",
+        "_repo": "c0deaddict"
+    },
     "nur.repos.chagra.cboard": {
         "name": "cboard-0.7.5",
         "pname": "cboard",
