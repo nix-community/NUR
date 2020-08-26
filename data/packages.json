@@ -59843,6 +59843,46 @@
         "_attr": "bomber",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.cargo-sort-ck": {
+        "name": "cargo-sort-ck-1.1",
+        "pname": "cargo-sort-ck",
+        "version": "1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Check if tables and items in a .toml file are lexically sorted",
+            "homepage": "https://github.com/devinr528/cargo-sort-ck",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "cargo-sort-ck-1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "cargo-sort-ck",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.compton": {
         "name": "Compton-0.1_beta2",
         "pname": "Compton",
