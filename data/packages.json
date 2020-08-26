@@ -4386,16 +4386,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.5.1",
+        "name": "node_pnpm-5.5.2",
         "pname": "node_pnpm",
-        "version": "5.5.1",
+        "version": "5.5.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Fast, disk space efficient package manager",
             "homepage": "https://pnpm.js.org/",
             "license": "MIT",
-            "name": "node_pnpm-5.5.1",
+            "name": "node_pnpm-5.5.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -4424,16 +4424,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.25.0",
+        "name": "node_rollup-2.26.4",
         "pname": "node_rollup",
-        "version": "2.25.0",
+        "version": "2.26.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Next-generation ES module bundler",
             "homepage": "https://rollupjs.org/",
             "license": "MIT",
-            "name": "node_rollup-2.25.0",
+            "name": "node_rollup-2.26.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -4462,16 +4462,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.typescript": {
-        "name": "node_typescript-3.9.7",
+        "name": "node_typescript-4.0.2",
         "pname": "node_typescript",
-        "version": "3.9.7",
+        "version": "4.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "TypeScript is a language for application scale JavaScript development",
             "homepage": "https://www.typescriptlang.org/",
             "license": "Apache-2.0",
-            "name": "node_typescript-3.9.7",
+            "name": "node_typescript-4.0.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -24460,9 +24460,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24489,7 +24489,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24499,9 +24499,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24528,7 +24528,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24538,9 +24538,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24567,7 +24567,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24577,9 +24577,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24606,7 +24606,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24616,9 +24616,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24645,7 +24645,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24655,9 +24655,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24684,7 +24684,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24694,9 +24694,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24723,7 +24723,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24733,9 +24733,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24762,7 +24762,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24772,9 +24772,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24801,7 +24801,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24811,9 +24811,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24840,7 +24840,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24850,9 +24850,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24879,7 +24879,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -24889,9 +24889,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.phpstan": {
-        "name": "php-phpstan-0.12.37",
+        "name": "php-phpstan-0.12.39",
         "pname": "php-phpstan",
-        "version": "0.12.37",
+        "version": "0.12.39",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24918,7 +24918,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.37",
+            "name": "php-phpstan-0.12.39",
             "outputsToInstall": [
                 "out"
             ],
@@ -26248,9 +26248,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26262,7 +26262,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26272,9 +26272,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26286,7 +26286,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26296,9 +26296,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26310,7 +26310,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26320,9 +26320,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26334,7 +26334,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26344,9 +26344,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26358,7 +26358,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26368,9 +26368,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26382,7 +26382,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26392,9 +26392,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26406,7 +26406,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26416,9 +26416,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26430,7 +26430,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26440,9 +26440,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26454,7 +26454,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26464,9 +26464,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26478,7 +26478,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26488,9 +26488,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26502,7 +26502,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -26512,9 +26512,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.psalm": {
-        "name": "php-psalm-3.13.1",
+        "name": "php-psalm-3.14.2",
         "pname": "php-psalm",
-        "version": "3.13.1",
+        "version": "3.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26526,7 +26526,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-3.13.1",
+            "name": "php-psalm-3.14.2",
             "outputsToInstall": [
                 "out"
             ],
