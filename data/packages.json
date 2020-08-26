@@ -7679,9 +7679,9 @@
         "_repo": "dtn7"
     },
     "nur.repos.dtn7.dtn7-go-unstable": {
-        "name": "dtn7-go-unstable-2020-08-25",
+        "name": "dtn7-go-unstable-2020-08-26",
         "pname": "dtn7-go-unstable",
-        "version": "2020-08-25",
+        "version": "2020-08-26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7713,7 +7713,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "dtn7-go-unstable-2020-08-25",
+            "name": "dtn7-go-unstable-2020-08-26",
             "outputsToInstall": [
                 "out"
             ],
@@ -60440,6 +60440,46 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "lokalize",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.ncgopher": {
+        "name": "ncgopher-0.1.5",
+        "pname": "ncgopher",
+        "version": "0.1.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A gopher and gemini client for the modern internet",
+            "homepage": "https://github.com/jansc/ncgopher",
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "ncgopher-0.1.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "ncgopher",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.python-iconf": {
