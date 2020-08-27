@@ -54620,9 +54620,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.browserpass": {
-        "name": "browserpass-3.5.0",
+        "name": "browserpass-3.6.0",
         "pname": "browserpass",
-        "version": "3.5.0",
+        "version": "3.6.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54634,7 +54634,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
-            "name": "browserpass-3.5.0",
+            "name": "browserpass-3.6.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -57843,9 +57843,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-22.1",
+        "name": "save-page-we-22.2",
         "pname": "save-page-we",
-        "version": "22.1",
+        "version": "22.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -57856,7 +57856,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-22.1",
+            "name": "save-page-we-22.2",
             "outputsToInstall": [
                 "out"
             ],
