@@ -68656,6 +68656,22 @@
         "_attr": "ripcord",
         "_repo": "sondr3"
     },
+    "nur.repos.splintah.giph": {
+        "name": "giph-1.1",
+        "pname": "giph",
+        "version": "1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "giph-1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/splintah"
+        },
+        "_attr": "giph",
+        "_repo": "splintah"
+    },
     "nur.repos.splintah.id3": {
         "name": "id3",
         "pname": "id3",
