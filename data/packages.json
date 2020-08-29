@@ -61010,6 +61010,457 @@
         "_attr": "ncgopher",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.debtcollector": {
+        "name": "python3.7-debtcollector-2.2.0",
+        "pname": "python3.7-debtcollector",
+        "version": "2.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Python library to collect your technical debt",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "A collection of Python deprecation patterns and strategies that help you\ncollect your technical debt in a non-destructive manner. The goal of this\nlibrary is to provide well documented developer facing deprecation\npatterns that start of with a basic set and can expand into a larger set\nof patterns as time goes on. The desired output of these patterns is to\napply the warnings module to emit DeprecationWarning or\nPendingDeprecationWarning or similar derivative to developers using\nlibraries (or potentially applications) about future deprecations.\n",
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-debtcollector-2.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "debtcollector",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.keystoneauth1": {
+        "name": "python3.7-keystoneauth1-4.2.1",
+        "pname": "python3.7-keystoneauth1",
+        "version": "4.2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Authentication Library for OpenStack Identity",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-keystoneauth1-4.2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "keystoneauth1",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.os-service-types": {
+        "name": "python3.7-os-service-types-1.7.0",
+        "pname": "python3.7-os-service-types",
+        "version": "1.7.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Python library for consuming OpenStack sevice-types-authority data",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "The data is in JSON and the latest data should always be used. This\nsimple library exists to allow for easy consumption of the data, along\nwith a built-in version of the data to use in case network access is for\nsome reason not possible and local caching of the fetched data.\n",
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-os-service-types-1.7.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "os-service-types",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.oslo-config": {
+        "name": "python3.7-oslo-config-8.3.1",
+        "pname": "python3.7-oslo-config",
+        "version": "8.3.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Oslo Configuration API",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-oslo-config-8.3.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "oslo-config",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.oslo-i18n": {
+        "name": "python3.7-oslo-i18n-5.0.0",
+        "pname": "python3.7-oslo-i18n",
+        "version": "5.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Openstack internationalization and translation library",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-oslo-i18n-5.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "oslo-i18n",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.oslo-serialization": {
+        "name": "python3.7-oslo-serialization-4.0.0",
+        "pname": "python3.7-oslo-serialization",
+        "version": "4.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Oslo Serialization library",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-oslo-serialization-4.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "oslo-serialization",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.oslo-utils": {
+        "name": "python3.7-oslo-utils-4.4.0",
+        "pname": "python3.7-oslo-utils",
+        "version": "4.4.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Oslo Utility library",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "The oslo.utils library provides support for common utility type\nfunctions, such as encoding, exception handling, string manipulation,\nand time handling.\n",
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-oslo-utils-4.4.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "oslo-utils",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.python-keystoneclient": {
+        "name": "python3.7-python-keystoneclient-4.1.0",
+        "pname": "python3.7-python-keystoneclient",
+        "version": "4.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Client Library for OpenStack Identity",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.7-python-keystoneclient-4.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "python-keystoneclient",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.python-iconf": {
         "name": "python3.8-iconf-0.0.2",
         "pname": "python3.8-iconf",
