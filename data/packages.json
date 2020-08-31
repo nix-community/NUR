@@ -61184,6 +61184,46 @@
         "_attr": "ncgopher",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.numworks-udev-rules": {
+        "name": "numworks-udev-rules-unstable-2020-08-31",
+        "pname": "numworks-udev-rules-unstable",
+        "version": "2020-08-31",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Udev rules for Numworks calculators",
+            "homepage": "https://numworks.com",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "numworks-udev-rules-unstable-2020-08-31",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "numworks-udev-rules",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.debtcollector": {
         "name": "python3.7-debtcollector-2.2.0",
         "pname": "python3.7-debtcollector",
