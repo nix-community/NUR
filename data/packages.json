@@ -43069,9 +43069,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.nix-review-unstable": {
-        "name": "nixpkgs-review-2.3.1",
+        "name": "nixpkgs-review-2.4.0",
         "pname": "nixpkgs-review",
-        "version": "2.3.1",
+        "version": "2.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -43114,7 +43114,7 @@
                     "name": "J\u00f6rg Thalheim"
                 }
             ],
-            "name": "nixpkgs-review-2.3.1",
+            "name": "nixpkgs-review-2.4.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -50170,8 +50170,8 @@
         "_repo": "nprindle"
     },
     "nur.repos.nprindle.xs": {
-        "name": "ocaml4.10.0-xs-unstable-2020-05-21",
-        "pname": "ocaml4.10.0-xs-unstable",
+        "name": "ocaml4.11.0-xs-unstable-2020-05-21",
+        "pname": "ocaml4.11.0-xs-unstable",
         "version": "2020-05-21",
         "system": "x86_64-linux",
         "meta": {
@@ -50183,7 +50183,7 @@
                 "fullName": "Public Domain",
                 "shortName": "publicDomain"
             },
-            "name": "ocaml4.10.0-xs-unstable-2020-05-21",
+            "name": "ocaml4.11.0-xs-unstable-2020-05-21",
             "outputsToInstall": [
                 "out"
             ],
