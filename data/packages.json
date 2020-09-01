@@ -38313,6 +38313,51 @@
         "_attr": "git-xlsx-textconv",
         "_repo": "makefu"
     },
+    "nur.repos.makefu.hactool": {
+        "name": "hactool-1.4.0",
+        "pname": "hactool",
+        "version": "1.4.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "tool to view information about, decrypt, and extract common file formats for the Nintendo Switch, especially Nintendo Content Archives",
+            "homepage": "https://github.com/SciresM/hactool",
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "hactool-1.4.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "hactool",
+        "_repo": "makefu"
+    },
     "nur.repos.makefu.hdl-dump": {
         "name": "hdl-dump-75df8d7",
         "pname": "hdl-dump",
@@ -38644,6 +38689,67 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
         },
         "_attr": "ns-atmosphere-programmer",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.nsrenamer": {
+        "name": "nsrenamer",
+        "pname": "nsrenamer",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "nsrenamer",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "nsrenamer",
+        "_repo": "makefu"
+    },
+    "nur.repos.makefu.nx_game_info": {
+        "name": "NX_Game_Info-0.7.1",
+        "pname": "NX_Game_Info",
+        "version": "0.7.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Tool to read information from Nintendo Switch game files",
+            "homepage": "https://github.com/garoxas/NX_Game_Info",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "makefu@syntax-fehler.de",
+                    "github": "makefu",
+                    "githubId": 115218,
+                    "name": "Felix Richter"
+                }
+            ],
+            "name": "NX_Game_Info-0.7.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu"
+        },
+        "_attr": "nx_game_info",
         "_repo": "makefu"
     },
     "nur.repos.makefu.opl-utils": {
