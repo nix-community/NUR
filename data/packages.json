@@ -55003,9 +55003,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.betterttv": {
-        "name": "betterttv-7.2.85",
+        "name": "betterttv-7.2.86",
         "pname": "betterttv",
-        "version": "7.2.85",
+        "version": "7.2.86",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -55017,7 +55017,7 @@
                 "shortName": "betterttv",
                 "url": "https://betterttv.com/terms"
             },
-            "name": "betterttv-7.2.85",
+            "name": "betterttv-7.2.86",
             "outputsToInstall": [
                 "out"
             ],
@@ -58366,9 +58366,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-moderator-toolbox": {
-        "name": "reddit-moderator-toolbox-5.3.3",
+        "name": "reddit-moderator-toolbox-5.4.0",
         "pname": "reddit-moderator-toolbox",
-        "version": "5.3.3",
+        "version": "5.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -58380,7 +58380,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "reddit-moderator-toolbox-5.3.3",
+            "name": "reddit-moderator-toolbox-5.4.0",
             "outputsToInstall": [
                 "out"
             ],
