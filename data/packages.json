@@ -5498,6 +5498,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "changelog": "https://github.com/quantumlib/Cirq/releases/tag/v0.8.2",
             "description": "A framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits.",
             "homepage": "https://github.com/quantumlib/cirq",
             "isBuildPythonPackage": [
