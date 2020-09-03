@@ -6917,6 +6917,73 @@
         "_attr": "python3Packages.pyscf",
         "_repo": "drewrisinger"
     },
+    "nur.repos.drewrisinger.python3Packages.python-box": {
+        "name": "python3.8-python-box-4.2.3",
+        "pname": "python3.8-python-box",
+        "version": "4.2.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "changelog": "https://github.com/cdgriffith/Box/releases/tag/4.2.3",
+            "description": "Python dictionaries with advanced dot notation access",
+            "homepage": "https://github.com/cdgriffith/Box/wiki",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.8-python-box-4.2.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.python-box",
+        "_repo": "drewrisinger"
+    },
     "nur.repos.drewrisinger.python3Packages.python-constraint": {
         "name": "python3.8-python-constraint-1.4.0",
         "pname": "python3.8-python-constraint",
