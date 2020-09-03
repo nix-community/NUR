@@ -64079,9 +64079,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-08-24",
+        "name": "embox-unstable-2020-09-01",
         "pname": "embox-unstable",
-        "version": "2020-08-24",
+        "version": "2020-09-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -64107,7 +64107,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-08-24",
+            "name": "embox-unstable-2020-09-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -65342,9 +65342,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-maps": {
-        "name": "gpxsee-maps-unstable-2020-06-26",
+        "name": "gpxsee-maps-unstable-2020-09-01",
         "pname": "gpxsee-maps-unstable",
-        "version": "2020-06-26",
+        "version": "2020-09-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -65370,7 +65370,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-maps-unstable-2020-06-26",
+            "name": "gpxsee-maps-unstable-2020-09-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -65429,9 +65429,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-07-09",
+        "name": "gpxsee-unstable-2020-08-26",
         "pname": "gpxsee-unstable",
-        "version": "2020-07-09",
+        "version": "2020-08-26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -65457,7 +65457,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-07-09",
+            "name": "gpxsee-unstable-2020-08-26",
             "outputsToInstall": [
                 "out"
             ],
@@ -65562,9 +65562,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxtrackposter": {
-        "name": "gpxtrackposter-unstable-2020-08-21",
+        "name": "gpxtrackposter-unstable-2020-09-02",
         "pname": "gpxtrackposter-unstable",
-        "version": "2020-08-21",
+        "version": "2020-09-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -65607,7 +65607,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxtrackposter-unstable-2020-08-21",
+            "name": "gpxtrackposter-unstable-2020-09-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -65963,9 +65963,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.how-to-use-pvs-studio-free": {
-        "name": "how-to-use-pvs-studio-free-unstable-2020-02-10",
+        "name": "how-to-use-pvs-studio-free-unstable-2020-09-02",
         "pname": "how-to-use-pvs-studio-free-unstable",
-        "version": "2020-02-10",
+        "version": "2020-09-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -65991,7 +65991,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "how-to-use-pvs-studio-free-unstable-2020-02-10",
+            "name": "how-to-use-pvs-studio-free-unstable-2020-09-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -66202,8 +66202,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.it-sanasto": {
-        "name": "it-sanasto-unstable-2020-02-27",
-        "pname": "it-sanasto-unstable",
+        "name": "it-sanasto-2020-02-27",
+        "pname": "it-sanasto",
         "version": "2020-02-27",
         "system": "x86_64-linux",
         "meta": {
@@ -66230,7 +66230,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "it-sanasto-unstable-2020-02-27",
+            "name": "it-sanasto-2020-02-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -66280,7 +66280,10 @@
                 "i686-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": false
+            }
         },
         "_attr": "it-sanasto",
         "_repo": "sikmir"
@@ -67095,9 +67098,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mtk-suomi": {
-        "name": "mtk-suomi-2020-05-30",
+        "name": "mtk-suomi-2020-07-30",
         "pname": "mtk-suomi",
-        "version": "2020-05-30",
+        "version": "2020-07-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -67121,7 +67124,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "mtk-suomi-2020-05-30",
+            "name": "mtk-suomi-2020-07-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -67251,9 +67254,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-unstable-2020-08-24",
+        "name": "nakarte-unstable-2020-09-01",
         "pname": "nakarte-unstable",
-        "version": "2020-08-24",
+        "version": "2020-09-01",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -67280,7 +67283,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-unstable-2020-08-24",
+            "name": "nakarte-unstable-2020-09-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -67340,9 +67343,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-unstable-2020-08-23",
+        "name": "nnn-plugins-unstable-2020-09-02",
         "pname": "nnn-plugins-unstable",
-        "version": "2020-08-23",
+        "version": "2020-09-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -67368,7 +67371,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-unstable-2020-08-23",
+            "name": "nnn-plugins-unstable-2020-09-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -67692,9 +67695,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-08-24",
+        "name": "OpenOrienteering-Mapper-unstable-2020-09-02",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-08-24",
+        "version": "2020-09-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -67720,7 +67723,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-08-24",
+            "name": "OpenOrienteering-Mapper-unstable-2020-09-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -67760,9 +67763,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.opentopomap": {
-        "name": "opentopomap-2020-05-15",
+        "name": "opentopomap-2020-08-28",
         "pname": "opentopomap",
-        "version": "2020-05-15",
+        "version": "2020-08-28",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -67789,7 +67792,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "opentopomap-2020-05-15",
+            "name": "opentopomap-2020-08-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -68030,9 +68033,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.pg_tileserv": {
-        "name": "pg_tileserv-unstable-2020-08-24",
+        "name": "pg_tileserv-unstable-2020-08-28",
         "pname": "pg_tileserv-unstable",
-        "version": "2020-08-24",
+        "version": "2020-08-28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68064,7 +68067,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "pg_tileserv-unstable-2020-08-24",
+            "name": "pg_tileserv-unstable-2020-08-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -68155,9 +68158,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.pvs-studio": {
-        "name": "pvs-studio-7.08.39765.52",
+        "name": "pvs-studio-7.09.41189.57",
         "pname": "pvs-studio",
-        "version": "7.08.39765.52",
+        "version": "7.09.41189.57",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -68182,7 +68185,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "pvs-studio-7.08.39765.52",
+            "name": "pvs-studio-7.09.41189.57",
             "outputsToInstall": [
                 "out"
             ],
@@ -69045,9 +69048,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-onlinemaps": {
-        "name": "qmapshack-onlinemaps-2020-07-25",
+        "name": "qmapshack-onlinemaps-2020-08-09",
         "pname": "qmapshack-onlinemaps",
-        "version": "2020-07-25",
+        "version": "2020-08-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -69071,7 +69074,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qmapshack-onlinemaps-2020-07-25",
+            "name": "qmapshack-onlinemaps-2020-08-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -69325,9 +69328,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-08-25",
+        "name": "routinodb-2020-09-01",
         "pname": "routinodb",
-        "version": "2020-08-25",
+        "version": "2020-09-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -69351,7 +69354,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-08-25",
+            "name": "routinodb-2020-09-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -69992,9 +69995,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.taginfo-tools": {
-        "name": "taginfo-tools-unstable-2020-07-28",
+        "name": "taginfo-tools-unstable-2020-08-27",
         "pname": "taginfo-tools-unstable",
-        "version": "2020-07-28",
+        "version": "2020-08-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -70020,7 +70023,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "taginfo-tools-unstable-2020-07-28",
+            "name": "taginfo-tools-unstable-2020-08-27",
             "outputsToInstall": [
                 "out"
             ],
