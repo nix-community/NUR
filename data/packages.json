@@ -63438,9 +63438,9 @@
         "_repo": "shamilton"
     },
     "nur.repos.sikmir.anki-bin": {
-        "name": "anki-2.1.29",
+        "name": "anki-2.1.33",
         "pname": "anki",
-        "version": "2.1.29",
+        "version": "2.1.33",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -63466,7 +63466,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "anki-2.1.29",
+            "name": "anki-2.1.33",
             "outputsToInstall": [
                 "out"
             ],
@@ -66432,9 +66432,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.librewolf": {
-        "name": "librewolf-79.0",
+        "name": "librewolf-80.0.1",
         "pname": "librewolf",
-        "version": "79.0",
+        "version": "80.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -66460,7 +66460,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "librewolf-79.0",
+            "name": "librewolf-80.0.1",
             "outputsToInstall": [
                 "out"
             ],
