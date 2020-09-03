@@ -56653,9 +56653,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.16",
+        "name": "darkreader-4.9.17",
         "pname": "darkreader",
-        "version": "4.9.16",
+        "version": "4.9.17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -56667,7 +56667,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.16",
+            "name": "darkreader-4.9.17",
             "outputsToInstall": [
                 "out"
             ],
@@ -58033,9 +58033,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.keepassxc-browser": {
-        "name": "keepassxc-browser-1.6.6",
+        "name": "keepassxc-browser-1.7.0",
         "pname": "keepassxc-browser",
-        "version": "1.6.6",
+        "version": "1.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -58047,7 +58047,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "keepassxc-browser-1.6.6",
+            "name": "keepassxc-browser-1.7.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -60770,9 +60770,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.zoom-page-we": {
-        "name": "zoom-page-we-17.7",
+        "name": "zoom-page-we-17.8",
         "pname": "zoom-page-we",
-        "version": "17.7",
+        "version": "17.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -60783,7 +60783,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "zoom-page-we-17.7",
+            "name": "zoom-page-we-17.8",
             "outputsToInstall": [
                 "out"
             ],
