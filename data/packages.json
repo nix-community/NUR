@@ -42326,9 +42326,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.rofi-wayland": {
-        "name": "rofi-unstable-2020-08-14",
+        "name": "rofi-unstable-2020-09-02",
         "pname": "rofi-unstable",
-        "version": "2020-08-14",
+        "version": "2020-09-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42348,7 +42348,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "rofi-wayland-unstable-2020-08-14",
+            "name": "rofi-wayland-unstable-2020-09-02",
             "outputsToInstall": [
                 "out"
             ],
