@@ -516,9 +516,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages.rtl8723bu": {
-        "name": "rtl8723bu-5.4.61-2020-04-05",
+        "name": "rtl8723bu-5.4.62-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.4.61-2020-04-05",
+        "version": "5.4.62-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -543,7 +543,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.4.61-2020-04-05",
+            "name": "rtl8723bu-5.4.62-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -566,9 +566,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages_latest.rtl8723bu": {
-        "name": "rtl8723bu-5.8.5-2020-04-05",
+        "name": "rtl8723bu-5.8.6-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.8.5-2020-04-05",
+        "version": "5.8.6-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -593,7 +593,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.8.5-2020-04-05",
+            "name": "rtl8723bu-5.8.6-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -51335,8 +51335,8 @@
         "_repo": "nprindle"
     },
     "nur.repos.nprindle.xs": {
-        "name": "ocaml4.11.0-xs-unstable-2020-05-21",
-        "pname": "ocaml4.11.0-xs-unstable",
+        "name": "ocaml4.11.1-xs-unstable-2020-05-21",
+        "pname": "ocaml4.11.1-xs-unstable",
         "version": "2020-05-21",
         "system": "x86_64-linux",
         "meta": {
@@ -51348,7 +51348,7 @@
                 "fullName": "Public Domain",
                 "shortName": "publicDomain"
             },
-            "name": "ocaml4.11.0-xs-unstable-2020-05-21",
+            "name": "ocaml4.11.1-xs-unstable-2020-05-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -71927,9 +71927,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-1.3-5.4.61",
+        "name": "v4l2loopback-dc-1.3-5.4.62",
         "pname": "v4l2loopback-dc",
-        "version": "1.3-5.4.61",
+        "version": "1.3-5.4.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -71949,7 +71949,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-1.3-5.4.61",
+            "name": "v4l2loopback-dc-1.3-5.4.62",
             "outputsToInstall": [
                 "out"
             ],
