@@ -4439,16 +4439,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.eslint": {
-        "name": "node_eslint-7.7.0",
+        "name": "node_eslint-7.8.1",
         "pname": "node_eslint",
-        "version": "7.7.0",
+        "version": "7.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "An AST-based pattern checker for JavaScript.",
             "homepage": "https://eslint.org/",
             "license": "MIT",
-            "name": "node_eslint-7.7.0",
+            "name": "node_eslint-7.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -4513,16 +4513,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.5.4",
+        "name": "node_pnpm-5.5.10",
         "pname": "node_pnpm",
-        "version": "5.5.4",
+        "version": "5.5.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Fast, disk space efficient package manager",
             "homepage": "https://pnpm.js.org/",
             "license": "MIT",
-            "name": "node_pnpm-5.5.4",
+            "name": "node_pnpm-5.5.10",
             "outputsToInstall": [
                 "out"
             ],
@@ -4551,16 +4551,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.26.8",
+        "name": "node_rollup-2.26.10",
         "pname": "node_rollup",
-        "version": "2.26.8",
+        "version": "2.26.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Next-generation ES module bundler",
             "homepage": "https://rollupjs.org/",
             "license": "MIT",
-            "name": "node_rollup-2.26.8",
+            "name": "node_rollup-2.26.10",
             "outputsToInstall": [
                 "out"
             ],
@@ -12961,6 +12961,158 @@
         "_attr": "munt-jack",
         "_repo": "gnidorah"
     },
+    "nur.repos.htr.burpsuite": {
+        "name": "burpsuite-2020.8.1",
+        "pname": "burpsuite",
+        "version": "2020.8.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "An integrated platform for performing security testing of web applications",
+            "downloadPage": "https://portswigger.net/burp/freedownload",
+            "homepage": "https://portswigger.net/burp/",
+            "hydraPlatforms": [],
+            "license": [
+                {
+                    "free": false,
+                    "fullName": "Unfree",
+                    "shortName": "unfree"
+                }
+            ],
+            "longDescription": "Burp Suite is an integrated platform for performing security testing of web applications.\nIts various tools work seamlessly together to support the entire testing process, from\ninitial mapping and analysis of an application's attack surface, through to finding and\nexploiting security vulnerabilities.\n",
+            "maintainers": [
+                {
+                    "email": "benno.fuenfstueck@gmail.com",
+                    "github": "bennofs",
+                    "githubId": 3192959,
+                    "name": "Benno F\u00fcnfst\u00fcck"
+                }
+            ],
+            "name": "burpsuite-2020.8.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-linux",
+                "x86_64-linux",
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/htr('nixpkgs', 'pkgs', 'tools', 'networking', 'burpsuite', 'default.nix')#L26"
+        },
+        "_attr": "burpsuite",
+        "_repo": "htr"
+    },
+    "nur.repos.htr.easy-novnc": {
+        "name": "easy-novnc-1.1.0",
+        "pname": "easy-novnc",
+        "version": "1.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "An easy way to run a noVNC instance and proxy with a single binary",
+            "homepage": "https://github.com/pgaskin/easy-novnc",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "hugo@linux.com",
+                    "github": "htr",
+                    "githubId": 39689,
+                    "name": "Hugo Tavares Reis"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "easy-novnc-1.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/htr"
+        },
+        "_attr": "easy-novnc",
+        "_repo": "htr"
+    },
+    "nur.repos.htr.ffuf": {
+        "name": "ffuf-1.1.0",
+        "pname": "ffuf",
+        "version": "1.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A fast web fuzzer written in Go",
+            "homepage": "https://github.com/ffuf/ffuf",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "hugo@linux.com",
+                    "github": "htr",
+                    "githubId": 39689,
+                    "name": "Hugo Tavares Reis"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "ffuf-1.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/htr"
+        },
+        "_attr": "ffuf",
+        "_repo": "htr"
+    },
     "nur.repos.htr.gospider": {
         "name": "gospider-1.1.2",
         "pname": "gospider",
@@ -13014,6 +13166,54 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/htr"
         },
         "_attr": "gospider",
+        "_repo": "htr"
+    },
+    "nur.repos.htr.httpstat": {
+        "name": "httpstat",
+        "pname": "httpstat",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Prettier curl stats",
+            "homepage": "https://github.com/htr/httpstat",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "hugo@linux.com",
+                    "github": "htr",
+                    "githubId": 39689,
+                    "name": "Hugo Tavares Reis"
+                }
+            ],
+            "name": "httpstat",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/htr"
+        },
+        "_attr": "httpstat",
+        "_repo": "htr"
+    },
+    "nur.repos.htr.idafree": {
+        "name": "idafree-bin",
+        "pname": "idafree-bin",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "idafree-bin",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/htr"
+        },
+        "_attr": "idafree",
         "_repo": "htr"
     },
     "nur.repos.ilya-fedin.kotatogram-desktop": {
