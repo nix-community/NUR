@@ -13008,8 +13008,7 @@
         "version": "1.1.0",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
             "description": "An easy way to run a noVNC instance and proxy with a single binary",
             "homepage": "https://github.com/pgaskin/easy-novnc",
             "license": {
