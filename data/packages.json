@@ -52954,7 +52954,7 @@
         "_attr": "example-package",
         "_repo": "pn"
     },
-    "nur.repos.pn.mutt-wizzard": {
+    "nur.repos.pn.mutt-wizard": {
         "name": "mutt-wizard",
         "pname": "mutt-wizard",
         "version": "",
@@ -52988,7 +52988,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
         },
-        "_attr": "mutt-wizzard",
+        "_attr": "mutt-wizard",
         "_repo": "pn"
     },
     "nur.repos.pn.st": {
@@ -53026,6 +53026,44 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
         },
         "_attr": "st",
+        "_repo": "pn"
+    },
+    "nur.repos.pn.xwallpaper": {
+        "name": "xwallpaper-0.6.5",
+        "pname": "xwallpaper",
+        "version": "0.6.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Utility for setting wallpapers in X",
+            "homepage": "https://github.com/stoeckmann/xwallpaper",
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "maintainers": [],
+            "name": "xwallpaper-0.6.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "xwallpaper",
         "_repo": "pn"
     },
     "nur.repos.priegger.annotatego": {
