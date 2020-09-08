@@ -7183,9 +7183,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit": {
-        "name": "python3.8-qiskit-0.20.0",
+        "name": "python3.8-qiskit-0.20.1",
         "pname": "python3.8-qiskit",
-        "version": "0.20.0",
+        "version": "0.20.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7230,7 +7230,7 @@
                     "name": "pandaman"
                 }
             ],
-            "name": "python3.8-qiskit-0.20.0",
+            "name": "python3.8-qiskit-0.20.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -7527,9 +7527,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-terra": {
-        "name": "python3.8-qiskit-terra-0.15.1",
+        "name": "python3.8-qiskit-terra-0.15.2",
         "pname": "python3.8-qiskit-terra",
-        "version": "0.15.1",
+        "version": "0.15.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7569,7 +7569,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-terra-0.15.1",
+            "name": "python3.8-qiskit-terra-0.15.2",
             "outputsToInstall": [
                 "out"
             ],
