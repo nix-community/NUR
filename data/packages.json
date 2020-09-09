@@ -57056,15 +57056,15 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.browserpass-otp": {
-        "name": "browserpass-otp-0.2.3",
+        "name": "browserpass-otp-0.2.4",
         "pname": "browserpass-otp",
-        "version": "0.2.3",
+        "version": "0.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Companion extension to Browserpass that implements OTP support",
             "homepage": "https://github.com/browserpass/browserpass-otp",
-            "name": "browserpass-otp-0.2.3",
+            "name": "browserpass-otp-0.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -57608,9 +57608,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.18",
+        "name": "darkreader-4.9.19",
         "pname": "darkreader",
-        "version": "4.9.18",
+        "version": "4.9.19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -57622,7 +57622,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.18",
+            "name": "darkreader-4.9.19",
             "outputsToInstall": [
                 "out"
             ],
@@ -58219,9 +58219,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.gesturefy": {
-        "name": "gesturefy-3.0.6",
+        "name": "gesturefy-3.0.7",
         "pname": "gesturefy",
-        "version": "3.0.6",
+        "version": "3.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -58233,7 +58233,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "gesturefy-3.0.6",
+            "name": "gesturefy-3.0.7",
             "outputsToInstall": [
                 "out"
             ],
