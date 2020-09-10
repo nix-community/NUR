@@ -57056,15 +57056,15 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.browserpass-otp": {
-        "name": "browserpass-otp-0.2.4",
+        "name": "browserpass-otp-0.2.5",
         "pname": "browserpass-otp",
-        "version": "0.2.4",
+        "version": "0.2.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Companion extension to Browserpass that implements OTP support",
             "homepage": "https://github.com/browserpass/browserpass-otp",
-            "name": "browserpass-otp-0.2.4",
+            "name": "browserpass-otp-0.2.5",
             "outputsToInstall": [
                 "out"
             ],
