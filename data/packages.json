@@ -13112,6 +13112,70 @@
         "_attr": "ffuf",
         "_repo": "htr"
     },
+    "nur.repos.htr.pwnGdb": {
+        "name": "gdb-9.2",
+        "pname": "gdb",
+        "version": "9.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The GNU Project debugger",
+            "homepage": "https://www.gnu.org/software/gdb/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "GDB, the GNU Project debugger, allows you to see what is going\non `inside' another program while it executes -- or what another\nprogram was doing at the moment it crashed.\n",
+            "maintainers": [
+                {
+                    "email": "nixos@nbp.name",
+                    "github": "nbp",
+                    "githubId": 1179566,
+                    "name": "Nicolas B. Pierron"
+                },
+                {
+                    "email": "mail@glob.in",
+                    "github": "globin",
+                    "githubId": 1447245,
+                    "name": "Robin Gloster"
+                },
+                {
+                    "email": "lsix@lancelotsix.com",
+                    "github": "lsix",
+                    "githubId": 724339,
+                    "name": "Lancelot SIX"
+                }
+            ],
+            "name": "gdb-9.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/htr('nixpkgs', 'pkgs', 'development', 'tools', 'misc', 'gdb', 'default.nix')#L96"
+        },
+        "_attr": "pwnGdb",
+        "_repo": "htr"
+    },
     "nur.repos.htr.gospider": {
         "name": "gospider-1.1.2",
         "pname": "gospider",
@@ -13213,6 +13277,56 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/htr"
         },
         "_attr": "idafree",
+        "_repo": "htr"
+    },
+    "nur.repos.htr.pwnPythonEnv": {
+        "name": "python3-3.8.5-env",
+        "pname": "python3",
+        "version": "3.8.5-env",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A high-level dynamically-typed programming language",
+            "homepage": "http://python.org",
+            "license": {
+                "fullName": "Python Software Foundation License version 2",
+                "shortName": "psfl",
+                "spdxId": "Python-2.0",
+                "url": "https://spdx.org/licenses/Python-2.0.html"
+            },
+            "longDescription": "Python is a remarkably powerful dynamic programming language that\nis used in a wide variety of application domains. Some of its key\ndistinguishing features include: clear, readable syntax; strong\nintrospection capabilities; intuitive object orientation; natural\nexpression of procedural code; full modularity, supporting\nhierarchical packages; exception-based error handling; and very\nhigh level dynamic data types.\n",
+            "maintainers": [
+                {
+                    "email": "fridh@fridh.nl",
+                    "github": "fridh",
+                    "githubId": 2129135,
+                    "name": "Frederik Rietdijk"
+                }
+            ],
+            "name": "python3-3.8.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/htr('nixpkgs', 'pkgs', 'development', 'interpreters', 'python', 'cpython', 'default.nix')#L326"
+        },
+        "_attr": "pwnPythonEnv",
         "_repo": "htr"
     },
     "nur.repos.ilya-fedin.kotatogram-desktop": {
