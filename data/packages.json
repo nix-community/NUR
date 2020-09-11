@@ -53440,6 +53440,24 @@
         "_attr": "example-package",
         "_repo": "pn"
     },
+    "nur.repos.pn.libthinkpad": {
+        "name": "libthinkpad-2.6",
+        "pname": "libthinkpad",
+        "version": "2.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A general purpose userspace ThinkPad library",
+            "homepage": "https://github.com/libthinkpad/libthinkpad",
+            "name": "libthinkpad-2.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "libthinkpad",
+        "_repo": "pn"
+    },
     "nur.repos.pn.mutt-wizard": {
         "name": "mutt-wizard",
         "pname": "mutt-wizard",
