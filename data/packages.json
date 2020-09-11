@@ -53317,6 +53317,24 @@
         "_attr": "dmenu",
         "_repo": "pn"
     },
+    "nur.repos.pn.dockd": {
+        "name": "dockd-1.21",
+        "pname": "dockd",
+        "version": "1.21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Lenovo ThinkPad Dock Management Daemon.",
+            "homepage": "https://github.com/libthinkpad/dockd",
+            "name": "dockd-1.21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "dockd",
+        "_repo": "pn"
+    },
     "nur.repos.pn.dwm": {
         "name": "dwm",
         "pname": "dwm",
