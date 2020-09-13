@@ -70390,6 +70390,46 @@
         "_attr": "kvmtool",
         "_repo": "mic92"
     },
+    "nur.repos.mic92.linux_ayufan_5_6": {
+        "name": "linux-5.6.0-1137-ayufan",
+        "pname": "linux",
+        "version": "5.6.0-1137-ayufan",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "branch": "5.6",
+            "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, export_kernel_fpu_functions)",
+            "homepage": "https://www.kernel.org/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "aseipp@pobox.com",
+                    "github": "thoughtpolice",
+                    "githubId": 3416,
+                    "name": "Austin Seipp"
+                }
+            ],
+            "name": "linux-5.6.0-1137-ayufan",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92('nixpkgs', 'pkgs', 'os-specific', 'linux', 'kernel', 'manual-config.nix')#L265",
+            "repositories": {
+                "git": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git"
+            },
+            "timeout": 14400
+        },
+        "_attr": "linux_ayufan_5_6",
+        "_repo": "mic92"
+    },
     "nur.repos.mic92.lualdap": {
         "name": "lua5.2-lualdap-1.2.0",
         "pname": "lua5.2-lualdap",
