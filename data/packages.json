@@ -98188,6 +98188,58 @@
         "_attr": "cadabra2",
         "_repo": "suhr"
     },
+    "nur.repos.suhr.carla": {
+        "name": "carla-2.2.0-RC2",
+        "pname": "carla",
+        "version": "2.2.0-RC2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An audio plugin host",
+            "homepage": "http://kxstudio.sf.net/carla",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "It currently supports LADSPA (including LRDF), DSSI, LV2, VST2/3\nand AU plugin formats, plus GIG, SF2 and SFZ file support.\nIt uses JACK as the default and preferred audio driver but also\nsupports native drivers like ALSA, DirectSound or CoreAudio.\n",
+            "maintainers": [
+                {
+                    "email": "minijackson@riseup.net",
+                    "github": "minijackson",
+                    "githubId": 1200507,
+                    "keys": [
+                        {
+                            "fingerprint": "3196 83D3 9A1B 4DE1 3DC2  51FD FEA8 88C9 F5D6 4F62",
+                            "longkeyid": "rsa2048/0xFEA888C9F5D64F62"
+                        }
+                    ],
+                    "name": "R\u00e9mi Nicole"
+                }
+            ],
+            "name": "carla-2.2.0-RC2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr"
+        },
+        "_attr": "carla",
+        "_repo": "suhr"
+    },
     "nur.repos.suhr.ciao": {
         "name": "ciao-1.19.0",
         "pname": "ciao",
@@ -98263,52 +98315,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr"
         },
         "_attr": "deadbeef-waveform-seekbar-plugin",
-        "_repo": "suhr"
-    },
-    "nur.repos.suhr.droidcam": {
-        "name": "droidcam-1.3",
-        "pname": "droidcam",
-        "version": "1.3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": true,
-            "description": "Linux client for DroidCam app",
-            "homepage": "https://github.com/aramg/droidcam",
-            "license": {
-                "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "maintainers": [
-                {
-                    "email": "suhr@i2pmail.org",
-                    "github": "suhr",
-                    "githubId": 65870,
-                    "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
-                }
-            ],
-            "name": "droidcam-1.3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr"
-        },
-        "_attr": "droidcam",
         "_repo": "suhr"
     },
     "nur.repos.suhr.mathics": {
