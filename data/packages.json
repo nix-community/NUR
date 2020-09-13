@@ -98271,7 +98271,8 @@
         "version": "1.3",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "Linux client for DroidCam app",
             "homepage": "https://github.com/aramg/droidcam",
             "license": {
@@ -98595,7 +98596,8 @@
         "version": "",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "Tools for searching using parsing expression grammars",
             "license": {
                 "fullName": "MIT License",
@@ -98628,7 +98630,8 @@
         "version": "1.3-5.4.63",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "V4L2 loopback device module for DroidCam",
             "homepage": "https://github.com/aramg/droidcam",
             "license": {
