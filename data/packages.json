@@ -12301,6 +12301,22 @@
         "_attr": "bashtop",
         "_repo": "extends"
     },
+    "nur.repos.extends.birch": {
+        "name": "birch",
+        "pname": "birch",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "birch",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/extends"
+        },
+        "_attr": "birch",
+        "_repo": "extends"
+    },
     "nur.repos.extends.cordless": {
         "name": "cordless-2020-06-26",
         "pname": "cordless",
