@@ -12229,9 +12229,9 @@
         "_repo": "emmanuelrosa"
     },
     "nur.repos.extends.bashtop": {
-        "name": "bashtop-0.9.19",
+        "name": "bashtop-0.9.25",
         "pname": "bashtop",
-        "version": "0.9.19",
+        "version": "0.9.25",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12244,9 +12244,14 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [
-                "Extends <sharosari@gmail.com>"
+                {
+                    "email": "sharosari@gmail.com",
+                    "github": "ImExtends",
+                    "githubId": 55919390,
+                    "name": "Vincent VILLIAUMEY"
+                }
             ],
-            "name": "bashtop-0.9.19",
+            "name": "bashtop-0.9.25",
             "outputsToInstall": [
                 "out"
             ],
@@ -12309,6 +12314,7 @@
         "meta": {
             "available": true,
             "description": "IRC Client.",
+            "homepage": "github.com/dylanaraps/birch",
             "license": {
                 "fullName": "MIT License",
                 "shortName": "mit",
@@ -12379,22 +12385,27 @@
         "_repo": "extends"
     },
     "nur.repos.extends.cordless": {
-        "name": "cordless-2020-06-26",
+        "name": "cordless-2020-08-30",
         "pname": "cordless",
-        "version": "2020-06-26",
+        "version": "2020-08-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Discord client for terminals",
             "homepage": "https://github.com/Bios-Marcel/cordless",
             "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "maintainers": [
-                "Extends <sharosari@gmail.com>",
+                {
+                    "email": "sharosari@gmail.com",
+                    "github": "ImExtends",
+                    "githubId": 55919390,
+                    "name": "Vincent VILLIAUMEY"
+                },
                 {
                     "email": "wael.nasreddine@gmail.com",
                     "github": "kalbasit",
@@ -12402,7 +12413,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "cordless-2020-06-26",
+            "name": "cordless-2020-08-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -12458,9 +12469,9 @@
         "_repo": "extends"
     },
     "nur.repos.extends.giph": {
-        "name": "giph-1.0",
+        "name": "giph-1.1",
         "pname": "giph",
-        "version": "1.0",
+        "version": "1.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12473,9 +12484,14 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [
-                "Extends <sharosari@gmail.com> "
+                {
+                    "email": "sharosari@gmail.com",
+                    "github": "ImExtends",
+                    "githubId": 55919390,
+                    "name": "Vincent VILLIAUMEY"
+                }
             ],
-            "name": "giph-1.0",
+            "name": "giph-1.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -12540,13 +12556,18 @@
             "description": "Allows you to see your linux processes as a tree",
             "homepage": "https://gitlab.com/mildlyparallel/pscircle",
             "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
             "maintainers": [
-                "Extends <sharosari@gmail.com>"
+                {
+                    "email": "sharosari@gmail.com",
+                    "github": "ImExtends",
+                    "githubId": 55919390,
+                    "name": "Vincent VILLIAUMEY"
+                }
             ],
             "name": "pscircle-1.3.1",
             "outputsToInstall": [
