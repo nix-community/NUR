@@ -90962,6 +90962,71 @@
         "_attr": "dem",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.dict2rest": {
+        "name": "dict2rest-unstable-2016-12-05",
+        "pname": "dict2rest-unstable",
+        "version": "2016-12-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A simple proxy service providing an HTTP interface to a Dict protocol (RFC 2229) server",
+            "homepage": "https://github.com/felix/go-dict2rest",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "dict2rest-unstable-2016-12-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "dict2rest",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.docker-reg-tool": {
         "name": "docker-reg-tool-unstable-2019-10-13",
         "pname": "docker-reg-tool-unstable",
@@ -91129,9 +91194,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-09-01",
+        "name": "embox-unstable-2020-09-03",
         "pname": "embox-unstable",
-        "version": "2020-09-01",
+        "version": "2020-09-03",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91157,7 +91222,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-09-01",
+            "name": "embox-unstable-2020-09-03",
             "outputsToInstall": [
                 "out"
             ],
@@ -92612,9 +92677,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxtrackposter": {
-        "name": "gpxtrackposter-unstable-2020-09-02",
+        "name": "gpxtrackposter-unstable-2020-09-10",
         "pname": "gpxtrackposter-unstable",
-        "version": "2020-09-02",
+        "version": "2020-09-10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92657,7 +92722,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxtrackposter-unstable-2020-09-02",
+            "name": "gpxtrackposter-unstable-2020-09-10",
             "outputsToInstall": [
                 "out"
             ],
@@ -92863,9 +92928,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.hfst": {
-        "name": "hfst-unstable-2020-08-21",
+        "name": "hfst-unstable-2020-09-06",
         "pname": "hfst-unstable",
-        "version": "2020-08-21",
+        "version": "2020-09-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92891,7 +92956,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "hfst-unstable-2020-08-21",
+            "name": "hfst-unstable-2020-09-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -92928,9 +92993,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.hiblovgpsmap": {
-        "name": "hiblovgpsmap-2019-10-28",
+        "name": "hiblovgpsmap-2020-09-06",
         "pname": "hiblovgpsmap",
-        "version": "2019-10-28",
+        "version": "2020-09-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92954,7 +93019,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "hiblovgpsmap-2019-10-28",
+            "name": "hiblovgpsmap-2020-09-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -93845,9 +93910,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-08-25",
+        "name": "maptourist-2020-09-07",
         "pname": "maptourist",
-        "version": "2020-08-25",
+        "version": "2020-09-07",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93871,7 +93936,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-08-25",
+            "name": "maptourist-2020-09-07",
             "outputsToInstall": [
                 "out"
             ],
@@ -94304,9 +94369,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-unstable-2020-09-01",
+        "name": "nakarte-unstable-2020-09-07",
         "pname": "nakarte-unstable",
-        "version": "2020-09-01",
+        "version": "2020-09-07",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -94333,7 +94398,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-unstable-2020-09-01",
+            "name": "nakarte-unstable-2020-09-07",
             "outputsToInstall": [
                 "out"
             ],
@@ -94393,9 +94458,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-unstable-2020-09-02",
+        "name": "nnn-plugins-unstable-2020-09-06",
         "pname": "nnn-plugins-unstable",
-        "version": "2020-09-02",
+        "version": "2020-09-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94421,7 +94486,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-unstable-2020-09-02",
+            "name": "nnn-plugins-unstable-2020-09-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -94745,9 +94810,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-09-02",
+        "name": "OpenOrienteering-Mapper-unstable-2020-09-09",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-09-02",
+        "version": "2020-09-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94773,7 +94838,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-09-02",
+            "name": "OpenOrienteering-Mapper-unstable-2020-09-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -95802,9 +95867,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.python-hfst": {
-        "name": "python3.8-python-hfst-unstable-2020-08-21",
+        "name": "python3.8-python-hfst-unstable-2020-09-06",
         "pname": "python3.8-python-hfst-unstable",
-        "version": "2020-08-21",
+        "version": "2020-09-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -95847,7 +95912,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-python-hfst-unstable-2020-08-21",
+            "name": "python3.8-python-hfst-unstable-2020-09-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -96378,9 +96443,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-09-01",
+        "name": "routinodb-2020-09-07",
         "pname": "routinodb",
-        "version": "2020-09-01",
+        "version": "2020-09-07",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96404,7 +96469,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-09-01",
+            "name": "routinodb-2020-09-07",
             "outputsToInstall": [
                 "out"
             ],
