@@ -68736,9 +68736,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.goverlay": {
-        "name": "goverlay-0.3.7",
+        "name": "goverlay-0.3.8",
         "pname": "goverlay",
-        "version": "0.3.7",
+        "version": "0.3.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68758,7 +68758,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "goverlay-0.3.7",
+            "name": "goverlay-0.3.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -68781,9 +68781,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.libhandy1": {
-        "name": "libhandy1-0.90.0",
+        "name": "libhandy1-1.0.0",
         "pname": "libhandy1",
-        "version": "0.90.0",
+        "version": "1.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68809,7 +68809,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "libhandy1-0.90.0",
+            "name": "libhandy1-1.0.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -68955,9 +68955,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.caprine": {
-        "name": "node_caprine-2.48.0",
+        "name": "node_caprine-2.49.0",
         "pname": "node_caprine",
-        "version": "2.48.0",
+        "version": "2.49.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68970,7 +68970,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "node_caprine-2.48.0",
+            "name": "node_caprine-2.49.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -69295,9 +69295,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.rofi-wayland": {
-        "name": "rofi-unstable-2020-09-02",
+        "name": "rofi-unstable-2020-09-06",
         "pname": "rofi-unstable",
-        "version": "2020-09-02",
+        "version": "2020-09-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -69317,7 +69317,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "rofi-wayland-unstable-2020-09-02",
+            "name": "rofi-wayland-unstable-2020-09-06",
             "outputsToInstall": [
                 "out"
             ],
