@@ -15639,10 +15639,10 @@
             "description": "Handy menu to access lots of features of instantOS",
             "homepage": "https://github.com/instantOS/instantASSIST",
             "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
@@ -15679,10 +15679,10 @@
             "description": "instantOS Conf",
             "homepage": "https://github.com/instantOS/instantWM",
             "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
@@ -15999,10 +15999,10 @@
             "description": "Simple settings app for instant-OS",
             "homepage": "https://github.com/instantOS/instantSETTINGS",
             "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
@@ -16067,6 +16067,46 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
         },
         "_attr": "instantshell",
+        "_repo": "instantos"
+    },
+    "nur.repos.instantos.instantst": {
+        "name": "instantSt-unstable",
+        "pname": "instantSt-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "InstatOS terminal derived from suckless' st",
+            "homepage": "https://github.com/instantOS/st-instantos",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com"
+            ],
+            "name": "instantSt-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos"
+        },
+        "_attr": "instantst",
         "_repo": "instantos"
     },
     "nur.repos.instantos.instantthemes": {
@@ -16159,10 +16199,10 @@
             "description": "Wallpaper manager of instantOS",
             "homepage": "https://github.com/instantOS/instantWM",
             "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
@@ -16301,7 +16341,14 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+                {
+                    "email": "sgn.hamilton@protonmail.com",
+                    "github": "SCOTT-HAMILTON",
+                    "githubId": 24496705,
+                    "name": "Scott Hamilton"
+                },
+                "con-f-use <con-f-use@gmx.net>",
+                "paperbenni <instantos@paperbenni.xyz>"
             ],
             "name": "instantWm-unstable",
             "outputsToInstall": [
@@ -16341,7 +16388,14 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+                {
+                    "email": "sgn.hamilton@protonmail.com",
+                    "github": "SCOTT-HAMILTON",
+                    "githubId": 24496705,
+                    "name": "Scott Hamilton"
+                },
+                "con-f-use <con-f-use@gmx.net>",
+                "paperbenni <instantos@paperbenni.xyz>"
             ],
             "name": "instantWm-unstable",
             "outputsToInstall": [
