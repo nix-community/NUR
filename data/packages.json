@@ -7571,9 +7571,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit": {
-        "name": "python3.8-qiskit-0.20.1",
+        "name": "python3.8-qiskit-0.21.0",
         "pname": "python3.8-qiskit",
-        "version": "0.20.1",
+        "version": "0.21.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7618,7 +7618,7 @@
                     "name": "pandaman"
                 }
             ],
-            "name": "python3.8-qiskit-0.20.1",
+            "name": "python3.8-qiskit-0.21.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -7780,9 +7780,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-provider": {
-        "name": "python3.8-qiskit-ibmq-provider-0.8.0",
+        "name": "python3.8-qiskit-ibmq-provider-0.9.0",
         "pname": "python3.8-qiskit-ibmq-provider",
-        "version": "0.8.0",
+        "version": "0.9.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7820,7 +7820,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-ibmq-provider-0.8.0",
+            "name": "python3.8-qiskit-ibmq-provider-0.9.0",
             "outputsToInstall": [
                 "out"
             ],
