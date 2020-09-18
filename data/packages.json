@@ -65619,6 +65619,35 @@
         "_attr": "x11.bitmap",
         "_repo": "lheckemann"
     },
+    "nur.repos.linyinfeng.clash-premium": {
+        "name": "clash-premium-2020.08.16",
+        "pname": "clash-premium",
+        "version": "2020.08.16",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Close-sourced pre-built Clash binary with TUN support and more",
+            "homepage": "https://github.com/Dreamacro/clash",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "clash-premium-2020.08.16",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "i686-linux",
+                "x86_64-darwin",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng"
+        },
+        "_attr": "clash-premium",
+        "_repo": "linyinfeng"
+    },
     "nur.repos.lourkeur.mars-simulator": {
         "name": "mars-simulator-4.5",
         "pname": "mars-simulator",
