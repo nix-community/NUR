@@ -69222,9 +69222,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.protontricks": {
-        "name": "protontricks-1.4.1",
+        "name": "protontricks-1.4.2",
         "pname": "protontricks",
-        "version": "1.4.1",
+        "version": "1.4.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -69261,7 +69261,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "protontricks-1.4.1",
+            "name": "protontricks-1.4.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -69961,9 +69961,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.xpadneo": {
-        "name": "xpadneo-0.8.2",
+        "name": "xpadneo-0.8.3",
         "pname": "xpadneo",
-        "version": "0.8.2",
+        "version": "0.8.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -69975,7 +69975,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
-            "name": "xpadneo-0.8.2",
+            "name": "xpadneo-0.8.3",
             "outputsToInstall": [
                 "out"
             ],
