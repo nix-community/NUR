@@ -78952,77 +78952,6 @@
         "_attr": "surfraw",
         "_repo": "nprindle"
     },
-    "nur.repos.onny.appvm": {
-        "name": "appvm-0.3",
-        "pname": "appvm",
-        "version": "0.3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Nix-based app VMs",
-            "homepage": "https://code.dumpstack.io/tools/appvm",
-            "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "maintainers": [
-                {
-                    "email": "root@dumpstack.io",
-                    "github": "jollheef",
-                    "githubId": 1749762,
-                    "keys": [
-                        {
-                            "fingerprint": "5DD7 C6F6 0630 F08E DAE7  4711 1525 585D 1B43 C62A",
-                            "longkeyid": "rsa4096/0x1525585D1B43C62A"
-                        }
-                    ],
-                    "name": "Mikhail Klementev"
-                },
-                {
-                    "email": "cab404@mailbox.org",
-                    "github": "cab404",
-                    "githubId": 6453661,
-                    "keys": [
-                        {
-                            "fingerprint": "rsa3072/0xCBDECF658C38079E",
-                            "longkeyid": "1BB96810926F4E715DEF567E6BA7C26C3FDF7BB3"
-                        },
-                        {
-                            "fingerprint": "ed25519/0xB7EFFC271D55DB8A",
-                            "longkeyid": "1EBC648C64D6045463013B3EB7EFFC271D55DB8A"
-                        }
-                    ],
-                    "name": "Vladimir Serov"
-                }
-            ],
-            "name": "appvm-0.3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
-        },
-        "_attr": "appvm",
-        "_repo": "onny"
-    },
     "nur.repos.onny.foliate": {
         "name": "foliate-2.4.2",
         "pname": "foliate",
@@ -79059,51 +78988,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
         },
         "_attr": "foliate",
-        "_repo": "onny"
-    },
-    "nur.repos.onny.fragments": {
-        "name": "fragments-1.4",
-        "pname": "fragments",
-        "version": "1.4",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "An easy to use BitTorrent client which follows the GNOME HIG and includes well thought-out features",
-            "homepage": "https://gitlab.gnome.org/World/Fragments",
-            "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "maintainers": [
-                {
-                    "email": "worldofpeace@protonmail.ch",
-                    "github": "worldofpeace",
-                    "githubId": 28888242,
-                    "name": "worldofpeace"
-                }
-            ],
-            "name": "fragments-1.4",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
-        },
-        "_attr": "fragments",
         "_repo": "onny"
     },
     "nur.repos.onny.iwd-autocaptiveauth": {
@@ -79159,6 +79043,58 @@
         "_attr": "librewolf-bin",
         "_repo": "onny"
     },
+    "nur.repos.onny.libtransmission": {
+        "name": "libtransmission-3.00",
+        "pname": "libtransmission",
+        "version": "3.00",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A fast, easy and free BitTorrent client",
+            "homepage": "http://www.transmissionbt.com/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "longDescription": "Transmission is a BitTorrent client which features a simple interface\non top of a cross-platform back-end.\nFeature spotlight:\n  * Uses fewer resources than other clients\n  * Native Mac, GTK and Qt GUI clients\n  * Daemon ideal for servers, embedded systems, and headless use\n  * All these can be remote controlled by Web and Terminal clients\n  * Bluetack (PeerGuardian) blocklists with automatic updates\n  * Full encryption, DHT, and PEX support\n",
+            "name": "libtransmission-3.00",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
+        },
+        "_attr": "libtransmission",
+        "_repo": "onny"
+    },
     "nur.repos.onny.hyperpotamus": {
         "name": "node_hyperpotamus-0.37.3",
         "pname": "node_hyperpotamus",
@@ -79176,6 +79112,24 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
         },
         "_attr": "hyperpotamus",
+        "_repo": "onny"
+    },
+    "nur.repos.onny.smloadr": {
+        "name": "node_SMLoadr-1.23.0",
+        "pname": "node_SMLoadr",
+        "version": "1.23.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A streaming music downloader written in NodeJS.",
+            "license": "CC-BY-NC-4.0",
+            "name": "node_SMLoadr-1.23.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
+        },
+        "_attr": "smloadr",
         "_repo": "onny"
     },
     "nur.repos.onny.ocenaudio": {
@@ -79381,6 +79335,14 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
+            "maintainers": [
+                {
+                    "email": "mvnetbiz@gmail.com",
+                    "github": "mvnetbiz",
+                    "githubId": 6455574,
+                    "name": "Matt Votava"
+                }
+            ],
             "name": "passwordsafe-3.99.2",
             "outputsToInstall": [
                 "out"
@@ -79401,82 +79363,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
         },
         "_attr": "passwordsafe",
-        "_repo": "onny"
-    },
-    "nur.repos.onny.popcorntime": {
-        "name": "popcorntime",
-        "pname": "popcorntime",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "An application that streams movies and TV shows from torrents",
-            "homepage": "https://popcorntime.app/",
-            "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "name": "popcorntime",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
-        },
-        "_attr": "popcorntime",
-        "_repo": "onny"
-    },
-    "nur.repos.onny.smloadr": {
-        "name": "smloadr",
-        "pname": "smloadr",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "description": "A streaming music downloader",
-            "homepage": "https://git.fuwafuwa.moe/SMLoadrDev/SMLoadr",
-            "license": {
-                "free": false,
-                "fullName": "Creative Commons Attribution Non Commercial 4.0 International",
-                "shortName": "cc-by-nc-40",
-                "spdxId": "CC-BY-NC-4.0",
-                "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html"
-            },
-            "name": "smloadr",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny",
-            "version": ""
-        },
-        "_attr": "smloadr",
         "_repo": "onny"
     },
     "nur.repos.onny.snipping_tool": {
@@ -83233,9 +83119,9 @@
         "_repo": "pwnytail"
     },
     "nur.repos.pwnytail.portfolio-performance": {
-        "name": "PortfolioPerformance-0.48.1",
+        "name": "PortfolioPerformance-0.47.0",
         "pname": "PortfolioPerformance",
-        "version": "0.48.1",
+        "version": "0.47.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83255,7 +83141,7 @@
                     "name": "Felix Richter"
                 }
             ],
-            "name": "PortfolioPerformance-0.48.1",
+            "name": "PortfolioPerformance-0.47.0",
             "outputsToInstall": [
                 "out"
             ],
