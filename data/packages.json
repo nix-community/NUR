@@ -79787,6 +79787,22 @@
         "_attr": "dmenu",
         "_repo": "pn"
     },
+    "nur.repos.pn.dmenuunicode": {
+        "name": "dmenuunicode",
+        "pname": "dmenuunicode",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "dmenuunicode",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "dmenuunicode",
+        "_repo": "pn"
+    },
     "nur.repos.pn.dockd": {
         "name": "dockd-1.21",
         "pname": "dockd",
