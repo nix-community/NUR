@@ -90,6 +90,12 @@
             "sha256": "09z5qgmsbrygny3b3qxrh6spihl1s5mpqpcqq1a9cj8rjk5jshqb",
             "url": "https://github.com/CrazedProgrammer/nix"
         },
+        "cwyc": {
+            "rev": "56627e08961e64dd89554026644dfb9ac3c67c96",
+            "sha256": "1xmq5561xmd2grbq6nzjvm4ql2zjw7dca0d9v3p6ib51bsnazbd1",
+            "submodules": true,
+            "url": "https://github.com/cwyc/nur-packages"
+        },
         "dandellion": {
             "rev": "c8d32710857bd346db26ca433ab20dcd2e2167e6",
             "sha256": "0rky284y1sw6aid4rqsvn4zjv7dqlivs4wq75sncy1p1k8v3xbw2",
