@@ -5280,6 +5280,79 @@
         "_attr": "thelounge",
         "_repo": "crazedprogrammer"
     },
+    "nur.repos.cwyc.firefox-flash-sandbox": {
+        "name": "firefox-flash-sandbox",
+        "pname": "firefox-flash-sandbox",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "Firefox with flash enabled and behind a selinux sandbox, for playing old flash games without risking your everyday browser.",
+            "name": "firefox-flash-sandbox",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                [
+                    "aarch64-linux",
+                    "armv5tel-linux",
+                    "armv6l-linux",
+                    "armv7a-linux",
+                    "armv7l-linux",
+                    "mipsel-linux",
+                    "i686-linux",
+                    "x86_64-linux",
+                    "powerpc64le-linux",
+                    "riscv32-linux",
+                    "riscv64-linux"
+                ]
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/cwyc"
+        },
+        "_attr": "firefox-flash-sandbox",
+        "_repo": "cwyc"
+    },
+    "nur.repos.cwyc.openframeworks": {
+        "name": "openframeworks-v0.11.0",
+        "pname": "openframeworks-v0.11.0",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A toolkit for graphics and computational art.",
+            "homepage": "https://openframeworks.cc/download/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Don't install it to your nix profile; it *just can't* be installed.\nTo set it up for development use:\n- nix-build it to a safe place in your home folder: \n  mkdir -p ~/opt/; nix-build '<nixpkgs>' -A nur.repos.cwyc.openframeworks -o ~/opt/openframeworks\n- Install Qt Creator\n- Run the script to install the Qt Creator plugin to your ~/.config folder:\n  [OF DIRECTORY]/scripts/qtcreator/install_template.sh\n- Create a new openframeworks project in Qt Creator. When prompted for your openframeworks folder, selected where you placed it.\nA cleaner package bundled with qtcreator is in the works.\n",
+            "meta": {
+                "platforms": [
+                    "aarch64-linux",
+                    "armv5tel-linux",
+                    "armv6l-linux",
+                    "armv7a-linux",
+                    "armv7l-linux",
+                    "mipsel-linux",
+                    "i686-linux",
+                    "x86_64-linux",
+                    "powerpc64le-linux",
+                    "riscv32-linux",
+                    "riscv64-linux"
+                ]
+            },
+            "name": "openframeworks-v0.11.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/cwyc"
+        },
+        "_attr": "openframeworks",
+        "_repo": "cwyc"
+    },
     "nur.repos.dandellion.av1client": {
         "name": "av1client-0.13.0",
         "pname": "av1client",
