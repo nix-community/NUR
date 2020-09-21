@@ -59,6 +59,10 @@
             "file": "pkgs/nur-packages.nix",
             "url": "https://github.com/CrazedProgrammer/nix"
         },
+        "cwyc": {
+            "submodules": true,
+            "url": "https://github.com/cwyc/nur-packages"
+        },
         "dandellion": {
             "url": "https://git.dodsorf.as/Dandellion/NUR"
         },
