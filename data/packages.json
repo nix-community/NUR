@@ -93104,10 +93104,7 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
-            "skip": {
-                "ci": false
-            }
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "gpxsee",
         "_repo": "sikmir"
