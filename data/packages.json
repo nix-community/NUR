@@ -79267,9 +79267,9 @@
         "_repo": "onny"
     },
     "nur.repos.onny.iwd-autocaptiveauth": {
-        "name": "iwd-autocaptiveauth-0.6",
+        "name": "iwd-autocaptiveauth-0.8",
         "pname": "iwd-autocaptiveauth",
-        "version": "0.6",
+        "version": "0.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79281,7 +79281,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "iwd-autocaptiveauth-0.6",
+            "name": "iwd-autocaptiveauth-0.8",
             "outputsToInstall": [
                 "out"
             ],
