@@ -85106,9 +85106,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.fraidycat": {
-        "name": "fraidycat-1.1.6",
+        "name": "fraidycat-1.1.7",
         "pname": "fraidycat",
-        "version": "1.1.6",
+        "version": "1.1.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -85120,7 +85120,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "fraidycat-1.1.6",
+            "name": "fraidycat-1.1.7",
             "outputsToInstall": [
                 "out"
             ],
