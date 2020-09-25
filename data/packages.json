@@ -7136,9 +7136,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pygsti": {
-        "name": "python3.8-pygsti-0.9.9.2",
+        "name": "python3.8-pygsti-0.9.9.3",
         "pname": "python3.8-pygsti",
-        "version": "0.9.9.2",
+        "version": "0.9.9.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7168,7 +7168,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "python3.8-pygsti-0.9.9.2",
+            "name": "python3.8-pygsti-0.9.9.3",
             "outputsToInstall": [
                 "out"
             ],
