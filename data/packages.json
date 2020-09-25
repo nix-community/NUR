@@ -80700,7 +80700,7 @@
         "version": "",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
             "description": "Neomutt + Mutt-Wizard: A system for automatically configuring mutt and isync with a simple interface and safe passwords",
             "homepage": "https://github.com/LukeSmithXYZ/mutt-wizard",
             "license": {
@@ -80714,17 +80714,20 @@
                 "out"
             ],
             "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
+                [
+                    "aarch64-linux",
+                    "armv5tel-linux",
+                    "armv6l-linux",
+                    "armv7a-linux",
+                    "armv7l-linux",
+                    "mipsel-linux",
+                    "i686-linux",
+                    "x86_64-linux",
+                    "powerpc64le-linux",
+                    "riscv32-linux",
+                    "riscv64-linux"
+                ],
+                "x86_64-darwin"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
         },
