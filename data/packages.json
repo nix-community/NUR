@@ -4005,6 +4005,38 @@
         "_attr": "zpool_prometheus",
         "_repo": "c0deaddict"
     },
+    "nur.repos.c0deaddict.zsh-kubectl-prompt": {
+        "name": "zsh-kubectl-prompt-1.3.1",
+        "pname": "zsh-kubectl-prompt",
+        "version": "1.3.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Display information about the kubectl current context and namespace in zsh prompt.",
+            "homepage": "https://github.com/superbrothers/zsh-kubectl-prompt",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "josvanbakel@protonmail.com",
+                    "github": "c0deaddict",
+                    "githubId": 510553,
+                    "name": "Jos van Bakel"
+                }
+            ],
+            "name": "zsh-kubectl-prompt-1.3.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/c0deaddict"
+        },
+        "_attr": "zsh-kubectl-prompt",
+        "_repo": "c0deaddict"
+    },
     "nur.repos.chagra.cboard": {
         "name": "cboard-0.7.5",
         "pname": "cboard",
