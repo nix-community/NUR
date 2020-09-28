@@ -81027,6 +81027,67 @@
         "_attr": "nanoc",
         "_repo": "priegger"
     },
+    "nur.repos.priegger.nixUnstable": {
+        "name": "nix-3.0pre20200928_649c465",
+        "pname": "nix",
+        "version": "3.0pre20200928_649c465",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Powerful package manager that makes package management reliable and reproducible",
+            "homepage": "https://nixos.org/",
+            "license": {
+                "fullName": "GNU Library General Public License v2 or later",
+                "shortName": "lgpl2Plus",
+                "spdxId": "LGPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+            },
+            "longDescription": "Nix is a powerful package manager for Linux and other Unix systems that\nmakes package management reliable and reproducible. It provides atomic\nupgrades and rollbacks, side-by-side installation of multiple versions of\na package, multi-user package management and easy setup of build\nenvironments.\n",
+            "maintainers": [
+                {
+                    "email": "edolstra+nixpkgs@gmail.com",
+                    "github": "edolstra",
+                    "githubId": 1148549,
+                    "name": "Eelco Dolstra"
+                }
+            ],
+            "name": "nix-3.0pre20200928_649c465",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/priegger('nixpkgs', 'pkgs', 'tools', 'package-management', 'nix', 'default.nix')#L139"
+        },
+        "_attr": "nixUnstable",
+        "_repo": "priegger"
+    },
     "nur.repos.priegger.rust-hello-world": {
         "name": "rust-hello-world",
         "pname": "rust-hello-world",
