@@ -13747,7 +13747,9 @@
             "platforms": [
                 "i686-linux",
                 "x86_64-linux",
-                "aarch64-linux"
+                "aarch64-linux",
+                "armv7l-linux",
+                "armv6l-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/htr('nixpkgs', 'pkgs', 'tools', 'networking', 'burpsuite', 'default.nix')#L26"
         },
@@ -65280,9 +65282,9 @@
         "_repo": "kapack"
     },
     "nur.repos.kapack.slurm-front-end": {
-        "name": "slurm-20.02.4.1",
+        "name": "slurm-20.02.5.1",
         "pname": "slurm",
-        "version": "20.02.4.1",
+        "version": "20.02.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -65308,7 +65310,7 @@
                     "name": "Markus Kowalewski"
                 }
             ],
-            "name": "slurm-20.02.4.1",
+            "name": "slurm-20.02.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -65331,9 +65333,9 @@
         "_repo": "kapack"
     },
     "nur.repos.kapack.slurm-multiple-slurmd": {
-        "name": "slurm-20.02.4.1",
+        "name": "slurm-20.02.5.1",
         "pname": "slurm",
-        "version": "20.02.4.1",
+        "version": "20.02.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -65359,7 +65361,7 @@
                     "name": "Markus Kowalewski"
                 }
             ],
-            "name": "slurm-20.02.4.1",
+            "name": "slurm-20.02.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -71852,7 +71854,7 @@
             "platforms": [
                 "aarch64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92('nixpkgs', 'pkgs', 'os-specific', 'linux', 'kernel', 'manual-config.nix')#L265",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92('nixpkgs', 'pkgs', 'os-specific', 'linux', 'kernel', 'manual-config.nix')#L264",
             "repositories": {
                 "git": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git"
             },
