@@ -88626,9 +88626,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tridactyl": {
-        "name": "tridactyl-1.20.1",
+        "name": "tridactyl-1.20.2",
         "pname": "tridactyl",
-        "version": "1.20.1",
+        "version": "1.20.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -88640,7 +88640,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "tridactyl-1.20.1",
+            "name": "tridactyl-1.20.2",
             "outputsToInstall": [
                 "out"
             ],
