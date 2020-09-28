@@ -80754,6 +80754,34 @@
         "_attr": "larbs-mail",
         "_repo": "pn"
     },
+    "nur.repos.pn.larbs-news": {
+        "name": "larbs-news-1.0",
+        "pname": "larbs-news",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Newsboat RSS reader with vim bindings",
+            "homepage": "https://github.com/LukeSmithXYZ/voidrice",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "larbs-news-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "larbs-news",
+        "_repo": "pn"
+    },
     "nur.repos.pn.libthinkpad": {
         "name": "libthinkpad-2.6",
         "pname": "libthinkpad",
