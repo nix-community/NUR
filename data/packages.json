@@ -7422,13 +7422,13 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.python-box": {
-        "name": "python3.8-python-box-4.2.3",
+        "name": "python3.8-python-box-5.1.1",
         "pname": "python3.8-python-box",
-        "version": "4.2.3",
+        "version": "5.1.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "changelog": "https://github.com/cdgriffith/Box/releases/tag/4.2.3",
+            "changelog": "https://github.com/cdgriffith/Box/releases/tag/5.1.1",
             "description": "Python dictionaries with advanced dot notation access",
             "homepage": "https://github.com/cdgriffith/Box/wiki",
             "isBuildPythonPackage": [
@@ -7462,7 +7462,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-python-box-4.2.3",
+            "name": "python3.8-python-box-5.1.1",
             "outputsToInstall": [
                 "out"
             ],
