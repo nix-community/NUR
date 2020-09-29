@@ -8719,9 +8719,9 @@
         "_repo": "dtn7"
     },
     "nur.repos.dtn7.dtn7-go-unstable": {
-        "name": "dtn7-go-unstable-2020-08-28",
+        "name": "dtn7-go-unstable-2020-09-29",
         "pname": "dtn7-go-unstable",
-        "version": "2020-08-28",
+        "version": "2020-09-29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -8753,7 +8753,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "dtn7-go-unstable-2020-08-28",
+            "name": "dtn7-go-unstable-2020-09-29",
             "outputsToInstall": [
                 "out"
             ],
@@ -103924,6 +103924,51 @@
         "_attr": "deadbeef-waveform-seekbar-plugin",
         "_repo": "suhr"
     },
+    "nur.repos.suhr.droidcam": {
+        "name": "droidcam-1.5",
+        "pname": "droidcam",
+        "version": "1.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Linux client for DroidCam app",
+            "homepage": "https://github.com/aramg/droidcam",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "suhr@i2pmail.org",
+                    "github": "suhr",
+                    "githubId": 65870,
+                    "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
+                }
+            ],
+            "name": "droidcam-1.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/suhr"
+        },
+        "_attr": "droidcam",
+        "_repo": "suhr"
+    },
     "nur.repos.suhr.libaudec": {
         "name": "libaudec-0.2.4",
         "pname": "libaudec",
@@ -104448,13 +104493,12 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-1.3-5.4.66",
+        "name": "v4l2loopback-dc-1.5-5.4.66",
         "pname": "v4l2loopback-dc",
-        "version": "1.3-5.4.66",
+        "version": "1.5-5.4.66",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
             "description": "V4L2 loopback device module for DroidCam",
             "homepage": "https://github.com/aramg/droidcam",
             "license": {
@@ -104465,13 +104509,19 @@
             },
             "maintainers": [
                 {
+                    "email": "jtojnar@gmail.com",
+                    "github": "jtojnar",
+                    "githubId": 705123,
+                    "name": "Jan Tojnar"
+                },
+                {
                     "email": "suhr@i2pmail.org",
                     "github": "suhr",
                     "githubId": 65870,
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-1.3-5.4.66",
+            "name": "v4l2loopback-dc-1.5-5.4.66",
             "outputsToInstall": [
                 "out"
             ],
