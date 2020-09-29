@@ -89310,9 +89310,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.lastpass-password-manager": {
-        "name": "lastpass-password-manager-4.56.1.3",
+        "name": "lastpass-password-manager-4.57.2.5",
         "pname": "lastpass-password-manager",
-        "version": "4.56.1.3",
+        "version": "4.57.2.5",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -89324,7 +89324,7 @@
                 "shortName": "unfree",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/license/"
             },
-            "name": "lastpass-password-manager-4.56.1.3",
+            "name": "lastpass-password-manager-4.57.2.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -89661,9 +89661,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.multi-account-containers": {
-        "name": "multi-account-containers-7.0.2",
+        "name": "multi-account-containers-7.1.0",
         "pname": "multi-account-containers",
-        "version": "7.0.2",
+        "version": "7.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -89675,7 +89675,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "multi-account-containers-7.0.2",
+            "name": "multi-account-containers-7.1.0",
             "outputsToInstall": [
                 "out"
             ],
