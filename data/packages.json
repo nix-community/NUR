@@ -89759,9 +89759,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.facebook-container": {
-        "name": "facebook-container-2.1.1",
+        "name": "facebook-container-2.1.2",
         "pname": "facebook-container",
-        "version": "2.1.1",
+        "version": "2.1.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -89773,7 +89773,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "facebook-container-2.1.1",
+            "name": "facebook-container-2.1.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -91399,9 +91399,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-6.0.1",
+        "name": "octotree-6.0.2",
         "pname": "octotree",
-        "version": "6.0.1",
+        "version": "6.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91413,7 +91413,7 @@
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
-            "name": "octotree-6.0.1",
+            "name": "octotree-6.0.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -91959,9 +91959,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-enhancement-suite": {
-        "name": "reddit-enhancement-suite-5.20.7",
+        "name": "reddit-enhancement-suite-5.20.8",
         "pname": "reddit-enhancement-suite",
-        "version": "5.20.7",
+        "version": "5.20.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91973,7 +91973,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "reddit-enhancement-suite-5.20.7",
+            "name": "reddit-enhancement-suite-5.20.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -93075,9 +93075,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.29.2",
+        "name": "ublock-origin-1.30.0",
         "pname": "ublock-origin",
-        "version": "1.29.2",
+        "version": "1.30.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93089,7 +93089,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.29.2",
+            "name": "ublock-origin-1.30.0",
             "outputsToInstall": [
                 "out"
             ],
