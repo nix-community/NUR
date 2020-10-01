@@ -74404,9 +74404,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.debugpy": {
-        "name": "python3.8-debugpy-1.0.0rc2",
+        "name": "python3.8-debugpy-1.0.0",
         "pname": "python3.8-debugpy",
-        "version": "1.0.0rc2",
+        "version": "1.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74443,7 +74443,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "python3.8-debugpy-1.0.0rc2",
+            "name": "python3.8-debugpy-1.0.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -74459,9 +74459,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.pygls": {
-        "name": "python3.8-pygls-0.9.0",
+        "name": "python3.8-pygls-0.9.1",
         "pname": "python3.8-pygls",
-        "version": "0.9.0",
+        "version": "0.9.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74498,7 +74498,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "python3.8-pygls-0.9.0",
+            "name": "python3.8-pygls-0.9.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -74657,9 +74657,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.rofi-wayland": {
-        "name": "rofi-unstable-2020-09-06",
+        "name": "rofi-unstable-2020-09-29",
         "pname": "rofi-unstable",
-        "version": "2020-09-06",
+        "version": "2020-09-29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74679,7 +74679,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "rofi-wayland-unstable-2020-09-06",
+            "name": "rofi-wayland-unstable-2020-09-29",
             "outputsToInstall": [
                 "out"
             ],
