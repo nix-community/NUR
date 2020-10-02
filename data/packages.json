@@ -84111,9 +84111,9 @@
         "_repo": "onny"
     },
     "nur.repos.onny.iwd-autocaptiveauth": {
-        "name": "iwd-autocaptiveauth-0.8",
+        "name": "iwd-autocaptiveauth-0.8.1",
         "pname": "iwd-autocaptiveauth",
-        "version": "0.8",
+        "version": "0.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -84125,7 +84125,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "iwd-autocaptiveauth-0.8",
+            "name": "iwd-autocaptiveauth-0.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -84234,22 +84234,22 @@
         "_attr": "hyperpotamus",
         "_repo": "onny"
     },
-    "nur.repos.onny.smloadr": {
-        "name": "node_SMLoadr-1.23.0",
-        "pname": "node_SMLoadr",
-        "version": "1.23.0",
+    "nur.repos.onny.popcorntime": {
+        "name": "node_popcorntime-0.4.4",
+        "pname": "node_popcorntime",
+        "version": "0.4.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "A streaming music downloader written in NodeJS.",
-            "license": "CC-BY-NC-4.0",
-            "name": "node_SMLoadr-1.23.0",
+            "homepage": "http://popcorntime.sh/",
+            "license": "GPL-3.0",
+            "name": "node_popcorntime-0.4.4",
             "outputsToInstall": [
                 "out"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
         },
-        "_attr": "smloadr",
+        "_attr": "popcorntime",
         "_repo": "onny"
     },
     "nur.repos.onny.ocenaudio": {
