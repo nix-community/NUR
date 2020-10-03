@@ -18229,9 +18229,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72": {
-        "name": "php-7.2.33",
+        "name": "php-7.2.34",
         "pname": "php",
-        "version": "7.2.33",
+        "version": "7.2.34",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18263,7 +18263,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.2.33",
+            "name": "php-7.2.34",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -18320,9 +18320,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72-unit": {
-        "name": "php-7.2.33",
+        "name": "php-7.2.34",
         "pname": "php",
-        "version": "7.2.33",
+        "version": "7.2.34",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18354,7 +18354,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.2.33",
+            "name": "php-7.2.34",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -18411,9 +18411,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73": {
-        "name": "php-7.3.22",
+        "name": "php-7.3.23",
         "pname": "php",
-        "version": "7.3.22",
+        "version": "7.3.23",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18445,7 +18445,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.3.22",
+            "name": "php-7.3.23",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -18502,9 +18502,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73-unit": {
-        "name": "php-7.3.22",
+        "name": "php-7.3.23",
         "pname": "php",
-        "version": "7.3.22",
+        "version": "7.3.23",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18536,7 +18536,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.3.22",
+            "name": "php-7.3.23",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -18593,9 +18593,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74": {
-        "name": "php-7.4.10",
+        "name": "php-7.4.11",
         "pname": "php",
-        "version": "7.4.10",
+        "version": "7.4.11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18627,7 +18627,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.4.10",
+            "name": "php-7.4.11",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -18684,9 +18684,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74-unit": {
-        "name": "php-7.4.10",
+        "name": "php-7.4.11",
         "pname": "php",
-        "version": "7.4.10",
+        "version": "7.4.11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18718,7 +18718,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.4.10",
+            "name": "php-7.4.11",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -18775,9 +18775,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80": {
-        "name": "php-8.0.0-beta-3",
+        "name": "php-8.0.0-rc-1",
         "pname": "php",
-        "version": "8.0.0-beta-3",
+        "version": "8.0.0-rc-1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18809,7 +18809,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-8.0.0-beta-3",
+            "name": "php-8.0.0-rc-1",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -18866,9 +18866,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80-unit": {
-        "name": "php-8.0.0-beta-3",
+        "name": "php-8.0.0-rc-1",
         "pname": "php",
-        "version": "8.0.0-beta-3",
+        "version": "8.0.0-rc-1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18900,7 +18900,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-8.0.0-beta-3",
+            "name": "php-8.0.0-rc-1",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -26033,9 +26033,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26062,7 +26062,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26072,9 +26072,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26101,7 +26101,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26111,9 +26111,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26140,7 +26140,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26150,9 +26150,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26179,7 +26179,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26189,9 +26189,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26218,7 +26218,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26228,9 +26228,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26257,7 +26257,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26267,9 +26267,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26296,7 +26296,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26306,9 +26306,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26335,7 +26335,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26345,9 +26345,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26374,7 +26374,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26384,9 +26384,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26413,7 +26413,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26423,9 +26423,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26452,7 +26452,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -26462,9 +26462,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.phpstan": {
-        "name": "php-phpstan-0.12.42",
+        "name": "php-phpstan-0.12.48",
         "pname": "php-phpstan",
-        "version": "0.12.42",
+        "version": "0.12.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26491,7 +26491,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.42",
+            "name": "php-phpstan-0.12.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -30769,14 +30769,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.xdebug": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30786,14 +30786,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.xdebug": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30803,14 +30803,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.xdebug": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30820,14 +30820,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.xdebug": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30837,14 +30837,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.xdebug29": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30854,14 +30854,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.xdebug": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30871,14 +30871,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.xdebug": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30888,14 +30888,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.xdebug": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30905,14 +30905,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.xdebug": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30922,14 +30922,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.xdebug": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30939,14 +30939,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.xdebug29": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -30956,14 +30956,14 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.xdebug": {
-        "name": "php-xdebug-2.9.6",
+        "name": "php-xdebug-2.9.8",
         "pname": "php-xdebug",
-        "version": "2.9.6",
+        "version": "2.9.8",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
-            "name": "php-xdebug-2.9.6",
+            "name": "php-xdebug-2.9.8",
             "outputsToInstall": [
                 "out"
             ],
