@@ -90508,9 +90508,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.honey": {
-        "name": "honey-12.1.1",
+        "name": "honey-12.4.4",
         "pname": "honey",
-        "version": "12.1.1",
+        "version": "12.4.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -90522,7 +90522,7 @@
                 "shortName": "honeyl",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/honey/license/"
             },
-            "name": "honey-12.1.1",
+            "name": "honey-12.4.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -92078,9 +92078,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-moderator-toolbox": {
-        "name": "reddit-moderator-toolbox-5.4.1",
+        "name": "reddit-moderator-toolbox-5.4.2",
         "pname": "reddit-moderator-toolbox",
-        "version": "5.4.1",
+        "version": "5.4.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92092,7 +92092,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "reddit-moderator-toolbox-5.4.1",
+            "name": "reddit-moderator-toolbox-5.4.2",
             "outputsToInstall": [
                 "out"
             ],
