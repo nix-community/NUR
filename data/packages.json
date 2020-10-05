@@ -84110,43 +84110,6 @@
         "_attr": "foliate",
         "_repo": "onny"
     },
-    "nur.repos.onny.iwd-autocaptiveauth": {
-        "name": "iwd-autocaptiveauth-0.8.1",
-        "pname": "iwd-autocaptiveauth",
-        "version": "0.8.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "iwd automatic authentication to captive portals",
-            "homepage": "https://git.project-insanity.org/onny/py-iwd-autocaptiveauth",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "name": "iwd-autocaptiveauth-0.8.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
-        },
-        "_attr": "iwd-autocaptiveauth",
-        "_repo": "onny"
-    },
     "nur.repos.onny.librewolf-bin": {
         "name": "librewolf-bin-80.0.1-1",
         "pname": "librewolf-bin",
@@ -84213,25 +84176,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
         },
         "_attr": "libtransmission",
-        "_repo": "onny"
-    },
-    "nur.repos.onny.hyperpotamus": {
-        "name": "node_hyperpotamus-0.37.3",
-        "pname": "node_hyperpotamus",
-        "version": "0.37.3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "YAML based HTTP script processing engine",
-            "homepage": "https://github.com/pmarkert/hyperpotamus/wiki",
-            "license": "MIT",
-            "name": "node_hyperpotamus-0.37.3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
-        },
-        "_attr": "hyperpotamus",
         "_repo": "onny"
     },
     "nur.repos.onny.onlyoffice-desktopeditors": {
@@ -84310,60 +84254,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
         },
         "_attr": "passwordsafe",
-        "_repo": "onny"
-    },
-    "nur.repos.onny.snipping_tool": {
-        "name": "snipping_tool-1.0.0",
-        "pname": "snipping_tool",
-        "version": "1.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "name": "snipping_tool-1.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
-        },
-        "_attr": "snipping_tool",
-        "_repo": "onny"
-    },
-    "nur.repos.onny.xerox6000-6010": {
-        "name": "Xerox-Phaser-6000-6010-1.01_20110226",
-        "pname": "Xerox-Phaser",
-        "version": "6000-6010-1.01_20110226",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Print drivers for Xerox Phaser 6000/6100 (DN/DT/N)",
-            "downloadPage": "https://www.support.xerox.com/support/phaser-6280/downloads/enus.html?operatingSystem=linux&fileLanguage=en",
-            "homepage": "https://www.xerox.com/",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "name": "Xerox-Phaser-6000-6010-1.01_20110226",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
-        },
-        "_attr": "xerox6000-6010",
         "_repo": "onny"
     },
     "nur.repos.peel.metals": {
