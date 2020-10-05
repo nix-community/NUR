@@ -90195,9 +90195,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.greasemonkey": {
-        "name": "greasemonkey-4.9",
+        "name": "greasemonkey-4.10.0",
         "pname": "greasemonkey",
-        "version": "4.9",
+        "version": "4.10.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -90209,7 +90209,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "greasemonkey-4.9",
+            "name": "greasemonkey-4.10.0",
             "outputsToInstall": [
                 "out"
             ],
