@@ -84329,6 +84329,22 @@
         "_attr": "passwordsafe",
         "_repo": "onny"
     },
+    "nur.repos.onny.snipping_tool": {
+        "name": "snipping_tool-1.0.0",
+        "pname": "snipping_tool",
+        "version": "1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "snipping_tool-1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
+        },
+        "_attr": "snipping_tool",
+        "_repo": "onny"
+    },
     "nur.repos.peel.metals": {
         "name": "metals-0.9.1",
         "pname": "metals",
