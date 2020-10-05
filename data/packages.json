@@ -84637,6 +84637,24 @@
         "_attr": "amfora",
         "_repo": "pn"
     },
+    "nur.repos.pn.displayselect": {
+        "name": "displayselect-env",
+        "pname": "displayselect-env",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A fancy monitor configuration menu.",
+            "homepage": "https://github.com/LukeSmithXYZ/voidrice",
+            "name": "displayselect-env",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "displayselect",
+        "_repo": "pn"
+    },
     "nur.repos.pn.dmenu": {
         "name": "dmenu",
         "pname": "dmenu",
@@ -84972,6 +84990,27 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
         },
         "_attr": "larbs-news",
+        "_repo": "pn"
+    },
+    "nur.repos.pn.larbs-scripts": {
+        "name": "larbs-scripts",
+        "pname": "larbs-scripts",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Set of larbs user scripts",
+            "homepage": "https://github.com/LukeSmithxyz/voidrice",
+            "name": "larbs-scripts",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "larbs-scripts",
         "_repo": "pn"
     },
     "nur.repos.pn.libthinkpad": {
