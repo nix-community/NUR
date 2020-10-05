@@ -84215,6 +84215,24 @@
         "_attr": "libtransmission",
         "_repo": "onny"
     },
+    "nur.repos.onny.smloadr": {
+        "name": "node_SMLoadr-1.23.0",
+        "pname": "node_SMLoadr",
+        "version": "1.23.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A streaming music downloader written in NodeJS.",
+            "license": "CC-BY-NC-4.0",
+            "name": "node_SMLoadr-1.23.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
+        },
+        "_attr": "smloadr",
+        "_repo": "onny"
+    },
     "nur.repos.onny.ocenaudio": {
         "name": "ocenaudio-3.9.2",
         "pname": "ocenaudio",
