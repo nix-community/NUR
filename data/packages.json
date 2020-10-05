@@ -5996,13 +5996,13 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.cirq": {
-        "name": "python3.8-cirq-0.8.2",
+        "name": "python3.8-cirq-0.9.1",
         "pname": "python3.8-cirq",
-        "version": "0.8.2",
+        "version": "0.9.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "changelog": "https://github.com/quantumlib/Cirq/releases/tag/v0.8.2",
+            "changelog": "https://github.com/quantumlib/Cirq/releases/tag/v0.9.1",
             "description": "A framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits.",
             "homepage": "https://github.com/quantumlib/cirq",
             "isBuildPythonPackage": [
@@ -6036,7 +6036,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-cirq-0.8.2",
+            "name": "python3.8-cirq-0.9.1",
             "outputsToInstall": [
                 "out"
             ],
