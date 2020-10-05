@@ -84110,6 +84110,43 @@
         "_attr": "foliate",
         "_repo": "onny"
     },
+    "nur.repos.onny.iwd-autocaptiveauth": {
+        "name": "iwd-autocaptiveauth-0.8.1",
+        "pname": "iwd-autocaptiveauth",
+        "version": "0.8.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "iwd automatic authentication to captive portals",
+            "homepage": "https://git.project-insanity.org/onny/py-iwd-autocaptiveauth",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "iwd-autocaptiveauth-0.8.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
+        },
+        "_attr": "iwd-autocaptiveauth",
+        "_repo": "onny"
+    },
     "nur.repos.onny.librewolf-bin": {
         "name": "librewolf-bin-80.0.1-1",
         "pname": "librewolf-bin",
@@ -84176,6 +84213,42 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
         },
         "_attr": "libtransmission",
+        "_repo": "onny"
+    },
+    "nur.repos.onny.ocenaudio": {
+        "name": "ocenaudio-3.9.2",
+        "pname": "ocenaudio",
+        "version": "3.9.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Cross-platform, easy to use, fast and functional audio editor",
+            "homepage": "https://www.ocenaudio.com",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "ocenaudio-3.9.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/onny"
+        },
+        "_attr": "ocenaudio",
         "_repo": "onny"
     },
     "nur.repos.onny.onlyoffice-desktopeditors": {
