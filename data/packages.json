@@ -88437,9 +88437,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.betterttv": {
-        "name": "betterttv-7.2.87",
+        "name": "betterttv-7.2.89",
         "pname": "betterttv",
-        "version": "7.2.87",
+        "version": "7.2.89",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -88451,7 +88451,7 @@
                 "shortName": "betterttv",
                 "url": "https://betterttv.com/terms"
             },
-            "name": "betterttv-7.2.87",
+            "name": "betterttv-7.2.89",
             "outputsToInstall": [
                 "out"
             ],
@@ -90719,9 +90719,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.leechblock-ng": {
-        "name": "leechblock-ng-1.0.6.2",
+        "name": "leechblock-ng-1.0.7",
         "pname": "leechblock-ng",
-        "version": "1.0.6.2",
+        "version": "1.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -90733,7 +90733,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "leechblock-ng-1.0.6.2",
+            "name": "leechblock-ng-1.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -91940,9 +91940,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-22.2",
+        "name": "save-page-we-23.0",
         "pname": "save-page-we",
-        "version": "22.2",
+        "version": "23.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91953,7 +91953,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-22.2",
+            "name": "save-page-we-23.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -92079,9 +92079,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.snowflake": {
-        "name": "snowflake-0.4.1",
+        "name": "snowflake-0.4.2",
         "pname": "snowflake",
-        "version": "0.4.1",
+        "version": "0.4.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92093,7 +92093,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "snowflake-0.4.1",
+            "name": "snowflake-0.4.2",
             "outputsToInstall": [
                 "out"
             ],
