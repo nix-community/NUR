@@ -88144,6 +88144,22 @@
         "_attr": "artwiz-lemon",
         "_repo": "reedrw"
     },
+    "nur.repos.reedrw.comma": {
+        "name": "comma",
+        "pname": "comma",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "comma",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/reedrw"
+        },
+        "_attr": "comma",
+        "_repo": "reedrw"
+    },
     "nur.repos.reedrw.ix": {
         "name": "ix",
         "pname": "ix",
