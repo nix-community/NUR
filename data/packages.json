@@ -6118,13 +6118,13 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.cvxpy": {
-        "name": "python3.8-cvxpy-1.1.5",
+        "name": "python3.8-cvxpy-1.1.6",
         "pname": "python3.8-cvxpy",
-        "version": "1.1.5",
+        "version": "1.1.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "changelog": "https://github.com/cvxgrp/cvxpy/releases/tag/v1.1.5",
+            "changelog": "https://github.com/cvxgrp/cvxpy/releases/tag/v1.1.6",
             "description": "A domain-specific language for modeling convex optimization problems in Python.",
             "downloadPage": "https://github.com/cvxgrp/cvxpy/releases",
             "homepage": "https://www.cvxpy.org/",
@@ -6159,7 +6159,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-cvxpy-1.1.5",
+            "name": "python3.8-cvxpy-1.1.6",
             "outputsToInstall": [
                 "out"
             ],
