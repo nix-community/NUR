@@ -5918,13 +5918,13 @@
         "_repo": "dezgeg"
     },
     "nur.repos.drewrisinger.libcint": {
-        "name": "libcint-3.1.1",
+        "name": "libcint-4.0.2",
         "pname": "libcint",
-        "version": "3.1.1",
+        "version": "4.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "changelog": "https://github.com/sunqm/libcint/releases/tag/v3.1.1",
+            "changelog": "https://github.com/sunqm/libcint/releases/tag/v4.0.2",
             "description": "General GTO integrals for quantum chemistry",
             "downloadPage": "https://github.com/sunqm/libcint",
             "homepage": "http://wiki.sunqm.net/libcint",
@@ -5943,7 +5943,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "libcint-3.1.1",
+            "name": "libcint-4.0.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -7408,13 +7408,13 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pyscf": {
-        "name": "python3.8-pyscf-1.7.4",
+        "name": "python3.8-pyscf-1.7.5",
         "pname": "python3.8-pyscf",
-        "version": "1.7.4",
+        "version": "1.7.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "changelog": "https://github.com/pyscf/pyscf/releases/tag/v1.7.4",
+            "changelog": "https://github.com/pyscf/pyscf/releases/tag/v1.7.5",
             "description": "Python-based Simulations of Chemistry Framework",
             "downloadPage": "https://github.com/pyscf/pyscf/releases",
             "homepage": "http://www.pyscf.org/",
@@ -7450,7 +7450,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-pyscf-1.7.4",
+            "name": "python3.8-pyscf-1.7.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -8688,12 +8688,13 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.xcfun": {
-        "name": "xcfun-1.0.X",
+        "name": "xcfun-2.1.0",
         "pname": "xcfun",
-        "version": "1.0.X",
+        "version": "2.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "changelog": "https://xcfun.readthedocs.io/en/latest/changelog.html",
             "description": "Exchange-correlation functionals with arbitrary order derivatives",
             "downloadPage": "https://github.com/dftlibs/xcfun/releases",
             "homepage": "https://xcfun.readthedocs.io/en/latest/",
@@ -8703,7 +8704,15 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "xcfun-1.0.X",
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "xcfun-2.1.0",
             "outputsToInstall": [
                 "out"
             ],
