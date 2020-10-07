@@ -104272,8 +104272,8 @@
         "version": "1.0",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "description": "A free, light-weight alternative to Mathematica",
             "homepage": "https://mathics.github.io/",
             "isBuildPythonPackage": [
