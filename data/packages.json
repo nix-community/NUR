@@ -85118,6 +85118,24 @@
         "_attr": "libthinkpad",
         "_repo": "pn"
     },
+    "nur.repos.pn.simple-mtpfs": {
+        "name": "simple-mtpfs-0.4.0",
+        "pname": "simple-mtpfs",
+        "version": "0.4.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Simple MTP fuse filesystem driver.",
+            "homepage": "https://github.com/phatina/simple-mtpfs",
+            "name": "simple-mtpfs-0.4.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "simple-mtpfs",
+        "_repo": "pn"
+    },
     "nur.repos.pn.st": {
         "name": "st",
         "pname": "st",
@@ -85153,6 +85171,29 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
         },
         "_attr": "st",
+        "_repo": "pn"
+    },
+    "nur.repos.pn.task-spooler": {
+        "name": "task-spooler-1.0",
+        "pname": "task-spooler",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Queue up tasks from the shell for batch execution",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "task-spooler-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "task-spooler",
         "_repo": "pn"
     },
     "nur.repos.priegger.annotatego": {
