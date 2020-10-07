@@ -85052,9 +85052,9 @@
         "_repo": "pn"
     },
     "nur.repos.pn.larbs-news": {
-        "name": "larbs-news-1.0",
+        "name": "larbs-news",
         "pname": "larbs-news",
-        "version": "1.0",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -85066,7 +85066,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "larbs-news-1.0",
+            "name": "larbs-news",
             "outputsToInstall": [
                 "out"
             ],
