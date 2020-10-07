@@ -88128,6 +88128,88 @@
         "_attr": "realvnc",
         "_repo": "pwnytail"
     },
+    "nur.repos.reedrw.artwiz-lemon": {
+        "name": "artwiz-lemon",
+        "pname": "artwiz-lemon",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "artwiz-lemon",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/reedrw"
+        },
+        "_attr": "artwiz-lemon",
+        "_repo": "reedrw"
+    },
+    "nur.repos.reedrw.ix": {
+        "name": "ix",
+        "pname": "ix",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "command line pastebin",
+            "homepage": "http://ix.io",
+            "name": "ix",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/reedrw"
+        },
+        "_attr": "ix",
+        "_repo": "reedrw"
+    },
+    "nur.repos.reedrw.r2mod_cli": {
+        "name": "r2mod_cli-1.0.4",
+        "pname": "r2mod_cli",
+        "version": "1.0.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A Risk of Rain 2 Mod Manager in Bash",
+            "homepage": "https://github.com/foldex/r2mod_cli",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "name": "r2mod_cli-1.0.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/reedrw"
+        },
+        "_attr": "r2mod_cli",
+        "_repo": "reedrw"
+    },
+    "nur.repos.reedrw.scientifica": {
+        "name": "scientifica-2.1",
+        "pname": "scientifica",
+        "version": "2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "tall, condensed, bitmap font for geeks.",
+            "homepage": "https://github.com/NerdyPepper/scientifica",
+            "license": {
+                "fullName": "SIL Open Font License 1.1",
+                "shortName": "ofl",
+                "spdxId": "OFL-1.1",
+                "url": "https://spdx.org/licenses/OFL-1.1.html"
+            },
+            "name": "scientifica-2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/reedrw"
+        },
+        "_attr": "scientifica",
+        "_repo": "reedrw"
+    },
     "nur.repos.rencire.neovim": {
         "name": "neovim-0.4.4",
         "pname": "neovim",
