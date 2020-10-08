@@ -87801,6 +87801,57 @@
         "_attr": "ix",
         "_repo": "reedrw"
     },
+    "nur.repos.reedrw.noisetorch": {
+        "name": "NoiseTorch-0.7.2-beta",
+        "pname": "NoiseTorch",
+        "version": "0.7.2-beta",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Virtual microphone device with noise supression for PulseAudio",
+            "homepage": "https://github.com/lawl/NoiseTorch",
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "vitalii.voloshyn@gmail.com",
+                    "github": "panaeon",
+                    "githubId": 686076,
+                    "name": "Vitalii Voloshyn"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "NoiseTorch-0.7.2-beta",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/reedrw"
+        },
+        "_attr": "noisetorch",
+        "_repo": "reedrw"
+    },
     "nur.repos.reedrw.r2mod_cli": {
         "name": "r2mod_cli-1.0.4",
         "pname": "r2mod_cli",
