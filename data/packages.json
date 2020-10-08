@@ -6518,9 +6518,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.fastjsonschema": {
-        "name": "python3.8-fastjsonschema-2.14.4",
+        "name": "python3.8-fastjsonschema-2.14.5",
         "pname": "python3.8-fastjsonschema",
-        "version": "2.14.4",
+        "version": "2.14.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6557,7 +6557,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-fastjsonschema-2.14.4",
+            "name": "python3.8-fastjsonschema-2.14.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -7099,9 +7099,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pproxy": {
-        "name": "python3.8-pproxy-2.3.2",
+        "name": "python3.8-pproxy-2.3.7",
         "pname": "python3.8-pproxy",
-        "version": "2.3.2",
+        "version": "2.3.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7138,7 +7138,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-pproxy-2.3.2",
+            "name": "python3.8-pproxy-2.3.7",
             "outputsToInstall": [
                 "out"
             ],
