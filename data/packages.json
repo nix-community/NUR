@@ -8722,9 +8722,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.dtn7.dtn7-go": {
-        "name": "dtn7-go-0.8.0",
+        "name": "dtn7-go-0.9.0",
         "pname": "dtn7-go",
-        "version": "0.8.0",
+        "version": "0.9.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -8756,7 +8756,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "dtn7-go-0.8.0",
+            "name": "dtn7-go-0.9.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -8783,9 +8783,9 @@
         "_repo": "dtn7"
     },
     "nur.repos.dtn7.dtn7-go-unstable": {
-        "name": "dtn7-go-unstable-2020-10-07",
+        "name": "dtn7-go-unstable-2020-10-08",
         "pname": "dtn7-go-unstable",
-        "version": "2020-10-07",
+        "version": "2020-10-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -8817,7 +8817,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "dtn7-go-unstable-2020-10-07",
+            "name": "dtn7-go-unstable-2020-10-08",
             "outputsToInstall": [
                 "out"
             ],
