@@ -516,9 +516,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages.rtl8723bu": {
-        "name": "rtl8723bu-5.4.67-2020-04-05",
+        "name": "rtl8723bu-5.4.69-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.4.67-2020-04-05",
+        "version": "5.4.69-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -543,7 +543,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.4.67-2020-04-05",
+            "name": "rtl8723bu-5.4.69-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -566,9 +566,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages_latest.rtl8723bu": {
-        "name": "rtl8723bu-5.8.11-2020-04-05",
+        "name": "rtl8723bu-5.8.13-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.8.11-2020-04-05",
+        "version": "5.8.13-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -593,7 +593,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.8.11-2020-04-05",
+            "name": "rtl8723bu-5.8.13-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -616,9 +616,9 @@
         "_repo": "aasg"
     },
     "nur.repos.babariviere.godot": {
-        "name": "godot-3.2.2",
+        "name": "godot-3.2.3",
         "pname": "godot",
-        "version": "3.2.2",
+        "version": "3.2.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -638,7 +638,7 @@
                     "name": "James \u2018Twey\u2019 Kay"
                 }
             ],
-            "name": "godot-3.2.2",
+            "name": "godot-3.2.3",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -76287,9 +76287,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.nix-review-unstable": {
-        "name": "nixpkgs-review-2.4.0",
+        "name": "nixpkgs-review-2.4.2",
         "pname": "nixpkgs-review",
-        "version": "2.4.0",
+        "version": "2.4.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76332,7 +76332,7 @@
                     "name": "J\u00f6rg Thalheim"
                 }
             ],
-            "name": "nixpkgs-review-2.4.0",
+            "name": "nixpkgs-review-2.4.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -79418,7 +79418,7 @@
                 "i686-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredhel('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'generic.nix')#L171"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredhel('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'generic.nix')#L174"
         },
         "_attr": "emacs",
         "_repo": "moredhel"
@@ -104287,9 +104287,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-1.5-5.4.67",
+        "name": "v4l2loopback-dc-1.5-5.4.69",
         "pname": "v4l2loopback-dc",
-        "version": "1.5-5.4.67",
+        "version": "1.5-5.4.69",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -104315,7 +104315,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-1.5-5.4.67",
+            "name": "v4l2loopback-dc-1.5-5.4.69",
             "outputsToInstall": [
                 "out"
             ],
@@ -105982,7 +105982,7 @@
                 "i686-genode",
                 "x86_64-genode"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'generic.nix')#L171"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vdemeester('nixpkgs', 'pkgs', 'applications', 'editors', 'emacs', 'generic.nix')#L174"
         },
         "_attr": "emacs",
         "_repo": "vdemeester"
