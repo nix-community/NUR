@@ -84697,6 +84697,23 @@
         "_attr": "task-spooler",
         "_repo": "pn"
     },
+    "nur.repos.pn.wywozik-todo": {
+        "name": "wywozik-todo",
+        "pname": "wywozik-todo",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "homepage": "https://github.com/pniedzwiedzinski/wywozik-todo",
+            "name": "wywozik-todo",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "wywozik-todo",
+        "_repo": "pn"
+    },
     "nur.repos.priegger.annotatego": {
         "name": "annotatego",
         "pname": "annotatego",
