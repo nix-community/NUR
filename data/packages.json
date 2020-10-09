@@ -91417,9 +91417,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.privacy-badger": {
-        "name": "privacy-badger-2020.8.25",
+        "name": "privacy-badger-2020.10.7",
         "pname": "privacy-badger",
-        "version": "2020.8.25",
+        "version": "2020.10.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91431,7 +91431,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "privacy-badger-2020.8.25",
+            "name": "privacy-badger-2020.10.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -91697,9 +91697,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-moderator-toolbox": {
-        "name": "reddit-moderator-toolbox-5.4.2",
+        "name": "reddit-moderator-toolbox-5.4.3",
         "pname": "reddit-moderator-toolbox",
-        "version": "5.4.2",
+        "version": "5.4.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91711,7 +91711,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "reddit-moderator-toolbox-5.4.2",
+            "name": "reddit-moderator-toolbox-5.4.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -91767,9 +91767,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-20.10.1",
+        "name": "refined-github-20.10.8",
         "pname": "refined-github",
-        "version": "20.10.1",
+        "version": "20.10.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91781,7 +91781,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-20.10.1",
+            "name": "refined-github-20.10.8",
             "outputsToInstall": [
                 "out"
             ],
