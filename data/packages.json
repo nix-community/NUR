@@ -73687,15 +73687,15 @@
         "_attr": "cmake-language-server",
         "_repo": "metadark"
     },
-    "nur.repos.metadark.emacs-pure-gtk3": {
+    "nur.repos.metadark.emacs-pgtk-nativecomp": {
         "name": "emacs-28.0.50",
         "pname": "emacs",
         "version": "28.0.50",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Emacs with pure GTK3 to support Wayland",
-            "homepage": "https://github.com/masm11/emacs",
+            "description": "Emacs with pure GTK3 & native compilation support",
+            "homepage": "https://github.com/fejfighter/emacs/tree/pgtk-nativecomp",
             "license": {
                 "fullName": "GNU General Public License v3.0 or later",
                 "shortName": "gpl3Plus",
@@ -73789,7 +73789,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
         },
-        "_attr": "emacs-pure-gtk3",
+        "_attr": "emacs-pgtk-nativecomp",
         "_repo": "metadark"
     },
     "nur.repos.metadark.goverlay": {
