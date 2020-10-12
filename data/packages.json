@@ -108231,9 +108231,9 @@
         "_repo": "wamserma"
     },
     "nur.repos.wamserma.bundlewrap": {
-        "name": "bundlewrap-3.8.0",
+        "name": "bundlewrap-4.2.0",
         "pname": "bundlewrap",
-        "version": "3.8.0",
+        "version": "4.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -108272,7 +108272,7 @@
                     "name": "Markus S. Wamser"
                 }
             ],
-            "name": "python3.8-bundlewrap-3.8.0",
+            "name": "python3.8-bundlewrap-4.2.0",
             "outputsToInstall": [
                 "out"
             ],
