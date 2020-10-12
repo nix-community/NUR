@@ -108485,6 +108485,40 @@
         "_attr": "genius-sf-600-firmware",
         "_repo": "wamserma"
     },
+    "nur.repos.wamserma.masterpdfeditor4": {
+        "name": "masterpdfeditor4-4.3.89",
+        "pname": "masterpdfeditor4",
+        "version": "4.3.89",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Master PDF Editor (old version with free text editing)",
+            "homepage": "https://code-industry.net/free-pdf-editor/",
+            "license": {
+                "free": false,
+                "fullName": "Unfree redistributable",
+                "shortName": "unfreeRedistributable"
+            },
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "masterpdfeditor4-4.3.89",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma"
+        },
+        "_attr": "masterpdfeditor4",
+        "_repo": "wamserma"
+    },
     "nur.repos.xe.cabytcini": {
         "name": "cabytcini-0.2.2",
         "pname": "cabytcini",
