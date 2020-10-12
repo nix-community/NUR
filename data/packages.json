@@ -97230,6 +97230,50 @@
         "_attr": "go-staticmaps",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.goldencheetah-bin": {
+        "name": "goldencheetah-3.5",
+        "pname": "goldencheetah",
+        "version": "3.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Performance software for cyclists, runners and triathletes",
+            "homepage": "https://www.goldencheetah.org/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "goldencheetah-3.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "goldencheetah-bin",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.goldendict-bin": {
         "name": "goldendict-1.5.0-RC2-372-gc3ff15f",
         "pname": "goldendict",
