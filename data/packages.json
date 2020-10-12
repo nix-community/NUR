@@ -97696,9 +97696,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-maps": {
-        "name": "gpxsee-maps-unstable-2020-09-01",
+        "name": "gpxsee-maps-unstable-2020-10-09",
         "pname": "gpxsee-maps-unstable",
-        "version": "2020-09-01",
+        "version": "2020-10-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -97724,7 +97724,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-maps-unstable-2020-09-01",
+            "name": "gpxsee-maps-unstable-2020-10-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -97783,9 +97783,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-10-07",
+        "name": "gpxsee-unstable-2020-10-11",
         "pname": "gpxsee-unstable",
-        "version": "2020-10-07",
+        "version": "2020-10-11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -97811,7 +97811,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-10-07",
+            "name": "gpxsee-unstable-2020-10-11",
             "outputsToInstall": [
                 "out"
             ],
@@ -98783,12 +98783,12 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.librewolf": {
-        "name": "librewolf-80.0.1",
+        "name": "librewolf-81.0",
         "pname": "librewolf",
-        "version": "80.0.1",
+        "version": "81.0",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
+            "available": true,
             "description": "A fork of Firefox, focused on privacy, security and freedom",
             "homepage": "https://librewolf-community.gitlab.io/",
             "license": {
@@ -98811,11 +98811,13 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "librewolf-80.0.1",
+            "name": "librewolf-81.0",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
+                "x86_64-linux",
+                "aarch64-linux",
                 "x86_64-darwin"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -99146,9 +99148,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-10-07",
+        "name": "maptourist-2020-10-11",
         "pname": "maptourist",
-        "version": "2020-10-07",
+        "version": "2020-10-11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99172,7 +99174,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-10-07",
+            "name": "maptourist-2020-10-11",
             "outputsToInstall": [
                 "out"
             ],
@@ -99605,9 +99607,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-unstable-2020-10-04",
+        "name": "nakarte-unstable-2020-10-11",
         "pname": "nakarte-unstable",
-        "version": "2020-10-04",
+        "version": "2020-10-11",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -99634,7 +99636,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-unstable-2020-10-04",
+            "name": "nakarte-unstable-2020-10-11",
             "outputsToInstall": [
                 "out"
             ],
@@ -99694,9 +99696,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-unstable-2020-10-08",
+        "name": "nnn-plugins-unstable-2020-10-11",
         "pname": "nnn-plugins-unstable",
-        "version": "2020-10-08",
+        "version": "2020-10-11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99722,7 +99724,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-unstable-2020-10-08",
+            "name": "nnn-plugins-unstable-2020-10-11",
             "outputsToInstall": [
                 "out"
             ],
@@ -100046,9 +100048,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-10-07",
+        "name": "OpenOrienteering-Mapper-unstable-2020-10-09",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-10-07",
+        "version": "2020-10-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -100074,7 +100076,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-10-07",
+            "name": "OpenOrienteering-Mapper-unstable-2020-10-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -101937,9 +101939,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-10-07",
+        "name": "routinodb-2020-10-11",
         "pname": "routinodb",
-        "version": "2020-10-07",
+        "version": "2020-10-11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -101963,7 +101965,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-10-07",
+            "name": "routinodb-2020-10-11",
             "outputsToInstall": [
                 "out"
             ],
@@ -102756,9 +102758,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tilesets-cli": {
-        "name": "tilesets-cli-unstable-2020-08-18",
+        "name": "tilesets-cli-unstable-2020-10-08",
         "pname": "tilesets-cli-unstable",
-        "version": "2020-08-18",
+        "version": "2020-10-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -102801,7 +102803,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tilesets-cli-unstable-2020-08-18",
+            "name": "tilesets-cli-unstable-2020-10-08",
             "outputsToInstall": [
                 "out"
             ],
@@ -103081,9 +103083,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.zdict": {
-        "name": "zdict-unstable-2020-10-06",
+        "name": "zdict-unstable-2020-10-11",
         "pname": "zdict-unstable",
-        "version": "2020-10-06",
+        "version": "2020-10-11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -103126,7 +103128,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "zdict-unstable-2020-10-06",
+            "name": "zdict-unstable-2020-10-11",
             "outputsToInstall": [
                 "out"
             ],
