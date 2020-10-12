@@ -13831,6 +13831,463 @@
         "_attr": "prusa-slicer-2_3-alpha",
         "_repo": "fius"
     },
+    "nur.repos.genesis.assaultcube": {
+        "name": "assaultcube-unstable-2020-19-07",
+        "pname": "assaultcube-unstable",
+        "version": "2020-19-07",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Fast and fun first-person-shooter based on the Cube fps",
+            "homepage": "https://assault.cubers.net",
+            "license": {
+                "fullName": "zlib License",
+                "shortName": "zlib",
+                "spdxId": "Zlib",
+                "url": "https://spdx.org/licenses/Zlib.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "assaultcube-unstable-2020-19-07",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "assaultcube",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.caprice32": {
+        "name": "caprice32-4.6.0",
+        "pname": "caprice32",
+        "version": "4.6.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A complete emulation of CPC464, CPC664 and CPC6128",
+            "homepage": "https://github.com/ColinPitrat/caprice32",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "caprice32-4.6.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "caprice32",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.freediag": {
+        "name": "freediag-unstable-2020-18-06",
+        "pname": "freediag-unstable",
+        "version": "2020-18-06",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Free diagnostic software for OBD-II compliant motor vehicles",
+            "homepage": "https://freediag.sourceforge.net/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "freediag-unstable-2020-18-06",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "freediag",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.gbdk-n": {
+        "name": "gbdk-n-unstable-2019-19-09",
+        "pname": "gbdk-n-unstable",
+        "version": "2019-19-09",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "GBDK is an SDK for gameboy platform",
+            "homepage": "https://github.com/andreasjhkarlsson/gbdk-n",
+            "license": "unknown",
+            "longDescription": "The Gameboy Development Kit (GBDK) is an SDK for developing applications/games for the gameboy platform.\n",
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "gbdk-n-unstable-2019-19-09",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "gbdk-n",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.hdl-dump": {
+        "name": "hdl_dump-unstable-2020-28-07",
+        "pname": "hdl_dump-unstable",
+        "version": "2020-28-07",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "PlayStation 2 HDLoader image dump/install utility",
+            "homepage": "https://github.com/AKuHAK/hdl-dump",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "hdl_dump-unstable-2020-28-07",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "hdl-dump",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.pfsshell": {
+        "name": "pfsshell-1.1.1",
+        "pname": "pfsshell",
+        "version": "1.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "PFS (PlayStation File System) shell for POSIX-based systems",
+            "homepage": "https://github.com/uyjulian/pfsshell",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "pfsshell-1.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "pfsshell",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.python3Packages.pycotap": {
+        "name": "python3.8-pycotap-1.2.2",
+        "pname": "python3.8-pycotap",
+        "version": "1.2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A tiny test runner that outputs TAP results to standard output",
+            "homepage": "https://el-tramo.be/pycotap",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "python3.8-pycotap-1.2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "python3Packages.pycotap",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.python3Packages.pysol_cards": {
+        "name": "python3.8-pysol_cards-0.8.8",
+        "pname": "python3.8-pysol_cards",
+        "version": "0.8.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "allow the python developer to generate the initial deals of some PySol FC games",
+            "homepage": "https://github.com/shlomif/pysol_cards",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "python3.8-pysol_cards-0.8.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "python3Packages.pysol_cards",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.rasm": {
+        "name": "rasm-1.2",
+        "pname": "rasm",
+        "version": "1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Z80 assembler",
+            "homepage": "http://www.roudoudou.com/rasm/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "rasm-1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "rasm",
+        "_repo": "genesis"
+    },
     "nur.repos.gnidorah.k380-function-keys-conf": {
         "name": "k380-function-keys-conf-1.1",
         "pname": "k380-function-keys-conf",
