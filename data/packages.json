@@ -14495,6 +14495,41 @@
         "_attr": "rasm",
         "_repo": "genesis"
     },
+    "nur.repos.genesis.xlinkkai": {
+        "name": "xlinkkai-7.4.38",
+        "pname": "xlinkkai",
+        "version": "7.4.38",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "tunneling program that allows the play LAN games online",
+            "homepage": "https://www.teamxlink.co.uk",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "xlinkkai-7.4.38",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "xlinkkai",
+        "_repo": "genesis"
+    },
     "nur.repos.gnidorah.k380-function-keys-conf": {
         "name": "k380-function-keys-conf-1.1",
         "pname": "k380-function-keys-conf",
