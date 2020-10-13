@@ -14052,6 +14052,55 @@
         "_attr": "hdl-dump",
         "_repo": "genesis"
     },
+    "nur.repos.genesis.navit": {
+        "name": "navit-unstable-2020-07-09",
+        "pname": "navit-unstable",
+        "version": "2020-07-09",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Car navigation system with routing engine using OSM maps",
+            "homepage": "https://www.navit-project.org",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "navit-unstable-2020-07-09",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "navit",
+        "_repo": "genesis"
+    },
     "nur.repos.genesis.pfsshell": {
         "name": "pfsshell-1.1.1",
         "pname": "pfsshell",
@@ -97693,7 +97742,7 @@
         "version": "3.5",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
+            "available": true,
             "description": "Performance software for cyclists, runners and triathletes",
             "homepage": "https://www.goldencheetah.org/",
             "license": {
@@ -97721,6 +97770,7 @@
                 "out"
             ],
             "platforms": [
+                "x86_64-linux",
                 "x86_64-darwin"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
@@ -100955,77 +101005,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "pg_featureserv",
-        "_repo": "sikmir"
-    },
-    "nur.repos.sikmir.pg_tileserv": {
-        "name": "pg_tileserv-unstable-2020-10-02",
-        "pname": "pg_tileserv-unstable",
-        "version": "2020-10-02",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A very thin PostGIS-only tile server in Go. Takes in HTTP tile requests, executes SQL, returns MVT tiles",
-            "homepage": "https://github.com/CrunchyData/pg_tileserv",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                {
-                    "email": "sikmir@gmail.com",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
-                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
-                        }
-                    ],
-                    "name": "Nikolay Korotkiy"
-                },
-                {
-                    "email": "wael.nasreddine@gmail.com",
-                    "github": "kalbasit",
-                    "githubId": 87115,
-                    "name": "Wael Nasreddine"
-                }
-            ],
-            "name": "pg_tileserv-unstable-2020-10-02",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
-        },
-        "_attr": "pg_tileserv",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.phyghtmap": {
