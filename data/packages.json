@@ -89082,9 +89082,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.buster-captcha-solver": {
-        "name": "buster-captcha-solver-1.0.1",
+        "name": "buster-captcha-solver-1.1.0",
         "pname": "buster-captcha-solver",
-        "version": "1.0.1",
+        "version": "1.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -89096,7 +89096,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "buster-captcha-solver-1.0.1",
+            "name": "buster-captcha-solver-1.1.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -91090,9 +91090,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.lastpass-password-manager": {
-        "name": "lastpass-password-manager-4.57.2.5",
+        "name": "lastpass-password-manager-4.58.0.4",
         "pname": "lastpass-password-manager",
-        "version": "4.57.2.5",
+        "version": "4.58.0.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -91104,7 +91104,7 @@
                 "shortName": "unfree",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/license/"
             },
-            "name": "lastpass-password-manager-4.57.2.5",
+            "name": "lastpass-password-manager-4.58.0.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -92450,9 +92450,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-23.0",
+        "name": "save-page-we-23.1",
         "pname": "save-page-we",
-        "version": "23.0",
+        "version": "23.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92463,7 +92463,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-23.0",
+            "name": "save-page-we-23.1",
             "outputsToInstall": [
                 "out"
             ],
