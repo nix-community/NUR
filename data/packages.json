@@ -14052,6 +14052,51 @@
         "_attr": "hdl-dump",
         "_repo": "genesis"
     },
+    "nur.repos.genesis.magick2cpc": {
+        "name": "magick2cpc-2019-05-17",
+        "pname": "magick2cpc",
+        "version": "2019-05-17",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An image converter for CPC using ImageMagick.",
+            "homepage": "https://github.com/bignaux/Magick2CPC",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "magick2cpc-2019-05-17",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "magick2cpc",
+        "_repo": "genesis"
+    },
     "nur.repos.genesis.navit": {
         "name": "navit-unstable-2020-07-09",
         "pname": "navit-unstable",
