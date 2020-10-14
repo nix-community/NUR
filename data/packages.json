@@ -91970,9 +91970,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-8.0.10",
+        "name": "metamask-8.1.0",
         "pname": "metamask",
-        "version": "8.0.10",
+        "version": "8.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91983,7 +91983,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-8.0.10",
+            "name": "metamask-8.1.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -92209,9 +92209,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-6.1.1",
+        "name": "octotree-6.1.2",
         "pname": "octotree",
-        "version": "6.1.1",
+        "version": "6.1.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92223,7 +92223,7 @@
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
-            "name": "octotree-6.1.1",
+            "name": "octotree-6.1.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -93885,9 +93885,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.30.2",
+        "name": "ublock-origin-1.30.4",
         "pname": "ublock-origin",
-        "version": "1.30.2",
+        "version": "1.30.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93899,7 +93899,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.30.2",
+            "name": "ublock-origin-1.30.4",
             "outputsToInstall": [
                 "out"
             ],
