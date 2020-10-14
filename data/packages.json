@@ -14735,6 +14735,51 @@
         "_attr": "python3Packages.pysol_cards",
         "_repo": "genesis"
     },
+    "nur.repos.genesis.quickbms": {
+        "name": "quickbms-0.10.1",
+        "pname": "quickbms",
+        "version": "0.10.1",
+        "system": "i686-linux",
+        "meta": {
+            "available": true,
+            "description": "Files extractor and reimporter, archives and file formats parser",
+            "homepage": "http://quickbms.com",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "quickbms-0.10.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "quickbms",
+        "_repo": "genesis"
+    },
     "nur.repos.genesis.rasm": {
         "name": "rasm-1.2",
         "pname": "rasm",
