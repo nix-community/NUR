@@ -64207,7 +64207,7 @@
         "_attr": "beam.main.erlangs.erlang_23_1",
         "_repo": "jechol"
     },
-    "nur.repos.jechol.beam.all.rebar": {
+    "nur.repos.jechol.beam.main.packages.erlang_18_0.rebar": {
         "name": "rebar-2.6.4",
         "pname": "rebar",
         "version": "2.6.4",
@@ -64256,40 +64256,26 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
         },
-        "_attr": "beam.all.rebar",
+        "_attr": "beam.main.packages.erlang_18_0.rebar",
         "_repo": "jechol"
     },
-    "nur.repos.jechol.beam.all.rebar3": {
-        "name": "rebar3-3.12.0",
-        "pname": "rebar3",
-        "version": "3.12.0",
+    "nur.repos.jechol.beam.main.packages.erlang_19_1.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar3",
+            "homepage": "https://github.com/rebar/rebar",
             "license": {
                 "fullName": "Apache License 2.0",
                 "shortName": "asl20",
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
-            "maintainers": [
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                },
-                {
-                    "email": "mail@tazj.in",
-                    "github": "tazjin",
-                    "githubId": 1552853,
-                    "name": "Vincent Ambo"
-                }
-            ],
-            "name": "rebar3-3.12.0",
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -64322,7 +64308,2381 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
         },
-        "_attr": "beam.all.rebar3",
+        "_attr": "beam.main.packages.erlang_19_1.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_18_3.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_18_3.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_18_2.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_18_2.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_18_1.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_18_1.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_22_2.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_22_2.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_22_3.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_22_3.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_20_3.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_20_3.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_22_1.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_22_1.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_22_0.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_22_0.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_23_1.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_23_1.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_21_3.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_21_3.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_21_2.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_21_2.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_21_1.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_21_1.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_21_0.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_21_0.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_19_2.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_19_2.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_20_2.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_20_2.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_20_1.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_20_1.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_20_0.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_20_0.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_23_0.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_23_0.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_19_3.rebar": {
+        "name": "rebar-2.6.4",
+        "pname": "rebar",
+        "version": "2.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
+            "name": "rebar-2.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_19_3.rebar",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_22_3.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_22_3.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_23_0.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_23_0.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_22_0.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_22_0.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_23_1.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_23_1.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_20_0.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_20_0.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_22_1.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_22_1.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_21_3.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_21_3.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_21_2.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_21_2.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_21_1.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_21_1.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_21_0.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_21_0.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_20_3.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_20_3.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_20_2.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_20_2.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_20_1.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_20_1.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_18_0.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_18_0.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_19_3.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_19_3.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_22_2.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_22_2.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_19_2.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_19_2.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_19_1.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_19_1.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_18_3.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_18_3.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_18_2.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_18_2.rebar3",
+        "_repo": "jechol"
+    },
+    "nur.repos.jechol.beam.main.packages.erlang_18_1.rebar3": {
+        "name": "rebar3-3.14.1",
+        "pname": "rebar3",
+        "version": "3.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
+            "homepage": "https://github.com/rebar/rebar3",
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
+            "maintainers": [
+                {
+                    "email": "gleber.p@gmail.com",
+                    "github": "gleber",
+                    "githubId": 33185,
+                    "name": "Gleb Peregud"
+                },
+                {
+                    "email": "mail@tazj.in",
+                    "github": "tazjin",
+                    "githubId": 1552853,
+                    "name": "Vincent Ambo"
+                }
+            ],
+            "name": "rebar3-3.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jechol"
+        },
+        "_attr": "beam.main.packages.erlang_18_1.rebar3",
         "_repo": "jechol"
     },
     "nur.repos.jjjollyjim.exploitdb": {
