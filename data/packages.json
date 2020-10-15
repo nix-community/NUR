@@ -93183,9 +93183,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ghostery": {
-        "name": "ghostery-8.5.2",
+        "name": "ghostery-8.5.3",
         "pname": "ghostery",
-        "version": "8.5.2",
+        "version": "8.5.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93197,7 +93197,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "ghostery-8.5.2",
+            "name": "ghostery-8.5.3",
             "outputsToInstall": [
                 "out"
             ],
