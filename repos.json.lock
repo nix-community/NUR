@@ -50,6 +50,11 @@
             "sha256": "1y0vb759k91xawwlr68a9yl5plfvb0ya2a42cd40h0d4nawgvaph",
             "url": "https://github.com/bb010g/nur-packages"
         },
+        "beam": {
+            "rev": "8e204346aaa437acc67b1e49712d87fa537479c4",
+            "sha256": "17z11hxc9z9ph0p5im9wd635g2ha9fm9k8vkz7rjpcqzsj3iwz7m",
+            "url": "https://github.com/jechol/nix-beam"
+        },
         "bendlas": {
             "rev": "d03071bae1c1036cbe3dcde75d97d4f926232506",
             "sha256": "0685z3di8sakhrn1h5w7nqmhx4l3czr5b2vixvyas079gzahkzja",
@@ -225,11 +230,6 @@
             "rev": "4355d12fc006444d08f40045a299cf2b73cbb5d3",
             "sha256": "1a09gacyargvhy6w4jz02pi6c0pqq950pds22lldnwqw6by0lpgd",
             "url": "https://gitlab.com/jD91mZM2/nur-packages"
-        },
-        "jechol": {
-            "rev": "8e204346aaa437acc67b1e49712d87fa537479c4",
-            "sha256": "17z11hxc9z9ph0p5im9wd635g2ha9fm9k8vkz7rjpcqzsj3iwz7m",
-            "url": "https://github.com/jechol/nur-packages"
         },
         "jjjollyjim": {
             "rev": "bd387bf78ceebfc0de6534135b07d689b59eabc0",
