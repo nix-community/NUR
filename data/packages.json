@@ -90143,6 +90143,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "description": "Wrapper for Bitwarden and Rofi",
             "homepage": "https://github.com/mattydebie/bitwarden-rofi",
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
@@ -90150,20 +90151,6 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "maintainers": [
-                {
-                    "email": "kyle.sferrazza@gmail.com",
-                    "github": "kylesferrazza",
-                    "githubId": 6677292,
-                    "keys": [
-                        {
-                            "fingerprint": "5A9A 1C9B 2369 8049 3B48  CF5B 81A1 5409 4816 2372",
-                            "longkeyid": "rsa4096/81A1540948162372"
-                        }
-                    ],
-                    "name": "Kyle Sferrazza"
-                }
-            ],
             "name": "bitwarden-rofi-git-2020-03-27",
             "outputsToInstall": [
                 "out"
