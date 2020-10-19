@@ -46150,6 +46150,22 @@
         "_attr": "prusa-slicer-2_3-alpha",
         "_repo": "fius"
     },
+    "nur.repos.genesis.appimage-run": {
+        "name": "appimage-run",
+        "pname": "appimage-run",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "appimage-run",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
+        },
+        "_attr": "appimage-run",
+        "_repo": "genesis"
+    },
     "nur.repos.genesis.assaultcube": {
         "name": "assaultcube-unstable-2020-19-07",
         "pname": "assaultcube-unstable",
@@ -47201,6 +47217,40 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
         },
         "_attr": "rasm",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.soulseekqt": {
+        "name": "soulseekqt-2018-1-30",
+        "pname": "soulseekqt",
+        "version": "2018-1-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Official Qt SoulSeek client",
+            "homepage": "https://www.slsknet.org",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "soulseekqt-2018-1-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "soulseekqt",
         "_repo": "genesis"
     },
     "nur.repos.genesis.xlink-kai": {
