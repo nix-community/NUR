@@ -79086,9 +79086,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.python3Packages.frida": {
-        "name": "python3.8-frida-12.9.8",
+        "name": "python3.8-frida-12.10.4",
         "pname": "python3.8-frida",
-        "version": "12.9.8",
+        "version": "12.10.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79117,7 +79117,7 @@
                 "spdxId": "wxWindows",
                 "url": "https://spdx.org/licenses/wxWindows.html"
             },
-            "name": "python3.8-frida-12.9.8",
+            "name": "python3.8-frida-12.10.4",
             "outputsToInstall": [
                 "out"
             ],
