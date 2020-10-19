@@ -46451,6 +46451,41 @@
         "_attr": "hdl-dump",
         "_repo": "genesis"
     },
+    "nur.repos.genesis.hospital-hero": {
+        "name": "hospital-hero-2020-04-11",
+        "pname": "hospital-hero",
+        "version": "2020-04-11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "You are a 101% systemically relevant janitor-hero!",
+            "homepage": "https://hackefuffel.itch.io/hospital-hero",
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "hospital-hero-2020-04-11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "hospital-hero",
+        "_repo": "genesis"
+    },
     "nur.repos.genesis.magick2cpc": {
         "name": "magick2cpc-2019-05-17",
         "pname": "magick2cpc",
