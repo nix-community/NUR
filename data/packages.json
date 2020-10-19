@@ -47203,13 +47203,14 @@
         "_attr": "rasm",
         "_repo": "genesis"
     },
-    "nur.repos.genesis.xlinkkai": {
-        "name": "xlinkkai-7.4.38",
-        "pname": "xlinkkai",
+    "nur.repos.genesis.xlink-kai": {
+        "name": "xlink-kai-7.4.38",
+        "pname": "xlink-kai",
         "version": "7.4.38",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
+            "broken": true,
             "description": "tunneling program that allows the play LAN games online",
             "homepage": "https://www.teamxlink.co.uk",
             "license": {
@@ -47225,7 +47226,7 @@
                     "name": "Ronan Bignaux"
                 }
             ],
-            "name": "xlinkkai-7.4.38",
+            "name": "xlink-kai-7.4.38",
             "outputsToInstall": [
                 "out"
             ],
@@ -47234,7 +47235,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
         },
-        "_attr": "xlinkkai",
+        "_attr": "xlink-kai",
         "_repo": "genesis"
     },
     "nur.repos.gnidorah.k380-function-keys-conf": {
