@@ -107680,6 +107680,105 @@
         "_attr": "unison",
         "_repo": "tilpner"
     },
+    "nur.repos.tinybeachthor.cabbage": {
+        "name": "cabbage-2.4.0",
+        "pname": "cabbage",
+        "version": "2.4.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Cabbage Audio",
+            "homepage": "https://cabbageaudio.com/",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [],
+            "name": "cabbage-2.4.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tinybeachthor"
+        },
+        "_attr": "cabbage",
+        "_repo": "tinybeachthor"
+    },
+    "nur.repos.tinybeachthor.example-package": {
+        "name": "example-package-1.0",
+        "pname": "example-package",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "example-package-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tinybeachthor"
+        },
+        "_attr": "example-package",
+        "_repo": "tinybeachthor"
+    },
+    "nur.repos.tinybeachthor.spotify-authenticate": {
+        "name": "spotify-authenticate-1.0.0",
+        "pname": "spotify-authenticate",
+        "version": "1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Get Spotify oauth refreshable access-token",
+            "homepage": "https://github.com/tinybeachthor/spotify-authenticate",
+            "license": {
+                "fullName": "The Unlicense",
+                "shortName": "unlicense",
+                "spdxId": "Unlicense",
+                "url": "https://spdx.org/licenses/Unlicense.html"
+            },
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "spotify-authenticate-1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tinybeachthor"
+        },
+        "_attr": "spotify-authenticate",
+        "_repo": "tinybeachthor"
+    },
     "nur.repos.tokudan.cbmbasic": {
         "name": "cbmbasicgit-20141207",
         "pname": "cbmbasicgit",
