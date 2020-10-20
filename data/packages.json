@@ -113113,6 +113113,22 @@
         "_attr": "zsh-z",
         "_repo": "xeals"
     },
+    "nur.repos.zachcoyle.kotlin-language-server": {
+        "name": "kotlin-language-server-0.7.0",
+        "pname": "kotlin-language-server",
+        "version": "0.7.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "kotlin-language-server-0.7.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zachcoyle"
+        },
+        "_attr": "kotlin-language-server",
+        "_repo": "zachcoyle"
+    },
     "nur.repos.zachcoyle.mas": {
         "name": "mas-1.7.1",
         "pname": "mas",
