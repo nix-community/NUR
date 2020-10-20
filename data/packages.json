@@ -40128,9 +40128,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit": {
-        "name": "python3.8-qiskit-0.22.0",
+        "name": "python3.8-qiskit-0.23.0",
         "pname": "python3.8-qiskit",
-        "version": "0.22.0",
+        "version": "0.23.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40175,7 +40175,7 @@
                     "name": "pandaman"
                 }
             ],
-            "name": "python3.8-qiskit-0.22.0",
+            "name": "python3.8-qiskit-0.23.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -40202,9 +40202,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-aer": {
-        "name": "python3.8-qiskit-aer-0.6.1",
+        "name": "python3.8-qiskit-aer-0.7.0",
         "pname": "python3.8-qiskit-aer",
-        "version": "0.6.1",
+        "version": "0.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40243,7 +40243,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-aer-0.6.1",
+            "name": "python3.8-qiskit-aer-0.7.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -40270,9 +40270,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-aqua": {
-        "name": "python3.8-qiskit-aqua-0.7.5",
+        "name": "python3.8-qiskit-aqua-0.8.0",
         "pname": "python3.8-qiskit-aqua",
-        "version": "0.7.5",
+        "version": "0.8.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40310,7 +40310,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-aqua-0.7.5",
+            "name": "python3.8-qiskit-aqua-0.8.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -40337,9 +40337,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-provider": {
-        "name": "python3.8-qiskit-ibmq-provider-0.10.0",
+        "name": "python3.8-qiskit-ibmq-provider-0.11.0",
         "pname": "python3.8-qiskit-ibmq-provider",
-        "version": "0.10.0",
+        "version": "0.11.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40377,7 +40377,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-ibmq-provider-0.10.0",
+            "name": "python3.8-qiskit-ibmq-provider-0.11.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -40404,9 +40404,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-providerNoVisual": {
-        "name": "python3.8-qiskit-ibmq-provider-0.10.0",
+        "name": "python3.8-qiskit-ibmq-provider-0.11.0",
         "pname": "python3.8-qiskit-ibmq-provider",
-        "version": "0.10.0",
+        "version": "0.11.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40444,7 +40444,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-ibmq-provider-0.10.0",
+            "name": "python3.8-qiskit-ibmq-provider-0.11.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -40471,9 +40471,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ignis": {
-        "name": "python3.8-qiskit-ignis-0.4.0",
+        "name": "python3.8-qiskit-ignis-0.5.0",
         "pname": "python3.8-qiskit-ignis",
-        "version": "0.4.0",
+        "version": "0.5.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40512,7 +40512,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-ignis-0.4.0",
+            "name": "python3.8-qiskit-ignis-0.5.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -40539,9 +40539,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-terra": {
-        "name": "python3.8-qiskit-terra-0.15.2",
+        "name": "python3.8-qiskit-terra-0.16.0",
         "pname": "python3.8-qiskit-terra",
-        "version": "0.15.2",
+        "version": "0.16.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40581,7 +40581,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-terra-0.15.2",
+            "name": "python3.8-qiskit-terra-0.16.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -40608,9 +40608,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-terraNoVisual": {
-        "name": "python3.8-qiskit-terra-0.15.2",
+        "name": "python3.8-qiskit-terra-0.16.0",
         "pname": "python3.8-qiskit-terra",
-        "version": "0.15.2",
+        "version": "0.16.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40650,7 +40650,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-terra-0.15.2",
+            "name": "python3.8-qiskit-terra-0.16.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -40810,10 +40810,76 @@
         "_attr": "python3Packages.setuptools-rust",
         "_repo": "drewrisinger"
     },
+    "nur.repos.drewrisinger.python3Packages.tweedledum": {
+        "name": "python3.8-tweedledum-0.1b0",
+        "pname": "python3.8-tweedledum",
+        "version": "0.1b0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A library for synthesizing and manipulating quantum circuits",
+            "homepage": "https://github.com/boschmitt/tweedledum",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.8-tweedledum-0.1b0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger"
+        },
+        "_attr": "python3Packages.tweedledum",
+        "_repo": "drewrisinger"
+    },
     "nur.repos.drewrisinger.python3Packages.yfinance": {
-        "name": "python3.8-yfinance-0.1.54",
+        "name": "python3.8-yfinance-0.1.55",
         "pname": "python3.8-yfinance",
-        "version": "0.1.54",
+        "version": "0.1.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40850,7 +40916,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-yfinance-0.1.54",
+            "name": "python3.8-yfinance-0.1.55",
             "outputsToInstall": [
                 "out"
             ],
