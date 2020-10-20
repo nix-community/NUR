@@ -93605,9 +93605,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-6.1.2",
+        "name": "octotree-6.1.3",
         "pname": "octotree",
-        "version": "6.1.2",
+        "version": "6.1.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93619,7 +93619,7 @@
                 "spdxId": "AGPL-3.0-only",
                 "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
             },
-            "name": "octotree-6.1.2",
+            "name": "octotree-6.1.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -94095,9 +94095,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.react-devtools": {
-        "name": "react-devtools-4.8.2",
+        "name": "react-devtools-4.9.0",
         "pname": "react-devtools",
-        "version": "4.8.2",
+        "version": "4.9.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94109,7 +94109,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "react-devtools-4.8.2",
+            "name": "react-devtools-4.9.0",
             "outputsToInstall": [
                 "out"
             ],
