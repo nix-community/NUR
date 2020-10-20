@@ -46150,22 +46150,6 @@
         "_attr": "prusa-slicer-2_3-alpha",
         "_repo": "fius"
     },
-    "nur.repos.genesis.appimage-run": {
-        "name": "appimage-run",
-        "pname": "appimage-run",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "name": "appimage-run",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
-        },
-        "_attr": "appimage-run",
-        "_repo": "genesis"
-    },
     "nur.repos.genesis.assaultcube": {
         "name": "assaultcube-unstable-2020-19-07",
         "pname": "assaultcube-unstable",
@@ -46478,7 +46462,19 @@
                 "out"
             ],
             "platforms": [
-                "x86_64-linux"
+                [
+                    "aarch64-linux",
+                    "armv5tel-linux",
+                    "armv6l-linux",
+                    "armv7a-linux",
+                    "armv7l-linux",
+                    "mipsel-linux",
+                    "i686-linux",
+                    "x86_64-linux",
+                    "powerpc64le-linux",
+                    "riscv32-linux",
+                    "riscv64-linux"
+                ]
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
         },
