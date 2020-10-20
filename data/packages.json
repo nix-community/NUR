@@ -101171,51 +101171,6 @@
         "_attr": "iterm2-bin",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.keeweb-bin": {
-        "name": "keeweb-1.15.7",
-        "pname": "keeweb",
-        "version": "1.15.7",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Free cross-platform password manager compatible with KeePass",
-            "homepage": "https://keeweb.info/",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "sikmir@gmail.com",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
-                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
-                        }
-                    ],
-                    "name": "Nikolay Korotkiy"
-                }
-            ],
-            "name": "keeweb-1.15.7",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "x86_64-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
-            "skip": {
-                "ci": true
-            }
-        },
-        "_attr": "keeweb-bin",
-        "_repo": "sikmir"
-    },
     "nur.repos.sikmir.libgarmin": {
         "name": "libgarmin-unstable-2008-12-27",
         "pname": "libgarmin-unstable",
