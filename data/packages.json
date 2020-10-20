@@ -37318,16 +37318,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.8.0",
+        "name": "node_pnpm-5.9.3",
         "pname": "node_pnpm",
-        "version": "5.8.0",
+        "version": "5.9.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Fast, disk space efficient package manager",
             "homepage": "https://pnpm.js.org/",
             "license": "MIT",
-            "name": "node_pnpm-5.8.0",
+            "name": "node_pnpm-5.9.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -37356,16 +37356,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.29.0",
+        "name": "node_rollup-2.32.0",
         "pname": "node_rollup",
-        "version": "2.29.0",
+        "version": "2.32.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Next-generation ES module bundler",
             "homepage": "https://rollupjs.org/",
             "license": "MIT",
-            "name": "node_rollup-2.29.0",
+            "name": "node_rollup-2.32.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -37413,15 +37413,15 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.webpack": {
-        "name": "node_webpack-cli-3.3.12",
+        "name": "node_webpack-cli-4.0.0",
         "pname": "node_webpack-cli",
-        "version": "3.3.12",
+        "version": "4.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "CLI for webpack & friends",
             "license": "MIT",
-            "name": "node_webpack-cli-3.3.12",
+            "name": "node_webpack-cli-4.0.0",
             "outputsToInstall": [
                 "out"
             ],
