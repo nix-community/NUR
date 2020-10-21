@@ -92797,9 +92797,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ipfs-companion": {
-        "name": "ipfs-companion-2.14.0",
+        "name": "ipfs-companion-2.15.0",
         "pname": "ipfs-companion",
-        "version": "2.14.0",
+        "version": "2.15.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92811,7 +92811,7 @@
                 "spdxId": "CC0-1.0",
                 "url": "https://spdx.org/licenses/CC0-1.0.html"
             },
-            "name": "ipfs-companion-2.14.0",
+            "name": "ipfs-companion-2.15.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -93146,9 +93146,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.leechblock-ng": {
-        "name": "leechblock-ng-1.0.7",
+        "name": "leechblock-ng-1.0.7.1",
         "pname": "leechblock-ng",
-        "version": "1.0.7",
+        "version": "1.0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93160,7 +93160,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "leechblock-ng-1.0.7",
+            "name": "leechblock-ng-1.0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -93356,9 +93356,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.matte-black-red": {
-        "name": "matte-black-red-2020.6.25",
+        "name": "matte-black-red-2020.10.20",
         "pname": "matte-black-red",
-        "version": "2020.6.25",
+        "version": "2020.10.20",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -93371,7 +93371,7 @@
                 "spdxId": "CC-BY-NC-SA-3.0",
                 "url": "https://spdx.org/licenses/CC-BY-NC-SA-3.0.html"
             },
-            "name": "matte-black-red-2020.6.25",
+            "name": "matte-black-red-2020.10.20",
             "outputsToInstall": [
                 "out"
             ],
@@ -93427,9 +93427,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-8.1.1",
+        "name": "metamask-8.1.2",
         "pname": "metamask",
-        "version": "8.1.1",
+        "version": "8.1.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93440,7 +93440,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-8.1.1",
+            "name": "metamask-8.1.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -95342,9 +95342,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.30.4",
+        "name": "ublock-origin-1.30.6",
         "pname": "ublock-origin",
-        "version": "1.30.4",
+        "version": "1.30.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -95356,7 +95356,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.30.4",
+            "name": "ublock-origin-1.30.6",
             "outputsToInstall": [
                 "out"
             ],
