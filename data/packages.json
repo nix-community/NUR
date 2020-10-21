@@ -46415,6 +46415,64 @@
         "_attr": "freediag",
         "_repo": "genesis"
     },
+    "nur.repos.genesis.frida-tools": {
+        "name": "frida-tools-8.2.0",
+        "pname": "frida-tools",
+        "version": "8.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers",
+            "homepage": "https://www.frida.re/",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "wxWindows Library Licence, Version 3.1",
+                "shortName": "wxWindows",
+                "spdxId": "wxWindows",
+                "url": "https://spdx.org/licenses/wxWindows.html"
+            },
+            "name": "frida-tools-8.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "frida-tools",
+        "_repo": "genesis"
+    },
     "nur.repos.genesis.gbdk-n": {
         "name": "gbdk-n-unstable-2019-19-09",
         "pname": "gbdk-n-unstable",
@@ -47091,6 +47149,64 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
         },
         "_attr": "pysolfc",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.python3Packages.frida": {
+        "name": "python3.8-frida-12.11.18",
+        "pname": "python3.8-frida",
+        "version": "12.11.18",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers",
+            "homepage": "https://www.frida.re",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "wxWindows Library Licence, Version 3.1",
+                "shortName": "wxWindows",
+                "spdxId": "wxWindows",
+                "url": "https://spdx.org/licenses/wxWindows.html"
+            },
+            "name": "python3.8-frida-12.11.18",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "python3Packages.frida",
         "_repo": "genesis"
     },
     "nur.repos.genesis.python3Packages.pycotap": {
