@@ -76346,9 +76346,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.caprine": {
-        "name": "node_caprine-2.49.0",
+        "name": "node_caprine-2.51.0",
         "pname": "node_caprine",
-        "version": "2.49.0",
+        "version": "2.51.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76361,7 +76361,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "node_caprine-2.49.0",
+            "name": "node_caprine-2.51.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -76731,9 +76731,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.rofi-wayland": {
-        "name": "rofi-unstable-2020-09-29",
+        "name": "rofi-unstable-2020-10-18",
         "pname": "rofi-unstable",
-        "version": "2020-09-29",
+        "version": "2020-10-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76753,7 +76753,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "rofi-wayland-unstable-2020-09-29",
+            "name": "rofi-wayland-unstable-2020-10-18",
             "outputsToInstall": [
                 "out"
             ],
