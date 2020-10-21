@@ -18,7 +18,7 @@ let
   createRepo = name: attr: import ./lib/evalRepo.nix {
     inherit name pkgs lib;
     inherit (attr) url;
-    src = repoSource name attr + "/" + (attr.file or "");
+    src = repoSource name attr + ("/" + (attr.file or ""));
   };
 
 in {
