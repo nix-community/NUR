@@ -37356,16 +37356,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.32.0",
+        "name": "node_rollup-2.32.1",
         "pname": "node_rollup",
-        "version": "2.32.0",
+        "version": "2.32.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Next-generation ES module bundler",
             "homepage": "https://rollupjs.org/",
             "license": "MIT",
-            "name": "node_rollup-2.32.0",
+            "name": "node_rollup-2.32.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -37413,15 +37413,15 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.webpack": {
-        "name": "node_webpack-cli-4.0.0",
+        "name": "node_webpack-cli-4.1.0",
         "pname": "node_webpack-cli",
-        "version": "4.0.0",
+        "version": "4.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "CLI for webpack & friends",
             "license": "MIT",
-            "name": "node_webpack-cli-4.0.0",
+            "name": "node_webpack-cli-4.1.0",
             "outputsToInstall": [
                 "out"
             ],
