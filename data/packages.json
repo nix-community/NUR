@@ -46520,9 +46520,9 @@
         "_repo": "genesis"
     },
     "nur.repos.genesis.frida-tools": {
-        "name": "frida-tools-8.2.0",
+        "name": "frida-tools-9.0.0",
         "pname": "frida-tools",
-        "version": "8.2.0",
+        "version": "9.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46551,7 +46551,7 @@
                 "spdxId": "wxWindows",
                 "url": "https://spdx.org/licenses/wxWindows.html"
             },
-            "name": "frida-tools-8.2.0",
+            "name": "frida-tools-9.0.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -46671,6 +46671,7 @@
         "meta": {
             "available": false,
             "description": "You are a 101% systemically relevant janitor-hero!",
+            "downloadPage": "https://hackefuffel.itch.io/hospital-hero",
             "homepage": "https://hackefuffel.itch.io/hospital-hero",
             "license": {
                 "free": false,
@@ -47256,9 +47257,9 @@
         "_repo": "genesis"
     },
     "nur.repos.genesis.python3Packages.frida": {
-        "name": "python3.8-frida-12.11.18",
+        "name": "python3.8-frida-14.0.1",
         "pname": "python3.8-frida",
-        "version": "12.11.18",
+        "version": "14.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47287,7 +47288,7 @@
                 "spdxId": "wxWindows",
                 "url": "https://spdx.org/licenses/wxWindows.html"
             },
-            "name": "python3.8-frida-12.11.18",
+            "name": "python3.8-frida-14.0.1",
             "outputsToInstall": [
                 "out"
             ],
