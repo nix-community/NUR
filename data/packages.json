@@ -78867,16 +78867,16 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.speedscope": {
-        "name": "node_speedscope-1.9.0",
+        "name": "node_speedscope-1.11.0",
         "pname": "node_speedscope",
-        "version": "1.9.0",
+        "version": "1.11.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "A fast, interactive web-based viewer for performance profiles. An alternative viewer for [FlameGraphs][1]. Will happily display multi-megabyte profiles without crashing your browser.",
             "homepage": "https://github.com/jlfwong/speedscope#readme",
             "license": "MIT",
-            "name": "node_speedscope-1.9.0",
+            "name": "node_speedscope-1.11.0",
             "outputsToInstall": [
                 "out"
             ],
