@@ -1,4 +1,108 @@
 {
+    "nur.repos.0x4a6f.gobi_loader": {
+        "name": "gobi_loader-0.7",
+        "pname": "gobi_loader",
+        "version": "0.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Firmware loader for Qualcomm Gobi USB chipsets",
+            "homepage": "https://www.codon.org.uk/~mjg59/gobi_loader/",
+            "license": [
+                {
+                    "fullName": "GNU General Public License v2.0 only",
+                    "shortName": "gpl2Only",
+                    "spdxId": "GPL-2.0-only",
+                    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "mail-maintainer@0x4A6F.dev",
+                    "github": "0x4A6F",
+                    "githubId": 9675338,
+                    "keys": [
+                        {
+                            "fingerprint": "F466 A548 AD3F C1F1 8C88  4576 8702 7528 B006 D66D",
+                            "longkeyid": "rsa8192/0x87027528B006D66D"
+                        }
+                    ],
+                    "name": "Joachim Ernst"
+                }
+            ],
+            "name": "gobi_loader-0.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/0x4a6f"
+        },
+        "_attr": "gobi_loader",
+        "_repo": "0x4a6f"
+    },
+    "nur.repos.0x4a6f.routinator": {
+        "name": "routinator-0.7.1-rc1",
+        "pname": "routinator",
+        "version": "0.7.1-rc1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "An RPKI Validator written in Rust",
+            "homepage": "https://github.com/NLnetLabs/routinator",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mail-maintainer@0x4A6F.dev",
+                    "github": "0x4A6F",
+                    "githubId": 9675338,
+                    "keys": [
+                        {
+                            "fingerprint": "F466 A548 AD3F C1F1 8C88  4576 8702 7528 B006 D66D",
+                            "longkeyid": "rsa8192/0x87027528B006D66D"
+                        }
+                    ],
+                    "name": "Joachim Ernst"
+                }
+            ],
+            "name": "routinator-0.7.1-rc1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/0x4a6f"
+        },
+        "_attr": "routinator",
+        "_repo": "0x4a6f"
+    },
     "nur.repos.INFO4-19.ALM1": {
         "name": "ALM1",
         "pname": "ALM1",
