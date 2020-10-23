@@ -1,14 +1,14 @@
 {
     "repos": {
-        "0x4a6f": {
-            "rev": "d081a3038dc16db0fef503b658f6af073bdd48f9",
-            "sha256": "0zpki6cdyhqvdf7mvsq05pq39wwz3avymgxm80gkcvvzpxjb4dxs",
-            "url": "https://github.com/0x4A6F/nur-packages"
-        },
         "INFO4-19": {
             "rev": "8e7468efbb7fc13e0c4ccf7e2fd64f5106012301",
             "sha256": "082k3j383zl7vp8fmbwjdh9wmnhv776i6in3pjf3g06ijb4cwcg1",
             "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
+        },
+        "_0x4A6F": {
+            "rev": "d081a3038dc16db0fef503b658f6af073bdd48f9",
+            "sha256": "0zpki6cdyhqvdf7mvsq05pq39wwz3avymgxm80gkcvvzpxjb4dxs",
+            "url": "https://github.com/0x4A6F/nur-packages"
         },
         "aasg": {
             "rev": "21359b710a01e95c581b984813dbfb91d9385981",
