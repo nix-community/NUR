@@ -37330,15 +37330,15 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.CRA": {
-        "name": "node_create-react-app-3.4.1",
+        "name": "node_create-react-app-4.0.0",
         "pname": "node_create-react-app",
-        "version": "3.4.1",
+        "version": "4.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Create React apps with no build configuration.",
             "license": "MIT",
-            "name": "node_create-react-app-3.4.1",
+            "name": "node_create-react-app-4.0.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -37422,16 +37422,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.9.3",
+        "name": "node_pnpm-5.10.1",
         "pname": "node_pnpm",
-        "version": "5.9.3",
+        "version": "5.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Fast, disk space efficient package manager",
             "homepage": "https://pnpm.js.org/",
             "license": "MIT",
-            "name": "node_pnpm-5.9.3",
+            "name": "node_pnpm-5.10.1",
             "outputsToInstall": [
                 "out"
             ],
