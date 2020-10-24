@@ -95767,22 +95767,6 @@
         "_attr": "firefox-addons.umatrix",
         "_repo": "rycee"
     },
-    "nur.repos.rycee.weylus": {
-        "name": "unsupported",
-        "pname": "unsupported",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "name": "unsupported",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee('nixpkgs', 'pkgs', 'build-support', 'trivial-builders.nix')#L7"
-        },
-        "_attr": "weylus",
-        "_repo": "rycee"
-    },
     "nur.repos.rycee.firefox-addons.vim-vixen": {
         "name": "vim-vixen-0.31",
         "pname": "vim-vixen",
