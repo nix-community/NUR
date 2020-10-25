@@ -86996,6 +86996,38 @@
         "_attr": "matrix-conduit",
         "_repo": "piegames"
     },
+    "nur.repos.pn.agate": {
+        "name": "agate-1.2.2",
+        "pname": "agate",
+        "version": "1.2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Very simple server for the Gemini hypertext protocol",
+            "homepage": "https://github.com/mbrubeck/agate",
+            "license": "MIT/Apache-2.0",
+            "name": "agate-1.2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "agate",
+        "_repo": "pn"
+    },
     "nur.repos.pn.dmenu": {
         "name": "dmenu",
         "pname": "dmenu",
