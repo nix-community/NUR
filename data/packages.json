@@ -112336,9 +112336,9 @@
         "_repo": "xe"
     },
     "nur.repos.xeals.alacritty-ligatures": {
-        "name": "alacritty-ligatures-0.6.0.20201015",
+        "name": "alacritty-ligatures-0.6.0.20201022",
         "pname": "alacritty-ligatures",
-        "version": "0.6.0.20201015",
+        "version": "0.6.0.20201022",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -112394,7 +112394,7 @@
                     "name": "Maximilian Bosch"
                 }
             ],
-            "name": "alacritty-ligatures-0.6.0.20201015",
+            "name": "alacritty-ligatures-0.6.0.20201022",
             "outputsToInstall": [
                 "out"
             ],
@@ -112770,9 +112770,9 @@
         "_repo": "xeals"
     },
     "nur.repos.xeals.protonmail-bridge": {
-        "name": "protonmail-bridge-1.3.2",
+        "name": "protonmail-bridge-1.4.5",
         "pname": "protonmail-bridge",
-        "version": "1.3.2",
+        "version": "1.4.5",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -112793,7 +112793,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "protonmail-bridge-1.3.2",
+            "name": "protonmail-bridge-1.4.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -112833,9 +112833,9 @@
         "_repo": "xeals"
     },
     "nur.repos.xeals.protonmail-bridge-headless": {
-        "name": "protonmail-bridge-headless-1.3.2",
+        "name": "protonmail-bridge-headless-1.4.5",
         "pname": "protonmail-bridge-headless",
-        "version": "1.3.2",
+        "version": "1.4.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -112855,7 +112855,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "protonmail-bridge-headless-1.3.2",
+            "name": "protonmail-bridge-headless-1.4.5",
             "outputsToInstall": [
                 "out"
             ],
