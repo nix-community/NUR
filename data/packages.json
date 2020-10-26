@@ -76903,9 +76903,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.debugpy": {
-        "name": "python3.8-debugpy-1.0.0",
+        "name": "python3.8-debugpy-1.1.0",
         "pname": "python3.8-debugpy",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76942,7 +76942,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "python3.8-debugpy-1.0.0",
+            "name": "python3.8-debugpy-1.1.0",
             "outputsToInstall": [
                 "out"
             ],
