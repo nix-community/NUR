@@ -87427,6 +87427,24 @@
         "_attr": "dwmblocks",
         "_repo": "pn"
     },
+    "nur.repos.pn.hyperion-rpi3": {
+        "name": "hyperion-rpi3",
+        "pname": "hyperion-rpi3",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Hyperion is an open source ambient light software. Feel free to join us and contribute new features!",
+            "homepage": "https://hyperion-project.org/",
+            "name": "hyperion-rpi3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "hyperion-rpi3",
+        "_repo": "pn"
+    },
     "nur.repos.pn.larbs-mail": {
         "name": "larbs-mail",
         "pname": "larbs-mail",
