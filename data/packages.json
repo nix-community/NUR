@@ -35431,6 +35431,210 @@
         "_attr": "lsd",
         "_repo": "bendlas"
     },
+    "nur.repos.berbiche.mpvpaper": {
+        "name": "mpvpaper-1.0",
+        "pname": "mpvpaper",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A wallpaper program for wlroots based Wayland compositors that\nallows you to play videos with mpv as your wallpaper\n",
+            "homepage": "https://github.com/GhostNaN/mpvpaper",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainer": [
+                {
+                    "email": "nicolas@normie.dev",
+                    "github": "berbiche",
+                    "githubId": 20448408,
+                    "keys": [
+                        {
+                            "fingerprint": "D446 E58D 87A0 31C7 EC15  88D7 B461 2924 45C6 E696",
+                            "longkeyid": "rsa4096/0xB461292445C6E696"
+                        }
+                    ],
+                    "name": "Nicolas Berbiche"
+                }
+            ],
+            "name": "mpvpaper-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platform": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/berbiche"
+        },
+        "_attr": "mpvpaper",
+        "_repo": "berbiche"
+    },
+    "nur.repos.berbiche.waylock": {
+        "name": "waylock-0.3.3",
+        "pname": "waylock",
+        "version": "0.3.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A simple screenlocker for Wayland compositors.",
+            "homepage": "https://github.com/ifreund/waylock",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainer": [
+                {
+                    "email": "nicolas@normie.dev",
+                    "github": "berbiche",
+                    "githubId": 20448408,
+                    "keys": [
+                        {
+                            "fingerprint": "D446 E58D 87A0 31C7 EC15  88D7 B461 2924 45C6 E696",
+                            "longkeyid": "rsa4096/0xB461292445C6E696"
+                        }
+                    ],
+                    "name": "Nicolas Berbiche"
+                }
+            ],
+            "name": "waylock-0.3.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/berbiche"
+        },
+        "_attr": "waylock",
+        "_repo": "berbiche"
+    },
+    "nur.repos.berbiche.wlclock": {
+        "name": "wlclock-1.0.0",
+        "pname": "wlclock",
+        "version": "1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A digital analog clock for Wayland desktops.",
+            "homepage": "https://github.com/Leon-Plickat/wlclock",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainer": [
+                {
+                    "email": "nicolas@normie.dev",
+                    "github": "berbiche",
+                    "githubId": 20448408,
+                    "keys": [
+                        {
+                            "fingerprint": "D446 E58D 87A0 31C7 EC15  88D7 B461 2924 45C6 E696",
+                            "longkeyid": "rsa4096/0xB461292445C6E696"
+                        }
+                    ],
+                    "name": "Nicolas Berbiche"
+                }
+            ],
+            "name": "wlclock-1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platform": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/berbiche"
+        },
+        "_attr": "wlclock",
+        "_repo": "berbiche"
+    },
+    "nur.repos.berbiche.wlr-sunclock": {
+        "name": "wlr-sunclock-unstable-2020-08-28",
+        "pname": "wlr-sunclock-unstable",
+        "version": "2020-08-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Wayland desktop widget to show the sun's shadows on earth",
+            "homepage": "https://github.com/sentriz/wlr-sunclock",
+            "license": {
+                "fullName": "GNU Lesser General Public License v3.0 only",
+                "shortName": "lgpl3Only",
+                "spdxId": "LGPL-3.0-only",
+                "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+            },
+            "maintainer": [
+                {
+                    "email": "nicolas@normie.dev",
+                    "github": "berbiche",
+                    "githubId": 20448408,
+                    "keys": [
+                        {
+                            "fingerprint": "D446 E58D 87A0 31C7 EC15  88D7 B461 2924 45C6 E696",
+                            "longkeyid": "rsa4096/0xB461292445C6E696"
+                        }
+                    ],
+                    "name": "Nicolas Berbiche"
+                }
+            ],
+            "name": "wlr-sunclock-unstable-2020-08-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platform": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/berbiche"
+        },
+        "_attr": "wlr-sunclock",
+        "_repo": "berbiche"
+    },
     "nur.repos.bhipple.gmpydl": {
         "name": "gmpydl-2019-09-12",
         "pname": "gmpydl",
