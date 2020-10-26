@@ -93895,6 +93895,22 @@
         "_attr": "firefox-addons.linkhints",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.materia-theme": {
+        "name": "materia-theme-2020-09-28",
+        "pname": "materia-theme",
+        "version": "2020-09-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "materia-theme-2020-09-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee"
+        },
+        "_attr": "materia-theme",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons.matte-black-red": {
         "name": "matte-black-red-2020.10.20",
         "pname": "matte-black-red",
