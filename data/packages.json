@@ -620,9 +620,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages.rtl8723bu": {
-        "name": "rtl8723bu-5.4.70-2020-04-05",
+        "name": "rtl8723bu-5.4.72-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.4.70-2020-04-05",
+        "version": "5.4.72-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -647,7 +647,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.4.70-2020-04-05",
+            "name": "rtl8723bu-5.4.72-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -670,9 +670,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages_latest.rtl8723bu": {
-        "name": "rtl8723bu-5.8.14-2020-04-05",
+        "name": "rtl8723bu-5.9.1-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.8.14-2020-04-05",
+        "version": "5.9.1-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -697,7 +697,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.8.14-2020-04-05",
+            "name": "rtl8723bu-5.9.1-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -48220,9 +48220,9 @@
         "_repo": "htr"
     },
     "nur.repos.htr.pwnPythonEnv": {
-        "name": "python3-3.8.5-env",
+        "name": "python3-3.8.6-env",
         "pname": "python3",
-        "version": "3.8.5-env",
+        "version": "3.8.6-env",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48243,7 +48243,7 @@
                     "name": "Frederik Rietdijk"
                 }
             ],
-            "name": "python3-3.8.5",
+            "name": "python3-3.8.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -49161,13 +49161,13 @@
         "_repo": "immae"
     },
     "nur.repos.immae.notmuch-python3": {
-        "name": "notmuch-python3-3.8.5-0.31",
+        "name": "notmuch-python3-3.8.6-0.31",
         "pname": "notmuch-python3",
-        "version": "3.8.5-0.31",
+        "version": "3.8.6-0.31",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "notmuch-python3-3.8.5-0.31",
+            "name": "notmuch-python3-3.8.6-0.31",
             "outputsToInstall": [
                 "out"
             ],
@@ -49708,9 +49708,9 @@
         "_repo": "immae"
     },
     "nur.repos.immae.rrsync_sudo": {
-        "name": "rrsync-3.1.3",
+        "name": "rrsync-3.2.3",
         "pname": "rrsync",
-        "version": "3.1.3",
+        "version": "3.2.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49730,7 +49730,7 @@
                     "name": "Arnold Krille"
                 }
             ],
-            "name": "rrsync-3.1.3",
+            "name": "rrsync-3.2.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -71347,9 +71347,9 @@
         "_repo": "kapack"
     },
     "nur.repos.kapack.glibc-batsky": {
-        "name": "glibc-2.31",
+        "name": "glibc-2.32",
         "pname": "glibc",
-        "version": "2.31",
+        "version": "2.32",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -71368,9 +71368,15 @@
                     "github": "edolstra",
                     "githubId": 1148549,
                     "name": "Eelco Dolstra"
+                },
+                {
+                    "email": "maximilian@mbosch.me",
+                    "github": "ma27",
+                    "githubId": 6025220,
+                    "name": "Maximilian Bosch"
                 }
             ],
-            "name": "glibc-2.31",
+            "name": "glibc-2.32",
             "outputsToInstall": [
                 "bin"
             ],
@@ -75119,9 +75125,9 @@
         "_repo": "makefu"
     },
     "nur.repos.makefu.devpi-web": {
-        "name": "python3-3.8.5-env",
+        "name": "python3-3.8.6-env",
         "pname": "python3",
-        "version": "3.8.5-env",
+        "version": "3.8.6-env",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75142,7 +75148,7 @@
                     "name": "Frederik Rietdijk"
                 }
             ],
-            "name": "python3-3.8.5",
+            "name": "python3-3.8.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -82811,6 +82817,7 @@
                 "riscv64-linux",
                 "alpha-linux"
             ],
+            "broken": false,
             "description": "Debugging and profiling tool suite",
             "homepage": "http://www.valgrind.org/",
             "license": {
@@ -107630,9 +107637,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-1.5-5.4.70",
+        "name": "v4l2loopback-dc-1.5-5.4.72",
         "pname": "v4l2loopback-dc",
-        "version": "1.5-5.4.70",
+        "version": "1.5-5.4.72",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -107658,7 +107665,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-1.5-5.4.70",
+            "name": "v4l2loopback-dc-1.5-5.4.72",
             "outputsToInstall": [
                 "out"
             ],
