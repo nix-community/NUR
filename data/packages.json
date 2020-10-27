@@ -47163,9 +47163,9 @@
         "_repo": "genesis"
     },
     "nur.repos.genesis.navit": {
-        "name": "navit-unstable-2020-07-09",
+        "name": "navit-unstable-2020-14-10",
         "pname": "navit-unstable",
-        "version": "2020-07-09",
+        "version": "2020-14-10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47185,7 +47185,7 @@
                     "name": "Ronan Bignaux"
                 }
             ],
-            "name": "navit-unstable-2020-07-09",
+            "name": "navit-unstable-2020-14-10",
             "outputsToInstall": [
                 "out"
             ],
@@ -47209,6 +47209,51 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
         },
         "_attr": "navit",
+        "_repo": "genesis"
+    },
+    "nur.repos.genesis.frida-compile": {
+        "name": "node_frida-compile-10.0.0",
+        "pname": "node_frida-compile",
+        "version": "10.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Compile a Frida script comprised of one or more Node.js modules",
+            "homepage": "https://github.com/frida/frida-compile",
+            "license": {
+                "fullName": "wxWindows Library Licence, Version 3.1",
+                "shortName": "wxWindows",
+                "spdxId": "wxWindows",
+                "url": "https://spdx.org/licenses/wxWindows.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ronan@aimao.org",
+                    "github": "bignaux",
+                    "githubId": 149484,
+                    "name": "Ronan Bignaux"
+                }
+            ],
+            "name": "node_frida-compile-10.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
+        },
+        "_attr": "frida-compile",
         "_repo": "genesis"
     },
     "nur.repos.genesis.nsntrace": {
