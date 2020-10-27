@@ -92096,9 +92096,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.21",
+        "name": "darkreader-4.9.22",
         "pname": "darkreader",
-        "version": "4.9.21",
+        "version": "4.9.22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92110,7 +92110,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.21",
+            "name": "darkreader-4.9.22",
             "outputsToInstall": [
                 "out"
             ],
@@ -93546,9 +93546,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.languagetool": {
-        "name": "languagetool-3.1.13",
+        "name": "languagetool-3.1.14",
         "pname": "languagetool",
-        "version": "3.1.13",
+        "version": "3.1.14",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -93560,7 +93560,7 @@
                 "shortName": "allrightsreserved",
                 "url": "https://languagetool.org/legal/"
             },
-            "name": "languagetool-3.1.13",
+            "name": "languagetool-3.1.14",
             "outputsToInstall": [
                 "out"
             ],
