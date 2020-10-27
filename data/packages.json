@@ -98647,6 +98647,50 @@
         "_attr": "wiiuse",
         "_repo": "shamilton"
     },
+    "nur.repos.sikmir.amethyst-bin": {
+        "name": "Amethyst-0.15.4",
+        "pname": "Amethyst",
+        "version": "0.15.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "Automatic tiling window manager for macOS \u00e0 la xmonad",
+            "homepage": "https://ianyh.com/amethyst/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "Amethyst-0.15.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
+        },
+        "_attr": "amethyst-bin",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.anki-bin": {
         "name": "anki-2.1.35",
         "pname": "anki",
@@ -106188,6 +106232,50 @@
             }
         },
         "_attr": "xfractint",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.yabai": {
+        "name": "yabai-3.3.0",
+        "pname": "yabai",
+        "version": "3.3.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "description": "A tiling window manager for macOS based on binary space partitioning",
+            "homepage": "https://github.com/koekeishiya/yabai",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "yabai-3.3.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "yabai",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.zdict": {
