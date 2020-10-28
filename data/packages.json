@@ -87181,7 +87181,8 @@
         "version": "2020-08-25",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
+            "available": false,
+            "broken": true,
             "description": "A Matrix homeserver written in Rust",
             "homepage": "https://conduit.rs",
             "license": {
