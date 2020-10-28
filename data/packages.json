@@ -92148,9 +92148,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.darkreader": {
-        "name": "darkreader-4.9.22",
+        "name": "darkreader-4.9.23",
         "pname": "darkreader",
-        "version": "4.9.22",
+        "version": "4.9.23",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92162,7 +92162,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "darkreader-4.9.22",
+            "name": "darkreader-4.9.23",
             "outputsToInstall": [
                 "out"
             ],
@@ -94274,21 +94274,15 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-6.1.5",
+        "name": "octotree-6.1.6",
         "pname": "octotree",
-        "version": "6.1.5",
+        "version": "6.1.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "GitHub on steroids",
             "homepage": "https://github.com/buunguyen/octotree/",
-            "license": {
-                "fullName": "GNU Affero General Public License v3.0 only",
-                "shortName": "agpl3Only",
-                "spdxId": "AGPL-3.0-only",
-                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
-            },
-            "name": "octotree-6.1.5",
+            "name": "octotree-6.1.6",
             "outputsToInstall": [
                 "out"
             ],
