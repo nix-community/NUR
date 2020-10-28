@@ -47211,15 +47211,15 @@
         "_attr": "navit",
         "_repo": "genesis"
     },
-    "nur.repos.genesis.frida-compile": {
-        "name": "node_frida-compile-10.0.0",
-        "pname": "node_frida-compile",
-        "version": "10.0.0",
+    "nur.repos.genesis.frida-agent-example": {
+        "name": "node_frida-agent-example-1.0.0",
+        "pname": "node_frida-agent-example",
+        "version": "1.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Compile a Frida script comprised of one or more Node.js modules",
-            "homepage": "https://github.com/frida/frida-compile",
+            "description": "Example Frida agent written in TypeScript",
+            "homepage": "https://github.com/oleavr/frida-agent-example/",
             "license": {
                 "fullName": "wxWindows Library Licence, Version 3.1",
                 "shortName": "wxWindows",
@@ -47234,7 +47234,7 @@
                     "name": "Ronan Bignaux"
                 }
             ],
-            "name": "node_frida-compile-10.0.0",
+            "name": "node_frida-agent-example-1.0.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -47253,7 +47253,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/genesis"
         },
-        "_attr": "frida-compile",
+        "_attr": "frida-agent-example",
         "_repo": "genesis"
     },
     "nur.repos.genesis.nsntrace": {
@@ -47814,9 +47814,9 @@
         "_repo": "genesis"
     },
     "nur.repos.genesis.xlink-kai": {
-        "name": "xlink-kai-7.4.38",
+        "name": "xlink-kai-7.4.39",
         "pname": "xlink-kai",
-        "version": "7.4.38",
+        "version": "7.4.39",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -47836,7 +47836,7 @@
                     "name": "Ronan Bignaux"
                 }
             ],
-            "name": "xlink-kai-7.4.38",
+            "name": "xlink-kai-7.4.39",
             "outputsToInstall": [
                 "out"
             ],
