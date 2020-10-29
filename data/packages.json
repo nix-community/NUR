@@ -100765,12 +100765,13 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-bin": {
-        "name": "gpxsee-7.33",
+        "name": "gpxsee-7.35",
         "pname": "gpxsee",
-        "version": "7.33",
+        "version": "7.35",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
+            "changelog": "https://build.opensuse.org/package/view_file/home:tumic:GPXSee/gpxsee/gpxsee.changes",
             "description": "GPS log file viewer and analyzer",
             "homepage": "https://www.gpxsee.org",
             "license": {
@@ -100793,7 +100794,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-7.33",
+            "name": "gpxsee-7.35",
             "outputsToInstall": [
                 "out"
             ],
@@ -100902,6 +100903,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
+            "changelog": "https://build.opensuse.org/package/view_file/home:tumic:GPXSee/gpxsee/gpxsee.changes",
             "description": "GPS log file viewer and analyzer",
             "homepage": "https://www.gpxsee.org",
             "license": {
@@ -103066,9 +103068,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper-bin": {
-        "name": "Openorienteering-Mapper-0.9.4",
+        "name": "Openorienteering-Mapper-20201026.1",
         "pname": "Openorienteering-Mapper",
-        "version": "0.9.4",
+        "version": "20201026.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -103094,7 +103096,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "Openorienteering-Mapper-0.9.4",
+            "name": "Openorienteering-Mapper-20201026.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -108509,63 +108511,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tinybeachthor"
         },
         "_attr": "cabbage",
-        "_repo": "tinybeachthor"
-    },
-    "nur.repos.tinybeachthor.i3status-rust": {
-        "name": "i3status-rust-0.14.1",
-        "pname": "i3status-rust",
-        "version": "0.14.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Very resource-friendly and feature-rich replacement for i3status",
-            "homepage": "https://github.com/greshake/i3status-rust",
-            "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "maintainers": [
-                {
-                    "email": "biethb@gmail.com",
-                    "github": "backuitist",
-                    "githubId": 1017537,
-                    "name": "Bruno Bieth"
-                },
-                {
-                    "email": "mail@glob.in",
-                    "github": "globin",
-                    "githubId": 1447245,
-                    "name": "Robin Gloster"
-                },
-                {
-                    "email": "maximilian@mbosch.me",
-                    "github": "ma27",
-                    "githubId": 6025220,
-                    "name": "Maximilian Bosch"
-                }
-            ],
-            "name": "i3status-rust-0.14.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tinybeachthor"
-        },
-        "_attr": "i3status-rust",
         "_repo": "tinybeachthor"
     },
     "nur.repos.tinybeachthor.operator-sdk": {
