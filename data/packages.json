@@ -93174,9 +93174,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.honey": {
-        "name": "honey-12.4.4",
+        "name": "honey-12.4.5",
         "pname": "honey",
-        "version": "12.4.4",
+        "version": "12.4.5",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -93188,7 +93188,7 @@
                 "shortName": "honeyl",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/honey/license/"
             },
-            "name": "honey-12.4.4",
+            "name": "honey-12.4.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -93733,9 +93733,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.leechblock-ng": {
-        "name": "leechblock-ng-1.0.7.1",
+        "name": "leechblock-ng-1.0.7.2",
         "pname": "leechblock-ng",
-        "version": "1.0.7.1",
+        "version": "1.0.7.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93747,7 +93747,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "leechblock-ng-1.0.7.1",
+            "name": "leechblock-ng-1.0.7.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -94269,15 +94269,15 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-6.1.6",
+        "name": "octotree-6.1.7",
         "pname": "octotree",
-        "version": "6.1.6",
+        "version": "6.1.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "GitHub on steroids",
             "homepage": "https://github.com/buunguyen/octotree/",
-            "name": "octotree-6.1.6",
+            "name": "octotree-6.1.7",
             "outputsToInstall": [
                 "out"
             ],
