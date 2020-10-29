@@ -108511,6 +108511,63 @@
         "_attr": "cabbage",
         "_repo": "tinybeachthor"
     },
+    "nur.repos.tinybeachthor.i3status-rust": {
+        "name": "i3status-rust-0.14.1",
+        "pname": "i3status-rust",
+        "version": "0.14.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Very resource-friendly and feature-rich replacement for i3status",
+            "homepage": "https://github.com/greshake/i3status-rust",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "biethb@gmail.com",
+                    "github": "backuitist",
+                    "githubId": 1017537,
+                    "name": "Bruno Bieth"
+                },
+                {
+                    "email": "mail@glob.in",
+                    "github": "globin",
+                    "githubId": 1447245,
+                    "name": "Robin Gloster"
+                },
+                {
+                    "email": "maximilian@mbosch.me",
+                    "github": "ma27",
+                    "githubId": 6025220,
+                    "name": "Maximilian Bosch"
+                }
+            ],
+            "name": "i3status-rust-0.14.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tinybeachthor"
+        },
+        "_attr": "i3status-rust",
+        "_repo": "tinybeachthor"
+    },
     "nur.repos.tinybeachthor.operator-sdk": {
         "name": "operator-sdk-0.16.0",
         "pname": "operator-sdk",
