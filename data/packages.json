@@ -94096,9 +94096,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-8.1.2",
+        "name": "metamask-8.1.3",
         "pname": "metamask",
-        "version": "8.1.2",
+        "version": "8.1.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94109,7 +94109,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-8.1.2",
+            "name": "metamask-8.1.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -95099,9 +95099,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-23.2",
+        "name": "save-page-we-23.3",
         "pname": "save-page-we",
-        "version": "23.2",
+        "version": "23.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -95112,7 +95112,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-23.2",
+            "name": "save-page-we-23.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -95238,9 +95238,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.snowflake": {
-        "name": "snowflake-0.4.2",
+        "name": "snowflake-0.5.1",
         "pname": "snowflake",
-        "version": "0.4.2",
+        "version": "0.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -95252,7 +95252,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "snowflake-0.4.2",
+            "name": "snowflake-0.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -96355,9 +96355,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.zoom-page-we": {
-        "name": "zoom-page-we-17.9",
+        "name": "zoom-page-we-17.10",
         "pname": "zoom-page-we",
-        "version": "17.9",
+        "version": "17.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96368,7 +96368,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "zoom-page-we-17.9",
+            "name": "zoom-page-we-17.10",
             "outputsToInstall": [
                 "out"
             ],
