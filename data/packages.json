@@ -99504,9 +99504,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-10-23",
+        "name": "embox-unstable-2020-10-27",
         "pname": "embox-unstable",
-        "version": "2020-10-23",
+        "version": "2020-10-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99532,7 +99532,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-10-23",
+            "name": "embox-unstable-2020-10-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -100963,9 +100963,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-10-22",
+        "name": "gpxsee-unstable-2020-10-27",
         "pname": "gpxsee-unstable",
-        "version": "2020-10-22",
+        "version": "2020-10-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -100992,7 +100992,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-10-22",
+            "name": "gpxsee-unstable-2020-10-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -101865,14 +101865,14 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.klogg": {
-        "name": "klogg-unstable-2020-10-23",
+        "name": "klogg-unstable-2020-10-27",
         "pname": "klogg-unstable",
-        "version": "2020-10-23",
+        "version": "2020-10-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "A fast, advanced log explorer based on glogg project",
-            "homepage": "https://github.com/variar/klogg",
+            "homepage": "https://klogg.filimonov.dev/",
             "license": {
                 "fullName": "GNU General Public License v3.0 or later",
                 "shortName": "gpl3Plus",
@@ -101893,7 +101893,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "klogg-unstable-2020-10-23",
+            "name": "klogg-unstable-2020-10-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -102349,9 +102349,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-10-23",
+        "name": "maptourist-2020-10-27",
         "pname": "maptourist",
-        "version": "2020-10-23",
+        "version": "2020-10-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -102375,7 +102375,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-10-23",
+            "name": "maptourist-2020-10-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -103178,9 +103178,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-10-23",
+        "name": "OpenOrienteering-Mapper-unstable-2020-10-26",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-10-23",
+        "version": "2020-10-26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -103206,7 +103206,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-10-23",
+            "name": "OpenOrienteering-Mapper-unstable-2020-10-26",
             "outputsToInstall": [
                 "out"
             ],
@@ -105607,9 +105607,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.stardict-tools": {
-        "name": "stardict-tools-unstable-2019-12-09",
+        "name": "stardict-tools-unstable-2020-10-27",
         "pname": "stardict-tools-unstable",
-        "version": "2019-12-09",
+        "version": "2020-10-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -105636,7 +105636,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "stardict-tools-unstable-2019-12-09",
+            "name": "stardict-tools-unstable-2020-10-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -105820,9 +105820,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.taginfo-tools": {
-        "name": "taginfo-tools-unstable-2020-08-27",
+        "name": "taginfo-tools-unstable-2020-10-28",
         "pname": "taginfo-tools-unstable",
-        "version": "2020-08-27",
+        "version": "2020-10-28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -105848,7 +105848,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "taginfo-tools-unstable-2020-08-27",
+            "name": "taginfo-tools-unstable-2020-10-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -105885,9 +105885,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tatoebatools": {
-        "name": "tatoebatools-unstable-2015-08-04",
+        "name": "tatoebatools-unstable-2020-10-29",
         "pname": "tatoebatools-unstable",
-        "version": "2015-08-04",
+        "version": "2020-10-29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -105930,7 +105930,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tatoebatools-unstable-2015-08-04",
+            "name": "tatoebatools-unstable-2020-10-29",
             "outputsToInstall": [
                 "out"
             ],
@@ -106330,7 +106330,10 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            }
         },
         "_attr": "yabai",
         "_repo": "sikmir"
