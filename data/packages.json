@@ -90030,7 +90030,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Use WebSockets with C<IO::Async>",
+            "description": "Use WebSockets with IO::Async",
             "homepage": "https://metacpan.org/release/Net-Async-WebSocket",
             "license": [
                 {
@@ -90044,6 +90044,14 @@
                     "shortName": "gpl1Plus",
                     "spdxId": "GPL-1.0-or-later",
                     "url": "https://spdx.org/licenses/GPL-1.0-or-later.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "zakame@zakame.net",
+                    "github": "zakame",
+                    "githubId": 110625,
+                    "name": "Zak B. Elep"
                 }
             ],
             "name": "perl5.32.0-Net-Async-WebSocket-0.13",
