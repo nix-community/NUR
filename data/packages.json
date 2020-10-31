@@ -37552,16 +37552,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.eslint": {
-        "name": "node_eslint-7.11.0",
+        "name": "node_eslint-7.12.1",
         "pname": "node_eslint",
-        "version": "7.11.0",
+        "version": "7.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "An AST-based pattern checker for JavaScript.",
             "homepage": "https://eslint.org/",
             "license": "MIT",
-            "name": "node_eslint-7.11.0",
+            "name": "node_eslint-7.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -37626,16 +37626,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.10.1",
+        "name": "node_pnpm-5.10.2",
         "pname": "node_pnpm",
-        "version": "5.10.1",
+        "version": "5.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Fast, disk space efficient package manager",
             "homepage": "https://pnpm.js.org/",
             "license": "MIT",
-            "name": "node_pnpm-5.10.1",
+            "name": "node_pnpm-5.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -37702,16 +37702,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.typescript": {
-        "name": "node_typescript-4.0.3",
+        "name": "node_typescript-4.0.5",
         "pname": "node_typescript",
-        "version": "4.0.3",
+        "version": "4.0.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "TypeScript is a language for application scale JavaScript development",
             "homepage": "https://www.typescriptlang.org/",
             "license": "Apache-2.0",
-            "name": "node_typescript-4.0.3",
+            "name": "node_typescript-4.0.5",
             "outputsToInstall": [
                 "out"
             ],
