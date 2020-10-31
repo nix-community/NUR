@@ -2630,7 +2630,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'applications', 'misc', 'st', 'default.nix')#L33"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'applications', 'terminal-emulators', 'st', 'default.nix')#L33"
         },
         "_attr": "pkgs.st-bb010g-unstable",
         "_repo": "bb010g"
@@ -2679,7 +2679,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'applications', 'misc', 'st', 'default.nix')#L33"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/bb010g('nixpkgs', 'pkgs', 'applications', 'terminal-emulators', 'st', 'default.nix')#L33"
         },
         "_attr": "pkgs.st-unstable",
         "_repo": "bb010g"
@@ -112966,7 +112966,7 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xeals('nixpkgs', 'pkgs', 'applications', 'misc', 'alacritty', 'default.nix')#L136"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xeals('nixpkgs', 'pkgs', 'applications', 'terminal-emulators', 'alacritty', 'default.nix')#L136"
         },
         "_attr": "alacritty-ligatures",
         "_repo": "xeals"
