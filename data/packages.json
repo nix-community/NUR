@@ -99607,9 +99607,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-10-31",
+        "name": "embox-unstable-2020-11-02",
         "pname": "embox-unstable",
-        "version": "2020-10-31",
+        "version": "2020-11-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99635,7 +99635,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-10-31",
+            "name": "embox-unstable-2020-11-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -101066,9 +101066,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-10-28",
+        "name": "gpxsee-unstable-2020-11-02",
         "pname": "gpxsee-unstable",
-        "version": "2020-10-28",
+        "version": "2020-11-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -101095,7 +101095,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-10-28",
+            "name": "gpxsee-unstable-2020-11-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -101445,6 +101445,71 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "gt4gd",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.gurl": {
+        "name": "gurl-unstable-2020-09-19",
+        "pname": "gurl-unstable",
+        "version": "2020-09-19",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A curl-like cli application to interact with Gemini sites",
+            "homepage": "https://github.com/MasterQ32/gurl",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "gurl-unstable-2020-09-19",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "gurl",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.hfst": {
@@ -101965,6 +102030,77 @@
             }
         },
         "_attr": "iterm2-bin",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.kiln": {
+        "name": "kiln-unstable-2020-11-02",
+        "pname": "kiln-unstable",
+        "version": "2020-11-02",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A simple static site generator for Gemini",
+            "homepage": "https://git.sr.ht/~adnano/kiln",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "kiln-unstable-2020-11-02",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "kiln",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.klogg": {
@@ -102837,9 +102973,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-unstable-2020-11-01",
+        "name": "nakarte-unstable-2020-11-02",
         "pname": "nakarte-unstable",
-        "version": "2020-11-01",
+        "version": "2020-11-02",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -102866,7 +103002,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-unstable-2020-11-01",
+            "name": "nakarte-unstable-2020-11-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -103820,9 +103956,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.pvs-studio": {
-        "name": "pvs-studio-7.09.41189.57",
+        "name": "pvs-studio-7.09.42228.74",
         "pname": "pvs-studio",
-        "version": "7.09.41189.57",
+        "version": "7.09.42228.74",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -103847,7 +103983,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "pvs-studio-7.09.41189.57",
+            "name": "pvs-studio-7.09.42228.74",
             "outputsToInstall": [
                 "out"
             ],
@@ -105378,77 +105514,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
         },
         "_attr": "shavit",
-        "_repo": "sikmir"
-    },
-    "nur.repos.sikmir.kiln": {
-        "name": "shavit-unstable-2020-10-14",
-        "pname": "shavit-unstable",
-        "version": "2020-10-14",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A simple static site generator for Gemini",
-            "homepage": "https://git.sr.ht/~adnano/kiln",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "sikmir@gmail.com",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
-                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
-                        }
-                    ],
-                    "name": "Nikolay Korotkiy"
-                },
-                {
-                    "email": "wael.nasreddine@gmail.com",
-                    "github": "kalbasit",
-                    "githubId": 87115,
-                    "name": "Wael Nasreddine"
-                }
-            ],
-            "name": "shavit-unstable-2020-10-14",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
-        },
-        "_attr": "kiln",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.slazav-hr": {
