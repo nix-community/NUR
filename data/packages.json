@@ -77050,259 +77050,6 @@
         "_attr": "protontricks",
         "_repo": "metadark"
     },
-    "nur.repos.metadark.debugpy": {
-        "name": "python3.8-debugpy-1.1.0",
-        "pname": "python3.8-debugpy",
-        "version": "1.1.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "An implementation of the Debug Adapter Protocol for Python",
-            "homepage": "https://github.com/microsoft/debugpy",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@gmail.com",
-                    "github": "metadark",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "python3.8-debugpy-1.1.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux",
-                "i686-linux",
-                "x86_64-darwin",
-                "i686-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
-        },
-        "_attr": "debugpy",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.pygls": {
-        "name": "python3.8-pygls-0.9.1",
-        "pname": "python3.8-pygls",
-        "version": "0.9.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Pythonic generic implementation of the Language Server Protocol",
-            "homepage": "https://github.com/openlawlibrary/pygls",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@gmail.com",
-                    "github": "metadark",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "python3.8-pygls-0.9.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
-        },
-        "_attr": "pygls",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.pytest-datadir": {
-        "name": "python3.8-pytest-datadir-1.3.1",
-        "pname": "python3.8-pytest-datadir",
-        "version": "1.3.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "pytest plugin for manipulating test data directories and files",
-            "homepage": "https://github.com/gabrielcnr/pytest-datadir",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@gmail.com",
-                    "github": "metadark",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "python3.8-pytest-datadir-1.3.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
-        },
-        "_attr": "pytest-datadir",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.vdf": {
-        "name": "python3.8-vdf-3.3",
-        "pname": "python3.8-vdf",
-        "version": "3.3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Library for working with Valve's VDF text format",
-            "homepage": "https://github.com/ValvePython/vdf",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@gmail.com",
-                    "github": "metadark",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "python3.8-vdf-3.3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
-        },
-        "_attr": "vdf",
-        "_repo": "metadark"
-    },
     "nur.repos.metadark.rofi-wayland": {
         "name": "rofi-unstable-2020-10-18",
         "pname": "rofi-unstable",
@@ -77701,32 +77448,6 @@
         "_attr": "VVVVVV-unwrapped",
         "_repo": "metadark"
     },
-    "nur.repos.metadark.wine-eac": {
-        "name": "wine-eac",
-        "pname": "wine-eac",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A custom fork of Wine to support games with Easy Anti-Cheat",
-            "homepage": "https://github.com/Guy1524/wine",
-            "maintainer": [
-                {
-                    "email": "kira.bruneau@gmail.com",
-                    "github": "metadark",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "wine-eac",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark"
-        },
-        "_attr": "wine-eac",
-        "_repo": "metadark"
-    },
     "nur.repos.metadark.xpadneo": {
         "name": "xpadneo-0.8.4",
         "pname": "xpadneo",
@@ -77779,8 +77500,8 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "High quality software synthesizer",
-            "homepage": "https://zynaddsubfx.sourceforge.io",
+            "description": "High quality software synthesizer (Zyn-Fusion GUI)",
+            "homepage": "https://zynaddsubfx.sourceforge.io/zyn-fusion.html",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
                 "shortName": "gpl2Only",
@@ -77836,7 +77557,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "High quality software synthesizer",
+            "description": "High quality software synthesizer (FLTK GUI)",
             "homepage": "https://zynaddsubfx.sourceforge.io",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
@@ -77893,7 +77614,7 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "High quality software synthesizer",
+            "description": "High quality software synthesizer (NTK GUI)",
             "homepage": "https://zynaddsubfx.sourceforge.io",
             "license": {
                 "fullName": "GNU General Public License v2.0 only",
