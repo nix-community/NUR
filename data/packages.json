@@ -93699,9 +93699,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.keepassxc-browser": {
-        "name": "keepassxc-browser-1.7.1",
+        "name": "keepassxc-browser-1.7.2",
         "pname": "keepassxc-browser",
-        "version": "1.7.1",
+        "version": "1.7.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93713,7 +93713,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "keepassxc-browser-1.7.1",
+            "name": "keepassxc-browser-1.7.2",
             "outputsToInstall": [
                 "out"
             ],
