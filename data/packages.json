@@ -83601,6 +83601,30 @@
         "_attr": "hassLovelaceModules.rmv-card",
         "_repo": "mweinelt"
     },
+    "nur.repos.mweinelt.hassLovelaceModules.swipe-navigation": {
+        "name": "swipe-navigation-1.2.8",
+        "pname": "swipe-navigation",
+        "version": "1.2.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Swipe through Lovelace views on mobile",
+            "homepage": "https://github.com/maykar/lovelace-swipe-navigation",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "swipe-navigation-1.2.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt"
+        },
+        "_attr": "hassLovelaceModules.swipe-navigation",
+        "_repo": "mweinelt"
+    },
     "nur.repos.mweinelt.trinitycore_825": {
         "name": "TrinityCore-8.2.5-32978",
         "pname": "TrinityCore",
