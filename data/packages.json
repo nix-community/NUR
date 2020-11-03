@@ -76700,9 +76700,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.goverlay": {
-        "name": "goverlay-0.3.8",
+        "name": "goverlay-0.4",
         "pname": "goverlay",
-        "version": "0.3.8",
+        "version": "0.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76722,7 +76722,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "goverlay-0.3.8",
+            "name": "goverlay-0.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -77742,6 +77742,14 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@gmail.com",
+                    "github": "metadark",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
             "name": "xpadneo-0.8.4",
             "outputsToInstall": [
                 "out"
