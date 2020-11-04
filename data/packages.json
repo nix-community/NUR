@@ -48815,6 +48815,51 @@
         "_attr": "knobkraft-orm",
         "_repo": "gnidorah"
     },
+    "nur.repos.gnidorah.realrtcw": {
+        "name": "realrtcw-3.1n",
+        "pname": "realrtcw",
+        "version": "3.1n",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "RealRTCW mod based on ioRTCW engine",
+            "homepage": "https://github.com/wolfetplayer/realrtcw",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "gnidorah@users.noreply.github.com",
+                    "github": "gnidorah",
+                    "githubId": 12064730,
+                    "name": "gnidorah"
+                }
+            ],
+            "name": "realrtcw-3.1n",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/gnidorah"
+        },
+        "_attr": "realrtcw",
+        "_repo": "gnidorah"
+    },
     "nur.repos.htr.burpsuite": {
         "name": "burpsuite-2020.8.1",
         "pname": "burpsuite",
