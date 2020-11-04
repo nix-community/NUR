@@ -48383,9 +48383,9 @@
         "_repo": "genesis"
     },
     "nur.repos.genesis.python3Packages.frida": {
-        "name": "python3.8-frida-14.0.5",
+        "name": "python3.8-frida-14.0.6",
         "pname": "python3.8-frida",
-        "version": "14.0.5",
+        "version": "14.0.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48422,7 +48422,7 @@
                     "name": "Ronan Bignaux"
                 }
             ],
-            "name": "python3.8-frida-14.0.5",
+            "name": "python3.8-frida-14.0.6",
             "outputsToInstall": [
                 "out"
             ],
