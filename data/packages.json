@@ -60211,6 +60211,22 @@
         "_attr": "gemget",
         "_repo": "pn"
     },
+    "nur.repos.pn.gemini-vim-syntax": {
+        "name": "gemini-vim-syntax",
+        "pname": "gemini-vim-syntax",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "gemini-vim-syntax",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "gemini-vim-syntax",
+        "_repo": "pn"
+    },
     "nur.repos.pn.gurl": {
         "name": "gurl-0.1",
         "pname": "gurl",
