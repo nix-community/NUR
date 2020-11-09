@@ -59157,6 +59157,22 @@
         "_attr": "gemget",
         "_repo": "pn"
     },
+    "nur.repos.pn.gurl": {
+        "name": "gurl-0.1",
+        "pname": "gurl",
+        "version": "0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "gurl-0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "gurl",
+        "_repo": "pn"
+    },
     "nur.repos.pn.kaios-devenv": {
         "name": "kaios-devenv",
         "pname": "kaios-devenv",
