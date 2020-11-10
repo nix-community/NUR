@@ -63812,6 +63812,30 @@
         "_attr": "ix",
         "_repo": "reedrw"
     },
+    "nur.repos.reedrw.actions-cli": {
+        "name": "node_actions-cli-0.0.36",
+        "pname": "node_actions-cli",
+        "version": "0.0.36",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Monitor your GitHub Actions in real time from the command line",
+            "homepage": "https://github.com/remorses/actions-cli",
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "name": "node_actions-cli-0.0.36",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/reedrw"
+        },
+        "_attr": "actions-cli",
+        "_repo": "reedrw"
+    },
     "nur.repos.reedrw.teletype": {
         "name": "node_teletype-1.3.1",
         "pname": "node_teletype",
