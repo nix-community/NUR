@@ -475,6 +475,11 @@
             "sha256": "0984gkhj6kkg7gvmrjifm13qfcjba26ar77lrhcp6lzhjhy87hpb",
             "url": "https://gitlab01.bsd.services/pwnytail/nur-packages"
         },
+        "qchem": {
+            "rev": "bc0d606b1ee95965b7010d93d8d790f001540f1f",
+            "sha256": "0bj6vk32qxzqmyj3hlw026ldmgc0khi8dwmv9g15n77cphn5zdhh",
+            "url": "https://github.com/markuskowa/NixOS-QChem"
+        },
         "reedrw": {
             "rev": "bc53727b10b5955d7afa91a864e453c4aaca579f",
             "sha256": "0p0mn0jimw6zz32l7gvhisvmmpq8qy0rza53r6xdglg3jdxp0ss0",
