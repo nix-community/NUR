@@ -299,6 +299,10 @@
         "pwnytail": {
             "url": "https://gitlab01.bsd.services/pwnytail/nur-packages"
         },
+        "qchem": {
+            "file": "nur.nix",
+            "url": "https://github.com/markuskowa/NixOS-QChem"
+        },
         "reedrw": {
             "url": "https://github.com/reedrw/nur-packages"
         },
