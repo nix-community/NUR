@@ -59758,38 +59758,6 @@
         "_attr": "snipping_tool",
         "_repo": "onny"
     },
-    "nur.repos.peel.metals": {
-        "name": "metals-0.9.1",
-        "pname": "metals",
-        "version": "0.9.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Work-in-progress language server for Scala",
-            "homepage": "https://scalameta.org/metals/",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kevin.rauscher@tomahna.fr",
-                    "github": "Tomahna",
-                    "githubId": 8577941,
-                    "name": "Kevin Rauscher"
-                }
-            ],
-            "name": "metals-0.9.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/peel"
-        },
-        "_attr": "metals",
-        "_repo": "peel"
-    },
     "nur.repos.peel.scripts": {
         "name": "peel-scripts-1.0.1",
         "pname": "peel-scripts",
