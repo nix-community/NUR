@@ -620,9 +620,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages.rtl8723bu": {
-        "name": "rtl8723bu-5.4.73-2020-04-05",
+        "name": "rtl8723bu-5.4.75-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.4.73-2020-04-05",
+        "version": "5.4.75-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -647,7 +647,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.4.73-2020-04-05",
+            "name": "rtl8723bu-5.4.75-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -670,9 +670,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages_latest.rtl8723bu": {
-        "name": "rtl8723bu-5.9.2-2020-04-05",
+        "name": "rtl8723bu-5.9.6-2020-04-05",
         "pname": "rtl8723bu",
-        "version": "5.9.2-2020-04-05",
+        "version": "5.9.6-2020-04-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -697,7 +697,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.9.2-2020-04-05",
+            "name": "rtl8723bu-5.9.6-2020-04-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -80818,9 +80818,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-1.5-5.4.73",
+        "name": "v4l2loopback-dc-1.5-5.4.75",
         "pname": "v4l2loopback-dc",
-        "version": "1.5-5.4.73",
+        "version": "1.5-5.4.75",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -80846,7 +80846,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-1.5-5.4.73",
+            "name": "v4l2loopback-dc-1.5-5.4.75",
             "outputsToInstall": [
                 "out"
             ],
@@ -81360,13 +81360,13 @@
         "_repo": "tilpner"
     },
     "nur.repos.tilpner.syncthing-short-delay": {
-        "name": "syncthing-1.10.0",
+        "name": "syncthing-1.11.1",
         "pname": "syncthing",
-        "version": "1.10.0",
+        "version": "1.11.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "changelog": "https://github.com/syncthing/syncthing/releases/tag/v1.10.0",
+            "changelog": "https://github.com/syncthing/syncthing/releases/tag/v1.11.1",
             "description": "Open Source Continuous File Synchronization",
             "homepage": "https://syncthing.net/",
             "license": {
@@ -81413,7 +81413,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "syncthing-1.10.0",
+            "name": "syncthing-1.11.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -86222,9 +86222,9 @@
         "_repo": "xeals"
     },
     "nur.repos.xeals.picom-animations": {
-        "name": "picom-animations-8.1",
+        "name": "picom-animations-8.2",
         "pname": "picom-animations",
-        "version": "8.1",
+        "version": "8.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -86257,7 +86257,7 @@
                     "name": "James \u2018Twey\u2019 Kay"
                 }
             ],
-            "name": "picom-animations-8.1",
+            "name": "picom-animations-8.2",
             "outputsToInstall": [
                 "out"
             ],
