@@ -9457,9 +9457,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.docplex": {
-        "name": "python3.8-docplex-2.12.182",
+        "name": "python3.8-docplex-2.16.196",
         "pname": "python3.8-docplex",
-        "version": "2.12.182",
+        "version": "2.16.196",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -9496,7 +9496,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-docplex-2.12.182",
+            "name": "python3.8-docplex-2.16.196",
             "outputsToInstall": [
                 "out"
             ],
@@ -10881,9 +10881,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit": {
-        "name": "python3.8-qiskit-0.23.0",
+        "name": "python3.8-qiskit-0.23.1",
         "pname": "python3.8-qiskit",
-        "version": "0.23.0",
+        "version": "0.23.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10928,7 +10928,7 @@
                     "name": "pandaman"
                 }
             ],
-            "name": "python3.8-qiskit-0.23.0",
+            "name": "python3.8-qiskit-0.23.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -10955,9 +10955,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-aer": {
-        "name": "python3.8-qiskit-aer-0.7.0",
+        "name": "python3.8-qiskit-aer-0.7.1",
         "pname": "python3.8-qiskit-aer",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10996,7 +10996,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-aer-0.7.0",
+            "name": "python3.8-qiskit-aer-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -11023,9 +11023,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-aqua": {
-        "name": "python3.8-qiskit-aqua-0.8.0",
+        "name": "python3.8-qiskit-aqua-0.8.1",
         "pname": "python3.8-qiskit-aqua",
-        "version": "0.8.0",
+        "version": "0.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11063,7 +11063,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-aqua-0.8.0",
+            "name": "python3.8-qiskit-aqua-0.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -11090,9 +11090,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-provider": {
-        "name": "python3.8-qiskit-ibmq-provider-0.11.0",
+        "name": "python3.8-qiskit-ibmq-provider-0.11.1",
         "pname": "python3.8-qiskit-ibmq-provider",
-        "version": "0.11.0",
+        "version": "0.11.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11130,7 +11130,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-ibmq-provider-0.11.0",
+            "name": "python3.8-qiskit-ibmq-provider-0.11.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -11157,9 +11157,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-providerNoVisual": {
-        "name": "python3.8-qiskit-ibmq-provider-0.11.0",
+        "name": "python3.8-qiskit-ibmq-provider-0.11.1",
         "pname": "python3.8-qiskit-ibmq-provider",
-        "version": "0.11.0",
+        "version": "0.11.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11197,7 +11197,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-ibmq-provider-0.11.0",
+            "name": "python3.8-qiskit-ibmq-provider-0.11.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -11224,9 +11224,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ignis": {
-        "name": "python3.8-qiskit-ignis-0.5.0",
+        "name": "python3.8-qiskit-ignis-0.5.1",
         "pname": "python3.8-qiskit-ignis",
-        "version": "0.5.0",
+        "version": "0.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11265,7 +11265,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-ignis-0.5.0",
+            "name": "python3.8-qiskit-ignis-0.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -11292,9 +11292,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-terra": {
-        "name": "python3.8-qiskit-terra-0.16.0",
+        "name": "python3.8-qiskit-terra-0.16.1",
         "pname": "python3.8-qiskit-terra",
-        "version": "0.16.0",
+        "version": "0.16.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11334,7 +11334,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-terra-0.16.0",
+            "name": "python3.8-qiskit-terra-0.16.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -11361,9 +11361,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-terraNoVisual": {
-        "name": "python3.8-qiskit-terra-0.16.0",
+        "name": "python3.8-qiskit-terra-0.16.1",
         "pname": "python3.8-qiskit-terra",
-        "version": "0.16.0",
+        "version": "0.16.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11403,7 +11403,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-terra-0.16.0",
+            "name": "python3.8-qiskit-terra-0.16.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -11696,13 +11696,13 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.retworkx": {
-        "name": "retworkx-0.5.0",
+        "name": "retworkx-0.6.0",
         "pname": "retworkx",
-        "version": "0.5.0",
+        "version": "0.6.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "changelog": "https://github.com/Qiskit/retworkx/releases/tag/0.5.0",
+            "changelog": "https://github.com/Qiskit/retworkx/releases/tag/0.6.0",
             "description": "A python graph library implemented in Rust.",
             "downloadPage": "https://github.com/Qiskit/retworkx/releases",
             "homepage": "https://retworkx.readthedocs.io/en/latest/index.html",
@@ -11720,7 +11720,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "retworkx-0.5.0",
+            "name": "retworkx-0.6.0",
             "outputsToInstall": [
                 "out"
             ],
