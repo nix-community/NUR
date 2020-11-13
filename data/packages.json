@@ -49545,9 +49545,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.libhandy1": {
-        "name": "libhandy1-1.0.1",
+        "name": "libhandy1-1.0.2",
         "pname": "libhandy1",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -49573,7 +49573,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "libhandy1-1.0.1",
+            "name": "libhandy1-1.0.2",
             "outputsToInstall": [
                 "out"
             ],
