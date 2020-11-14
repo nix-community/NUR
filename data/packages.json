@@ -38810,6 +38810,29 @@
         "_attr": "zsh-theme-rkj-mod",
         "_repo": "izorkin"
     },
+    "nur.repos.jakobrs.cpptoml": {
+        "name": "cpptoml-0.1.1",
+        "pname": "cpptoml",
+        "version": "0.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "cpptoml is a header-only library for parsing TOML",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "cpptoml-0.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs"
+        },
+        "_attr": "cpptoml",
+        "_repo": "jakobrs"
+    },
     "nur.repos.jakobrs.n2n": {
         "name": "n2n-2.6",
         "pname": "n2n",
@@ -38889,6 +38912,29 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs"
         },
         "_attr": "mcstatus",
+        "_repo": "jakobrs"
+    },
+    "nur.repos.jakobrs.wireplumber": {
+        "name": "wireplumber-0.3.0",
+        "pname": "wireplumber",
+        "version": "0.3.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Session / policy manager implementation for PipeWire",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "wireplumber-0.3.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs"
+        },
+        "_attr": "wireplumber",
         "_repo": "jakobrs"
     },
     "nur.repos.jbarthelmes.papermc": {
@@ -60534,10 +60580,27 @@
         "_attr": "libthinkpad",
         "_repo": "pn"
     },
+    "nur.repos.pn.ncmpcpp": {
+        "name": "ncmpcpp-0.8.2",
+        "pname": "ncmpcpp",
+        "version": "0.8.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "ncmpcpp with visualizer support",
+            "name": "ncmpcpp-0.8.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "ncmpcpp",
+        "_repo": "pn"
+    },
     "nur.repos.pn.sfg": {
-        "name": "sfg-0.1",
+        "name": "sfg-0.2",
         "pname": "sfg",
-        "version": "0.1",
+        "version": "0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -60552,7 +60615,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "sfg-0.1",
+            "name": "sfg-0.2",
             "outputsToInstall": [
                 "out"
             ],
