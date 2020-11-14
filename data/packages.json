@@ -60534,6 +60534,46 @@
         "_attr": "libthinkpad",
         "_repo": "pn"
     },
+    "nur.repos.pn.sfg": {
+        "name": "sfg-0.1",
+        "pname": "sfg",
+        "version": "0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Tool for generating basic atom feeds from .gmi files. And nothing more.",
+            "homepage": "https://github.com/pniedzwiedzinski/simple-feed-gen",
+            "license": "MIT",
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "sfg-0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "sfg",
+        "_repo": "pn"
+    },
     "nur.repos.pn.simple-mtpfs": {
         "name": "simple-mtpfs-0.4.0",
         "pname": "simple-mtpfs",
