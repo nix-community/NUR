@@ -60242,6 +60242,46 @@
         "_attr": "dockd",
         "_repo": "pn"
     },
+    "nur.repos.pn.duckling-proxy": {
+        "name": "duckling-proxy",
+        "pname": "duckling-proxy",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Duckling proxy is a Gemini proxy to access the Small Web",
+            "homepage": "https://github.com/LukeEmmet/duckling-proxy",
+            "license": "MIT",
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "duckling-proxy",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/pn"
+        },
+        "_attr": "duckling-proxy",
+        "_repo": "pn"
+    },
     "nur.repos.pn.dwm": {
         "name": "dwm",
         "pname": "dwm",
