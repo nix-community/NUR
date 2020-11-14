@@ -38834,9 +38834,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.n2n": {
-        "name": "n2n-2.6",
+        "name": "n2n-2.8",
         "pname": "n2n",
-        "version": "2.6",
+        "version": "2.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -38848,7 +38848,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "n2n-2.6",
+            "name": "n2n-2.8",
             "outputsToInstall": [
                 "out"
             ],
