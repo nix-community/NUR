@@ -72665,9 +72665,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-11-12",
+        "name": "embox-unstable-2020-11-15",
         "pname": "embox-unstable",
-        "version": "2020-11-12",
+        "version": "2020-11-15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -72693,7 +72693,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-11-12",
+            "name": "embox-unstable-2020-11-15",
             "outputsToInstall": [
                 "out"
             ],
@@ -73455,9 +73455,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.go-staticmaps": {
-        "name": "go-staticmaps-unstable-2020-10-17",
+        "name": "go-staticmaps-unstable-2020-11-14",
         "pname": "go-staticmaps-unstable",
-        "version": "2020-10-17",
+        "version": "2020-11-14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -73489,7 +73489,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "go-staticmaps-unstable-2020-10-17",
+            "name": "go-staticmaps-unstable-2020-11-14",
             "outputsToInstall": [
                 "out"
             ],
@@ -74124,9 +74124,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-11-11",
+        "name": "gpxsee-unstable-2020-11-15",
         "pname": "gpxsee-unstable",
-        "version": "2020-11-11",
+        "version": "2020-11-15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74153,7 +74153,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-11-11",
+            "name": "gpxsee-unstable-2020-11-15",
             "outputsToInstall": [
                 "out"
             ],
@@ -74255,9 +74255,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxtrackposter": {
-        "name": "gpxtrackposter-unstable-2020-11-01",
+        "name": "gpxtrackposter-unstable-2020-11-14",
         "pname": "gpxtrackposter-unstable",
-        "version": "2020-11-01",
+        "version": "2020-11-14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74300,7 +74300,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxtrackposter-unstable-2020-11-01",
+            "name": "gpxtrackposter-unstable-2020-11-14",
             "outputsToInstall": [
                 "out"
             ],
@@ -75121,9 +75121,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.klogg": {
-        "name": "klogg-unstable-2020-11-07",
+        "name": "klogg-unstable-2020-11-15",
         "pname": "klogg-unstable",
-        "version": "2020-11-07",
+        "version": "2020-11-15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75149,7 +75149,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "klogg-unstable-2020-11-07",
+            "name": "klogg-unstable-2020-11-15",
             "outputsToInstall": [
                 "out"
             ],
@@ -75548,9 +75548,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mapsoft2": {
-        "name": "mapsoft2-1.3",
+        "name": "mapsoft2-1.4",
         "pname": "mapsoft2",
-        "version": "1.3",
+        "version": "1.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75576,7 +75576,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "mapsoft2-1.3",
+            "name": "mapsoft2-1.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -75602,9 +75602,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-11-12",
+        "name": "maptourist-2020-11-15",
         "pname": "maptourist",
-        "version": "2020-11-12",
+        "version": "2020-11-15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75628,7 +75628,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-11-12",
+            "name": "maptourist-2020-11-15",
             "outputsToInstall": [
                 "out"
             ],
@@ -76079,9 +76079,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-unstable-2020-11-12",
+        "name": "nnn-plugins-unstable-2020-11-15",
         "pname": "nnn-plugins-unstable",
-        "version": "2020-11-12",
+        "version": "2020-11-15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76107,7 +76107,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-unstable-2020-11-12",
+            "name": "nnn-plugins-unstable-2020-11-15",
             "outputsToInstall": [
                 "out"
             ],
@@ -78125,60 +78125,6 @@
             }
         },
         "_attr": "qutebrowser-bin",
-        "_repo": "sikmir"
-    },
-    "nur.repos.sikmir.qvge": {
-        "name": "qvge-unstable-2020-08-21",
-        "pname": "qvge-unstable",
-        "version": "2020-08-21",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Qt Visual Graph Editor",
-            "homepage": "https://arsmasiuk.github.io/qvge/",
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "sikmir@gmail.com",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
-                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
-                        }
-                    ],
-                    "name": "Nikolay Korotkiy"
-                }
-            ],
-            "name": "qvge-unstable-2020-08-21",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
-            "skip": {
-                "ci": false
-            }
-        },
-        "_attr": "qvge",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.redict": {
