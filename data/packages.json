@@ -24624,9 +24624,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb_10_3": {
-        "name": "mariadb-server-10.3.26",
+        "name": "mariadb-server-10.3.27",
         "pname": "mariadb-server",
-        "version": "10.3.26",
+        "version": "10.3.27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24646,7 +24646,7 @@
                     "name": "Austin Seipp"
                 }
             ],
-            "name": "mariadb-server-10.3.26",
+            "name": "mariadb-server-10.3.27",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -24703,9 +24703,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb_10_4": {
-        "name": "mariadb-server-10.4.16",
+        "name": "mariadb-server-10.4.17",
         "pname": "mariadb-server",
-        "version": "10.4.16",
+        "version": "10.4.17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24725,7 +24725,7 @@
                     "name": "Austin Seipp"
                 }
             ],
-            "name": "mariadb-server-10.4.16",
+            "name": "mariadb-server-10.4.17",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -24782,9 +24782,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb_10_5": {
-        "name": "mariadb-server-10.5.7",
+        "name": "mariadb-server-10.5.8",
         "pname": "mariadb-server",
-        "version": "10.5.7",
+        "version": "10.5.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24804,7 +24804,7 @@
                     "name": "Austin Seipp"
                 }
             ],
-            "name": "mariadb-server-10.5.7",
+            "name": "mariadb-server-10.5.8",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -27281,9 +27281,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27309,7 +27309,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27319,9 +27319,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27347,7 +27347,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27357,9 +27357,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27385,7 +27385,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27395,9 +27395,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27423,7 +27423,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27433,9 +27433,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27461,7 +27461,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27471,9 +27471,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27499,7 +27499,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27509,9 +27509,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27537,7 +27537,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27547,9 +27547,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27575,7 +27575,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27585,9 +27585,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27613,7 +27613,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27623,9 +27623,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27651,7 +27651,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27661,9 +27661,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27689,7 +27689,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -27699,9 +27699,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.composer": {
-        "name": "php-composer-2.0.6",
+        "name": "php-composer-2.0.7",
         "pname": "php-composer",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27727,7 +27727,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.0.6",
+            "name": "php-composer-2.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -33145,9 +33145,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33174,7 +33174,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33184,9 +33184,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33213,7 +33213,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33223,9 +33223,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33252,7 +33252,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33262,9 +33262,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33291,7 +33291,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33301,9 +33301,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33330,7 +33330,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33340,9 +33340,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33369,7 +33369,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33379,9 +33379,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33408,7 +33408,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33418,9 +33418,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33447,7 +33447,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33457,9 +33457,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33486,7 +33486,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33496,9 +33496,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33525,7 +33525,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33535,9 +33535,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33564,7 +33564,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -33574,9 +33574,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.phpstan": {
-        "name": "php-phpstan-0.12.54",
+        "name": "php-phpstan-0.12.55",
         "pname": "php-phpstan",
-        "version": "0.12.54",
+        "version": "0.12.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33603,7 +33603,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.54",
+            "name": "php-phpstan-0.12.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -34632,10 +34632,10 @@
         "_attr": "php73Packages-unit.protobuf312",
         "_repo": "izorkin"
     },
-    "nur.repos.izorkin.php56Packages.protobuf313": {
-        "name": "php-protobuf-3.13.0.1",
+    "nur.repos.izorkin.php56Packages.protobuf314": {
+        "name": "php-protobuf-3.14.0",
         "pname": "php-protobuf",
-        "version": "3.13.0.1",
+        "version": "3.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -34648,19 +34648,19 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.13.0.1",
+            "name": "php-protobuf-3.14.0",
             "outputsToInstall": [
                 "out"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
         },
-        "_attr": "php56Packages.protobuf313",
+        "_attr": "php56Packages.protobuf314",
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.protobuf": {
-        "name": "php-protobuf-3.13.0.1",
+        "name": "php-protobuf-3.14.0",
         "pname": "php-protobuf",
-        "version": "3.13.0.1",
+        "version": "3.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34673,7 +34673,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.13.0.1",
+            "name": "php-protobuf-3.14.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -34683,134 +34683,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.protobuf": {
-        "name": "php-protobuf-3.13.0.1",
+        "name": "php-protobuf-3.14.0",
         "pname": "php-protobuf",
-        "version": "3.13.0.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.\n",
-            "homepage": "https://developers.google.com/protocol-buffers",
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "name": "php-protobuf-3.13.0.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
-        },
-        "_attr": "php80Packages.protobuf",
-        "_repo": "izorkin"
-    },
-    "nur.repos.izorkin.php72Packages-unit.protobuf": {
-        "name": "php-protobuf-3.13.0.1",
-        "pname": "php-protobuf",
-        "version": "3.13.0.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.\n",
-            "homepage": "https://developers.google.com/protocol-buffers",
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "name": "php-protobuf-3.13.0.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
-        },
-        "_attr": "php72Packages-unit.protobuf",
-        "_repo": "izorkin"
-    },
-    "nur.repos.izorkin.php80Packages-unit.protobuf": {
-        "name": "php-protobuf-3.13.0.1",
-        "pname": "php-protobuf",
-        "version": "3.13.0.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.\n",
-            "homepage": "https://developers.google.com/protocol-buffers",
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "name": "php-protobuf-3.13.0.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
-        },
-        "_attr": "php80Packages-unit.protobuf",
-        "_repo": "izorkin"
-    },
-    "nur.repos.izorkin.php72Packages.protobuf": {
-        "name": "php-protobuf-3.13.0.1",
-        "pname": "php-protobuf",
-        "version": "3.13.0.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.\n",
-            "homepage": "https://developers.google.com/protocol-buffers",
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "name": "php-protobuf-3.13.0.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
-        },
-        "_attr": "php72Packages.protobuf",
-        "_repo": "izorkin"
-    },
-    "nur.repos.izorkin.php74Packages.protobuf": {
-        "name": "php-protobuf-3.13.0.1",
-        "pname": "php-protobuf",
-        "version": "3.13.0.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.\n",
-            "homepage": "https://developers.google.com/protocol-buffers",
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "name": "php-protobuf-3.13.0.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
-        },
-        "_attr": "php74Packages.protobuf",
-        "_repo": "izorkin"
-    },
-    "nur.repos.izorkin.php56Packages-unit.protobuf313": {
-        "name": "php-protobuf-3.13.0.1",
-        "pname": "php-protobuf",
-        "version": "3.13.0.1",
+        "version": "3.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -34823,19 +34698,19 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.13.0.1",
+            "name": "php-protobuf-3.14.0",
             "outputsToInstall": [
                 "out"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
         },
-        "_attr": "php56Packages-unit.protobuf313",
+        "_attr": "php80Packages.protobuf",
         "_repo": "izorkin"
     },
-    "nur.repos.izorkin.php73Packages-unit.protobuf": {
-        "name": "php-protobuf-3.13.0.1",
+    "nur.repos.izorkin.php72Packages-unit.protobuf": {
+        "name": "php-protobuf-3.14.0",
         "pname": "php-protobuf",
-        "version": "3.13.0.1",
+        "version": "3.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34848,7 +34723,132 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.13.0.1",
+            "name": "php-protobuf-3.14.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
+        },
+        "_attr": "php72Packages-unit.protobuf",
+        "_repo": "izorkin"
+    },
+    "nur.repos.izorkin.php80Packages-unit.protobuf": {
+        "name": "php-protobuf-3.14.0",
+        "pname": "php-protobuf",
+        "version": "3.14.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.\n",
+            "homepage": "https://developers.google.com/protocol-buffers",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "php-protobuf-3.14.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
+        },
+        "_attr": "php80Packages-unit.protobuf",
+        "_repo": "izorkin"
+    },
+    "nur.repos.izorkin.php72Packages.protobuf": {
+        "name": "php-protobuf-3.14.0",
+        "pname": "php-protobuf",
+        "version": "3.14.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.\n",
+            "homepage": "https://developers.google.com/protocol-buffers",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "php-protobuf-3.14.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
+        },
+        "_attr": "php72Packages.protobuf",
+        "_repo": "izorkin"
+    },
+    "nur.repos.izorkin.php74Packages.protobuf": {
+        "name": "php-protobuf-3.14.0",
+        "pname": "php-protobuf",
+        "version": "3.14.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.\n",
+            "homepage": "https://developers.google.com/protocol-buffers",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "php-protobuf-3.14.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
+        },
+        "_attr": "php74Packages.protobuf",
+        "_repo": "izorkin"
+    },
+    "nur.repos.izorkin.php56Packages-unit.protobuf314": {
+        "name": "php-protobuf-3.14.0",
+        "pname": "php-protobuf",
+        "version": "3.14.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.\n",
+            "homepage": "https://developers.google.com/protocol-buffers",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "php-protobuf-3.14.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin"
+        },
+        "_attr": "php56Packages-unit.protobuf314",
+        "_repo": "izorkin"
+    },
+    "nur.repos.izorkin.php73Packages-unit.protobuf": {
+        "name": "php-protobuf-3.14.0",
+        "pname": "php-protobuf",
+        "version": "3.14.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.\n",
+            "homepage": "https://developers.google.com/protocol-buffers",
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "php-protobuf-3.14.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -34858,9 +34858,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.protobuf": {
-        "name": "php-protobuf-3.13.0.1",
+        "name": "php-protobuf-3.14.0",
         "pname": "php-protobuf",
-        "version": "3.13.0.1",
+        "version": "3.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34873,7 +34873,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.13.0.1",
+            "name": "php-protobuf-3.14.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -34883,9 +34883,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.protobuf": {
-        "name": "php-protobuf-3.13.0.1",
+        "name": "php-protobuf-3.14.0",
         "pname": "php-protobuf",
-        "version": "3.13.0.1",
+        "version": "3.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34898,7 +34898,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.13.0.1",
+            "name": "php-protobuf-3.14.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -34908,9 +34908,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.protobuf": {
-        "name": "php-protobuf-3.13.0.1",
+        "name": "php-protobuf-3.14.0",
         "pname": "php-protobuf",
-        "version": "3.13.0.1",
+        "version": "3.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34923,7 +34923,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "php-protobuf-3.13.0.1",
+            "name": "php-protobuf-3.14.0",
             "outputsToInstall": [
                 "out"
             ],
