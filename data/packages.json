@@ -21221,6 +21221,580 @@
         "_attr": "radare2",
         "_repo": "htr"
     },
+    "nur.repos.ijohanne.bottom": {
+        "name": "bottom-master",
+        "pname": "bottom-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A cross-platform graphical process/system monitor with a customizable interface and a multitude of features. Supports Linux, macOS, and Windows.",
+            "homepage": "https://github.com/ClementTsang/bottom",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "bottom-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "bottom",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.darkreader": {
+        "name": "darkreader-4.9.23",
+        "pname": "darkreader",
+        "version": "4.9.23",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
+            "homepage": "https://darkreader.org/",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "darkreader-4.9.23",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "firefoxPlugins.darkreader",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.enhancer-for-youtube": {
+        "name": "enhancer-for-youtube-2.0.101",
+        "pname": "enhancer-for-youtube",
+        "version": "2.0.101",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Tons of features to improve your user experience on YouTube\u2122.",
+            "homepage": "https://www.mrfdev.com/enhancer-for-youtube",
+            "name": "enhancer-for-youtube-2.0.101",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "firefoxPlugins.enhancer-for-youtube",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.gping": {
+        "name": "gping-master",
+        "pname": "gping-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Ping, but with a graph.",
+            "homepage": "https://github.com/orf/gping",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "gping-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "gping",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.lfs": {
+        "name": "lfs-master",
+        "pname": "lfs-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A small linux utility listing your filesystems.",
+            "homepage": "https://github.com/Canop/lfs",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "lfs-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "lfs",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.lua-language-server": {
+        "name": "lua-language-server-master",
+        "pname": "lua-language-server-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Lua language server",
+            "homepage": "https://github.com/sumneko/lua-language-server",
+            "name": "lua-language-server-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "lua-language-server",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.neovim-nightly": {
+        "name": "neovim-nightly-master",
+        "pname": "neovim-nightly-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Vim text editor fork focused on extensibility and agility",
+            "homepage": "https://www.neovim.io",
+            "license": [
+                {
+                    "fullName": "Apache License 2.0",
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "fullName": "Vim License",
+                    "shortName": "vim",
+                    "spdxId": "Vim",
+                    "url": "https://spdx.org/licenses/Vim.html"
+                }
+            ],
+            "longDescription": "Neovim is a project that seeks to aggressively refactor Vim in order to:\n- Simplify maintenance and encourage contributions\n- Split the work between multiple developers\n- Enable the implementation of new/modern user interfaces without any\n  modifications to the core source\n- Improve extensibility with a new plugin architecture\n",
+            "maintainers": [
+                {
+                    "email": "m.fellinger@gmail.com",
+                    "github": "manveru",
+                    "githubId": 3507,
+                    "name": "Michael Fellinger"
+                },
+                {
+                    "email": "rvolosatovs@riseup.net",
+                    "github": "rvolosatovs",
+                    "githubId": 12877905,
+                    "name": "Roman Volosatovs"
+                },
+                {
+                    "email": "maximilian@mbosch.me",
+                    "github": "ma27",
+                    "githubId": 6025220,
+                    "name": "Maximilian Bosch"
+                }
+            ],
+            "name": "neovim-nightly-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('nixpkgs', 'pkgs', 'applications', 'editors', 'neovim', 'default.nix')#L122"
+        },
+        "_attr": "neovim-nightly",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.pueue": {
+        "name": "pueue-master",
+        "pname": "pueue-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A daemon for managing long running shell commands",
+            "homepage": "https://github.com/Nukesor/pueue",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "pueue-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "pueue",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.git-blame-nvim": {
+        "name": "vimplugin-git-blame-nvim",
+        "pname": "vimplugin-git-blame-nvim",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-git-blame-nvim",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('nixpkgs', 'pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26"
+        },
+        "_attr": "vimPlugins.git-blame-nvim",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.language-tool-nvim": {
+        "name": "vimplugin-language-tool-nvim",
+        "pname": "vimplugin-language-tool-nvim",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-language-tool-nvim",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('nixpkgs', 'pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26"
+        },
+        "_attr": "vimPlugins.language-tool-nvim",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-treesitter": {
+        "name": "vimplugin-neovim-treesitter",
+        "pname": "vimplugin-neovim-treesitter",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-neovim-treesitter",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('nixpkgs', 'pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26"
+        },
+        "_attr": "vimPlugins.nvim-treesitter",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-lsp-extensions": {
+        "name": "vimplugin-nvim-lsp-extension",
+        "pname": "vimplugin-nvim-lsp-extension",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-nvim-lsp-extension",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('nixpkgs', 'pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26"
+        },
+        "_attr": "vimPlugins.nvim-lsp-extensions",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-lspconfig": {
+        "name": "vimplugin-nvim-lspconfig",
+        "pname": "vimplugin-nvim-lspconfig",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-nvim-lspconfig",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('nixpkgs', 'pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26"
+        },
+        "_attr": "vimPlugins.nvim-lspconfig",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-web-devicons": {
+        "name": "vimplugin-nvim-web-devicons",
+        "pname": "vimplugin-nvim-web-devicons",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-nvim-web-devicons",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('nixpkgs', 'pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26"
+        },
+        "_attr": "vimPlugins.nvim-web-devicons",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.ranger-nvim": {
+        "name": "vimplugin-ranger-vim",
+        "pname": "vimplugin-ranger-vim",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-ranger-vim",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('nixpkgs', 'pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26"
+        },
+        "_attr": "vimPlugins.ranger-nvim",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.yubikey-touch-detector": {
+        "name": "yubikey-touch-detector-1.9.0",
+        "pname": "yubikey-touch-detector",
+        "version": "1.9.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Detect when your YubiKey is waiting for a touch",
+            "homepage": "https://github.com/maximbaz/yubikey-touch-detector",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "yubikey-touch-detector-1.9.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "yubikey-touch-detector",
+        "_repo": "ijohanne"
+    },
     "nur.repos.ilya-fedin.kotatogram-desktop": {
         "name": "kotatogram-desktop-1.2-1",
         "pname": "kotatogram-desktop",
