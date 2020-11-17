@@ -7997,16 +7997,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.eslint": {
-        "name": "node_eslint-7.12.1",
+        "name": "node_eslint-7.13.0",
         "pname": "node_eslint",
-        "version": "7.12.1",
+        "version": "7.13.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "An AST-based pattern checker for JavaScript.",
             "homepage": "https://eslint.org/",
             "license": "MIT",
-            "name": "node_eslint-7.12.1",
+            "name": "node_eslint-7.13.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -8071,16 +8071,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.10.4",
+        "name": "node_pnpm-5.12.0",
         "pname": "node_pnpm",
-        "version": "5.10.4",
+        "version": "5.12.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Fast, disk space efficient package manager",
             "homepage": "https://pnpm.js.org/",
             "license": "MIT",
-            "name": "node_pnpm-5.10.4",
+            "name": "node_pnpm-5.12.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -8109,16 +8109,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.33.1",
+        "name": "node_rollup-2.33.2",
         "pname": "node_rollup",
-        "version": "2.33.1",
+        "version": "2.33.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Next-generation ES module bundler",
             "homepage": "https://rollupjs.org/",
             "license": "MIT",
-            "name": "node_rollup-2.33.1",
+            "name": "node_rollup-2.33.2",
             "outputsToInstall": [
                 "out"
             ],
