@@ -67744,9 +67744,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-8.1.3",
+        "name": "metamask-8.1.4",
         "pname": "metamask",
-        "version": "8.1.3",
+        "version": "8.1.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -67757,7 +67757,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-8.1.3",
+            "name": "metamask-8.1.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -68886,9 +68886,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.snowflake": {
-        "name": "snowflake-0.5.1",
+        "name": "snowflake-0.5.2",
         "pname": "snowflake",
-        "version": "0.5.1",
+        "version": "0.5.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68900,7 +68900,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "snowflake-0.5.1",
+            "name": "snowflake-0.5.2",
             "outputsToInstall": [
                 "out"
             ],
