@@ -67143,9 +67143,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.https-everywhere": {
-        "name": "https-everywhere-2020.8.13",
+        "name": "https-everywhere-2020.11.17",
         "pname": "https-everywhere",
-        "version": "2020.8.13",
+        "version": "2020.11.17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -67157,7 +67157,7 @@
                 "shortName": "https-everywhere-license",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/license/"
             },
-            "name": "https-everywhere-2020.8.13",
+            "name": "https-everywhere-2020.11.17",
             "outputsToInstall": [
                 "out"
             ],
@@ -67497,9 +67497,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.languagetool": {
-        "name": "languagetool-3.1.14",
+        "name": "languagetool-3.1.15",
         "pname": "languagetool",
-        "version": "3.1.14",
+        "version": "3.1.15",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -67511,7 +67511,7 @@
                 "shortName": "allrightsreserved",
                 "url": "https://languagetool.org/legal/"
             },
-            "name": "languagetool-3.1.14",
+            "name": "languagetool-3.1.15",
             "outputsToInstall": [
                 "out"
             ],
