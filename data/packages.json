@@ -64759,24 +64759,6 @@
         "_attr": "comma",
         "_repo": "reedrw"
     },
-    "nur.repos.reedrw.ix": {
-        "name": "ix",
-        "pname": "ix",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "command line pastebin",
-            "homepage": "http://ix.io",
-            "name": "ix",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/reedrw"
-        },
-        "_attr": "ix",
-        "_repo": "reedrw"
-    },
     "nur.repos.reedrw.actions-cli": {
         "name": "node_actions-cli-0.0.36",
         "pname": "node_actions-cli",
