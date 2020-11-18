@@ -21733,20 +21733,20 @@
         "_attr": "vimPlugins.language-tool-nvim",
         "_repo": "ijohanne"
     },
-    "nur.repos.ijohanne.vimPlugins.nvim-treesitter": {
-        "name": "vimplugin-neovim-treesitter",
-        "pname": "vimplugin-neovim-treesitter",
+    "nur.repos.ijohanne.vimPlugins.nvim-treesitter-textobjects": {
+        "name": "vimplugin-neovim-treesitter-textobjects-master",
+        "pname": "vimplugin-neovim-treesitter-textobjects-master",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "name": "vimplugin-neovim-treesitter",
+            "name": "vimplugin-neovim-treesitter-textobjects-master",
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('nixpkgs', 'pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
         },
-        "_attr": "vimPlugins.nvim-treesitter",
+        "_attr": "vimPlugins.nvim-treesitter-textobjects",
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.vimPlugins.nvim-lsp-extensions": {
@@ -21779,6 +21779,70 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('nixpkgs', 'pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26"
         },
         "_attr": "vimPlugins.nvim-lspconfig",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-tree-docs": {
+        "name": "vimplugin-nvim-tree-docs-master",
+        "pname": "vimplugin-nvim-tree-docs-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-nvim-tree-docs-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "vimPlugins.nvim-tree-docs",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-treesitter-angular": {
+        "name": "vimplugin-nvim-treesitter-angular-master",
+        "pname": "vimplugin-nvim-treesitter-angular-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-nvim-treesitter-angular-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "vimPlugins.nvim-treesitter-angular",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-treesitter": {
+        "name": "vimplugin-nvim-treesitter-master",
+        "pname": "vimplugin-nvim-treesitter-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-nvim-treesitter-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "vimPlugins.nvim-treesitter",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-treesitter-refactor": {
+        "name": "vimplugin-nvim-treesitter-refactor-master",
+        "pname": "vimplugin-nvim-treesitter-refactor-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "name": "vimplugin-nvim-treesitter-refactor-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne"
+        },
+        "_attr": "vimPlugins.nvim-treesitter-refactor",
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.vimPlugins.nvim-web-devicons": {
