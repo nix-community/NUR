@@ -50604,9 +50604,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.caprine": {
-        "name": "node_caprine-2.51.0",
+        "name": "node_caprine-2.51.1",
         "pname": "node_caprine",
-        "version": "2.51.0",
+        "version": "2.51.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50619,7 +50619,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "node_caprine-2.51.0",
+            "name": "node_caprine-2.51.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -51107,9 +51107,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.xpadneo": {
-        "name": "xpadneo-0.8.4",
+        "name": "xpadneo-0.8.5",
         "pname": "xpadneo",
-        "version": "0.8.4",
+        "version": "0.8.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51129,7 +51129,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "xpadneo-0.8.4",
+            "name": "xpadneo-0.8.5",
             "outputsToInstall": [
                 "out"
             ],
