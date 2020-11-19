@@ -26627,9 +26627,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80": {
-        "name": "php-8.0.0-rc-2",
+        "name": "php-8.0.0-rc-5",
         "pname": "php",
-        "version": "8.0.0-rc-2",
+        "version": "8.0.0-rc-5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26661,7 +26661,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-8.0.0-rc-2",
+            "name": "php-8.0.0-rc-5",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -26719,9 +26719,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80-unit": {
-        "name": "php-8.0.0-rc-2",
+        "name": "php-8.0.0-rc-5",
         "pname": "php",
-        "version": "8.0.0-rc-2",
+        "version": "8.0.0-rc-5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26753,7 +26753,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-8.0.0-rc-2",
+            "name": "php-8.0.0-rc-5",
             "outputsToInstall": [
                 "out",
                 "dev"
