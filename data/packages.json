@@ -73372,9 +73372,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.elevation": {
-        "name": "elevation-unstable-2019-05-27",
+        "name": "elevation-unstable-2020-11-18",
         "pname": "elevation-unstable",
-        "version": "2019-05-27",
+        "version": "2020-11-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -73417,7 +73417,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "elevation-unstable-2019-05-27",
+            "name": "elevation-unstable-2020-11-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -73454,9 +73454,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-11-15",
+        "name": "embox-unstable-2020-11-18",
         "pname": "embox-unstable",
-        "version": "2020-11-15",
+        "version": "2020-11-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -73482,7 +73482,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-11-15",
+            "name": "embox-unstable-2020-11-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -73800,9 +73800,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gef": {
-        "name": "gef-unstable-2020-10-13",
+        "name": "gef-unstable-2020-11-18",
         "pname": "gef-unstable",
-        "version": "2020-10-13",
+        "version": "2020-11-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -73828,7 +73828,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gef-unstable-2020-10-13",
+            "name": "gef-unstable-2020-11-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -75366,9 +75366,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.hfst": {
-        "name": "hfst-unstable-2020-11-06",
+        "name": "hfst-unstable-2020-11-18",
         "pname": "hfst-unstable",
-        "version": "2020-11-06",
+        "version": "2020-11-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75394,7 +75394,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "hfst-unstable-2020-11-06",
+            "name": "hfst-unstable-2020-11-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -75917,9 +75917,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.klogg": {
-        "name": "klogg-unstable-2020-11-15",
+        "name": "klogg-unstable-2020-11-16",
         "pname": "klogg-unstable",
-        "version": "2020-11-15",
+        "version": "2020-11-16",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75945,7 +75945,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "klogg-unstable-2020-11-15",
+            "name": "klogg-unstable-2020-11-16",
             "outputsToInstall": [
                 "out"
             ],
@@ -76036,9 +76036,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.librewolf": {
-        "name": "librewolf-81.0.2",
+        "name": "librewolf-82.0.3",
         "pname": "librewolf",
-        "version": "81.0.2",
+        "version": "82.0.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76064,7 +76064,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "librewolf-81.0.2",
+            "name": "librewolf-82.0.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -76399,9 +76399,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-11-15",
+        "name": "maptourist-2020-11-18",
         "pname": "maptourist",
-        "version": "2020-11-15",
+        "version": "2020-11-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76425,7 +76425,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-11-15",
+            "name": "maptourist-2020-11-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -76879,9 +76879,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-unstable-2020-11-15",
+        "name": "nnn-plugins-unstable-2020-11-19",
         "pname": "nnn-plugins-unstable",
-        "version": "2020-11-15",
+        "version": "2020-11-19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76907,7 +76907,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-unstable-2020-11-15",
+            "name": "nnn-plugins-unstable-2020-11-19",
             "outputsToInstall": [
                 "out"
             ],
@@ -77233,9 +77233,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-11-10",
+        "name": "OpenOrienteering-Mapper-unstable-2020-11-16",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-11-10",
+        "version": "2020-11-16",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -77261,7 +77261,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-11-10",
+            "name": "OpenOrienteering-Mapper-unstable-2020-11-16",
             "outputsToInstall": [
                 "out"
             ],
@@ -78370,9 +78370,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.python-hfst": {
-        "name": "python3.8-python-hfst-unstable-2020-11-06",
+        "name": "python3.8-python-hfst-unstable-2020-11-18",
         "pname": "python3.8-python-hfst-unstable",
-        "version": "2020-11-06",
+        "version": "2020-11-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78415,7 +78415,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-python-hfst-unstable-2020-11-06",
+            "name": "python3.8-python-hfst-unstable-2020-11-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -78999,9 +78999,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-11-06",
+        "name": "routinodb-2020-11-18",
         "pname": "routinodb",
-        "version": "2020-11-06",
+        "version": "2020-11-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79025,7 +79025,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-11-06",
+            "name": "routinodb-2020-11-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -79545,9 +79545,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.stardict-tools": {
-        "name": "stardict-tools-unstable-2020-11-12",
+        "name": "stardict-tools-unstable-2020-11-19",
         "pname": "stardict-tools-unstable",
-        "version": "2020-11-12",
+        "version": "2020-11-19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79574,7 +79574,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "stardict-tools-unstable-2020-11-12",
+            "name": "stardict-tools-unstable-2020-11-19",
             "outputsToInstall": [
                 "out"
             ],
