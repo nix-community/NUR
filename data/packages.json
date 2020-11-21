@@ -5320,16 +5320,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.eslint": {
-        "name": "node_eslint-7.13.0",
+        "name": "node_eslint-7.14.0",
         "pname": "node_eslint",
-        "version": "7.13.0",
+        "version": "7.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "An AST-based pattern checker for JavaScript.",
             "homepage": "https://eslint.org/",
             "license": "MIT",
-            "name": "node_eslint-7.13.0",
+            "name": "node_eslint-7.14.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -5394,16 +5394,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.12.0",
+        "name": "node_pnpm-5.13.1",
         "pname": "node_pnpm",
-        "version": "5.12.0",
+        "version": "5.13.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Fast, disk space efficient package manager",
             "homepage": "https://pnpm.js.org/",
             "license": "MIT",
-            "name": "node_pnpm-5.12.0",
+            "name": "node_pnpm-5.13.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -5432,16 +5432,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.33.2",
+        "name": "node_rollup-2.33.3",
         "pname": "node_rollup",
-        "version": "2.33.2",
+        "version": "2.33.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Next-generation ES module bundler",
             "homepage": "https://rollupjs.org/",
             "license": "MIT",
-            "name": "node_rollup-2.33.2",
+            "name": "node_rollup-2.33.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -5451,16 +5451,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.tldr": {
-        "name": "node_tldr-3.3.2",
+        "name": "node_tldr-3.3.5",
         "pname": "node_tldr",
-        "version": "3.3.2",
+        "version": "3.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "Simplified and community-driven man pages",
             "homepage": "http://tldr-pages.github.io/",
             "license": "MIT",
-            "name": "node_tldr-3.3.2",
+            "name": "node_tldr-3.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -5470,16 +5470,16 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.typescript": {
-        "name": "node_typescript-4.0.5",
+        "name": "node_typescript-4.1.2",
         "pname": "node_typescript",
-        "version": "4.0.5",
+        "version": "4.1.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "description": "TypeScript is a language for application scale JavaScript development",
             "homepage": "https://www.typescriptlang.org/",
             "license": "Apache-2.0",
-            "name": "node_typescript-4.0.5",
+            "name": "node_typescript-4.1.2",
             "outputsToInstall": [
                 "out"
             ],
