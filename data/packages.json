@@ -339,6 +339,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -954,6 +955,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -1033,6 +1035,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -1112,6 +1115,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -1244,6 +1248,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -1390,6 +1395,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -1467,6 +1473,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -1564,6 +1571,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -1658,6 +1666,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -1752,6 +1761,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -2191,6 +2201,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -2329,6 +2340,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -2443,6 +2455,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -2524,6 +2537,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -3060,2725 +3074,6 @@
         "_attr": "pkgs.ydiff",
         "_repo": "bb010g"
     },
-    "nur.repos.beam.pkg.v21_0.elixir.v1_10_0": {
-        "name": "elixir-1.10.0_erlang-21.0",
-        "pname": "elixir",
-        "version": "1.10.0_erlang-21.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.10.0_erlang-21.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v21_0.elixir.v1_10_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v22_0.elixir.v1_10_0": {
-        "name": "elixir-1.10.0_erlang-22.0",
-        "pname": "elixir",
-        "version": "1.10.0_erlang-22.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.10.0_erlang-22.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v22_0.elixir.v1_10_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v23_0.elixir.v1_10_0": {
-        "name": "elixir-1.10.0_erlang-23.0",
-        "pname": "elixir",
-        "version": "1.10.0_erlang-23.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.10.0_erlang-23.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v23_0.elixir.v1_10_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v21_0.elixir.v1_11_0": {
-        "name": "elixir-1.11.0_erlang-21.0",
-        "pname": "elixir",
-        "version": "1.11.0_erlang-21.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.11.0_erlang-21.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v21_0.elixir.v1_11_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v22_0.elixir.v1_11_0": {
-        "name": "elixir-1.11.0_erlang-22.0",
-        "pname": "elixir",
-        "version": "1.11.0_erlang-22.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.11.0_erlang-22.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v22_0.elixir.v1_11_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v23_0.elixir.v1_11_0": {
-        "name": "elixir-1.11.0_erlang-23.0",
-        "pname": "elixir",
-        "version": "1.11.0_erlang-23.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.11.0_erlang-23.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v23_0.elixir.v1_11_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v19_1.elixir.v1_5_0": {
-        "name": "elixir-1.5.0_erlang-19.1",
-        "pname": "elixir",
-        "version": "1.5.0_erlang-19.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.5.0_erlang-19.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v19_1.elixir.v1_5_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v20_0.elixir.v1_5_0": {
-        "name": "elixir-1.5.0_erlang-20.0",
-        "pname": "elixir",
-        "version": "1.5.0_erlang-20.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.5.0_erlang-20.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v20_0.elixir.v1_5_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v19_1.elixir.v1_6_0": {
-        "name": "elixir-1.6.0_erlang-19.1",
-        "pname": "elixir",
-        "version": "1.6.0_erlang-19.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.6.0_erlang-19.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v19_1.elixir.v1_6_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v20_0.elixir.v1_6_0": {
-        "name": "elixir-1.6.0_erlang-20.0",
-        "pname": "elixir",
-        "version": "1.6.0_erlang-20.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.6.0_erlang-20.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v20_0.elixir.v1_6_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v21_0.elixir.v1_6_0": {
-        "name": "elixir-1.6.0_erlang-21.0",
-        "pname": "elixir",
-        "version": "1.6.0_erlang-21.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.6.0_erlang-21.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v21_0.elixir.v1_6_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v19_1.elixir.v1_7_0": {
-        "name": "elixir-1.7.0_erlang-19.1",
-        "pname": "elixir",
-        "version": "1.7.0_erlang-19.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.7.0_erlang-19.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v19_1.elixir.v1_7_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v20_0.elixir.v1_7_0": {
-        "name": "elixir-1.7.0_erlang-20.0",
-        "pname": "elixir",
-        "version": "1.7.0_erlang-20.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.7.0_erlang-20.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v20_0.elixir.v1_7_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v21_0.elixir.v1_7_0": {
-        "name": "elixir-1.7.0_erlang-21.0",
-        "pname": "elixir",
-        "version": "1.7.0_erlang-21.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.7.0_erlang-21.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v21_0.elixir.v1_7_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v22_0.elixir.v1_7_0": {
-        "name": "elixir-1.7.0_erlang-22.0",
-        "pname": "elixir",
-        "version": "1.7.0_erlang-22.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.7.0_erlang-22.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v22_0.elixir.v1_7_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v20_0.elixir.v1_8_0": {
-        "name": "elixir-1.8.0_erlang-20.0",
-        "pname": "elixir",
-        "version": "1.8.0_erlang-20.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.8.0_erlang-20.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v20_0.elixir.v1_8_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v21_0.elixir.v1_8_0": {
-        "name": "elixir-1.8.0_erlang-21.0",
-        "pname": "elixir",
-        "version": "1.8.0_erlang-21.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.8.0_erlang-21.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v21_0.elixir.v1_8_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v22_0.elixir.v1_8_0": {
-        "name": "elixir-1.8.0_erlang-22.0",
-        "pname": "elixir",
-        "version": "1.8.0_erlang-22.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.8.0_erlang-22.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v22_0.elixir.v1_8_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v20_0.elixir.v1_9_0": {
-        "name": "elixir-1.9.0_erlang-20.0",
-        "pname": "elixir",
-        "version": "1.9.0_erlang-20.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.9.0_erlang-20.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v20_0.elixir.v1_9_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v21_0.elixir.v1_9_0": {
-        "name": "elixir-1.9.0_erlang-21.0",
-        "pname": "elixir",
-        "version": "1.9.0_erlang-21.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.9.0_erlang-21.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v21_0.elixir.v1_9_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v22_0.elixir.v1_9_0": {
-        "name": "elixir-1.9.0_erlang-22.0",
-        "pname": "elixir",
-        "version": "1.9.0_erlang-22.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "A functional, meta-programming aware language built on top of the Erlang VM",
-            "homepage": "https://elixir-lang.org/",
-            "license": {
-                "fullName": "Eclipse Public License 1.0",
-                "shortName": "epl10",
-                "spdxId": "EPL-1.0",
-                "url": "https://spdx.org/licenses/EPL-1.0.html"
-            },
-            "longDescription": "Elixir is a functional, meta-programming aware language built on\ntop of the Erlang VM. It is a dynamic language with flexible\nsyntax and macro support that leverages Erlang's abilities to\nbuild concurrent, distributed and fault-tolerant applications\nwith hot code upgrades.\n",
-            "maintainers": [
-                {
-                    "email": "ryan.havvy@gmail.com",
-                    "github": "havvy",
-                    "githubId": 731722,
-                    "name": "Ryan Scheel"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "me@ankhers.dev",
-                    "github": "ankhers",
-                    "githubId": 750786,
-                    "name": "Justin Wood"
-                },
-                {
-                    "email": "brightone@protonmail.com",
-                    "github": "filalex77",
-                    "githubId": 12615679,
-                    "keys": [
-                        {
-                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
-                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
-                        }
-                    ],
-                    "name": "Oleksii Filonenko"
-                }
-            ],
-            "name": "elixir-1.9.0_erlang-22.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v22_0.elixir.v1_9_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.erlang.v19_1": {
-        "name": "erlang-19.1",
-        "pname": "erlang",
-        "version": "19.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Programming language used for massively scalable soft real-time systems",
-            "downloadPage": "https://www.erlang.org/download.html",
-            "homepage": "https://www.erlang.org/",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "Erlang is a programming language used to build massively scalable\nsoft real-time systems with requirements on high availability.\nSome of its uses are in telecoms, banking, e-commerce, computer\ntelephony and instant messaging. Erlang's runtime system has\nbuilt-in support for concurrency, distribution and fault\ntolerance.\n",
-            "maintainers": [
-                {
-                    "email": "setori88@gmail.com",
-                    "github": "sjmackenzie",
-                    "githubId": 158321,
-                    "name": "Stewart Mackenzie"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                }
-            ],
-            "name": "erlang-19.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "erlang.v19_1",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.erlang.v20_0": {
-        "name": "erlang-20.0",
-        "pname": "erlang",
-        "version": "20.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Programming language used for massively scalable soft real-time systems",
-            "downloadPage": "https://www.erlang.org/download.html",
-            "homepage": "https://www.erlang.org/",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "Erlang is a programming language used to build massively scalable\nsoft real-time systems with requirements on high availability.\nSome of its uses are in telecoms, banking, e-commerce, computer\ntelephony and instant messaging. Erlang's runtime system has\nbuilt-in support for concurrency, distribution and fault\ntolerance.\n",
-            "maintainers": [
-                {
-                    "email": "setori88@gmail.com",
-                    "github": "sjmackenzie",
-                    "githubId": 158321,
-                    "name": "Stewart Mackenzie"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                }
-            ],
-            "name": "erlang-20.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "erlang.v20_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.erlang.v21_0": {
-        "name": "erlang-21.0",
-        "pname": "erlang",
-        "version": "21.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Programming language used for massively scalable soft real-time systems",
-            "downloadPage": "https://www.erlang.org/download.html",
-            "homepage": "https://www.erlang.org/",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "Erlang is a programming language used to build massively scalable\nsoft real-time systems with requirements on high availability.\nSome of its uses are in telecoms, banking, e-commerce, computer\ntelephony and instant messaging. Erlang's runtime system has\nbuilt-in support for concurrency, distribution and fault\ntolerance.\n",
-            "maintainers": [
-                {
-                    "email": "setori88@gmail.com",
-                    "github": "sjmackenzie",
-                    "githubId": 158321,
-                    "name": "Stewart Mackenzie"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                }
-            ],
-            "name": "erlang-21.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "erlang.v21_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.erlang.v22_0": {
-        "name": "erlang-22.0",
-        "pname": "erlang",
-        "version": "22.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Programming language used for massively scalable soft real-time systems",
-            "downloadPage": "https://www.erlang.org/download.html",
-            "homepage": "https://www.erlang.org/",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "Erlang is a programming language used to build massively scalable\nsoft real-time systems with requirements on high availability.\nSome of its uses are in telecoms, banking, e-commerce, computer\ntelephony and instant messaging. Erlang's runtime system has\nbuilt-in support for concurrency, distribution and fault\ntolerance.\n",
-            "maintainers": [
-                {
-                    "email": "setori88@gmail.com",
-                    "github": "sjmackenzie",
-                    "githubId": 158321,
-                    "name": "Stewart Mackenzie"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                }
-            ],
-            "name": "erlang-22.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "erlang.v22_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.erlang.v23_0": {
-        "name": "erlang-23.0",
-        "pname": "erlang",
-        "version": "23.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Programming language used for massively scalable soft real-time systems",
-            "downloadPage": "https://www.erlang.org/download.html",
-            "homepage": "https://www.erlang.org/",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "Erlang is a programming language used to build massively scalable\nsoft real-time systems with requirements on high availability.\nSome of its uses are in telecoms, banking, e-commerce, computer\ntelephony and instant messaging. Erlang's runtime system has\nbuilt-in support for concurrency, distribution and fault\ntolerance.\n",
-            "maintainers": [
-                {
-                    "email": "setori88@gmail.com",
-                    "github": "sjmackenzie",
-                    "githubId": 158321,
-                    "name": "Stewart Mackenzie"
-                },
-                {
-                    "email": "couchemar@yandex.ru",
-                    "github": "couchemar",
-                    "githubId": 1573344,
-                    "name": "Andrey Pavlov"
-                },
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                }
-            ],
-            "name": "erlang-23.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "erlang.v23_0",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v19_1.rebar": {
-        "name": "rebar-2.6.4_erlang-19.1",
-        "pname": "rebar",
-        "version": "2.6.4_erlang-19.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
-            "name": "rebar-2.6.4_erlang-19.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v19_1.rebar",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v20_0.rebar": {
-        "name": "rebar-2.6.4_erlang-20.0",
-        "pname": "rebar",
-        "version": "2.6.4_erlang-20.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
-            "name": "rebar-2.6.4_erlang-20.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v20_0.rebar",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v21_0.rebar": {
-        "name": "rebar-2.6.4_erlang-21.0",
-        "pname": "rebar",
-        "version": "2.6.4_erlang-21.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
-            "name": "rebar-2.6.4_erlang-21.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v21_0.rebar",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v22_0.rebar": {
-        "name": "rebar-2.6.4_erlang-22.0",
-        "pname": "rebar",
-        "version": "2.6.4_erlang-22.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
-            "name": "rebar-2.6.4_erlang-22.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v22_0.rebar",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v23_0.rebar": {
-        "name": "rebar-2.6.4_erlang-23.0",
-        "pname": "rebar",
-        "version": "2.6.4_erlang-23.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to\ndistribute or even embed directly in a project. Where possible,\nrebar uses standard Erlang/OTP conventions for project\nstructures, thus minimizing the amount of build configuration\nwork. rebar also provides dependency management, enabling\napplication writers to easily re-use common libraries from a\nvariety of locations (git, hg, etc).\n",
-            "name": "rebar-2.6.4_erlang-23.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v23_0.rebar",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v19_1.rebar3": {
-        "name": "rebar3-3.14.1_erlang-19.1",
-        "pname": "rebar3",
-        "version": "3.14.1_erlang-19.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar3",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
-            "maintainers": [
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                },
-                {
-                    "email": "mail@tazj.in",
-                    "github": "tazjin",
-                    "githubId": 1552853,
-                    "name": "Vincent Ambo"
-                }
-            ],
-            "name": "rebar3-3.14.1_erlang-19.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v19_1.rebar3",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v20_0.rebar3": {
-        "name": "rebar3-3.14.1_erlang-20.0",
-        "pname": "rebar3",
-        "version": "3.14.1_erlang-20.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar3",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
-            "maintainers": [
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                },
-                {
-                    "email": "mail@tazj.in",
-                    "github": "tazjin",
-                    "githubId": 1552853,
-                    "name": "Vincent Ambo"
-                }
-            ],
-            "name": "rebar3-3.14.1_erlang-20.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v20_0.rebar3",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v21_0.rebar3": {
-        "name": "rebar3-3.14.1_erlang-21.0",
-        "pname": "rebar3",
-        "version": "3.14.1_erlang-21.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar3",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
-            "maintainers": [
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                },
-                {
-                    "email": "mail@tazj.in",
-                    "github": "tazjin",
-                    "githubId": 1552853,
-                    "name": "Vincent Ambo"
-                }
-            ],
-            "name": "rebar3-3.14.1_erlang-21.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v21_0.rebar3",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v22_0.rebar3": {
-        "name": "rebar3-3.14.1_erlang-22.0",
-        "pname": "rebar3",
-        "version": "3.14.1_erlang-22.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar3",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
-            "maintainers": [
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                },
-                {
-                    "email": "mail@tazj.in",
-                    "github": "tazjin",
-                    "githubId": 1552853,
-                    "name": "Vincent Ambo"
-                }
-            ],
-            "name": "rebar3-3.14.1_erlang-22.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v22_0.rebar3",
-        "_repo": "beam"
-    },
-    "nur.repos.beam.pkg.v23_0.rebar3": {
-        "name": "rebar3-3.14.1_erlang-23.0",
-        "pname": "rebar3",
-        "version": "3.14.1_erlang-23.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases",
-            "homepage": "https://github.com/rebar/rebar3",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "rebar is a self-contained Erlang script, so it's easy to distribute or\neven embed directly in a project. Where possible, rebar uses standard\nErlang/OTP conventions for project structures, thus minimizing the amount\nof build configuration work. rebar also provides dependency management,\nenabling application writers to easily re-use common libraries from a\nvariety of locations (hex.pm, git, hg, and so on).\n",
-            "maintainers": [
-                {
-                    "email": "gleber.p@gmail.com",
-                    "github": "gleber",
-                    "githubId": 33185,
-                    "name": "Gleb Peregud"
-                },
-                {
-                    "email": "mail@tazj.in",
-                    "github": "tazjin",
-                    "githubId": 1552853,
-                    "name": "Vincent Ambo"
-                }
-            ],
-            "name": "rebar3-3.14.1_erlang-23.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/beam"
-        },
-        "_attr": "pkg.v23_0.rebar3",
-        "_repo": "beam"
-    },
     "nur.repos.bendlas.lsd": {
         "name": "lsd-0.14.0",
         "pname": "lsd",
@@ -5847,6 +3142,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -6322,6 +3618,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -7701,6 +4998,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -7790,6 +5088,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -7966,6 +5265,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -8628,6 +5928,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -11839,6 +9140,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -12224,6 +9526,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -12295,6 +9598,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -12517,6 +9821,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -12968,6 +10273,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -13052,6 +10358,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -13354,6 +10661,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -13627,6 +10935,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -13757,6 +11066,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -14080,6 +11390,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -14141,6 +11452,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -14198,6 +11510,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -14344,6 +11657,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -14429,6 +11743,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -14514,6 +11829,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -14599,6 +11915,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -15157,6 +12474,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -15242,6 +12560,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -15327,6 +12646,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -15609,6 +12929,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -15844,6 +13165,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -15986,6 +13308,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -16057,6 +13380,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -16241,6 +13565,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -16319,6 +13644,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -16398,6 +13724,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -16477,6 +13804,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -16562,6 +13890,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -16641,6 +13970,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -16938,6 +14268,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -16989,6 +14320,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -18603,6 +15935,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -19060,6 +16393,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -19446,6 +16780,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -19526,6 +16861,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -19598,6 +16934,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -19861,6 +17198,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -20313,6 +17651,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -20384,6 +17723,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -20455,6 +17795,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -20778,6 +18119,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -21387,6 +18729,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -21452,6 +18795,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -22642,6 +19986,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -22693,6 +20038,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -23045,6 +20391,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -23124,6 +20471,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -23183,6 +20531,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -23234,6 +20583,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -25019,6 +22369,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -25169,6 +22520,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -25248,6 +22600,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -25327,6 +22680,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -25407,6 +22761,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -25487,6 +22842,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -25567,6 +22923,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -25787,6 +23144,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -25879,6 +23237,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -25971,6 +23330,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -26063,6 +23423,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -26155,6 +23516,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -26247,6 +23609,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -26339,6 +23702,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -26431,6 +23795,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -26523,6 +23888,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -26615,6 +23981,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -26707,6 +24074,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -26799,6 +24167,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -39789,6 +37158,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -39854,6 +37224,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -39915,6 +37286,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -39980,6 +37352,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40041,6 +37414,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40106,6 +37480,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40167,6 +37542,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40232,6 +37608,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40293,6 +37670,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40358,6 +37736,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40437,6 +37816,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40647,6 +38027,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40726,6 +38107,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40805,6 +38187,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -40901,6 +38284,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41046,6 +38430,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41125,6 +38510,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41221,6 +38607,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41282,6 +38669,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41353,6 +38741,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41414,6 +38803,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41479,6 +38869,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41540,6 +38931,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41605,6 +38997,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41666,6 +39059,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41731,6 +39125,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41827,6 +39222,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -41923,6 +39319,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42002,6 +39399,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42063,6 +39461,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42128,6 +39527,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42208,6 +39608,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42287,6 +39688,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42366,6 +39768,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42445,6 +39848,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42506,6 +39910,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42571,6 +39976,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42650,6 +40056,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -42793,6 +40200,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -43282,6 +40690,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -43397,6 +40806,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -44234,6 +41644,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -44330,6 +41741,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -44426,6 +41838,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -44554,6 +41967,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -44639,6 +42053,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -44783,6 +42198,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -45035,6 +42451,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -45993,6 +43410,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -46114,6 +43532,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -46179,6 +43598,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -46358,6 +43778,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -46546,6 +43967,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -46672,6 +44094,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -46803,6 +44226,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -47611,6 +45035,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -47697,6 +45122,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -47754,6 +45180,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -48536,6 +45963,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -48593,6 +46021,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -48654,6 +46083,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -48711,6 +46141,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -48772,6 +46203,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -48829,6 +46261,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -50448,6 +47881,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -51077,6 +48511,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -51156,6 +48591,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -51502,6 +48938,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -52100,6 +49537,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -52181,6 +49619,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -52717,6 +50156,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -55530,6 +52970,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -55610,6 +53051,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -55762,6 +53204,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -55842,6 +53285,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -55940,6 +53384,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -56151,6 +53596,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -56431,6 +53877,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -57305,6 +54752,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -58844,9 +56292,9 @@
         "_repo": "n1kolasM"
     },
     "nur.repos.n1kolasM.python37Packages.testfixtures": {
-        "name": "python3.7-testfixtures-6.14.1",
+        "name": "python3.7-testfixtures-6.14.2",
         "pname": "python3.7-testfixtures",
-        "version": "6.14.1",
+        "version": "6.14.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -58889,7 +56337,7 @@
                     "name": "Sirio Balmelli"
                 }
             ],
-            "name": "python3.7-testfixtures-6.14.1",
+            "name": "python3.7-testfixtures-6.14.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -60062,6 +57510,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -60184,6 +57633,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -60875,6 +58325,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -60978,6 +58429,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -61107,6 +58559,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -62537,6 +59990,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -62616,6 +60070,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -62934,6 +60389,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63077,6 +60533,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63156,6 +60613,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63235,6 +60693,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63314,6 +60773,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63393,6 +60853,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63464,6 +60925,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63529,6 +60991,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63608,6 +61071,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63687,6 +61151,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63766,6 +61231,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63853,6 +61319,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63932,6 +61399,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -63996,6 +61464,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -64061,6 +61530,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -64125,6 +61595,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -64204,6 +61675,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -64268,6 +61740,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -64332,6 +61805,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -64397,6 +61871,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -64461,6 +61936,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -64526,6 +62002,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -64591,6 +62068,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65094,6 +62572,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65165,6 +62644,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65236,6 +62716,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65307,6 +62788,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65378,6 +62860,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65449,6 +62932,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65514,6 +62998,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65585,6 +63070,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65656,6 +63142,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65727,6 +63214,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65797,6 +63285,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65868,6 +63357,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -65939,6 +63429,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66009,6 +63500,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66080,6 +63572,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66202,6 +63695,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66273,6 +63767,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66344,6 +63839,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66415,6 +63911,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66486,6 +63983,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66557,6 +64055,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66628,6 +64127,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66699,6 +64199,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66770,6 +64271,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66841,6 +64343,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66912,6 +64415,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -66983,6 +64487,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67054,6 +64559,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67125,6 +64631,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67196,6 +64703,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67267,6 +64775,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67338,6 +64847,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67408,6 +64918,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67479,6 +64990,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67550,6 +65062,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67621,6 +65134,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67692,6 +65206,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67763,6 +65278,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67834,6 +65350,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67922,6 +65439,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -67992,6 +65510,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68063,6 +65582,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68164,6 +65684,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68229,6 +65750,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68300,6 +65822,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68371,6 +65894,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68442,6 +65966,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68513,6 +66038,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68584,6 +66110,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68655,6 +66182,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68726,6 +66254,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68797,6 +66326,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68868,6 +66398,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -68939,6 +66470,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69009,6 +66541,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69080,6 +66613,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69151,6 +66685,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69222,6 +66757,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69292,6 +66828,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69363,6 +66900,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69434,6 +66972,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69505,6 +67044,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69575,6 +67115,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69646,6 +67187,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69717,6 +67259,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69787,6 +67330,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69858,6 +67402,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -69929,6 +67474,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -70000,6 +67546,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -70071,6 +67618,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -70142,6 +67690,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -70213,6 +67762,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -70284,6 +67834,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -70354,6 +67905,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -71080,6 +68632,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -73219,6 +70772,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -73372,6 +70926,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -73670,6 +71225,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -73885,6 +71441,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -74484,6 +72041,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -74570,6 +72128,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -74915,6 +72474,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -75216,6 +72776,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -75755,6 +73316,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -76167,6 +73729,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -76482,6 +74045,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -76715,6 +74279,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -76875,6 +74440,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -76964,6 +74530,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -77186,6 +74753,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -77384,6 +74952,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -78749,6 +76318,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -78835,6 +76405,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -79082,6 +76653,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -79170,6 +76742,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -79370,6 +76943,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -79456,6 +77030,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -79542,6 +77117,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -80477,6 +78053,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -80579,6 +78156,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -80734,6 +78312,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -80795,6 +78374,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -80853,6 +78433,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -80960,6 +78541,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -81040,6 +78622,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -81323,6 +78906,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -81394,6 +78978,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -81536,6 +79121,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -81675,6 +79261,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -81746,6 +79333,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -81955,6 +79543,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -82034,6 +79623,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -82802,6 +80392,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -82881,6 +80472,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -83017,6 +80609,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -83332,6 +80925,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -83457,6 +81051,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -84136,6 +81731,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -86079,6 +83675,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -86562,6 +84159,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -86905,7 +84503,7 @@
             "maintainers": [
                 {
                     "email": "brightone@protonmail.com",
-                    "github": "filalex77",
+                    "github": "Br1ght0ne",
                     "githubId": 12615679,
                     "keys": [
                         {
@@ -86977,7 +84575,7 @@
                 "riscv32-linux",
                 "riscv64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xeals('nixpkgs', 'pkgs', 'applications', 'terminal-emulators', 'alacritty', 'default.nix')#L136"
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xeals('nixpkgs', 'pkgs', 'applications', 'terminal-emulators', 'alacritty', 'default.nix')#L137"
         },
         "_attr": "alacritty-ligatures",
         "_repo": "xeals"
@@ -87288,7 +84886,7 @@
                 },
                 {
                     "email": "brightone@protonmail.com",
-                    "github": "filalex77",
+                    "github": "Br1ght0ne",
                     "githubId": 12615679,
                     "keys": [
                         {
@@ -87447,9 +85045,9 @@
         "_repo": "xeals"
     },
     "nur.repos.xeals.python2Packages.colorama_0_3_3": {
-        "name": "python2.7-colorama-0.4.3",
+        "name": "python2.7-colorama-0.4.4",
         "pname": "python2.7-colorama",
-        "version": "0.4.3",
+        "version": "0.4.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -87496,6 +85094,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -87508,7 +85107,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
-            "name": "python2.7-colorama-0.4.3",
+            "name": "python2.7-colorama-0.4.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -87553,6 +85152,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -87614,6 +85214,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -87671,6 +85272,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -87732,6 +85334,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -87956,6 +85559,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -88013,6 +85617,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
@@ -88203,6 +85808,7 @@
                 "riscv64-none",
                 "riscv32-none",
                 "vc4-none",
+                "or1k-none",
                 "mmix-mmixware",
                 "js-ghcjs",
                 "aarch64-genode",
