@@ -70506,8 +70506,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.csvquote": {
-        "name": "csvquote-unstable-2018-05-28",
-        "pname": "csvquote-unstable",
+        "name": "csvquote-2018-05-28",
+        "pname": "csvquote",
         "version": "2018-05-28",
         "system": "x86_64-linux",
         "meta": {
@@ -70534,7 +70534,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "csvquote-unstable-2018-05-28",
+            "name": "csvquote-2018-05-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -70571,8 +70571,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.csvtools": {
-        "name": "csvtools-unstable-2019-08-03",
-        "pname": "csvtools-unstable",
+        "name": "csvtools-2019-08-03",
+        "pname": "csvtools",
         "version": "2019-08-03",
         "system": "x86_64-linux",
         "meta": {
@@ -70599,7 +70599,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "csvtools-unstable-2019-08-03",
+            "name": "csvtools-2019-08-03",
             "outputsToInstall": [
                 "out"
             ],
@@ -70636,8 +70636,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.datamaps": {
-        "name": "datamaps-unstable-2014-08-19",
-        "pname": "datamaps-unstable",
+        "name": "datamaps-2014-08-19",
+        "pname": "datamaps",
         "version": "2014-08-19",
         "system": "x86_64-linux",
         "meta": {
@@ -70664,7 +70664,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "datamaps-unstable-2014-08-19",
+            "name": "datamaps-2014-08-19",
             "outputsToInstall": [
                 "out"
             ],
@@ -70788,8 +70788,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.dict2rest": {
-        "name": "dict2rest-unstable-2016-12-05",
-        "pname": "dict2rest-unstable",
+        "name": "dict2rest-2016-12-05",
+        "pname": "dict2rest",
         "version": "2016-12-05",
         "system": "x86_64-linux",
         "meta": {
@@ -70816,7 +70816,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "dict2rest-unstable-2016-12-05",
+            "name": "dict2rest-2016-12-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -70853,8 +70853,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.docker-reg-tool": {
-        "name": "docker-reg-tool-unstable-2019-10-13",
-        "pname": "docker-reg-tool-unstable",
+        "name": "docker-reg-tool-2019-10-13",
+        "pname": "docker-reg-tool",
         "version": "2019-10-13",
         "system": "x86_64-linux",
         "meta": {
@@ -70881,7 +70881,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "docker-reg-tool-unstable-2019-10-13",
+            "name": "docker-reg-tool-2019-10-13",
             "outputsToInstall": [
                 "out"
             ],
@@ -71367,6 +71367,71 @@
         "_attr": "garmin-uploader",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.gdcv": {
+        "name": "gdcv-2020-05-14",
+        "pname": "gdcv",
+        "version": "2020-05-14",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "GoldenDict console version and emacs dynamic module",
+            "homepage": "https://github.com/konstare/gdcv",
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "gdcv-2020-05-14",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
+        },
+        "_attr": "gdcv",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.gef": {
         "name": "gef-unstable-2020-11-18",
         "pname": "gef-unstable",
@@ -71454,8 +71519,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.geminid": {
-        "name": "geminid-unstable-2020-09-09",
-        "pname": "geminid-unstable",
+        "name": "geminid-2020-09-09",
+        "pname": "geminid",
         "version": "2020-09-09",
         "system": "x86_64-linux",
         "meta": {
@@ -71482,7 +71547,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "geminid-unstable-2020-09-09",
+            "name": "geminid-2020-09-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -71815,8 +71880,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.go-staticmaps": {
-        "name": "go-staticmaps-unstable-2020-11-14",
-        "pname": "go-staticmaps-unstable",
+        "name": "go-staticmaps-2020-11-14",
+        "pname": "go-staticmaps",
         "version": "2020-11-14",
         "system": "x86_64-linux",
         "meta": {
@@ -71849,7 +71914,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "go-staticmaps-unstable-2020-11-14",
+            "name": "go-staticmaps-2020-11-14",
             "outputsToInstall": [
                 "out"
             ],
@@ -72401,8 +72466,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-maps": {
-        "name": "gpxsee-maps-unstable-2020-10-30",
-        "pname": "gpxsee-maps-unstable",
+        "name": "gpxsee-maps-2020-10-30",
+        "pname": "gpxsee-maps",
         "version": "2020-10-30",
         "system": "x86_64-linux",
         "meta": {
@@ -72429,7 +72494,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-maps-unstable-2020-10-30",
+            "name": "gpxsee-maps-2020-10-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -73376,9 +73441,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.kiln": {
-        "name": "kiln-unstable-2020-11-02",
-        "pname": "kiln-unstable",
-        "version": "2020-11-02",
+        "name": "kiln-2020-11-21",
+        "pname": "kiln",
+        "version": "2020-11-21",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -73410,7 +73475,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "kiln-unstable-2020-11-02",
+            "name": "kiln-2020-11-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -73556,8 +73621,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.libgarmin": {
-        "name": "libgarmin-unstable-2008-12-27",
-        "pname": "libgarmin-unstable",
+        "name": "libgarmin-2008-12-27",
+        "pname": "libgarmin",
         "version": "2008-12-27",
         "system": "x86_64-linux",
         "meta": {
@@ -73584,7 +73649,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "libgarmin-unstable-2008-12-27",
+            "name": "libgarmin-2008-12-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -74366,8 +74431,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-unstable-2020-11-02",
-        "pname": "nakarte-unstable",
+        "name": "nakarte-2020-11-02",
+        "pname": "nakarte",
         "version": "2020-11-02",
         "system": "x86_64-linux",
         "meta": {
@@ -74395,7 +74460,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-unstable-2020-11-02",
+            "name": "nakarte-2020-11-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -74457,8 +74522,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-unstable-2020-11-19",
-        "pname": "nnn-plugins-unstable",
+        "name": "nnn-plugins-2020-11-19",
+        "pname": "nnn-plugins",
         "version": "2020-11-19",
         "system": "x86_64-linux",
         "meta": {
@@ -74485,7 +74550,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-unstable-2020-11-19",
+            "name": "nnn-plugins-2020-11-19",
             "outputsToInstall": [
                 "out"
             ],
@@ -74682,8 +74747,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openmtbmap": {
-        "name": "openmtbmap-unstable-2020-06-10",
-        "pname": "openmtbmap-unstable",
+        "name": "openmtbmap-2020-06-10",
+        "pname": "openmtbmap",
         "version": "2020-06-10",
         "system": "x86_64-linux",
         "meta": {
@@ -74708,7 +74773,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "openmtbmap-unstable-2020-06-10",
+            "name": "openmtbmap-2020-06-10",
             "outputsToInstall": [
                 "out"
             ],
@@ -74968,8 +75033,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpx-layer": {
-        "name": "perl5.32.0-gpx-layer-unstable-2013-09-19",
-        "pname": "perl5.32.0-gpx-layer-unstable",
+        "name": "perl5.32.0-gpx-layer-2013-09-19",
+        "pname": "perl5.32.0-gpx-layer",
         "version": "2013-09-19",
         "system": "x86_64-linux",
         "meta": {
@@ -74994,7 +75059,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "perl5.32.0-gpx-layer-unstable-2013-09-19",
+            "name": "perl5.32.0-gpx-layer-2013-09-19",
             "outputsToInstall": [
                 "out"
             ],
@@ -75031,8 +75096,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.ocad2img": {
-        "name": "perl5.32.0-ocad2img-unstable-2009-10-11",
-        "pname": "perl5.32.0-ocad2img-unstable",
+        "name": "perl5.32.0-ocad2img-2009-10-11",
+        "pname": "perl5.32.0-ocad2img",
         "version": "2009-10-11",
         "system": "x86_64-linux",
         "meta": {
@@ -75059,7 +75124,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "perl5.32.0-ocad2img-unstable-2009-10-11",
+            "name": "perl5.32.0-ocad2img-2009-10-11",
             "outputsToInstall": [
                 "out"
             ],
@@ -75085,8 +75150,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.osm2mp": {
-        "name": "perl5.32.0-osm2mp-unstable-2018-08-31",
-        "pname": "perl5.32.0-osm2mp-unstable",
+        "name": "perl5.32.0-osm2mp-2018-08-31",
+        "pname": "perl5.32.0-osm2mp",
         "version": "2018-08-31",
         "system": "x86_64-linux",
         "meta": {
@@ -75113,7 +75178,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "perl5.32.0-osm2mp-unstable-2018-08-31",
+            "name": "perl5.32.0-osm2mp-2018-08-31",
             "outputsToInstall": [
                 "out"
             ],
@@ -75147,77 +75212,6 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir('nixpkgs', 'lib', 'attrsets.nix')#L344"
         },
         "_attr": "osm2mp",
-        "_repo": "sikmir"
-    },
-    "nur.repos.sikmir.pg_featureserv": {
-        "name": "pg_featureserv-unstable-2020-08-31",
-        "pname": "pg_featureserv-unstable",
-        "version": "2020-08-31",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Lightweight RESTful Geospatial Feature Server for PostGIS in Go",
-            "homepage": "https://github.com/CrunchyData/pg_featureserv",
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                {
-                    "email": "sikmir@gmail.com",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
-                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
-                        }
-                    ],
-                    "name": "Nikolay Korotkiy"
-                },
-                {
-                    "email": "wael.nasreddine@gmail.com",
-                    "github": "kalbasit",
-                    "githubId": 87115,
-                    "name": "Wael Nasreddine"
-                }
-            ],
-            "name": "pg_featureserv-unstable-2020-08-31",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir"
-        },
-        "_attr": "pg_featureserv",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.phyghtmap": {
@@ -75951,8 +75945,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.python-hfst": {
-        "name": "python3.8-python-hfst-unstable-2020-11-18",
-        "pname": "python3.8-python-hfst-unstable",
+        "name": "python3.8-python-hfst-2020-11-18",
+        "pname": "python3.8-python-hfst",
         "version": "2020-11-18",
         "system": "x86_64-linux",
         "meta": {
@@ -75996,7 +75990,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-python-hfst-unstable-2020-11-18",
+            "name": "python3.8-python-hfst-2020-11-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -76334,8 +76328,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qtpbfimageplugin-styles": {
-        "name": "qtpbfimageplugin-styles-unstable-2020-04-10",
-        "pname": "qtpbfimageplugin-styles-unstable",
+        "name": "qtpbfimageplugin-styles-2020-04-10",
+        "pname": "qtpbfimageplugin-styles",
         "version": "2020-04-10",
         "system": "x86_64-linux",
         "meta": {
@@ -76360,7 +76354,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qtpbfimageplugin-styles-unstable-2020-04-10",
+            "name": "qtpbfimageplugin-styles-2020-04-10",
             "outputsToInstall": [
                 "out"
             ],
@@ -76421,9 +76415,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.quark": {
-        "name": "quark-unstable-2020-09-16",
-        "pname": "quark-unstable",
-        "version": "2020-09-16",
+        "name": "quark-2020-11-01",
+        "pname": "quark",
+        "version": "2020-11-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76449,7 +76443,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "quark-unstable-2020-09-16",
+            "name": "quark-2020-11-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -76801,8 +76795,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.shavit": {
-        "name": "shavit-unstable-2020-03-14",
-        "pname": "shavit-unstable",
+        "name": "shavit-2020-03-14",
+        "pname": "shavit",
         "version": "2020-03-14",
         "system": "x86_64-linux",
         "meta": {
@@ -76835,7 +76829,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "shavit-unstable-2020-03-14",
+            "name": "shavit-2020-03-14",
             "outputsToInstall": [
                 "out"
             ],
@@ -77133,8 +77127,8 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.stardict-tools": {
-        "name": "stardict-tools-unstable-2020-11-19",
-        "pname": "stardict-tools-unstable",
+        "name": "stardict-tools-2020-11-19",
+        "pname": "stardict-tools",
         "version": "2020-11-19",
         "system": "x86_64-linux",
         "meta": {
@@ -77143,10 +77137,10 @@
             "description": "Automatically exported from code.google.com/p/stardict-3",
             "homepage": "https://github.com/huzheng001/stardict-3",
             "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
             "maintainers": [
                 {
@@ -77162,7 +77156,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "stardict-tools-unstable-2020-11-19",
+            "name": "stardict-tools-2020-11-19",
             "outputsToInstall": [
                 "out"
             ],
@@ -77346,9 +77340,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.taginfo-tools": {
-        "name": "taginfo-tools-unstable-2020-10-28",
-        "pname": "taginfo-tools-unstable",
-        "version": "2020-10-28",
+        "name": "taginfo-tools-2020-11-17",
+        "pname": "taginfo-tools",
+        "version": "2020-11-17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -77374,7 +77368,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "taginfo-tools-unstable-2020-10-28",
+            "name": "taginfo-tools-2020-11-17",
             "outputsToInstall": [
                 "out"
             ],
