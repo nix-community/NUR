@@ -77471,10 +77471,10 @@
             "description": "Converter from OCAD map format to Garmin format",
             "homepage": "http://news.worldofo.com/2009/10/11/howto-convert-any-orienteering-map-to-a-garmin-map/",
             "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
             "maintainers": [
                 {
