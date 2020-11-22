@@ -68159,6 +68159,46 @@
         "_attr": "zef",
         "_repo": "sgo"
     },
+    "nur.repos.shamilton.android-platform-tools": {
+        "name": "android-platform-tools-latest",
+        "pname": "android-platform-tools-latest",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "android sdk platform-tools",
+            "homepage": "https://developer.android.com/studio",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "android-platform-tools-latest",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "android-platform-tools",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.anystyle-cli": {
         "name": "anystyle-cli-1.3.1",
         "pname": "anystyle-cli",
@@ -68669,9 +68709,9 @@
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.juk": {
-        "name": "juk-19.12.3",
+        "name": "juk-20.08.2",
         "pname": "juk",
-        "version": "19.12.3",
+        "version": "20.08.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68686,7 +68726,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "juk-19.12.3",
+            "name": "juk-20.08.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -69068,6 +69108,25 @@
         "_attr": "ncgopher",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.pronote-timetable-fetch": {
+        "name": "node_pronote-timetable-fetch-1.0.0",
+        "pname": "node_pronote-timetable-fetch",
+        "version": "1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Pronote timetable fetcher, using Pronote-API",
+            "homepage": "https://github.com/SCOTT-HAMILTON/pronote-timetable-fetch",
+            "license": "MIT",
+            "name": "node_pronote-timetable-fetch-1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "pronote-timetable-fetch",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.numworks-udev-rules": {
         "name": "numworks-udev-rules-unstable-2020-08-31",
         "pname": "numworks-udev-rules-unstable",
@@ -69108,42 +69167,25 @@
         "_attr": "numworks-udev-rules",
         "_repo": "shamilton"
     },
-    "nur.repos.shamilton.debtcollector": {
-        "name": "python3.7-debtcollector-2.2.0",
-        "pname": "python3.7-debtcollector",
-        "version": "2.2.0",
+    "nur.repos.shamilton.ptouch-print": {
+        "name": "ptouch-print-1.4.3",
+        "pname": "ptouch-print",
+        "version": "1.4.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "description": "Python library to collect your technical debt",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
+            "description": "Command line tool to print labels on Brother P-Touch printers on Linux",
+            "homepage": "https://mockmoon-cybernetics.ch/computer/p-touch2430pc/",
             "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
-            "longDescription": "A collection of Python deprecation patterns and strategies that help you\ncollect your technical debt in a non-destructive manner. The goal of this\nlibrary is to provide well documented developer facing deprecation\npatterns that start of with a basic set and can expand into a larger set\nof patterns as time goes on. The desired output of these patterns is to\napply the warnings module to emit DeprecationWarning or\nPendingDeprecationWarning or similar derivative to developers using\nlibraries (or potentially applications) about future deprecations.\n",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "python3.7-debtcollector-2.2.0",
+            "name": "ptouch-print-1.4.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -69162,401 +69204,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
-        "_attr": "debtcollector",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.keystoneauth1": {
-        "name": "python3.7-keystoneauth1-4.2.1",
-        "pname": "python3.7-keystoneauth1",
-        "version": "4.2.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Authentication Library for OpenStack Identity",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "python3.7-keystoneauth1-4.2.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "keystoneauth1",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.os-service-types": {
-        "name": "python3.7-os-service-types-1.7.0",
-        "pname": "python3.7-os-service-types",
-        "version": "1.7.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Python library for consuming OpenStack sevice-types-authority data",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "The data is in JSON and the latest data should always be used. This\nsimple library exists to allow for easy consumption of the data, along\nwith a built-in version of the data to use in case network access is for\nsome reason not possible and local caching of the fetched data.\n",
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "python3.7-os-service-types-1.7.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "os-service-types",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.oslo-config": {
-        "name": "python3.7-oslo-config-8.3.1",
-        "pname": "python3.7-oslo-config",
-        "version": "8.3.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Oslo Configuration API",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "python3.7-oslo-config-8.3.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "oslo-config",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.oslo-i18n": {
-        "name": "python3.7-oslo-i18n-5.0.0",
-        "pname": "python3.7-oslo-i18n",
-        "version": "5.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Openstack internationalization and translation library",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "python3.7-oslo-i18n-5.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "oslo-i18n",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.oslo-serialization": {
-        "name": "python3.7-oslo-serialization-4.0.0",
-        "pname": "python3.7-oslo-serialization",
-        "version": "4.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Oslo Serialization library",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "python3.7-oslo-serialization-4.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "oslo-serialization",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.oslo-utils": {
-        "name": "python3.7-oslo-utils-4.4.0",
-        "pname": "python3.7-oslo-utils",
-        "version": "4.4.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Oslo Utility library",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "The oslo.utils library provides support for common utility type\nfunctions, such as encoding, exception handling, string manipulation,\nand time handling.\n",
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "python3.7-oslo-utils-4.4.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "oslo-utils",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.python-keystoneclient": {
-        "name": "python3.7-python-keystoneclient-4.1.0",
-        "pname": "python3.7-python-keystoneclient",
-        "version": "4.1.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "description": "Client Library for OpenStack Identity",
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "python3.7-python-keystoneclient-4.1.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
-        },
-        "_attr": "python-keystoneclient",
+        "_attr": "ptouch-print",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.python-iconf": {
@@ -69671,6 +69319,62 @@
         "_attr": "merge-keepass",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.mouseinfo": {
+        "name": "python3.8-MouseInfo-0.1.3",
+        "pname": "python3.8-MouseInfo",
+        "version": "0.1.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "longDescription": "An application to display XY position and RGB color information for the\npixel currently under the mouse. Works on Python 2 and 3.\n",
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-MouseInfo-0.1.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "mouseinfo",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.parallel-ssh": {
         "name": "python3.8-parallel-ssh-1.9.1",
         "pname": "python3.8-parallel-ssh",
@@ -69725,6 +69429,454 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "parallel-ssh",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.pdf2timetable": {
+        "name": "python3.8-Pdf2TimeTable-1.0.0",
+        "pname": "python3.8-Pdf2TimeTable",
+        "version": "1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Converts a pdf timetable (generated by pronote) to an excel timetable (that can be used with TimeTable2Header)",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-Pdf2TimeTable-1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "pdf2timetable",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.pronotebot": {
+        "name": "python3.8-PronoteBot-1.0.0",
+        "pname": "python3.8-PronoteBot",
+        "version": "1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Pronote bot to open pronote or to open the physics and chemistry book at a specified page",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-PronoteBot-1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "pronotebot",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.pyautogui": {
+        "name": "python3.8-PyAutoGUI-0.9.52",
+        "pname": "python3.8-PyAutoGUI",
+        "version": "0.9.52",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "longDescription": "A cross-platform GUI automation Python module for\n    human beings. Used to programmatically control the mouse & keyboard.",
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-PyAutoGUI-0.9.52",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "pyautogui",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.pygetwindow": {
+        "name": "python3.8-PyGetWindow-0.0.9",
+        "pname": "python3.8-PyGetWindow",
+        "version": "0.0.9",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Simple, cross-platform module for obtaining GUI information on applications' windows",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-PyGetWindow-0.0.9",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "pygetwindow",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.pyrect": {
+        "name": "python3.8-PyRect-0.1.4",
+        "pname": "python3.8-PyRect",
+        "version": "0.1.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Simple module with a Rect class for Pygame-like rectangular areas",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-PyRect-0.1.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "pyrect",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.pyscreeze": {
+        "name": "python3.8-PyScreeze-0.1.26",
+        "pname": "python3.8-PyScreeze",
+        "version": "0.1.26",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Simple, cross-platform screenshot module for Python 2 and 3",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-PyScreeze-0.1.26",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "pyscreeze",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.python3-xlib": {
+        "name": "python3.8-python3-xlib-0.15",
+        "pname": "python3.8-python3-xlib",
+        "version": "0.15",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Python3 version of python-xlib",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-python3-xlib-0.15",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "python3-xlib",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.pytweening": {
+        "name": "python3.8-pytweening-1.0.3",
+        "pname": "python3.8-pytweening",
+        "version": "1.0.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A set of tweening / easing functions implemented in Python",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-pytweening-1.0.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "pytweening",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.ssh2-python": {
@@ -69837,6 +69989,174 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "sync-database",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.tabula-py": {
+        "name": "python3.8-tabula-py-2.2.0",
+        "pname": "python3.8-tabula-py",
+        "version": "2.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Simple wrapper for tabula-java, read tables from PDF into DataFrame",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-tabula-py-2.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "tabula-py",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.timetable2header": {
+        "name": "python3.8-TimeTable2Header-1.0.0",
+        "pname": "python3.8-TimeTable2Header",
+        "version": "1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Keepass Databases Merging script",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-TimeTable2Header-1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "timetable2header",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.yaml2probatree": {
+        "name": "python3.8-Yaml2ProbaTree-0.1",
+        "pname": "python3.8-Yaml2ProbaTree",
+        "version": "0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Converts a yaml structure to a LaTeX/TiKZ probability tree",
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.8-Yaml2ProbaTree-0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "yaml2probatree",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.qtile": {
