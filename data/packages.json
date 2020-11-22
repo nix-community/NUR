@@ -67917,6 +67917,30 @@
         "_attr": "firefox-addons.zoom-page-we",
         "_repo": "rycee"
     },
+    "nur.repos.sehqlr.kakoune-ghwiki": {
+        "name": "kakoune-ghwiki-2020-02-25",
+        "pname": "kakoune-ghwiki",
+        "version": "2020-02-25",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Teach Kakoune tricks for editing a GitHub-style wiki",
+            "homepage": "https://github.com/Screwtapello/kakoune-ghwiki",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "kakoune-ghwiki-2020-02-25",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sehqlr"
+        },
+        "_attr": "kakoune-ghwiki",
+        "_repo": "sehqlr"
+    },
     "nur.repos.setser.example-package": {
         "name": "example-package-1.0",
         "pname": "example-package",
