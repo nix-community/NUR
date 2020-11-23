@@ -47576,9 +47576,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.ccache": {
-        "name": "ccache-4.0",
+        "name": "ccache-4.1",
         "pname": "ccache",
-        "version": "4.0",
+        "version": "4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47597,9 +47597,15 @@
                     "github": "metadark",
                     "githubId": 382041,
                     "name": "Kira Bruneau"
+                },
+                {
+                    "email": "rtburns@protonmail.com",
+                    "github": "r-burns",
+                    "githubId": 52847440,
+                    "name": "Ryan Burns"
                 }
             ],
-            "name": "ccache-4.0",
+            "name": "ccache-4.1",
             "outputsToInstall": [
                 "out",
                 "man"
