@@ -68339,6 +68339,51 @@
         "_attr": "baobab",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.boca": {
+        "name": "BoCA-1.0.3",
+        "pname": "BoCA",
+        "version": "1.0.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A component library used by the fre:ac audio converter",
+            "homepage": "https://github.com/enzo1982/boca",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sgn.hamilton@protonmail.com",
+                    "github": "SCOTT-HAMILTON",
+                    "githubId": 24496705,
+                    "name": "Scott Hamilton"
+                }
+            ],
+            "name": "BoCA-1.0.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "boca",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.bomber": {
         "name": "Bomber-19.12.3",
         "pname": "Bomber",
@@ -68577,6 +68622,46 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "fake-mic-wav-player",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.freac": {
+        "name": "freac-1.1.3",
+        "pname": "freac",
+        "version": "1.1.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The fre:ac audio converter project",
+            "homepage": "https://www.freac.org/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "freac-1.1.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "freac",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.haste-client": {
@@ -70390,6 +70475,46 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
         },
         "_attr": "slick-greeter",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.smooth": {
+        "name": "smooth-0.9.6",
+        "pname": "smooth",
+        "version": "0.9.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "The smooth Class Library",
+            "homepage": "http://www.smooth-project.org/",
+            "license": {
+                "fullName": "Artistic License 2.0",
+                "shortName": "artistic2",
+                "spdxId": "Artistic-2.0",
+                "url": "https://spdx.org/licenses/Artistic-2.0.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "smooth-0.9.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton"
+        },
+        "_attr": "smooth",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.spectacle-clipboard": {
