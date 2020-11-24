@@ -63161,9 +63161,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.clearurls": {
-        "name": "clearurls-1.19.0",
+        "name": "clearurls-1.20.0",
         "pname": "clearurls",
-        "version": "1.19.0",
+        "version": "1.20.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -63175,7 +63175,7 @@
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
-            "name": "clearurls-1.19.0",
+            "name": "clearurls-1.20.0",
             "outputsToInstall": [
                 "out"
             ],
