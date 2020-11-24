@@ -47386,9 +47386,9 @@
         "_repo": "marzipankaiser"
     },
     "nur.repos.metadark.bcml": {
-        "name": "bcml-3.1.1",
+        "name": "bcml-3.1.2",
         "pname": "bcml",
-        "version": "3.1.1",
+        "version": "3.1.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47425,7 +47425,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "bcml-3.1.1",
+            "name": "bcml-3.1.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -47448,9 +47448,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.bcml-gtk": {
-        "name": "bcml-3.1.1",
+        "name": "bcml-3.1.2",
         "pname": "bcml",
-        "version": "3.1.1",
+        "version": "3.1.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -47487,7 +47487,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "bcml-3.1.1",
+            "name": "bcml-3.1.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -48610,9 +48610,9 @@
         "_repo": "metadark"
     },
     "nur.repos.metadark.xpadneo": {
-        "name": "xpadneo-0.8.5",
+        "name": "xpadneo-0.9",
         "pname": "xpadneo",
-        "version": "0.8.5",
+        "version": "0.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48632,7 +48632,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "xpadneo-0.8.5",
+            "name": "xpadneo-0.9",
             "outputsToInstall": [
                 "out"
             ],
