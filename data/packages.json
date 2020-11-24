@@ -68165,6 +68165,250 @@
         "_attr": "zef",
         "_repo": "sgo"
     },
+    "nur.repos.shados.json-yaml": {
+        "name": "json-yaml-1.2.1",
+        "pname": "json-yaml",
+        "version": "1.2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Converts JSON to YAML and back",
+            "homepage": "https://github.com/sjmulder/json-yaml",
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "shados@shados.net",
+                    "github": "shados",
+                    "githubId": 338268,
+                    "name": "Alexei Robyn"
+                }
+            ],
+            "name": "json-yaml-1.2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados"
+        },
+        "_attr": "json-yaml",
+        "_repo": "shados"
+    },
+    "nur.repos.shados.loudgain": {
+        "name": "loudgain-unstable-2019-11-03",
+        "pname": "loudgain-unstable",
+        "version": "2019-11-03",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "ReplayGain 2.0 loudness normalizer based on the EBU R128/ITU BS.1770 standard",
+            "homepage": "https://github.com/Moonbase59/loudgain",
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "shados@shados.net",
+                    "github": "shados",
+                    "githubId": 338268,
+                    "name": "Alexei Robyn"
+                }
+            ],
+            "name": "loudgain-unstable-2019-11-03",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados"
+        },
+        "_attr": "loudgain",
+        "_repo": "shados"
+    },
+    "nur.repos.shados.bash-language-server": {
+        "name": "node_bash-language-server-1.5.6",
+        "pname": "node_bash-language-server",
+        "version": "1.5.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A language server for Bash",
+            "homepage": "https://github.com/mads-hartmann/bash-language-server#readme",
+            "license": "MIT",
+            "name": "node_bash-language-server-1.5.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados"
+        },
+        "_attr": "bash-language-server",
+        "_repo": "shados"
+    },
+    "nur.repos.shados.fixjson": {
+        "name": "node_fixjson-1.1.0",
+        "pname": "node_fixjson",
+        "version": "1.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "JSON fixer for humans using (relaxed) JSON5",
+            "homepage": "https://github.com/rhysd/fixjson#readme",
+            "license": "MIT",
+            "name": "node_fixjson-1.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados"
+        },
+        "_attr": "fixjson",
+        "_repo": "shados"
+    },
+    "nur.repos.shados.vscode-css-language-server-bin": {
+        "name": "node_vscode-css-languageserver-bin-1.4.0",
+        "pname": "node_vscode-css-languageserver-bin",
+        "version": "1.4.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Binary version published on npm of vscode-css-languageserver extracted from VSCode tree",
+            "homepage": "https://github.com/vscode-langservers/vscode-css-languageserver-bin#readme",
+            "license": "MIT",
+            "name": "node_vscode-css-languageserver-bin-1.4.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados"
+        },
+        "_attr": "vscode-css-language-server-bin",
+        "_repo": "shados"
+    },
+    "nur.repos.shados.rxvt_unicode_24bit": {
+        "name": "rxvt-unicode-with-perl-with-unicode3-9.22",
+        "pname": "rxvt-unicode-with-perl-with-unicode3",
+        "version": "9.22",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A clone of the well-known terminal emulator rxvt",
+            "homepage": "http://software.schmorp.de/pkg/rxvt-unicode.html",
+            "maintainers": [
+                {
+                    "email": "shados@shados.net",
+                    "github": "shados",
+                    "githubId": 338268,
+                    "name": "Alexei Robyn"
+                }
+            ],
+            "name": "rxvt-unicode-with-perl-with-unicode3-9.22",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados"
+        },
+        "_attr": "rxvt_unicode_24bit",
+        "_repo": "shados"
+    },
+    "nur.repos.shados.tagsistant": {
+        "name": "tagsistant-unstable-2017-02-12",
+        "pname": "tagsistant-unstable",
+        "version": "2017-02-12",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "Semantic filesystem for Linux, with relation reasoner, autotagging plugins and a deduplication service",
+            "homepage": "https://tagsistant.net/",
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "longDescription": "Tagsistant is a semantic file system for Linux, a personal tool\nto catalog files using tags (labels, mnemonic informations)\nrather than directories.\n\nTagsistant replace the concept of directory with that of tag, but\nsince it have to do with directories, it pairs the concept of tag\nwith that of directory. So within Tagsistant a tag is a directory\nand a directory is a tag.\n",
+            "maintainers": [
+                {
+                    "email": "shados@shados.net",
+                    "github": "shados",
+                    "githubId": 338268,
+                    "name": "Alexei Robyn"
+                }
+            ],
+            "name": "tagsistant-unstable-2017-02-12",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados"
+        },
+        "_attr": "tagsistant",
+        "_repo": "shados"
+    },
+    "nur.repos.shados.urxvt-config-reload": {
+        "name": "urxvt-config-reload",
+        "pname": "urxvt-config-reload",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A urxvt extension that allows reloading urxvt configuration at runtime by\nsending SIGHUP to the urxvt process.\n",
+            "homepage": "https://github.com/regnarg/urxvt-config-reload",
+            "maintainers": [
+                {
+                    "email": "shados@shados.net",
+                    "github": "shados",
+                    "githubId": 338268,
+                    "name": "Alexei Robyn"
+                }
+            ],
+            "name": "urxvt-config-reload",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados"
+        },
+        "_attr": "urxvt-config-reload",
+        "_repo": "shados"
+    },
+    "nur.repos.shados.urxvtconfig": {
+        "name": "urxvtconfig-unstable-2017-11-30",
+        "pname": "urxvtconfig-unstable",
+        "version": "2017-11-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "description": "A graphical user interface tool for configuration of the rxvt-unicode terminal emulator.",
+            "homepage": "https://github.com/daedreth/URXVTConfig",
+            "license": {
+                "fullName": "GNU Lesser General Public License v3.0 only",
+                "shortName": "lgpl3Only",
+                "spdxId": "LGPL-3.0-only",
+                "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "shados@shados.net",
+                    "github": "shados",
+                    "githubId": 338268,
+                    "name": "Alexei Robyn"
+                }
+            ],
+            "name": "urxvtconfig-unstable-2017-11-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shados"
+        },
+        "_attr": "urxvtconfig",
+        "_repo": "shados"
+    },
     "nur.repos.shamilton.android-platform-tools": {
         "name": "android-platform-tools-latest",
         "pname": "android-platform-tools-latest",
