@@ -26,7 +26,7 @@ else
   git commit -m "automatic update"
   # in case we are getting overtaken by a different job
   git pull --rebase origin master
-  git push $API_TOKEN_GITHUB@github.com:nix-community/NUR HEAD:master
+  git push "https://$API_TOKEN_GITHUB@github.com/nix-community/NUR" HEAD:master
 fi
 
 git -C nur-combined pull --rebase origin master
