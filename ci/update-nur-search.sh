@@ -16,10 +16,7 @@ nix-build --quiet release.nix
 
 git clone --single-branch "https://$API_TOKEN_GITHUB@github.com/nix-community/nur-combined.git"
 
-git clone \
-  --recurse-submodules \
-  --single-branch \
-  "https://$API_TOKEN_GITHUB@github.com/nix-community/nur-search.git"
+git clone --recurse-submodules "https://$API_TOKEN_GITHUB@github.com/nix-community/nur-search.git"
 
 nix run '(import ./release.nix {})' -c nur index nur-combined > nur-search/data/packages.json
 
