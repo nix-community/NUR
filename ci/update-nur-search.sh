@@ -19,8 +19,6 @@ git clone \
   --single-branch \
   "https://$API_TOKEN_GITHUB@github.com/nix-community/nur-combined.git"
 
-git clone git@github.com:nix-community/nur-combined
-
 nix run '(import ./release.nix {})' -c nur index nur-combined > nur-search/data/packages.json
 
 # rebuild and publish nur-search repository
