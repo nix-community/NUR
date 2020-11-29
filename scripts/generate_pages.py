@@ -32,8 +32,11 @@ Name | Attribute | Description
         for pkg in pkgs:
             name = pkg.metadata["name"]
             meta = pkg.metadata["meta"]
+            description = meta.get("description")
+            if description is None:
+                description = ""
 
-            description = meta.get("description", "").replace("\n", "")
+            description = description.replace("\n", "")
             homepage = meta.get("homepage", None)
             attribute = pkg.attribute
 
