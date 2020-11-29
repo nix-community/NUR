@@ -17,5 +17,9 @@ jobs:
         nix_path: nixpkgs=channel:nixos-unstable
     - name: update nur / nur-combined
       run: ./ci/update-nur.sh
+      with:
+        github-key: '${{ secrets.API_TOKEN_GITHUB }}'
     - name: update nur-search/data/packages.json
       run: ./ci/update-nur-search.sh
+      with:
+        github-key: '${{ secrets.API_TOKEN_GITHUB }}'
