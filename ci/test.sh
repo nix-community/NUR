@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/bin/env nix-shell
+#!nix-shell -p bash -i bash -p python3Packages.mypy -p python3Packages.black -p python3Packages.flake8
 
 set -eux -o pipefail # Exit with nonzero exit code if anything fails
 
@@ -11,11 +12,11 @@ if [ -n "$(git diff --exit-code repos.json)" ]; then
 fi
 
 # Type checker
-nix run nixpkgs.python3Packages.mypy -c mypy nur
+mypy nur
 # Format checker
-nix run nixpkgs.python3Packages.black -c black --check .
+black --check .
 # Linter
-nix run nixpkgs.python3Packages.flake8 -c flake8 .
+flake8 .
 
 nix run '(import ./release.nix {})' -c nur update
 nix-build
