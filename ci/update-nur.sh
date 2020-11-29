@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/bin/env nix-shell
+#!nix-shell -p git -p bash -i bash
 
 set -eu -o pipefail # Exit with nonzero exit code if anything fails
 
@@ -10,7 +11,9 @@ set -x
 nix run '(import ./release.nix {})' -c nur update
 nix-build
 
-git clone git@github.com:nix-community/nur-combined
+git clone \
+  --single-branch \
+  "https://$API_TOKEN_GITHUB@github.com/nix-community/nur-combined.git"
 
 nix run '(import ./release.nix {})' -c nur combine \
   --irc-notify nur-bot@chat.freenode.net:6697/nixos-nur \

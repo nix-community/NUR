@@ -6,7 +6,7 @@ python3Packages.buildPythonApplication {
   name = "nur";
   src = ./.;
 
-  propagatedBuildInputs = [ python3Packages.irc ];
+  doCheck = true;
 
   makeWrapperArgs = [
     "--prefix" "PATH" ":" "${stdenv.lib.makeBinPath [ nix-prefetch-git git nix ]}"

@@ -11,6 +11,7 @@ from typing import Dict, List, Optional, Tuple
 from .fileutils import chdir, write_json_file
 from .manifest import Repo, load_manifest, update_lock_file
 from .path import LOCK_PATH, MANIFEST_PATH, ROOT
+from .irc_notify import send
 
 logger = logging.getLogger(__name__)
 
@@ -51,7 +52,7 @@ def commit_repo(repo: Repo, message: str, path: Path) -> Repo:
     assert tmp is not None
 
     try:
-        copy_tree(repo_source(repo.name), tmp.name)
+        copy_tree(repo_source(repo.name), tmp.name, preserve_symlinks=1)
         shutil.rmtree(repo_path, ignore_errors=True)
         os.rename(tmp.name, repo_path)
         tmp = None
@@ -101,10 +102,11 @@ def update_combined_repo(
 
 
 def remove_repo(repo: Repo, path: Path) -> None:
-    repo_path = path.joinpath("repos", repo.name)
+    repo_path = path.joinpath("repos", repo.name).resolve()
     if repo_path.exists():
         shutil.rmtree(repo_path)
-    commit_files([str(repo_path)], f"{repo.name}: remove")
+    with chdir(path):
+        commit_files([str(repo_path)], f"{repo.name}: remove")
 
 
 def update_manifest(repos: List[Repo], path: Path) -> None:
@@ -168,7 +170,7 @@ def setup_combined() -> None:
         write_json_file(dict(repos={}), manifest_path)
 
     manifest_lib = "lib"
-    copy_tree(str(ROOT.joinpath("lib")), manifest_lib)
+    copy_tree(str(ROOT.joinpath("lib")), manifest_lib, preserve_symlinks=1)
     default_nix = "default.nix"
     shutil.copy(ROOT.joinpath("default.nix"), default_nix)
 
@@ -185,12 +187,6 @@ def combine_command(args: Namespace) -> None:
     notifications = update_combined(combined_path)
 
     if args.irc_notify:
-        try:
-            from .irc_notify import send
-        except ImportError as e:
-            print(f"failed to import irc_notify, skipping notification: {e}")
-            return
-
         try:
             send(args.irc_notify, notifications)
         except Exception as e:

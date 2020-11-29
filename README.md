@@ -1,7 +1,5 @@
 # NUR
 
-[![Build Status](https://travis-ci.com/nix-community/NUR.svg?branch=master)](https://travis-ci.com/nix-community/NUR)
-
 The Nix User Repository (NUR) is community-driven meta repository for Nix packages.
 It provides access to user repositories that contain package descriptions (Nix
 expressions) and allows you to install packages by referencing them via attributes.
@@ -68,7 +66,7 @@ Hello, NUR!
 or
 
 ```console
-$ nix-env -iA nur.repos.mic92.hello-nur
+$ nix-env -f '<nixpkgs>' -iA nur.repos.mic92.hello-nur
 ```
 
 or
@@ -147,10 +145,11 @@ outputs = {self, nixpkgs, nur }:
   nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
     # ...
     modules = [
-      ({
-        nixpkgs.overlays = [ nur."${nur-username}".overlays."${anOverlay}" ]
-      })
-      nur."${nur-username}".modules.${aModule}
+      # this adds a nur attribute set that can be used for example like this:
+      #  ({ pkgs, ... }: {
+      #    environment.systemPackages = [ pkgs.nur.repos.mic92.hello-nur ];
+      #  })
+      { nixpkgs.overlays = [ nur.overlay ]; }
     ];
   };
 }
@@ -160,7 +159,7 @@ outputs = {self, nixpkgs, nur }:
 ## Finding packages
 
 You can find all packages using
-[Packages search for NUR](https://nix-community.github.io/nur-search/)
+[Packages search for NUR](https://nur.nix-community.org/)
 or search our
 [nur-combined](https://github.com/nix-community/nur-combined)
 repository, which contains all nix expressions from all users, via
@@ -311,7 +310,10 @@ curl -XPOST https://nur-update.herokuapp.com/update?repo=mic92
 Check out the [github page](https://github.com/nix-community/nur-update#nur-update-endpoint) for further details
 
 ### HELP! Why are my NUR packages not updating?
-With every build triggered via the URL hook all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are in the meta data of a derivation like a wrong license attribute.
+With every build triggered via the URL hook all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are:
+
+* Using a wrong license attribute in the metadata.
+* Using a builtin fetcher because it will cause access to external URLs during evaluation. Use pkgs.fetch* instead (i.e. instead of `builtins.fetchGit` use `pkgs.fetchgit`)
 
 You can find out if your evaluation succeeded by checking the [latest travis build job]( https://travis-ci.com/github/nix-community/NUR/ ).
 
