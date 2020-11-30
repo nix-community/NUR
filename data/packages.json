@@ -14006,14 +14006,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "maintainers": [
-                {
-                    "email": "gnidorah@users.noreply.github.com",
-                    "github": "gnidorah",
-                    "githubId": 12064730,
-                    "name": "gnidorah"
-                }
-            ],
+            "maintainers": [],
             "name": "RealRTCW-3.1n",
             "outputsToInstall": [
                 "out"
@@ -58668,34 +58661,6 @@
         "_attr": "hassLovelaceModules.swipe-navigation",
         "_repo": "mweinelt"
     },
-    "nur.repos.mweinelt.trinitycore_825": {
-        "name": "TrinityCore-8.2.5-32978",
-        "pname": "TrinityCore",
-        "version": "8.2.5-32978",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "TrinityCore Open Source MMO Framework",
-            "homepage": "https://www.trinitycore.org",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v2.0 only",
-                "shortName": "gpl2Only",
-                "spdxId": "GPL-2.0-only",
-                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
-            },
-            "name": "TrinityCore-8.2.5-32978",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "trinitycore_825",
-        "_repo": "mweinelt"
-    },
     "nur.repos.mweinelt.trinitycore_335": {
         "name": "TrinityCore-TDB335.20111",
         "pname": "TrinityCore-TDB335.20111",
@@ -58724,9 +58689,9 @@
         "_attr": "trinitycore_335",
         "_repo": "mweinelt"
     },
-    "nur.repos.mweinelt.trinitycore_830": {
-        "name": "TrinityCore-TDB830.20061",
-        "pname": "TrinityCore-TDB830.20061",
+    "nur.repos.mweinelt.trinitycore_434": {
+        "name": "TrinityCore-TDB434.20091",
+        "pname": "TrinityCore-TDB434.20091",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -58741,7 +58706,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "TrinityCore-TDB830.20061",
+            "name": "TrinityCore-TDB434.20091",
             "outputsToInstall": [
                 "out"
             ],
@@ -58749,7 +58714,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "trinitycore_830",
+        "_attr": "trinitycore_434",
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.trinitycore_837": {
@@ -67460,9 +67425,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.betterttv": {
-        "name": "betterttv-7.2.89",
+        "name": "betterttv-7.2.90",
         "pname": "betterttv",
-        "version": "7.2.89",
+        "version": "7.2.90",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -67476,7 +67441,7 @@
                 "shortName": "betterttv",
                 "url": "https://betterttv.com/terms"
             },
-            "name": "betterttv-7.2.89",
+            "name": "betterttv-7.2.90",
             "outputsToInstall": [
                 "out"
             ],
@@ -88388,7 +88353,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "",
+            "description": "collection of utilities for ripping, dumping, analysing, and modifying disk images",
             "homepage": "https://github.com/keirf/Disk-Utilities",
             "insecure": false,
             "maintainers": [
@@ -88621,7 +88586,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "",
+            "description": "commandline tool to analyze and convert floppy disk flux captures (scp format) to emulator friendly formats (and metainfo for archive purposes)",
             "homepage": "https://github.com/shamada-code/superdiskindex",
             "insecure": false,
             "maintainers": [
@@ -88803,7 +88768,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "",
+            "description": "xa is a high-speed, two-pass portable cross-assembler. It understands mnemonics and generates code for NMOS 6502s (such as 6502A, 6504, 6507, 6510, 7501, 8500, 8501, 8502 ...), CMOS 6502s (65C02 and Rockwell R65C02) and the 65816.",
             "homepage": "https://www.floodgap.com/retrotech/xa/",
             "insecure": false,
             "license": {
