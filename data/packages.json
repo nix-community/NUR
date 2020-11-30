@@ -4143,6 +4143,65 @@
         "_attr": "marble-marcher",
         "_repo": "c0deaddict"
     },
+    "nur.repos.c0deaddict.nats-utils": {
+        "name": "nats-utils-master",
+        "pname": "nats-utils-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "NATS command line utitilies provided by the nats.go library",
+            "homepage": "https://github.com/nats-io/nats.go",
+            "insecure": false,
+            "license": {
+                "fullName": "Apple Public Source License 2.0",
+                "shortName": "apsl20",
+                "spdxId": "APSL-2.0",
+                "url": "https://spdx.org/licenses/APSL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "josvanbakel@protonmail.com",
+                    "github": "c0deaddict",
+                    "githubId": 510553,
+                    "name": "Jos van Bakel"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "nats-utils-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/c0deaddict",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "nats-utils",
+        "_repo": "c0deaddict"
+    },
     "nur.repos.c0deaddict.nsc": {
         "name": "nsc-0.4.10",
         "pname": "nsc",
@@ -86212,68 +86271,6 @@
             "unsupported": false
         },
         "_attr": "neovim.stable",
-        "_repo": "stupremee"
-    },
-    "nur.repos.stupremee.veloren.stable": {
-        "name": "veloren-0.7.0",
-        "pname": "veloren",
-        "version": "0.7.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Veloren is an open-world, open-source multiplayer voxel RPG. The game is in an early stage of development, but is playable.",
-            "homepage": "https://veloren.net/",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "name": "veloren-0.7.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/stupremee",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "veloren.stable",
-        "_repo": "stupremee"
-    },
-    "nur.repos.stupremee.veloren.nightly": {
-        "name": "veloren-nightly",
-        "pname": "veloren-nightly",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Veloren is an open-world, open-source multiplayer voxel RPG. The game is in an early stage of development, but is playable.",
-            "homepage": "https://veloren.net/",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "name": "veloren-nightly",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/stupremee",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "veloren.nightly",
         "_repo": "stupremee"
     },
     "nur.repos.suhr._31key": {
