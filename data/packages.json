@@ -5749,9 +5749,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.CRA": {
-        "name": "node_create-react-app-4.0.0",
+        "name": "node_create-react-app-4.0.1",
         "pname": "node_create-react-app",
-        "version": "4.0.0",
+        "version": "4.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5759,7 +5759,7 @@
             "description": "Create React apps with no build configuration.",
             "insecure": false,
             "license": "MIT",
-            "name": "node_create-react-app-4.0.0",
+            "name": "node_create-react-app-4.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -5861,9 +5861,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.13.1",
+        "name": "node_pnpm-5.13.4",
         "pname": "node_pnpm",
-        "version": "5.13.1",
+        "version": "5.13.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5872,7 +5872,7 @@
             "homepage": "https://pnpm.js.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_pnpm-5.13.1",
+            "name": "node_pnpm-5.13.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -77372,9 +77372,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-11-28",
+        "name": "embox-unstable-2020-12-01",
         "pname": "embox-unstable",
-        "version": "2020-11-28",
+        "version": "2020-12-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -77402,7 +77402,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-11-28",
+            "name": "embox-unstable-2020-12-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -79070,9 +79070,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-11-28",
+        "name": "gpxsee-unstable-2020-12-01",
         "pname": "gpxsee-unstable",
-        "version": "2020-11-28",
+        "version": "2020-12-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79101,7 +79101,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-11-28",
+            "name": "gpxsee-unstable-2020-12-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -79543,9 +79543,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.hfst": {
-        "name": "hfst-unstable-2020-11-18",
+        "name": "hfst-unstable-2020-12-01",
         "pname": "hfst-unstable",
-        "version": "2020-11-18",
+        "version": "2020-12-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79573,7 +79573,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "hfst-unstable-2020-11-18",
+            "name": "hfst-unstable-2020-12-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -80907,9 +80907,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.microjson": {
-        "name": "microjson-unstable-2020-07-04",
+        "name": "microjson-unstable-2020-11-30",
         "pname": "microjson-unstable",
-        "version": "2020-07-04",
+        "version": "2020-11-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -80937,7 +80937,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "microjson-unstable-2020-07-04",
+            "name": "microjson-unstable-2020-11-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -82341,9 +82341,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.cheetah3": {
-        "name": "python3.8-cheetah3-unstable-2020-10-17",
+        "name": "python3.8-cheetah3-unstable-2020-11-29",
         "pname": "python3.8-cheetah3-unstable",
-        "version": "2020-10-17",
+        "version": "2020-11-29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82388,7 +82388,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-cheetah3-unstable-2020-10-17",
+            "name": "python3.8-cheetah3-unstable-2020-11-29",
             "outputsToInstall": [
                 "out"
             ],
@@ -83171,9 +83171,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.python-hfst": {
-        "name": "python3.8-python-hfst-2020-11-18",
+        "name": "python3.8-python-hfst-2020-12-01",
         "pname": "python3.8-python-hfst",
-        "version": "2020-11-18",
+        "version": "2020-12-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83218,7 +83218,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-python-hfst-2020-11-18",
+            "name": "python3.8-python-hfst-2020-12-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -83927,9 +83927,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-11-18",
+        "name": "routinodb-2020-11-30",
         "pname": "routinodb",
-        "version": "2020-11-18",
+        "version": "2020-11-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83955,7 +83955,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-11-18",
+            "name": "routinodb-2020-11-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -84799,9 +84799,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tatoebatools": {
-        "name": "tatoebatools-unstable-2020-11-09",
+        "name": "tatoebatools-unstable-2020-12-01",
         "pname": "tatoebatools-unstable",
-        "version": "2020-11-09",
+        "version": "2020-12-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -84846,7 +84846,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tatoebatools-unstable-2020-11-09",
+            "name": "tatoebatools-unstable-2020-12-01",
             "outputsToInstall": [
                 "out"
             ],
