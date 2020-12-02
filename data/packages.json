@@ -58536,6 +58536,34 @@
         "_attr": "hassThemes.clear-dark",
         "_repo": "mweinelt"
     },
+    "nur.repos.mweinelt.cmangos_tbc": {
+        "name": "mangos-tbc-unstable-2020-11-30",
+        "pname": "mangos-tbc-unstable",
+        "version": "2020-11-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Continued Massive Network Game Object Server",
+            "homepage": "https://cmangos.net",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "mangos-tbc-unstable-2020-11-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "cmangos_tbc",
+        "_repo": "mweinelt"
+    },
     "nur.repos.mweinelt.hassLovelaceModules.multiple-entity-row": {
         "name": "multiple-entity-row-4.1.1",
         "pname": "multiple-entity-row",
@@ -58802,6 +58830,34 @@
             "unsupported": false
         },
         "_attr": "trinitycore_837",
+        "_repo": "mweinelt"
+    },
+    "nur.repos.mweinelt.vmangos": {
+        "name": "vmangos-unstable-2020-11-30",
+        "pname": "vmangos-unstable",
+        "version": "2020-11-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Progressive Vanilla Core aimed at all versions from 1.2 to 1.12",
+            "homepage": "https://github.com/vmangos/core",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "name": "vmangos-unstable-2020-11-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vmangos",
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.hassLovelaceModules.weather-card-chart": {
