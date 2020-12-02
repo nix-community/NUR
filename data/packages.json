@@ -231,6 +231,81 @@
         "_attr": "routinator",
         "_repo": "_0x4A6F"
     },
+    "nur.repos.aasg.prometheus-bird-exporter": {
+        "name": "bird_exporter-1.2.4",
+        "pname": "bird_exporter",
+        "version": "1.2.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Bird protocol state exporter for bird routing daemon to use with Prometheus",
+            "homepage": "https://github.com/czerwonk/bird_exporter",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "bird_exporter-1.2.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "prometheus-bird-exporter",
+        "_repo": "aasg"
+    },
     "nur.repos.aasg.dma": {
         "name": "dma-0.13",
         "pname": "dma",
@@ -274,121 +349,23 @@
                 "armv7a-linux",
                 "armv7l-linux",
                 "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
                 "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
                 "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
                 "powerpc64le-linux",
                 "riscv32-linux",
-                "riscv64-linux"
+                "riscv64-linux",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "i686-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg",
             "unfree": false,
             "unsupported": false
         },
         "_attr": "dma",
-        "_repo": "aasg"
-    },
-    "nur.repos.aasg.drep": {
-        "name": "drep-0.1.1",
-        "pname": "drep",
-        "version": "0.1.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A grep with runtime reloadable filters",
-            "homepage": "https://github.com/maxpert/drep",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "aluisio@aasg.name",
-                    "github": "AluisioASG",
-                    "githubId": 1904165,
-                    "keys": [
-                        {
-                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
-                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
-                        }
-                    ],
-                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
-                }
-            ],
-            "name": "drep-0.1.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-windows",
-                "i686-windows",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "arm-none",
-                "armv6l-none",
-                "aarch64-none",
-                "avr-none",
-                "i686-none",
-                "x86_64-none",
-                "powerpc-none",
-                "msp430-none",
-                "riscv64-none",
-                "riscv32-none",
-                "vc4-none",
-                "or1k-none",
-                "mmix-mmixware",
-                "js-ghcjs",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "drep",
         "_repo": "aasg"
     },
     "nur.repos.aasg.dyndnsc": {
@@ -478,6 +455,102 @@
         "_attr": "dyndnsc",
         "_repo": "aasg"
     },
+    "nur.repos.aasg.esbuild": {
+        "name": "esbuild-0.7.14",
+        "pname": "esbuild",
+        "version": "0.7.14",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An extremely fast JavaScript bundler and minifier",
+            "homepage": "https://github.com/evanw/esbuild",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "esbuild-0.7.14",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "or1k-none",
+                "mmix-mmixware",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "esbuild",
+        "_repo": "aasg"
+    },
     "nur.repos.aasg.guile-commonmark": {
         "name": "guile-commonmark-0.1.2",
         "pname": "guile-commonmark",
@@ -532,6 +605,61 @@
             "unsupported": false
         },
         "_attr": "guile-commonmark",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.guile-json": {
+        "name": "guile-json-4.4.1",
+        "pname": "guile-json",
+        "version": "4.4.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "JSON module for Guile",
+            "homepage": "https://savannah.nongnu.org/projects/guile-json/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "guile-json-4.4.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "guile-json",
         "_repo": "aasg"
     },
     "nur.repos.aasg.haunt": {
@@ -590,10 +718,225 @@
         "_attr": "haunt",
         "_repo": "aasg"
     },
+    "nur.repos.aasg.ipfs-cluster": {
+        "name": "ipfs-cluster-0.13.0",
+        "pname": "ipfs-cluster",
+        "version": "0.13.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Allocate, replicate, and track Pins across a cluster of IPFS daemons",
+            "homepage": "https://cluster.ipfs.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "joseph@jgl.me",
+                    "github": "jglukasik",
+                    "githubId": 6445082,
+                    "name": "Joseph Lukasik"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "ipfs-cluster-0.13.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg('pkgs', 'applications', 'networking', 'ipfs-cluster', 'default.nix')#L20",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "ipfs-cluster",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.iwgtk": {
+        "name": "iwgtk-0.4",
+        "pname": "iwgtk",
+        "version": "0.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": " Lightweight, graphical wifi management utility for Linux",
+            "homepage": "https://github.com/J-Lentz/iwgtk",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "iwgtk is a lightweight, graphical wifi management utility for Linux.\nIt is used to control iwd, with supported functionality similar to that of iwctl.\nIt is particularly useful in a system where iwd is being used as a standalone network management daemon (i.e., without NetworkManager).\n",
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "iwgtk-0.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "iwgtk",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.matrix-appservice-irc": {
+        "name": "node_matrix-appservice-irc-0.23.0",
+        "pname": "node_matrix-appservice-irc",
+        "version": "0.23.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Node.js IRC bridge for Matrix",
+            "homepage": "https://github.com/matrix-org/matrix-appservice-irc",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "node_matrix-appservice-irc-0.23.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "or1k-none",
+                "mmix-mmixware",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "matrix-appservice-irc",
+        "_repo": "aasg"
+    },
     "nur.repos.aasg.python3Packages.daemonocle": {
-        "name": "python3.8-daemonocle-1.0.1",
+        "name": "python3.8-daemonocle-1.0.2",
         "pname": "python3.8-daemonocle",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -639,7 +982,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "python3.8-daemonocle-1.0.1",
+            "name": "python3.8-daemonocle-1.0.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -678,9 +1021,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages.rtl8723bu": {
-        "name": "rtl8723bu-5.4.80-2020-04-05",
-        "pname": "rtl8723bu",
-        "version": "5.4.80-2020-04-05",
+        "name": "rtl8723bu-unstable-2020-09-04",
+        "pname": "rtl8723bu-unstable",
+        "version": "2020-09-04",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -707,7 +1050,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.4.80-2020-04-05",
+            "name": "rtl8723bu-unstable-2020-09-04",
             "outputsToInstall": [
                 "out"
             ],
@@ -732,9 +1075,9 @@
         "_repo": "aasg"
     },
     "nur.repos.aasg.linuxPackages_latest.rtl8723bu": {
-        "name": "rtl8723bu-5.9.11-2020-04-05",
-        "pname": "rtl8723bu",
-        "version": "5.9.11-2020-04-05",
+        "name": "rtl8723bu-unstable-2020-09-04",
+        "pname": "rtl8723bu-unstable",
+        "version": "2020-09-04",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -761,7 +1104,7 @@
                     "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
                 }
             ],
-            "name": "rtl8723bu-5.9.11-2020-04-05",
+            "name": "rtl8723bu-unstable-2020-09-04",
             "outputsToInstall": [
                 "out"
             ],
@@ -783,6 +1126,276 @@
             "unsupported": false
         },
         "_attr": "linuxPackages_latest.rtl8723bu",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.drep": {
+        "name": "rust_drep-0.1.2",
+        "pname": "rust_drep",
+        "version": "0.1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A grep with runtime reloadable filters",
+            "homepage": "https://github.com/maxpert/drep",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "rust_drep-0.1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "or1k-none",
+                "mmix-mmixware",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "drep",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.shellharden": {
+        "name": "rust_shellharden-4.1.2",
+        "pname": "rust_shellharden",
+        "version": "4.1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The corrective bash syntax highlighter",
+            "homepage": "https://github.com/anordal/shellharden",
+            "insecure": false,
+            "license": {
+                "fullName": "Mozilla Public License 2.0",
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "rust_shellharden-4.1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "or1k-none",
+                "mmix-mmixware",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "shellharden",
+        "_repo": "aasg"
+    },
+    "nur.repos.aasg.trust-dns": {
+        "name": "rust_trust-dns-0.19.5",
+        "pname": "rust_trust-dns",
+        "version": "0.19.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Rust-based DNS client, server, and resolver",
+            "homepage": "https://github.com/bluejekyll/trust-dns",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "aluisio@aasg.name",
+                    "github": "AluisioASG",
+                    "githubId": 1904165,
+                    "keys": [
+                        {
+                            "fingerprint": "7FDB 17B3 C29B 5BA6 E5A9  8BB2 9FAA 63E0 9750 6D9D",
+                            "longkeyid": "rsa4096/0x9FAA63E097506D9D"
+                        }
+                    ],
+                    "name": "Alu\u00edsio Augusto Silva Gon\u00e7alves"
+                }
+            ],
+            "name": "rust_trust-dns-0.19.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "or1k-none",
+                "mmix-mmixware",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/aasg",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "trust-dns",
         "_repo": "aasg"
     },
     "nur.repos.babariviere.godot": {
@@ -47563,6 +48176,46 @@
             "unsupported": false
         },
         "_attr": "x11.bitmap",
+        "_repo": "lheckemann"
+    },
+    "nur.repos.lheckemann.manaplus": {
+        "name": "manaplus-1.8.9.1",
+        "pname": "manaplus",
+        "version": "1.8.9.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "manaplus-1.8.9.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/lheckemann",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "manaplus",
+        "_repo": "lheckemann"
+    },
+    "nur.repos.lheckemann.pb_cli": {
+        "name": "pb",
+        "pname": "pb",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "pb",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/lheckemann('pkgs', 'build-support', 'trivial-builders.nix')#L7",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "pb_cli",
         "_repo": "lheckemann"
     },
     "nur.repos.linyinfeng.activate-dpt": {
