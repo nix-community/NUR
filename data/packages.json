@@ -68517,9 +68517,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.i-dont-care-about-cookies": {
-        "name": "i-dont-care-about-cookies-3.2.5",
+        "name": "i-dont-care-about-cookies-3.2.6",
         "pname": "i-dont-care-about-cookies",
-        "version": "3.2.5",
+        "version": "3.2.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68533,7 +68533,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "i-dont-care-about-cookies-3.2.5",
+            "name": "i-dont-care-about-cookies-3.2.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -70388,9 +70388,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-23.7",
+        "name": "save-page-we-23.8",
         "pname": "save-page-we",
-        "version": "23.7",
+        "version": "23.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -70403,7 +70403,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-23.7",
+            "name": "save-page-we-23.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -71296,9 +71296,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tree-style-tab": {
-        "name": "tree-style-tab-3.6.2",
+        "name": "tree-style-tab-3.6.3",
         "pname": "tree-style-tab",
-        "version": "3.6.2",
+        "version": "3.6.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -71312,7 +71312,7 @@
                 "shortName": "tree-style-tab",
                 "url": "https://github.com/piroor/treestyletab/blob/trunk/COPYING.txt"
             },
-            "name": "tree-style-tab-3.6.2",
+            "name": "tree-style-tab-3.6.3",
             "outputsToInstall": [
                 "out"
             ],
