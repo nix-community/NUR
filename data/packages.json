@@ -54110,13 +54110,13 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.linux_ayufan": {
-        "name": "linux-5.6.0-1138-ayufan",
+        "name": "linux-5.9.0-1145-ayufan",
         "pname": "linux",
-        "version": "5.6.0-1138-ayufan",
+        "version": "5.9.0-1145-ayufan",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
-            "branch": "5.6",
+            "branch": "5.9",
             "broken": false,
             "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, export_kernel_fpu_functions)",
             "homepage": "https://www.kernel.org/",
@@ -54135,7 +54135,7 @@
                     "name": "Austin Seipp"
                 }
             ],
-            "name": "linux-5.6.0-1138-ayufan",
+            "name": "linux-5.9.0-1145-ayufan",
             "outputsToInstall": [
                 "out"
             ],
@@ -79705,6 +79705,63 @@
         "_attr": "map-tiler",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.maperitive-bin": {
+        "name": "maperitive-bin-2.4.3",
+        "pname": "maperitive-bin",
+        "version": "2.4.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "http://maperitive.net/updates.xml",
+            "description": "Desktop application for drawing maps based on OpenStreetMap and GPS data",
+            "homepage": "http://maperitive.net/",
+            "insecure": false,
+            "license": {
+                "fullName": "Unspecified free software license",
+                "shortName": "free"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "maperitive-bin-2.4.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "maperitive-bin",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.mapsoft": {
         "name": "mapsoft-unstable-2020-01-15",
         "pname": "mapsoft-unstable",
@@ -83023,9 +83080,9 @@
         "_attr": "routinodb",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.sasplanet": {
-        "name": "sasplanet-2020-06-06",
-        "pname": "sasplanet",
+    "nur.repos.sikmir.sasplanet-bin": {
+        "name": "sasplanet-bin-2020-06-06",
+        "pname": "sasplanet-bin",
         "version": "2020-06-06",
         "system": "x86_64-linux",
         "meta": {
@@ -83035,10 +83092,10 @@
             "homepage": "http://www.sasgis.org/sasplaneta/",
             "insecure": false,
             "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
             "maintainers": [
                 {
@@ -83054,7 +83111,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "sasplanet-2020-06-06",
+            "name": "sasplanet-bin-2020-06-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -83113,7 +83170,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "sasplanet",
+        "_attr": "sasplanet-bin",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.sendmap20": {
