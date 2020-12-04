@@ -40462,26 +40462,6 @@
         "_attr": "papermc",
         "_repo": "jbarthelmes"
     },
-    "nur.repos.jbarthelmes.poloniexlendingbot": {
-        "name": "poloniexlendingbot",
-        "pname": "poloniexlendingbot",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "insecure": false,
-            "name": "poloniexlendingbot",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jbarthelmes('pkgs', 'build-support', 'trivial-builders.nix')#L7",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "poloniexlendingbot",
-        "_repo": "jbarthelmes"
-    },
     "nur.repos.jjjollyjim.exploitdb": {
         "name": "exploitdb",
         "pname": "exploitdb",
