@@ -76286,9 +76286,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-12-01",
+        "name": "embox-unstable-2020-12-02",
         "pname": "embox-unstable",
-        "version": "2020-12-01",
+        "version": "2020-12-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76316,7 +76316,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-12-01",
+            "name": "embox-unstable-2020-12-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -78076,9 +78076,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-12-01",
+        "name": "gpxsee-unstable-2020-12-02",
         "pname": "gpxsee-unstable",
-        "version": "2020-12-01",
+        "version": "2020-12-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78107,7 +78107,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-12-01",
+            "name": "gpxsee-unstable-2020-12-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -79821,9 +79821,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mapsoft2": {
-        "name": "mapsoft2-1.4",
+        "name": "mapsoft2-1.5",
         "pname": "mapsoft2",
-        "version": "1.4",
+        "version": "1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79851,7 +79851,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "mapsoft2-1.4",
+            "name": "mapsoft2-1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -79879,9 +79879,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-11-18",
+        "name": "maptourist-2020-12-01",
         "pname": "maptourist",
-        "version": "2020-11-18",
+        "version": "2020-12-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79907,7 +79907,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-11-18",
+            "name": "maptourist-2020-12-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -80291,9 +80291,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-2020-11-02",
+        "name": "nakarte-2020-12-03",
         "pname": "nakarte",
-        "version": "2020-11-02",
+        "version": "2020-12-03",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -80321,7 +80321,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-2020-11-02",
+            "name": "nakarte-2020-12-03",
             "outputsToInstall": [
                 "out"
             ],
