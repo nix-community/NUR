@@ -86429,9 +86429,9 @@
         "_repo": "suhr"
     },
     "nur.repos.suhr.v4l2loopback-dc": {
-        "name": "v4l2loopback-dc-1.5-5.4.80",
+        "name": "v4l2loopback-dc-1.5-5.4.81",
         "pname": "v4l2loopback-dc",
-        "version": "1.5-5.4.80",
+        "version": "1.5-5.4.81",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -86459,7 +86459,7 @@
                     "name": "\u0421\u0443\u0445\u0430\u0440\u0438\u043a"
                 }
             ],
-            "name": "v4l2loopback-dc-1.5-5.4.80",
+            "name": "v4l2loopback-dc-1.5-5.4.81",
             "outputsToInstall": [
                 "out"
             ],
@@ -87047,14 +87047,14 @@
         "_repo": "tilpner"
     },
     "nur.repos.tilpner.syncthing-short-delay": {
-        "name": "syncthing-1.11.1",
+        "name": "syncthing-1.12.0",
         "pname": "syncthing",
-        "version": "1.11.1",
+        "version": "1.12.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/syncthing/syncthing/releases/tag/v1.11.1",
+            "changelog": "https://github.com/syncthing/syncthing/releases/tag/v1.12.0",
             "description": "Open Source Continuous File Synchronization",
             "homepage": "https://syncthing.net/",
             "insecure": false,
@@ -87102,7 +87102,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "syncthing-1.11.1",
+            "name": "syncthing-1.12.0",
             "outputsToInstall": [
                 "out"
             ],
