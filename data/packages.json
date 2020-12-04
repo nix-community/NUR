@@ -61759,6 +61759,47 @@
         "_attr": "SpriteSheetPacker",
         "_repo": "n1kolasM"
     },
+    "nur.repos.nasirhm.st": {
+        "name": "st-0.8.2",
+        "pname": "st",
+        "version": "0.8.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple Terminal for X from Suckless.org Community",
+            "homepage": "https://st.suckless.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "st-0.8.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nasirhm",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "st",
+        "_repo": "nasirhm"
+    },
     "nur.repos.neumantm.multiEclipse": {
         "name": "multiEclipse",
         "pname": "multiEclipse",
