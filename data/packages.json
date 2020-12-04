@@ -19626,6 +19626,26 @@
         "_attr": "firefox-hardened-wayland",
         "_repo": "ijohanne"
     },
+    "nur.repos.ijohanne.firefoxPlugins.fx-cast": {
+        "name": "fx_cast",
+        "pname": "fx_cast",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "fx_cast",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L11",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefoxPlugins.fx-cast",
+        "_repo": "ijohanne"
+    },
     "nur.repos.ijohanne.gping": {
         "name": "gping-master",
         "pname": "gping-master",
