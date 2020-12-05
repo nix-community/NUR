@@ -54278,13 +54278,13 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.linux_ayufan": {
-        "name": "linux-5.9.0-1145-ayufan",
+        "name": "linux-5.6.0-1138-ayufan",
         "pname": "linux",
-        "version": "5.9.0-1145-ayufan",
+        "version": "5.6.0-1138-ayufan",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
-            "branch": "5.9",
+            "branch": "5.6",
             "broken": false,
             "description": "The Linux kernel (with patches: bridge-stp-helper, request-key-helper, export_kernel_fpu_functions)",
             "homepage": "https://www.kernel.org/",
@@ -54303,7 +54303,7 @@
                     "name": "Austin Seipp"
                 }
             ],
-            "name": "linux-5.9.0-1145-ayufan",
+            "name": "linux-5.6.0-1138-ayufan",
             "outputsToInstall": [
                 "out"
             ],
