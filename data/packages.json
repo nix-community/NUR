@@ -69029,9 +69029,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.languagetool": {
-        "name": "languagetool-3.2.0",
+        "name": "languagetool-3.2.2",
         "pname": "languagetool",
-        "version": "3.2.0",
+        "version": "3.2.2",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -69045,7 +69045,7 @@
                 "shortName": "allrightsreserved",
                 "url": "https://languagetool.org/legal/"
             },
-            "name": "languagetool-3.2.0",
+            "name": "languagetool-3.2.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -70293,9 +70293,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.react-devtools": {
-        "name": "react-devtools-4.10.0",
+        "name": "react-devtools-4.10.1",
         "pname": "react-devtools",
-        "version": "4.10.0",
+        "version": "4.10.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -70309,7 +70309,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "react-devtools-4.10.0",
+            "name": "react-devtools-4.10.1",
             "outputsToInstall": [
                 "out"
             ],
