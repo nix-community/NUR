@@ -6204,6 +6204,26 @@
         "_attr": "zsh-nix-shell",
         "_repo": "clefru"
     },
+    "nur.repos.cransom.plater": {
+        "name": "plater-8c690c7",
+        "pname": "plater",
+        "version": "8c690c7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "plater-8c690c7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/cransom",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "plater",
+        "_repo": "cransom"
+    },
     "nur.repos.crazazy.efm-langserver": {
         "name": "efm-langserver",
         "pname": "efm-langserver",
