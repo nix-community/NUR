@@ -68517,6 +68517,81 @@
         "_attr": "firefox-addons.greasemonkey",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.firefox-addons.h264ify": {
+        "name": "h264ify-1.1.0",
+        "pname": "h264ify",
+        "version": "1.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Makes YouTube stream H.264 videos instead of VP8/VP9 videos",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "h264ify-1.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "or1k-none",
+                "mmix-mmixware",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.h264ify",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons.header-editor": {
         "name": "header-editor-4.1.1",
         "pname": "header-editor",
@@ -70765,6 +70840,82 @@
             "unsupported": false
         },
         "_attr": "firefox-addons.sidebery",
+        "_repo": "rycee"
+    },
+    "nur.repos.rycee.firefox-addons.simple-tab-groups": {
+        "name": "simple-tab-groups-4.7",
+        "pname": "simple-tab-groups",
+        "version": "4.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Create, modify, and quickly change tab groups",
+            "homepage": "https://github.com/drive4ik/simple-tab-groups",
+            "insecure": false,
+            "license": {
+                "fullName": "Mozilla Public License 2.0",
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "name": "simple-tab-groups-4.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "or1k-none",
+                "mmix-mmixware",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.simple-tab-groups",
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.snowflake": {
@@ -76515,9 +76666,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-12-02",
+        "name": "embox-unstable-2020-12-04",
         "pname": "embox-unstable",
-        "version": "2020-12-02",
+        "version": "2020-12-04",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76545,7 +76696,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-12-02",
+            "name": "embox-unstable-2020-12-04",
             "outputsToInstall": [
                 "out"
             ],
@@ -76656,9 +76807,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.freizeitkarte-osm": {
-        "name": "freizeitkarte-osm-2020-06-26",
+        "name": "freizeitkarte-osm-2020-09-09",
         "pname": "freizeitkarte-osm",
-        "version": "2020-06-26",
+        "version": "2020-09-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76684,7 +76835,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "freizeitkarte-osm-2020-06-26",
+            "name": "freizeitkarte-osm-2020-09-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -78305,9 +78456,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-12-02",
+        "name": "gpxsee-unstable-2020-12-06",
         "pname": "gpxsee-unstable",
-        "version": "2020-12-02",
+        "version": "2020-12-06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78336,7 +78487,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-12-02",
+            "name": "gpxsee-unstable-2020-12-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -78778,9 +78929,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.hfst": {
-        "name": "hfst-unstable-2020-12-01",
+        "name": "hfst-unstable-2020-12-04",
         "pname": "hfst-unstable",
-        "version": "2020-12-01",
+        "version": "2020-12-04",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78808,7 +78959,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "hfst-unstable-2020-12-01",
+            "name": "hfst-unstable-2020-12-04",
             "outputsToInstall": [
                 "out"
             ],
@@ -80990,9 +81141,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-11-28",
+        "name": "OpenOrienteering-Mapper-unstable-2020-12-04",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-11-28",
+        "version": "2020-12-04",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -81020,7 +81171,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-11-28",
+            "name": "OpenOrienteering-Mapper-unstable-2020-12-04",
             "outputsToInstall": [
                 "out"
             ],
@@ -81059,9 +81210,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.opentopomap": {
-        "name": "opentopomap-2020-08-28",
+        "name": "opentopomap-2020-12-04",
         "pname": "opentopomap",
-        "version": "2020-08-28",
+        "version": "2020-12-04",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -81090,7 +81241,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "opentopomap-2020-08-28",
+            "name": "opentopomap-2020-12-04",
             "outputsToInstall": [
                 "out"
             ],
@@ -82463,9 +82614,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.python-hfst": {
-        "name": "python3.8-python-hfst-2020-12-01",
+        "name": "python3.8-python-hfst-2020-12-04",
         "pname": "python3.8-python-hfst",
-        "version": "2020-12-01",
+        "version": "2020-12-04",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82510,7 +82661,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-python-hfst-2020-12-01",
+            "name": "python3.8-python-hfst-2020-12-04",
             "outputsToInstall": [
                 "out"
             ],
@@ -82721,9 +82872,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qgis-ltr-bin": {
-        "name": "qgis-bin-3.10.10",
+        "name": "qgis-bin-3.10.12",
         "pname": "qgis-bin",
-        "version": "3.10.10",
+        "version": "3.10.12",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -82751,7 +82902,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qgis-bin-3.10.10",
+            "name": "qgis-bin-3.10.12",
             "outputsToInstall": [
                 "out"
             ],
@@ -82769,9 +82920,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qgis-bin": {
-        "name": "qgis-bin-3.14.16",
+        "name": "qgis-bin-3.16.1",
         "pname": "qgis-bin",
-        "version": "3.14.16",
+        "version": "3.16.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -82799,7 +82950,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qgis-bin-3.14.16",
+            "name": "qgis-bin-3.16.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -83102,9 +83253,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qutebrowser-bin": {
-        "name": "qutebrowser-bin-1.14.0",
+        "name": "qutebrowser-bin-1.14.1",
         "pname": "qutebrowser-bin",
-        "version": "1.14.0",
+        "version": "1.14.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -83132,7 +83283,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qutebrowser-bin-1.14.0",
+            "name": "qutebrowser-bin-1.14.1",
             "outputsToInstall": [
                 "out"
             ],
