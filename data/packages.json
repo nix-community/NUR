@@ -6494,9 +6494,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.13.4",
+        "name": "node_pnpm-5.13.5",
         "pname": "node_pnpm",
-        "version": "5.13.4",
+        "version": "5.13.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6505,7 +6505,7 @@
             "homepage": "https://pnpm.js.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_pnpm-5.13.4",
+            "name": "node_pnpm-5.13.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -6540,9 +6540,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.33.3",
+        "name": "node_rollup-2.34.1",
         "pname": "node_rollup",
-        "version": "2.33.3",
+        "version": "2.34.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6551,7 +6551,7 @@
             "homepage": "https://rollupjs.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_rollup-2.33.3",
+            "name": "node_rollup-2.34.1",
             "outputsToInstall": [
                 "out"
             ],
