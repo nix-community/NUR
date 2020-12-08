@@ -40333,6 +40333,61 @@
         "_attr": "zsh-theme-rkj-mod",
         "_repo": "izorkin"
     },
+    "nur.repos.j-k.nerdctl": {
+        "name": "nerdctl-4ea21b339f96681a3493668a186c0e313a5efbdd",
+        "pname": "nerdctl",
+        "version": "4ea21b339f96681a3493668a186c0e313a5efbdd",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A Docker-compatible CLI for containerd",
+            "homepage": "https://github.com/AkihiroSuda/nerdctl",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "hello+nixpkgs@j-k.io",
+                    "github": "06kellyjac",
+                    "githubId": 9866621,
+                    "name": "Jack"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "nerdctl-4ea21b339f96681a3493668a186c0e313a5efbdd",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "nerdctl",
+        "_repo": "j-k"
+    },
     "nur.repos.jakobrs.cpptoml": {
         "name": "cpptoml-0.1.1",
         "pname": "cpptoml",
