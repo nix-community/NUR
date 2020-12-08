@@ -92554,9 +92554,9 @@
         "_repo": "xe"
     },
     "nur.repos.xeals.alacritty-ligatures": {
-        "name": "alacritty-ligatures-0.6.0.20201022",
+        "name": "alacritty-ligatures-0.7.0.20201204",
         "pname": "alacritty-ligatures",
-        "version": "0.6.0.20201022",
+        "version": "0.7.0.20201204",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92614,7 +92614,7 @@
                     "name": "Maximilian Bosch"
                 }
             ],
-            "name": "alacritty-ligatures-0.6.0.20201022",
+            "name": "alacritty-ligatures-0.7.0.20201204",
             "outputsToInstall": [
                 "out"
             ],
@@ -92711,13 +92711,13 @@
         "_repo": "xeals"
     },
     "nur.repos.xeals.goModules.qt": {
-        "name": "go-qt-20200701",
+        "name": "go-qt-20200904",
         "pname": "go-qt",
-        "version": "20200701",
+        "version": "20200904",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
-            "broken": false,
+            "available": false,
+            "broken": true,
             "description": "Qt bindings for Go",
             "homepage": "https://github.com/therecipe/qt",
             "insecure": false,
@@ -92735,7 +92735,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "go-qt-20200701",
+            "name": "go-qt-20200904",
             "outputsToInstall": [
                 "out"
             ],
@@ -93020,9 +93020,9 @@
         "_repo": "xeals"
     },
     "nur.repos.xeals.protonmail-bridge": {
-        "name": "protonmail-bridge-1.4.5",
+        "name": "protonmail-bridge-1.5.2",
         "pname": "protonmail-bridge",
-        "version": "1.4.5",
+        "version": "1.5.2",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -93044,7 +93044,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "protonmail-bridge-1.4.5",
+            "name": "protonmail-bridge-1.5.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -93086,9 +93086,9 @@
         "_repo": "xeals"
     },
     "nur.repos.xeals.protonmail-bridge-headless": {
-        "name": "protonmail-bridge-headless-1.4.5",
+        "name": "protonmail-bridge-headless-1.5.2",
         "pname": "protonmail-bridge-headless",
-        "version": "1.4.5",
+        "version": "1.5.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93110,7 +93110,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "protonmail-bridge-headless-1.4.5",
+            "name": "protonmail-bridge-headless-1.5.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -93765,9 +93765,9 @@
         "_repo": "xeals"
     },
     "nur.repos.xeals.zsh-z": {
-        "name": "zsh-z-2020.06.30.ae71aab",
+        "name": "zsh-z-2020.09.19.09209db",
         "pname": "zsh-z",
-        "version": "2020.06.30.ae71aab",
+        "version": "2020.09.19.09209db",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93781,7 +93781,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "zsh-z-2020.06.30.ae71aab",
+            "name": "zsh-z-2020.09.19.09209db",
             "outputsToInstall": [
                 "out"
             ],
