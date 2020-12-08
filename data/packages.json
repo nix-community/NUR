@@ -66557,9 +66557,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.bitwarden": {
-        "name": "bitwarden-1.47.0",
+        "name": "bitwarden-1.47.1",
         "pname": "bitwarden",
-        "version": "1.47.0",
+        "version": "1.47.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66573,7 +66573,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "bitwarden-1.47.0",
+            "name": "bitwarden-1.47.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -68124,9 +68124,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ghostery": {
-        "name": "ghostery-8.5.3",
+        "name": "ghostery-8.5.4",
         "pname": "ghostery",
-        "version": "8.5.3",
+        "version": "8.5.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68140,7 +68140,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "ghostery-8.5.3",
+            "name": "ghostery-8.5.4",
             "outputsToInstall": [
                 "out"
             ],
