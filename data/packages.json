@@ -51255,9 +51255,9 @@
         "_repo": "makefu"
     },
     "nur.repos.makefu.quodlibet": {
-        "name": "quodlibet-4.2.1",
+        "name": "quodlibet-4.3.0",
         "pname": "quodlibet",
-        "version": "4.2.1",
+        "version": "4.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51297,13 +51297,13 @@
                     "name": "Jonas H\u00f6rsch"
                 },
                 {
-                    "email": "s@uyon.co",
-                    "github": "sauyon",
-                    "githubId": 2347889,
-                    "name": "Sauyon Lee"
+                    "email": "ppbogdan@gmail.com",
+                    "github": "pbogdan",
+                    "githubId": 157610,
+                    "name": "Piotr Bogdan"
                 }
             ],
-            "name": "quodlibet-4.2.1",
+            "name": "quodlibet-4.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -51324,7 +51324,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('pkgs', 'applications', 'audio', 'quodlibet', 'default.nix')#L59",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/makefu('pkgs', 'applications', 'audio', 'quodlibet', 'default.nix')#L71",
             "unfree": false,
             "unsupported": false
         },
@@ -76835,9 +76835,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-12-04",
+        "name": "embox-unstable-2020-12-09",
         "pname": "embox-unstable",
-        "version": "2020-12-04",
+        "version": "2020-12-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -76865,7 +76865,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-12-04",
+            "name": "embox-unstable-2020-12-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -77363,9 +77363,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gef": {
-        "name": "gef-unstable-2020-11-25",
+        "name": "gef-unstable-2020-12-09",
         "pname": "gef-unstable",
-        "version": "2020-11-25",
+        "version": "2020-12-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -77393,7 +77393,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gef-unstable-2020-11-25",
+            "name": "gef-unstable-2020-12-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -78532,9 +78532,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-maps": {
-        "name": "gpxsee-maps-2020-10-30",
+        "name": "gpxsee-maps-2020-12-09",
         "pname": "gpxsee-maps",
-        "version": "2020-10-30",
+        "version": "2020-12-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78562,7 +78562,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-maps-2020-10-30",
+            "name": "gpxsee-maps-2020-12-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -78625,9 +78625,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-12-06",
+        "name": "gpxsee-unstable-2020-12-09",
         "pname": "gpxsee-unstable",
-        "version": "2020-12-06",
+        "version": "2020-12-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78656,7 +78656,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-12-06",
+            "name": "gpxsee-unstable-2020-12-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -79098,9 +79098,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.hfst": {
-        "name": "hfst-unstable-2020-12-04",
+        "name": "hfst-unstable-2020-12-09",
         "pname": "hfst-unstable",
-        "version": "2020-12-04",
+        "version": "2020-12-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79128,7 +79128,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "hfst-unstable-2020-12-04",
+            "name": "hfst-unstable-2020-12-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -82783,9 +82783,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.python-hfst": {
-        "name": "python3.8-python-hfst-2020-12-04",
+        "name": "python3.8-python-hfst-2020-12-09",
         "pname": "python3.8-python-hfst",
-        "version": "2020-12-04",
+        "version": "2020-12-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82830,7 +82830,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-python-hfst-2020-12-04",
+            "name": "python3.8-python-hfst-2020-12-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -91154,9 +91154,9 @@
         "_repo": "vdemeester"
     },
     "nur.repos.wamserma.bandit": {
-        "name": "bandit-1.6.2",
+        "name": "bandit-1.6.3",
         "pname": "bandit",
-        "version": "1.6.2",
+        "version": "1.6.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91201,7 +91201,7 @@
                     "name": "Kevin Amado"
                 }
             ],
-            "name": "python3.8-bandit-1.6.2",
+            "name": "python3.8-bandit-1.6.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -92823,8 +92823,8 @@
         "version": "20200904",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "description": "Qt bindings for Go",
             "homepage": "https://github.com/therecipe/qt",
             "insecure": false,
