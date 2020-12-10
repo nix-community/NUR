@@ -9785,77 +9785,6 @@
         "_attr": "python3Packages.qiskit-aqua",
         "_repo": "drewrisinger"
     },
-    "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-provider": {
-        "name": "python3.8-qiskit-ibmq-provider-0.11.1",
-        "pname": "python3.8-qiskit-ibmq-provider",
-        "version": "0.11.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://qiskit.org/documentation/release_notes.html",
-            "description": "Qiskit provider for accessing the quantum devices and simulators at IBMQ",
-            "homepage": "https://github.com/Qiskit/qiskit-ibmq-provider",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                {
-                    "email": "drisinger+nixpkgs@gmail.com",
-                    "github": "drewrisinger",
-                    "githubId": 10198051,
-                    "name": "Drew Risinger"
-                }
-            ],
-            "name": "python3.8-qiskit-ibmq-provider-0.11.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "python3Packages.qiskit-ibmq-provider",
-        "_repo": "drewrisinger"
-    },
     "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-providerNoVisual": {
         "name": "python3.8-qiskit-ibmq-provider-0.11.1",
         "pname": "python3.8-qiskit-ibmq-provider",
@@ -9925,6 +9854,77 @@
             "unsupported": false
         },
         "_attr": "python3Packages.qiskit-ibmq-providerNoVisual",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-provider": {
+        "name": "python3.8-qiskit-ibmq-provider-0.11.1",
+        "pname": "python3.8-qiskit-ibmq-provider",
+        "version": "0.11.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://qiskit.org/documentation/release_notes.html",
+            "description": "Qiskit provider for accessing the quantum devices and simulators at IBMQ",
+            "homepage": "https://github.com/Qiskit/qiskit-ibmq-provider",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "drisinger+nixpkgs@gmail.com",
+                    "github": "drewrisinger",
+                    "githubId": 10198051,
+                    "name": "Drew Risinger"
+                }
+            ],
+            "name": "python3.8-qiskit-ibmq-provider-0.11.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "python3Packages.qiskit-ibmq-provider",
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ignis": {
@@ -10143,6 +10143,76 @@
             "unsupported": false
         },
         "_attr": "python3Packages.qiskit-terraNoVisual",
+        "_repo": "drewrisinger"
+    },
+    "nur.repos.drewrisinger.python3Packages.qutip": {
+        "name": "python3.8-qutip-4.5.2",
+        "pname": "python3.8-qutip",
+        "version": "4.5.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "http://qutip.org/docs/latest/changelog.html",
+            "description": "Quantum Toolbox in Python.",
+            "downloadPage": "https://github.com/qutip/qutip/releases",
+            "homepage": "http://qutip.org",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": {
+                "email": "drisinger+nixpkgs@gmail.com",
+                "github": "drewrisinger",
+                "githubId": 10198051,
+                "name": "Drew Risinger"
+            },
+            "name": "python3.8-qutip-4.5.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "python3Packages.qutip",
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.scs": {
