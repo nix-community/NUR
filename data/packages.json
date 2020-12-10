@@ -20252,6 +20252,26 @@
         "_attr": "vimPlugins.ranger-nvim",
         "_repo": "ijohanne"
     },
+    "nur.repos.ijohanne.vimPlugins.vim-hexokinase": {
+        "name": "vimplugin-vim-hexokinase",
+        "pname": "vimplugin-vim-hexokinase",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-vim-hexokinase",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.vim-hexokinase",
+        "_repo": "ijohanne"
+    },
     "nur.repos.ijohanne.vimPlugins.vim-signify": {
         "name": "vimplugin-vim-signify",
         "pname": "vimplugin-vim-signify",
