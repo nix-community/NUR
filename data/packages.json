@@ -19367,6 +19367,944 @@
         "_attr": "radare2",
         "_repo": "htr"
     },
+    "nur.repos.ijohanne.bottom": {
+        "name": "bottom-master",
+        "pname": "bottom-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A cross-platform graphical process/system monitor with a customizable interface and a multitude of features. Supports Linux, macOS, and Windows.",
+            "homepage": "https://github.com/ClementTsang/bottom",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "bottom-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "bottom",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.certificate-pinner": {
+        "name": "certificate-pinner",
+        "pname": "certificate-pinner",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "certificate-pinner",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefoxPlugins.certificate-pinner",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.darkreader": {
+        "name": "darkreader",
+        "pname": "darkreader",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "darkreader",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefoxPlugins.darkreader",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.enhancer-for-youtube": {
+        "name": "enhancer-for-youtube",
+        "pname": "enhancer-for-youtube",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "enhancer-for-youtube",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefoxPlugins.enhancer-for-youtube",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.facebook-container": {
+        "name": "facebook-container",
+        "pname": "facebook-container",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "facebook-container",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefoxPlugins.facebook-container",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefox-hardened": {
+        "name": "firefox-83.0",
+        "pname": "firefox",
+        "version": "83.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "broken": false,
+            "description": "A web browser built from Firefox source tree (with plugins: )",
+            "homepage": "http://www.mozilla.com/en-US/firefox/",
+            "hydraPlatforms": [],
+            "insecure": false,
+            "license": {
+                "fullName": "Mozilla Public License 2.0",
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "edolstra+nixpkgs@gmail.com",
+                    "github": "edolstra",
+                    "githubId": 1148549,
+                    "name": "Eelco Dolstra"
+                }
+            ],
+            "name": "firefox-unwrapped-83.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'applications', 'networking', 'browsers', 'firefox', 'wrapper.nix')#L354",
+            "priority": -1,
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-hardened",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefox-hardened-wayland": {
+        "name": "firefox-83.0",
+        "pname": "firefox",
+        "version": "83.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "broken": false,
+            "description": "A web browser built from Firefox source tree (with plugins: )",
+            "homepage": "http://www.mozilla.com/en-US/firefox/",
+            "hydraPlatforms": [],
+            "insecure": false,
+            "license": {
+                "fullName": "Mozilla Public License 2.0",
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "edolstra+nixpkgs@gmail.com",
+                    "github": "edolstra",
+                    "githubId": 1148549,
+                    "name": "Eelco Dolstra"
+                }
+            ],
+            "name": "firefox-unwrapped-83.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'applications', 'networking', 'browsers', 'firefox', 'wrapper.nix')#L354",
+            "priority": -1,
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-hardened-wayland",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.fx-cast": {
+        "name": "fx_cast",
+        "pname": "fx_cast",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "fx_cast",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefoxPlugins.fx-cast",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.gping": {
+        "name": "gping-master",
+        "pname": "gping-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Ping, but with a graph.",
+            "homepage": "https://github.com/orf/gping",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "gping-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gping",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.https-everywhere": {
+        "name": "https-everywhere",
+        "pname": "https-everywhere",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "https-everywhere",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefoxPlugins.https-everywhere",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.lastpass-password-manager": {
+        "name": "lastpass-password-manager",
+        "pname": "lastpass-password-manager",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "lastpass-password-manager",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefoxPlugins.lastpass-password-manager",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.lfs": {
+        "name": "lfs-master",
+        "pname": "lfs-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A small linux utility listing your filesystems.",
+            "homepage": "https://github.com/Canop/lfs",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "lfs-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "lfs",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.lua-language-server": {
+        "name": "lua-language-server-master",
+        "pname": "lua-language-server-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Lua language server",
+            "homepage": "https://github.com/sumneko/lua-language-server",
+            "insecure": false,
+            "name": "lua-language-server-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "lua-language-server",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.neovim-nightly": {
+        "name": "neovim-nightly-master",
+        "pname": "neovim-nightly-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Vim text editor fork focused on extensibility and agility",
+            "homepage": "https://www.neovim.io",
+            "insecure": false,
+            "license": [
+                {
+                    "fullName": "Apache License 2.0",
+                    "shortName": "asl20",
+                    "spdxId": "Apache-2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "fullName": "Vim License",
+                    "shortName": "vim",
+                    "spdxId": "Vim",
+                    "url": "https://spdx.org/licenses/Vim.html"
+                }
+            ],
+            "longDescription": "Neovim is a project that seeks to aggressively refactor Vim in order to:\n- Simplify maintenance and encourage contributions\n- Split the work between multiple developers\n- Enable the implementation of new/modern user interfaces without any\n  modifications to the core source\n- Improve extensibility with a new plugin architecture\n",
+            "maintainers": [
+                {
+                    "email": "m.fellinger@gmail.com",
+                    "github": "manveru",
+                    "githubId": 3507,
+                    "name": "Michael Fellinger"
+                },
+                {
+                    "email": "rvolosatovs@riseup.net",
+                    "github": "rvolosatovs",
+                    "githubId": 12877905,
+                    "name": "Roman Volosatovs"
+                },
+                {
+                    "email": "maximilian@mbosch.me",
+                    "github": "ma27",
+                    "githubId": 6025220,
+                    "name": "Maximilian Bosch"
+                }
+            ],
+            "name": "neovim-nightly-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'applications', 'editors', 'neovim', 'default.nix')#L122",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "neovim-nightly",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.pueue": {
+        "name": "pueue-master",
+        "pname": "pueue-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A daemon for managing long running shell commands",
+            "homepage": "https://github.com/Nukesor/pueue",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "pueue-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "pueue",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.reddit-enhancement-suite": {
+        "name": "reddit-enhancement-suite",
+        "pname": "reddit-enhancement-suite",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "reddit-enhancement-suite",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefoxPlugins.reddit-enhancement-suite",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefoxPlugins.ublock-origin": {
+        "name": "ublock-origin",
+        "pname": "ublock-origin",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "ublock-origin",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefoxPlugins.ublock-origin",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.bubbly-nvim": {
+        "name": "vimplugin-bubbly-nvim",
+        "pname": "vimplugin-bubbly-nvim",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-bubbly-nvim",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.bubbly-nvim",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.git-blame-nvim": {
+        "name": "vimplugin-git-blame-nvim",
+        "pname": "vimplugin-git-blame-nvim",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-git-blame-nvim",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.git-blame-nvim",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.language-tool-nvim": {
+        "name": "vimplugin-language-tool-nvim",
+        "pname": "vimplugin-language-tool-nvim",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-language-tool-nvim",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.language-tool-nvim",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-treesitter-textobjects": {
+        "name": "vimplugin-neovim-treesitter-textobjects-master",
+        "pname": "vimplugin-neovim-treesitter-textobjects-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-neovim-treesitter-textobjects-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.nvim-treesitter-textobjects",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-lsp-extensions": {
+        "name": "vimplugin-nvim-lsp-extension",
+        "pname": "vimplugin-nvim-lsp-extension",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-nvim-lsp-extension",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.nvim-lsp-extensions",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-lspconfig": {
+        "name": "vimplugin-nvim-lspconfig",
+        "pname": "vimplugin-nvim-lspconfig",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-nvim-lspconfig",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.nvim-lspconfig",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-tree-docs": {
+        "name": "vimplugin-nvim-tree-docs-master",
+        "pname": "vimplugin-nvim-tree-docs-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-nvim-tree-docs-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.nvim-tree-docs",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-treesitter-angular": {
+        "name": "vimplugin-nvim-treesitter-angular-master",
+        "pname": "vimplugin-nvim-treesitter-angular-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-nvim-treesitter-angular-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.nvim-treesitter-angular",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-treesitter": {
+        "name": "vimplugin-nvim-treesitter-master",
+        "pname": "vimplugin-nvim-treesitter-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-nvim-treesitter-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.nvim-treesitter",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-treesitter-refactor": {
+        "name": "vimplugin-nvim-treesitter-refactor-master",
+        "pname": "vimplugin-nvim-treesitter-refactor-master",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-nvim-treesitter-refactor-master",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.nvim-treesitter-refactor",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.nvim-web-devicons": {
+        "name": "vimplugin-nvim-web-devicons",
+        "pname": "vimplugin-nvim-web-devicons",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-nvim-web-devicons",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.nvim-web-devicons",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.ranger-nvim": {
+        "name": "vimplugin-ranger-vim",
+        "pname": "vimplugin-ranger-vim",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-ranger-vim",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.ranger-nvim",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.vimPlugins.vim-signify": {
+        "name": "vimplugin-vim-signify",
+        "pname": "vimplugin-vim-signify",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vimplugin-vim-signify",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne('pkgs', 'misc', 'vim-plugins', 'build-vim-plugin.nix')#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vimPlugins.vim-signify",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.yubikey-touch-detector": {
+        "name": "yubikey-touch-detector-1.9.0",
+        "pname": "yubikey-touch-detector",
+        "version": "1.9.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Detect when your YubiKey is waiting for a touch",
+            "homepage": "https://github.com/maximbaz/yubikey-touch-detector",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "yubikey-touch-detector-1.9.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "yubikey-touch-detector",
+        "_repo": "ijohanne"
+    },
     "nur.repos.ilya-fedin.kotatogram-desktop": {
         "name": "kotatogram-desktop-1.2-1",
         "pname": "kotatogram-desktop",
@@ -40334,9 +41272,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.j-k.nerdctl": {
-        "name": "nerdctl-0.0.1",
+        "name": "nerdctl-0.2.0",
         "pname": "nerdctl",
-        "version": "0.0.1",
+        "version": "0.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -40364,7 +41302,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "nerdctl-0.0.1",
+            "name": "nerdctl-0.2.0",
             "outputsToInstall": [
                 "out"
             ],
