@@ -10498,14 +10498,14 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.retworkx": {
-        "name": "retworkx-0.6.0",
+        "name": "retworkx-0.7.1",
         "pname": "retworkx",
-        "version": "0.6.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Qiskit/retworkx/releases/tag/0.6.0",
+            "changelog": "https://github.com/Qiskit/retworkx/releases/tag/0.7.1",
             "description": "A python graph library implemented in Rust.",
             "downloadPage": "https://github.com/Qiskit/retworkx/releases",
             "homepage": "https://retworkx.readthedocs.io/en/latest/index.html",
@@ -10524,7 +10524,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "retworkx-0.6.0",
+            "name": "retworkx-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
