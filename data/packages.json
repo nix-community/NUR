@@ -60420,9 +60420,9 @@
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.cmangos_tbc": {
-        "name": "mangos-tbc-unstable-2020-11-30",
+        "name": "mangos-tbc-unstable-2020-12-13",
         "pname": "mangos-tbc-unstable",
-        "version": "2020-11-30",
+        "version": "2020-12-13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -60436,7 +60436,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "mangos-tbc-unstable-2020-11-30",
+            "name": "mangos-tbc-unstable-2020-12-13",
             "outputsToInstall": [
                 "out"
             ],
