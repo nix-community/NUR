@@ -69607,24 +69607,24 @@
         "_repo": "piegames"
     },
     "nur.repos.piegames.matrix-conduit": {
-        "name": "matrix-conduit-unstable-2020-08-25",
+        "name": "matrix-conduit-unstable-2020-11-06",
         "pname": "matrix-conduit-unstable",
-        "version": "2020-08-25",
+        "version": "2020-11-06",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "description": "A Matrix homeserver written in Rust",
             "homepage": "https://conduit.rs",
             "insecure": false,
             "license": {
-                "fullName": "GNU Affero General Public License v3.0 only",
-                "shortName": "agpl3Only",
-                "spdxId": "AGPL-3.0-only",
-                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "maintainers": [],
-            "name": "matrix-conduit-unstable-2020-08-25",
+            "name": "matrix-conduit-unstable-2020-11-06",
             "outputsToInstall": [
                 "out"
             ],
