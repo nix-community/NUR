@@ -60716,9 +60716,9 @@
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.vmangos": {
-        "name": "vmangos-unstable-2020-11-30",
+        "name": "vmangos-unstable-2020-12-13",
         "pname": "vmangos-unstable",
-        "version": "2020-11-30",
+        "version": "2020-12-13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -60732,7 +60732,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "vmangos-unstable-2020-11-30",
+            "name": "vmangos-unstable-2020-12-13",
             "outputsToInstall": [
                 "out"
             ],
@@ -60741,6 +60741,28 @@
             "unsupported": false
         },
         "_attr": "vmangos",
+        "_repo": "mweinelt"
+    },
+    "nur.repos.mweinelt.vmangos-worlddb": {
+        "name": "vmangos-worlddb-2020-11-12",
+        "pname": "vmangos-worlddb",
+        "version": "2020-11-12",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Vanilla MaNGOS world database",
+            "homepage": "https://github.com/brotalnia/database",
+            "insecure": false,
+            "name": "vmangos-worlddb-2020-11-12",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mweinelt",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vmangos-worlddb",
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.hassLovelaceModules.weather-card-chart": {
