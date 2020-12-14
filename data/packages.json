@@ -23833,9 +23833,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.curl": {
-        "name": "curl-7.73.0",
+        "name": "curl-7.74.0",
         "pname": "curl",
-        "version": "7.73.0",
+        "version": "7.74.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23857,7 +23857,7 @@
                     "name": "Jason O'Conal"
                 }
             ],
-            "name": "curl-7.73.0",
+            "name": "curl-7.74.0",
             "outputsToInstall": [
                 "bin",
                 "man"
@@ -32655,9 +32655,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32679,7 +32679,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32691,9 +32691,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32715,7 +32715,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32727,9 +32727,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32751,7 +32751,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32763,9 +32763,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32787,7 +32787,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32799,9 +32799,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32823,7 +32823,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32835,9 +32835,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32859,7 +32859,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32871,9 +32871,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32895,7 +32895,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32907,9 +32907,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32931,7 +32931,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32943,9 +32943,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -32967,7 +32967,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32979,9 +32979,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33003,7 +33003,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -33015,9 +33015,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33039,7 +33039,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -33051,9 +33051,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-2.17.0",
+        "name": "php-php-cs-fixer-2.17.1",
         "pname": "php-php-cs-fixer",
-        "version": "2.17.0",
+        "version": "2.17.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -33075,7 +33075,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-2.17.0",
+            "name": "php-php-cs-fixer-2.17.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -34671,9 +34671,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34702,7 +34702,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -34714,9 +34714,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34745,7 +34745,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -34757,9 +34757,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34788,7 +34788,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -34800,9 +34800,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34831,7 +34831,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -34843,9 +34843,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34874,7 +34874,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -34886,9 +34886,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34917,7 +34917,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -34929,9 +34929,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -34960,7 +34960,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -34972,9 +34972,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35003,7 +35003,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -35015,9 +35015,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35046,7 +35046,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -35058,9 +35058,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35089,7 +35089,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -35101,9 +35101,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35132,7 +35132,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -35144,9 +35144,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.phpstan": {
-        "name": "php-phpstan-0.12.59",
+        "name": "php-phpstan-0.12.62",
         "pname": "php-phpstan",
-        "version": "0.12.59",
+        "version": "0.12.62",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35175,7 +35175,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-phpstan-0.12.59",
+            "name": "php-phpstan-0.12.62",
             "outputsToInstall": [
                 "out"
             ],
@@ -41465,9 +41465,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.j-k.nerdctl": {
-        "name": "nerdctl-0.2.0",
+        "name": "nerdctl-0.3.0",
         "pname": "nerdctl",
-        "version": "0.2.0",
+        "version": "0.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41495,7 +41495,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "nerdctl-0.2.0",
+            "name": "nerdctl-0.3.0",
             "outputsToInstall": [
                 "out"
             ],
