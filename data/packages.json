@@ -55286,61 +55286,6 @@
         "_attr": "irc-announce",
         "_repo": "mic92"
     },
-    "nur.repos.mic92.keystone": {
-        "name": "keystone-engine-unstable-0.9.2-rc1.post2",
-        "pname": "keystone-engine-unstable",
-        "version": "0.9.2-rc1.post2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "lightweight multi-platform, multi-architecture assembler framework",
-            "homepage": "http://www.keystone-engine.org/",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "name": "keystone-engine-unstable-0.9.2-rc1.post2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-cygwin",
-                "i686-freebsd",
-                "i686-linux",
-                "i686-netbsd",
-                "i686-openbsd",
-                "x86_64-cygwin",
-                "x86_64-freebsd",
-                "x86_64-linux",
-                "x86_64-netbsd",
-                "x86_64-openbsd",
-                "x86_64-solaris",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "x86_64-redox",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "keystone",
-        "_repo": "mic92"
-    },
     "nur.repos.mic92.kvmtool": {
         "name": "kvmtool-0.20200424",
         "pname": "kvmtool",
@@ -56667,15 +56612,15 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.python3Packages.keystone": {
-        "name": "python3.8-keystone-engine-unstable-0.9.2-rc1.post2",
-        "pname": "python3.8-keystone-engine-unstable",
-        "version": "0.9.2-rc1.post2",
+        "name": "python3.8-keystone-0.9.2",
+        "pname": "python3.8-keystone",
+        "version": "0.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "description": "lightweight multi-platform, multi-architecture assembler framework",
-            "homepage": "http://www.keystone-engine.org/",
+            "description": "Lightweight multi-platform, multi-architecture assembler framework",
+            "homepage": "https://www.keystone-engine.org",
             "insecure": false,
             "isBuildPythonPackage": [
                 "aarch64-linux",
@@ -56695,12 +56640,12 @@
                 "armv7a-darwin"
             ],
             "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "python3.8-keystone-engine-unstable-0.9.2-rc1.post2",
+            "name": "python3.8-keystone-0.9.2",
             "outputsToInstall": [
                 "out"
             ],
