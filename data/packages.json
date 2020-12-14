@@ -6930,6 +6930,36 @@
         "_attr": "thelounge",
         "_repo": "crazedprogrammer"
     },
+    "nur.repos.cwyc.antimony": {
+        "name": "antimony-1.0",
+        "pname": "antimony",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A graph-based constructive solid geometry CAD tool.",
+            "downloadPage": "https://github.com/mkeeter/antimony",
+            "homepage": "http://www.mattkeeter.com/projects/antimony/3/",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Antimony is a computer-aided design (CAD) tool from a parallel universe in which CAD software evolved from Lisp machines rather than drafting tables",
+            "name": "antimony-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/cwyc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "antimony",
+        "_repo": "cwyc"
+    },
     "nur.repos.cwyc.firefox-flash-sandbox": {
         "name": "firefox-flash-sandbox",
         "pname": "firefox-flash-sandbox",
