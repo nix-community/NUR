@@ -4629,9 +4629,9 @@
         "_repo": "c0deaddict"
     },
     "nur.repos.c0deaddict.keyhub-cli": {
-        "name": "keyhub-cli-15.0",
+        "name": "keyhub-cli-17.0",
         "pname": "keyhub-cli",
-        "version": "15.0",
+        "version": "17.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -4647,7 +4647,7 @@
                     "name": "Jos van Bakel"
                 }
             ],
-            "name": "keyhub-cli-15.0",
+            "name": "keyhub-cli-17.0",
             "outputsToInstall": [
                 "out"
             ],
