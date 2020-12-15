@@ -88611,9 +88611,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gef": {
-        "name": "gef-unstable-2020-12-10",
+        "name": "gef-unstable-2020-12-14",
         "pname": "gef-unstable",
-        "version": "2020-12-10",
+        "version": "2020-12-14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -88641,7 +88641,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gef-unstable-2020-12-10",
+            "name": "gef-unstable-2020-12-14",
             "outputsToInstall": [
                 "out"
             ],
@@ -89873,9 +89873,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-12-12",
+        "name": "gpxsee-unstable-2020-12-15",
         "pname": "gpxsee-unstable",
-        "version": "2020-12-12",
+        "version": "2020-12-15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -89904,7 +89904,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-12-12",
+            "name": "gpxsee-unstable-2020-12-15",
             "outputsToInstall": [
                 "out"
             ],
@@ -91676,9 +91676,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-12-12",
+        "name": "maptourist-2020-12-15",
         "pname": "maptourist",
-        "version": "2020-12-12",
+        "version": "2020-12-15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91704,7 +91704,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-12-12",
+            "name": "maptourist-2020-12-15",
             "outputsToInstall": [
                 "out"
             ],
@@ -92088,9 +92088,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-2020-12-11",
+        "name": "nakarte-2020-12-14",
         "pname": "nakarte",
-        "version": "2020-12-11",
+        "version": "2020-12-14",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -92118,7 +92118,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-2020-12-11",
+            "name": "nakarte-2020-12-14",
             "outputsToInstall": [
                 "out"
             ],
@@ -92558,9 +92558,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-12-04",
+        "name": "OpenOrienteering-Mapper-unstable-2020-12-12",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-12-04",
+        "version": "2020-12-12",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92588,7 +92588,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-12-04",
+            "name": "OpenOrienteering-Mapper-unstable-2020-12-12",
             "outputsToInstall": [
                 "out"
             ],
@@ -93201,9 +93201,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.cheetah3": {
-        "name": "python3.8-cheetah3-unstable-2020-11-29",
+        "name": "python3.8-cheetah3-unstable-2020-12-14",
         "pname": "python3.8-cheetah3-unstable",
-        "version": "2020-11-29",
+        "version": "2020-12-14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93248,7 +93248,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-cheetah3-unstable-2020-11-29",
+            "name": "python3.8-cheetah3-unstable-2020-12-14",
             "outputsToInstall": [
                 "out"
             ],
@@ -94385,9 +94385,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.qmapshack-bin": {
-        "name": "qmapshack-bin-1.15.1",
+        "name": "qmapshack-bin-1.15.2",
         "pname": "qmapshack-bin",
-        "version": "1.15.1",
+        "version": "1.15.2",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -94415,7 +94415,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "qmapshack-bin-1.15.1",
+            "name": "qmapshack-bin-1.15.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -96403,9 +96403,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.zdict": {
-        "name": "zdict-unstable-2020-11-09",
+        "name": "zdict-unstable-2020-12-15",
         "pname": "zdict-unstable",
-        "version": "2020-11-09",
+        "version": "2020-12-15",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96450,7 +96450,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "zdict-unstable-2020-11-09",
+            "name": "zdict-unstable-2020-12-15",
             "outputsToInstall": [
                 "out"
             ],
