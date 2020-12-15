@@ -80389,9 +80389,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.lastpass-password-manager": {
-        "name": "lastpass-password-manager-4.58.0.4",
+        "name": "lastpass-password-manager-4.62.0.6",
         "pname": "lastpass-password-manager",
-        "version": "4.58.0.4",
+        "version": "4.62.0.6",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -80405,7 +80405,7 @@
                 "shortName": "unfree",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/license/"
             },
-            "name": "lastpass-password-manager-4.58.0.4",
+            "name": "lastpass-password-manager-4.62.0.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -81501,9 +81501,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.privacy-badger": {
-        "name": "privacy-badger-2020.10.7",
+        "name": "privacy-badger-2020.12.10",
         "pname": "privacy-badger",
-        "version": "2020.10.7",
+        "version": "2020.12.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -81517,7 +81517,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "privacy-badger-2020.10.7",
+            "name": "privacy-badger-2020.12.10",
             "outputsToInstall": [
                 "out"
             ],
