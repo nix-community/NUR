@@ -60629,8 +60629,8 @@
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.trinitycore_335": {
-        "name": "TrinityCore-TDB335.20111",
-        "pname": "TrinityCore-TDB335.20111",
+        "name": "TrinityCore-TDB335.20121",
+        "pname": "TrinityCore-TDB335.20121",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -60645,7 +60645,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "TrinityCore-TDB335.20111",
+            "name": "TrinityCore-TDB335.20121",
             "outputsToInstall": [
                 "out"
             ],
@@ -97340,59 +97340,6 @@
             "unsupported": false
         },
         "_attr": "blastradius",
-        "_repo": "stupremee"
-    },
-    "nur.repos.stupremee.rust-analyzer": {
-        "name": "rust-analyzer-2020-12-14",
-        "pname": "rust-analyzer",
-        "version": "2020-12-14",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "An experimental modular compiler frontend for the Rust language",
-            "homepage": "https://github.com/rust-analyzer/rust-analyzer",
-            "insecure": false,
-            "license": [
-                {
-                    "fullName": "MIT License",
-                    "shortName": "mit",
-                    "spdxId": "MIT",
-                    "url": "https://spdx.org/licenses/MIT.html"
-                },
-                {
-                    "fullName": "Apache License 2.0",
-                    "shortName": "asl20",
-                    "spdxId": "Apache-2.0",
-                    "url": "https://spdx.org/licenses/Apache-2.0.html"
-                }
-            ],
-            "name": "rust-analyzer-2020-12-14",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/stupremee",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "rust-analyzer",
         "_repo": "stupremee"
     },
     "nur.repos.stupremee.tfk8s": {
