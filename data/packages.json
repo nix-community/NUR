@@ -60909,6 +60909,36 @@
         "_attr": "neovim-gtk",
         "_repo": "n1kolasM"
     },
+    "nur.repos.n1kolasM.obsidian": {
+        "name": "obsidian-0.9.22",
+        "pname": "obsidian",
+        "version": "0.9.22",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Obsidian is a both a Markdown editor and a knowledge base app.",
+            "homepage": "https://obsidian.md/",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "obsidian-0.9.22",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/n1kolasM",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "obsidian",
+        "_repo": "n1kolasM"
+    },
     "nur.repos.n1kolasM.python37Packages.cognitive-complexity": {
         "name": "python3.7-cognitive_complexity-0.0.4",
         "pname": "python3.7-cognitive_complexity",
