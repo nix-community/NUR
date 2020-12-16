@@ -48750,6 +48750,60 @@
         "_attr": "python3Packages.betacode",
         "_repo": "kmein"
     },
+    "nur.repos.kmein.python3Packages.indic-transliteration": {
+        "name": "python3.8-indic_transliteration-unstable-2020-12-15",
+        "pname": "python3.8-indic_transliteration-unstable",
+        "version": "2020-12-15",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "python3.8-indic_transliteration-unstable-2020-12-15",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kmein",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "python3Packages.indic-transliteration",
+        "_repo": "kmein"
+    },
     "nur.repos.kmein.python3Packages.pygtrie": {
         "name": "python3.8-pygtrie-2.3",
         "pname": "python3.8-pygtrie",
