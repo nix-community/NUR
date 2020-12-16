@@ -61104,8 +61104,8 @@
         "version": "2.1.2",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
-            "broken": false,
+            "available": false,
+            "broken": true,
             "description": "Automated security testing with bandit and flake8.",
             "homepage": "https://github.com/tylerwince/flake8-bandit",
             "insecure": false,
