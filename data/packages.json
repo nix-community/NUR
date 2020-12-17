@@ -82624,16 +82624,16 @@
         "_attr": "firefox-addons.swedish-dictionary",
         "_repo": "rycee"
     },
-    "nur.repos.rycee.firefox-addons.tab-center-redux": {
-        "name": "tab-center-redux-0.7.1",
-        "pname": "tab-center-redux",
-        "version": "0.7.1",
+    "nur.repos.rycee.firefox-addons.tabcenter-reborn": {
+        "name": "tabcenter-reborn-2.2.0",
+        "pname": "tabcenter-reborn",
+        "version": "2.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Move your tabs to the side of your browser window.",
-            "homepage": "https://github.com/eoger/tabcenter-redux",
+            "description": "Simple and powerful vertical tab bar",
+            "homepage": "https://framagit.org/ariasuni/tabcenter-reborn",
             "insecure": false,
             "license": {
                 "fullName": "Mozilla Public License 2.0",
@@ -82641,7 +82641,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "tab-center-redux-0.7.1",
+            "name": "tabcenter-reborn-2.2.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -82697,7 +82697,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "firefox-addons.tab-center-redux",
+        "_attr": "firefox-addons.tabcenter-reborn",
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.temporary-containers": {
