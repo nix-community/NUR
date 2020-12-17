@@ -88221,9 +88221,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-12-10",
+        "name": "embox-unstable-2020-12-16",
         "pname": "embox-unstable",
-        "version": "2020-12-10",
+        "version": "2020-12-16",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -88251,7 +88251,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-12-10",
+            "name": "embox-unstable-2020-12-16",
             "outputsToInstall": [
                 "out"
             ],
@@ -91024,57 +91024,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.klogg-bin": {
-        "name": "klogg-bin-20.4",
+        "name": "klogg-bin-20.12",
         "pname": "klogg-bin",
-        "version": "20.4",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "A fast, advanced log explorer based on glogg project",
-            "homepage": "https://klogg.filimonov.dev/",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "sikmir@gmail.com",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
-                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
-                        }
-                    ],
-                    "name": "Nikolay Korotkiy"
-                }
-            ],
-            "name": "klogg-bin-20.4",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
-            "skip": {
-                "ci": true
-            },
-            "unfree": false,
-            "unsupported": true
-        },
-        "_attr": "klogg-bin",
-        "_repo": "sikmir"
-    },
-    "nur.repos.sikmir.klogg": {
-        "name": "klogg-unstable-2020-11-16",
-        "pname": "klogg-unstable",
-        "version": "2020-11-16",
+        "version": "20.12",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91102,7 +91054,56 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "klogg-unstable-2020-11-16",
+            "name": "klogg-bin-20.12",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux",
+                "x86_64-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "klogg-bin",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.klogg": {
+        "name": "klogg-unstable-2020-12-16",
+        "pname": "klogg-unstable",
+        "version": "2020-12-16",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A fast, advanced log explorer based on glogg project",
+            "homepage": "https://klogg.filimonov.dev/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "klogg-unstable-2020-12-16",
             "outputsToInstall": [
                 "out"
             ],
@@ -91285,9 +91286,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.librewolf": {
-        "name": "librewolf-82.0.3",
+        "name": "librewolf-83.0",
         "pname": "librewolf",
-        "version": "82.0.3",
+        "version": "83.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91315,7 +91316,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "librewolf-82.0.3",
+            "name": "librewolf-83.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -91814,9 +91815,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-12-15",
+        "name": "maptourist-2020-12-16",
         "pname": "maptourist",
-        "version": "2020-12-15",
+        "version": "2020-12-16",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91842,7 +91843,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-12-15",
+            "name": "maptourist-2020-12-16",
             "outputsToInstall": [
                 "out"
             ],
@@ -92226,9 +92227,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-2020-12-14",
+        "name": "nakarte-2020-12-16",
         "pname": "nakarte",
-        "version": "2020-12-14",
+        "version": "2020-12-16",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -92256,7 +92257,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-2020-12-14",
+            "name": "nakarte-2020-12-16",
             "outputsToInstall": [
                 "out"
             ],
@@ -92696,9 +92697,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-12-12",
+        "name": "OpenOrienteering-Mapper-unstable-2020-12-16",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-12-12",
+        "version": "2020-12-16",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92726,7 +92727,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-12-12",
+            "name": "OpenOrienteering-Mapper-unstable-2020-12-16",
             "outputsToInstall": [
                 "out"
             ],
