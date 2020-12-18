@@ -79009,9 +79009,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.duckduckgo-privacy-essentials": {
-        "name": "duckduckgo-privacy-essentials-2020.12.7",
+        "name": "duckduckgo-privacy-essentials-2020.12.16",
         "pname": "duckduckgo-privacy-essentials",
-        "version": "2020.12.7",
+        "version": "2020.12.16",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79025,7 +79025,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "duckduckgo-privacy-essentials-2020.12.7",
+            "name": "duckduckgo-privacy-essentials-2020.12.16",
             "outputsToInstall": [
                 "out"
             ],
@@ -81080,9 +81080,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-8.1.8",
+        "name": "metamask-8.1.9",
         "pname": "metamask",
-        "version": "8.1.8",
+        "version": "8.1.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -81095,7 +81095,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-8.1.8",
+            "name": "metamask-8.1.9",
             "outputsToInstall": [
                 "out"
             ],
@@ -83687,9 +83687,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.violentmonkey": {
-        "name": "violentmonkey-2.12.7",
+        "name": "violentmonkey-2.12.8",
         "pname": "violentmonkey",
-        "version": "2.12.7",
+        "version": "2.12.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83703,7 +83703,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "violentmonkey-2.12.7",
+            "name": "violentmonkey-2.12.8",
             "outputsToInstall": [
                 "out"
             ],
