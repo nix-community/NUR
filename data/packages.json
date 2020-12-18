@@ -9617,9 +9617,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit": {
-        "name": "python3.8-qiskit-0.23.1",
+        "name": "python3.8-qiskit-0.23.2",
         "pname": "python3.8-qiskit",
-        "version": "0.23.1",
+        "version": "0.23.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -9666,7 +9666,7 @@
                     "name": "pandaman"
                 }
             ],
-            "name": "python3.8-qiskit-0.23.1",
+            "name": "python3.8-qiskit-0.23.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -9695,9 +9695,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-aer": {
-        "name": "python3.8-qiskit-aer-0.7.1",
+        "name": "python3.8-qiskit-aer-0.7.2",
         "pname": "python3.8-qiskit-aer",
-        "version": "0.7.1",
+        "version": "0.7.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -9738,7 +9738,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-aer-0.7.1",
+            "name": "python3.8-qiskit-aer-0.7.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -10550,14 +10550,14 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.retworkx": {
-        "name": "retworkx-0.7.1",
+        "name": "retworkx-0.7.2",
         "pname": "retworkx",
-        "version": "0.7.1",
+        "version": "0.7.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/Qiskit/retworkx/releases/tag/0.7.1",
+            "changelog": "https://github.com/Qiskit/retworkx/releases/tag/0.7.2",
             "description": "A python graph library implemented in Rust.",
             "downloadPage": "https://github.com/Qiskit/retworkx/releases",
             "homepage": "https://retworkx.readthedocs.io/en/latest/index.html",
@@ -10576,7 +10576,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "retworkx-0.7.1",
+            "name": "retworkx-0.7.2",
             "outputsToInstall": [
                 "out"
             ],
