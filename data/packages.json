@@ -6426,9 +6426,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.eslint": {
-        "name": "node_eslint-7.15.0",
+        "name": "node_eslint-7.16.0",
         "pname": "node_eslint",
-        "version": "7.15.0",
+        "version": "7.16.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6437,7 +6437,7 @@
             "homepage": "https://eslint.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_eslint-7.15.0",
+            "name": "node_eslint-7.16.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -6516,9 +6516,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.13.5",
+        "name": "node_pnpm-5.13.6",
         "pname": "node_pnpm",
-        "version": "5.13.5",
+        "version": "5.13.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6527,7 +6527,7 @@
             "homepage": "https://pnpm.js.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_pnpm-5.13.5",
+            "name": "node_pnpm-5.13.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -6562,9 +6562,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.34.2",
+        "name": "node_rollup-2.35.1",
         "pname": "node_rollup",
-        "version": "2.34.2",
+        "version": "2.35.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6573,7 +6573,7 @@
             "homepage": "https://rollupjs.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_rollup-2.34.2",
+            "name": "node_rollup-2.35.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -6585,9 +6585,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.tldr": {
-        "name": "node_tldr-3.3.5",
+        "name": "node_tldr-3.3.6",
         "pname": "node_tldr",
-        "version": "3.3.5",
+        "version": "3.3.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6596,7 +6596,7 @@
             "homepage": "http://tldr-pages.github.io/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_tldr-3.3.5",
+            "name": "node_tldr-3.3.6",
             "outputsToInstall": [
                 "out"
             ],
