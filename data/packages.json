@@ -88323,9 +88323,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-12-16",
+        "name": "embox-unstable-2020-12-18",
         "pname": "embox-unstable",
-        "version": "2020-12-16",
+        "version": "2020-12-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -88353,7 +88353,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-12-16",
+            "name": "embox-unstable-2020-12-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -90431,9 +90431,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gt4gd": {
-        "name": "gt4gd-unstable-2020-05-04",
+        "name": "gt4gd-unstable-2020-12-19",
         "pname": "gt4gd-unstable",
-        "version": "2020-05-04",
+        "version": "2020-12-19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -90478,7 +90478,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gt4gd-unstable-2020-05-04",
+            "name": "gt4gd-unstable-2020-12-19",
             "outputsToInstall": [
                 "out"
             ],
@@ -91175,9 +91175,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.klogg": {
-        "name": "klogg-unstable-2020-12-16",
+        "name": "klogg-unstable-2020-12-20",
         "pname": "klogg-unstable",
-        "version": "2020-12-16",
+        "version": "2020-12-20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91205,7 +91205,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "klogg-unstable-2020-12-16",
+            "name": "klogg-unstable-2020-12-20",
             "outputsToInstall": [
                 "out"
             ],
@@ -91917,9 +91917,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-12-16",
+        "name": "maptourist-2020-12-20",
         "pname": "maptourist",
-        "version": "2020-12-16",
+        "version": "2020-12-20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91945,7 +91945,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-12-16",
+            "name": "maptourist-2020-12-20",
             "outputsToInstall": [
                 "out"
             ],
@@ -92751,9 +92751,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper-bin": {
-        "name": "Openorienteering-Mapper-bin-20201026.1",
+        "name": "Openorienteering-Mapper-bin-20201220.7",
         "pname": "Openorienteering-Mapper-bin",
-        "version": "20201026.1",
+        "version": "20201220.7",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -92781,7 +92781,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "Openorienteering-Mapper-bin-20201026.1",
+            "name": "Openorienteering-Mapper-bin-20201220.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -92799,9 +92799,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-12-16",
+        "name": "OpenOrienteering-Mapper-unstable-2020-12-20",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-12-16",
+        "version": "2020-12-20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92829,7 +92829,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-12-16",
+            "name": "OpenOrienteering-Mapper-unstable-2020-12-20",
             "outputsToInstall": [
                 "out"
             ],
@@ -94016,9 +94016,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.pyephem": {
-        "name": "python3.8-pyephem-unstable-2020-06-29",
+        "name": "python3.8-pyephem-unstable-2020-12-17",
         "pname": "python3.8-pyephem-unstable",
-        "version": "2020-06-29",
+        "version": "2020-12-17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94063,7 +94063,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-pyephem-unstable-2020-06-29",
+            "name": "python3.8-pyephem-unstable-2020-12-17",
             "outputsToInstall": [
                 "out"
             ],
@@ -95028,9 +95028,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-12-11",
+        "name": "routinodb-2020-12-17",
         "pname": "routinodb",
-        "version": "2020-12-11",
+        "version": "2020-12-17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -95056,7 +95056,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-12-11",
+            "name": "routinodb-2020-12-17",
             "outputsToInstall": [
                 "out"
             ],
@@ -96747,9 +96747,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.zdict": {
-        "name": "zdict-unstable-2020-12-15",
+        "name": "zdict-unstable-2020-12-17",
         "pname": "zdict-unstable",
-        "version": "2020-12-15",
+        "version": "2020-12-17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96794,7 +96794,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "zdict-unstable-2020-12-15",
+            "name": "zdict-unstable-2020-12-17",
             "outputsToInstall": [
                 "out"
             ],
