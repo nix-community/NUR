@@ -7669,14 +7669,14 @@
         "_repo": "dezgeg"
     },
     "nur.repos.drewrisinger.libcint": {
-        "name": "libcint-4.0.6",
+        "name": "libcint-4.0.7",
         "pname": "libcint",
-        "version": "4.0.6",
+        "version": "4.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sunqm/libcint/releases/tag/v4.0.6",
+            "changelog": "https://github.com/sunqm/libcint/releases/tag/v4.0.7",
             "description": "General GTO integrals for quantum chemistry",
             "downloadPage": "https://github.com/sunqm/libcint",
             "homepage": "http://wiki.sunqm.net/libcint",
@@ -7696,7 +7696,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "libcint-4.0.6",
+            "name": "libcint-4.0.7",
             "outputsToInstall": [
                 "out"
             ],
