@@ -80675,9 +80675,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.keepassxc-browser": {
-        "name": "keepassxc-browser-1.7.3",
+        "name": "keepassxc-browser-1.7.4",
         "pname": "keepassxc-browser",
-        "version": "1.7.3",
+        "version": "1.7.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -80691,7 +80691,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "keepassxc-browser-1.7.3",
+            "name": "keepassxc-browser-1.7.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -83379,9 +83379,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tree-style-tab": {
-        "name": "tree-style-tab-3.6.3",
+        "name": "tree-style-tab-3.6.4",
         "pname": "tree-style-tab",
-        "version": "3.6.3",
+        "version": "3.6.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83395,7 +83395,7 @@
                 "shortName": "tree-style-tab",
                 "url": "https://github.com/piroor/treestyletab/blob/trunk/COPYING.txt"
             },
-            "name": "tree-style-tab-3.6.3",
+            "name": "tree-style-tab-3.6.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -83455,9 +83455,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tridactyl": {
-        "name": "tridactyl-1.20.3",
+        "name": "tridactyl-1.20.4",
         "pname": "tridactyl",
-        "version": "1.20.3",
+        "version": "1.20.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83471,7 +83471,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "tridactyl-1.20.3",
+            "name": "tridactyl-1.20.4",
             "outputsToInstall": [
                 "out"
             ],
