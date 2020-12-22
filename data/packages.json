@@ -87396,9 +87396,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.anki-bin": {
-        "name": "anki-bin-2.1.35",
+        "name": "anki-bin-2.1.37",
         "pname": "anki-bin",
-        "version": "2.1.35",
+        "version": "2.1.37",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -87426,7 +87426,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "anki-bin-2.1.35",
+            "name": "anki-bin-2.1.37",
             "outputsToInstall": [
                 "out"
             ],
@@ -88292,9 +88292,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.elevation_server": {
-        "name": "elevation-server-unstable-2020-06-22",
+        "name": "elevation-server-unstable-2020-12-05",
         "pname": "elevation-server-unstable",
-        "version": "2020-06-22",
+        "version": "2020-12-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -88320,7 +88320,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "elevation-server-unstable-2020-06-22",
+            "name": "elevation-server-unstable-2020-12-05",
             "outputsToInstall": [
                 "out"
             ],
@@ -88445,9 +88445,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-12-18",
+        "name": "embox-unstable-2020-12-22",
         "pname": "embox-unstable",
-        "version": "2020-12-18",
+        "version": "2020-12-22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -88475,7 +88475,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-12-18",
+            "name": "embox-unstable-2020-12-22",
             "outputsToInstall": [
                 "out"
             ],
@@ -89132,9 +89132,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.geographiclib": {
-        "name": "geographiclib-1.50.1",
+        "name": "geographiclib-1.51",
         "pname": "geographiclib",
-        "version": "1.50.1",
+        "version": "1.51",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -89162,7 +89162,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "geographiclib-1.50.1",
+            "name": "geographiclib-1.51",
             "outputsToInstall": [
                 "out"
             ],
@@ -90093,9 +90093,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-bin": {
-        "name": "gpxsee-bin-7.37",
+        "name": "gpxsee-bin-7.38",
         "pname": "gpxsee-bin",
-        "version": "7.37",
+        "version": "7.38",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -90124,7 +90124,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-bin-7.37",
+            "name": "gpxsee-bin-7.38",
             "outputsToInstall": [
                 "out"
             ],
@@ -90235,9 +90235,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-12-15",
+        "name": "gpxsee-unstable-2020-12-22",
         "pname": "gpxsee-unstable",
-        "version": "2020-12-15",
+        "version": "2020-12-22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -90266,7 +90266,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-12-15",
+            "name": "gpxsee-unstable-2020-12-22",
             "outputsToInstall": [
                 "out"
             ],
@@ -91173,9 +91173,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.kiln": {
-        "name": "kiln-2020-11-21",
+        "name": "kiln-0.1.0",
         "pname": "kiln",
-        "version": "2020-11-21",
+        "version": "0.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91209,7 +91209,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "kiln-2020-11-21",
+            "name": "kiln-0.1.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -92039,9 +92039,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-12-20",
+        "name": "maptourist-2020-12-22",
         "pname": "maptourist",
-        "version": "2020-12-20",
+        "version": "2020-12-22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92067,7 +92067,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-12-20",
+            "name": "maptourist-2020-12-22",
             "outputsToInstall": [
                 "out"
             ],
@@ -93422,9 +93422,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.pvs-studio": {
-        "name": "pvs-studio-7.09.42228.74",
+        "name": "pvs-studio-7.11.44138.98",
         "pname": "pvs-studio",
-        "version": "7.09.42228.74",
+        "version": "7.11.44138.98",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -93451,7 +93451,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "pvs-studio-7.09.42228.74",
+            "name": "pvs-studio-7.11.44138.98",
             "outputsToInstall": [
                 "out"
             ],
@@ -93467,6 +93467,92 @@
             "unsupported": false
         },
         "_attr": "pvs-studio",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.py-staticmaps": {
+        "name": "py-staticmaps-unstable-2020-11-28",
+        "pname": "py-staticmaps-unstable",
+        "version": "2020-11-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A python module to create static map images with markers, geodesic lines, etc.",
+            "homepage": "https://github.com/flopp/py-staticmaps",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "py-staticmaps-unstable-2020-11-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "py-staticmaps",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.bson": {
@@ -95150,9 +95236,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-12-17",
+        "name": "routinodb-2020-12-21",
         "pname": "routinodb",
-        "version": "2020-12-17",
+        "version": "2020-12-21",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -95178,7 +95264,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-12-17",
+            "name": "routinodb-2020-12-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -95729,9 +95815,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.stardict-tools": {
-        "name": "stardict-tools-2020-11-29",
+        "name": "stardict-tools-2020-12-22",
         "pname": "stardict-tools",
-        "version": "2020-11-29",
+        "version": "2020-12-22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -95759,7 +95845,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "stardict-tools-2020-11-29",
+            "name": "stardict-tools-2020-12-22",
             "outputsToInstall": [
                 "out"
             ],
@@ -96125,9 +96211,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tatoeba": {
-        "name": "tatoeba-2020-12-05",
+        "name": "tatoeba-2020-12-19",
         "pname": "tatoeba",
-        "version": "2020-12-05",
+        "version": "2020-12-19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96153,7 +96239,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tatoeba-2020-12-05",
+            "name": "tatoeba-2020-12-19",
             "outputsToInstall": [
                 "out"
             ],
@@ -96818,9 +96904,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.yabai": {
-        "name": "yabai-3.3.0",
+        "name": "yabai-3.3.6",
         "pname": "yabai",
-        "version": "3.3.0",
+        "version": "3.3.6",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -96848,7 +96934,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "yabai-3.3.0",
+            "name": "yabai-3.3.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -96869,9 +96955,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.zdict": {
-        "name": "zdict-unstable-2020-12-17",
+        "name": "zdict-unstable-2020-12-21",
         "pname": "zdict-unstable",
-        "version": "2020-12-17",
+        "version": "2020-12-21",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96916,7 +97002,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "zdict-unstable-2020-12-17",
+            "name": "zdict-unstable-2020-12-21",
             "outputsToInstall": [
                 "out"
             ],
