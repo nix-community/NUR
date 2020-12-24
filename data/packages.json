@@ -82463,9 +82463,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.save-page-we": {
-        "name": "save-page-we-23.8",
+        "name": "save-page-we-24.0",
         "pname": "save-page-we",
-        "version": "23.8",
+        "version": "24.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82478,7 +82478,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "save-page-we-23.8",
+            "name": "save-page-we-24.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -83599,9 +83599,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.31.0",
+        "name": "ublock-origin-1.32.0",
         "pname": "ublock-origin",
-        "version": "1.31.0",
+        "version": "1.32.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83615,7 +83615,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.31.0",
+            "name": "ublock-origin-1.32.0",
             "outputsToInstall": [
                 "out"
             ],
