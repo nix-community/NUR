@@ -95394,6 +95394,61 @@
         "_attr": "routinodb",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.saait": {
+        "name": "saait-2020-11-15",
+        "pname": "saait",
+        "version": "2020-11-15",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The most boring static page generator",
+            "homepage": "https://git.codemadness.org/saait/file/README.html",
+            "insecure": false,
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "saait-2020-11-15",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "saait",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.sasplanet-bin": {
         "name": "sasplanet-bin-2020-06-06",
         "pname": "sasplanet-bin",
@@ -95880,6 +95935,61 @@
             "unsupported": false
         },
         "_attr": "slazav-podm",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.stagit": {
+        "name": "stagit-2020-11-28",
+        "pname": "stagit",
+        "version": "2020-11-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Static git page generator",
+            "homepage": "https://git.codemadness.org/stagit/file/README.html",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "stagit-2020-11-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "stagit",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.stardict-tools": {
