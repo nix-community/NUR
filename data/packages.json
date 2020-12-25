@@ -81320,16 +81320,16 @@
         "_repo": "pn"
     },
     "nur.repos.pn.ncmpcpp": {
-        "name": "ncmpcpp-0.8.2",
+        "name": "ncmpcpp-0.9.1",
         "pname": "ncmpcpp",
-        "version": "0.8.2",
+        "version": "0.9.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "description": "ncmpcpp with visualizer support",
             "insecure": false,
-            "name": "ncmpcpp-0.8.2",
+            "name": "ncmpcpp-0.9.1",
             "outputsToInstall": [
                 "out"
             ],
