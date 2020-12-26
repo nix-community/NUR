@@ -111111,9 +111111,9 @@
         "_repo": "zeratax"
     },
     "nur.repos.zeratax.matrix-registration": {
-        "name": "python3.8-matrix-registration-1.0.0.dev1",
+        "name": "python3.8-matrix-registration-1.0.0.dev3",
         "pname": "python3.8-matrix-registration",
-        "version": "1.0.0.dev1",
+        "version": "1.0.0.dev3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -111138,7 +111138,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "name": "python3.8-matrix-registration-1.0.0.dev1",
+            "name": "python3.8-matrix-registration-1.0.0.dev3",
             "outputsToInstall": [
                 "out"
             ],
