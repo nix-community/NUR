@@ -6588,9 +6588,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-5.13.6",
+        "name": "node_pnpm-5.14.1",
         "pname": "node_pnpm",
-        "version": "5.13.6",
+        "version": "5.14.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6599,7 +6599,7 @@
             "homepage": "https://pnpm.js.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_pnpm-5.13.6",
+            "name": "node_pnpm-5.14.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -6703,9 +6703,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.webpack": {
-        "name": "node_webpack-cli-4.2.0",
+        "name": "node_webpack-cli-4.3.0",
         "pname": "node_webpack-cli",
-        "version": "4.2.0",
+        "version": "4.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6713,7 +6713,7 @@
             "description": "CLI for webpack & friends",
             "insecure": false,
             "license": "MIT",
-            "name": "node_webpack-cli-4.2.0",
+            "name": "node_webpack-cli-4.3.0",
             "outputsToInstall": [
                 "out"
             ],
