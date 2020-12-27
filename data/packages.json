@@ -5863,6 +5863,87 @@
         "_attr": "ydotool",
         "_repo": "chagra"
     },
+    "nur.repos.chrisoboe.arcan": {
+        "name": "arcan-0.6.0.1",
+        "pname": "arcan",
+        "version": "0.6.0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Next Generation Display Server",
+            "homepage": "https://www.arcan-fe.com",
+            "insecure": false,
+            "maintainers": [
+                "chris@oboe.email"
+            ],
+            "name": "arcan-0.6.0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/chrisoboe",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "arcan",
+        "_repo": "chrisoboe"
+    },
+    "nur.repos.chrisoboe.chitubox": {
+        "name": "chitubox-1.7.0",
+        "pname": "chitubox",
+        "version": "1.7.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "SLA/DLP/LCD 3D printing slicer",
+            "homepage": "https://www.chitubox.com",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree redistributable",
+                "shortName": "unfreeRedistributable"
+            },
+            "maintainers": [
+                "chris@oboe.email"
+            ],
+            "name": "chitubox-1.7.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/chrisoboe",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "chitubox",
+        "_repo": "chrisoboe"
+    },
     "nur.repos.clefru.beam-wallet": {
         "name": "BeamWallet",
         "pname": "BeamWallet",
@@ -7676,6 +7757,59 @@
         },
         "_attr": "ubootDevShell",
         "_repo": "dezgeg"
+    },
+    "nur.repos.divanorama.rmapi": {
+        "name": "rmapi-0.0.13",
+        "pname": "rmapi",
+        "version": "0.0.13",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Go app that allows you to access your reMarkable tablet files through the Cloud API",
+            "homepage": "https://github.com/juruen/rmapi",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "rmapi-0.0.13",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/divanorama",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "rmapi",
+        "_repo": "divanorama"
     },
     "nur.repos.drewrisinger.libcint": {
         "name": "libcint-4.0.7",
