@@ -94293,9 +94293,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-12-22",
+        "name": "embox-unstable-2020-12-26",
         "pname": "embox-unstable",
-        "version": "2020-12-22",
+        "version": "2020-12-26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94323,7 +94323,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-12-22",
+            "name": "embox-unstable-2020-12-26",
             "outputsToInstall": [
                 "out"
             ],
@@ -94821,9 +94821,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gef": {
-        "name": "gef-unstable-2020-12-14",
+        "name": "gef-unstable-2020-12-24",
         "pname": "gef-unstable",
-        "version": "2020-12-14",
+        "version": "2020-12-24",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94851,7 +94851,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gef-unstable-2020-12-14",
+            "name": "gef-unstable-2020-12-24",
             "outputsToInstall": [
                 "out"
             ],
@@ -96083,9 +96083,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-12-22",
+        "name": "gpxsee-unstable-2020-12-27",
         "pname": "gpxsee-unstable",
-        "version": "2020-12-22",
+        "version": "2020-12-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96114,7 +96114,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-12-22",
+            "name": "gpxsee-unstable-2020-12-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -96492,8 +96492,8 @@
         "version": "2020-09-19",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
-            "broken": false,
+            "available": false,
+            "broken": true,
             "description": "A curl-like cli application to interact with Gemini sites",
             "homepage": "https://github.com/MasterQ32/gurl",
             "insecure": false,
@@ -97200,9 +97200,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.klogg": {
-        "name": "klogg-unstable-2020-12-20",
+        "name": "klogg-unstable-2020-12-24",
         "pname": "klogg-unstable",
-        "version": "2020-12-20",
+        "version": "2020-12-24",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -97230,7 +97230,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "klogg-unstable-2020-12-20",
+            "name": "klogg-unstable-2020-12-24",
             "outputsToInstall": [
                 "out"
             ],
@@ -97942,9 +97942,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-12-22",
+        "name": "maptourist-2020-12-27",
         "pname": "maptourist",
-        "version": "2020-12-22",
+        "version": "2020-12-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -97970,7 +97970,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-12-22",
+            "name": "maptourist-2020-12-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -98354,9 +98354,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-2020-12-16",
+        "name": "nakarte-2020-12-26",
         "pname": "nakarte",
-        "version": "2020-12-16",
+        "version": "2020-12-26",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -98384,7 +98384,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-2020-12-16",
+            "name": "nakarte-2020-12-26",
             "outputsToInstall": [
                 "out"
             ],
@@ -98448,9 +98448,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-2020-12-12",
+        "name": "nnn-plugins-2020-12-18",
         "pname": "nnn-plugins",
-        "version": "2020-12-12",
+        "version": "2020-12-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -98478,7 +98478,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-2020-12-12",
+            "name": "nnn-plugins-2020-12-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -98776,9 +98776,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper-bin": {
-        "name": "Openorienteering-Mapper-bin-20201220.7",
+        "name": "Openorienteering-Mapper-bin-20201227.4",
         "pname": "Openorienteering-Mapper-bin",
-        "version": "20201220.7",
+        "version": "20201227.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -98806,7 +98806,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "Openorienteering-Mapper-bin-20201220.7",
+            "name": "Openorienteering-Mapper-bin-20201227.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -98824,9 +98824,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-12-20",
+        "name": "OpenOrienteering-Mapper-unstable-2020-12-27",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-12-20",
+        "version": "2020-12-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -98854,7 +98854,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-12-20",
+            "name": "OpenOrienteering-Mapper-unstable-2020-12-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -101828,9 +101828,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.stardict-tools": {
-        "name": "stardict-tools-2020-12-22",
+        "name": "stardict-tools-2020-12-27",
         "pname": "stardict-tools",
-        "version": "2020-12-22",
+        "version": "2020-12-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -101858,7 +101858,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "stardict-tools-2020-12-22",
+            "name": "stardict-tools-2020-12-27",
             "outputsToInstall": [
                 "out"
             ],
