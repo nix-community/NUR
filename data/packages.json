@@ -48857,9 +48857,9 @@
         "_repo": "kapack"
     },
     "nur.repos.kapack.slurm-front-end": {
-        "name": "slurm-20.11.0.1",
+        "name": "slurm-20.11.2.1",
         "pname": "slurm",
-        "version": "20.11.0.1",
+        "version": "20.11.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48887,7 +48887,7 @@
                     "name": "Markus Kowalewski"
                 }
             ],
-            "name": "slurm-20.11.0.1",
+            "name": "slurm-20.11.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -48912,9 +48912,9 @@
         "_repo": "kapack"
     },
     "nur.repos.kapack.slurm-multiple-slurmd": {
-        "name": "slurm-20.11.0.1",
+        "name": "slurm-20.11.2.1",
         "pname": "slurm",
-        "version": "20.11.0.1",
+        "version": "20.11.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -48942,7 +48942,7 @@
                     "name": "Markus Kowalewski"
                 }
             ],
-            "name": "slurm-20.11.0.1",
+            "name": "slurm-20.11.2.1",
             "outputsToInstall": [
                 "out"
             ],
