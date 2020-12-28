@@ -63865,6 +63865,278 @@
         "_attr": "SpriteSheetPacker",
         "_repo": "n1kolasM"
     },
+    "nur.repos.nagy.apertium": {
+        "name": "apertium-3.7.1",
+        "pname": "apertium",
+        "version": "3.7.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A free/open-source machine translation platform",
+            "homepage": "https://github.com/apertium/apertium",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [],
+            "name": "apertium-3.7.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "apertium",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.hyperspec": {
+        "name": "hyperspec-7.0",
+        "pname": "hyperspec",
+        "version": "7.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The Common Lisp HyperSpec",
+            "homepage": "http://www.lispworks.com/documentation/HyperSpec/Front/index.htm",
+            "insecure": false,
+            "name": "hyperspec-7.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "hyperspec",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.lttoolbox": {
+        "name": "lttoolbox-3.5.3",
+        "pname": "lttoolbox",
+        "version": "3.5.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Finite state compiler, processor and helper tools used by apertium",
+            "homepage": "https://github.com/apertium/lttoolbox",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "maintainers": [],
+            "name": "lttoolbox-3.5.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "lttoolbox",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.lunasvg": {
+        "name": "lunasvg-1.4.1",
+        "pname": "lunasvg",
+        "version": "1.4.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "lunasvg is a standalone c++ library to create, animate, manipulate and render SVG files.",
+            "homepage": "https://github.com/sammycage/lunasvg",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "lunasvg-1.4.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "lunasvg",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.passphrase2pgp": {
+        "name": "passphrase2pgp-1.1.0",
+        "pname": "passphrase2pgp",
+        "version": "1.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Generate a PGP key from a passphrase",
+            "homepage": "https://github.com/skeeto/passphrase2pgp",
+            "insecure": false,
+            "license": {
+                "fullName": "The Unlicense",
+                "shortName": "unlicense",
+                "spdxId": "Unlicense",
+                "url": "https://spdx.org/licenses/Unlicense.html"
+            },
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "passphrase2pgp-1.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "passphrase2pgp",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.ruffle": {
+        "name": "ruffle-nightly-2020-11-29",
+        "pname": "ruffle-nightly",
+        "version": "2020-11-29",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A Flash Player emulator written in Rust",
+            "homepage": "https://github.com/ruffle-rs/ruffle",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [],
+            "name": "ruffle-nightly-2020-11-29",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "ruffle",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.schemaorg": {
+        "name": "schemaorg-11.0",
+        "pname": "schemaorg",
+        "version": "11.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://schema.org/docs/releases.html",
+            "description": "schema.org",
+            "homepage": "schema.org",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "schemaorg-11.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "schemaorg",
+        "_repo": "nagy"
+    },
     "nur.repos.nasirhm.st": {
         "name": "st-0.8.2",
         "pname": "st",
