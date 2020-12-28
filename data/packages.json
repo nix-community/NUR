@@ -63929,6 +63929,28 @@
         "_attr": "hyperspec",
         "_repo": "nagy"
     },
+    "nur.repos.nagy.lispPackages.vacietis": {
+        "name": "lisp-vacietis-2012-11-29",
+        "pname": "lisp-vacietis",
+        "version": "2012-11-29",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "C to Common Lisp compiler",
+            "insecure": false,
+            "name": "lisp-vacietis-2012-11-29",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy('pkgs', 'development', 'lisp-modules', 'define-package.nix')#L111",
+            "unfree": false,
+            "unsupported": false,
+            "version": "2012-11-29"
+        },
+        "_attr": "lispPackages.vacietis",
+        "_repo": "nagy"
+    },
     "nur.repos.nagy.lttoolbox": {
         "name": "lttoolbox-3.5.3",
         "pname": "lttoolbox",
@@ -63971,6 +63993,118 @@
         "_attr": "lttoolbox",
         "_repo": "nagy"
     },
+    "nur.repos.nagy.luaPackages.fennel": {
+        "name": "lua5.3-fennel-0.7.0-1",
+        "pname": "lua5.3-fennel",
+        "version": "0.7.0-1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Fennel (formerly fnl) is a lisp that compiles to Lua",
+            "homepage": "https://fennel-lang.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "lua5.3-fennel-0.7.0-1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "luaPackages.fennel",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.luaPackages.tl": {
+        "name": "lua5.3-tl-0.9.0-1",
+        "pname": "lua5.3-tl",
+        "version": "0.9.0-1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "teal is a lua that compiles to Lua",
+            "homepage": "https://github.com/teal-language/tl/",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [],
+            "name": "lua5.3-tl-0.9.0-1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "luaPackages.tl",
+        "_repo": "nagy"
+    },
     "nur.repos.nagy.lunasvg": {
         "name": "lunasvg-1.4.1",
         "pname": "lunasvg",
@@ -63979,7 +64113,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "lunasvg is a standalone c++ library to create, animate, manipulate and render SVG files.",
+            "description": "A standalone c++ library to create, animate, manipulate and render SVG files",
             "homepage": "https://github.com/sammycage/lunasvg",
             "insecure": false,
             "license": {
@@ -94479,9 +94613,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.elevation": {
-        "name": "elevation-unstable-2020-11-18",
+        "name": "elevation-unstable-2020-12-27",
         "pname": "elevation-unstable",
-        "version": "2020-11-18",
+        "version": "2020-12-27",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94526,7 +94660,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "elevation-unstable-2020-11-18",
+            "name": "elevation-unstable-2020-12-27",
             "outputsToInstall": [
                 "out"
             ],
@@ -94565,9 +94699,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-12-26",
+        "name": "embox-unstable-2020-12-28",
         "pname": "embox-unstable",
-        "version": "2020-12-26",
+        "version": "2020-12-28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94595,7 +94729,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-12-26",
+            "name": "embox-unstable-2020-12-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -96355,9 +96489,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-12-27",
+        "name": "gpxsee-unstable-2020-12-28",
         "pname": "gpxsee-unstable",
-        "version": "2020-12-27",
+        "version": "2020-12-28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96386,7 +96520,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-12-27",
+            "name": "gpxsee-unstable-2020-12-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -96759,9 +96893,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gurl": {
-        "name": "gurl-unstable-2020-09-19",
+        "name": "gurl-unstable-2020-12-28",
         "pname": "gurl-unstable",
-        "version": "2020-09-19",
+        "version": "2020-12-28",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -96789,7 +96923,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gurl-unstable-2020-09-19",
+            "name": "gurl-unstable-2020-12-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -98460,9 +98594,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mtk-suomi": {
-        "name": "mtk-suomi-2020-11-24",
+        "name": "mtk-suomi-2020-12-26",
         "pname": "mtk-suomi",
-        "version": "2020-11-24",
+        "version": "2020-12-26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -98488,7 +98622,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "mtk-suomi-2020-11-24",
+            "name": "mtk-suomi-2020-12-26",
             "outputsToInstall": [
                 "out"
             ],
@@ -98720,9 +98854,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nnn-plugins": {
-        "name": "nnn-plugins-2020-12-18",
+        "name": "nnn-plugins-2020-12-28",
         "pname": "nnn-plugins",
-        "version": "2020-12-18",
+        "version": "2020-12-28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -98750,7 +98884,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nnn-plugins-2020-12-18",
+            "name": "nnn-plugins-2020-12-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -99096,9 +99230,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-12-27",
+        "name": "OpenOrienteering-Mapper-unstable-2020-12-28",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-12-27",
+        "version": "2020-12-28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99126,7 +99260,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-12-27",
+            "name": "OpenOrienteering-Mapper-unstable-2020-12-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -101411,9 +101545,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-12-21",
+        "name": "routinodb-2020-12-26",
         "pname": "routinodb",
-        "version": "2020-12-21",
+        "version": "2020-12-26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -101439,7 +101573,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-12-21",
+            "name": "routinodb-2020-12-26",
             "outputsToInstall": [
                 "out"
             ],
@@ -102496,9 +102630,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tatoeba": {
-        "name": "tatoeba-2020-12-19",
+        "name": "tatoeba-2020-12-26",
         "pname": "tatoeba",
-        "version": "2020-12-19",
+        "version": "2020-12-26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -102524,7 +102658,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tatoeba-2020-12-19",
+            "name": "tatoeba-2020-12-26",
             "outputsToInstall": [
                 "out"
             ],
