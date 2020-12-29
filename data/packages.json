@@ -22537,34 +22537,6 @@
         "_attr": "argtable3",
         "_repo": "instantos"
     },
-    "nur.repos.instantos.firacodenerd": {
-        "name": "FiraCode-nerdfont-v2.1.0",
-        "pname": "FiraCode-nerdfont-v2.1.0",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Nerdfont version of Fira Code",
-            "homepage": "https://github.com/ryanoasis/nerd-fonts",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "name": "FiraCode-nerdfont-v2.1.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "firacodenerd",
-        "_repo": "instantos"
-    },
     "nur.repos.instantos.gufw": {
         "name": "gufw-20.04.1",
         "pname": "gufw",
@@ -23622,6 +23594,44 @@
             "unsupported": false
         },
         "_attr": "lxsession",
+        "_repo": "instantos"
+    },
+    "nur.repos.instantos.firacodenerd": {
+        "name": "nerdfonts-2.1.0",
+        "pname": "nerdfonts",
+        "version": "2.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts",
+            "homepage": "https://nerdfonts.com/",
+            "hydraPlatforms": [],
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Nerd Fonts is a project that attempts to patch as many developer targeted\nand/or used fonts as possible. The patch is to specifically add a high\nnumber of additional glyphs from popular 'iconic fonts' such as Font\nAwesome, Devicons, Octicons, and others.\n",
+            "maintainers": [
+                {
+                    "email": "me@doronbehar.com",
+                    "github": "doronbehar",
+                    "githubId": 10998835,
+                    "name": "Doron Behar"
+                }
+            ],
+            "name": "nerdfonts-2.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/instantos('pkgs', 'data', 'fonts', 'nerdfonts', 'default.nix')#L63",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firacodenerd",
         "_repo": "instantos"
     },
     "nur.repos.instantos.paperbash": {
