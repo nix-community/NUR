@@ -102078,9 +102078,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.slazav-hr": {
-        "name": "slazav-hr-unstable-2019-07-14",
+        "name": "slazav-hr-unstable-2020-12-28",
         "pname": "slazav-hr-unstable",
-        "version": "2019-07-14",
+        "version": "2020-12-28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -102106,7 +102106,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "slazav-hr-unstable-2019-07-14",
+            "name": "slazav-hr-unstable-2020-12-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -102169,15 +102169,15 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.slazav-podm-bin": {
-        "name": "slazav-podm-2020-08-05",
+        "name": "slazav-podm-2020-12-03",
         "pname": "slazav-podm",
-        "version": "2020-08-05",
+        "version": "2020-12-03",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "description": "\u041a\u0430\u0440\u0442\u044b \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f",
-            "homepage": "http://slazav.mccme.ru/maps/podm/index.htm",
+            "homepage": "http://slazav.xyz/maps/podm_txt.htm",
             "insecure": false,
             "license": {
                 "fullName": "Unspecified free software license",
@@ -102197,7 +102197,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "slazav-podm-2020-08-05",
+            "name": "slazav-podm-2020-12-03",
             "outputsToInstall": [
                 "out"
             ],
@@ -102260,9 +102260,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.slazav-podm": {
-        "name": "slazav-podm-unstable-2020-08-06",
+        "name": "slazav-podm-unstable-2020-12-28",
         "pname": "slazav-podm-unstable",
-        "version": "2020-08-06",
+        "version": "2020-12-28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -102288,7 +102288,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "slazav-podm-unstable-2020-08-06",
+            "name": "slazav-podm-unstable-2020-12-28",
             "outputsToInstall": [
                 "out"
             ],
