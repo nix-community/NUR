@@ -87319,9 +87319,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.leechblock-ng": {
-        "name": "leechblock-ng-1.0.7.2",
+        "name": "leechblock-ng-1.0.8",
         "pname": "leechblock-ng",
-        "version": "1.0.7.2",
+        "version": "1.0.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -87335,7 +87335,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "leechblock-ng-1.0.7.2",
+            "name": "leechblock-ng-1.0.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -89947,9 +89947,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.32.0",
+        "name": "ublock-origin-1.32.2",
         "pname": "ublock-origin",
-        "version": "1.32.0",
+        "version": "1.32.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -89963,7 +89963,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "ublock-origin-1.32.0",
+            "name": "ublock-origin-1.32.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -90403,9 +90403,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.zoom-page-we": {
-        "name": "zoom-page-we-17.10",
+        "name": "zoom-page-we-17.11",
         "pname": "zoom-page-we",
-        "version": "17.10",
+        "version": "17.11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -90418,7 +90418,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
-            "name": "zoom-page-we-17.10",
+            "name": "zoom-page-we-17.11",
             "outputsToInstall": [
                 "out"
             ],
