@@ -4416,9 +4416,9 @@
         "_repo": "bhipple"
     },
     "nur.repos.bhipple.plaid2qif": {
-        "name": "plaid2qif-1.3.2",
+        "name": "plaid2qif-1.3.4",
         "pname": "plaid2qif",
-        "version": "1.3.2",
+        "version": "1.3.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -4457,7 +4457,7 @@
                     "name": "Benjamin Hipple"
                 }
             ],
-            "name": "plaid2qif-1.3.2",
+            "name": "plaid2qif-1.3.4",
             "outputsToInstall": [
                 "out"
             ],
