@@ -6528,6 +6528,26 @@
         "_attr": "elm",
         "_repo": "crazazy"
     },
+    "nur.repos.crazazy.firefox-addons.lastpass-password-manager": {
+        "name": "lastpass-password-manager",
+        "pname": "lastpass-password-manager",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "lastpass-password-manager",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.lastpass-password-manager",
+        "_repo": "crazazy"
+    },
     "nur.repos.crazazy.nix-gen-node-tools": {
         "name": "nix-gen-node-tools-1.0.2",
         "pname": "nix-gen-node-tools",
@@ -6803,6 +6823,126 @@
             "unsupported": false
         },
         "_attr": "js.webpack",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.firefox-addons.old-reddit-redirect": {
+        "name": "old-reddit-redirect",
+        "pname": "old-reddit-redirect",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "old-reddit-redirect",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.old-reddit-redirect",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.firefox-addons.soundcloud-mp3-downloader": {
+        "name": "soundcloud-mp3-downloader",
+        "pname": "soundcloud-mp3-downloader",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "soundcloud-mp3-downloader",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.soundcloud-mp3-downloader",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.firefox-addons.startme": {
+        "name": "startme",
+        "pname": "startme",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "startme",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.startme",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.firefox-addons.ublock-origin": {
+        "name": "ublock-origin",
+        "pname": "ublock-origin",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "ublock-origin",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.ublock-origin",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.firefox-addons.vim-vixen": {
+        "name": "vim-vixen",
+        "pname": "vim-vixen",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "vim-vixen",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.vim-vixen",
+        "_repo": "crazazy"
+    },
+    "nur.repos.crazazy.firefox-addons.youtube_downloader_webx": {
+        "name": "youtube_downloader_webx",
+        "pname": "youtube_downloader_webx",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "youtube_downloader_webx",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy('pkgs', 'build-support', 'fetchfirefoxaddon', 'default.nix')#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.youtube_downloader_webx",
         "_repo": "crazazy"
     },
     "nur.repos.crazedprogrammer.bobthefish": {
@@ -15261,6 +15401,90 @@
         },
         "_attr": "zunit",
         "_repo": "emiller88"
+    },
+    "nur.repos.emmanuelrosa.bitcoin-onion-nodes": {
+        "name": "bitcoin-onion-nodes-ac427196a0b66c12f30366fe10379b238af2f4e6.txt",
+        "pname": "bitcoin-onion-nodes-ac427196a0b66c12f30366fe10379b238af2f4e6.txt",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A list of bitcoin validating nodes running as Tor onion services.",
+            "homepage": "https://github.com/emmanuelrosa/bitcoin-onion-nodes",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "emmanuel_rosa@aol.com",
+                    "github": "emmanuelrosa",
+                    "githubId": 13485450,
+                    "name": "Emmanuel Rosa"
+                }
+            ],
+            "name": "bitcoin-onion-nodes-ac427196a0b66c12f30366fe10379b238af2f4e6.txt",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "or1k-none",
+                "mmix-mmixware",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "bitcoin-onion-nodes",
+        "_repo": "emmanuelrosa"
     },
     "nur.repos.emmanuelrosa.century-gothic": {
         "name": "century-gothic-2016-09-17",
@@ -94871,9 +95095,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-12-28",
+        "name": "embox-unstable-2020-12-29",
         "pname": "embox-unstable",
-        "version": "2020-12-28",
+        "version": "2020-12-29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94901,7 +95125,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-12-28",
+            "name": "embox-unstable-2020-12-29",
             "outputsToInstall": [
                 "out"
             ],
@@ -96519,9 +96743,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-bin": {
-        "name": "gpxsee-bin-7.38",
+        "name": "gpxsee-bin-8.0",
         "pname": "gpxsee-bin",
-        "version": "7.38",
+        "version": "8.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -96550,7 +96774,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-bin-7.38",
+            "name": "gpxsee-bin-8.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -96661,9 +96885,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-12-28",
+        "name": "gpxsee-unstable-2020-12-30",
         "pname": "gpxsee-unstable",
-        "version": "2020-12-28",
+        "version": "2020-12-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96692,7 +96916,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-12-28",
+            "name": "gpxsee-unstable-2020-12-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -97596,9 +97820,6 @@
                 "x86_64-genode"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
-            "skip": {
-                "ci": false
-            },
             "unfree": false,
             "unsupported": false
         },
@@ -97847,9 +98068,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.komputeko": {
-        "name": "komputeko-2020-06-23",
+        "name": "komputeko-2020-10-18",
         "pname": "komputeko",
-        "version": "2020-06-23",
+        "version": "2020-10-18",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -97877,7 +98098,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "komputeko-2020-06-23",
+            "name": "komputeko-2020-10-18",
             "outputsToInstall": [
                 "out"
             ],
@@ -98505,7 +98726,7 @@
             "available": true,
             "broken": false,
             "description": "Mapping software for linux",
-            "homepage": "http://slazav.mccme.ru/prog/mapsoft.htm",
+            "homepage": "https://github.com/ushakov/mapsoft",
             "insecure": false,
             "license": {
                 "fullName": "GNU General Public License v3.0 only",
@@ -98613,9 +98834,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-12-27",
+        "name": "maptourist-2020-12-29",
         "pname": "maptourist",
-        "version": "2020-12-27",
+        "version": "2020-12-29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -98641,7 +98862,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-12-27",
+            "name": "maptourist-2020-12-29",
             "outputsToInstall": [
                 "out"
             ],
@@ -99495,9 +99716,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-12-28",
+        "name": "OpenOrienteering-Mapper-unstable-2020-12-30",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-12-28",
+        "version": "2020-12-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99525,7 +99746,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-12-28",
+            "name": "OpenOrienteering-Mapper-unstable-2020-12-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -101810,9 +102031,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-12-26",
+        "name": "routinodb-2020-12-28",
         "pname": "routinodb",
-        "version": "2020-12-26",
+        "version": "2020-12-28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -101838,7 +102059,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-12-26",
+            "name": "routinodb-2020-12-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -102179,7 +102400,7 @@
             "available": true,
             "broken": false,
             "description": "Slazav mountains",
-            "homepage": "http://slazav.mccme.ru/maps/",
+            "homepage": "http://slazav.xyz/maps/",
             "insecure": false,
             "license": {
                 "fullName": "Unspecified free software license",
@@ -102361,7 +102582,7 @@
             "available": true,
             "broken": false,
             "description": "\u041a\u0430\u0440\u0442\u044b \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f \u0432 \u0432\u0438\u0434\u0435 \u043d\u043e\u043c\u0435\u043d\u043a\u043b\u0430\u0442\u0443\u0440\u043d\u044b\u0445 \u043b\u0438\u0441\u0442\u043e\u0432 1:100000 - \u0438\u0441\u0445\u043e\u0434\u043d\u0438\u043a\u0438 \u0432 \u0444\u043e\u0440\u043c\u0430\u0442\u0435 mapsoft vmap",
-            "homepage": "http://slazav.mccme.ru/maps/",
+            "homepage": "http://slazav.xyz/maps/",
             "insecure": false,
             "license": {
                 "fullName": "Unspecified free software license",
@@ -102499,9 +102720,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.stardict-tools": {
-        "name": "stardict-tools-2020-12-27",
+        "name": "stardict-tools-2020-12-30",
         "pname": "stardict-tools",
-        "version": "2020-12-27",
+        "version": "2020-12-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -102529,7 +102750,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "stardict-tools-2020-12-27",
+            "name": "stardict-tools-2020-12-30",
             "outputsToInstall": [
                 "out"
             ],
