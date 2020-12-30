@@ -97846,6 +97846,99 @@
         "_attr": "klogg",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.komputeko": {
+        "name": "komputeko-2020-06-23",
+        "pname": "komputeko",
+        "version": "2020-06-23",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Prikomputila terminokolekto",
+            "homepage": "https://komputeko.net/",
+            "insecure": false,
+            "license": {
+                "fullName": "Creative Commons Attribution Share Alike 4.0",
+                "shortName": "cc-by-sa-40",
+                "spdxId": "CC-BY-SA-4.0",
+                "url": "https://spdx.org/licenses/CC-BY-SA-4.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "komputeko-2020-06-23",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-windows",
+                "i686-windows",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "arm-none",
+                "armv6l-none",
+                "aarch64-none",
+                "avr-none",
+                "i686-none",
+                "x86_64-none",
+                "powerpc-none",
+                "msp430-none",
+                "riscv64-none",
+                "riscv32-none",
+                "vc4-none",
+                "or1k-none",
+                "mmix-mmixware",
+                "js-ghcjs",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "skip": {
+                "ci": true
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "komputeko",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.lazyscraper": {
         "name": "lazyscraper-unstable-2020-05-19",
         "pname": "lazyscraper-unstable",
