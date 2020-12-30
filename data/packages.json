@@ -20039,9 +20039,9 @@
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened": {
-        "name": "firefox-84.0",
+        "name": "firefox-84.0.1",
         "pname": "firefox",
-        "version": "84.0",
+        "version": "84.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -20070,7 +20070,7 @@
                     "name": "Eelco Dolstra"
                 }
             ],
-            "name": "firefox-unwrapped-84.0",
+            "name": "firefox-unwrapped-84.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -20110,9 +20110,9 @@
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened-wayland": {
-        "name": "firefox-84.0",
+        "name": "firefox-84.0.1",
         "pname": "firefox",
-        "version": "84.0",
+        "version": "84.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -20141,7 +20141,7 @@
                     "name": "Eelco Dolstra"
                 }
             ],
-            "name": "firefox-unwrapped-84.0",
+            "name": "firefox-unwrapped-84.0.1",
             "outputsToInstall": [
                 "out"
             ],
