@@ -49,7 +49,7 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
                 # TODO find commit hash
                 prefixes = {
                     "nixpkgs": "https://github.com/nixos/nixpkgs/tree/master/",
-                    "nur": "https://github.com/nix-community/nur-combined/tree/master/"
+                    "nur": "https://github.com/nix-community/nur-combined/tree/master/",
                 }
                 stripped = path.parts[4:]
                 attrPath = "/".join(stripped[1:])
