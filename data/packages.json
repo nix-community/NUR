@@ -65080,6 +65080,26 @@
         "_attr": "ffmpeg-full-cuda",
         "_repo": "noneucat"
     },
+    "nur.repos.noneucat.geoclue2-demos": {
+        "name": "geoclue-demos-2.5.6",
+        "pname": "geoclue-demos",
+        "version": "2.5.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "geoclue-demos-2.5.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/noneucat",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "geoclue2-demos",
+        "_repo": "noneucat"
+    },
     "nur.repos.noneucat.immersed": {
         "name": "Immersed-4.0",
         "pname": "Immersed",
