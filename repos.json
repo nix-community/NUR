@@ -1,393 +1,562 @@
 {
     "repos": {
-        "0x4a6f": {
-            "url": "https://github.com/0x4A6F/nur-packages"
-        },
         "INFO4-19": {
+            "github-contact": "Cosciad",
             "type": "gitlab",
             "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
+        },
+        "_0x4A6F": {
+            "github-contact": "0x4A6F",
+            "url": "https://github.com/0x4A6F/nur-packages"
         },
         "aasg": {
             "github-contact": "AluisioASG",
             "url": "https://git.sr.ht/~aasg/nixexprs"
         },
         "andersontorres": {
+            "github-contact": "andersontorres",
             "url": "https://github.com/AndersonTorres/nur-packages"
         },
         "angr": {
+            "github-contact": "Pamplemousse",
             "url": "https://github.com/angr/nixpkgs"
         },
         "arc": {
             "file": "nur.nix",
+            "github-contact": "arcnmx",
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "awl-fcarza": {
+            "github-contact": "francescocarzaniga",
             "url": "https://github.com/francescocarzaniga/awl-fcarza"
         },
         "babariviere": {
+            "github-contact": "babariviere",
             "url": "https://github.com/babariviere/nur-packages"
         },
         "balsoft": {
+            "github-contact": "balsoft",
             "url": "https://github.com/balsoft/nur-packages"
         },
         "bb010g": {
+            "github-contact": "bb010g",
             "url": "https://github.com/bb010g/nur-packages"
         },
         "beam": {
+            "github-contact": "jechol",
             "url": "https://github.com/jechol/nix-beam"
         },
         "bendlas": {
+            "github-contact": "bendlas",
             "url": "https://github.com/bendlas/nur-packages"
         },
+        "berbiche": {
+            "github-contact": "berbiche",
+            "url": "https://github.com/berbiche/nur-packages"
+        },
         "bhipple": {
+            "github-contact": "bhipple",
             "url": "https://github.com/bhipple/nur-packages"
         },
         "c0deaddict": {
+            "github-contact": "c0deaddict",
             "url": "https://github.com/c0deaddict/nur-packages"
         },
         "chagra": {
+            "github-contact": "chagra",
             "url": "https://github.com/ihebchagra/nur-packages"
         },
+        "chrisoboe": {
+            "github-contact": "ChrisOboe",
+            "url": "https://github.com/ChrisOboe/nurrepo"
+        },
         "clefru": {
+            "github-contact": "clefru",
             "url": "https://github.com/clefru/nur-packages"
         },
         "cransom": {
+            "github-contact": "cransom",
             "url": "https://github.com/cransom/nur-packages"
         },
         "crazazy": {
             "file": "pkgs/default.nix",
+            "github-contact": "crazazy",
             "url": "https://github.com/crazazy/nixos-config"
         },
         "crazedprogrammer": {
             "file": "pkgs/nur-packages.nix",
+            "github-contact": "crazedprogrammer",
             "url": "https://github.com/CrazedProgrammer/nix"
         },
         "cwyc": {
+            "github-contact": "cwyc",
             "submodules": true,
             "url": "https://github.com/cwyc/nur-packages"
         },
         "dandellion": {
+            "github-contact": "dali99",
             "url": "https://git.dodsorf.as/Dandellion/NUR"
         },
         "demyanrogozhin": {
+            "github-contact": "demyanrogozhin",
             "url": "https://github.com/demyanrogozhin/nur-packages"
         },
         "dezgeg": {
+            "github-contact": "dezgeg",
             "url": "https://github.com/dezgeg/nur-packages"
         },
         "dguibert": {
+            "github-contact": "dguibert",
             "url": "https://github.com/dguibert/nur-packages"
         },
+        "divanorama": {
+            "github-contact": "divanorama",
+            "url": "https://github.com/divanorama/nur-packages"
+        },
         "drewrisinger": {
+            "github-contact": "drewrisinger",
             "url": "https://github.com/drewrisinger/nur-packages"
         },
         "dtn7": {
+            "github-contact": "dtn7",
             "url": "https://github.com/dtn7/nur-packages"
         },
         "dtz": {
+            "github-contact": "dtz",
             "url": "https://github.com/dtzWill/nur-packages"
         },
+        "dukzcry": {
+            "github-contact": "dukzcry",
+            "url": "https://github.com/repos-holder/nur-packages"
+        },
         "dywedir": {
+            "github-contact": "dywedir",
             "url": "https://github.com/dywedir/nur-packages"
         },
         "eeva": {
+            "github-contact": "jpotier",
             "type": "gitea",
             "url": "https://git.marvid.fr/eeva/nur-packages"
         },
         "emiller88": {
+            "github-contact": "emiller88",
             "url": "https://github.com/emiller88/nur-packages"
         },
         "emmanuelrosa": {
+            "github-contact": "emmanuelrosa",
             "url": "https://github.com/emmanuelrosa/nur-packages"
         },
         "extends": {
+            "github-contact": "ImExtends",
             "url": "https://github.com/ImExtends/nur-packages-template"
         },
         "fgaz": {
+            "github-contact": "fgaz",
             "url": "https://github.com/fgaz/nur-packages"
         },
         "fius": {
+            "github-contact": "neumantm",
             "url": "https://github.com/Fius/nur-packages"
         },
         "genesis": {
+            "github-contact": "bignaux",
             "url": "https://github.com/bignaux/nur-packages"
         },
         "gnidorah": {
+            "github-contact": "gnidorah",
             "url": "https://github.com/gnidorah/nur-packages"
         },
         "gricad": {
+            "github-contact": "gricad",
             "url": "https://github.com/Gricad/nur-packages"
         },
         "htr": {
+            "github-contact": "htr",
             "url": "https://github.com/htr/nur-packages"
         },
+        "ijohanne": {
+            "github-contact": "ijohanne",
+            "url": "https://github.com/ijohanne/nur-packages"
+        },
         "ilya-fedin": {
+            "github-contact": "ilya-fedin",
             "url": "https://github.com/ilya-fedin/nur-repository"
         },
         "immae": {
+            "github-contact": "immae",
             "url": "https://git.immae.eu/perso/Immae/Config/Nix/NUR.git"
         },
         "instantos": {
+            "github-contact": "con-f-use",
             "url": "https://github.com/instantOS/nix"
         },
         "ivar": {
+            "github-contact": "IvarWithoutBones",
             "url": "https://github.com/IvarWithoutBones/NUR"
         },
         "izorkin": {
+            "github-contact": "Izorkin",
             "url": "https://github.com/Izorkin/nur-packages"
         },
+        "j-k": {
+            "github-contact": "06kellyjac",
+            "url": "https://github.com/06kellyjac/nur-packages"
+        },
         "jakobrs": {
+            "github-contact": "jakobrs",
             "url": "https://github.com/jakobrs/nur-packages"
         },
         "jbarthelmes": {
+            "github-contact": "jbarthelmes",
             "url": "https://github.com/jbarthelmes/nur-packages"
         },
-        "jd91mzm2": {
-            "url": "https://gitlab.com/jD91mZM2/nur-packages"
-        },
         "jjjollyjim": {
+            "github-contact": "jjjollyjim",
             "url": "https://github.com/jjjollyjim/nur-repo"
         },
         "johnazoidberg": {
+            "github-contact": "JohnAZoidberg",
             "url": "https://github.com/JohnAZoidberg/nur-packages"
         },
         "jomik": {
+            "github-contact": "Jomik",
             "url": "https://gitlab.com/jomik/nur-expressions"
         },
         "jorsn": {
+            "github-contact": "jorsn",
             "url": "https://github.com/jorsn/nur-packages"
         },
         "joshuafern": {
+            "github-contact": "JoshuaFern",
             "url": "https://github.com/JoshuaFern/nur-package-lab"
         },
         "kalbasit": {
+            "github-contact": "kalbasit",
             "url": "https://github.com/kalbasit/nur-packages"
         },
         "kampka": {
             "file": "nur.nix",
+            "github-contact": "kampka",
             "url": "https://github.com/kampka/nix-packages"
         },
         "kapack": {
+            "github-contact": "augu5te",
             "url": "https://github.com/oar-team/nur-kapack"
         },
         "kmein": {
+            "github-contact": "kmein",
             "submodules": true,
             "url": "https://github.com/kmein/nur-packages"
         },
         "kolloch": {
+            "github-contact": "kolloch",
             "url": "https://github.com/kolloch/nur-packages"
         },
         "krebs": {
+            "github-contact": "Lassulus",
             "submodules": true,
             "url": "https://github.com/krebs/nur-packages"
         },
         "kreisys": {
+            "github-contact": "kreisys",
             "submodules": true,
             "url": "https://github.com/kreisys/nur-packages"
         },
         "lambdadog": {
             "file": "nur.nix",
+            "github-contact": "lambdadog",
             "url": "https://github.com/lambdadog/nix-extra"
         },
         "lheckemann": {
+            "github-contact": "lheckemann",
             "url": "https://github.com/lheckemann/nixwip"
         },
         "linyinfeng": {
+            "github-contact": "linyinfeng",
             "url": "https://github.com/linyinfeng/nur-packages"
         },
         "lourkeur": {
+            "github-contact": "lourkeur",
             "url": "https://github.com/lourkeur/nur-expressions"
         },
         "lschuermann": {
+            "github-contact": "lschuermann",
             "url": "https://github.com/lschuermann/nur-packages"
+        },
+        "lucasew": {
+            "file": "nur.nix",
+            "github-contact": "lucasew",
+            "url": "https://github.com/lucasew/nixcfg"
         },
         "makefu": {
             "file": "nur.nix",
+            "github-contact": "makefu",
             "url": "https://github.com/makefu/nur-packages"
         },
         "marzipankaiser": {
+            "github-contact": "marzipankaiser",
             "url": "https://github.com/marzipankaiser/nur-packages"
         },
         "matthewbauer": {
+            "github-contact": "matthewbauer",
             "url": "https://github.com/matthewbauer/nur-packages"
         },
         "metadark": {
+            "github-contact": "MetaDark",
             "url": "https://github.com/metadark/nur-packages"
         },
         "mhuesch": {
+            "github-contact": "mhuesch",
             "url": "https://github.com/mhuesch/nur-packages"
         },
         "mic92": {
+            "github-contact": "Mic92",
             "url": "https://github.com/Mic92/nur-packages"
         },
         "mmilata": {
+            "github-contact": "mmilata",
             "url": "https://github.com/mmilata/nur-packages"
         },
         "moaxcp": {
+            "github-contact": "moaxcp",
             "url": "https://github.com/moaxcp/nur"
         },
         "moredhel": {
+            "github-contact": "moredhel",
             "url": "https://github.com/moredhel/nur-packages"
         },
         "moredread": {
+            "github-contact": "moredread",
             "url": "https://github.com/Moredread/nur-packages"
         },
         "mozilla": {
             "file": "package-set.nix",
+            "github-contact": "tilpner",
             "url": "https://github.com/mozilla/nixpkgs-mozilla"
         },
         "mpickering": {
+            "github-contact": "mpickering",
             "submodules": true,
             "url": "https://github.com/mpickering/nur-packages"
         },
         "mrVanDalo": {
+            "github-contact": "mrVanDalo",
             "url": "https://github.com/mrVanDalo/nur-packages"
         },
         "mweinelt": {
+            "github-contact": "mweinelt",
             "url": "https://github.com/mweinelt/nur-packages"
         },
         "n1kolasM": {
+            "github-contact": "n1kolasM",
             "url": "https://github.com/n1kolasM/nur-packages"
         },
+        "nagy": {
+            "github-contact": "nagy",
+            "url": "https://github.com/nagy/nur-packages"
+        },
+        "nasirhm": {
+            "github-contact": "nasirhm",
+            "url": "https://github.com/nasirhm/nasirhmpkgs"
+        },
         "neumantm": {
+            "github-contact": "neumantm",
             "url": "https://github.com/neumantm/nur-packages"
         },
         "nexromancers": {
+            "github-contact": "neXromancers",
             "url": "https://github.com/neXromancers/nixromancers"
         },
+        "noneucat": {
+            "github-contact": "noneucat",
+            "url": "https://git.sr.ht/~noneucat/nur-packages"
+        },
         "novafacing": {
+            "github-contact": "novafacing",
             "url": "https://github.com/novafacing/nur-packages"
         },
         "npkgs": {
+            "github-contact": "NerdyPepper",
             "url": "https://github.com/nerdypepper/npkgs"
         },
         "nprindle": {
+            "github-contact": "nprindle",
             "url": "https://github.com/nprindle/nur-packages"
         },
         "onny": {
+            "github-contact": "onny",
             "url": "https://git.project-insanity.org/onny/nur-packages"
         },
         "otevrenamesta": {
+            "github-contact": "otevrenamesta",
             "url": "https://github.com/otevrenamesta/nur-packages"
         },
         "pamplemousse": {
+            "github-contact": "pamplemousse",
             "url": "https://github.com/pamplemousse/nur-packages"
         },
         "peel": {
+            "github-contact": "peel",
             "url": "https://github.com/peel/nur-packages"
         },
         "piegames": {
+            "github-contact": "piegamesde",
             "url": "https://github.com/piegamesde/nur-packages"
         },
         "piensa": {
+            "github-contact": "piensa",
             "url": "https://github.com/piensa/nur-packages"
         },
         "pn": {
+            "github-contact": "pniedzwiedzinski",
             "url": "https://github.com/pniedzwiedzinski/pnpkgs"
         },
         "priegger": {
             "file": "nur.nix",
+            "github-contact": "priegger",
             "url": "https://git.sr.ht/~priegger/nur-packages"
         },
         "pschuprikov": {
+            "github-contact": "pschuprikov",
             "url": "https://github.com/pschuprikov/nur-packages"
         },
         "ptival": {
+            "github-contact": "Ptival",
             "url": "https://github.com/Ptival/nur-packages"
         },
-        "pwnytail": {
-            "url": "https://gitlab01.bsd.services/pwnytail/nur-packages"
+        "qchem": {
+            "file": "nur.nix",
+            "github-contact": "markuskowa",
+            "url": "https://github.com/markuskowa/NixOS-QChem"
         },
         "reedrw": {
+            "github-contact": "reedrw",
             "url": "https://github.com/reedrw/nur-packages"
         },
         "rencire": {
+            "github-contact": "rencire",
             "submodules": true,
             "url": "https://github.com/rencire/nur-packages"
         },
         "rummik": {
+            "github-contact": "rummik",
             "url": "https://gitlab.com/rummik/nixos/nur-packages"
         },
         "rycee": {
+            "github-contact": "rycee",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "sehqlr": {
+            "github-contact": "github",
             "url": "https://github.com/sehqlr/nur-packages"
         },
+        "setser": {
+            "github-contact": "SeTSeR",
+            "url": "https://github.com/SeTSeR/nur-packages"
+        },
         "sgo": {
+            "github-contact": "stigtsp",
             "url": "https://github.com/stigtsp/nur"
         },
         "shados": {
+            "github-contact": "Shados",
             "url": "https://github.com/Shados/nur-packages"
         },
         "shamilton": {
+            "github-contact": "SCOTT-HAMILTON",
             "url": "https://github.com/SCOTT-HAMILTON/nur-packages-template"
         },
         "sikmir": {
+            "github-contact": "sikmir",
             "url": "https://github.com/sikmir/nur-packages"
         },
         "smaret": {
+            "github-contact": "smaret",
             "url": "https://github.com/smaret/nur-packages"
         },
         "sondr3": {
+            "github-contact": "sondr3",
             "url": "https://github.com/sondr3/nix-expressions"
         },
         "splintah": {
+            "github-contact": "SCOTT-HAMILTON",
             "url": "https://github.com/splintah/nurpkgs"
         },
+        "stupremee": {
+            "github-contact": "stupremee",
+            "url": "https://github.com/Stupremee/nur-packages"
+        },
         "suhr": {
+            "github-contact": "suhr",
             "url": "https://github.com/suhr/nur-packages"
         },
         "syberant": {
+            "github-contact": "syberant",
             "url": "https://github.com/syberant/nur-packages"
         },
         "thilobillerbeck": {
+            "github-contact": "thilobillerbeck",
             "url": "https://github.com/thilobillerbeck/nur-packages"
         },
         "tilpner": {
+            "github-contact": "tilpner",
             "url": "https://github.com/tilpner/nur-packages"
         },
         "tinybeachthor": {
+            "github-contact": "tinybeachthor",
             "url": "https://github.com/tinybeachthor/nur-packages"
         },
         "tokudan": {
+            "github-contact": "tokudan",
             "url": "https://codeberg.org/tokudan/nur.git"
         },
         "tomberek": {
+            "github-contact": "tomberek",
             "url": "https://github.com/tomberek/nur-packages"
         },
         "tox": {
+            "github-contact": "suhr",
             "url": "https://github.com/tox-rs/nur-tox"
         },
         "trevorriles": {
+            "github-contact": "trevorriles",
             "url": "https://github.com/trevorriles/nur-packages"
         },
         "vdemeester": {
             "file": "pkgs/default.nix",
+            "github-contact": "vdemeester",
             "url": "https://gitlab.com/vdemeester/home"
         },
         "wamserma": {
+            "github-contact": "wamserma",
             "url": "https://github.com/wamserma/nur-packages"
         },
         "xe": {
+            "github-contact": "Xe",
             "url": "https://github.com/Xe/xepkgs"
         },
         "xeals": {
+            "github-contact": "xeals",
             "url": "https://github.com/xeals/nur-packages"
         },
         "yoctocell": {
+            "github-contact": "yoctocell",
             "url": "https://github.com/yoctocell/nur-packages"
         },
         "ysndr": {
+            "github-contact": "ysndr",
             "url": "https://github.com/ysndr/nur-packages"
         },
         "yurrriq": {
+            "github-contact": "yurrriq",
             "url": "https://github.com/yurrriq/nur-packages"
         },
         "zachcoyle": {
+            "github-contact": "zachcoyle",
             "url": "https://github.com/zachcoyle/nur-packages"
         },
         "zeratax": {
+            "github-contact": "ZerataX",
             "url": "https://github.com/ZerataX/nur-packages"
         }
     }
