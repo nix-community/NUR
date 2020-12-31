@@ -1,5 +1,7 @@
 # NUR
 
+[![Build Status](https://travis-ci.com/nix-community/NUR.svg?branch=master)](https://travis-ci.com/nix-community/NUR)
+
 The Nix User Repository (NUR) is community-driven meta repository for Nix packages.
 It provides access to user repositories that contain package descriptions (Nix
 expressions) and allows you to install packages by referencing them via attributes.

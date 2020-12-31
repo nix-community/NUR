@@ -1,5 +1,4 @@
-#!/usr/bin/env nix-shell
-#!nix-shell -p git -p bash -i bash
+#!/usr/bin/env bash
 
 set -eu -o pipefail # Exit with nonzero exit code if anything fails
 
@@ -14,9 +13,9 @@ set -x
 
 nix-build --quiet release.nix
 
-git clone --single-branch "https://$API_TOKEN_GITHUB@github.com/nix-community/nur-combined.git"
+git clone --recurse-submodules git@github.com:nix-community/nur-search
 
-git clone --recurse-submodules "https://$API_TOKEN_GITHUB@github.com/nix-community/nur-search.git"
+git clone git@github.com:nix-community/nur-combined
 
 nix run '(import ./release.nix {})' -c nur index nur-combined > nur-search/data/packages.json
 
