@@ -54,7 +54,6 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
                 stripped = path.parts[4:]
                 attrPath = "/".join(stripped[1:])
                 location = f"{prefixes[stripped[0]]}{attrPath}"
-                print(stripped, file=sys.stderr)
                 pkg["meta"]["position"] = f"{location}#L{line}"
             elif position is not None and position.find("nur-combined") > -1:
                 path_str, line = position.rsplit(":", 1)
