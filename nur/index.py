@@ -39,13 +39,12 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
             position = pkg["meta"].get("position", None)
             # TODO commit hash
             prefix = f"https://github.com/nix-community/nur-combined/tree/master/repos/{repo}"
-            # usually when the path comes from the nix store
             if position is not None and position.startswith("/nix/store"):
                 path_str, line = position.rsplit(":", 1)
                 path = Path(path_str)
                 # I've decided to just take these 2 repositories,
                 # update this whenever someone decided to use a recipe source other than
-                # NUR on nixpkgs to override packages on. right now this is about as accurate as
+                # NUR or nixpkgs to override packages on. right now this is about as accurate as
                 # `nix edit` is
                 # TODO find commit hash
                 prefixes = {
