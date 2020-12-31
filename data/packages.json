@@ -56983,10 +56983,33 @@
         "_attr": "nix-review-unstable",
         "_repo": "mic92"
     },
+    "nur.repos.mic92.reveal-md": {
+        "name": "node_reveal-md-4.3.0",
+        "pname": "node_reveal-md",
+        "version": "4.3.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "reveal.js on steroids! Get beautiful reveal.js presentations from your Markdown files.",
+            "homepage": "https://github.com/webpro/reveal-md#readme",
+            "insecure": false,
+            "license": "MIT",
+            "name": "node_reveal-md-4.3.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "reveal-md",
+        "_repo": "mic92"
+    },
     "nur.repos.mic92.speedscope": {
-        "name": "node_speedscope-1.11.0",
+        "name": "node_speedscope-1.12.1",
         "pname": "node_speedscope",
-        "version": "1.11.0",
+        "version": "1.12.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -56995,7 +57018,7 @@
             "homepage": "https://github.com/jlfwong/speedscope#readme",
             "insecure": false,
             "license": "MIT",
-            "name": "node_speedscope-1.11.0",
+            "name": "node_speedscope-1.12.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -93927,6 +93950,50 @@
             "unsupported": false
         },
         "_attr": "super-tux-kart",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.unoconvui": {
+        "name": "UnoconvUI-unstable",
+        "pname": "UnoconvUI-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "MS Office files conversion client for the Unoconv Web Service",
+            "homepage": "https://github.com/SCOTT-HAMILTON/UnoconvUI",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "UnoconvUI-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "unoconvui",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.vokoscreen-ng": {
