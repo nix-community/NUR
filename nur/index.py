@@ -42,22 +42,7 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
             if position is not None and position.startswith("/nix/store"):
                 path_str, line = position.rsplit(":", 1)
                 path = Path(path_str)
-                # I've decided to just take these 2 repositories,
-                # update this whenever someone decided to use a recipe source other than
-                # NUR or nixpkgs to override packages on. right now this is about as accurate as
-                # `nix edit` is
-                # TODO find commit hash
-                prefixes = {
-                    "nixpkgs": "https://github.com/nixos/nixpkgs/tree/master/",
-                    "nur": "https://github.com/nix-community/nur-combined/tree/master/",
-                }
                 stripped = path.parts[4:]
-                attrPath = "/".join(stripped[1:])
-                location = f"{prefixes[stripped[0]]}{attrPath}"
-                pkg["meta"]["position"] = f"{location}#L{line}"
-            elif position is not None and position.find("nur-combined") > -1:
-                path_str, line = position.rsplit(":", 1)
-                stripped = path_str.partition(f"nur-combined/repos/{repo}")[2]
                 pkg["meta"]["position"] = f"{prefix}{stripped}#L{line}"
             else:
                 pkg["meta"]["position"] = prefix
