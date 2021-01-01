@@ -61003,9 +61003,9 @@
         "_attr": "micronaut",
         "_repo": "moaxcp"
     },
-    "nur.repos.moaxcp.micronaut-2_2_2": {
-        "name": "micronaut-2.2.2",
-        "pname": "micronaut",
+    "nur.repos.moaxcp.micronaut-cli": {
+        "name": "micronaut-cli-2.2.2",
+        "pname": "micronaut-cli",
         "version": "2.2.2",
         "system": "x86_64-linux",
         "meta": {
@@ -61029,7 +61029,7 @@
                     "name": "John Mercier"
                 }
             ],
-            "name": "micronaut-2.2.2",
+            "name": "micronaut-cli-2.2.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -61085,7 +61085,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "micronaut-2_2_2",
+        "_attr": "micronaut-cli",
         "_repo": "moaxcp"
     },
     "nur.repos.moaxcp.netbeans-11_3": {
