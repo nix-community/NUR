@@ -1,14 +1,14 @@
 {
     "repos": {
+        "0x4A6F": {
+            "rev": "91f1839281070bcfb7250fcd57616bce84c7bb6a",
+            "sha256": "05qw9p6vch7xx1xky6npzhq44xifrrzff1b1k5mdvbp7x9nwnx6v",
+            "url": "https://github.com/0x4A6F/nur-packages"
+        },
         "INFO4-19": {
             "rev": "8e7468efbb7fc13e0c4ccf7e2fd64f5106012301",
             "sha256": "082k3j383zl7vp8fmbwjdh9wmnhv776i6in3pjf3g06ijb4cwcg1",
             "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
-        },
-        "_0x4A6F": {
-            "rev": "91f1839281070bcfb7250fcd57616bce84c7bb6a",
-            "sha256": "05qw9p6vch7xx1xky6npzhq44xifrrzff1b1k5mdvbp7x9nwnx6v",
-            "url": "https://github.com/0x4A6F/nur-packages"
         },
         "aasg": {
             "rev": "4c843db4245ef0818cf72c85f0e73e405ac22546",
@@ -247,8 +247,8 @@
             "url": "https://github.com/06kellyjac/nur-packages"
         },
         "jakobrs": {
-            "rev": "67f977b0fd26bd10ea47a075858c2899d550ad98",
-            "sha256": "1nmsir02jp1q3y3zsyxadjspk98swclsj134dhq5lx1zqpihxq57",
+            "rev": "4f8dcc70e500c702a3dd7257ffe83d8a9ceb5d7d",
+            "sha256": "1sjsdcnyz6k8q8fysg0r2129spqz06l4blzbw47xhr8759af19y7",
             "url": "https://github.com/jakobrs/nur-packages"
         },
         "jbarthelmes": {
