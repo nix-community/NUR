@@ -96419,9 +96419,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2020-12-29",
+        "name": "embox-unstable-2020-12-31",
         "pname": "embox-unstable",
-        "version": "2020-12-29",
+        "version": "2020-12-31",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96449,7 +96449,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2020-12-29",
+            "name": "embox-unstable-2020-12-31",
             "outputsToInstall": [
                 "out"
             ],
@@ -98209,9 +98209,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2020-12-30",
+        "name": "gpxsee-unstable-2021-01-01",
         "pname": "gpxsee-unstable",
-        "version": "2020-12-30",
+        "version": "2021-01-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -98240,7 +98240,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2020-12-30",
+            "name": "gpxsee-unstable-2021-01-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -100158,9 +100158,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2020-12-29",
+        "name": "maptourist-2021-01-01",
         "pname": "maptourist",
-        "version": "2020-12-29",
+        "version": "2021-01-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -100186,7 +100186,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2020-12-29",
+            "name": "maptourist-2021-01-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -101040,9 +101040,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2020-12-30",
+        "name": "OpenOrienteering-Mapper-unstable-2021-01-01",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2020-12-30",
+        "version": "2021-01-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -101070,7 +101070,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2020-12-30",
+            "name": "OpenOrienteering-Mapper-unstable-2021-01-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -101482,6 +101482,75 @@
         "_attr": "phyghtmap",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.polyvectorization": {
+        "name": "polyvectorization-2019-08-23",
+        "pname": "polyvectorization",
+        "version": "2019-08-23",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Reference implementation of Vectorization of Line Drawings via PolyVector Fields",
+            "homepage": "https://github.com/bmpix/PolyVectorization",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "polyvectorization-2019-08-23",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-cygwin",
+                "i686-freebsd",
+                "i686-linux",
+                "i686-netbsd",
+                "i686-openbsd",
+                "x86_64-cygwin",
+                "x86_64-freebsd",
+                "x86_64-linux",
+                "x86_64-netbsd",
+                "x86_64-openbsd",
+                "x86_64-solaris",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "x86_64-redox",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "polyvectorization",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.ptunnel": {
         "name": "ptunnel-0.72",
         "pname": "ptunnel",
@@ -101589,9 +101658,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.py-staticmaps": {
-        "name": "py-staticmaps-unstable-2020-11-28",
+        "name": "py-staticmaps-unstable-2020-12-31",
         "pname": "py-staticmaps-unstable",
-        "version": "2020-11-28",
+        "version": "2020-12-31",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -101636,7 +101705,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "py-staticmaps-unstable-2020-11-28",
+            "name": "py-staticmaps-unstable-2020-12-31",
             "outputsToInstall": [
                 "out"
             ],
@@ -101769,9 +101838,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.cheetah3": {
-        "name": "python3.8-cheetah3-unstable-2020-12-14",
+        "name": "python3.8-cheetah3-unstable-2021-01-01",
         "pname": "python3.8-cheetah3-unstable",
-        "version": "2020-12-14",
+        "version": "2021-01-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -101816,7 +101885,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-cheetah3-unstable-2020-12-14",
+            "name": "python3.8-cheetah3-unstable-2021-01-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -103355,9 +103424,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2020-12-28",
+        "name": "routinodb-2020-12-31",
         "pname": "routinodb",
-        "version": "2020-12-28",
+        "version": "2020-12-31",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -103383,7 +103452,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2020-12-28",
+            "name": "routinodb-2020-12-31",
             "outputsToInstall": [
                 "out"
             ],
