@@ -29,7 +29,7 @@ if [[ ! -z "$(git diff --exit-code)" ]]; then
     git commit -m "automatic update package.json"
     git pull --rebase origin master
     git push origin master
-    nix-shell --run "make && make publish"
+    nix-shell --run "make clean && make && make publish"
 else
     echo "nothings changed will not commit anything"
 fi
