@@ -6599,9 +6599,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.eslint": {
-        "name": "node_eslint-7.16.0",
+        "name": "node_eslint-7.17.0",
         "pname": "node_eslint",
-        "version": "7.16.0",
+        "version": "7.17.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6610,7 +6610,7 @@
             "homepage": "https://eslint.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_eslint-7.16.0",
+            "name": "node_eslint-7.17.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -6804,9 +6804,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.webpack": {
-        "name": "node_webpack-cli-4.3.0",
+        "name": "node_webpack-cli-4.3.1",
         "pname": "node_webpack-cli",
-        "version": "4.3.0",
+        "version": "4.3.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6814,7 +6814,7 @@
             "description": "CLI for webpack & friends",
             "insecure": false,
             "license": "MIT",
-            "name": "node_webpack-cli-4.3.0",
+            "name": "node_webpack-cli-4.3.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -15403,9 +15403,9 @@
         "_repo": "emiller88"
     },
     "nur.repos.emmanuelrosa.bitcoin-onion-nodes": {
-        "name": "bitcoin-onion-nodes-ac427196a0b66c12f30366fe10379b238af2f4e6.txt",
-        "pname": "bitcoin-onion-nodes-ac427196a0b66c12f30366fe10379b238af2f4e6.txt",
-        "version": "",
+        "name": "bitcoin-onion-nodes-5a03842faeaec38ac3bca5175c5415ea57ca5d9c.txt",
+        "pname": "bitcoin-onion-nodes",
+        "version": "5a03842faeaec38ac3bca5175c5415ea57ca5d9c.txt",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -15427,7 +15427,7 @@
                     "name": "Emmanuel Rosa"
                 }
             ],
-            "name": "bitcoin-onion-nodes-ac427196a0b66c12f30366fe10379b238af2f4e6.txt",
+            "name": "bitcoin-onion-nodes-5a03842faeaec38ac3bca5175c5415ea57ca5d9c.txt",
             "outputsToInstall": [
                 "out"
             ],
