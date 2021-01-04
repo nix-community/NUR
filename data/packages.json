@@ -112659,9 +112659,9 @@
         "_repo": "xeals"
     },
     "nur.repos.xeals.protonmail-bridge": {
-        "name": "protonmail-bridge-1.5.2",
+        "name": "protonmail-bridge-1.5.4",
         "pname": "protonmail-bridge",
-        "version": "1.5.2",
+        "version": "1.5.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -112683,7 +112683,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "protonmail-bridge-1.5.2",
+            "name": "protonmail-bridge-1.5.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -112725,9 +112725,9 @@
         "_repo": "xeals"
     },
     "nur.repos.xeals.protonmail-bridge-headless": {
-        "name": "protonmail-bridge-headless-1.5.2",
+        "name": "protonmail-bridge-headless-1.5.4",
         "pname": "protonmail-bridge-headless",
-        "version": "1.5.2",
+        "version": "1.5.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -112749,7 +112749,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "protonmail-bridge-headless-1.5.2",
+            "name": "protonmail-bridge-headless-1.5.4",
             "outputsToInstall": [
                 "out"
             ],
