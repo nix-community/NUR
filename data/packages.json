@@ -42638,9 +42638,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.libtas": {
-        "name": "libtas-unstable-2020-12-24",
-        "pname": "libtas-unstable",
-        "version": "2020-12-24",
+        "name": "libtas-1.4.1",
+        "pname": "libtas",
+        "version": "1.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42653,7 +42653,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "libtas-unstable-2020-12-24",
+            "name": "libtas-1.4.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -42669,9 +42669,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.libtasMulti": {
-        "name": "libtas-unstable-2020-12-24",
-        "pname": "libtas-unstable",
-        "version": "2020-12-24",
+        "name": "libtas-1.4.1",
+        "pname": "libtas",
+        "version": "1.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42684,7 +42684,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "libtas-unstable-2020-12-24",
+            "name": "libtas-1.4.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -42700,9 +42700,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.libtasNoMulti": {
-        "name": "libtas-unstable-2020-12-24",
-        "pname": "libtas-unstable",
-        "version": "2020-12-24",
+        "name": "libtas-1.4.1",
+        "pname": "libtas",
+        "version": "1.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42715,7 +42715,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "libtas-unstable-2020-12-24",
+            "name": "libtas-1.4.1",
             "outputsToInstall": [
                 "out"
             ],
