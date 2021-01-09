@@ -52420,6 +52420,98 @@
         "_attr": "xpadneo",
         "_repo": "metadark"
     },
+    "nur.repos.metadark.yabridge": {
+        "name": "yabridge-2.2.1",
+        "pname": "yabridge",
+        "version": "2.2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Yet Another VST bridge, run Windows VST2 plugins under Linux",
+            "homepage": "https://github.com/robbert-vdh/yabridge",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@gmail.com",
+                    "github": "metadark",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "yabridge-2.2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "yabridge",
+        "_repo": "metadark"
+    },
+    "nur.repos.metadark.yabridgectl": {
+        "name": "yabridgectl-2.2.1",
+        "pname": "yabridgectl",
+        "version": "2.2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A small, optional utility to help set up and update yabridge for several directories at once",
+            "homepage": "https://github.com/robbert-vdh/yabridge/tree/master/tools/yabridgectl",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@gmail.com",
+                    "github": "metadark",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "yabridgectl-2.2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "yabridgectl",
+        "_repo": "metadark"
+    },
     "nur.repos.metadark.zyn-fusion": {
         "name": "zynaddsubfx-3.0.5",
         "pname": "zynaddsubfx",
