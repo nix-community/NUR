@@ -36387,15 +36387,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php-bench": {
-        "name": "php-simple-benchmark-script-1.0.32",
+        "name": "php-simple-benchmark-script-1.0.37",
         "pname": "php-simple-benchmark-script",
-        "version": "1.0.32",
+        "version": "1.0.37",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-simple-benchmark-script-1.0.32",
+            "name": "php-simple-benchmark-script-1.0.37",
             "outputsToInstall": [
                 "out"
             ],
@@ -37127,15 +37127,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php-prober": {
-        "name": "php-x-prober-3.7",
+        "name": "php-x-prober-6.6",
         "pname": "php-x-prober",
-        "version": "3.7",
+        "version": "6.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-x-prober-3.7",
+            "name": "php-x-prober-6.6",
             "outputsToInstall": [
                 "out"
             ],
