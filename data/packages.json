@@ -65071,6 +65071,48 @@
         "_attr": "hbs",
         "_repo": "ouzu"
     },
+    "nur.repos.ouzu.i3lock-fancy-rapid": {
+        "name": "i3lock-fancy-rapid-0.0.1",
+        "pname": "i3lock-fancy-rapid",
+        "version": "0.0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A faster implementation of i3lock-fancy. It is blazing fast and provides a fully configurable box blur. It uses linear-time box blur and accelerates using OpenMP.",
+            "homepage": "https://github.com/ouzu/i3lock-fancy-rapid",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "longDescription": "This is my fork of i3lock-fancy-rapid which includes a brightness and pixelation option.",
+            "name": "i3lock-fancy-rapid-0.0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ouzu",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "i3lock-fancy-rapid",
+        "_repo": "ouzu"
+    },
     "nur.repos.ouzu.linx-client": {
         "name": "linx-client-1.5.2",
         "pname": "linx-client",
