@@ -62997,9 +62997,9 @@
         "_repo": "nagy"
     },
     "nur.repos.nagy.luaPackages.tl": {
-        "name": "lua5.3-tl-0.10.0-1",
+        "name": "lua5.3-tl-0.10.1-1",
         "pname": "lua5.3-tl",
-        "version": "0.10.0-1",
+        "version": "0.10.1-1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -63014,7 +63014,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "lua5.3-tl-0.10.0-1",
+            "name": "lua5.3-tl-0.10.1-1",
             "outputsToInstall": [
                 "out"
             ],
