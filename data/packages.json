@@ -94434,9 +94434,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox": {
-        "name": "embox-unstable-2021-01-07",
+        "name": "embox-unstable-2021-01-08",
         "pname": "embox-unstable",
-        "version": "2021-01-07",
+        "version": "2021-01-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94464,7 +94464,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-unstable-2021-01-07",
+            "name": "embox-unstable-2021-01-08",
             "outputsToInstall": [
                 "out"
             ],
@@ -94503,6 +94503,59 @@
             "unsupported": false
         },
         "_attr": "embox",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.farbfeld-utils": {
+        "name": "farbfeld-utils-2020-11-02",
+        "pname": "farbfeld-utils",
+        "version": "2020-11-02",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Collection of utilities for farbfeld picture format",
+            "homepage": "http://zzo38computer.org/fossil/farbfeld.ui/home",
+            "insecure": false,
+            "license": {
+                "fullName": "Public Domain",
+                "shortName": "publicDomain"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "farbfeld-utils-2020-11-02",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "farbfeld-utils",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.foma": {
@@ -95031,9 +95084,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gef": {
-        "name": "gef-unstable-2020-12-24",
+        "name": "gef-unstable-2021-01-08",
         "pname": "gef-unstable",
-        "version": "2020-12-24",
+        "version": "2021-01-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -95061,7 +95114,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gef-unstable-2020-12-24",
+            "name": "gef-unstable-2021-01-08",
             "outputsToInstall": [
                 "out"
             ],
@@ -96293,9 +96346,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee": {
-        "name": "gpxsee-unstable-2021-01-06",
+        "name": "gpxsee-unstable-2021-01-09",
         "pname": "gpxsee-unstable",
-        "version": "2021-01-06",
+        "version": "2021-01-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -96324,7 +96377,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-unstable-2021-01-06",
+            "name": "gpxsee-unstable-2021-01-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -97654,6 +97707,61 @@
         "_attr": "lazyscraper",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.lel": {
+        "name": "lel-0.2",
+        "pname": "lel",
+        "version": "0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Farbfeld image viewer",
+            "homepage": "https://git.codemadness.org/lel/file/README.html",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "lel-0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "lel",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.libgarmin": {
         "name": "libgarmin-2008-12-27",
         "pname": "libgarmin",
@@ -98328,9 +98436,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2021-01-06",
+        "name": "maptourist-2021-01-08",
         "pname": "maptourist",
-        "version": "2021-01-06",
+        "version": "2021-01-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -98356,7 +98464,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2021-01-06",
+            "name": "maptourist-2021-01-08",
             "outputsToInstall": [
                 "out"
             ],
@@ -98740,9 +98848,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-2021-01-07",
+        "name": "nakarte-2021-01-09",
         "pname": "nakarte",
-        "version": "2021-01-07",
+        "version": "2021-01-09",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -98770,7 +98878,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-2021-01-07",
+            "name": "nakarte-2021-01-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -98996,9 +99104,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.odict": {
-        "name": "odict-unstable-2021-01-04",
+        "name": "odict-unstable-2021-01-08",
         "pname": "odict-unstable",
-        "version": "2021-01-04",
+        "version": "2021-01-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99032,7 +99140,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "odict-unstable-2021-01-04",
+            "name": "odict-unstable-2021-01-08",
             "outputsToInstall": [
                 "out"
             ],
@@ -99210,9 +99318,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.openorienteering-mapper": {
-        "name": "OpenOrienteering-Mapper-unstable-2021-01-01",
+        "name": "OpenOrienteering-Mapper-unstable-2021-01-09",
         "pname": "OpenOrienteering-Mapper-unstable",
-        "version": "2021-01-01",
+        "version": "2021-01-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99240,7 +99348,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "OpenOrienteering-Mapper-unstable-2021-01-01",
+            "name": "OpenOrienteering-Mapper-unstable-2021-01-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -100720,9 +100828,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.pyephem": {
-        "name": "python3.8-pyephem-unstable-2021-01-05",
+        "name": "python3.8-pyephem-unstable-2021-01-08",
         "pname": "python3.8-pyephem-unstable",
-        "version": "2021-01-05",
+        "version": "2021-01-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -100767,7 +100875,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "python3.8-pyephem-unstable-2021-01-05",
+            "name": "python3.8-pyephem-unstable-2021-01-08",
             "outputsToInstall": [
                 "out"
             ],
@@ -101732,9 +101840,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-2021-01-06",
+        "name": "routinodb-2021-01-08",
         "pname": "routinodb",
-        "version": "2021-01-06",
+        "version": "2021-01-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -101760,7 +101868,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-2021-01-06",
+            "name": "routinodb-2021-01-08",
             "outputsToInstall": [
                 "out"
             ],
@@ -102093,9 +102201,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.slazav-hr": {
-        "name": "slazav-hr-unstable-2021-01-07",
+        "name": "slazav-hr-unstable-2021-01-09",
         "pname": "slazav-hr-unstable",
-        "version": "2021-01-07",
+        "version": "2021-01-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -102121,7 +102229,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "slazav-hr-unstable-2021-01-07",
+            "name": "slazav-hr-unstable-2021-01-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -102275,9 +102383,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.slazav-podm": {
-        "name": "slazav-podm-unstable-2021-01-07",
+        "name": "slazav-podm-unstable-2021-01-09",
         "pname": "slazav-podm-unstable",
-        "version": "2021-01-07",
+        "version": "2021-01-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -102303,7 +102411,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "slazav-podm-unstable-2021-01-07",
+            "name": "slazav-podm-unstable-2021-01-09",
             "outputsToInstall": [
                 "out"
             ],
