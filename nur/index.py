@@ -50,11 +50,21 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
                 prefixes = {
                     "nixpkgs": "https://github.com/nixos/nixpkgs/tree/master/",
                     "nur": "https://github.com/nix-community/nur-combined/tree/master/",
-                    # this tends to come up when nur-combined isn't indexed yet
-                    "pkgs": url + "/",
                 }
                 stripped = path.parts[4:]
-                if stripped[0] not in prefixes:
+                if path.parts[3].endswith("source"):
+                    def url_contains(host: str) -> bool:
+                        return url.find(host) != -1
+                    canonical_url = url
+                    if url_contains("github"):
+                        canonical_url += "/blob"
+                    elif url_contains("gitlab"):
+                        canonical_url += "/-/blob"
+                    attrPath = "/".join(stripped)
+                    location = f"{canonical_url}{attrPath}"
+                    pkg["meta"]["position"] = f"{location}#L{line}"
+                elif stripped[0] not in prefixes:
+                    print(path, file=sys.stderr)
                     print(
                         f"we could not find {stripped} , you can file an issue at https://github.com/nix-community/NUR/issues to the indexing file if you think this is a mistake",
                         file=sys.stderr,
