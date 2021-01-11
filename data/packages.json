@@ -106011,48 +106011,6 @@
         "_attr": "unison",
         "_repo": "tilpner"
     },
-    "nur.repos.tinybeachthor.cabbage": {
-        "name": "cabbage-2.4.0",
-        "pname": "cabbage",
-        "version": "2.4.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Cabbage Audio",
-            "homepage": "https://cabbageaudio.com/",
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v3.0",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
-            },
-            "maintainers": [],
-            "name": "cabbage-2.4.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "mipsel-linux",
-                "i686-linux",
-                "x86_64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tinybeachthor",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "cabbage",
-        "_repo": "tinybeachthor"
-    },
     "nur.repos.tinybeachthor.fluidsynth": {
         "name": "fluidsynth-2.1.5",
         "pname": "fluidsynth",
@@ -106147,6 +106105,59 @@
             "unsupported": false
         },
         "_attr": "i3status-rust",
+        "_repo": "tinybeachthor"
+    },
+    "nur.repos.tinybeachthor.operator-sdk": {
+        "name": "operator-sdk-0.16.0",
+        "pname": "operator-sdk",
+        "version": "0.16.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding",
+            "homepage": "https://github.com/operator-framework/operator-sdk",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "operator-sdk-0.16.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "mipsel-linux",
+                "i686-linux",
+                "x86_64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/tinybeachthor",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "operator-sdk",
         "_repo": "tinybeachthor"
     },
     "nur.repos.tinybeachthor.spotify-authenticate": {
