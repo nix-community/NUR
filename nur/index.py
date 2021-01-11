@@ -53,7 +53,10 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
                 }
                 stripped = path.parts[4:]
                 if stripped[0] not in prefixes:
-                    print(f"we could not find {stripped} , you can file an issue at https://github.com/nix-community/NUR/issues to the indexing file if you think this is a mistake", file=sys.stderr)
+                    print(
+                        f"we could not find {stripped} , you can file an issue at https://github.com/nix-community/NUR/issues to the indexing file if you think this is a mistake",
+                        file=sys.stderr,
+                    )
                     pkg["meta"]["position"] = prefix
                 else:
                     attrPath = "/".join(stripped[1:])
