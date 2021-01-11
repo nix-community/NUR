@@ -7,7 +7,9 @@ from tempfile import NamedTemporaryFile
 from typing import Any, Dict
 
 
-def index_repo(directory: Path, repo: str, expression_file: str, url: str) -> Dict[str, Any]:
+def index_repo(
+    directory: Path, repo: str, expression_file: str, url: str
+) -> Dict[str, Any]:
     default_nix = directory.joinpath("default.nix").resolve()
     expr = """
 with import <nixpkgs> {};
@@ -53,8 +55,10 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
                 }
                 stripped = path.parts[4:]
                 if path.parts[3].endswith("source"):
+
                     def url_contains(host: str) -> bool:
                         return url.find(host) != -1
+
                     canonical_url = url
                     if url_contains("github"):
                         canonical_url += "/blob"
@@ -93,7 +97,12 @@ def index_command(args: Namespace) -> None:
     pkgs: Dict[str, Any] = {}
 
     for (repo, data) in repos.items():
-        repo_pkgs = index_repo(directory, repo, data.get("file", "default.nix"), data.get("url", "https://github.com/nixos/nixpkgs"))
+        repo_pkgs = index_repo(
+            directory,
+            repo,
+            data.get("file", "default.nix"),
+            data.get("url", "https://github.com/nixos/nixpkgs"),
+        )
         pkgs.update(repo_pkgs)
 
     json.dump(pkgs, sys.stdout, indent=4)
