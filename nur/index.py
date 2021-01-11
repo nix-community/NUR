@@ -7,7 +7,7 @@ from tempfile import NamedTemporaryFile
 from typing import Any, Dict
 
 
-def index_repo(directory: Path, repo: str, expression_file: str) -> Dict[str, Any]:
+def index_repo(directory: Path, repo: str, expression_file: str, url: str) -> Dict[str, Any]:
     default_nix = directory.joinpath("default.nix").resolve()
     expr = """
 with import <nixpkgs> {};
@@ -50,6 +50,8 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
                 prefixes = {
                     "nixpkgs": "https://github.com/nixos/nixpkgs/tree/master/",
                     "nur": "https://github.com/nix-community/nur-combined/tree/master/",
+                    # this tends to come up when nur-combined isn't indexed yet
+                    "pkgs": url + "/",
                 }
                 stripped = path.parts[4:]
                 if stripped[0] not in prefixes:
@@ -81,7 +83,7 @@ def index_command(args: Namespace) -> None:
     pkgs: Dict[str, Any] = {}
 
     for (repo, data) in repos.items():
-        repo_pkgs = index_repo(directory, repo, data.get("file", "default.nix"))
+        repo_pkgs = index_repo(directory, repo, data.get("file", "default.nix"), data.get("url", "https://github.com/nixos/nixpkgs"))
         pkgs.update(repo_pkgs)
 
     json.dump(pkgs, sys.stdout, indent=4)
