@@ -52,9 +52,13 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
                     "nur": "https://github.com/nix-community/nur-combined/tree/master/",
                 }
                 stripped = path.parts[4:]
-                attrPath = "/".join(stripped[1:])
-                location = f"{prefixes[stripped[0]]}{attrPath}"
-                pkg["meta"]["position"] = f"{location}#L{line}"
+                if stripped[0] not in prefixes:
+                    print(f"we could not find {stripped} , you can file an issue at https://github.com/nix-community/NUR/issues to the indexing file if you think this is a mistake", file=sys.stderr)
+                    pkg["meta"]["position"] = prefix
+                else:
+                    attrPath = "/".join(stripped[1:])
+                    location = f"{prefixes[stripped[0]]}{attrPath}"
+                    pkg["meta"]["position"] = f"{location}#L{line}"
             elif position is not None and position.find("nur-combined") > -1:
                 path_str, line = position.rsplit(":", 1)
                 stripped = path_str.partition(f"nur-combined/repos/{repo}")[2]
