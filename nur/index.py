@@ -61,9 +61,9 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
 
                     canonical_url = url
                     if url_contains("github"):
-                        canonical_url += "/blob"
+                        canonical_url += "/blob/"
                     elif url_contains("gitlab"):
-                        canonical_url += "/-/blob"
+                        canonical_url += "/-/blob/"
                     attrPath = "/".join(stripped)
                     location = f"{canonical_url}{attrPath}"
                     pkg["meta"]["position"] = f"{location}#L{line}"
