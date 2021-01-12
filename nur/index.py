@@ -7,6 +7,55 @@ from tempfile import NamedTemporaryFile
 from typing import Any, Dict
 
 
+def resolve_source(pkg: Dict, repo: str, url: str) -> str:
+    # TODO commit hash
+    prefix = f"https://github.com/nix-community/nur-combined/tree/master/repos/{repo}"
+    position = pkg["meta"].get("position", None)
+    if position is not None and position.startswith("/nix/store"):
+        path_str, line = position.rsplit(":", 1)
+        path = Path(path_str)
+        # I've decided to just take these 2 repositories,
+        # update this whenever someone decided to use a recipe source other than
+        # NUR or nixpkgs to override packages on. right now this is about as accurate as
+        # `nix edit` is
+        # TODO find commit hash
+        prefixes = {
+            "nixpkgs": "https://github.com/nixos/nixpkgs/tree/master/",
+            "nur": "https://github.com/nix-community/nur-combined/tree/master/",
+        }
+        stripped = path.parts[4:]
+        if path.parts[3].endswith("source"):
+
+            def url_contains(host: str) -> bool:
+                return url.find(host) != -1
+
+            canonical_url = url
+            if url_contains("github"):
+                canonical_url += "/blob/"
+            elif url_contains("gitlab"):
+                canonical_url += "/-/blob/"
+            attrPath = "/".join(stripped)
+            location = f"{canonical_url}{attrPath}"
+            return f"{location}#L{line}"
+        elif stripped[0] not in prefixes:
+            print(path, file=sys.stderr)
+            print(
+                f"we could not find {stripped} , you can file an issue at https://github.com/nix-community/NUR/issues to the indexing file if you think this is a mistake",
+                file=sys.stderr,
+            )
+            return prefix
+        else:
+            attrPath = "/".join(stripped[1:])
+            location = f"{prefixes[stripped[0]]}{attrPath}"
+            return f"{location}#L{line}"
+    elif position is not None and position.find("nur-combined") > -1:
+        path_str, line = position.rsplit(":", 1)
+        stripped = path_str.partition(f"nur-combined/repos/{repo}")[2]
+        return f"{prefix}{stripped}#L{line}"
+    else:
+        return prefix
+
+
 def index_repo(
     directory: Path, repo: str, expression_file: str, url: str
 ) -> Dict[str, Any]:
@@ -38,53 +87,9 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
         for name, pkg in raw_pkgs.items():
             pkg["_attr"] = name
             pkg["_repo"] = repo
-            position = pkg["meta"].get("position", None)
-            # TODO commit hash
-            prefix = f"https://github.com/nix-community/nur-combined/tree/master/repos/{repo}"
-            if position is not None and position.startswith("/nix/store"):
-                path_str, line = position.rsplit(":", 1)
-                path = Path(path_str)
-                # I've decided to just take these 2 repositories,
-                # update this whenever someone decided to use a recipe source other than
-                # NUR or nixpkgs to override packages on. right now this is about as accurate as
-                # `nix edit` is
-                # TODO find commit hash
-                prefixes = {
-                    "nixpkgs": "https://github.com/nixos/nixpkgs/tree/master/",
-                    "nur": "https://github.com/nix-community/nur-combined/tree/master/",
-                }
-                stripped = path.parts[4:]
-                if path.parts[3].endswith("source"):
-
-                    def url_contains(host: str) -> bool:
-                        return url.find(host) != -1
-
-                    canonical_url = url
-                    if url_contains("github"):
-                        canonical_url += "/blob/"
-                    elif url_contains("gitlab"):
-                        canonical_url += "/-/blob/"
-                    attrPath = "/".join(stripped)
-                    location = f"{canonical_url}{attrPath}"
-                    pkg["meta"]["position"] = f"{location}#L{line}"
-                elif stripped[0] not in prefixes:
-                    print(path, file=sys.stderr)
-                    print(
-                        f"we could not find {stripped} , you can file an issue at https://github.com/nix-community/NUR/issues to the indexing file if you think this is a mistake",
-                        file=sys.stderr,
-                    )
-                    pkg["meta"]["position"] = prefix
-                else:
-                    attrPath = "/".join(stripped[1:])
-                    location = f"{prefixes[stripped[0]]}{attrPath}"
-                    pkg["meta"]["position"] = f"{location}#L{line}"
-            elif position is not None and position.find("nur-combined") > -1:
-                path_str, line = position.rsplit(":", 1)
-                stripped = path_str.partition(f"nur-combined/repos/{repo}")[2]
-                pkg["meta"]["position"] = f"{prefix}{stripped}#L{line}"
-            else:
-                pkg["meta"]["position"] = prefix
+            pkg["meta"]["position"] = resolve_source(pkg, repo, url)
             pkgs[f"nur.repos.{repo}.{name}"] = pkg
+
         return pkgs
 
 
