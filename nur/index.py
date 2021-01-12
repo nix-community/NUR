@@ -30,10 +30,11 @@ def resolve_source(pkg: Dict, repo: str, url: str) -> str:
                 return url.find(host) != -1
 
             canonical_url = url
+            # if we want to add the option of specifying branches, we have to update this
             if url_contains("github"):
-                canonical_url += "/blob/"
+                canonical_url += "/blob/master/"
             elif url_contains("gitlab"):
-                canonical_url += "/-/blob/"
+                canonical_url += "/-/blob/master/"
             attrPath = "/".join(stripped)
             location = f"{canonical_url}{attrPath}"
             return f"{location}#L{line}"
