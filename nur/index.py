@@ -26,14 +26,11 @@ def resolve_source(pkg: Dict, repo: str, url: str) -> str:
         stripped = path.parts[4:]
         if path.parts[3].endswith("source"):
 
-            def url_contains(host: str) -> bool:
-                return url.find(host) != -1
-
             canonical_url = url
             # if we want to add the option of specifying branches, we have to update this
-            if url_contains("github"):
+            if "github" in url:
                 canonical_url += "/blob/master/"
-            elif url_contains("gitlab"):
+            elif "gitlab" in url:
                 canonical_url += "/-/blob/master/"
             attrPath = "/".join(stripped)
             location = f"{canonical_url}{attrPath}"
@@ -49,7 +46,7 @@ def resolve_source(pkg: Dict, repo: str, url: str) -> str:
             attrPath = "/".join(stripped[1:])
             location = f"{prefixes[stripped[0]]}{attrPath}"
             return f"{location}#L{line}"
-    elif position is not None and position.find("nur-combined") > -1:
+    elif position is not None and "nur-combined" in position:
         path_str, line = position.rsplit(":", 1)
         stripped = path_str.partition(f"nur-combined/repos/{repo}")[2]
         return f"{prefix}{stripped}#L{line}"
