@@ -29,9 +29,9 @@ def resolve_source(pkg: Dict, repo: str, url: str) -> str:
             canonical_url = url
             # if we want to add the option of specifying branches, we have to update this
             if "github" in url:
-                canonical_url += "/blob/master/"
+                canonical_url += "/blob/HEAD/"
             elif "gitlab" in url:
-                canonical_url += "/-/blob/master/"
+                canonical_url += "/-/blob/HEAD/"
             attr_path = "/".join(stripped)
             location = f"{canonical_url}{attr_path}"
             return f"{location}#L{line}"
