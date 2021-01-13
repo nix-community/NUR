@@ -32,8 +32,8 @@ def resolve_source(pkg: Dict, repo: str, url: str) -> str:
                 canonical_url += "/blob/master/"
             elif "gitlab" in url:
                 canonical_url += "/-/blob/master/"
-            attrPath = "/".join(stripped)
-            location = f"{canonical_url}{attrPath}"
+            attr_path = "/".join(stripped)
+            location = f"{canonical_url}{attr_path}"
             return f"{location}#L{line}"
         elif stripped[0] not in prefixes:
             print(path, file=sys.stderr)
@@ -43,8 +43,8 @@ def resolve_source(pkg: Dict, repo: str, url: str) -> str:
             )
             return prefix
         else:
-            attrPath = "/".join(stripped[1:])
-            location = f"{prefixes[stripped[0]]}{attrPath}"
+            attr_path = "/".join(stripped[1:])
+            location = f"{prefixes[stripped[0]]}{attr_path}"
             return f"{location}#L{line}"
     elif position is not None and "nur-combined" in position:
         path_str, line = position.rsplit(":", 1)
