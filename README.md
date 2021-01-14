@@ -412,14 +412,16 @@ This allows to test changes before publishing.
     nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
       inherit pkgs;
       repoOverrides = {
-        mic92 = import ../nur-packages;
+        mic92 = import ../nur-packages { inherit pkgs; };
         ## remote locations are also possible:
-        # mic92 = import (builtins.fetchTarball "https://github.com/your-user/nur-packages/archive/master.tar.gz");
+        # mic92 = import (builtins.fetchTarball "https://github.com/your-user/nur-packages/archive/master.tar.gz") { inherit pkgs; };
       };
     };
   };
 }
 ```
+
+The repo must be a valid package repo, i.e. its root contains a `default.nix` file.
 
 ## Contribution guideline
 
