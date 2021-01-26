@@ -28,7 +28,9 @@ To make NUR accessible for your login user, add the following to `~/.config/nixp
 }
 ```
 
-For NixOS add the following to your `/etc/nixos/configuration.nix`:
+For NixOS add the following to your `/etc/nixos/configuration.nix`
+Notice: If you want to use NUR in nix-env, home-manager or in nix-shell you also need NUR in `~/.config/nixpkgs/config.nix`
+as shown above!
 
 ```nix
 {
