@@ -42,15 +42,7 @@ def commit_files(files: List[str], message: str) -> None:
     cmd.extend(files)
     subprocess.check_call(cmd)
     if repo_changed():
-        subprocess.check_call(
-            [
-                "git",
-                "commit",
-                "Nur a bot <joerg.nur-bot@thalheim.io>",
-                "-m",
-                message,
-            ]
-        )
+        subprocess.check_call(["git", "commit", "-m", message])
 
 
 def commit_repo(repo: Repo, message: str, path: Path) -> Repo:

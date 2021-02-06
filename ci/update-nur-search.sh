@@ -26,7 +26,7 @@ nix run '(import ./release.nix {})' -c nur index nur-combined > nur-search/data/
 cd nur-search
 if [[ ! -z "$(git diff --exit-code)" ]]; then
     git add ./data/packages.json
-    git commit "Nur a bot <joerg.nur-bot@thalheim.io>" -m "automatic update package.json"
+    git commit -m "automatic update package.json"
     git pull --rebase origin master
     git push origin master
     nix-shell --run "make clean && make && make publish"
