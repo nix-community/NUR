@@ -5,7 +5,6 @@ set -eu -o pipefail # Exit with nonzero exit code if anything fails
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
-source ${DIR}/lib/setup-git.sh
 set -x
 
 
@@ -26,7 +25,7 @@ nix run '(import ./release.nix {})' -c nur index nur-combined > nur-search/data/
 cd nur-search
 if [[ ! -z "$(git diff --exit-code)" ]]; then
     git add ./data/packages.json
-    git commit -m "automatic update package.json"
+    git commit --author "Nur a bot <joerg.nur-bot@thalheim.io>" -m "automatic update package.json"
     git pull --rebase origin master
     git push origin master
     nix-shell --run "make clean && make && make publish"
