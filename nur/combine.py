@@ -46,7 +46,6 @@ def commit_files(files: List[str], message: str) -> None:
             [
                 "git",
                 "commit",
-                "--author",
                 "Nur a bot <joerg.nur-bot@thalheim.io>",
                 "-m",
                 message,
