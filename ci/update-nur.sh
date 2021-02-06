@@ -5,7 +5,6 @@ set -eu -o pipefail # Exit with nonzero exit code if anything fails
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
-source ${DIR}/lib/setup-git.sh
 set -x
 
 nix run '(import ./release.nix {})' -c nur update
