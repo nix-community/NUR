@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -p bash -i bash -p python3Packages.mypy -p python3Packages.black -p python3Packages.flake8
+#!nix-shell -p bash -i bash -p python3Packages.mypy -p python3Packages.black -p python3Packages.flake8 -p nix
 
 set -eux -o pipefail # Exit with nonzero exit code if anything fails
 
