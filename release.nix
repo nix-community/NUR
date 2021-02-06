@@ -9,7 +9,7 @@ python3Packages.buildPythonApplication {
   doCheck = true;
 
   makeWrapperArgs = [
-    "--prefix" "PATH" ":" "${stdenv.lib.makeBinPath [ nix-prefetch-git git nix ]}"
+    "--prefix" "PATH" ":" "${pkgs.lib.makeBinPath [ nix-prefetch-git git nix ]}"
     "--set" "LOCALE_ARCHIVE" "${glibcLocales}/lib/locale/locale-archive"
   ];
 }

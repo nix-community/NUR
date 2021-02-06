@@ -187,7 +187,7 @@ Each repository should return a set of Nix derivations:
 In this example `hello-nur` would be a directory containing a `default.nix`:
 
 ```nix
-{ stdenv, fetchurl }:
+{ stdenv, fetchurl, lib }:
 
 stdenv.mkDerivation rec {
   pname = "hello";
@@ -205,7 +205,7 @@ stdenv.mkDerivation rec {
   # fails due to patch
   doCheck = false;
 
-  meta = with stdenv.lib; {
+  meta = with lib; {
     description = "A program that produces a familiar, friendly greeting";
     longDescription = ''
       GNU Hello is a program that prints "Hello, world!" when you run it.
