@@ -301,7 +301,7 @@ option to a path relative to the repository root:
 ### Update NUR's lock file after updating your repository
 
 By default we only check for repository updates once a day with an automatic
-cron job in travis ci to update our lock file `repos.json.lock`.
+github action to update our lock file `repos.json.lock`.
 To update NUR faster, you can use our service at https://nur-update.herokuapp.com/
 after you have pushed an update to your repository, e.g.:
 
@@ -317,7 +317,7 @@ With every build triggered via the URL hook all repositories will be evaluated.O
 * Using a wrong license attribute in the metadata.
 * Using a builtin fetcher because it will cause access to external URLs during evaluation. Use pkgs.fetch* instead (i.e. instead of `builtins.fetchGit` use `pkgs.fetchgit`)
 
-You can find out if your evaluation succeeded by checking the [latest travis build job]( https://travis-ci.com/github/nix-community/NUR/ ).
+You can find out if your evaluation succeeded by checking the [latest build job](https://github.com/nix-community/NUR/actions).
 
 
 ### Git submodules

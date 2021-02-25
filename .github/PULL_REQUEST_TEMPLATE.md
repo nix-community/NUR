@@ -1,6 +1,6 @@
 The following points apply when adding a new repository to repos.json
 
-- [ ] I ran `./bin/nur format-manifest` after updating `repos.json` (We will use the same script in travis ci to make sure we keep the format consistent)
+- [ ] I ran `./bin/nur format-manifest` after updating `repos.json` (We will use the same script in github actions to make sure we keep the format consistent)
 - [ ] By including this repository in NUR I give permission to license the
 content under the MIT license.
 
