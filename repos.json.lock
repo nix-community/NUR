@@ -151,6 +151,11 @@
             "sha256": "1wc8bhhn4a8xcb2wff74bc9mg8zc0cnwhiif7g85vlww218y6ldf",
             "url": "https://github.com/divanorama/nur-packages"
         },
+        "dmayle": {
+            "rev": "84c23287f94e251a948be8866056e0370389054b",
+            "sha256": "089av3vq1f77bq148glllxinf09mmpai8zlck6q3z5x9z028r5vl",
+            "url": "https://github.com/dmayle/nur-packages"
+        },
         "drewrisinger": {
             "rev": "3e501ba683eb95a2fb933ae5c14dd70bf9e80e67",
             "sha256": "0bk4dcpg1awb3jk3v148mbpnkdfn4fz5b2lac63r7cwa9h6jfxzx",
@@ -534,6 +539,11 @@
             "rev": "acaecdd7dd9e0fa8a741611b69a0276b0b3bc9a1",
             "sha256": "1x2g8rq71jbsh9p648356r95mb66d9825vw841nf1sb67jyjlcxj",
             "url": "https://github.com/ouzu/nur-packages"
+        },
+        "p3psi": {
+            "rev": "619c9af3bd3e1b444d25ed14e84ccb03df6ad1c1",
+            "sha256": "1ayg7zji7z0m2hwr1vw46kgl0xd8njyg7zkw6yh8zfiw3sf2q2cp",
+            "url": "https://github.com/p3psi-boo/p3psi-nur"
         },
         "pamplemousse": {
             "rev": "38029c7adaee5c4f0a65e01271c57e804eb86e9c",
