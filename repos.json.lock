@@ -36,8 +36,8 @@
             "url": "https://github.com/angr/nixpkgs"
         },
         "arc": {
-            "rev": "0d04e36a3d85e0ea9c9bc36a4425a3b67c6557df",
-            "sha256": "0wvwxfs8ah5j83nf57dj9j7zxdjr312q7fynn6b9z56k33l0jm37",
+            "rev": "9494072fa3236c66599c6a97fa198e85336273c1",
+            "sha256": "1csbxp276fcn0fg8cjx8j5zd2g4v1b4z5ri69jvyc9q7nwi715ls",
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "awl-fcarza": {
@@ -187,8 +187,8 @@
             "url": "https://github.com/dywedir/nur-packages"
         },
         "eduardosm": {
-            "rev": "1cc9f2e4d17b3097a9575f21ec89730859b0c110",
-            "sha256": "1znxxmvymfh1npms8p691yhdr0rd78k5ssb8557h7lsb9x0srcff",
+            "rev": "e56eff10065c47c2b65ff1111b53bd40406073d1",
+            "sha256": "1c573cjv3vhl7fjmfpvxp8brh5xhmzfkp0qf75k86jj830c13azs",
             "url": "https://github.com/eduardosm/nur-packages"
         },
         "eeva": {
@@ -205,6 +205,11 @@
             "rev": "5e2835ca07280a6ff0de43d390b98f80090a22a1",
             "sha256": "0673j7qkki2d0apf2sjwm6mpbsh6g9kamdyvizb3dnndpbhnqf4h",
             "url": "https://github.com/emmanuelrosa/nur-packages"
+        },
+        "ethancedwards8": {
+            "rev": "d5f3ee819c203d0e53d1b0d6790dd2110c43552d",
+            "sha256": "0qc3abls550m1z8495cc2isc3mybmpw3d2gvia6ddzi9bdsi3zd1",
+            "url": "https://github.com/ethancedwards8/ethancedwards8-nur"
         },
         "extends": {
             "rev": "cb5dd151c29b15c0b462ba206198be17ced19f39",
@@ -242,8 +247,8 @@
             "url": "https://github.com/gnidorah/nur-packages"
         },
         "graham33": {
-            "rev": "1a50784bee9376e66e4e1577143ba233cf768baa",
-            "sha256": "1hk7x98fsihskbacxj10vkbfjxyn8p8p0ai6qml843sxgl863hbc",
+            "rev": "5a1d9d13b570ab1d4c0e5817415254f1e93959a0",
+            "sha256": "0613pm330slr3rng8bqsz5ybzgqn8j4wjp2vbw0w8il1x0rql64w",
             "url": "https://github.com/graham33/nur-packages"
         },
         "gricad": {
@@ -282,8 +287,8 @@
             "url": "https://github.com/instantOS/nix"
         },
         "ivar": {
-            "rev": "29f1dd1099461e7c5137b7d762fd2fbe2f1ad891",
-            "sha256": "0n4hss8qzz4ydhyqalc8ryjm4x9whajdkmbr7vgk21b8g8blh4bm",
+            "rev": "120da987677974b60e149128f0f2272d7dcd6990",
+            "sha256": "0m523r3jksl79nmamzv7y2xh87mg7p6wljmpmj58jqlpjfd2ki5b",
             "url": "https://github.com/IvarWithoutBones/NUR"
         },
         "izorkin": {
@@ -395,8 +400,8 @@
             "url": "https://github.com/lschuermann/nur-packages"
         },
         "lucasew": {
-            "rev": "1c44f74cc932da44765bd5fb2c96626c2000f234",
-            "sha256": "0qghmzxh0j8h3izxrcf0clqidgkkykzsji3hxr01hscfx7l3f873",
+            "rev": "a5aa39608f4b7848db01db6a91b03779a8c7bf94",
+            "sha256": "0w5rvh4xx11fqw3myg2mz0hlx2famyvbzcg0dbjq1jdahlnqybdh",
             "url": "https://github.com/lucasew/nixcfg"
         },
         "makefu": {
@@ -622,8 +627,8 @@
             "url": "https://gitlab.com/rummik/nixos/nur-packages"
         },
         "rycee": {
-            "rev": "18ed6e80be81acc9b23e58966a73e3261ae21592",
-            "sha256": "0b7lvcilq2fxfibgy023inag84qm9cnlsr9yrg355km04dh51l4d",
+            "rev": "cb73b728702668c8a973b99be23beba27a1acfed",
+            "sha256": "01jxv83k4w8jqa3i5aaphzasy8k55n2bds0ff7pp4rgaqhbnwl2l",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "schmittlauch": {
