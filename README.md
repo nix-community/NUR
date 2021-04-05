@@ -135,27 +135,53 @@ in
 ### Flake Support
 
 **Experimental** Note that flake support is still experimental and might change in future in a backwards incompatible way.
-Using overlays and modules from NUR in your configuration is fairly straight
-forward.
+Using overlays and modules from NUR in your configuration is fairly straight forward.
 
 In your flake.nix:
 ```nix
-inputs.nur.url = github:nix-community/NUR;
-
-outputs = {self, nixpkgs, nur }:
 {
-  nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
-    # ...
-    modules = [
-      # this adds a nur attribute set that can be used for example like this:
-      #  ({ pkgs, ... }: {
-      #    environment.systemPackages = [ pkgs.nur.repos.mic92.hello-nur ];
-      #  })
-      { nixpkgs.overlays = [ nur.overlay ]; }
-    ];
+  inputs.nur.url = github:nix-community/NUR;
+
+  outputs = {self, nixpkgs, nur }:
+  {
+    nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
+      # ...
+      modules = [
+        # this adds a nur attribute set that can be used for example like this:
+        #  ({ pkgs, ... }: {
+        #    environment.systemPackages = [ pkgs.nur.repos.mic92.hello-nur ];
+        #  })
+        { nixpkgs.overlays = [ nur.overlay ]; }
+      ];
+    };
+ };
+}
+```
+
+Using NUR defined modules in your NixOS configuration.nix introduce infinite recursion, you need to add additional imports to prevent it:
+
+```nix
+{
+  inputs.nur.url = "github:nix-community/NUR";
+  outputs = { self, nixpkgs, nur }: rec {
+    nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      modules = [
+        { nixpkgs.overlays = [ nur.overlay ]; }
+        ({ pkgs, ... }:
+          let
+            nur-no-pkgs = import nur {
+              nurpkgs = import nixpkgs { system = "x86_64-linux"; };
+            };
+          in {
+            imports = [ nur-no-pkgs.repos.paul.modules.foo ];
+            ...
+         })
+      ];
+    };
+    defaultPackage.x86_64-linux = nixosConfigurations.myConfig.config.system.build.vm;
   };
 }
-
 ```
 
 ## Finding packages
@@ -408,7 +434,7 @@ with pkgs.lib;
 You can override repositories using `repoOverrides` argument.
 This allows to test changes before publishing.
 
-```
+```nix
 {
   packageOverrides = pkgs: {
     nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
@@ -424,6 +450,70 @@ This allows to test changes before publishing.
 ```
 
 The repo must be a valid package repo, i.e. its root contains a `default.nix` file.
+
+### Overriding repositories with Flake
+
+**Experimental** Note that flake support is still experimental and might change in future in a backwards incompatible way.
+
+You can overide repositories in two ways:
+
+- With packageOverrides 
+```nix
+{
+  inputs.nur.url = "github:nix-community/NUR";
+  inputs.paul.url = "path:/some_path/nur-paul"; # example: a local nur.repos.paul for development 
+
+  outputs = {self, nixpkgs, nur, paul }: {
+ 
+  system = "x86_64-linux";
+ 
+  nurpkgs = import nixpkgs { inherit system; };
+
+  ...
+  modules = [
+       {
+         nixpkgs.config.packageOverrides = pkgs: {
+            nur = import nur {
+              inherit pkgs nurpkgs;
+              repoOverrides = { paul = import paul { inherit pkgs; }; };
+            };
+          };
+        }
+  ];
+  ...
+}
+```
+- With overlay
+```nix
+{
+  modules = [
+    {
+      nixpkgs.overlays = [
+        (final: prev: {
+          nur = import nur {
+            nurpkgs = prev;
+            pkgs = prev;
+            repoOverrides = { paul = import paul { pkgs = prev; }; };
+          };
+        })
+      ];
+    } 
+    ...
+  ];
+}
+```
+
+The **repo must contains** a `flake.nix` file to addition of `default.nix`:  [flake.nix example](https://github.com/Mic92/nur-packages/blob/master/flake.nix) 
+
+- If you need to use NUR defined modules and to avoid infinite recursion complete `nur-no-pkgs` (from previous Flake Support section) as:
+```nix
+{
+  nur-no-pkgs = import nur {
+    nurpkgs = import nixpkgs { system = "x86_64-linux"; };
+    repoOverrides = { paul = import paul { }; };
+  };
+}
+```
 
 ## Contribution guideline
 
