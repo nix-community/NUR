@@ -274,9 +274,11 @@ $ nix-build -A hello-nur
 Add your own repository to in the `repos.json` of NUR:
 
 ```console
-$ git clone https://github.com/nix-community/NUR
-# open and modify repos.json in an editor
+$ git clone --depth 1 https://github.com/nix-community/NUR
+$ cd NUR
 ```
+
+edit the file `repos.json`:
 
 ```json
 {
