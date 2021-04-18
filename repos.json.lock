@@ -351,6 +351,11 @@
             "sha256": "0vl95cf1rg51921q4sq29jzp4q9wj5xi2b28lz1g4s7crp8qc10m",
             "url": "https://github.com/oar-team/nur-kapack"
         },
+        "kf5grd": {
+            "rev": "073333c47475f5947d39044e003b708fe2bd59df",
+            "sha256": "0cc0w09diypvi4287k4hkjb35gad8pwa5bnwddc5g63hi48pasla",
+            "url": "https://github.com/kf5grd/nur-packages"
+        },
         "kmein": {
             "rev": "23fb0bd3a1735bf0a5b2fe2a41f1eb41d9a3f99f",
             "sha256": "0y48dv39cpq4idrkcg3k38rys1lhjdg3l8n58dfnp081v23y62ng",
@@ -616,8 +621,8 @@
             "url": "https://github.com/markuskowa/NixOS-QChem"
         },
         "reedrw": {
-            "rev": "b12ae0575267fc1edf422a19952afd9cd5291b3f",
-            "sha256": "1dcqasiq97fbdscandxqnzx5cmmic5dmp5srxjzpr3ncx104v13d",
+            "rev": "5b3442d84ba86029f4d6a882317de3eab1ee5279",
+            "sha256": "0mni54fpzzyq0b0ppkmmxh67dcrgk3xyrdxwlqyhp45a236f3f5s",
             "url": "https://github.com/reedrw/nur-packages"
         },
         "rencire": {
