@@ -22,6 +22,7 @@
             "url": "https://gitlab.com/AlwinB/nur-packages"
         },
         "ambroisie": {
+            "branch": "main",
             "file": "pkgs/default.nix",
             "github-contact": "ambroisie",
             "url": "https://github.com/ambroisie/nix-config"
