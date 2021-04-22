@@ -39,28 +39,30 @@ def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
 
 
 class GithubRepo:
-    def __init__(self, owner: str, name: str) -> None:
+    def __init__(self, owner: str, name: str, branch: str) -> None:
         self.owner = owner
         self.name = name
+        self.branch = branch
 
     def url(self, path: str) -> str:
         return urljoin(f"https://github.com/{self.owner}/{self.name}/", path)
 
     def latest_commit(self) -> str:
-        return fetch_commit_from_feed(self.url("commits/master.atom"))
+        return fetch_commit_from_feed(self.url(f"commits/{self.branch}.atom"))
 
     def prefetch(self, ref: str) -> Tuple[str, Path]:
         return nix_prefetch_zip(self.url(f"archive/{ref}.tar.gz"))
 
 
 class GitlabRepo:
-    def __init__(self, domain: str, path: List[str]) -> None:
+    def __init__(self, domain: str, path: List[str], branch: str) -> None:
         self.domain = domain
         self.path = path
+        self.branch = branch
 
     def latest_commit(self) -> str:
         path = "/".join(self.path)
-        url = f"https://{self.domain}/{path}/commits/master?format=atom"
+        url = f"https://{self.domain}/{path}/commits/{self.branch}?format=atom"
         return fetch_commit_from_feed(url)
 
     def prefetch(self, ref: str) -> Tuple[str, Path]:
@@ -73,6 +75,7 @@ def prefetch_git(repo: Repo) -> Tuple[LockedVersion, Path]:
     cmd = ["nix-prefetch-git"]
     if repo.submodules:
         cmd += ["--fetch-submodules"]
+    cmd += ["--rev", f"refs/heads/{repo.branch}"]
     cmd += [repo.url.geturl()]
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     try:
@@ -100,7 +103,7 @@ def prefetch_git(repo: Repo) -> Tuple[LockedVersion, Path]:
 
 def prefetch_github(repo: Repo) -> Tuple[LockedVersion, Optional[Path]]:
     github_path = Path(repo.url.path)
-    gh_repo = GithubRepo(github_path.parts[1], github_path.parts[2])
+    gh_repo = GithubRepo(github_path.parts[1], github_path.parts[2], repo.branch)
     commit = gh_repo.latest_commit()
     locked_version = repo.locked_version
     if locked_version is not None:
@@ -115,7 +118,7 @@ def prefetch_gitlab(repo: Repo) -> Tuple[LockedVersion, Optional[Path]]:
     gitlab_path = Path(repo.url.path)
     hostname = repo.url.hostname
     assert hostname is not None, f"Expect a hostname for Gitlab repo: {repo.name}"
-    gl_repo = GitlabRepo(hostname, list(gitlab_path.parts[1:]))
+    gl_repo = GitlabRepo(hostname, list(gitlab_path.parts[1:]), repo.branch)
     commit = gl_repo.latest_commit()
     locked_version = repo.locked_version
     if locked_version is not None:
