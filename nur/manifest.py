@@ -57,6 +57,7 @@ class Repo:
         submodules: bool,
         supplied_type: Optional[str],
         file_: Optional[str],
+        branch: Optional[str],
         locked_version: Optional[LockedVersion],
     ) -> None:
         self.name = name
@@ -66,6 +67,10 @@ class Repo:
             self.file = "default.nix"
         else:
             self.file = file_
+        if branch is None:
+            self.branch = "master"
+        else:
+            self.branch = branch
         self.locked_version = None
 
         if (
@@ -150,9 +155,10 @@ def load_manifest(manifest_path: PathType, lock_path: PathType) -> Manifest:
     for name, repo in data["repos"].items():
         url = urlparse(repo["url"])
         submodules = repo.get("submodules", False)
+        branch_ = repo.get("branch", "master")
         file_ = repo.get("file", "default.nix")
         type_ = repo.get("type", None)
         locked_version = locked_versions.get(name)
-        repos.append(Repo(name, url, submodules, type_, file_, locked_version))
+        repos.append(Repo(name, url, submodules, type_, file_, branch_, locked_version))
 
     return Manifest(repos)
