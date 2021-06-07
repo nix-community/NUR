@@ -6107,7 +6107,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/algopy/default.nix#L88",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/algopy/default.nix#L32",
             "unfree": false,
             "unsupported": false
         },
@@ -6115,9 +6115,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.asteval": {
-        "name": "python3.8-asteval-0.9.22",
+        "name": "python3.8-asteval-0.9.23",
         "pname": "python3.8-asteval",
-        "version": "0.9.22",
+        "version": "0.9.23",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6158,7 +6158,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-asteval-0.9.22",
+            "name": "python3.8-asteval-0.9.23",
             "outputsToInstall": [
                 "out"
             ],
@@ -6188,9 +6188,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.autoray": {
-        "name": "python3.8-autoray-0.2.3",
+        "name": "python3.8-autoray-0.2.5",
         "pname": "python3.8-autoray",
-        "version": "0.2.3",
+        "version": "0.2.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6230,7 +6230,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-autoray-0.2.3",
+            "name": "python3.8-autoray-0.2.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -6479,9 +6479,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.colorzero": {
-        "name": "python3.8-colorzero-1.1",
+        "name": "python3.8-colorzero-2.0",
         "pname": "python3.8-colorzero",
-        "version": "1.1",
+        "version": "2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6521,7 +6521,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-colorzero-1.1",
+            "name": "python3.8-colorzero-2.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -6543,7 +6543,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/raspberrypi/colorzero/default.nix#L27",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/raspberrypi/colorzero/default.nix#L26",
             "unfree": false,
             "unsupported": false
         },
@@ -6551,14 +6551,14 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.cvxpy": {
-        "name": "python3.8-cvxpy-1.1.12",
+        "name": "python3.8-cvxpy-1.1.13",
         "pname": "python3.8-cvxpy",
-        "version": "1.1.12",
+        "version": "1.1.13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/cvxgrp/cvxpy/releases/tag/v1.1.12",
+            "changelog": "https://github.com/cvxgrp/cvxpy/releases/tag/v1.1.13",
             "description": "A domain-specific language for modeling convex optimization problems in Python",
             "downloadPage": "https://github.com/cvxgrp/cvxpy/releases",
             "homepage": "https://www.cvxpy.org/",
@@ -6595,7 +6595,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-cvxpy-1.1.12",
+            "name": "python3.8-cvxpy-1.1.13",
             "outputsToInstall": [
                 "out"
             ],
@@ -6617,7 +6617,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/cvxpy/default.nix#L59",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/cvxpy/default.nix#L60",
             "unfree": false,
             "unsupported": false
         },
@@ -6841,9 +6841,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.ecos": {
-        "name": "python3.8-ecos-2.0.7.post1",
+        "name": "python3.8-ecos-2.0.8",
         "pname": "python3.8-ecos",
-        "version": "2.0.7.post1",
+        "version": "2.0.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6884,7 +6884,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-ecos-2.0.7.post1",
+            "name": "python3.8-ecos-2.0.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -6987,9 +6987,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.fastjsonschema": {
-        "name": "python3.8-fastjsonschema-2.14.5",
+        "name": "python3.8-fastjsonschema-2.15.1",
         "pname": "python3.8-fastjsonschema",
-        "version": "2.14.5",
+        "version": "2.15.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7029,7 +7029,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-fastjsonschema-2.14.5",
+            "name": "python3.8-fastjsonschema-2.15.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -7204,9 +7204,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.ipyvuetify": {
-        "name": "python3.8-ipyvuetify-1.6.1",
+        "name": "python3.8-ipyvuetify-1.6.2",
         "pname": "python3.8-ipyvuetify",
-        "version": "1.6.1",
+        "version": "1.6.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7246,7 +7246,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-ipyvuetify-1.6.1",
+            "name": "python3.8-ipyvuetify-1.6.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -7348,9 +7348,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.numdifftools": {
-        "name": "python3.8-numdifftools-0.9.39",
+        "name": "python3.8-numdifftools-0.9.40",
         "pname": "python3.8-numdifftools",
-        "version": "0.9.39",
+        "version": "0.9.40",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7390,7 +7390,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-numdifftools-0.9.39",
+            "name": "python3.8-numdifftools-0.9.40",
             "outputsToInstall": [
                 "out"
             ],
@@ -7769,9 +7769,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pproxy": {
-        "name": "python3.8-pproxy-2.3.7",
+        "name": "python3.8-pproxy-2.7.8",
         "pname": "python3.8-pproxy",
-        "version": "2.3.7",
+        "version": "2.7.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -7811,7 +7811,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-pproxy-2.3.7",
+            "name": "python3.8-pproxy-2.7.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -8108,9 +8108,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pyquil": {
-        "name": "python3.8-pyquil-2.28.0",
+        "name": "python3.8-pyquil-2.28.1",
         "pname": "python3.8-pyquil",
-        "version": "2.28.0",
+        "version": "2.28.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -8150,7 +8150,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-pyquil-2.28.0",
+            "name": "python3.8-pyquil-2.28.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -8546,9 +8546,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pyvisa": {
-        "name": "python3.8-pyvisa-1.10.1",
+        "name": "python3.8-pyvisa-1.11.3",
         "pname": "python3.8-pyvisa",
-        "version": "1.10.1",
+        "version": "1.11.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -8588,7 +8588,7 @@
                 "githubId": 10198051,
                 "name": "Drew Risinger"
             },
-            "name": "python3.8-pyvisa-1.10.1",
+            "name": "python3.8-pyvisa-1.11.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -8610,7 +8610,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/pyvisa/default.nix#L22",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/pyvisa/default.nix#L33",
             "unfree": false,
             "unsupported": false
         },
@@ -8618,9 +8618,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pyvisa-py": {
-        "name": "python3.8-pyvisa-py-0.3.1",
+        "name": "python3.8-pyvisa-py-0.5.1",
         "pname": "python3.8-pyvisa-py",
-        "version": "0.3.1",
+        "version": "0.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -8659,7 +8659,7 @@
                 "githubId": 10198051,
                 "name": "Drew Risinger"
             },
-            "name": "python3.8-pyvisa-py-0.3.1",
+            "name": "python3.8-pyvisa-py-0.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -8681,7 +8681,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/pyvisa-py/default.nix#L36",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/pyvisa-py/default.nix#L48",
             "unfree": false,
             "unsupported": false
         },
@@ -8689,9 +8689,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qdldl": {
-        "name": "python3.8-qdldl-0.1.5",
+        "name": "python3.8-qdldl-0.1.5.post0",
         "pname": "python3.8-qdldl",
-        "version": "0.1.5",
+        "version": "0.1.5.post0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -8732,7 +8732,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qdldl-0.1.5",
+            "name": "python3.8-qdldl-0.1.5.post0",
             "outputsToInstall": [
                 "out"
             ],
@@ -9946,9 +9946,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.rpcq": {
-        "name": "python3.8-rpcq-3.8.0",
+        "name": "python3.8-rpcq-3.9.1",
         "pname": "python3.8-rpcq",
-        "version": "3.8.0",
+        "version": "3.9.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -9988,7 +9988,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-rpcq-3.8.0",
+            "name": "python3.8-rpcq-3.9.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -10195,9 +10195,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.smbus2": {
-        "name": "python3.8-smbus2-0.4.0",
+        "name": "python3.8-smbus2-0.4.1",
         "pname": "python3.8-smbus2",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10237,7 +10237,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-smbus2-0.4.0",
+            "name": "python3.8-smbus2-0.4.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -10339,9 +10339,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.yfinance": {
-        "name": "python3.8-yfinance-0.1.59",
+        "name": "python3.8-yfinance-0.1.55",
         "pname": "python3.8-yfinance",
-        "version": "0.1.59",
+        "version": "0.1.55",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10381,7 +10381,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-yfinance-0.1.59",
+            "name": "python3.8-yfinance-0.1.55",
             "outputsToInstall": [
                 "out"
             ],
@@ -10588,14 +10588,14 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.tuna": {
-        "name": "tuna-0.4.7",
+        "name": "tuna-0.5.6",
         "pname": "tuna",
-        "version": "0.4.7",
+        "version": "0.5.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nschloe/tuna/releases/tag/v0.4.7",
+            "changelog": "https://github.com/nschloe/tuna/releases/tag/v0.5.6",
             "description": "Python profile viewer",
             "homepage": "https://github.com/nschloe/tuna",
             "insecure": false,
@@ -10632,7 +10632,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "tuna-0.4.7",
+            "name": "tuna-0.5.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -10654,7 +10654,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/tuna/default.nix#L27",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/tuna/default.nix#L29",
             "unfree": false,
             "unsupported": false
         },
