@@ -51455,34 +51455,35 @@
         "_attr": "ergoscf",
         "_repo": "qchem"
     },
-    "nur.repos.qchem.f2c": {
-        "name": "f2c-20200916",
-        "pname": "f2c",
-        "version": "20200916",
+    "nur.repos.qchem.fftw-mpi": {
+        "name": "fftw-double-3.3.9",
+        "pname": "fftw-double",
+        "version": "3.3.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "description": "F2C converts Fortran 77 source code to C",
-            "homepage": "http://www.netlib.org/f2c/",
+            "description": "Fastest Fourier Transform in the West library",
+            "homepage": "http://www.fftw.org/",
             "insecure": false,
             "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
             },
             "maintainers": [
                 {
-                    "email": "markus.kowalewski@gmail.com",
-                    "github": "markuskowa",
-                    "githubId": 26470037,
-                    "name": "Markus Kowalewski"
+                    "email": "sw@swhitt.me",
+                    "github": "spwhitt",
+                    "githubId": 1414088,
+                    "name": "Spencer Whitt"
                 }
             ],
-            "name": "f2c-20200916",
+            "name": "fftw-double-3.3.9",
             "outputsToInstall": [
-                "out"
+                "out",
+                "man"
             ],
             "platforms": [
                 "i686-cygwin",
@@ -51520,11 +51521,11 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/f2c/default.nix#L22",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "f2c",
+        "_attr": "fftw-mpi",
         "_repo": "qchem"
     },
     "nur.repos.qchem.fftw": {
@@ -51598,79 +51599,6 @@
             "unsupported": false
         },
         "_attr": "fftw",
-        "_repo": "qchem"
-    },
-    "nur.repos.qchem.fftw-mpi": {
-        "name": "fftw-double-3.3.9",
-        "pname": "fftw-double",
-        "version": "3.3.9",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Fastest Fourier Transform in the West library",
-            "homepage": "http://www.fftw.org/",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v2.0 or later",
-                "shortName": "gpl2Plus",
-                "spdxId": "GPL-2.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "sw@swhitt.me",
-                    "github": "spwhitt",
-                    "githubId": 1414088,
-                    "name": "Spencer Whitt"
-                }
-            ],
-            "name": "fftw-double-3.3.9",
-            "outputsToInstall": [
-                "out",
-                "man"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "fftw-mpi",
         "_repo": "qchem"
     },
     "nur.repos.qchem.fftwSinglePrec": {
@@ -52360,14 +52288,14 @@
         "_repo": "qchem"
     },
     "nur.repos.qchem.i-pi": {
-        "name": "i-PI",
-        "pname": "i-PI",
+        "name": "i-pi",
+        "pname": "i-pi",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A universal force engine",
+            "description": "A universal force engine for ab initio and force field driven (path integral) molecular dynamics",
             "homepage": "http://ipi-code.org/",
             "insecure": false,
             "isBuildPythonPackage": [
@@ -52388,12 +52316,20 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
+            "license": [
+                {
+                    "fullName": "GNU General Public License v3.0 only",
+                    "shortName": "gpl3Only",
+                    "spdxId": "GPL-3.0-only",
+                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+                },
+                {
+                    "fullName": "MIT License",
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
             "maintainers": [
                 {
                     "email": "phillip.seeber@googlemail.com",
@@ -52402,7 +52338,7 @@
                     "name": "Phillip Seeber"
                 }
             ],
-            "name": "python3.8-i-PI",
+            "name": "python3.8-i-pi",
             "outputsToInstall": [
                 "out"
             ],
@@ -52420,7 +52356,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/i-pi/default.nix#L35",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
             "unfree": false,
             "unsupported": false
         },
@@ -53289,56 +53225,6 @@
         "_attr": "multiwfn",
         "_repo": "qchem"
     },
-    "nur.repos.qchem.mvapich": {
-        "name": "mvapich-2.3.6",
-        "pname": "mvapich",
-        "version": "2.3.6",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "MPI-3.1 implementation optimized for Infiband transport",
-            "homepage": "http://mvapich.cse.ohio-state.edu",
-            "insecure": false,
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "maintainers": [
-                {
-                    "email": "markus.kowalewski@gmail.com",
-                    "github": "markuskowa",
-                    "githubId": 26470037,
-                    "name": "Markus Kowalewski"
-                }
-            ],
-            "name": "mvapich-2.3.6",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/mvapich/default.nix#L74",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "mvapich",
-        "_repo": "qchem"
-    },
     "nur.repos.qchem.nwchem": {
         "name": "nwchem-7.0.2",
         "pname": "nwchem",
@@ -53857,26 +53743,24 @@
             "homepage": "https://pcmsolver.readthedocs.io/en/stable/",
             "insecure": false,
             "license": {
-                "deprecated": true,
-                "fullName": "GNU Lesser General Public License v3.0",
-                "shortName": "lgpl3",
-                "spdxId": "LGPL-3.0",
-                "url": "https://spdx.org/licenses/LGPL-3.0.html"
+                "fullName": "GNU Lesser General Public License v3.0 only",
+                "shortName": "lgpl3Only",
+                "spdxId": "LGPL-3.0-only",
+                "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
+            "maintainers": [
+                {
+                    "email": "phillip.seeber@googlemail.com",
+                    "github": "sheepforce",
+                    "githubId": 16844216,
+                    "name": "Phillip Seeber"
+                }
+            ],
             "name": "pcmsolver-1.3.0",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
                 "aarch64-linux",
                 "armv5tel-linux",
                 "armv6l-linux",
@@ -53888,22 +53772,9 @@
                 "powerpc64le-linux",
                 "riscv32-linux",
                 "riscv64-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
+                "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/pcmsolver/default.nix#L38",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
             "unfree": false,
             "unsupported": false
         },
