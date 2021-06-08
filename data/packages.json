@@ -5927,14 +5927,14 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.libcint": {
-        "name": "libcint-4.4.0",
+        "name": "libcint-4.4.1",
         "pname": "libcint",
-        "version": "4.4.0",
+        "version": "4.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/sunqm/libcint/releases/tag/v4.4.0",
+            "changelog": "https://github.com/sunqm/libcint/releases/tag/v4.4.1",
             "description": "General GTO integrals for quantum chemistry",
             "downloadPage": "https://github.com/sunqm/libcint",
             "homepage": "http://wiki.sunqm.net/libcint",
@@ -5954,7 +5954,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "libcint-4.4.0",
+            "name": "libcint-4.4.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -6769,9 +6769,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.docplex": {
-        "name": "python3.8-docplex-2.20.204",
+        "name": "python3.8-docplex-2.21.207",
         "pname": "python3.8-docplex",
-        "version": "2.20.204",
+        "version": "2.21.207",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6811,7 +6811,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-docplex-2.20.204",
+            "name": "python3.8-docplex-2.21.207",
             "outputsToInstall": [
                 "out"
             ],
