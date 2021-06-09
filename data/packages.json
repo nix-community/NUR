@@ -17102,9 +17102,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1768",
+        "name": "yuzu-ea-1769",
         "pname": "yuzu-ea",
-        "version": "1768",
+        "version": "1769",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17133,7 +17133,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1768",
+            "name": "yuzu-ea-1769",
             "outputsToInstall": [
                 "out"
             ],
@@ -17159,9 +17159,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-648",
+        "name": "yuzu-mainline-649",
         "pname": "yuzu-mainline",
-        "version": "648",
+        "version": "649",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17190,7 +17190,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-648",
+            "name": "yuzu-mainline-649",
             "outputsToInstall": [
                 "out"
             ],
@@ -47106,6 +47106,3355 @@
         },
         "_attr": "spotify-adblock-linux",
         "_repo": "milahu"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-10": {
+        "name": "adoptopenjdk-hotspot-bin-10.0.2",
+        "pname": "adoptopenjdk-hotspot-bin",
+        "version": "10.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-hotspot-bin-10.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-hotspot-bin-10",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-11": {
+        "name": "adoptopenjdk-hotspot-bin-11.0.11",
+        "pname": "adoptopenjdk-hotspot-bin",
+        "version": "11.0.11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-hotspot-bin-11.0.11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-hotspot-bin-11",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-12": {
+        "name": "adoptopenjdk-hotspot-bin-12.0.2",
+        "pname": "adoptopenjdk-hotspot-bin",
+        "version": "12.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-hotspot-bin-12.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-hotspot-bin-12",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-13": {
+        "name": "adoptopenjdk-hotspot-bin-13.0.2",
+        "pname": "adoptopenjdk-hotspot-bin",
+        "version": "13.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-hotspot-bin-13.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-hotspot-bin-13",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-14": {
+        "name": "adoptopenjdk-hotspot-bin-14.0.2",
+        "pname": "adoptopenjdk-hotspot-bin",
+        "version": "14.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-hotspot-bin-14.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-hotspot-bin-14",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-15": {
+        "name": "adoptopenjdk-hotspot-bin-15.0.2",
+        "pname": "adoptopenjdk-hotspot-bin",
+        "version": "15.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-hotspot-bin-15.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-hotspot-bin-15",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-16": {
+        "name": "adoptopenjdk-hotspot-bin-16.0.1",
+        "pname": "adoptopenjdk-hotspot-bin",
+        "version": "16.0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-hotspot-bin-16.0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-hotspot-bin-16",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-hotspot-bin-8": {
+        "name": "adoptopenjdk-hotspot-bin-8.0.292",
+        "pname": "adoptopenjdk-hotspot-bin",
+        "version": "8.0.292",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-hotspot-bin-8.0.292",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-hotspot-bin-8",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-10": {
+        "name": "adoptopenjdk-jre-hotspot-bin-10.0.2",
+        "pname": "adoptopenjdk-jre-hotspot-bin",
+        "version": "10.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-hotspot-bin-10.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-hotspot-bin-10",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-11": {
+        "name": "adoptopenjdk-jre-hotspot-bin-11.0.11",
+        "pname": "adoptopenjdk-jre-hotspot-bin",
+        "version": "11.0.11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-hotspot-bin-11.0.11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-hotspot-bin-11",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-12": {
+        "name": "adoptopenjdk-jre-hotspot-bin-12.0.2",
+        "pname": "adoptopenjdk-jre-hotspot-bin",
+        "version": "12.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-hotspot-bin-12.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-hotspot-bin-12",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-13": {
+        "name": "adoptopenjdk-jre-hotspot-bin-13.0.2",
+        "pname": "adoptopenjdk-jre-hotspot-bin",
+        "version": "13.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-hotspot-bin-13.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-hotspot-bin-13",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-14": {
+        "name": "adoptopenjdk-jre-hotspot-bin-14.0.2",
+        "pname": "adoptopenjdk-jre-hotspot-bin",
+        "version": "14.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-hotspot-bin-14.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-hotspot-bin-14",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-15": {
+        "name": "adoptopenjdk-jre-hotspot-bin-15.0.2",
+        "pname": "adoptopenjdk-jre-hotspot-bin",
+        "version": "15.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-hotspot-bin-15.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-hotspot-bin-15",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-16": {
+        "name": "adoptopenjdk-jre-hotspot-bin-16.0.1",
+        "pname": "adoptopenjdk-jre-hotspot-bin",
+        "version": "16.0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-hotspot-bin-16.0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-hotspot-bin-16",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-hotspot-bin-8": {
+        "name": "adoptopenjdk-jre-hotspot-bin-8.0.292",
+        "pname": "adoptopenjdk-jre-hotspot-bin",
+        "version": "8.0.292",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-hotspot-bin-8.0.292",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv6l-linux",
+                "armv7l-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-hotspot-bin-8",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-11": {
+        "name": "adoptopenjdk-jre-openj9-bin-11.0.11",
+        "pname": "adoptopenjdk-jre-openj9-bin",
+        "version": "11.0.11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-openj9-bin-11.0.11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-openj9-bin-11",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-12": {
+        "name": "adoptopenjdk-jre-openj9-bin-12.0.2",
+        "pname": "adoptopenjdk-jre-openj9-bin",
+        "version": "12.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-openj9-bin-12.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-openj9-bin-12",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-13": {
+        "name": "adoptopenjdk-jre-openj9-bin-13.0.2",
+        "pname": "adoptopenjdk-jre-openj9-bin",
+        "version": "13.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-openj9-bin-13.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-openj9-bin-13",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-14": {
+        "name": "adoptopenjdk-jre-openj9-bin-14.0.2",
+        "pname": "adoptopenjdk-jre-openj9-bin",
+        "version": "14.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-openj9-bin-14.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-openj9-bin-14",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-15": {
+        "name": "adoptopenjdk-jre-openj9-bin-15.0.2",
+        "pname": "adoptopenjdk-jre-openj9-bin",
+        "version": "15.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-openj9-bin-15.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-openj9-bin-15",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-jre-openj9-bin-8": {
+        "name": "adoptopenjdk-jre-openj9-bin-8.0.292",
+        "pname": "adoptopenjdk-jre-openj9-bin",
+        "version": "8.0.292",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-jre-openj9-bin-8.0.292",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-jre-openj9-bin-8",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-openj9-bin-11": {
+        "name": "adoptopenjdk-openj9-bin-11.0.11",
+        "pname": "adoptopenjdk-openj9-bin",
+        "version": "11.0.11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-openj9-bin-11.0.11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-openj9-bin-11",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-openj9-bin-12": {
+        "name": "adoptopenjdk-openj9-bin-12.0.2",
+        "pname": "adoptopenjdk-openj9-bin",
+        "version": "12.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-openj9-bin-12.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-openj9-bin-12",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-openj9-bin-13": {
+        "name": "adoptopenjdk-openj9-bin-13.0.2",
+        "pname": "adoptopenjdk-openj9-bin",
+        "version": "13.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-openj9-bin-13.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-openj9-bin-13",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-openj9-bin-14": {
+        "name": "adoptopenjdk-openj9-bin-14.0.2",
+        "pname": "adoptopenjdk-openj9-bin",
+        "version": "14.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-openj9-bin-14.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-openj9-bin-14",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-openj9-bin-15": {
+        "name": "adoptopenjdk-openj9-bin-15.0.2",
+        "pname": "adoptopenjdk-openj9-bin",
+        "version": "15.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-openj9-bin-15.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-openj9-bin-15",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.adoptopenjdk-openj9-bin-8": {
+        "name": "adoptopenjdk-openj9-bin-8.0.292",
+        "pname": "adoptopenjdk-openj9-bin",
+        "version": "8.0.292",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "AdoptOpenJDK, prebuilt OpenJDK binary",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only (with Classpath exception)",
+                "shortName": "gpl2Classpath",
+                "spdxId": "GPL-2.0-with-classpath-exception",
+                "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                }
+            ],
+            "name": "adoptopenjdk-openj9-bin-8.0.292",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "packageType-linux",
+                "vmType-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/adoptopenjdk-bin/jdk-linux-base.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "adoptopenjdk-openj9-bin-8",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.apache-maven-3_5_4": {
+        "name": "apache-maven-3.5.4",
+        "pname": "apache-maven",
+        "version": "3.5.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Build automation tool (used primarily for Java projects)",
+            "homepage": "http://maven.apache.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "apache-maven-3.5.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/apache-maven/default.nix#L29",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "apache-maven-3_5_4",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.apache-maven-3_6_3": {
+        "name": "apache-maven-3.6.3",
+        "pname": "apache-maven",
+        "version": "3.6.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Build automation tool (used primarily for Java projects)",
+            "homepage": "http://maven.apache.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "apache-maven-3.6.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/apache-maven/default.nix#L29",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "apache-maven-3_6_3",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.cubyz-launcher-0_2": {
+        "name": "cubyz-launcher-0.2",
+        "pname": "cubyz-launcher",
+        "version": "0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "cubyz-launcher-0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/cubyz-launcher/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "cubyz-launcher-0_2",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.gradle-4_10_3": {
+        "name": "gradle-4.10.3",
+        "pname": "gradle",
+        "version": "4.10.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Enterprise-grade build system",
+            "homepage": "http://www.gradle.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Gradle is a build system which offers you ease, power and freedom.\nYou can choose the balance for yourself. It has powerful multi-project\nbuild support. It has a layer on top of Ivy that provides a\nbuild-by-convention integration for Ivy. It gives you always the choice\nbetween the flexibility of Ant and the convenience of a\nbuild-by-convention behavior.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "gradle-4.10.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/gradle/default.nix#L45",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gradle-4_10_3",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.gradle-5_6_4": {
+        "name": "gradle-5.6.4",
+        "pname": "gradle",
+        "version": "5.6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Enterprise-grade build system",
+            "homepage": "http://www.gradle.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Gradle is a build system which offers you ease, power and freedom.\nYou can choose the balance for yourself. It has powerful multi-project\nbuild support. It has a layer on top of Ivy that provides a\nbuild-by-convention integration for Ivy. It gives you always the choice\nbetween the flexibility of Ant and the convenience of a\nbuild-by-convention behavior.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "gradle-5.6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/gradle/default.nix#L45",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gradle-5_6_4",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.gradle-6_2_2": {
+        "name": "gradle-6.2.2",
+        "pname": "gradle",
+        "version": "6.2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Enterprise-grade build system",
+            "homepage": "http://www.gradle.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Gradle is a build system which offers you ease, power and freedom.\nYou can choose the balance for yourself. It has powerful multi-project\nbuild support. It has a layer on top of Ivy that provides a\nbuild-by-convention integration for Ivy. It gives you always the choice\nbetween the flexibility of Ant and the convenience of a\nbuild-by-convention behavior.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "gradle-6.2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/gradle/default.nix#L45",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gradle-6_2_2",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.gradle-6_3": {
+        "name": "gradle-6.3",
+        "pname": "gradle",
+        "version": "6.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Enterprise-grade build system",
+            "homepage": "http://www.gradle.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Gradle is a build system which offers you ease, power and freedom.\nYou can choose the balance for yourself. It has powerful multi-project\nbuild support. It has a layer on top of Ivy that provides a\nbuild-by-convention integration for Ivy. It gives you always the choice\nbetween the flexibility of Ant and the convenience of a\nbuild-by-convention behavior.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "gradle-6.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/gradle/default.nix#L45",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gradle-6_3",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.gradle-6_4": {
+        "name": "gradle-6.4",
+        "pname": "gradle",
+        "version": "6.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Enterprise-grade build system",
+            "homepage": "http://www.gradle.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Gradle is a build system which offers you ease, power and freedom.\nYou can choose the balance for yourself. It has powerful multi-project\nbuild support. It has a layer on top of Ivy that provides a\nbuild-by-convention integration for Ivy. It gives you always the choice\nbetween the flexibility of Ant and the convenience of a\nbuild-by-convention behavior.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "gradle-6.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/gradle/default.nix#L45",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gradle-6_4",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.gradle-6_7_1": {
+        "name": "gradle-6.7.1",
+        "pname": "gradle",
+        "version": "6.7.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Enterprise-grade build system",
+            "homepage": "http://www.gradle.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Gradle is a build system which offers you ease, power and freedom.\nYou can choose the balance for yourself. It has powerful multi-project\nbuild support. It has a layer on top of Ivy that provides a\nbuild-by-convention integration for Ivy. It gives you always the choice\nbetween the flexibility of Ant and the convenience of a\nbuild-by-convention behavior.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "gradle-6.7.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/gradle/default.nix#L45",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gradle-6_7_1",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.groovy-2_4_19": {
+        "name": "groovy-2.4.19",
+        "pname": "groovy",
+        "version": "2.4.19",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An agile dynamic language for the Java Platform",
+            "homepage": "http://groovy-lang.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "groovy-2.4.19",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/groovy/default.nix#L32",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "groovy-2_4_19",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.groovy-2_4_21": {
+        "name": "groovy-2.4.21",
+        "pname": "groovy",
+        "version": "2.4.21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An agile dynamic language for the Java Platform",
+            "homepage": "http://groovy-lang.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "groovy-2.4.21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/groovy/default.nix#L32",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "groovy-2_4_21",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.groovy-2_5_10": {
+        "name": "groovy-2.5.10",
+        "pname": "groovy",
+        "version": "2.5.10",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An agile dynamic language for the Java Platform",
+            "homepage": "http://groovy-lang.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "groovy-2.5.10",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/groovy/default.nix#L32",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "groovy-2_5_10",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.groovy-2_5_11": {
+        "name": "groovy-2.5.11",
+        "pname": "groovy",
+        "version": "2.5.11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An agile dynamic language for the Java Platform",
+            "homepage": "http://groovy-lang.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "groovy-2.5.11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/groovy/default.nix#L32",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "groovy-2_5_11",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.groovy-2_5_14": {
+        "name": "groovy-2.5.14",
+        "pname": "groovy",
+        "version": "2.5.14",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An agile dynamic language for the Java Platform",
+            "homepage": "http://groovy-lang.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "groovy-2.5.14",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/groovy/default.nix#L32",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "groovy-2_5_14",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.groovy-3_0_2": {
+        "name": "groovy-3.0.2",
+        "pname": "groovy",
+        "version": "3.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An agile dynamic language for the Java Platform",
+            "homepage": "http://groovy-lang.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "groovy-3.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/groovy/default.nix#L32",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "groovy-3_0_2",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.groovy-3_0_3": {
+        "name": "groovy-3.0.3",
+        "pname": "groovy",
+        "version": "3.0.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An agile dynamic language for the Java Platform",
+            "homepage": "http://groovy-lang.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "groovy-3.0.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/groovy/default.nix#L32",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "groovy-3_0_3",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.groovy-3_0_7": {
+        "name": "groovy-3.0.7",
+        "pname": "groovy",
+        "version": "3.0.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An agile dynamic language for the Java Platform",
+            "homepage": "http://groovy-lang.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "groovy-3.0.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/groovy/default.nix#L32",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "groovy-3_0_7",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.groovy-4_0_0-alpha-2": {
+        "name": "groovy-4.0.0-alpha-2",
+        "pname": "groovy",
+        "version": "4.0.0-alpha-2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An agile dynamic language for the Java Platform",
+            "homepage": "http://groovy-lang.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "groovy-4.0.0-alpha-2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/groovy4/default.nix#L32",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "groovy-4_0_0-alpha-2",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.jbang-0_58_0": {
+        "name": "jbang-0.58.0",
+        "pname": "jbang",
+        "version": "0.58.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Run java as scripts anywhere",
+            "homepage": "https://https://www.jbang.dev/",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "jbang uses the java language to build scripts similar to groovy scripts. Dependencies are automatically\ndownloaded and the java code runs.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "jbang-0.58.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/jbang/default.nix#L27",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "jbang-0_58_0",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.micronaut-1_3_4": {
+        "name": "micronaut-1.3.4",
+        "pname": "micronaut",
+        "version": "1.3.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Modern, JVM-based, full-stack framework for building microservice applications",
+            "homepage": "https://micronaut.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Micronaut is a modern, JVM-based, full stack microservices framework\ndesigned for building modular, easily testable microservice applications.\nReflection-based IoC frameworks load and cache reflection data for\nevery single field, method, and constructor in your code, whereas with\nMicronaut, your application startup time and memory consumption are\nnot bound to the size of your codebase.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "micronaut-1.3.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/micronaut/default.nix#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "micronaut-1_3_4",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.micronaut-1_3_5": {
+        "name": "micronaut-1.3.5",
+        "pname": "micronaut",
+        "version": "1.3.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Modern, JVM-based, full-stack framework for building microservice applications",
+            "homepage": "https://micronaut.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Micronaut is a modern, JVM-based, full stack microservices framework\ndesigned for building modular, easily testable microservice applications.\nReflection-based IoC frameworks load and cache reflection data for\nevery single field, method, and constructor in your code, whereas with\nMicronaut, your application startup time and memory consumption are\nnot bound to the size of your codebase.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "micronaut-1.3.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/micronaut/default.nix#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "micronaut-1_3_5",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.micronaut-cli-2_2_2": {
+        "name": "micronaut-cli-2.2.2",
+        "pname": "micronaut-cli",
+        "version": "2.2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Modern, JVM-based, full-stack framework for building microservice applications",
+            "homepage": "https://micronaut.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Micronaut is a modern, JVM-based, full stack microservices framework\ndesigned for building modular, easily testable microservice applications.\nReflection-based IoC frameworks load and cache reflection data for\nevery single field, method, and constructor in your code, whereas with\nMicronaut, your application startup time and memory consumption are\nnot bound to the size of your codebase.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "micronaut-cli-2.2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/micronaut-cli/default.nix#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "micronaut-cli-2_2_2",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.micronaut-cli-2_4_2": {
+        "name": "micronaut-cli-2.4.2",
+        "pname": "micronaut-cli",
+        "version": "2.4.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Modern, JVM-based, full-stack framework for building microservice applications",
+            "homepage": "https://micronaut.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Micronaut is a modern, JVM-based, full stack microservices framework\ndesigned for building modular, easily testable microservice applications.\nReflection-based IoC frameworks load and cache reflection data for\nevery single field, method, and constructor in your code, whereas with\nMicronaut, your application startup time and memory consumption are\nnot bound to the size of your codebase.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "micronaut-cli-2.4.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/micronaut-cli/default.nix#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "micronaut-cli-2_4_2",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.netbeans-11_3": {
+        "name": "netbeans-11.3",
+        "pname": "netbeans",
+        "version": "11.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "An integrated development environment for Java, C, C++ and PHP",
+            "homepage": "https://netbeans.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                },
+                {
+                    "email": "s.vanderburg@tudelft.nl",
+                    "github": "svanderburg",
+                    "githubId": 1153271,
+                    "name": "Sander van der Burg"
+                },
+                {
+                    "email": "richard@szibele.com",
+                    "github": "rszibele",
+                    "githubId": 1387224,
+                    "name": "Richard Szibele"
+                }
+            ],
+            "name": "netbeans-11.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/netbeans/default.nix#L68",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "netbeans-11_3",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.spring-boot-cli-2_2_6": {
+        "name": "spring-boot-cli-2.2.6",
+        "pname": "spring-boot-cli",
+        "version": "2.2.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "CLI which makes it easy to create spring-based applications\n",
+            "homepage": "https://spring.io/projects/spring-boot",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Spring Boot makes it easy to create stand-alone, production-grade\nSpring-based Applications that you can run. We take an opinionated view\nof the Spring platform and third-party libraries, so that you can get\nstarted with minimum fuss. Most Spring Boot applications need very\nlittle Spring configuration.\n\nYou can use Spring Boot to create Java applications that can be started\nby using java -jar or more traditional war deployments. We also provide\na command line tool that runs \u201cspring scripts\u201d.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "spring-boot-cli-2.2.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/spring-boot-cli/default.nix#L28",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "spring-boot-cli-2_2_6",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.spring-boot-cli-2_2_7": {
+        "name": "spring-boot-cli-2.2.7",
+        "pname": "spring-boot-cli",
+        "version": "2.2.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "CLI which makes it easy to create spring-based applications\n",
+            "homepage": "https://spring.io/projects/spring-boot",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Spring Boot makes it easy to create stand-alone, production-grade\nSpring-based Applications that you can run. We take an opinionated view\nof the Spring platform and third-party libraries, so that you can get\nstarted with minimum fuss. Most Spring Boot applications need very\nlittle Spring configuration.\n\nYou can use Spring Boot to create Java applications that can be started\nby using java -jar or more traditional war deployments. We also provide\na command line tool that runs \u201cspring scripts\u201d.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "spring-boot-cli-2.2.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/spring-boot-cli/default.nix#L28",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "spring-boot-cli-2_2_7",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.spring-boot-cli-2_4_1": {
+        "name": "spring-boot-cli-2.4.1",
+        "pname": "spring-boot-cli",
+        "version": "2.4.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "CLI which makes it easy to create spring-based applications\n",
+            "homepage": "https://spring.io/projects/spring-boot",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "longDescription": "Spring Boot makes it easy to create stand-alone, production-grade\nSpring-based Applications that you can run. We take an opinionated view\nof the Spring platform and third-party libraries, so that you can get\nstarted with minimum fuss. Most Spring Boot applications need very\nlittle Spring configuration.\n\nYou can use Spring Boot to create Java applications that can be started\nby using java -jar or more traditional war deployments. We also provide\na command line tool that runs \u201cspring scripts\u201d.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "spring-boot-cli-2.4.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/spring-boot-cli/default.nix#L28",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "spring-boot-cli-2_4_1",
+        "_repo": "moaxcp"
+    },
+    "nur.repos.moaxcp.stm32cubemx-4_27_0": {
+        "name": "stm32cubemx-4.27.0",
+        "pname": "stm32cubemx",
+        "version": "4.27.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "A graphical tool for configuring STM32 microcontrollers and microprocessors",
+            "homepage": "https://www.st.com/en/development-tools/stm32cubemx.html",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "longDescription": "A graphical tool that allows a very easy configuration of STM32\nmicrocontrollers and microprocessors, as well as the generation of the\ncorresponding initialization C code for the Arm\u00ae Cortex\u00ae-M core or a\npartial Linux\u00ae Device Tree for Arm\u00ae Cortex\u00ae-A core), through a\nstep-by-step process.\n",
+            "maintainers": [
+                {
+                    "email": "moaxcp@gmail.com",
+                    "github": "moaxcp",
+                    "githubId": 7831184,
+                    "name": "John Mercier"
+                }
+            ],
+            "name": "stm32cubemx-4.27.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moaxcp/pkgs/stm32cubemx/default.nix#L53",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "stm32cubemx-4_27_0",
+        "_repo": "moaxcp"
     },
     "nur.repos.moredhel.emacs": {
         "name": "emacs-dfb0ba7",
@@ -80447,6 +83796,994 @@
         },
         "_attr": "qemu_kvm",
         "_repo": "vroad"
+    },
+    "nur.repos.xe.cabytcini": {
+        "name": "cabytcini-0.3.0",
+        "pname": "cabytcini",
+        "version": "0.3.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "lo mi cabytcini cankyuijde",
+            "homepage": "https://tulpa.dev/cadey/cabytcini",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "cabytcini-0.3.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/cabytcini/default.nix#L21",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "cabytcini",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.comma": {
+        "name": "comma",
+        "pname": "comma",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "comma",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/comma/default.nix#L39",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "comma",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.deno": {
+        "name": "deno-bin-1.0.2",
+        "pname": "deno-bin",
+        "version": "1.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A secure runtime for JavaScript and TypeScript",
+            "homepage": "https://deno.land",
+            "insecure": false,
+            "name": "deno-bin-1.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/deno/default.nix#L25",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "deno",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.girara": {
+        "name": "girara-0.3.4",
+        "pname": "girara",
+        "version": "0.3.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "User interface library",
+            "homepage": "https://git.pwmt.org/pwmt/girara",
+            "insecure": false,
+            "license": {
+                "fullName": "zlib License",
+                "shortName": "zlib",
+                "spdxId": "Zlib",
+                "url": "https://spdx.org/licenses/Zlib.html"
+            },
+            "longDescription": "girara is a library that implements a GTK based VIM-like user interface\nthat focuses on simplicity and minimalism.\n",
+            "maintainers": [],
+            "name": "girara-0.3.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/girara/default.nix#L37",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "girara",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.gopls": {
+        "name": "gopls-git",
+        "pname": "gopls-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "homepage": "https://golang.org/x/tools",
+            "insecure": false,
+            "name": "gopls-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/gopls/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gopls",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.gruvbox-css": {
+        "name": "gruvbox-css",
+        "pname": "gruvbox-css",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "gruvbox-css",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/gruvbox-css/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gruvbox-css",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.hewwo": {
+        "name": "hewwo-watest",
+        "pname": "hewwo-watest",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "hewwo-watest",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/hewwo/default.nix#L18",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "hewwo",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.ii": {
+        "name": "ii-1.8",
+        "pname": "ii",
+        "version": "1.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Irc it, simple FIFO based irc client",
+            "homepage": "https://tools.suckless.org/ii/",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "ii-1.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/ii/default.nix#L22",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "ii",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.ix": {
+        "name": "ix",
+        "pname": "ix",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "command line pastebin",
+            "homepage": "https://ix.io",
+            "insecure": false,
+            "name": "ix",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/ix/default.nix#L22",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "ix",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.johaus": {
+        "name": "johaus-1.1.0",
+        "pname": "johaus",
+        "version": "1.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "johaus-1.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/johaus/default.nix#L14",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "johaus",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.jvozba": {
+        "name": "jvozba-0.1.1",
+        "pname": "jvozba",
+        "version": "0.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "jvozba-0.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/jvozba/default.nix#L14",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "jvozba",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.lchat": {
+        "name": "lchat-git",
+        "pname": "lchat-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "lchat-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/lchat/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "lchat",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.libutf": {
+        "name": "libutf-git",
+        "pname": "libutf-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "libutf-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/libutf/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "libutf",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.luakit": {
+        "name": "luakit-git",
+        "pname": "luakit-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Fast, small, webkit based browser framework extensible in Lua",
+            "homepage": "https://luakit.github.io/",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "name": "luakit-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/luakit/default.nix#L55",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "luakit",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.microsoft-edge-dev": {
+        "name": "microsoft-edge-dev-88.0.673.0",
+        "pname": "microsoft-edge-dev",
+        "version": "88.0.673.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Microsoft's fork of Chromium web browser",
+            "homepage": "https://www.microsoftedgeinsider.com/en-us/",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "zanculmarktum@gmail.com",
+                    "name": "Azure Zanculmarktum"
+                }
+            ],
+            "name": "microsoft-edge-dev-88.0.673.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/microsoft-edge-dev/default.nix#L138",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "microsoft-edge-dev",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.minica": {
+        "name": "minica-1.0.2",
+        "pname": "minica",
+        "version": "1.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "minica-1.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/minica/default.nix#L14",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "minica",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.nix-simple-deploy": {
+        "name": "nix-simple-deploy-0.1.1",
+        "pname": "nix-simple-deploy",
+        "version": "0.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Deploy software or an entire NixOS system configuration to another NixOS system",
+            "homepage": "https://github.com/misuzu/nix-simple-deploy",
+            "insecure": false,
+            "license": [
+                {
+                    "fullName": "MIT License",
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "bakalolka@gmail.com",
+                    "github": "misuzu",
+                    "githubId": 248143,
+                    "name": "misuzu"
+                }
+            ],
+            "name": "nix-simple-deploy-0.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/nix-simple-deploy/default.nix#L18",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "nix-simple-deploy",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.orca": {
+        "name": "orca-git",
+        "pname": "orca-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "orca-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/orca/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "orca",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.pridecat": {
+        "name": "pridecat-git",
+        "pname": "pridecat-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "pridecat-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/pridecat/default.nix#L7",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "pridecat",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.quickserv": {
+        "name": "quickserv-0.1.0",
+        "pname": "quickserv",
+        "version": "0.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A quick HTTP server for when you've given up on life",
+            "homepage": "https://tulpa.dev/Xe/quickserv",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "quickserv-0.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/quickserv/default.nix#L18",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "quickserv",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.sctd": {
+        "name": "sctd-0.1.2",
+        "pname": "sctd",
+        "version": "0.1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "set color temperature daemon ",
+            "homepage": "https://github.com/amir/sctd",
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "sctd-0.1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/sctd/default.nix#L18",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "sctd",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.sm64pc": {
+        "name": "sm64pc-latest",
+        "pname": "sm64pc-latest",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Super Mario 64 PC port, requires rom :)",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "sm64pc-latest",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/sm64pc/default.nix#L51",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "sm64pc",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.steno-lookup": {
+        "name": "steno-lookup-0.1.0",
+        "pname": "steno-lookup",
+        "version": "0.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "me@christine.website",
+                    "github": "Xe",
+                    "githubId": 529003,
+                    "name": "Christine Dodrill"
+                }
+            ],
+            "name": "steno-lookup-0.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/steno-lookup/default.nix#L7",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "steno-lookup",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.sw": {
+        "name": "sw-git",
+        "pname": "sw-git",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "sw-git",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/sw/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "sw",
+        "_repo": "xe"
+    },
+    "nur.repos.xe.zathura": {
+        "name": "zathura-with-plugins-0.4.5",
+        "pname": "zathura-with-plugins",
+        "version": "0.4.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A highly customizable and functional PDF viewer",
+            "homepage": "https://git.pwmt.org/pwmt/zathura/",
+            "insecure": false,
+            "license": {
+                "fullName": "zlib License",
+                "shortName": "zlib",
+                "spdxId": "Zlib",
+                "url": "https://spdx.org/licenses/Zlib.html"
+            },
+            "longDescription": "Zathura is a highly customizable and functional PDF viewer based on the\npoppler rendering library and the GTK toolkit. The idea behind zathura\nis an application that provides a minimalistic and space saving interface\nas well as an easy usage that mainly focuses on keyboard interaction.\n",
+            "maintainers": [
+                {
+                    "email": "grrwlf@gmail.com",
+                    "github": "grwlf",
+                    "githubId": 4477729,
+                    "name": "Sergey Mironov"
+                },
+                {
+                    "email": "mail@glob.in",
+                    "github": "globin",
+                    "githubId": 1447245,
+                    "name": "Robin Gloster"
+                }
+            ],
+            "name": "zathura-with-plugins-0.4.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xe/pkgs/zathura/wrapper.nix#L23",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "zathura",
+        "_repo": "xe"
     },
     "nur.repos.xeals.alacritty-ligatures": {
         "name": "alacritty-ligatures-0.7.2.20210209.g3ed0430",
