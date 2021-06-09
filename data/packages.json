@@ -11303,6 +11303,43 @@
         "_attr": "nvd",
         "_repo": "dschrempf"
     },
+    "nur.repos.dschrempf.phylobayes": {
+        "name": "phylobayes-4.1e",
+        "pname": "phylobayes",
+        "version": "4.1e",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Phylogenetic reconstruction using infinite mixtures",
+            "homepage": "http://www.atgc-montpellier.fr/phylobayes/",
+            "insecure": false,
+            "license": null,
+            "maintainers": [
+                {
+                    "email": "dominik.schrempf@gmail.com",
+                    "github": "dschrempf",
+                    "githubId": 5596239,
+                    "keys": [
+                        {
+                            "fingerprint": "62BC E2BD 49DF ECC7 35C7  E153 875F 2BCF 163F 1B29",
+                            "longkeyid": "rsa2048/0x875F2BCF163F1B29"
+                        }
+                    ],
+                    "name": "Dominik Schrempf"
+                }
+            ],
+            "name": "phylobayes-4.1e",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dschrempf/pkgs/evolution/phylobayes/default.nix#L28",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "phylobayes",
+        "_repo": "dschrempf"
+    },
     "nur.repos.dschrempf.biblib": {
         "name": "python3.8-biblib-0.1.1",
         "pname": "python3.8-biblib",
@@ -36070,14 +36107,14 @@
         "_repo": "j-k"
     },
     "nur.repos.j-k.infracost": {
-        "name": "infracost-0.8.1",
+        "name": "infracost-0.9.0",
         "pname": "infracost",
-        "version": "0.8.1",
+        "version": "0.9.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/infracost/infracost/releases/tag/v0.8.1",
+            "changelog": "https://github.com/infracost/infracost/releases/tag/v0.9.0",
             "description": "Cloud cost estimates for Terraform in your CLI and pull requests",
             "homepage": "https://infracost.io",
             "insecure": false,
@@ -36102,7 +36139,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "infracost-0.8.1",
+            "name": "infracost-0.9.0",
             "outputsToInstall": [
                 "out"
             ],
