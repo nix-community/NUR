@@ -53904,9 +53904,9 @@
         "_repo": "qchem"
     },
     "nur.repos.qchem.pysisyphus": {
-        "name": "pysisyphus-0.7rc1",
+        "name": "pysisyphus-0.7",
         "pname": "pysisyphus",
-        "version": "0.7rc1",
+        "version": "0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53947,7 +53947,7 @@
                     "name": "Phillip Seeber"
                 }
             ],
-            "name": "python3.8-pysisyphus-0.7rc1",
+            "name": "python3.8-pysisyphus-0.7",
             "outputsToInstall": [
                 "out"
             ],
