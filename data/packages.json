@@ -56687,9 +56687,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.duckduckgo-privacy-essentials": {
-        "name": "duckduckgo-privacy-essentials-2021.5.10",
+        "name": "duckduckgo-privacy-essentials-2021.6.2",
         "pname": "duckduckgo-privacy-essentials",
-        "version": "2021.5.10",
+        "version": "2021.6.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -56703,7 +56703,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "duckduckgo-privacy-essentials-2021.5.10",
+            "name": "duckduckgo-privacy-essentials-2021.6.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -59327,9 +59327,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.localcdn": {
-        "name": "localcdn-2.6.7",
+        "name": "localcdn-2.6.8",
         "pname": "localcdn",
-        "version": "2.6.7",
+        "version": "2.6.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -59343,7 +59343,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "localcdn-2.6.7",
+            "name": "localcdn-2.6.8",
             "outputsToInstall": [
                 "out"
             ],
@@ -60404,9 +60404,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-7.0.3",
+        "name": "octotree-7.0.4",
         "pname": "octotree",
-        "version": "7.0.3",
+        "version": "7.0.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -60414,7 +60414,7 @@
             "description": "GitHub on steroids",
             "homepage": "https://github.com/buunguyen/octotree/",
             "insecure": false,
-            "name": "octotree-7.0.3",
+            "name": "octotree-7.0.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -62011,9 +62011,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-21.6.1",
+        "name": "refined-github-21.6.8",
         "pname": "refined-github",
-        "version": "21.6.1",
+        "version": "21.6.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -62027,7 +62027,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-21.6.1",
+            "name": "refined-github-21.6.8",
             "outputsToInstall": [
                 "out"
             ],
