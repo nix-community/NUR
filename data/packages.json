@@ -86518,5 +86518,652 @@
         },
         "_attr": "xcodeproj",
         "_repo": "zachcoyle"
+    },
+    "nur.repos.zeratax.bukkitPlugins.dynmap": {
+        "name": "dynmap-3.1-beta-7",
+        "pname": "dynmap",
+        "version": "3.1-beta-7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": " A set of Minecraft mods that provide a real time web-based map system for various Minecraft server implementations.",
+            "homepage": "https://github.com/webbukkit/dynmap",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "dynmap-3.1-beta-7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/bukkit-plugins/dynmap/default.nix#L48",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "bukkitPlugins.dynmap",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.bukkitPlugins.harbor": {
+        "name": "harbor-1.6.3",
+        "pname": "harbor",
+        "version": "1.6.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Harbor is a plugin that redefines sleep within your Spigot server!",
+            "homepage": "https://github.com/nkomarn/Harbor",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "harbor-1.6.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/bukkit-plugins/harbor/default.nix#L34",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "bukkitPlugins.harbor",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.mirage-im": {
+        "name": "mirage-0.7.1",
+        "pname": "mirage",
+        "version": "0.7.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "A fancy, customizable, keyboard-operable Qt/QML+Python Matrix chat client for encrypted and decentralized communication.",
+            "homepage": "https://github.com/mirukana/mirage/",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU Lesser General Public License v3.0",
+                "shortName": "lgpl3",
+                "spdxId": "LGPL-3.0",
+                "url": "https://spdx.org/licenses/LGPL-3.0.html"
+            },
+            "name": "mirage-0.7.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/mirage/default.nix#L54",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "mirage-im",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.myPython3Packages.aiohttp-socks": {
+        "name": "python3.8-aiohttp-socks-0.6.0",
+        "pname": "python3.8-aiohttp-socks",
+        "version": "0.6.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "SOCKS proxy connector for aiohttp",
+            "homepage": "https://github.com/romis2012/aiohttp-socks",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "python3.8-aiohttp-socks-0.6.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/development/python-modules/aiohttp-socks/default.nix#L21",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "myPython3Packages.aiohttp-socks",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.myPython3Packages.baron": {
+        "name": "python3.8-baron-0.9",
+        "pname": "python3.8-baron",
+        "version": "0.9",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Full Syntax Tree for python to make writing refactoring code a realist task.",
+            "homepage": "https://github.com/PyCQA/baron",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU Lesser General Public License v3.0 or later",
+                "shortName": "lgpl3Plus",
+                "spdxId": "LGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+            },
+            "name": "python3.8-baron-0.9",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/development/python-modules/baron/default.nix#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "myPython3Packages.baron",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.myPython3Packages.hsluv": {
+        "name": "python3.8-hsluv-5.0.2",
+        "pname": "python3.8-hsluv",
+        "version": "5.0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A Python implementation of HSLuv.",
+            "homepage": "https://www.hsluv.org/",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "python3.8-hsluv-5.0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/development/python-modules/hsluv/default.nix#L17",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "myPython3Packages.hsluv",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.matrix-registration": {
+        "name": "python3.8-matrix-registration-1.0.0.dev3",
+        "pname": "python3.8-matrix-registration",
+        "version": "1.0.0.dev3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "a token based matrix registration api",
+            "homepage": "https://github.com/ZerataX/matrix-registration/",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "name": "python3.8-matrix-registration-1.0.0.dev3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/matrix-registration/default.nix#L65",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "matrix-registration",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.myPython3Packages.plyer": {
+        "name": "python3.8-plyer-2.0.0",
+        "pname": "python3.8-plyer",
+        "version": "2.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Platform-independent wrapper for platform-dependent APIs.",
+            "homepage": "https://plyer.readthedocs.org/en/latest/",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "python3.8-plyer-2.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/development/python-modules/plyer/default.nix#L24",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "myPython3Packages.plyer",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.myPython3Packages.python-socks": {
+        "name": "python3.8-python-socks-1.2.2",
+        "pname": "python3.8-python-socks",
+        "version": "1.2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The python-socks package provides a core proxy client functionality for Python",
+            "homepage": "https://github.com/romis2012/python-socks",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "python3.8-python-socks-1.2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/development/python-modules/python-socks/default.nix#L15",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "myPython3Packages.python-socks",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.myPython3Packages.redbaron": {
+        "name": "python3.8-redbaron-0.9.2",
+        "pname": "python3.8-redbaron",
+        "version": "0.9.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Abstraction on top of baron, a FST for python to make writing refactoring code a realistic task.",
+            "homepage": "https://github.com/PyCQA/redbaron",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU Lesser General Public License v3.0 or later",
+                "shortName": "lgpl3Plus",
+                "spdxId": "LGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
+            },
+            "name": "python3.8-redbaron-0.9.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/development/python-modules/redbaron/default.nix#L29",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "myPython3Packages.redbaron",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.myPython3Packages.watchgod": {
+        "name": "python3.8-watchgod-0.7",
+        "pname": "python3.8-watchgod",
+        "version": "0.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple, modern file watching and code reload in python.",
+            "homepage": "https://github.com/samuelcolvin/watchgod",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "python3.8-watchgod-0.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/development/python-modules/watchgod/default.nix#L15",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "myPython3Packages.watchgod",
+        "_repo": "zeratax"
+    },
+    "nur.repos.zeratax.srb2": {
+        "name": "srb2-2.2.8",
+        "pname": "srb2",
+        "version": "2.2.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Sonic Robo Blast 2 is a 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy",
+            "homepage": "https://www.srb2.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "mail@zera.tax",
+                    "github": "ZerataX",
+                    "githubId": 5024958,
+                    "keys": [
+                        {
+                            "fingerprint": "44F7 B797 9D3A 27B1 89E0  841E 8333 735E 784D F9D4",
+                            "longkeyid": "rsa4096/0x8333735E784DF9D4"
+                        }
+                    ],
+                    "name": "Jona Abdinghoff"
+                }
+            ],
+            "name": "srb2-2.2.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/srb2/default.nix#L87",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "srb2",
+        "_repo": "zeratax"
     }
 }
