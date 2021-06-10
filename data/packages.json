@@ -1522,6 +1522,382 @@
         "_attr": "trust-dns",
         "_repo": "aasg"
     },
+    "nur.repos.afreakk.dcreemer-1pass": {
+        "name": "dcreemer-1pass-1.2",
+        "pname": "dcreemer",
+        "version": "1pass-1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "dcreemer-1pass-1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/pkgs/dcreemer-1pass/default.nix#L4",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "dcreemer-1pass",
+        "_repo": "afreakk"
+    },
+    "nur.repos.afreakk.dmenu-afreak": {
+        "name": "dmenu-afreak",
+        "pname": "dmenu-afreak",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "dmenu-afreak",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/pkgs/dmenu/default.nix#L22",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "dmenu-afreak",
+        "_repo": "afreakk"
+    },
+    "nur.repos.afreakk.dmenuhist": {
+        "name": "dmenuhistory",
+        "pname": "dmenuhistory",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "dmenuhistory",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/pkgs/dmenuhist/default.nix#L6",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "dmenuhist",
+        "_repo": "afreakk"
+    },
+    "nur.repos.afreakk.fish-history-merger": {
+        "name": "fish-history-merger-0.1.0",
+        "pname": "fish-history-merger",
+        "version": "0.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "homepage": "https://hackage.haskell.org/package/fish-history-merger",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "fish-history-merger-0.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/pkgs/fish-history-merger/project.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "fish-history-merger",
+        "_repo": "afreakk"
+    },
+    "nur.repos.afreakk.irc-link-informant": {
+        "name": "IRC-Link-Informant-de65edd1c877ecee55a4851a39a19e07e22ae1cc",
+        "pname": "IRC-Link-Informant-de65edd1c877ecee55a4851a39a19e07e22ae1cc",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "IRC-Link-Informant-de65edd1c877ecee55a4851a39a19e07e22ae1cc",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/pkgs/irc-link-informant/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "irc-link-informant",
+        "_repo": "afreakk"
+    },
+    "nur.repos.afreakk.qutebrowser-start-page": {
+        "name": "qutebrowser-start-page-0.1.0.0",
+        "pname": "qutebrowser-start-page",
+        "version": "0.1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "homepage": "https://hackage.haskell.org/package/qutebrowser-start-page",
+            "hydraPlatforms": [],
+            "insecure": false,
+            "license": "unknown",
+            "name": "qutebrowser-start-page-0.1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/pkgs/qutebrowser-start-page/project.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "qutebrowser-start-page",
+        "_repo": "afreakk"
+    },
+    "nur.repos.afreakk.realm-cli": {
+        "name": "realm-cli-1.2.0",
+        "pname": "realm-cli",
+        "version": "1.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "MongoDB Realm CLI",
+            "homepage": "https://github.com/10gen/realm-cli/",
+            "insecure": false,
+            "license": {
+                "fullName": "Apple Public Source License 2.0",
+                "shortName": "apsl20",
+                "spdxId": "APSL-2.0",
+                "url": "https://spdx.org/licenses/APSL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "realm-cli-1.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/pkgs/realm-cli/default.nix#L22",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "realm-cli",
+        "_repo": "afreakk"
+    },
+    "nur.repos.afreakk.strongdm": {
+        "name": "strongdm",
+        "pname": "strongdm",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "strongdm",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/pkgs/sdm/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "strongdm",
+        "_repo": "afreakk"
+    },
+    "nur.repos.afreakk.url-handler-tmux": {
+        "name": "tmuxplugin-url-handler-tmux-260432bef882b161a5a5314cdce17147af88c4c0",
+        "pname": "tmuxplugin-url-handler-tmux",
+        "version": "260432bef882b161a5a5314cdce17147af88c4c0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "tmuxplugin-url-handler-tmux-260432bef882b161a5a5314cdce17147af88c4c0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/default.nix#L18",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "url-handler-tmux",
+        "_repo": "afreakk"
+    },
+    "nur.repos.afreakk.wowup": {
+        "name": "wowup",
+        "pname": "wowup",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "wowup",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "wowup",
+        "_repo": "afreakk"
+    },
     "nur.repos.alarsyo.kaleidoscope-udev-rules": {
         "name": "kaleidoscope-udev-rules-0.8.4",
         "pname": "kaleidoscope-udev-rules",
@@ -86551,6 +86927,34 @@
         "_attr": "xcodeproj",
         "_repo": "zachcoyle"
     },
+    "nur.repos.zeratax.bukkitPlugins.discordsrv": {
+        "name": "discordsrv-1.22.0",
+        "pname": "discordsrv",
+        "version": "1.22.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Discord bridging plugin for block game.",
+            "homepage": "https://discordsrv.com",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "name": "discordsrv-1.22.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/bukkit-plugins/discordsrv/default.nix#L25",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "bukkitPlugins.discordsrv",
+        "_repo": "zeratax"
+    },
     "nur.repos.zeratax.bukkitPlugins.dynmap": {
         "name": "dynmap-3.1-beta-7",
         "pname": "dynmap",
@@ -86600,7 +87004,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/bukkit-plugins/harbor/default.nix#L34",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/bukkit-plugins/harbor/default.nix#L27",
             "unfree": false,
             "unsupported": false
         },
