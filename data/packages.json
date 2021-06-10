@@ -58263,9 +58263,9 @@
         "_repo": "qchem"
     },
     "nur.repos.qchem.xtb": {
-        "name": "xtb-6.4.0",
+        "name": "xtb-6.4.1",
         "pname": "xtb",
-        "version": "6.4.0",
+        "version": "6.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -58287,7 +58287,7 @@
                     "name": "Phillip Seeber"
                 }
             ],
-            "name": "xtb-6.4.0",
+            "name": "xtb-6.4.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -75154,9 +75154,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mapsoft": {
-        "name": "mapsoft-2021-06-07",
+        "name": "mapsoft-2021-06-10",
         "pname": "mapsoft",
-        "version": "2021-06-07",
+        "version": "2021-06-10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75185,7 +75185,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "mapsoft-2021-06-07",
+            "name": "mapsoft-2021-06-10",
             "outputsToInstall": [
                 "out"
             ],
@@ -75203,7 +75203,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gis/mapsoft/default.nix#L106",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gis/mapsoft/default.nix#L102",
             "skip": {
                 "ci": false
             },
