@@ -1522,6 +1522,38 @@
         "_attr": "trust-dns",
         "_repo": "aasg"
     },
+    "nur.repos.alarsyo.kaleidoscope-udev-rules": {
+        "name": "kaleidoscope-udev-rules-0.8.4",
+        "pname": "kaleidoscope-udev-rules",
+        "version": "0.8.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "udev rules for kaleidoscope firmware keyboards",
+            "homepage": "https://github.com/keyboardio/Chrysalis",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "name": "kaleidoscope-udev-rules-0.8.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/alarsyo/pkgs/kaleidoscope-udev-rules/default.nix#L20",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "kaleidoscope-udev-rules",
+        "_repo": "alarsyo"
+    },
     "nur.repos.alarsyo.sddm-sugar-candy": {
         "name": "sddm-sugar-candy-2b72ef6c6f720fe0ffde5ea5c7c48152e02f6c4f",
         "pname": "sddm-sugar-candy",
@@ -17102,9 +17134,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1769",
+        "name": "yuzu-ea-1773",
         "pname": "yuzu-ea",
-        "version": "1769",
+        "version": "1773",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17133,7 +17165,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1769",
+            "name": "yuzu-ea-1773",
             "outputsToInstall": [
                 "out"
             ],
@@ -17159,9 +17191,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-649",
+        "name": "yuzu-mainline-651",
         "pname": "yuzu-mainline",
-        "version": "649",
+        "version": "651",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17190,7 +17222,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-649",
+            "name": "yuzu-mainline-651",
             "outputsToInstall": [
                 "out"
             ],
