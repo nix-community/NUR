@@ -36034,6 +36034,46 @@
         "_attr": "zsh-theme-rkj-mod",
         "_repo": "izorkin"
     },
+    "nur.repos.j-k.firefox-addons._1password-x": {
+        "name": "1password-x-password-manager",
+        "pname": "1password-x-password-manager",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "1password-x-password-manager",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons._1password-x",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.auto-tab-discard": {
+        "name": "auto-tab-discard",
+        "pname": "auto-tab-discard",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "auto-tab-discard",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.auto-tab-discard",
+        "_repo": "j-k"
+    },
     "nur.repos.j-k.bane": {
         "name": "bane-0.4.4",
         "pname": "bane",
@@ -36093,6 +36133,26 @@
             "unsupported": false
         },
         "_attr": "bane",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.clearurls": {
+        "name": "clearurls",
+        "pname": "clearurls",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "clearurls",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.clearurls",
         "_repo": "j-k"
     },
     "nur.repos.j-k.comma": {
@@ -36256,6 +36316,46 @@
         "_attr": "container-diff",
         "_repo": "j-k"
     },
+    "nur.repos.j-k.firefox-addons.cors-everywhere": {
+        "name": "cors_everywhere",
+        "pname": "cors_everywhere",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "cors_everywhere",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.cors-everywhere",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.decentraleyes": {
+        "name": "decentraleyes",
+        "pname": "decentraleyes",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "decentraleyes",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.decentraleyes",
+        "_repo": "j-k"
+    },
     "nur.repos.j-k.flat-remix-theme": {
         "name": "flat-remix-theme-20201129",
         "pname": "flat-remix-theme",
@@ -36306,66 +36406,6 @@
             "unsupported": false
         },
         "_attr": "flat-remix-theme",
-        "_repo": "j-k"
-    },
-    "nur.repos.j-k.go-jira": {
-        "name": "go-jira-1.0.27",
-        "pname": "go-jira",
-        "version": "1.0.27",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Simple command line client for Atlassian's Jira service written in Go",
-            "homepage": "https://github.com/go-jira/jira",
-            "insecure": false,
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                {
-                    "email": "hello+nixpkgs@j-k.io",
-                    "github": "06kellyjac",
-                    "githubId": 9866621,
-                    "name": "Jack"
-                },
-                {
-                    "email": "wael.nasreddine@gmail.com",
-                    "github": "kalbasit",
-                    "githubId": 87115,
-                    "name": "Wael Nasreddine"
-                }
-            ],
-            "name": "go-jira-1.0.27",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/go-jira/default.nix#L26",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "go-jira",
         "_repo": "j-k"
     },
     "nur.repos.j-k.google-fonts": {
@@ -36440,6 +36480,46 @@
             "unsupported": false
         },
         "_attr": "goss",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.disable-webrtc": {
+        "name": "happy-bonobo-disable-webrtc",
+        "pname": "happy-bonobo-disable-webrtc",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "happy-bonobo-disable-webrtc",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.disable-webrtc",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.https-everywhere": {
+        "name": "https-everywhere",
+        "pname": "https-everywhere",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "https-everywhere",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.https-everywhere",
         "_repo": "j-k"
     },
     "nur.repos.j-k.hunter": {
@@ -36700,6 +36780,26 @@
         "_attr": "konstraint",
         "_repo": "j-k"
     },
+    "nur.repos.j-k.firefox-addons.laboratory-csp-toolkit": {
+        "name": "laboratory-by-mozilla",
+        "pname": "laboratory-by-mozilla",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "laboratory-by-mozilla",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.laboratory-csp-toolkit",
+        "_repo": "j-k"
+    },
     "nur.repos.j-k.nerdfont-hasklig": {
         "name": "nerdfont-hasklig-2.1.0",
         "pname": "nerdfont-hasklig",
@@ -36794,6 +36894,46 @@
         "_attr": "nerdfont-hasklig",
         "_repo": "j-k"
     },
+    "nur.repos.j-k.firefox-addons.noscript": {
+        "name": "noscript",
+        "pname": "noscript",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "noscript",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.noscript",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.preact-devtools": {
+        "name": "preact-devtools",
+        "pname": "preact-devtools",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "preact-devtools",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.preact-devtools",
+        "_repo": "j-k"
+    },
     "nur.repos.j-k.rakkess": {
         "name": "rakkess-0.4.7",
         "pname": "rakkess",
@@ -36856,6 +36996,46 @@
         "_attr": "rakkess",
         "_repo": "j-k"
     },
+    "nur.repos.j-k.firefox-addons.react-devtools": {
+        "name": "react-devtools",
+        "pname": "react-devtools",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "react-devtools",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.react-devtools",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.refined-github": {
+        "name": "refined-github-",
+        "pname": "refined-github-",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "refined-github-",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.refined-github",
+        "_repo": "j-k"
+    },
     "nur.repos.j-k.scorecard": {
         "name": "scorecard-1.2.0",
         "pname": "scorecard",
@@ -36915,6 +37095,26 @@
             "unsupported": false
         },
         "_attr": "scorecard",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.stylus": {
+        "name": "sty-lus",
+        "pname": "sty-lus",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "sty-lus",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.stylus",
         "_repo": "j-k"
     },
     "nur.repos.j-k.subo": {
@@ -37040,6 +37240,26 @@
         "_attr": "terraform-ls",
         "_repo": "j-k"
     },
+    "nur.repos.j-k.firefox-addons.tree-style-tab": {
+        "name": "tree-style-tab",
+        "pname": "tree-style-tab",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "tree-style-tab",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.tree-style-tab",
+        "_repo": "j-k"
+    },
     "nur.repos.j-k.tuftool": {
         "name": "tuftool-0.6.1",
         "pname": "tuftool",
@@ -37101,6 +37321,66 @@
             "unsupported": false
         },
         "_attr": "tuftool",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.ublock-origin": {
+        "name": "ublock-origin",
+        "pname": "ublock-origin",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "ublock-origin",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.ublock-origin",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.view-image": {
+        "name": "view-image",
+        "pname": "view-image",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "view-image",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.view-image",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.firefox-addons.zotero-connector": {
+        "name": "zotero-connector",
+        "pname": "zotero-connector",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "zotero-connector",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.zotero-connector",
         "_repo": "j-k"
     },
     "nur.repos.jjjollyjim.exploitdb": {
