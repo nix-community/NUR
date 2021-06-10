@@ -66197,9 +66197,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tab-session-manager": {
-        "name": "tab-session-manager-6.8.2",
+        "name": "tab-session-manager-6.8.3",
         "pname": "tab-session-manager",
-        "version": "6.8.2",
+        "version": "6.8.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66213,7 +66213,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "tab-session-manager-6.8.2",
+            "name": "tab-session-manager-6.8.3",
             "outputsToInstall": [
                 "out"
             ],
