@@ -40701,6 +40701,2289 @@
         "_attr": "slock",
         "_repo": "jomik"
     },
+    "nur.repos.kira-bruneau.bcml": {
+        "name": "bcml-3.4.9",
+        "pname": "bcml",
+        "version": "3.4.9",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "A mod merging and managing tool for The Legend of Zelda: Breath of the Wild (Qt GUI)",
+            "homepage": "https://github.com/NiceneNerd/BCML",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "free": false,
+                "fullName": "Unfree redistributable",
+                "shortName": "unfreeRedistributable"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "bcml-3.4.9",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/games/bcml/default.nix#L169",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "bcml",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.bcml-gtk": {
+        "name": "bcml-3.4.9",
+        "pname": "bcml",
+        "version": "3.4.9",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "A mod merging and managing tool for The Legend of Zelda: Breath of the Wild (GTK GUI)",
+            "homepage": "https://github.com/NiceneNerd/BCML",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "free": false,
+                "fullName": "Unfree redistributable",
+                "shortName": "unfreeRedistributable"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "bcml-3.4.9",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/games/bcml/default.nix#L169",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "bcml-gtk",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.bluetooth-autoconnect": {
+        "name": "bluetooth-autoconnect-1.3",
+        "pname": "bluetooth-autoconnect",
+        "version": "1.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A linux command line tool to automatically connect to all paired and trusted bluetooth devices",
+            "homepage": "https://github.com/jrouleau/bluetooth-autoconnect",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "bluetooth-autoconnect-1.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/bluetooth/bluetooth-autoconnect/default.nix#L37",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "bluetooth-autoconnect",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.ccache": {
+        "name": "ccache-4.3",
+        "pname": "ccache",
+        "version": "4.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Compiler cache for fast recompilation of C/C++ code",
+            "downloadPage": "https://ccache.dev/download.html",
+            "homepage": "https://ccache.dev",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                },
+                {
+                    "email": "rtburns@protonmail.com",
+                    "github": "r-burns",
+                    "githubId": 52847440,
+                    "name": "Ryan Burns"
+                }
+            ],
+            "name": "ccache-4.3",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/misc/ccache/default.nix#L101",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "ccache",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.clonehero": {
+        "name": "clonehero",
+        "pname": "clonehero",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Clone of Guitar Hero and Rockband-style games",
+            "homepage": "https://clonehero.net",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "clonehero-unwrapped-0.23.2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/games/clonehero/default.nix#L69",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "clonehero",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.clonehero-unwrapped": {
+        "name": "clonehero-unwrapped-0.23.2.2",
+        "pname": "clonehero-unwrapped",
+        "version": "0.23.2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Clone of Guitar Hero and Rockband-style games",
+            "homepage": "https://clonehero.net",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "clonehero-unwrapped-0.23.2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/games/clonehero/default.nix#L69",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "clonehero-unwrapped",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.clonehero-xdg-wrapper": {
+        "name": "clonehero-xdg-wrapper-0.23.2.2",
+        "pname": "clonehero-xdg-wrapper",
+        "version": "0.23.2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "clonehero-xdg-wrapper-0.23.2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "clonehero-xdg-wrapper",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.cmake-language-server": {
+        "name": "cmake-language-server-unstable-2021-03-28",
+        "pname": "cmake-language-server-unstable",
+        "version": "2021-03-28",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "CMake LSP Implementation",
+            "homepage": "https://github.com/regen100/cmake-language-server",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "cmake-language-server-unstable-2021-03-28",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/development/tools/misc/cmake-language-server/default.nix#L32",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "cmake-language-server",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.emacs-pgtk": {
+        "name": "emacs-28.0.50",
+        "pname": "emacs",
+        "version": "28.0.50",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Emacs with pure GTK3 support",
+            "homepage": "https://git.savannah.gnu.org/cgit/emacs.git/log/?h=feature/pgtk",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "GNU Emacs is an extensible, customizable text editor\u2014and more.  At its\ncore is an interpreter for Emacs Lisp, a dialect of the Lisp\nprogramming language with extensions to support text editing.\n\nThe features of GNU Emacs include: content-sensitive editing modes,\nincluding syntax coloring, for a wide variety of file types including\nplain text, source code, and HTML; complete built-in documentation,\nincluding a tutorial for new users; full Unicode support for nearly all\nhuman languages and their scripts; highly customizable, using Emacs\nLisp code or a graphical interface; a large number of extensions that\nadd other functionality, including a project planner, mail and news\nreader, debugger interface, calendar, and more.  Many of these\nextensions are distributed with GNU Emacs; others are available\nseparately.\n",
+            "maintainer": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "jason@oconal.id.au",
+                    "github": "lovek323",
+                    "githubId": 265084,
+                    "name": "Jason O'Conal"
+                },
+                {
+                    "email": "simons@cryp.to",
+                    "github": "peti",
+                    "githubId": 28323,
+                    "name": "Peter Simons"
+                },
+                {
+                    "email": "johnw@newartisans.com",
+                    "github": "jwiegley",
+                    "githubId": 8460,
+                    "name": "John Wiegley"
+                },
+                {
+                    "email": "adisbladis@gmail.com",
+                    "github": "adisbladis",
+                    "githubId": 63286,
+                    "name": "Adam Hose"
+                }
+            ],
+            "name": "emacs-28.0.50",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/editors/emacs-pgtk/default.nix#L25",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "emacs-pgtk",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.gamemode": {
+        "name": "gamemode-1.6.1",
+        "pname": "gamemode",
+        "version": "1.6.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Optimise Linux system performance on demand",
+            "homepage": "https://github.com/FeralInteractive/GameMode",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "gamemode-1.6.1",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/games/gamemode/default.nix#L99",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gamemode",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.git-review": {
+        "name": "git-review-2.1.0",
+        "pname": "git-review",
+        "version": "2.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Tool to submit code to Gerrit",
+            "homepage": "https://opendev.org/opendev/git-review",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "git-review-2.1.0",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/version-management/git-review/default.nix#L40",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "git-review",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.goverlay": {
+        "name": "goverlay-0.5",
+        "pname": "goverlay",
+        "version": "0.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays",
+            "homepage": "https://github.com/benjamimgois/goverlay",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "goverlay-0.5",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/goverlay/default.nix#L117",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "goverlay",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.lightdm-webkit2-greeter": {
+        "name": "lightdm-webkit2-greeter-2.2.5",
+        "pname": "lightdm-webkit2-greeter",
+        "version": "2.2.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A modern, visually appealing greeter for LightDM",
+            "homepage": "https://github.com/Antergos/web-greeter",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "lightdm-webkit2-greeter-2.2.5",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/display-managers/lightdm-webkit2-greeter/default.nix#L75",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "lightdm-webkit2-greeter",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.mangohud": {
+        "name": "mangohud-0.6.1",
+        "pname": "mangohud",
+        "version": "0.6.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more",
+            "homepage": "https://github.com/flightlessmango/MangoHud",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                },
+                {
+                    "email": "mail@zera.tax",
+                    "github": "ZerataX",
+                    "githubId": 5024958,
+                    "keys": [
+                        {
+                            "fingerprint": "44F7 B797 9D3A 27B1 89E0  841E 8333 735E 784D F9D4",
+                            "longkeyid": "rsa4096/0x8333735E784DF9D4"
+                        }
+                    ],
+                    "name": "Jona Abdinghoff"
+                }
+            ],
+            "name": "mangohud-0.6.1",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/mangohud/default.nix#L120",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "mangohud",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.newsflash": {
+        "name": "newsflash-1.4.1",
+        "pname": "newsflash",
+        "version": "1.4.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A modern feed reader designed for the GNOME desktop",
+            "homepage": "https://gitlab.com/news-flash/news_flash_gtk",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "newsflash-1.4.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/networking/newsreaders/newsflash/default.nix#L89",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "newsflash",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.caprine": {
+        "name": "node_caprine-2.53.0",
+        "pname": "node_caprine",
+        "version": "2.53.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "homepage": "https://sindresorhus.com/caprine",
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "node_caprine-2.53.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/networking/instant-messengers/caprine/node2nix/node-packages.nix#L9103",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "caprine",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.poke": {
+        "name": "poke-1.2",
+        "pname": "poke",
+        "version": "1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "changelog": "https://git.savannah.gnu.org/cgit/poke.git/plain/ChangeLog?h=releases/poke-1.2",
+            "description": "Interactive, extensible editor for binary data",
+            "homepage": "http://www.jemarch.net/poke",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "torres.anderson.85@protonmail.com",
+                    "github": "AndersonTorres",
+                    "githubId": 5954806,
+                    "name": "Anderson Torres"
+                },
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "poke-1.2",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/editors/poke/default.nix#L74",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "poke",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.pokemmo-installer": {
+        "name": "pokemmo-installer-1.4.8",
+        "pname": "pokemmo-installer",
+        "version": "1.4.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Installer and Launcher for the PokeMMO emulator",
+            "homepage": "https://pokemmo.eu",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "pokemmo-installer-1.4.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/games/pokemmo-installer/default.nix#L58",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "pokemmo-installer",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.protontricks": {
+        "name": "protontricks-1.5.1",
+        "pname": "protontricks",
+        "version": "1.5.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A simple wrapper for running Winetricks commands for Proton-enabled games",
+            "homepage": "https://github.com/Matoking/protontricks",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "protontricks-1.5.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/package-management/protontricks/default.nix#L50",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "protontricks",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.replay-sorcery": {
+        "name": "replay-sorcery-0.5.0",
+        "pname": "replay-sorcery",
+        "version": "0.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An open-source, instant-replay solution for Linux",
+            "homepage": "https://github.com/matanui159/ReplaySorcery",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "replay-sorcery-0.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/video/replay-sorcery/default.nix#L56",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "replay-sorcery",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.rofi-wayland": {
+        "name": "rofi-1.6.1",
+        "pname": "rofi",
+        "version": "1.6.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Window switcher, run dialog and dmenu replacement (built for Wayland)",
+            "homepage": "https://github.com/lbonn/rofi",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "rofi-wayland-1.6.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/misc/rofi-wayland/default.nix#L65",
+            "priority": -1,
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "rofi-wayland",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.runescape-launcher": {
+        "name": "runescape-launcher",
+        "pname": "runescape-launcher",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "RuneScape Game Client (NXT)",
+            "homepage": "https://www.runescape.com",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "RuneScape EULA",
+                "url": "http://content.runescape.com/downloads/LICENCE.txt"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "runescape-launcher-2.2.9",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/games/runescape-launcher/default.nix#L43",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "runescape-launcher",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.runescape-launcher-unwrapped": {
+        "name": "runescape-launcher-2.2.9",
+        "pname": "runescape-launcher",
+        "version": "2.2.9",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "RuneScape Game Client (NXT)",
+            "homepage": "https://www.runescape.com",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "RuneScape EULA",
+                "url": "http://content.runescape.com/downloads/LICENCE.txt"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "runescape-launcher-2.2.9",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/games/runescape-launcher/default.nix#L43",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "runescape-launcher-unwrapped",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.texlab": {
+        "name": "texlab-3.1.0",
+        "pname": "texlab",
+        "version": "3.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An implementation of the Language Server Protocol for LaTeX",
+            "homepage": "https://texlab.netlify.app",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "me@doronbehar.com",
+                    "github": "doronbehar",
+                    "githubId": 10998835,
+                    "name": "Doron Behar"
+                },
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "texlab-3.1.0",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/development/tools/misc/texlab/default.nix#L42",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "texlab",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.undistract-me": {
+        "name": "undistract-me-unstable-2020-08-09",
+        "pname": "undistract-me-unstable",
+        "version": "2020-08-09",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Notifies you when long-running terminal commands complete",
+            "homepage": "https://github.com/jml/undistract-me",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "undistract-me-unstable-2020-08-09",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/shells/bash/undistract-me/default.nix#L76",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "undistract-me",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.virtualparadise": {
+        "name": "virtualparadise",
+        "pname": "virtualparadise",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "An online virtual universe consisting of several 3D worlds",
+            "homepage": "https://www.virtualparadise.org",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "virtualparadise-0.4.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/games/virtualparadise/default.nix#L92",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "virtualparadise",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.vkBasalt": {
+        "name": "vkBasalt-0.3.2.4",
+        "pname": "vkBasalt",
+        "version": "0.3.2.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A Vulkan post processing layer for Linux",
+            "homepage": "https://github.com/DadSchoorse/vkBasalt",
+            "insecure": false,
+            "license": {
+                "fullName": "zlib License",
+                "shortName": "zlib",
+                "spdxId": "Zlib",
+                "url": "https://spdx.org/licenses/Zlib.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "vkBasalt-0.3.2.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/vkBasalt/default.nix#L36",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vkBasalt",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.VVVVVV": {
+        "name": "VVVVVV-2.2",
+        "pname": "VVVVVV",
+        "version": "2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "A retro-styled 2D platformer",
+            "homepage": "https://thelettervsixtim.es",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "VVVVVV-unwrapped-2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/games/VVVVVV/default.nix#L50",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "VVVVVV",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.VVVVVV-unwrapped": {
+        "name": "VVVVVV-unwrapped-2.2",
+        "pname": "VVVVVV-unwrapped",
+        "version": "2.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "A retro-styled 2D platformer",
+            "homepage": "https://thelettervsixtim.es",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "VVVVVV Source Code License v1.0",
+                "redistributable": true,
+                "url": "https://github.com/TerryCavanagh/VVVVVV/blob/master/LICENSE.md"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "VVVVVV-unwrapped-2.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/games/VVVVVV/default.nix#L50",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "VVVVVV-unwrapped",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.xpadneo": {
+        "name": "xpadneo-0.9.1",
+        "pname": "xpadneo",
+        "version": "0.9.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Advanced Linux driver for Xbox One wireless controllers",
+            "homepage": "https://atar-axis.github.io/xpadneo",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "xpadneo-0.9.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/os-specific/linux/xpadneo/default.nix#L33",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "xpadneo",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.yabridge": {
+        "name": "yabridge-3.2.0",
+        "pname": "yabridge",
+        "version": "3.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Yet Another VST bridge, run Windows VST2 plugins under Linux",
+            "homepage": "https://github.com/robbert-vdh/yabridge",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "yabridge-3.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/audio/yabridge/default.nix#L140",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "yabridge",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.yabridgectl": {
+        "name": "yabridgectl-3.2.0",
+        "pname": "yabridgectl",
+        "version": "3.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A small, optional utility to help set up and update yabridge for several directories at once",
+            "homepage": "https://github.com/robbert-vdh/yabridge/tree/master/tools/yabridgectl",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "yabridgectl-3.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/audio/yabridgectl/default.nix#L33",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "yabridgectl",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.zyn-fusion": {
+        "name": "zynaddsubfx-3.0.6-rc3",
+        "pname": "zynaddsubfx",
+        "version": "3.0.6-rc3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "High quality software synthesizer (Zyn-Fusion GUI)",
+            "homepage": "https://zynaddsubfx.sourceforge.io/zyn-fusion.html",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "cillian.deroiste@gmail.com",
+                    "github": "cillianderoiste",
+                    "githubId": 643494,
+                    "name": "Cillian de R\u00f3iste"
+                },
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "zynaddsubfx-3.0.6-rc3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/audio/zynaddsubfx/default.nix#L128",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "zyn-fusion",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.zynaddsubfx-fltk": {
+        "name": "zynaddsubfx-3.0.6-rc3",
+        "pname": "zynaddsubfx",
+        "version": "3.0.6-rc3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "High quality software synthesizer (FLTK GUI)",
+            "homepage": "https://zynaddsubfx.sourceforge.io",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "cillian.deroiste@gmail.com",
+                    "github": "cillianderoiste",
+                    "githubId": 643494,
+                    "name": "Cillian de R\u00f3iste"
+                },
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "zynaddsubfx-3.0.6-rc3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/audio/zynaddsubfx/default.nix#L128",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "zynaddsubfx-fltk",
+        "_repo": "kira-bruneau"
+    },
+    "nur.repos.kira-bruneau.zynaddsubfx-ntk": {
+        "name": "zynaddsubfx-3.0.6-rc3",
+        "pname": "zynaddsubfx",
+        "version": "3.0.6-rc3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "High quality software synthesizer (NTK GUI)",
+            "homepage": "https://zynaddsubfx.sourceforge.io",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "cillian.deroiste@gmail.com",
+                    "github": "cillianderoiste",
+                    "githubId": 643494,
+                    "name": "Cillian de R\u00f3iste"
+                },
+                {
+                    "email": "kira.bruneau@pm.me",
+                    "github": "kira-bruneau",
+                    "githubId": 382041,
+                    "name": "Kira Bruneau"
+                }
+            ],
+            "name": "zynaddsubfx-3.0.6-rc3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/audio/zynaddsubfx/default.nix#L128",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "zynaddsubfx-ntk",
+        "_repo": "kira-bruneau"
+    },
     "nur.repos.lheckemann.asql": {
         "name": "asql-1.7",
         "pname": "asql",
@@ -42333,2289 +44616,6 @@
         },
         "_attr": "yosys-symbiflow-plugins",
         "_repo": "mcaju"
-    },
-    "nur.repos.metadark.bcml": {
-        "name": "bcml-3.4.9",
-        "pname": "bcml",
-        "version": "3.4.9",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "A mod merging and managing tool for The Legend of Zelda: Breath of the Wild (Qt GUI)",
-            "homepage": "https://github.com/NiceneNerd/BCML",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "free": false,
-                "fullName": "Unfree redistributable",
-                "shortName": "unfreeRedistributable"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "bcml-3.4.9",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/bcml/default.nix#L169",
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "bcml",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.bcml-gtk": {
-        "name": "bcml-3.4.9",
-        "pname": "bcml",
-        "version": "3.4.9",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "A mod merging and managing tool for The Legend of Zelda: Breath of the Wild (GTK GUI)",
-            "homepage": "https://github.com/NiceneNerd/BCML",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "free": false,
-                "fullName": "Unfree redistributable",
-                "shortName": "unfreeRedistributable"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "bcml-3.4.9",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/bcml/default.nix#L169",
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "bcml-gtk",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.bluetooth-autoconnect": {
-        "name": "bluetooth-autoconnect-1.3",
-        "pname": "bluetooth-autoconnect",
-        "version": "1.3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A linux command line tool to automatically connect to all paired and trusted bluetooth devices",
-            "homepage": "https://github.com/jrouleau/bluetooth-autoconnect",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "bluetooth-autoconnect-1.3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/tools/bluetooth/bluetooth-autoconnect/default.nix#L37",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "bluetooth-autoconnect",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.ccache": {
-        "name": "ccache-4.3",
-        "pname": "ccache",
-        "version": "4.3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Compiler cache for fast recompilation of C/C++ code",
-            "downloadPage": "https://ccache.dev/download.html",
-            "homepage": "https://ccache.dev",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                },
-                {
-                    "email": "rtburns@protonmail.com",
-                    "github": "r-burns",
-                    "githubId": 52847440,
-                    "name": "Ryan Burns"
-                }
-            ],
-            "name": "ccache-4.3",
-            "outputsToInstall": [
-                "out",
-                "man"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/tools/misc/ccache/default.nix#L101",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "ccache",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.clonehero": {
-        "name": "clonehero",
-        "pname": "clonehero",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Clone of Guitar Hero and Rockband-style games",
-            "homepage": "https://clonehero.net",
-            "insecure": false,
-            "license": {
-                "free": false,
-                "fullName": "Unfree",
-                "shortName": "unfree"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "clonehero-unwrapped-0.23.2.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/clonehero/default.nix#L69",
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "clonehero",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.clonehero-unwrapped": {
-        "name": "clonehero-unwrapped-0.23.2.2",
-        "pname": "clonehero-unwrapped",
-        "version": "0.23.2.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Clone of Guitar Hero and Rockband-style games",
-            "homepage": "https://clonehero.net",
-            "insecure": false,
-            "license": {
-                "free": false,
-                "fullName": "Unfree",
-                "shortName": "unfree"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "clonehero-unwrapped-0.23.2.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/clonehero/default.nix#L69",
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "clonehero-unwrapped",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.clonehero-xdg-wrapper": {
-        "name": "clonehero-xdg-wrapper-0.23.2.2",
-        "pname": "clonehero-xdg-wrapper",
-        "version": "0.23.2.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "insecure": false,
-            "name": "clonehero-xdg-wrapper-0.23.2.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "clonehero-xdg-wrapper",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.cmake-language-server": {
-        "name": "cmake-language-server-unstable-2021-03-28",
-        "pname": "cmake-language-server-unstable",
-        "version": "2021-03-28",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "CMake LSP Implementation",
-            "homepage": "https://github.com/regen100/cmake-language-server",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "cmake-language-server-unstable-2021-03-28",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/development/tools/misc/cmake-language-server/default.nix#L32",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "cmake-language-server",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.emacs-pgtk": {
-        "name": "emacs-28.0.50",
-        "pname": "emacs",
-        "version": "28.0.50",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Emacs with pure GTK3 support",
-            "homepage": "https://git.savannah.gnu.org/cgit/emacs.git/log/?h=feature/pgtk",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "longDescription": "GNU Emacs is an extensible, customizable text editor\u2014and more.  At its\ncore is an interpreter for Emacs Lisp, a dialect of the Lisp\nprogramming language with extensions to support text editing.\n\nThe features of GNU Emacs include: content-sensitive editing modes,\nincluding syntax coloring, for a wide variety of file types including\nplain text, source code, and HTML; complete built-in documentation,\nincluding a tutorial for new users; full Unicode support for nearly all\nhuman languages and their scripts; highly customizable, using Emacs\nLisp code or a graphical interface; a large number of extensions that\nadd other functionality, including a project planner, mail and news\nreader, debugger interface, calendar, and more.  Many of these\nextensions are distributed with GNU Emacs; others are available\nseparately.\n",
-            "maintainer": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "maintainers": [
-                {
-                    "email": "jason@oconal.id.au",
-                    "github": "lovek323",
-                    "githubId": 265084,
-                    "name": "Jason O'Conal"
-                },
-                {
-                    "email": "simons@cryp.to",
-                    "github": "peti",
-                    "githubId": 28323,
-                    "name": "Peter Simons"
-                },
-                {
-                    "email": "johnw@newartisans.com",
-                    "github": "jwiegley",
-                    "githubId": 8460,
-                    "name": "John Wiegley"
-                },
-                {
-                    "email": "adisbladis@gmail.com",
-                    "github": "adisbladis",
-                    "githubId": 63286,
-                    "name": "Adam Hose"
-                }
-            ],
-            "name": "emacs-28.0.50",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "js-ghcjs",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "msp430-none",
-                "or1k-none",
-                "powerpc-none",
-                "riscv32-none",
-                "riscv64-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-windows",
-                "i686-windows"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/applications/editors/emacs-pgtk/default.nix#L25",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "emacs-pgtk",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.gamemode": {
-        "name": "gamemode-1.6.1",
-        "pname": "gamemode",
-        "version": "1.6.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Optimise Linux system performance on demand",
-            "homepage": "https://github.com/FeralInteractive/GameMode",
-            "insecure": false,
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "gamemode-1.6.1",
-            "outputsToInstall": [
-                "out",
-                "man"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/tools/games/gamemode/default.nix#L99",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "gamemode",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.git-review": {
-        "name": "git-review-2.1.0",
-        "pname": "git-review",
-        "version": "2.1.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Tool to submit code to Gerrit",
-            "homepage": "https://opendev.org/opendev/git-review",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "git-review-2.1.0",
-            "outputsToInstall": [
-                "out",
-                "man"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/applications/version-management/git-review/default.nix#L40",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "git-review",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.goverlay": {
-        "name": "goverlay-0.5",
-        "pname": "goverlay",
-        "version": "0.5",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays",
-            "homepage": "https://github.com/benjamimgois/goverlay",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "goverlay-0.5",
-            "outputsToInstall": [
-                "out",
-                "man"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/tools/graphics/goverlay/default.nix#L117",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "goverlay",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.lightdm-webkit2-greeter": {
-        "name": "lightdm-webkit2-greeter-2.2.5",
-        "pname": "lightdm-webkit2-greeter",
-        "version": "2.2.5",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A modern, visually appealing greeter for LightDM",
-            "homepage": "https://github.com/Antergos/web-greeter",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "lightdm-webkit2-greeter-2.2.5",
-            "outputsToInstall": [
-                "out",
-                "man"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/applications/display-managers/lightdm-webkit2-greeter/default.nix#L75",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "lightdm-webkit2-greeter",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.mangohud": {
-        "name": "mangohud-0.6.1",
-        "pname": "mangohud",
-        "version": "0.6.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more",
-            "homepage": "https://github.com/flightlessmango/MangoHud",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                },
-                {
-                    "email": "mail@zera.tax",
-                    "github": "ZerataX",
-                    "githubId": 5024958,
-                    "keys": [
-                        {
-                            "fingerprint": "44F7 B797 9D3A 27B1 89E0  841E 8333 735E 784D F9D4",
-                            "longkeyid": "rsa4096/0x8333735E784DF9D4"
-                        }
-                    ],
-                    "name": "Jona Abdinghoff"
-                }
-            ],
-            "name": "mangohud-0.6.1",
-            "outputsToInstall": [
-                "out",
-                "man"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/tools/graphics/mangohud/default.nix#L120",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "mangohud",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.newsflash": {
-        "name": "newsflash-1.4.1",
-        "pname": "newsflash",
-        "version": "1.4.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A modern feed reader designed for the GNOME desktop",
-            "homepage": "https://gitlab.com/news-flash/news_flash_gtk",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "newsflash-1.4.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "js-ghcjs",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "msp430-none",
-                "or1k-none",
-                "powerpc-none",
-                "riscv32-none",
-                "riscv64-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-windows",
-                "i686-windows"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/applications/networking/newsreaders/newsflash/default.nix#L89",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "newsflash",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.caprine": {
-        "name": "node_caprine-2.53.0",
-        "pname": "node_caprine",
-        "version": "2.53.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "homepage": "https://sindresorhus.com/caprine",
-            "insecure": false,
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "node_caprine-2.53.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "js-ghcjs",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "msp430-none",
-                "or1k-none",
-                "powerpc-none",
-                "riscv32-none",
-                "riscv64-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-windows",
-                "i686-windows"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/applications/networking/instant-messengers/caprine/node2nix/node-packages.nix#L9103",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "caprine",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.poke": {
-        "name": "poke-1.2",
-        "pname": "poke",
-        "version": "1.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://git.savannah.gnu.org/cgit/poke.git/plain/ChangeLog?h=releases/poke-1.2",
-            "description": "Interactive, extensible editor for binary data",
-            "homepage": "http://www.jemarch.net/poke",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "torres.anderson.85@protonmail.com",
-                    "github": "AndersonTorres",
-                    "githubId": 5954806,
-                    "name": "Anderson Torres"
-                },
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "poke-1.2",
-            "outputsToInstall": [
-                "out",
-                "man"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/applications/editors/poke/default.nix#L74",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "poke",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.pokemmo-installer": {
-        "name": "pokemmo-installer-1.4.8",
-        "pname": "pokemmo-installer",
-        "version": "1.4.8",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Installer and Launcher for the PokeMMO emulator",
-            "homepage": "https://pokemmo.eu",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "pokemmo-installer-1.4.8",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/pokemmo-installer/default.nix#L58",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "pokemmo-installer",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.protontricks": {
-        "name": "protontricks-1.5.1",
-        "pname": "protontricks",
-        "version": "1.5.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A simple wrapper for running Winetricks commands for Proton-enabled games",
-            "homepage": "https://github.com/Matoking/protontricks",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "GNU General Public License v3.0 only",
-                "shortName": "gpl3Only",
-                "spdxId": "GPL-3.0-only",
-                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "protontricks-1.5.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/tools/package-management/protontricks/default.nix#L50",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "protontricks",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.replay-sorcery": {
-        "name": "replay-sorcery-0.5.0",
-        "pname": "replay-sorcery",
-        "version": "0.5.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "An open-source, instant-replay solution for Linux",
-            "homepage": "https://github.com/matanui159/ReplaySorcery",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "replay-sorcery-0.5.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/tools/video/replay-sorcery/default.nix#L56",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "replay-sorcery",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.rofi-wayland": {
-        "name": "rofi-1.6.1",
-        "pname": "rofi",
-        "version": "1.6.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Window switcher, run dialog and dmenu replacement (built for Wayland)",
-            "homepage": "https://github.com/lbonn/rofi",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "rofi-wayland-1.6.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/applications/misc/rofi-wayland/default.nix#L65",
-            "priority": -1,
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "rofi-wayland",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.runescape-launcher": {
-        "name": "runescape-launcher",
-        "pname": "runescape-launcher",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "RuneScape Game Client (NXT)",
-            "homepage": "https://www.runescape.com",
-            "insecure": false,
-            "license": {
-                "free": false,
-                "fullName": "RuneScape EULA",
-                "url": "http://content.runescape.com/downloads/LICENCE.txt"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "runescape-launcher-2.2.9",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/runescape-launcher/default.nix#L43",
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "runescape-launcher",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.runescape-launcher-unwrapped": {
-        "name": "runescape-launcher-2.2.9",
-        "pname": "runescape-launcher",
-        "version": "2.2.9",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "RuneScape Game Client (NXT)",
-            "homepage": "https://www.runescape.com",
-            "insecure": false,
-            "license": {
-                "free": false,
-                "fullName": "RuneScape EULA",
-                "url": "http://content.runescape.com/downloads/LICENCE.txt"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "runescape-launcher-2.2.9",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/runescape-launcher/default.nix#L43",
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "runescape-launcher-unwrapped",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.texlab": {
-        "name": "texlab-3.1.0",
-        "pname": "texlab",
-        "version": "3.1.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "An implementation of the Language Server Protocol for LaTeX",
-            "homepage": "https://texlab.netlify.app",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "me@doronbehar.com",
-                    "github": "doronbehar",
-                    "githubId": 10998835,
-                    "name": "Doron Behar"
-                },
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "texlab-3.1.0",
-            "outputsToInstall": [
-                "out",
-                "man"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "js-ghcjs",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "msp430-none",
-                "or1k-none",
-                "powerpc-none",
-                "riscv32-none",
-                "riscv64-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-windows",
-                "i686-windows"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/development/tools/misc/texlab/default.nix#L42",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "texlab",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.undistract-me": {
-        "name": "undistract-me-unstable-2020-08-09",
-        "pname": "undistract-me-unstable",
-        "version": "2020-08-09",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Notifies you when long-running terminal commands complete",
-            "homepage": "https://github.com/jml/undistract-me",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "undistract-me-unstable-2020-08-09",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/shells/bash/undistract-me/default.nix#L76",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "undistract-me",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.virtualparadise": {
-        "name": "virtualparadise",
-        "pname": "virtualparadise",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "An online virtual universe consisting of several 3D worlds",
-            "homepage": "https://www.virtualparadise.org",
-            "insecure": false,
-            "license": {
-                "free": false,
-                "fullName": "Unfree",
-                "shortName": "unfree"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "virtualparadise-0.4.3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/virtualparadise/default.nix#L92",
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "virtualparadise",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.vkBasalt": {
-        "name": "vkBasalt-0.3.2.4",
-        "pname": "vkBasalt",
-        "version": "0.3.2.4",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A Vulkan post processing layer for Linux",
-            "homepage": "https://github.com/DadSchoorse/vkBasalt",
-            "insecure": false,
-            "license": {
-                "fullName": "zlib License",
-                "shortName": "zlib",
-                "spdxId": "Zlib",
-                "url": "https://spdx.org/licenses/Zlib.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "vkBasalt-0.3.2.4",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/tools/graphics/vkBasalt/default.nix#L36",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "vkBasalt",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.VVVVVV": {
-        "name": "VVVVVV-2.2",
-        "pname": "VVVVVV",
-        "version": "2.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "A retro-styled 2D platformer",
-            "homepage": "https://thelettervsixtim.es",
-            "insecure": false,
-            "license": {
-                "free": false,
-                "fullName": "Unfree",
-                "shortName": "unfree"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "VVVVVV-unwrapped-2.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "js-ghcjs",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "msp430-none",
-                "or1k-none",
-                "powerpc-none",
-                "riscv32-none",
-                "riscv64-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-windows",
-                "i686-windows"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/VVVVVV/default.nix#L50",
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "VVVVVV",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.VVVVVV-unwrapped": {
-        "name": "VVVVVV-unwrapped-2.2",
-        "pname": "VVVVVV-unwrapped",
-        "version": "2.2",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "A retro-styled 2D platformer",
-            "homepage": "https://thelettervsixtim.es",
-            "insecure": false,
-            "license": {
-                "free": false,
-                "fullName": "VVVVVV Source Code License v1.0",
-                "redistributable": true,
-                "url": "https://github.com/TerryCavanagh/VVVVVV/blob/master/LICENSE.md"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "VVVVVV-unwrapped-2.2",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "js-ghcjs",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "msp430-none",
-                "or1k-none",
-                "powerpc-none",
-                "riscv32-none",
-                "riscv64-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-windows",
-                "i686-windows"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/games/VVVVVV/default.nix#L50",
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "VVVVVV-unwrapped",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.xpadneo": {
-        "name": "xpadneo-0.9.1",
-        "pname": "xpadneo",
-        "version": "0.9.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Advanced Linux driver for Xbox One wireless controllers",
-            "homepage": "https://atar-axis.github.io/xpadneo",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "xpadneo-0.9.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/os-specific/linux/xpadneo/default.nix#L33",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "xpadneo",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.yabridge": {
-        "name": "yabridge-3.2.0",
-        "pname": "yabridge",
-        "version": "3.2.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Yet Another VST bridge, run Windows VST2 plugins under Linux",
-            "homepage": "https://github.com/robbert-vdh/yabridge",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "yabridge-3.2.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/tools/audio/yabridge/default.nix#L140",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "yabridge",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.yabridgectl": {
-        "name": "yabridgectl-3.2.0",
-        "pname": "yabridgectl",
-        "version": "3.2.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A small, optional utility to help set up and update yabridge for several directories at once",
-            "homepage": "https://github.com/robbert-vdh/yabridge/tree/master/tools/yabridgectl",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "yabridgectl-3.2.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/tools/audio/yabridgectl/default.nix#L33",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "yabridgectl",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.zyn-fusion": {
-        "name": "zynaddsubfx-3.0.6-rc3",
-        "pname": "zynaddsubfx",
-        "version": "3.0.6-rc3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "High quality software synthesizer (Zyn-Fusion GUI)",
-            "homepage": "https://zynaddsubfx.sourceforge.io/zyn-fusion.html",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v2.0 or later",
-                "shortName": "gpl2Plus",
-                "spdxId": "GPL-2.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "cillian.deroiste@gmail.com",
-                    "github": "cillianderoiste",
-                    "githubId": 643494,
-                    "name": "Cillian de R\u00f3iste"
-                },
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "zynaddsubfx-3.0.6-rc3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "js-ghcjs",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "msp430-none",
-                "or1k-none",
-                "powerpc-none",
-                "riscv32-none",
-                "riscv64-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-windows",
-                "i686-windows"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/applications/audio/zynaddsubfx/default.nix#L128",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "zyn-fusion",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.zynaddsubfx-fltk": {
-        "name": "zynaddsubfx-3.0.6-rc3",
-        "pname": "zynaddsubfx",
-        "version": "3.0.6-rc3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "High quality software synthesizer (FLTK GUI)",
-            "homepage": "https://zynaddsubfx.sourceforge.io",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v2.0 or later",
-                "shortName": "gpl2Plus",
-                "spdxId": "GPL-2.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "cillian.deroiste@gmail.com",
-                    "github": "cillianderoiste",
-                    "githubId": 643494,
-                    "name": "Cillian de R\u00f3iste"
-                },
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "zynaddsubfx-3.0.6-rc3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "js-ghcjs",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "msp430-none",
-                "or1k-none",
-                "powerpc-none",
-                "riscv32-none",
-                "riscv64-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-windows",
-                "i686-windows"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/applications/audio/zynaddsubfx/default.nix#L128",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "zynaddsubfx-fltk",
-        "_repo": "metadark"
-    },
-    "nur.repos.metadark.zynaddsubfx-ntk": {
-        "name": "zynaddsubfx-3.0.6-rc3",
-        "pname": "zynaddsubfx",
-        "version": "3.0.6-rc3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "High quality software synthesizer (NTK GUI)",
-            "homepage": "https://zynaddsubfx.sourceforge.io",
-            "insecure": false,
-            "license": {
-                "fullName": "GNU General Public License v2.0 or later",
-                "shortName": "gpl2Plus",
-                "spdxId": "GPL-2.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
-            },
-            "maintainers": [
-                {
-                    "email": "cillian.deroiste@gmail.com",
-                    "github": "cillianderoiste",
-                    "githubId": 643494,
-                    "name": "Cillian de R\u00f3iste"
-                },
-                {
-                    "email": "kira.bruneau@pm.me",
-                    "github": "kira-bruneau",
-                    "githubId": 382041,
-                    "name": "Kira Bruneau"
-                }
-            ],
-            "name": "zynaddsubfx-3.0.6-rc3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "js-ghcjs",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "msp430-none",
-                "or1k-none",
-                "powerpc-none",
-                "riscv32-none",
-                "riscv64-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-windows",
-                "i686-windows"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/metadark/pkgs/applications/audio/zynaddsubfx/default.nix#L128",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "zynaddsubfx-ntk",
-        "_repo": "metadark"
     },
     "nur.repos.mic92.bitwarden_rs_ldap": {
         "name": "bitwarden_rs_ldap-0.1.1-cargo-fix",
