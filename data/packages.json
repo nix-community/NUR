@@ -14029,6 +14029,35 @@
         "_attr": "sysfo",
         "_repo": "ethancedwards8"
     },
+    "nur.repos.fius.prusa-slicer-2_3-alpha": {
+        "name": "prusa-slicer-2.3.0-alpha0",
+        "pname": "prusa-slicer",
+        "version": "2.3.0-alpha0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Alpha version of G-code generator for 3D printer",
+            "homepage": "https://github.com/prusa3d/PrusaSlicer",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU Affero General Public License v3.0",
+                "shortName": "agpl3",
+                "spdxId": "AGPL-3.0",
+                "url": "https://spdx.org/licenses/AGPL-3.0.html"
+            },
+            "name": "prusa-slicer-2.3.0-alpha0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/fius/pkgs/prusa-slicer-2_3-alpha/default.nix#L93",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "prusa-slicer-2_3-alpha",
+        "_repo": "fius"
+    },
     "nur.repos.fortuneteller2k.abstractdark-sddm-theme": {
         "name": "abstractdark-sddm-theme-unstable-02-10-2016",
         "pname": "abstractdark-sddm-theme-unstable",
