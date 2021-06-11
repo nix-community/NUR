@@ -371,6 +371,11 @@
             "sha256": "0hvk98skadjq0ms0k4f2hi9jd8v2hfy6a73lhxvziv3kqvblmvh5",
             "url": "https://github.com/kf5grd/nur-packages"
         },
+        "kira-bruneau": {
+            "rev": "5a7ff805d584a4be43dc49ce2784c2f62c9f5ce0",
+            "sha256": "13x97l0y1rvaki2nm827vdgcdgpm0yih928pfx6y5mzrnkh16hyb",
+            "url": "https://gitlab.com/kira-bruneau/nur-packages"
+        },
         "kmein": {
             "rev": "23fb0bd3a1735bf0a5b2fe2a41f1eb41d9a3f99f",
             "sha256": "0y48dv39cpq4idrkcg3k38rys1lhjdg3l8n58dfnp081v23y62ng",
@@ -443,11 +448,6 @@
             "rev": "b4950d70b708dd5ca81ce88526a0d296aef266dc",
             "sha256": "1q3z8ni1a0mrdfqcwbnszs8d568g4xyxwnaivp3sn4panjrrmrxy",
             "url": "https://github.com/CajuM/nur-packages"
-        },
-        "metadark": {
-            "rev": "5a7ff805d584a4be43dc49ce2784c2f62c9f5ce0",
-            "sha256": "13x97l0y1rvaki2nm827vdgcdgpm0yih928pfx6y5mzrnkh16hyb",
-            "url": "https://github.com/metadark/nur-packages"
         },
         "mhuesch": {
             "rev": "83b0ba76173dcc88f2b4b617efeae1fba1b08994",
