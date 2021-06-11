@@ -17510,9 +17510,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1775",
+        "name": "yuzu-ea-1776",
         "pname": "yuzu-ea",
-        "version": "1775",
+        "version": "1776",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17541,7 +17541,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1775",
+            "name": "yuzu-ea-1776",
             "outputsToInstall": [
                 "out"
             ],
@@ -17567,9 +17567,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-653",
+        "name": "yuzu-mainline-654",
         "pname": "yuzu-mainline",
-        "version": "653",
+        "version": "654",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17598,7 +17598,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-653",
+            "name": "yuzu-mainline-654",
             "outputsToInstall": [
                 "out"
             ],
@@ -71865,9 +71865,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gloggery": {
-        "name": "gloggery-2020-10-11",
+        "name": "gloggery-1.0",
         "pname": "gloggery",
-        "version": "2020-10-11",
+        "version": "1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -71893,7 +71893,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gloggery-2020-10-11",
+            "name": "gloggery-1.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -74175,9 +74175,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.imscript": {
-        "name": "imscript-2021-05-21",
+        "name": "imscript-2021-06-10",
         "pname": "imscript",
-        "version": "2021-05-21",
+        "version": "2021-06-10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74206,7 +74206,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "imscript-2021-05-21",
+            "name": "imscript-2021-06-10",
             "outputsToInstall": [
                 "out"
             ],
@@ -74546,9 +74546,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.kineto": {
-        "name": "kineto-2021-02-25",
+        "name": "kineto-2021-05-31",
         "pname": "kineto",
-        "version": "2021-02-25",
+        "version": "2021-05-31",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74583,7 +74583,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "kineto-2021-02-25",
+            "name": "kineto-2021-05-31",
             "outputsToInstall": [
                 "out"
             ],
@@ -75930,9 +75930,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2021-06-01",
+        "name": "maptourist-2021-06-10",
         "pname": "maptourist",
-        "version": "2021-06-01",
+        "version": "2021-06-10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75958,7 +75958,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2021-06-01",
+            "name": "maptourist-2021-06-10",
             "outputsToInstall": [
                 "out"
             ],
@@ -76485,9 +76485,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-2021-05-10",
+        "name": "nakarte-2021-05-26",
         "pname": "nakarte",
-        "version": "2021-05-10",
+        "version": "2021-05-26",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -76515,7 +76515,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-2021-05-10",
+            "name": "nakarte-2021-05-26",
             "outputsToInstall": [
                 "out"
             ],
@@ -79920,9 +79920,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-210515",
+        "name": "routinodb-210609",
         "pname": "routinodb",
-        "version": "210515",
+        "version": "210609",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79948,7 +79948,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-210515",
+            "name": "routinodb-210609",
             "outputsToInstall": [
                 "out"
             ],
@@ -80526,9 +80526,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.sfeed": {
-        "name": "sfeed-0.9.22",
+        "name": "sfeed-0.9.24",
         "pname": "sfeed",
-        "version": "0.9.22",
+        "version": "0.9.24",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -80556,7 +80556,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "sfeed-0.9.22",
+            "name": "sfeed-0.9.24",
             "outputsToInstall": [
                 "out"
             ],
@@ -81576,9 +81576,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tatoeba": {
-        "name": "tatoeba-2021-01-02",
+        "name": "tatoeba-2021-06-05",
         "pname": "tatoeba",
-        "version": "2021-01-02",
+        "version": "2021-06-05",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -81604,7 +81604,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tatoeba-2021-01-02",
+            "name": "tatoeba-2021-06-05",
             "outputsToInstall": [
                 "out"
             ],
