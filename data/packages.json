@@ -17539,9 +17539,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1778",
+        "name": "yuzu-ea-1780",
         "pname": "yuzu-ea",
-        "version": "1778",
+        "version": "1780",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17570,7 +17570,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1778",
+            "name": "yuzu-ea-1780",
             "outputsToInstall": [
                 "out"
             ],
@@ -90514,9 +90514,9 @@
         "_repo": "xeals"
     },
     "nur.repos.zachcoyle.kotlin-language-server": {
-        "name": "kotlin-language-server-0.7.0",
+        "name": "kotlin-language-server-1.1.1",
         "pname": "kotlin-language-server",
-        "version": "0.7.0",
+        "version": "1.1.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -90538,7 +90538,7 @@
                     "name": "Zach Coyle"
                 }
             ],
-            "name": "kotlin-language-server-0.7.0",
+            "name": "kotlin-language-server-1.1.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -90565,48 +90565,6 @@
             "unsupported": false
         },
         "_attr": "kotlin-language-server",
-        "_repo": "zachcoyle"
-    },
-    "nur.repos.zachcoyle.mas": {
-        "name": "mas-1.8.1",
-        "pname": "mas",
-        "version": "1.8.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Mac App Store command line interface",
-            "homepage": "https://github.com/mas-cli/mas",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "zach.coyle@gmail.com",
-                    "github": "zachcoyle",
-                    "githubId": 908716,
-                    "name": "Zach Coyle"
-                }
-            ],
-            "name": "mas-1.8.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zachcoyle/pkgs/mas/default.nix#L38",
-            "unfree": false,
-            "unsupported": true
-        },
-        "_attr": "mas",
         "_repo": "zachcoyle"
     },
     "nur.repos.zachcoyle.xcodeproj": {
