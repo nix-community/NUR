@@ -41160,53 +41160,10 @@
         "_attr": "epk2extract",
         "_repo": "mcaju"
     },
-    "nur.repos.mcaju.mdk4": {
-        "name": "mdk4-4.1",
-        "pname": "mdk4",
-        "version": "4.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "MDK is a proof-of-concept tool to exploit common IEEE 802.11 protocol weaknesses.",
-            "homepage": "https://github.com/aircrack-ng/mdk4",
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v2.0",
-                "shortName": "gpl2",
-                "spdxId": "GPL-2.0",
-                "url": "https://spdx.org/licenses/GPL-2.0.html"
-            },
-            "name": "mdk4-4.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mcaju/pkgs/mdk4/default.nix#L37",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "mdk4",
-        "_repo": "mcaju"
-    },
     "nur.repos.mcaju.prjxray-db": {
-        "name": "prjxray-db-0.0-245-ge7663ba6",
+        "name": "prjxray-db-0.0-251-gc284338",
         "pname": "prjxray-db",
-        "version": "0.0-245-ge7663ba6",
+        "version": "0.0-251-gc284338",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41220,7 +41177,7 @@
                 "spdxId": "CC0-1.0",
                 "url": "https://spdx.org/licenses/CC0-1.0.html"
             },
-            "name": "prjxray-db-0.0-245-ge7663ba6",
+            "name": "prjxray-db-0.0-251-gc284338",
             "outputsToInstall": [
                 "out"
             ],
@@ -41289,9 +41246,9 @@
         "_repo": "mcaju"
     },
     "nur.repos.mcaju.prjxray-tools": {
-        "name": "prjxray-tools-0.1-2836-gf3028e15",
+        "name": "prjxray-tools-0.1-2928-gda7bf6a0",
         "pname": "prjxray-tools",
-        "version": "0.1-2836-gf3028e15",
+        "version": "0.1-2928-gda7bf6a0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41305,7 +41262,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
-            "name": "prjxray-tools-0.1-2836-gf3028e15",
+            "name": "prjxray-tools-0.1-2928-gda7bf6a0",
             "outputsToInstall": [
                 "out"
             ],
@@ -41374,9 +41331,9 @@
         "_repo": "mcaju"
     },
     "nur.repos.mcaju.python3Packages.fasm": {
-        "name": "python3.8-fasm-0.0.2-gaf39a4fb",
+        "name": "python3.8-fasm-0.0.2-g99f199f9",
         "pname": "python3.8-fasm",
-        "version": "0.0.2-gaf39a4fb",
+        "version": "0.0.2-g99f199f9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41408,7 +41365,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
-            "name": "python3.8-fasm-0.0.2-gaf39a4fb",
+            "name": "python3.8-fasm-0.0.2-g99f199f9",
             "outputsToInstall": [
                 "out"
             ],
@@ -41435,6 +41392,70 @@
             "unsupported": false
         },
         "_attr": "python3Packages.fasm",
+        "_repo": "mcaju"
+    },
+    "nur.repos.mcaju.python3Packages.kijewski-pyjson5": {
+        "name": "python3.8-pyjson5-1.5.1",
+        "pname": "python3.8-pyjson5",
+        "version": "1.5.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A JSON5 serializer and parser library for Python 3 written in Cython.",
+            "homepage": "https://pyjson5.readthedocs.io/en/latest/",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "python3.8-pyjson5-1.5.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mcaju/pkgs/pyjson5/default.nix#L25",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "python3Packages.kijewski-pyjson5",
         "_repo": "mcaju"
     },
     "nur.repos.mcaju.python3Packages.pyric": {
@@ -41503,9 +41524,9 @@
         "_repo": "mcaju"
     },
     "nur.repos.mcaju.python3Packages.python-prjxray": {
-        "name": "python3.8-python-prjxray-0.1-2836-gf3028e15",
+        "name": "python3.8-python-prjxray-0.1-2928-gda7bf6a0",
         "pname": "python3.8-python-prjxray",
-        "version": "0.1-2836-gf3028e15",
+        "version": "0.1-2928-gda7bf6a0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41537,7 +41558,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
-            "name": "python3.8-python-prjxray-0.1-2836-gf3028e15",
+            "name": "python3.8-python-prjxray-0.1-2928-gda7bf6a0",
             "outputsToInstall": [
                 "out"
             ],
@@ -41559,7 +41580,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mcaju/pkgs/python-prjxray/default.nix#L45",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mcaju/pkgs/python-prjxray/default.nix#L37",
             "unfree": false,
             "unsupported": false
         },
@@ -41695,9 +41716,9 @@
         "_repo": "mcaju"
     },
     "nur.repos.mcaju.python3Packages.xc-fasm": {
-        "name": "python3.8-xc-fasm-0.0.1-ge12f3133",
+        "name": "python3.8-xc-fasm-0.0.1-gfc546c75",
         "pname": "python3.8-xc-fasm",
-        "version": "0.0.1-ge12f3133",
+        "version": "0.0.1-gfc546c75",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41729,7 +41750,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
-            "name": "python3.8-xc-fasm-0.0.1-ge12f3133",
+            "name": "python3.8-xc-fasm-0.0.1-gfc546c75",
             "outputsToInstall": [
                 "out"
             ],
@@ -41751,7 +41772,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mcaju/pkgs/xc-fasm/default.nix#L35",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mcaju/pkgs/xc-fasm/default.nix#L38",
             "unfree": false,
             "unsupported": false
         },
@@ -41759,9 +41780,9 @@
         "_repo": "mcaju"
     },
     "nur.repos.mcaju.scamper": {
-        "name": "scamper-20200923",
+        "name": "scamper-20210324",
         "pname": "scamper",
-        "version": "20200923",
+        "version": "20210324",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -41776,7 +41797,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
-            "name": "scamper-20200923",
+            "name": "scamper-20210324",
             "outputsToInstall": [
                 "out"
             ],
@@ -41908,16 +41929,16 @@
         "_attr": "symbiflow-arch-defs",
         "_repo": "mcaju"
     },
-    "nur.repos.mcaju.symbiflow-yosys-plugins": {
-        "name": "symbiflow-yosys-plugins-1.0.0.7-194-g40efa517",
-        "pname": "symbiflow-yosys-plugins",
-        "version": "1.0.0.7-194-g40efa517",
+    "nur.repos.mcaju.symbiflow-yosys": {
+        "name": "symbiflow-yosys-0.9+3683",
+        "pname": "symbiflow-yosys",
+        "version": "0.9+3683",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Yosys SymbiFlow Plugins",
-            "homepage": "https://github.com/SymbiFlow/yosys-symbiflow-plugins",
+            "description": "Open RTL synthesis framework and tools",
+            "homepage": "http://www.clifford.at/yosys/",
             "insecure": false,
             "license": {
                 "fullName": "ISC License",
@@ -41925,7 +41946,27 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
-            "name": "symbiflow-yosys-plugins-1.0.0.7-194-g40efa517",
+            "maintainers": [
+                {
+                    "email": "cam.turn@gmail.com",
+                    "github": "VShell",
+                    "githubId": 251028,
+                    "name": "Shell Turner"
+                },
+                {
+                    "email": "aseipp@pobox.com",
+                    "github": "thoughtpolice",
+                    "githubId": 3416,
+                    "name": "Austin Seipp"
+                },
+                {
+                    "email": "nixpkgs@emily.moe",
+                    "github": "emilazy",
+                    "githubId": 18535642,
+                    "name": "Emily"
+                }
+            ],
+            "name": "symbiflow-yosys-0.9+3683",
             "outputsToInstall": [
                 "out"
             ],
@@ -41986,11 +42027,11 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mcaju/pkgs/symbiflow-yosys-plugins/default.nix#L37",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mcaju",
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "symbiflow-yosys-plugins",
+        "_attr": "symbiflow-yosys",
         "_repo": "mcaju"
     },
     "nur.repos.mcaju.python3Packages.ubi_reader": {
@@ -42059,17 +42100,23 @@
         "_repo": "mcaju"
     },
     "nur.repos.mcaju.vtr": {
-        "name": "vtr-8.0.0-3049-g64d15e2d",
+        "name": "vtr-8.0.0-3722-g3701c52ce",
         "pname": "vtr",
-        "version": "8.0.0-3049-g64d15e2d",
+        "version": "8.0.0-3722-g3701c52ce",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "description": "SymbiFlow WIP changes for Verilog to Routing (VTR)",
-            "homepage": "https://github.com/SymbiFlow/vtr-verilog-to-routing",
+            "description": "Verilog to Routing -- Open Source CAD Flow for FPGA Research",
+            "homepage": "https://verilogtorouting.org/",
             "insecure": false,
-            "name": "vtr-8.0.0-3049-g64d15e2d",
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "vtr-8.0.0-3722-g3701c52ce",
             "outputsToInstall": [
                 "out"
             ],
@@ -42200,6 +42247,91 @@
             "unsupported": false
         },
         "_attr": "python3Packages.wifiphisher",
+        "_repo": "mcaju"
+    },
+    "nur.repos.mcaju.yosys-symbiflow-plugins": {
+        "name": "yosys-symbiflow-plugins-1.0.0-7-338_g93157fb",
+        "pname": "yosys-symbiflow-plugins",
+        "version": "1.0.0-7-338_g93157fb",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Yosys SymbiFlow Plugins",
+            "homepage": "https://github.com/SymbiFlow/yosys-symbiflow-plugins",
+            "insecure": false,
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "name": "yosys-symbiflow-plugins-1.0.0-7-338_g93157fb",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mcaju/pkgs/yosys-symbiflow-plugins/default.nix#L53",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "yosys-symbiflow-plugins",
         "_repo": "mcaju"
     },
     "nur.repos.metadark.bcml": {
