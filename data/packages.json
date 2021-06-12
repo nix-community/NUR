@@ -52631,9 +52631,9 @@
         "_repo": "nagy"
     },
     "nur.repos.nagy.cpp-httplib": {
-        "name": "cpp-httplib-0.8.9",
+        "name": "cpp-httplib-0.9.0",
         "pname": "cpp-httplib",
-        "version": "0.8.9",
+        "version": "0.9.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -52648,7 +52648,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "cpp-httplib-0.8.9",
+            "name": "cpp-httplib-0.9.0",
             "outputsToInstall": [
                 "out"
             ],
