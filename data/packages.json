@@ -17539,9 +17539,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1780",
+        "name": "yuzu-ea-1782",
         "pname": "yuzu-ea",
-        "version": "1780",
+        "version": "1782",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17570,7 +17570,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1780",
+            "name": "yuzu-ea-1782",
             "outputsToInstall": [
                 "out"
             ],
@@ -51458,6 +51458,309 @@
         },
         "_attr": "shot",
         "_repo": "moredhel"
+    },
+    "nur.repos.moredread.cc-tool": {
+        "name": "cc-tool-0.26",
+        "pname": "cc-tool",
+        "version": "0.26",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "WIP",
+            "homepage": "https://github.com/dashesy/cc-tool",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v2.0",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0",
+                "url": "https://spdx.org/licenses/GPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "code@apb.name",
+                    "github": "moredread",
+                    "githubId": 100848,
+                    "keys": [
+                        {
+                            "fingerprint": "4412 38AD CAD3 228D 876C  5455 118C E7C4 24B4 5728",
+                            "longkeyid": "rsa8192/0x118CE7C424B45728"
+                        }
+                    ],
+                    "name": "Andr\u00e9-Patrick Bubel"
+                }
+            ],
+            "name": "cc-tool-0.26",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/cc-tool/default.nix#L31",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "cc-tool",
+        "_repo": "moredread"
+    },
+    "nur.repos.moredread.dump1090-hptoa": {
+        "name": "dump1090-git-20200315",
+        "pname": "dump1090-git",
+        "version": "20200315",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A simple Mode S decoder for RTLSDR devices",
+            "homepage": "https://github.com/flightaware/dump1090",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "code@apb.name",
+                    "github": "moredread",
+                    "githubId": 100848,
+                    "keys": [
+                        {
+                            "fingerprint": "4412 38AD CAD3 228D 876C  5455 118C E7C4 24B4 5728",
+                            "longkeyid": "rsa8192/0x118CE7C424B45728"
+                        }
+                    ],
+                    "name": "Andr\u00e9-Patrick Bubel"
+                }
+            ],
+            "name": "dump1090-git-20200315",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/dump1090-hptoa/default.nix#L53",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "dump1090-hptoa",
+        "_repo": "moredread"
+    },
+    "nur.repos.moredread.extplane-panel": {
+        "name": "extplane-panel-20200302",
+        "pname": "extplane-panel",
+        "version": "20200302",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "WIP",
+            "insecure": false,
+            "name": "extplane-panel-20200302",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/extplane-panel/default.nix#L36",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "extplane-panel",
+        "_repo": "moredread"
+    },
+    "nur.repos.moredread.implicitcad": {
+        "name": "implicitcad-0.2.0",
+        "pname": "implicitcad",
+        "version": "0.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Warning: experimental package, might change at any time. Math-inspired programmatic 2&3D CAD, also known as extopenscad",
+            "homepage": "http://kalli1.faikvm.com/ImplicitCAD/Stable",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU Affero General Public License v3.0",
+                "shortName": "agpl3",
+                "spdxId": "AGPL-3.0",
+                "url": "https://spdx.org/licenses/AGPL-3.0.html"
+            },
+            "name": "implicitcad-0.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/implicitcad/default.nix#L35",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "implicitcad",
+        "_repo": "moredread"
+    },
+    "nur.repos.moredread.ipbt": {
+        "name": "ipbt-20190601",
+        "pname": "ipbt",
+        "version": "20190601",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "WIP: ttyrec player",
+            "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/ipbt",
+            "insecure": false,
+            "name": "ipbt-20190601",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/ipbt/default.nix#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "ipbt",
+        "_repo": "moredread"
+    },
+    "nur.repos.moredread.joplin-desktop": {
+        "name": "joplin-desktop-2.0.8",
+        "pname": "joplin-desktop",
+        "version": "2.0.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Prereleases: An open source note taking and to-do application with synchronisation capabilities",
+            "homepage": "https://joplinapp.org",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "Joplin is a free, open source note taking and to-do application, which can\nhandle a large number of notes organised into notebooks. The notes are\nsearchable, can be copied, tagged and modified either from the\napplications directly or from your own text editor. The notes are in\nMarkdown format.\n",
+            "maintainers": [],
+            "name": "joplin-desktop-2.0.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/joplin-desktop/default.nix#L35",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "joplin-desktop",
+        "_repo": "moredread"
+    },
+    "nur.repos.moredread.nix-search": {
+        "name": "nix-search",
+        "pname": "nix-search",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "nix-search",
+            "insecure": false,
+            "name": "nix-search",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/nix-search/default.nix#L17",
+            "unfree": false,
+            "unsupported": false,
+            "version": "0.1.0"
+        },
+        "_attr": "nix-search",
+        "_repo": "moredread"
+    },
+    "nur.repos.moredread.sc3-plugins": {
+        "name": "sc3-plugins-3.11.0-rc2",
+        "pname": "sc3-plugins",
+        "version": "3.11.0-rc2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "sc3-plugins-3.11.0-rc2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/moredread/pkgs/sc3-plugins/default.nix#L7",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "sc3-plugins",
+        "_repo": "moredread"
     },
     "nur.repos.mpickering.ghc-head-from": {
         "name": "ghc-head-from",
