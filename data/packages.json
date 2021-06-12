@@ -4393,6 +4393,7 @@
         "meta": {
             "available": true,
             "broken": false,
+            "changelog": "https://github.com/casey/just/blob/v0.9.4/CHANGELOG.md",
             "description": "A handy way to save and run project-specific commands",
             "homepage": "https://github.com/casey/just",
             "insecure": false,
@@ -4408,6 +4409,12 @@
                     "github": "xrelkd",
                     "githubId": 46590321,
                     "name": "xrelkd"
+                },
+                {
+                    "email": "hello+nixpkgs@j-k.io",
+                    "github": "06kellyjac",
+                    "githubId": 9866621,
+                    "name": "Jack"
                 }
             ],
             "name": "just-0.5.8",
@@ -89373,7 +89380,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xeals/pkgs/applications/terminal-emulators/alacritty-ligatures/default.nix#L50",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/xeals/pkgs/applications/terminal-emulators/alacritty-ligatures/default.nix#L52",
             "unfree": false,
             "unsupported": false
         },
