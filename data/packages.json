@@ -2640,6 +2640,78 @@
         "_attr": "lohr",
         "_repo": "ambroisie"
     },
+    "nur.repos.ambroisie.matrix-notifier": {
+        "name": "matrix-notifier-0.1.0",
+        "pname": "matrix-notifier",
+        "version": "0.1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A very simple bash script that can be used to send a message to\na Matrix room\n",
+            "homepage": "https://gitea.belanyi.fr/ambroisie/matrix-notifier",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "bruno.nixpkgs@belanyi.fr",
+                    "github": "ambroisie",
+                    "githubId": 12465195,
+                    "name": "Bruno BELANYI"
+                }
+            ],
+            "name": "matrix-notifier-0.1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ambroisie/pkgs/matrix-notifier/default.nix#L36",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "matrix-notifier",
+        "_repo": "ambroisie"
+    },
     "nur.repos.ambroisie.nolimips": {
         "name": "nolimips-0.11",
         "pname": "nolimips",
