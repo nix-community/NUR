@@ -12610,14 +12610,14 @@
         "_repo": "emmanuelrosa"
     },
     "nur.repos.emmanuelrosa.bitcoin-onion-nodes": {
-        "name": "bitcoin-onion-nodes-fd2e353acb801901c60d82eac0828d71a7a7d147.txt",
-        "pname": "bitcoin-onion-nodes-fd2e353acb801901c60d82eac0828d71a7a7d147.txt",
+        "name": "bitcoin-onion-nodes-ccba39f58905da0277d81c0e0509f01d9885f243.txt",
+        "pname": "bitcoin-onion-nodes-ccba39f58905da0277d81c0e0509f01d9885f243.txt",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A list of over 500 Bitcoin Core nodes running as Tor onion services.",
+            "description": "A list of over 200 Bitcoin Core nodes running as Tor v3 onion services.",
             "homepage": "https://github.com/emmanuelrosa/bitcoin-onion-nodes",
             "insecure": false,
             "license": {
@@ -12634,7 +12634,7 @@
                     "name": "Emmanuel Rosa"
                 }
             ],
-            "name": "bitcoin-onion-nodes-fd2e353acb801901c60d82eac0828d71a7a7d147.txt",
+            "name": "bitcoin-onion-nodes-ccba39f58905da0277d81c0e0509f01d9885f243.txt",
             "outputsToInstall": [
                 "out"
             ],
