@@ -54077,9 +54077,9 @@
         "_repo": "nagy"
     },
     "nur.repos.nagy.hackernews-tui": {
-        "name": "hackernews-tui-0.6.2",
+        "name": "hackernews-tui-0.7.0",
         "pname": "hackernews-tui",
-        "version": "0.6.2",
+        "version": "0.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54096,7 +54096,7 @@
                 }
             ],
             "maintainers": [],
-            "name": "hackernews-tui-0.6.2",
+            "name": "hackernews-tui-0.7.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -54563,6 +54563,71 @@
             "unsupported": false
         },
         "_attr": "lunasvg",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.blender-file": {
+        "name": "python3.8-blender-file-1.0",
+        "pname": "python3.8-blender-file",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Module to inspect a .blend file from Python",
+            "homepage": "https://developer.blender.org/source/blender-file",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v2.0",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0",
+                "url": "https://spdx.org/licenses/GPL-2.0.html"
+            },
+            "name": "python3.8-blender-file-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy/pkgs/blender-file/default.nix#L17",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "blender-file",
         "_repo": "nagy"
     },
     "nur.repos.nagy.piecash": {
