@@ -12134,14 +12134,14 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.tuna": {
-        "name": "tuna-0.5.6",
+        "name": "tuna-0.5.7",
         "pname": "tuna",
-        "version": "0.5.6",
+        "version": "0.5.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/nschloe/tuna/releases/tag/v0.5.6",
+            "changelog": "https://github.com/nschloe/tuna/releases/tag/v0.5.7",
             "description": "Python profile viewer",
             "homepage": "https://github.com/nschloe/tuna",
             "insecure": false,
@@ -12178,7 +12178,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "tuna-0.5.6",
+            "name": "tuna-0.5.7",
             "outputsToInstall": [
                 "out"
             ],
