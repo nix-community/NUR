@@ -2644,9 +2644,9 @@
         "_repo": "ambroisie"
     },
     "nur.repos.ambroisie.matrix-notifier": {
-        "name": "matrix-notifier-0.1.0",
+        "name": "matrix-notifier-0.1.2",
         "pname": "matrix-notifier",
-        "version": "0.1.0",
+        "version": "0.1.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -2668,7 +2668,7 @@
                     "name": "Bruno BELANYI"
                 }
             ],
-            "name": "matrix-notifier-0.1.0",
+            "name": "matrix-notifier-0.1.2",
             "outputsToInstall": [
                 "out"
             ],
