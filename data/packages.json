@@ -330,6 +330,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "longDescription": "Dyndnsc is a command line client for sending updates to Dynamic\nDNS (DDNS, DynDNS) services.  It supports multiple protocols and\nservices, and it has native support for IPv6.  The configuration\nfile allows using foreign, but compatible services.  Dyndnsc\nships many different IP detection mechanisms, support for\nconfiguring multiple services in one place and it has a daemon\nmode for running unattended.  It has a plugin system to provide\nexternal notification services.\n",
+            "mainProgram": "dyndnsc",
             "maintainers": [
                 {
                     "email": "aluisio@aasg.name",
@@ -936,6 +937,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "longDescription": "daemonocle is a library for creating your own Unix-style daemons\nwritten in Python.  It solves many problems that other daemon\nlibraries have and provides some really useful features you don't\noften see in other daemons.\n",
+            "mainProgram": "daemonocle",
             "maintainers": [
                 {
                     "email": "aluisio@aasg.name",
@@ -1033,6 +1035,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "longDescription": "Python logging library to emit JSON log that can be easily indexed and searchable by logging infrastructure such as ELK, EFK, AWS Cloudwatch, GCP Stackdriver.\n",
+            "mainProgram": "json-logging",
             "maintainers": [
                 {
                     "email": "aluisio@aasg.name",
@@ -3242,6 +3245,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "longDescription": "This is a proxy server that translates Synapse RPC into Transmission RPC.\n\nTo use it, run the daemon and point your Transmission client at it. Set\nthe username to your desired Synapse RPC URI (e.g. ws://localhost:8412)\nand the password to your Synapse RPC password, and the host to\nhttp://localhost:9091.\n",
+            "mainProgram": "broca-unstable",
             "maintainers": [
                 {
                     "email": "me@bb010g.com",
@@ -3747,6 +3751,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
+            "mainProgram": "gallery-dl",
             "maintainers": [
                 {
                     "email": "me@bb010g.com",
@@ -4004,6 +4009,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "git-revise",
             "maintainers": [
                 {
                     "email": "me@bb010g.com",
@@ -5603,6 +5609,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
             "longDescription": "Wpull is a Wget-compatible (or remake/clone/replacement/alternative) web\ndownloader and crawler.\n\nNotable Features:\n- Written in Python: lightweight, modifiable, robust, & scriptable\n- Graceful stopping; on-disk database resume\n- PhantomJS & youtube-dl integration (experimental)\n",
+            "mainProgram": "wpull",
             "maintainers": [
                 {
                     "email": "me@bb010g.com",
@@ -5749,6 +5756,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "ydiff",
             "maintainers": [
                 {
                     "email": "me@bb010g.com",
@@ -5821,6 +5829,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "plaid2qif",
             "maintainers": [
                 {
                     "email": "bhipple@protonmail.com",
@@ -7623,6 +7632,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "algopy",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -7696,6 +7706,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "asteval",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -7768,6 +7779,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "autoray",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -7841,6 +7853,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "cirq-core",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -7914,6 +7927,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "cirq-core",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -7987,6 +8001,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "cirq-core",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8059,6 +8074,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "colorzero",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8133,6 +8149,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "cvxpy",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8205,6 +8222,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "dlx",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8277,6 +8295,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "docloud",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8349,6 +8368,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "docplex",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8422,6 +8442,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "ecos",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8495,6 +8516,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "longDescription": "FastDTW is an approximate Dynamic Time Warping (DTW) algorithm that provides\noptimal or near-optimal alignments with an O(N) time and memory complexity.\n",
+            "mainProgram": "fastdtw",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8567,6 +8589,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "fastjsonschema",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8640,6 +8663,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "gpiozero",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8712,6 +8736,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "ipyvue",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8784,6 +8809,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "ipyvuetify",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8856,6 +8882,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "multitasking",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -8928,6 +8955,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "numdifftools",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9000,6 +9028,7 @@
                 "fullName": "Unfree",
                 "shortName": "unfree"
             },
+            "mainProgram": "oitg",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9072,6 +9101,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "olsq",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9144,6 +9174,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "openfermion",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9218,6 +9249,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "longDescription": "Numerical optimization package for solving problems in the form\n  minimize        0.5 x' P x + q' x\n  subject to      l <= A x <= u\n\nwhere x in R^n is the optimization variable\n",
+            "mainProgram": "osqp",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9291,6 +9323,7 @@
                 "spdxId": "Unlicense",
                 "url": "https://spdx.org/licenses/Unlicense.html"
             },
+            "mainProgram": "pigpio-py",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9349,6 +9382,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "pproxy",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9421,6 +9455,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "pubchempy",
             "name": "python3.8-pubchempy-1.0.4",
             "outputsToInstall": [
                 "out"
@@ -9486,6 +9521,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "pygsti",
             "name": "python3.8-pygsti-0.9.9.3",
             "outputsToInstall": [
                 "out"
@@ -9551,6 +9587,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "pygsti",
             "name": "python3.8-pygsti-unstable-2020-04-20",
             "outputsToInstall": [
                 "out"
@@ -9616,6 +9653,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "pylatexenc",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9688,6 +9726,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "pyquil",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9763,6 +9802,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "longDescription": "PySCF is an open-source collection of electronic structure modules powered by Python.\nThe package aims to provide a simple, lightweight, and efficient platform\nfor quantum chemistry calculations and methodology development.\n",
+            "mainProgram": "pyscf",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9836,6 +9876,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "pytest-plt",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9908,6 +9949,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "pytest-profiling",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -9981,6 +10023,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "python-box",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10054,6 +10097,7 @@
                 "spdxId": "BSD-2-Clause",
                 "url": "https://spdx.org/licenses/BSD-2-Clause.html"
             },
+            "mainProgram": "python-constraint",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10128,6 +10172,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "longDescription": "A Python package with bindings to the \"Virtual Instrument Software Architecture\" VISA library,\nin order to control measurement devices and test equipment via GPIB, RS232, or USB.\n",
+            "mainProgram": "pyvisa",
             "maintainers": {
                 "email": "drisinger+nixpkgs@gmail.com",
                 "github": "drewrisinger",
@@ -10199,6 +10244,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "pyvisa-py",
             "maintainers": {
                 "email": "drisinger+nixpkgs@gmail.com",
                 "github": "drewrisinger",
@@ -10270,6 +10316,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qdldl",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10344,6 +10391,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10424,6 +10472,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit-aer",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10497,6 +10546,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit-aqua",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10571,6 +10621,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit-finance",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10644,6 +10695,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit-ibmq-provider",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10717,6 +10769,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit-ibmq-provider",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10791,6 +10844,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit-ignis",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10865,6 +10919,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit-machine-learning",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -10939,6 +10994,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit-nature",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11012,6 +11068,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit-ode",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11086,6 +11143,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "qiskit-optimization",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11161,6 +11219,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "longDescription": "Allows the user to write quantum circuits easily, and takes care of the constraints of real hardware.\n",
+            "mainProgram": "qiskit-terra",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11236,6 +11295,7 @@
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
             "longDescription": "Allows the user to write quantum circuits easily, and takes care of the constraints of real hardware.\n",
+            "mainProgram": "qiskit-terra",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11308,6 +11368,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "quimb",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11382,6 +11443,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "qutip",
             "maintainers": {
                 "email": "drisinger+nixpkgs@gmail.com",
                 "github": "drewrisinger",
@@ -11454,6 +11516,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "retworkx",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11526,6 +11589,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "rpcq",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11599,6 +11663,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
+            "mainProgram": "rpi-gpio2",
             "name": "python3.8-rpi-gpio2-0.3.0a3",
             "outputsToInstall": [
                 "out"
@@ -11649,6 +11714,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "RPi.GPIO",
             "name": "python3.8-RPi.GPIO-0.7.0",
             "outputsToInstall": [
                 "out"
@@ -11703,6 +11769,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
             "longDescription": "Solves convex cone programs via operator splitting.\nCan solve: linear programs (LPs), second-order cone programs (SOCPs), semidefinite programs (SDPs),\nexponential cone programs (ECPs), and power cone programs (PCPs), or problems with any combination of those cones.\n",
+            "mainProgram": "scs",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11775,6 +11842,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "smbus2",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11847,6 +11915,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "tweedledum",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -11919,6 +11988,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "yfinance",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -12170,6 +12240,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "tuna",
             "maintainers": [
                 {
                     "email": "drisinger+nixpkgs@gmail.com",
@@ -12608,6 +12679,7 @@
                 "spdxId": "wxWindows",
                 "url": "https://spdx.org/licenses/wxWindows.html"
             },
+            "mainProgram": "frida-tools",
             "maintainers": [
                 {
                     "email": "dominik.schrempf@gmail.com",
@@ -12921,6 +12993,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "biblib",
             "maintainers": [
                 {
                     "email": "dominik.schrempf@gmail.com",
@@ -12999,6 +13072,7 @@
                 "spdxId": "wxWindows",
                 "url": "https://spdx.org/licenses/wxWindows.html"
             },
+            "mainProgram": "frida-python",
             "maintainers": [
                 {
                     "email": "dominik.schrempf@gmail.com",
@@ -13961,6 +14035,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "longDescription": "Electrum Personal Server aims to make using Electrum bitcoin wallet \nmore secure and more private. It makes it easy to connect your \nElectrum wallet to your own full node.\n",
+            "mainProgram": "electrum-personal-server",
             "maintainers": [
                 {
                     "email": "emmanuel_rosa@aol.com",
@@ -14073,6 +14148,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "longDescription": "This project is a fork of kyuupichan/electrumx. \nThe original author dropped support for Bitcoin, which we intend to keep.\n",
+            "mainProgram": "electrumx",
             "maintainers": [
                 {
                     "email": "emmanuel_rosa@aol.com",
@@ -15317,6 +15393,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "downloader-cli",
             "maintainers": [
                 {
                     "email": "lythe1107@gmail.com",
@@ -15389,6 +15466,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "itunespy",
             "maintainers": [
                 {
                     "email": "lythe1107@gmail.com",
@@ -15461,6 +15539,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "pyDes",
             "maintainers": [
                 {
                     "email": "lythe1107@gmail.com",
@@ -15533,6 +15612,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "simber",
             "maintainers": [
                 {
                     "email": "lythe1107@gmail.com",
@@ -15605,6 +15685,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "youtube-search",
             "maintainers": [
                 {
                     "email": "lythe1107@gmail.com",
@@ -15677,6 +15758,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "ytmdl",
             "maintainers": [
                 {
                     "email": "lythe1107@gmail.com",
@@ -17410,6 +17492,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "gufw",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -18196,6 +18279,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "instantWelcome",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -18984,6 +19068,7 @@
                 "spdxId": "GPL-2.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
             },
+            "mainProgram": "fail2ban",
             "maintainers": [
                 {
                     "email": "edolstra+nixpkgs@gmail.com",
@@ -39222,6 +39307,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "oath",
             "maintainers": [
                 {
                     "email": "git@danielschaefer.me",
@@ -39631,6 +39717,7 @@
                 "spdxId": "EPL-1.0",
                 "url": "https://spdx.org/licenses/EPL-1.0.html"
             },
+            "mainProgram": "paho-mqtt",
             "maintainers": [
                 {
                     "email": "mog-lists@rldn.net",
@@ -39787,6 +39874,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "pykwalify",
             "maintainers": [
                 {
                     "email": "git@danielschaefer.me",
@@ -39937,6 +40025,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "python-box",
             "maintainers": [
                 {
                     "email": "git@danielschaefer.me",
@@ -40087,6 +40176,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "tavern",
             "maintainers": [
                 {
                     "email": "git@danielschaefer.me",
@@ -41902,6 +41992,7 @@
                 "fullName": "Unfree redistributable",
                 "shortName": "unfreeRedistributable"
             },
+            "mainProgram": "bcml",
             "maintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -41969,6 +42060,7 @@
                 "fullName": "Unfree redistributable",
                 "shortName": "unfreeRedistributable"
             },
+            "mainProgram": "bcml",
             "maintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -42037,6 +42129,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "bluetooth-autoconnect",
             "maintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -42281,6 +42374,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "cmake-language-server",
             "maintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -42524,6 +42618,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "git-review",
             "maintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -43071,6 +43166,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
+            "mainProgram": "protontricks",
             "maintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -44326,6 +44422,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "dpt-rp1-py",
             "name": "dpt-rp1-py-0.1.13",
             "outputsToInstall": [
                 "out"
@@ -44444,6 +44541,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "musicbox",
             "name": "musicbox-0.2.5.4",
             "outputsToInstall": [
                 "out"
@@ -44815,6 +44913,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
+            "mainProgram": "fasm",
             "name": "python3.8-fasm-0.0.2-g99f199f9",
             "outputsToInstall": [
                 "out"
@@ -44879,6 +44978,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "pyjson5",
             "name": "python3.8-pyjson5-1.5.1",
             "outputsToInstall": [
                 "out"
@@ -44944,6 +45044,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "pyric",
             "name": "python3.8-pyric-0.1.6-17-g0562b17",
             "outputsToInstall": [
                 "out"
@@ -45008,6 +45109,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
+            "mainProgram": "python-prjxray",
             "name": "python3.8-python-prjxray-0.1-2928-gda7bf6a0",
             "outputsToInstall": [
                 "out"
@@ -45072,6 +45174,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "roguehostapd",
             "name": "python3.8-roguehostapd-1.0-45-g381b373",
             "outputsToInstall": [
                 "out"
@@ -45136,6 +45239,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "textX",
             "name": "python3.8-textX-2.3.0",
             "outputsToInstall": [
                 "out"
@@ -45200,6 +45304,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
+            "mainProgram": "xc-fasm",
             "name": "python3.8-xc-fasm-0.0.1-gfc546c75",
             "outputsToInstall": [
                 "out"
@@ -45520,6 +45625,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "ubi_reader",
             "name": "ubi_reader-0.7.0",
             "outputsToInstall": [
                 "out"
@@ -45670,6 +45776,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "wifiphisher",
             "name": "wifiphisher-1.4-144-g4e1052f",
             "outputsToInstall": [
                 "out"
@@ -46210,6 +46317,7 @@
                 "spdxId": "wxWindows",
                 "url": "https://spdx.org/licenses/wxWindows.html"
             },
+            "mainProgram": "frida-tools",
             "name": "frida-tools-7.2.2",
             "outputsToInstall": [
                 "out"
@@ -46600,6 +46708,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "mastodon-hnbot",
             "name": "mastodon-hnbot-1.0.0",
             "outputsToInstall": [
                 "out"
@@ -46728,6 +46837,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "mypyls",
             "maintainers": [
                 {
                     "email": "joerg@thalheim.io",
@@ -46940,6 +47050,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "nixpkgs-review",
             "maintainers": [
                 {
                     "email": "joerg@thalheim.io",
@@ -47129,6 +47240,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "patool",
             "maintainers": [
                 {
                     "email": "joerg@thalheim.io",
@@ -47292,6 +47404,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "pypys4-2ndscreen",
             "maintainers": [
                 {
                     "email": "joerg@thalheim.io",
@@ -47388,6 +47501,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "blurhash",
             "name": "python3.8-blurhash-1.1.4",
             "outputsToInstall": [
                 "out"
@@ -47452,6 +47566,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "chump",
             "maintainers": [
                 {
                     "email": "joerg@thalheim.io",
@@ -47548,6 +47663,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
+            "mainProgram": "deepspeech",
             "name": "python3.8-deepspeech-0.9.3",
             "outputsToInstall": [
                 "out"
@@ -47612,6 +47728,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
+            "mainProgram": "deepspeech_tflite",
             "name": "python3.8-deepspeech_tflite-0.9.3",
             "outputsToInstall": [
                 "out"
@@ -47676,6 +47793,7 @@
                 "spdxId": "wxWindows",
                 "url": "https://spdx.org/licenses/wxWindows.html"
             },
+            "mainProgram": "frida",
             "name": "python3.8-frida-12.10.4",
             "outputsToInstall": [
                 "out"
@@ -47740,6 +47858,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "gatt",
             "name": "python3.8-gatt-0.2.7",
             "outputsToInstall": [
                 "out"
@@ -47804,6 +47923,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "http_ece",
             "name": "python3.8-http_ece-1.1.0",
             "outputsToInstall": [
                 "out"
@@ -47868,6 +47988,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "jupyterthemes",
             "name": "python3.8-jupyterthemes-0.20.0",
             "outputsToInstall": [
                 "out"
@@ -47932,6 +48053,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
+            "mainProgram": "keystone",
             "name": "python3.8-keystone-0.9.2",
             "outputsToInstall": [
                 "out"
@@ -47996,6 +48118,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "ldap0",
             "name": "python3.8-ldap0-1.0.6",
             "outputsToInstall": [
                 "out"
@@ -48060,6 +48183,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "lesscpy",
             "name": "python3.8-lesscpy-0.13.0",
             "outputsToInstall": [
                 "out"
@@ -48124,6 +48248,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "Mastodon.py",
             "name": "python3.8-Mastodon.py-1.5.1",
             "outputsToInstall": [
                 "out"
@@ -48188,6 +48313,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "priority",
             "name": "python3.8-priority-1.3.0",
             "outputsToInstall": [
                 "out"
@@ -48252,6 +48378,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "pry.py",
             "name": "python3.8-pry.py-0.1.1",
             "outputsToInstall": [
                 "out"
@@ -48317,6 +48444,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "pypys4-2ndscreen",
             "maintainers": [
                 {
                     "email": "joerg@thalheim.io",
@@ -48413,6 +48541,7 @@
                 "spdxId": "BSD-2-Clause",
                 "url": "https://spdx.org/licenses/BSD-2-Clause.html"
             },
+            "mainProgram": "remote-pdb",
             "name": "python3.8-remote-pdb-2.0.0",
             "outputsToInstall": [
                 "out"
@@ -48477,6 +48606,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "rhasspy",
             "maintainers": [
                 {
                     "email": "joerg@thalheim.io",
@@ -48555,6 +48685,7 @@
                 "spdxId": "APSL-2.0",
                 "url": "https://spdx.org/licenses/APSL-2.0.html"
             },
+            "mainProgram": "web2ldap",
             "name": "python3.8-web2ldap-1.5.75",
             "outputsToInstall": [
                 "out"
@@ -48691,6 +48822,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "rspamd-learn-spam-ham",
             "maintainers": [
                 {
                     "email": "joerg@thalheim.io",
@@ -53713,6 +53845,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "colorpedia",
             "maintainers": [],
             "name": "colorpedia-1.2.3",
             "outputsToInstall": [
@@ -54601,6 +54734,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
+            "mainProgram": "blender-file",
             "name": "python3.8-blender-file-1.0",
             "outputsToInstall": [
                 "out"
@@ -54665,6 +54799,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "piecash",
             "maintainers": [],
             "name": "python3.8-piecash-1.1.7",
             "outputsToInstall": [
@@ -54730,6 +54865,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "warctools",
             "maintainers": [],
             "name": "python3.8-warctools-4.10.0",
             "outputsToInstall": [
@@ -54916,6 +55052,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "mumble_ptt_caps_lock_led",
             "name": "python3.8-mumble_ptt_caps_lock_led-1.0.1",
             "outputsToInstall": [
                 "out"
@@ -55665,6 +55802,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "ulozto-downloader",
             "name": "ulozto-downloader-2.6.0",
             "outputsToInstall": [
                 "out"
@@ -56328,6 +56466,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
+            "mainProgram": "EDMarketConnector",
             "name": "EDMarketConnector-5.1.1",
             "outputsToInstall": [
                 "out"
@@ -56392,6 +56531,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
+            "mainProgram": "EDMarketConnector",
             "name": "EDMarketConnector-5.1.1",
             "outputsToInstall": [
                 "out"
@@ -56579,6 +56719,7 @@
                 "spdxId": "LGPL-3.0",
                 "url": "https://spdx.org/licenses/LGPL-3.0.html"
             },
+            "mainProgram": "obspy",
             "name": "python3.8-obspy-1.2.2",
             "outputsToInstall": [
                 "out"
@@ -57680,6 +57821,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
+            "mainProgram": "gpaw",
             "name": "python3.8-gpaw-21.1.0",
             "outputsToInstall": [
                 "out"
@@ -59021,6 +59163,7 @@
                 "spdxId": "GPL-2.0-only",
                 "url": "https://spdx.org/licenses/GPL-2.0-only.html"
             },
+            "mainProgram": "meep",
             "maintainers": [
                 {
                     "email": "phillip.seeber@googlemail.com",
@@ -59932,6 +60075,7 @@
                 "spdxId": "LGPL-3.0",
                 "url": "https://spdx.org/licenses/LGPL-3.0.html"
             },
+            "mainProgram": "psi4",
             "name": "python3.8-psi4-01.11.2020",
             "outputsToInstall": [
                 "out"
@@ -59993,6 +60137,7 @@
                 "spdxId": "LGPL-3.0",
                 "url": "https://spdx.org/licenses/LGPL-3.0.html"
             },
+            "mainProgram": "psi4",
             "name": "python3.8-psi4-1.3.2",
             "outputsToInstall": [
                 "out"
@@ -60054,6 +60199,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "pysisyphus",
             "maintainers": [
                 {
                     "email": "phillip.seeber@googlemail.com",
@@ -71840,6 +71986,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "AutoGnirehtet",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -71947,6 +72094,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "CdC-cognitoform-result-generator",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -72010,6 +72158,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
+            "mainProgram": "commix",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -72934,6 +73083,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "graph-cli",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -72996,6 +73146,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "iconf",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73058,6 +73209,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "merge-keepass",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73121,6 +73273,7 @@
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
             "longDescription": "An application to display XY position and RGB color information for the\npixel currently under the mouse. Works on Python 2 and 3.\n",
+            "mainProgram": "MouseInfo",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73183,6 +73336,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "parallel-ssh",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73245,6 +73399,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "Pdf2TimeTable",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73307,6 +73462,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "PronoteBot",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73369,6 +73525,7 @@
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
             "longDescription": "A cross-platform GUI automation Python module for\n    human beings. Used to programmatically control the mouse & keyboard.",
+            "mainProgram": "PyAutoGUI",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73431,6 +73588,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "PyGetWindow",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73493,6 +73651,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "PyRect",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73555,6 +73714,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "PyScreeze",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73618,6 +73778,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
+            "mainProgram": "python3-xlib",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73680,6 +73841,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "pytweening",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73742,6 +73904,7 @@
                 "spdxId": "LGPL-2.1-or-later",
                 "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
             },
+            "mainProgram": "ssh-python",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73805,6 +73968,7 @@
                 "spdxId": "LGPL-2.0",
                 "url": "https://spdx.org/licenses/LGPL-2.0.html"
             },
+            "mainProgram": "ssh2-python",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73867,6 +74031,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "sync-database",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73929,6 +74094,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "tabula-py",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -73991,6 +74157,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "TimeTable2Header",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -74053,6 +74220,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "wavetrace",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -74115,6 +74283,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "Yaml2ProbaTree",
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
@@ -75083,6 +75252,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "apibackuper",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -75475,6 +75645,7 @@
                 "spdxId": "Unlicense",
                 "url": "https://spdx.org/licenses/Unlicense.html"
             },
+            "mainProgram": "cmpgpx",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -76067,6 +76238,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "docx2csv",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -76163,6 +76335,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "elevation",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -76773,6 +76946,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
+            "mainProgram": "garmin-uploader",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -78400,6 +78574,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "gpxelevations",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -78804,6 +78979,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "gpxtrackposter",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -78900,6 +79076,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "gpx_interpolate",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -79183,6 +79360,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "gt4gd",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -80560,6 +80738,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "lazyscraper",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -80945,6 +81124,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "lru-dict",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -81039,6 +81219,7 @@
                 "fullName": "Unspecified free software license",
                 "shortName": "free"
             },
+            "mainProgram": "lsdreader",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -81184,6 +81365,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "map-stylizer",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -81278,6 +81460,7 @@
                 "fullName": "Unspecified free software license",
                 "shortName": "free"
             },
+            "mainProgram": "map-tiler",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -81652,6 +81835,7 @@
                 "spdxId": "LGPL-3.0-only",
                 "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
             },
+            "mainProgram": "md2gemini",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -81827,6 +82011,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
+            "mainProgram": "morse-talk",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -82515,6 +82700,7 @@
                 "spdxId": "GPL-2.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
             },
+            "mainProgram": "opendict",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -83232,6 +83418,7 @@
                 "spdxId": "GPL-2.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
             },
+            "mainProgram": "phyghtmap",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -83543,6 +83730,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "py-staticmaps",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -83647,6 +83835,7 @@
                     "url": "https://spdx.org/licenses/Apache-2.0.html"
                 }
             ],
+            "mainProgram": "bson",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -83725,6 +83914,7 @@
                 "spdxId": "LGPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
             },
+            "mainProgram": "CJKwrap",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -83803,6 +83993,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "click",
             "name": "python3.8-click-6.7",
             "outputsToInstall": [
                 "out"
@@ -83867,6 +84058,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
+            "mainProgram": "geotiler",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -83945,6 +84137,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "jsonseq",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84020,6 +84213,7 @@
                 "fullName": "Unspecified free software license",
                 "shortName": "free"
             },
+            "mainProgram": "maprec",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84098,6 +84292,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "mercantile",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84176,6 +84371,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "mikatools",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84254,6 +84450,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "morecantile",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84330,6 +84527,7 @@
                 "fullName": "Unspecified free software license",
                 "shortName": "free"
             },
+            "mainProgram": "ozi_map",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84406,6 +84604,7 @@
                 "fullName": "Unspecified free software license",
                 "shortName": "free"
             },
+            "mainProgram": "pyimagequant",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84484,6 +84683,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
+            "mainProgram": "pymbtiles",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84563,6 +84763,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "python-hfst",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84641,6 +84842,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "rasterio",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84719,6 +84921,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "s2sphere",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -84797,6 +85000,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "thinplatespline",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -86806,6 +87010,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "supermercado",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -87121,6 +87326,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
+            "mainProgram": "taskcoach",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -87298,6 +87504,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "tatoebatools",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -87472,6 +87679,7 @@
                 "spdxId": "BSD-2-Clause",
                 "url": "https://spdx.org/licenses/BSD-2-Clause.html"
             },
+            "mainProgram": "tilesets-cli",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -87568,6 +87776,7 @@
                 "spdxId": "ISC",
                 "url": "https://spdx.org/licenses/ISC.html"
             },
+            "mainProgram": "tpkutils",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -87845,6 +88054,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "wikitextprocessor",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -87941,6 +88151,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "wiktextract",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -88342,6 +88553,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "zdict",
             "maintainers": [
                 {
                     "email": "sikmir@gmail.com",
@@ -88583,6 +88795,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "mopidy-podcast",
             "maintainers": [],
             "name": "mopidy-podcast-2.0.3",
             "outputsToInstall": [
@@ -91206,6 +91419,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
+            "mainProgram": "amdgpu-fan",
             "name": "amdgpu-fan-0.0.6",
             "outputsToInstall": [
                 "out"
@@ -91450,6 +91664,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "mopidy-subidy",
             "maintainers": [],
             "name": "mopidy-subidy-1.0.0",
             "outputsToInstall": [
@@ -91912,6 +92127,7 @@
                 "spdxId": "BSD-3-Clause",
                 "url": "https://spdx.org/licenses/BSD-3-Clause.html"
             },
+            "mainProgram": "colorama",
             "name": "python2.7-colorama-0.4.4",
             "outputsToInstall": [
                 "out"
@@ -92054,6 +92270,7 @@
                 "spdxId": "LGPL-2.0-or-later",
                 "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
             },
+            "mainProgram": "mutagen",
             "name": "python2.7-mutagen-1.43.1",
             "outputsToInstall": [
                 "out"
@@ -92195,6 +92412,7 @@
                 "fullName": "Unfree",
                 "shortName": "unfree"
             },
+            "mainProgram": "pyspotify",
             "maintainers": [
                 {
                     "email": "jason@oconal.id.au",
@@ -92286,6 +92504,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
+            "mainProgram": "py-sonic",
             "name": "python3.8-py-sonic-0.7.7",
             "outputsToInstall": [
                 "out"
@@ -92474,6 +92693,7 @@
                 "shortName": "unfree"
             },
             "longDescription": "Spotify-ripper is a small ripper script for Spotify that rips Spotify URIs\nto audio files and includes ID3 tags and cover art. By default\nspotify-ripper will encode to MP3 files, but includes the ability to rip\nto WAV, FLAC, Ogg Vorbis, Opus, AAC, and MP4/M4A.\n",
+            "mainProgram": "spotify-ripper",
             "name": "spotify-ripper-20161231.gd046419",
             "outputsToInstall": [
                 "out"
@@ -92901,6 +93121,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "aiohttp-socks",
             "name": "python3.8-aiohttp-socks-0.6.0",
             "outputsToInstall": [
                 "out"
@@ -92965,6 +93186,7 @@
                 "spdxId": "LGPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
             },
+            "mainProgram": "baron",
             "name": "python3.8-baron-0.9",
             "outputsToInstall": [
                 "out"
@@ -93029,6 +93251,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "hsluv",
             "name": "python3.8-hsluv-5.0.2",
             "outputsToInstall": [
                 "out"
@@ -93087,6 +93310,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
+            "mainProgram": "matrix-registration",
             "name": "python3.8-matrix-registration-1.0.0.dev3",
             "outputsToInstall": [
                 "out"
@@ -93151,6 +93375,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "plyer",
             "name": "python3.8-plyer-2.0.0",
             "outputsToInstall": [
                 "out"
@@ -93215,6 +93440,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
+            "mainProgram": "python-socks",
             "name": "python3.8-python-socks-1.2.2",
             "outputsToInstall": [
                 "out"
@@ -93279,6 +93505,7 @@
                 "spdxId": "LGPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/LGPL-3.0-or-later.html"
             },
+            "mainProgram": "redbaron",
             "name": "python3.8-redbaron-0.9.2",
             "outputsToInstall": [
                 "out"
@@ -93343,6 +93570,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
+            "mainProgram": "watchgod",
             "name": "python3.8-watchgod-0.7",
             "outputsToInstall": [
                 "out"
