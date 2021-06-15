@@ -71365,6 +71365,42 @@
         "_attr": "mplayerV4l",
         "_repo": "schmittlauch"
     },
+    "nur.repos.schmittlauch.numptyphysics": {
+        "name": "numptyphysics",
+        "pname": "numptyphysics",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": true,
+            "description": "a drawing puzzle game based on construction and physics puzzles",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "longDescription": "Harness gravity with your crayon and set about creating blocks, ramps, levers, pulleys and whatever else you fancy to get the little red thing to the little yellow thing.\n\nNumpty Physics is a drawing puzzle game in the spirit (and style?) of Crayon Physics using the same excellent Box2D engine. Note though that I've not actually played CP so the experience may be very different. Numpty Physics includes a built-in editor so that you may build (and submit) your own levels.\n",
+            "maintainers": [
+                {
+                    "email": "t.schmittlauch+nixos@orlives.de",
+                    "github": "schmittlauch",
+                    "githubId": 1479555,
+                    "name": "Trolli Schmittlauch"
+                }
+            ],
+            "name": "numptyphysics",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/schmittlauch/pkgs/numptyphysics/default.nix#L31",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "numptyphysics",
+        "_repo": "schmittlauch"
+    },
     "nur.repos.schmittlauch.vollkorn": {
         "name": "vollkorn-4.105",
         "pname": "vollkorn",
