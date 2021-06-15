@@ -65719,9 +65719,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-9.5.9",
+        "name": "metamask-9.6.0",
         "pname": "metamask",
-        "version": "9.5.9",
+        "version": "9.6.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -65734,7 +65734,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-9.5.9",
+            "name": "metamask-9.6.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -66519,9 +66519,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-7.0.4",
+        "name": "octotree-7.0.5",
         "pname": "octotree",
-        "version": "7.0.4",
+        "version": "7.0.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66529,7 +66529,7 @@
             "description": "GitHub on steroids",
             "homepage": "https://github.com/buunguyen/octotree/",
             "insecure": false,
-            "name": "octotree-7.0.4",
+            "name": "octotree-7.0.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -66768,9 +66768,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.old-reddit-redirect": {
-        "name": "old-reddit-redirect-1.4.0",
+        "name": "old-reddit-redirect-1.5.0",
         "pname": "old-reddit-redirect",
-        "version": "1.4.0",
+        "version": "1.5.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66784,7 +66784,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "old-reddit-redirect-1.4.0",
+            "name": "old-reddit-redirect-1.5.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -68296,9 +68296,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.search-by-image": {
-        "name": "search-by-image-3.6.2",
+        "name": "search-by-image-3.6.3",
         "pname": "search-by-image",
-        "version": "3.6.2",
+        "version": "3.6.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68313,7 +68313,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "search-by-image-3.6.2",
+            "name": "search-by-image-3.6.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -69829,9 +69829,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tree-style-tab": {
-        "name": "tree-style-tab-3.8.2",
+        "name": "tree-style-tab-3.8.3",
         "pname": "tree-style-tab",
-        "version": "3.8.2",
+        "version": "3.8.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -69845,7 +69845,7 @@
                 "shortName": "tree-style-tab",
                 "url": "https://github.com/piroor/treestyletab/blob/trunk/COPYING.txt"
             },
-            "name": "tree-style-tab-3.8.2",
+            "name": "tree-style-tab-3.8.3",
             "outputsToInstall": [
                 "out"
             ],
