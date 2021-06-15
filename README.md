@@ -550,5 +550,5 @@ cycles.
 
 ## Contact
 
-You can chat with us on IRC in channel [#nixos-nur](https://webchat.freenode.net/?url=irc%3A%2F%2Firc.freenode.net%2Fnixos-nur).
+We have a matrix channel on [#nur:nixos.org](https://matrix.to/#/#nur:nixos.org).
 Apart from that we also read posts on [https://discourse.nixos.org](https://discourse.nixos.org/).
