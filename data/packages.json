@@ -8775,9 +8775,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.ipyvuetify": {
-        "name": "python3.8-ipyvuetify-1.6.2",
+        "name": "python3.8-ipyvuetify-1.7.0",
         "pname": "python3.8-ipyvuetify",
-        "version": "1.6.2",
+        "version": "1.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -8818,7 +8818,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-ipyvuetify-1.6.2",
+            "name": "python3.8-ipyvuetify-1.7.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -10355,9 +10355,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit": {
-        "name": "python3.8-qiskit-0.26.2",
+        "name": "python3.8-qiskit-0.27.0",
         "pname": "python3.8-qiskit",
-        "version": "0.26.2",
+        "version": "0.27.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10406,7 +10406,7 @@
                     "name": "pandaman"
                 }
             ],
-            "name": "python3.8-qiskit-0.26.2",
+            "name": "python3.8-qiskit-0.27.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -10511,9 +10511,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-aqua": {
-        "name": "python3.8-qiskit-aqua-0.9.1",
+        "name": "python3.8-qiskit-aqua-0.9.2",
         "pname": "python3.8-qiskit-aqua",
-        "version": "0.9.1",
+        "version": "0.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10555,7 +10555,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-aqua-0.9.1",
+            "name": "python3.8-qiskit-aqua-0.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -10660,9 +10660,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-provider": {
-        "name": "python3.8-qiskit-ibmq-provider-0.13.1",
+        "name": "python3.8-qiskit-ibmq-provider-0.14.0",
         "pname": "python3.8-qiskit-ibmq-provider",
-        "version": "0.13.1",
+        "version": "0.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10704,7 +10704,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-ibmq-provider-0.13.1",
+            "name": "python3.8-qiskit-ibmq-provider-0.14.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -10726,7 +10726,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/qiskit-ibmq-provider/default.nix#L95",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/qiskit-ibmq-provider/default.nix#L102",
             "unfree": false,
             "unsupported": false
         },
@@ -10734,9 +10734,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.qiskit-ibmq-providerNoVisual": {
-        "name": "python3.8-qiskit-ibmq-provider-0.13.1",
+        "name": "python3.8-qiskit-ibmq-provider-0.14.0",
         "pname": "python3.8-qiskit-ibmq-provider",
-        "version": "0.13.1",
+        "version": "0.14.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10778,7 +10778,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-qiskit-ibmq-provider-0.13.1",
+            "name": "python3.8-qiskit-ibmq-provider-0.14.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -10800,7 +10800,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/qiskit-ibmq-provider/default.nix#L95",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/qiskit-ibmq-provider/default.nix#L102",
             "unfree": false,
             "unsupported": false
         },
