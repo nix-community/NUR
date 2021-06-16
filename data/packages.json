@@ -37971,14 +37971,14 @@
         "_repo": "j-k"
     },
     "nur.repos.j-k.konstraint": {
-        "name": "konstraint-0.13.0",
+        "name": "konstraint-0.14.1",
         "pname": "konstraint",
-        "version": "0.13.0",
+        "version": "0.14.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/plexsystems/konstraint/releases/tag/v0.13.0",
+            "changelog": "https://github.com/plexsystems/konstraint/releases/tag/v0.14.1",
             "description": "A policy management tool for interacting with Gatekeeper",
             "homepage": "https://github.com/plexsystems/konstraint",
             "insecure": false,
@@ -38003,7 +38003,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "konstraint-0.13.0",
+            "name": "konstraint-0.14.1",
             "outputsToInstall": [
                 "out"
             ],
