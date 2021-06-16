@@ -2644,9 +2644,9 @@
         "_repo": "ambroisie"
     },
     "nur.repos.ambroisie.matrix-notifier": {
-        "name": "matrix-notifier-0.1.2",
+        "name": "matrix-notifier-0.2.0",
         "pname": "matrix-notifier",
-        "version": "0.1.2",
+        "version": "0.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -2668,7 +2668,7 @@
                     "name": "Bruno BELANYI"
                 }
             ],
-            "name": "matrix-notifier-0.1.2",
+            "name": "matrix-notifier-0.2.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -2708,7 +2708,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ambroisie/pkgs/matrix-notifier/default.nix#L36",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ambroisie/pkgs/matrix-notifier/default.nix#L37",
             "unfree": false,
             "unsupported": false
         },
