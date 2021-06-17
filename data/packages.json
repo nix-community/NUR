@@ -74709,6 +74709,51 @@
         "_attr": "unoconvui",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.kotlin-vim": {
+        "name": "vimplugin-kotlin-2021-04-20",
+        "pname": "vimplugin-kotlin",
+        "version": "2021-04-20",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Kotlin plugin for Vim",
+            "homepage": "https://github.com/udalov/kotlin-vim",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "vimplugin-kotlin-2021-04-20",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/kotlin-vim/default.nix#L18",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "kotlin-vim",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.vim-vala": {
         "name": "vimplugin-vala-2020-05-02",
         "pname": "vimplugin-vala",
