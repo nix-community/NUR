@@ -1902,31 +1902,30 @@
         "_repo": "afreakk"
     },
     "nur.repos.alarsyo.kaleidoscope-udev-rules": {
-        "name": "kaleidoscope-udev-rules-0.8.4",
+        "name": "kaleidoscope-udev-rules-1.99.3",
         "pname": "kaleidoscope-udev-rules",
-        "version": "0.8.4",
+        "version": "1.99.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "description": "udev rules for kaleidoscope firmware keyboards",
-            "homepage": "https://github.com/keyboardio/Chrysalis",
+            "homepage": "https://github.com/keyboardio/Kaleidoscope",
             "insecure": false,
             "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v3.0",
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "kaleidoscope-udev-rules-0.8.4",
+            "name": "kaleidoscope-udev-rules-1.99.3",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/alarsyo/pkgs/kaleidoscope-udev-rules/default.nix#L20",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/alarsyo/pkgs/kaleidoscope-udev-rules/default.nix#L25",
             "unfree": false,
             "unsupported": false
         },
