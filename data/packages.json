@@ -18761,9 +18761,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1790",
+        "name": "yuzu-ea-1791",
         "pname": "yuzu-ea",
-        "version": "1790",
+        "version": "1791",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18792,7 +18792,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1790",
+            "name": "yuzu-ea-1791",
             "outputsToInstall": [
                 "out"
             ],
@@ -52958,9 +52958,9 @@
         "_repo": "moredread"
     },
     "nur.repos.moredread.joplin-desktop": {
-        "name": "joplin-desktop-2.0.8",
+        "name": "joplin-desktop-2.0.11",
         "pname": "joplin-desktop",
-        "version": "2.0.8",
+        "version": "2.0.11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -52976,7 +52976,7 @@
             },
             "longDescription": "Joplin is a free, open source note taking and to-do application, which can\nhandle a large number of notes organised into notebooks. The notes are\nsearchable, can be copied, tagged and modified either from the\napplications directly or from your own text editor. The notes are in\nMarkdown format.\n",
             "maintainers": [],
-            "name": "joplin-desktop-2.0.8",
+            "name": "joplin-desktop-2.0.11",
             "outputsToInstall": [
                 "out"
             ],
