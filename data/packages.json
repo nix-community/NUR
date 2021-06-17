@@ -18722,9 +18722,9 @@
         "_repo": "instantos"
     },
     "nur.repos.ivar.ryujinx": {
-        "name": "ryujinx-1.0.6912",
+        "name": "ryujinx-1.0.6913",
         "pname": "ryujinx",
-        "version": "1.0.6912",
+        "version": "1.0.6913",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18746,7 +18746,7 @@
                     "name": "Ivar"
                 }
             ],
-            "name": "ryujinx-1.0.6912",
+            "name": "ryujinx-1.0.6913",
             "outputsToInstall": [
                 "out"
             ],
@@ -18761,9 +18761,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1791",
+        "name": "yuzu-ea-1793",
         "pname": "yuzu-ea",
-        "version": "1791",
+        "version": "1793",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18792,7 +18792,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1791",
+            "name": "yuzu-ea-1793",
             "outputsToInstall": [
                 "out"
             ],
