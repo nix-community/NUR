@@ -59713,9 +59713,9 @@
         "_repo": "qchem"
     },
     "nur.repos.qchem.molcas": {
-        "name": "openmolcas-21.06",
+        "name": "openmolcas-21.06-2021-06-09",
         "pname": "openmolcas",
-        "version": "21.06",
+        "version": "21.06-2021-06-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -59738,7 +59738,7 @@
                     "name": "Markus Kowalewski"
                 }
             ],
-            "name": "openmolcas-21.06",
+            "name": "openmolcas-21.06-2021-06-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -59756,7 +59756,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/openmolcas/default.nix#L145",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/openmolcas/default.nix#L146",
             "unfree": false,
             "unsupported": false
         },
