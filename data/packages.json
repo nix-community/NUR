@@ -53273,9 +53273,9 @@
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.hassLovelaceModules.slider-button-card": {
-        "name": "node_slider-button-card-1.3.2",
+        "name": "node_slider-button-card-1.4.0",
         "pname": "node_slider-button-card",
-        "version": "1.3.2",
+        "version": "1.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53297,7 +53297,7 @@
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "node_slider-button-card-1.3.2",
+            "name": "node_slider-button-card-1.4.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -59713,9 +59713,9 @@
         "_repo": "qchem"
     },
     "nur.repos.qchem.molcas": {
-        "name": "openmolcas-21.02-20210224",
+        "name": "openmolcas-21.06",
         "pname": "openmolcas",
-        "version": "21.02-20210224",
+        "version": "21.06",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -59738,7 +59738,7 @@
                     "name": "Markus Kowalewski"
                 }
             ],
-            "name": "openmolcas-21.02-20210224",
+            "name": "openmolcas-21.06",
             "outputsToInstall": [
                 "out"
             ],
@@ -59756,7 +59756,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/openmolcas/v21.02.nix#L145",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/openmolcas/default.nix#L145",
             "unfree": false,
             "unsupported": false
         },
@@ -71406,8 +71406,8 @@
         "version": "",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "description": "a drawing puzzle game based on construction and physics puzzles",
             "insecure": false,
             "license": {
@@ -71429,7 +71429,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/schmittlauch/pkgs/numptyphysics/default.nix#L31",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/schmittlauch/pkgs/numptyphysics/default.nix#L33",
             "unfree": false,
             "unsupported": false
         },
@@ -81829,7 +81829,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gis/mapsoft/default.nix#L102",
             "skip": {
-                "ci": false
+                "ci": true
             },
             "unfree": false,
             "unsupported": false
