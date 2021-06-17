@@ -77939,6 +77939,9 @@
                 "x86_64-redox"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gmi2html/default.nix#L29",
+            "skip": {
+                "ci": true
+            },
             "unfree": false,
             "unsupported": false
         },
