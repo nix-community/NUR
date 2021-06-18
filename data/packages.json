@@ -81892,7 +81892,7 @@
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gis/mapsoft/2.nix#L80",
             "skip": {
-                "ci": false
+                "ci": true
             },
             "unfree": false,
             "unsupported": false
