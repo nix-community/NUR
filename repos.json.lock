@@ -151,6 +151,11 @@
             "sha256": "1wvlv0add78ndm97112mhcz352algwph4anrqmqaahf27bi46f9k",
             "url": "https://github.com/demyanrogozhin/nur-packages"
         },
+        "devins2518": {
+            "rev": "8b1f5c162cd19890f1c30cd1b336c4038ef1722e",
+            "sha256": "10zchqzwwwx04ncbm4d7k0vnw39wxy1and0i5m7rdq0xfpzc9mwa",
+            "url": "https://github.com/devins2518/nur"
+        },
         "dezgeg": {
             "rev": "2d1018064f60640b6dcc2201efcfc9d0a92a7889",
             "sha256": "0x9q6zdw56sldffqhyvwdx64bjzw5yb6idag4ggrf6ivisrvyszy",
@@ -636,8 +641,8 @@
             "url": "https://github.com/Ptival/nur-packages"
         },
         "qchem": {
-            "rev": "a5b64d99f4c61df7f042797ac3fcd0422fef4640",
-            "sha256": "0vvvrdqi77w763yf0bpl0hv9fapyqkaf8yqxda838nszhpwncwvg",
+            "rev": "6aa258941d72efedb64edbcf8487121511502884",
+            "sha256": "108bb0jvg54g4kdig40rz5i4qfzffm3a47rcaf51p4sincgxgrh1",
             "url": "https://github.com/markuskowa/NixOS-QChem"
         },
         "reedrw": {
