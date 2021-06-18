@@ -86316,6 +86316,65 @@
         "_attr": "sbase",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.scc": {
+        "name": "scc-2021-05-30",
+        "pname": "scc",
+        "version": "2021-05-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple c99 compiler",
+            "homepage": "https://www.simple-cc.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "scc-2021-05-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/suckless/scc/default.nix#L19",
+            "skip": {
+                "ci": false
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "scc",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.scroll": {
         "name": "scroll-0.1",
         "pname": "scroll",
