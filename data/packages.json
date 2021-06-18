@@ -66864,9 +66864,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.okta-browser-plugin": {
-        "name": "okta-browser-plugin-5.45.0",
+        "name": "okta-browser-plugin-5.47.0",
         "pname": "okta-browser-plugin",
-        "version": "5.45.0",
+        "version": "5.47.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -66880,7 +66880,7 @@
                 "shortName": "okta",
                 "url": "https://www.okta.com/agreements/"
             },
-            "name": "okta-browser-plugin-5.45.0",
+            "name": "okta-browser-plugin-5.47.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -68307,9 +68307,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-21.6.8",
+        "name": "refined-github-21.6.17",
         "pname": "refined-github",
-        "version": "21.6.8",
+        "version": "21.6.17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68323,7 +68323,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-21.6.8",
+            "name": "refined-github-21.6.17",
             "outputsToInstall": [
                 "out"
             ],
