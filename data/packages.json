@@ -18815,9 +18815,9 @@
         "_repo": "instantos"
     },
     "nur.repos.ivar.ryujinx": {
-        "name": "ryujinx-1.0.6913",
+        "name": "ryujinx-1.0.6914",
         "pname": "ryujinx",
-        "version": "1.0.6913",
+        "version": "1.0.6914",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18839,7 +18839,7 @@
                     "name": "Ivar"
                 }
             ],
-            "name": "ryujinx-1.0.6913",
+            "name": "ryujinx-1.0.6914",
             "outputsToInstall": [
                 "out"
             ],
@@ -18854,9 +18854,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1795",
+        "name": "yuzu-ea-1796",
         "pname": "yuzu-ea",
-        "version": "1795",
+        "version": "1796",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18885,7 +18885,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1795",
+            "name": "yuzu-ea-1796",
             "outputsToInstall": [
                 "out"
             ],
@@ -18911,9 +18911,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-662",
+        "name": "yuzu-mainline-663",
         "pname": "yuzu-mainline",
-        "version": "662",
+        "version": "663",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18942,7 +18942,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-662",
+            "name": "yuzu-mainline-663",
             "outputsToInstall": [
                 "out"
             ],
@@ -43001,7 +43001,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/networking/newsreaders/newsflash/default.nix#L89",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/networking/newsreaders/newsflash/default.nix#L99",
             "unfree": false,
             "unsupported": false
         },
@@ -43095,14 +43095,14 @@
         "_repo": "kira-bruneau"
     },
     "nur.repos.kira-bruneau.poke": {
-        "name": "poke-1.2",
+        "name": "poke-1.3",
         "pname": "poke",
-        "version": "1.2",
+        "version": "1.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://git.savannah.gnu.org/cgit/poke.git/plain/ChangeLog?h=releases/poke-1.2",
+            "changelog": "https://git.savannah.gnu.org/cgit/poke.git/plain/ChangeLog?h=releases/poke-1.3",
             "description": "Interactive, extensible editor for binary data",
             "homepage": "http://www.jemarch.net/poke",
             "insecure": false,
@@ -43126,7 +43126,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "poke-1.2",
+            "name": "poke-1.3",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -43167,7 +43167,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/editors/poke/default.nix#L74",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/editors/poke/default.nix#L69",
             "unfree": false,
             "unsupported": false
         },
@@ -43471,9 +43471,9 @@
         "_repo": "kira-bruneau"
     },
     "nur.repos.kira-bruneau.texlab": {
-        "name": "texlab-3.1.0",
+        "name": "texlab-3.2.0",
         "pname": "texlab",
-        "version": "3.1.0",
+        "version": "3.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -43501,7 +43501,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "texlab-3.1.0",
+            "name": "texlab-3.2.0",
             "outputsToInstall": [
                 "out",
                 "man"
