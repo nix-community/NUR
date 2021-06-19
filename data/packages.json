@@ -43225,9 +43225,9 @@
         "_repo": "kira-bruneau"
     },
     "nur.repos.kira-bruneau.protontricks": {
-        "name": "protontricks-1.5.1",
+        "name": "protontricks-1.5.2",
         "pname": "protontricks",
-        "version": "1.5.1",
+        "version": "1.5.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -43268,7 +43268,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "protontricks-1.5.1",
+            "name": "protontricks-1.5.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -43966,9 +43966,9 @@
         "_repo": "kira-bruneau"
     },
     "nur.repos.kira-bruneau.yabridge": {
-        "name": "yabridge-3.2.0",
+        "name": "yabridge-3.3.1",
         "pname": "yabridge",
-        "version": "3.2.0",
+        "version": "3.3.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -43990,7 +43990,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "yabridge-3.2.0",
+            "name": "yabridge-3.3.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -44005,9 +44005,9 @@
         "_repo": "kira-bruneau"
     },
     "nur.repos.kira-bruneau.yabridgectl": {
-        "name": "yabridgectl-3.2.0",
+        "name": "yabridgectl-3.3.1",
         "pname": "yabridgectl",
-        "version": "3.2.0",
+        "version": "3.3.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -44029,7 +44029,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "yabridgectl-3.2.0",
+            "name": "yabridgectl-3.3.1",
             "outputsToInstall": [
                 "out"
             ],
