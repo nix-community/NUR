@@ -6396,9 +6396,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.eslint": {
-        "name": "node_eslint-7.28.0",
+        "name": "node_eslint-7.29.0",
         "pname": "node_eslint",
-        "version": "7.28.0",
+        "version": "7.29.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6407,7 +6407,7 @@
             "homepage": "https://eslint.org",
             "insecure": false,
             "license": "MIT",
-            "name": "node_eslint-7.28.0",
+            "name": "node_eslint-7.29.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -6523,7 +6523,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/preact-cli/node-packages.nix#L13081",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/preact-cli/node-packages.nix#L13091",
             "unfree": false,
             "unsupported": false
         },
@@ -6531,9 +6531,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.51.2",
+        "name": "node_rollup-2.52.1",
         "pname": "node_rollup",
-        "version": "2.51.2",
+        "version": "2.52.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6542,7 +6542,7 @@
             "homepage": "https://rollupjs.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_rollup-2.51.2",
+            "name": "node_rollup-2.52.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -6599,9 +6599,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.typescript": {
-        "name": "node_typescript-4.3.2",
+        "name": "node_typescript-4.3.4",
         "pname": "node_typescript",
-        "version": "4.3.2",
+        "version": "4.3.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6610,7 +6610,7 @@
             "homepage": "https://www.typescriptlang.org/",
             "insecure": false,
             "license": "Apache-2.0",
-            "name": "node_typescript-4.3.2",
+            "name": "node_typescript-4.3.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -18854,9 +18854,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1794",
+        "name": "yuzu-ea-1795",
         "pname": "yuzu-ea",
-        "version": "1794",
+        "version": "1795",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18885,7 +18885,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1794",
+            "name": "yuzu-ea-1795",
             "outputsToInstall": [
                 "out"
             ],
