@@ -18854,9 +18854,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1796",
+        "name": "yuzu-ea-1797",
         "pname": "yuzu-ea",
-        "version": "1796",
+        "version": "1797",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18885,7 +18885,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1796",
+            "name": "yuzu-ea-1797",
             "outputsToInstall": [
                 "out"
             ],
@@ -43927,10 +43927,10 @@
             "homepage": "https://atar-axis.github.io/xpadneo",
             "insecure": false,
             "license": {
-                "fullName": "GNU General Public License v3.0 or later",
-                "shortName": "gpl3Plus",
-                "spdxId": "GPL-3.0-or-later",
-                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [
                 {
