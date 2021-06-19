@@ -42751,9 +42751,9 @@
         "_repo": "kira-bruneau"
     },
     "nur.repos.kira-bruneau.goverlay": {
-        "name": "goverlay-0.5",
+        "name": "goverlay-0.5.1",
         "pname": "goverlay",
-        "version": "0.5",
+        "version": "0.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42775,7 +42775,7 @@
                     "name": "Kira Bruneau"
                 }
             ],
-            "name": "goverlay-0.5",
+            "name": "goverlay-0.5.1",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -42794,7 +42794,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/goverlay/default.nix#L117",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/goverlay/default.nix#L102",
             "unfree": false,
             "unsupported": false
         },
@@ -42853,9 +42853,9 @@
         "_repo": "kira-bruneau"
     },
     "nur.repos.kira-bruneau.mangohud": {
-        "name": "mangohud-0.6.1",
+        "name": "mangohud-0.6.3",
         "pname": "mangohud",
-        "version": "0.6.1",
+        "version": "0.6.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -42889,7 +42889,7 @@
                     "name": "Jona Abdinghoff"
                 }
             ],
-            "name": "mangohud-0.6.1",
+            "name": "mangohud-0.6.3",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -42908,7 +42908,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/mangohud/default.nix#L120",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/mangohud/default.nix#L141",
             "unfree": false,
             "unsupported": false
         },
