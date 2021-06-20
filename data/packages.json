@@ -7099,6 +7099,146 @@
         "_attr": "firefox-addons.youtube_downloader_webx",
         "_repo": "crazazy"
     },
+    "nur.repos.dan4ik605743.compton": {
+        "name": "compton",
+        "pname": "compton",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A compositor for X11",
+            "homepage": "https://github.com/chjj/compton",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "compton",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/compton/default.nix#L77",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "compton",
+        "_repo": "dan4ik605743"
+    },
+    "nur.repos.dan4ik605743.lyra-cursors": {
+        "name": "my-cursor",
+        "pname": "my-cursor",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "This is an x-cursor theme inspired by macOS and based on capitaine-cursors",
+            "homepage": "https://github.com/yeyushengfan258/Lyra-Cursors",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "my-cursor",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/lyra-cursors/default.nix#L22",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "lyra-cursors",
+        "_repo": "dan4ik605743"
+    },
+    "nur.repos.dan4ik605743.myzsh": {
+        "name": "myZsh",
+        "pname": "myZsh",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Custom oh-my-zsh",
+            "homepage": "https://github.com/ohmyzsh/ohmyzsh",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "myZsh",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/myzsh/default.nix#L38",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "myzsh",
+        "_repo": "dan4ik605743"
+    },
+    "nur.repos.dan4ik605743.vk-cli": {
+        "name": "vk-cli-0.7.6",
+        "pname": "vk-cli",
+        "version": "0.7.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A console (ncurses) client for vk.com written in D",
+            "homepage": "https://github.com/vk-cli/vk",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "vk-cli-0.7.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/vk-cli/default.nix#L55",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vk-cli",
+        "_repo": "dan4ik605743"
+    },
+    "nur.repos.dan4ik605743.waffle-font": {
+        "name": "waffle-font",
+        "pname": "waffle-font",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "bitmap-font",
+            "homepage": "https://github.com/addy-dclxvi/bitmap-font-collections",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "waffle-font",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/waffle-font/default.nix#L29",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "waffle-font",
+        "_repo": "dan4ik605743"
+    },
     "nur.repos.dandellion.colors": {
         "name": "colors-latest-2018-04-15",
         "pname": "colors-latest",
@@ -18815,9 +18955,9 @@
         "_repo": "instantos"
     },
     "nur.repos.ivar.ryujinx": {
-        "name": "ryujinx-1.0.6914",
+        "name": "ryujinx-1.0.6915",
         "pname": "ryujinx",
-        "version": "1.0.6914",
+        "version": "1.0.6915",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18839,7 +18979,7 @@
                     "name": "Ivar"
                 }
             ],
-            "name": "ryujinx-1.0.6914",
+            "name": "ryujinx-1.0.6915",
             "outputsToInstall": [
                 "out"
             ],
@@ -18854,9 +18994,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1797",
+        "name": "yuzu-ea-1798",
         "pname": "yuzu-ea",
-        "version": "1797",
+        "version": "1798",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18885,7 +19025,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1797",
+            "name": "yuzu-ea-1798",
             "outputsToInstall": [
                 "out"
             ],
