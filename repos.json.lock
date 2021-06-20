@@ -136,6 +136,11 @@
             "submodules": true,
             "url": "https://github.com/cwyc/nur-packages"
         },
+        "dan4ik605743": {
+            "rev": "c14f60cecda0128f85f24a68f6d3c03464668b12",
+            "sha256": "1lfbx8gis6svw2dgpdjldyhx5xjwx3gp14frr5q2mahn95d0ih1m",
+            "url": "https://github.com/dan4ik605743/nur"
+        },
         "dandellion": {
             "rev": "12615f2868b00c32cbf662b2156165f25652651a",
             "sha256": "17n79qhxhxbm6x7qc21y507ybl696gcd6ahcdfiz8w5is5kan302",
@@ -307,8 +312,8 @@
             "url": "https://github.com/instantOS/nix"
         },
         "ivar": {
-            "rev": "146becf0cc4277789f33ed95c8f45929372872bf",
-            "sha256": "0k4i62dg5mnv5q5wnyw7h6kvkabk8xrcqhjx33myc2idysh6964r",
+            "rev": "3d1ecb0e00f54836bc7472c432d1213de6b2d2a9",
+            "sha256": "186dabxzg2ssd3lcgx0xkp5wldycg9bk62v81xbbysxhpr8v9bx2",
             "url": "https://github.com/IvarWithoutBones/NUR"
         },
         "izorkin": {
