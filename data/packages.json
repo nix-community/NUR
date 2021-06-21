@@ -7107,8 +7107,8 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A compositor for X11",
-            "homepage": "https://github.com/chjj/compton",
+            "description": "A compositor for X11 (fork with excellent blur)",
+            "homepage": "https://github.com/tryone144/compton",
             "insecure": false,
             "license": {
                 "fullName": "MIT License",
