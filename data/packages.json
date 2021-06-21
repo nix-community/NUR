@@ -66090,9 +66090,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.canvasblocker": {
-        "name": "canvasblocker-1.5",
+        "name": "canvasblocker-1.6",
         "pname": "canvasblocker",
-        "version": "1.5",
+        "version": "1.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66106,7 +66106,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "canvasblocker-1.5",
+            "name": "canvasblocker-1.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -74790,9 +74790,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.wappalyzer": {
-        "name": "wappalyzer-6.7.4",
+        "name": "wappalyzer-6.7.6",
         "pname": "wappalyzer",
-        "version": "6.7.4",
+        "version": "6.7.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74807,7 +74807,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "wappalyzer-6.7.4",
+            "name": "wappalyzer-6.7.6",
             "outputsToInstall": [
                 "out"
             ],
