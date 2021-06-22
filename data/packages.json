@@ -61778,6 +61778,58 @@
         "_attr": "gdma",
         "_repo": "qchem"
     },
+    "nur.repos.qchem.gmultiwfn": {
+        "name": "gMultiwfn-3.4.1-0",
+        "pname": "gMultiwfn",
+        "version": "3.4.1-0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "gfortran port of Multiwfn",
+            "homepage": "https://github.com/stecue/gMultiwfn",
+            "insecure": false,
+            "license": [
+                {
+                    "fullName": "GNU General Public License v2.0 only",
+                    "shortName": "gpl2Only",
+                    "spdxId": "GPL-2.0-only",
+                    "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "phillip.seeber@googlemail.com",
+                    "github": "sheepforce",
+                    "githubId": 16844216,
+                    "name": "Phillip Seeber"
+                }
+            ],
+            "name": "gMultiwfn-3.4.1-0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/gmultiwfn/default.nix#L19",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gmultiwfn",
+        "_repo": "qchem"
+    },
     "nur.repos.qchem.gpaw": {
         "name": "gpaw-21.1.0",
         "pname": "gpaw",
