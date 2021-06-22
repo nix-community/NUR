@@ -15543,6 +15543,62 @@
         "_attr": "abstractdark-sddm-theme",
         "_repo": "fortuneteller2k"
     },
+    "nur.repos.fortuneteller2k.awesome-git": {
+        "name": "awesome-4.3",
+        "pname": "awesome",
+        "version": "4.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Highly configurable, dynamic window manager for X",
+            "homepage": "https://awesomewm.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "jason@oconal.id.au",
+                    "github": "lovek323",
+                    "githubId": 265084,
+                    "name": "Jason O'Conal"
+                },
+                {
+                    "email": "rasen.dubi@gmail.com",
+                    "github": "rasendubi",
+                    "githubId": 1366419,
+                    "name": "Alexey Shmalko"
+                }
+            ],
+            "name": "awesome-4.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/fortuneteller2k",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "awesome-git",
+        "_repo": "fortuneteller2k"
+    },
     "nur.repos.fortuneteller2k.bling": {
         "name": "bling-unstable-2021-05-12",
         "pname": "bling-unstable",
@@ -18955,9 +19011,9 @@
         "_repo": "instantos"
     },
     "nur.repos.ivar.ryujinx": {
-        "name": "ryujinx-1.0.6915",
+        "name": "ryujinx-1.0.6917",
         "pname": "ryujinx",
-        "version": "1.0.6915",
+        "version": "1.0.6917",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18979,7 +19035,7 @@
                     "name": "Ivar"
                 }
             ],
-            "name": "ryujinx-1.0.6915",
+            "name": "ryujinx-1.0.6917",
             "outputsToInstall": [
                 "out"
             ],
@@ -18994,9 +19050,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1798",
+        "name": "yuzu-ea-1801",
         "pname": "yuzu-ea",
-        "version": "1798",
+        "version": "1801",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19025,7 +19081,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1798",
+            "name": "yuzu-ea-1801",
             "outputsToInstall": [
                 "out"
             ],
