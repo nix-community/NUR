@@ -66146,9 +66146,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.canvasblocker": {
-        "name": "canvasblocker-1.6",
+        "name": "canvasblocker-1.6.1",
         "pname": "canvasblocker",
-        "version": "1.6",
+        "version": "1.6.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66162,7 +66162,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "canvasblocker-1.6",
+            "name": "canvasblocker-1.6.1",
             "outputsToInstall": [
                 "out"
             ],
