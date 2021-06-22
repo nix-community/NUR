@@ -16603,9 +16603,9 @@
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened": {
-        "name": "firefox-89.0",
+        "name": "firefox-89.0.1",
         "pname": "firefox",
-        "version": "89.0",
+        "version": "89.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16652,7 +16652,7 @@
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "firefox-unwrapped-89.0",
+            "name": "firefox-unwrapped-89.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -16701,9 +16701,9 @@
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened-wayland": {
-        "name": "firefox-89.0",
+        "name": "firefox-89.0.1",
         "pname": "firefox",
-        "version": "89.0",
+        "version": "89.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -16750,7 +16750,7 @@
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "firefox-unwrapped-89.0",
+            "name": "firefox-unwrapped-89.0.1",
             "outputsToInstall": [
                 "out"
             ],
