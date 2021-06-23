@@ -68012,9 +68012,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.gesturefy": {
-        "name": "gesturefy-3.1.2",
+        "name": "gesturefy-3.2.0",
         "pname": "gesturefy",
-        "version": "3.1.2",
+        "version": "3.2.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68029,7 +68029,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "gesturefy-3.1.2",
+            "name": "gesturefy-3.2.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -72910,9 +72910,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.sponsorblock": {
-        "name": "sponsorblock-2.0.16.2",
+        "name": "sponsorblock-2.1.0.1",
         "pname": "sponsorblock",
-        "version": "2.0.16.2",
+        "version": "2.1.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -72927,7 +72927,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "sponsorblock-2.0.16.2",
+            "name": "sponsorblock-2.1.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -74102,9 +74102,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tree-style-tab": {
-        "name": "tree-style-tab-3.8.3",
+        "name": "tree-style-tab-3.8.4",
         "pname": "tree-style-tab",
-        "version": "3.8.3",
+        "version": "3.8.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74118,7 +74118,7 @@
                 "shortName": "tree-style-tab",
                 "url": "https://github.com/piroor/treestyletab/blob/trunk/COPYING.txt"
             },
-            "name": "tree-style-tab-3.8.3",
+            "name": "tree-style-tab-3.8.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -74272,9 +74272,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.35.2",
+        "name": "ublock-origin-1.36.0",
         "pname": "ublock-origin",
-        "version": "1.35.2",
+        "version": "1.36.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74289,7 +74289,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "ublock-origin-1.35.2",
+            "name": "ublock-origin-1.36.0",
             "outputsToInstall": [
                 "out"
             ],
