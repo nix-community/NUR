@@ -12741,9 +12741,9 @@
         "_repo": "dschrempf"
     },
     "nur.repos.dschrempf.beast2": {
-        "name": "beast2-2.6.4",
+        "name": "beast2-2.6.5",
         "pname": "beast2",
-        "version": "2.6.4",
+        "version": "2.6.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12771,7 +12771,7 @@
                     "name": "Dominik Schrempf"
                 }
             ],
-            "name": "beast2-2.6.4",
+            "name": "beast2-2.6.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -12934,9 +12934,9 @@
         "_repo": "dschrempf"
     },
     "nur.repos.dschrempf.frida-tools": {
-        "name": "frida-tools-9.2.4",
+        "name": "frida-tools-9.2.5",
         "pname": "frida-tools",
-        "version": "9.2.4",
+        "version": "9.2.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12983,7 +12983,7 @@
                     "name": "Dominik Schrempf"
                 }
             ],
-            "name": "frida-tools-9.2.4",
+            "name": "frida-tools-9.2.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -13211,9 +13211,9 @@
         "_repo": "dschrempf"
     },
     "nur.repos.dschrempf.nvd": {
-        "name": "nvd-0.0.1",
+        "name": "nvd-0.1.1",
         "pname": "nvd",
-        "version": "0.0.1",
+        "version": "0.1.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -13241,7 +13241,7 @@
                     "name": "Dominik Schrempf"
                 }
             ],
-            "name": "nvd-0.0.1",
+            "name": "nvd-0.1.1",
             "outputsToInstall": [
                 "out"
             ],
