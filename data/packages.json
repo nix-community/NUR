@@ -19106,9 +19106,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1818",
+        "name": "yuzu-ea-1822",
         "pname": "yuzu-ea",
-        "version": "1818",
+        "version": "1822",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19137,7 +19137,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1818",
+            "name": "yuzu-ea-1822",
             "outputsToInstall": [
                 "out"
             ],
@@ -19163,9 +19163,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-666",
+        "name": "yuzu-mainline-667",
         "pname": "yuzu-mainline",
-        "version": "666",
+        "version": "667",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19194,7 +19194,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-666",
+            "name": "yuzu-mainline-667",
             "outputsToInstall": [
                 "out"
             ],
@@ -63234,7 +63234,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/meep/default.nix#L97",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/meep/default.nix#L107",
             "unfree": false,
             "unsupported": false
         },
@@ -64291,9 +64291,9 @@
         "_repo": "qchem"
     },
     "nur.repos.qchem.pysisyphus": {
-        "name": "pysisyphus-0.7",
+        "name": "pysisyphus-0.7.post1",
         "pname": "pysisyphus",
-        "version": "0.7",
+        "version": "0.7.post1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -64335,7 +64335,7 @@
                     "name": "Phillip Seeber"
                 }
             ],
-            "name": "python3.8-pysisyphus-0.7",
+            "name": "python3.8-pysisyphus-0.7.post1",
             "outputsToInstall": [
                 "out"
             ],
