@@ -19205,9 +19205,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1822",
+        "name": "yuzu-ea-1823",
         "pname": "yuzu-ea",
-        "version": "1822",
+        "version": "1823",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19236,7 +19236,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1822",
+            "name": "yuzu-ea-1823",
             "outputsToInstall": [
                 "out"
             ],
@@ -57329,9 +57329,9 @@
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.hassLovelaceModules.slider-button-card": {
-        "name": "node_slider-button-card-1.5.2",
+        "name": "node_slider-button-card-1.5.3",
         "pname": "node_slider-button-card",
-        "version": "1.5.2",
+        "version": "1.5.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -57353,7 +57353,7 @@
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "node_slider-button-card-1.5.2",
+            "name": "node_slider-button-card-1.5.3",
             "outputsToInstall": [
                 "out"
             ],
