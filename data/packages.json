@@ -68693,9 +68693,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.honey": {
-        "name": "honey-12.4.5",
+        "name": "honey-12.8.4",
         "pname": "honey",
-        "version": "12.4.5",
+        "version": "12.8.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -68709,7 +68709,7 @@
                 "shortName": "honeyl",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/honey/license/"
             },
-            "name": "honey-12.4.5",
+            "name": "honey-12.8.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -70076,9 +70076,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.min-twitter": {
-        "name": "min-twitter-3.1.1",
+        "name": "min-twitter-3.1.2",
         "pname": "min-twitter",
-        "version": "3.1.1",
+        "version": "3.1.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -70092,7 +70092,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "min-twitter-3.1.1",
+            "name": "min-twitter-3.1.2",
             "outputsToInstall": [
                 "out"
             ],
