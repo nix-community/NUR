@@ -19262,9 +19262,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-667",
+        "name": "yuzu-mainline-668",
         "pname": "yuzu-mainline",
-        "version": "667",
+        "version": "668",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19293,7 +19293,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-667",
+            "name": "yuzu-mainline-668",
             "outputsToInstall": [
                 "out"
             ],
@@ -61930,9 +61930,9 @@
         "_repo": "qchem"
     },
     "nur.repos.qchem.gpaw": {
-        "name": "gpaw-21.1.0",
+        "name": "gpaw-21.6.0",
         "pname": "gpaw",
-        "version": "21.1.0",
+        "version": "21.6.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -61965,7 +61965,15 @@
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "mainProgram": "gpaw",
-            "name": "python3.8-gpaw-21.1.0",
+            "maintainers": [
+                {
+                    "email": "phillip.seeber@googlemail.com",
+                    "github": "sheepforce",
+                    "githubId": 16844216,
+                    "name": "Phillip Seeber"
+                }
+            ],
+            "name": "python3.8-gpaw-21.6.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -62005,7 +62013,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/gpaw/default.nix#L125",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/gpaw/default.nix#L118",
             "unfree": false,
             "unsupported": false
         },
