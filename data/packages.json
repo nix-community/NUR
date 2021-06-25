@@ -68452,9 +68452,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.grammarly": {
-        "name": "grammarly-8.876.0",
+        "name": "grammarly-8.877.0",
         "pname": "grammarly",
-        "version": "8.876.0",
+        "version": "8.877.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -68468,7 +68468,7 @@
                 "shortName": "grammarly",
                 "url": "https://www.grammarly.com/terms"
             },
-            "name": "grammarly-8.876.0",
+            "name": "grammarly-8.877.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -69388,9 +69388,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.lastpass-password-manager": {
-        "name": "lastpass-password-manager-4.71.0.2",
+        "name": "lastpass-password-manager-4.74.0.3",
         "pname": "lastpass-password-manager",
-        "version": "4.71.0.2",
+        "version": "4.74.0.3",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -69404,7 +69404,7 @@
                 "shortName": "unfree",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/license/"
             },
-            "name": "lastpass-password-manager-4.71.0.2",
+            "name": "lastpass-password-manager-4.74.0.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -70720,9 +70720,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.noscript": {
-        "name": "noscript-11.2.8",
+        "name": "noscript-11.2.9",
         "pname": "noscript",
-        "version": "11.2.8",
+        "version": "11.2.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -70737,7 +70737,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
-            "name": "noscript-11.2.8",
+            "name": "noscript-11.2.9",
             "outputsToInstall": [
                 "out"
             ],
@@ -73009,9 +73009,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.sponsorblock": {
-        "name": "sponsorblock-2.1.0.1",
+        "name": "sponsorblock-2.1.0.2",
         "pname": "sponsorblock",
-        "version": "2.1.0.1",
+        "version": "2.1.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -73026,7 +73026,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "sponsorblock-2.1.0.1",
+            "name": "sponsorblock-2.1.0.2",
             "outputsToInstall": [
                 "out"
             ],
