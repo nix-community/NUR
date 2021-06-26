@@ -73255,9 +73255,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.sponsorblock": {
-        "name": "sponsorblock-2.1.0.2",
+        "name": "sponsorblock-2.1.1",
         "pname": "sponsorblock",
-        "version": "2.1.0.2",
+        "version": "2.1.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -73272,7 +73272,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "sponsorblock-2.1.0.2",
+            "name": "sponsorblock-2.1.1",
             "outputsToInstall": [
                 "out"
             ],
