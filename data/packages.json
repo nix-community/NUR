@@ -19275,9 +19275,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1826",
+        "name": "yuzu-ea-1830",
         "pname": "yuzu-ea",
-        "version": "1826",
+        "version": "1830",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19306,7 +19306,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1826",
+            "name": "yuzu-ea-1830",
             "outputsToInstall": [
                 "out"
             ],
@@ -19332,9 +19332,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-668",
+        "name": "yuzu-mainline-669",
         "pname": "yuzu-mainline",
-        "version": "668",
+        "version": "669",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19363,7 +19363,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-668",
+            "name": "yuzu-mainline-669",
             "outputsToInstall": [
                 "out"
             ],
@@ -53043,8 +53043,8 @@
         "version": "0.11.1",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
-            "broken": false,
+            "available": false,
+            "broken": true,
             "description": "A daemon that facilitates communication over Signal.",
             "homepage": "https://gitlab.com/thefinn93/signald",
             "insecure": false,
@@ -53218,8 +53218,8 @@
         "version": "2021-02-17",
         "system": "x86_64-linux",
         "meta": {
-            "available": true,
-            "broken": false,
+            "available": false,
+            "broken": true,
             "description": "Use Signal via signald in weechat.",
             "homepage": "https://github.com/thefinn93/signal-weechat",
             "insecure": false,
