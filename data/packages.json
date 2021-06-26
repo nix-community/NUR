@@ -7147,6 +7147,56 @@
         "_attr": "compton",
         "_repo": "dan4ik605743"
     },
+    "nur.repos.dan4ik605743.i3lock-color": {
+        "name": "i3lock-color-2.12.c.5",
+        "pname": "i3lock-color",
+        "version": "2.12.c.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A simple screen locker like slock, enhanced version with extra configuration options(With patches)",
+            "homepage": "https://github.com/PandorasFox/i3lock-color",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "name": "i3lock-color-2.12.c.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "i686-linux",
+                "x86_64-linux",
+                "i686-netbsd",
+                "x86_64-netbsd",
+                "i686-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/i3lock-color/default.nix#L39",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "i3lock-color",
+        "_repo": "dan4ik605743"
+    },
     "nur.repos.dan4ik605743.lyra-cursors": {
         "name": "my-cursor",
         "pname": "my-cursor",
