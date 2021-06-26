@@ -3097,6 +3097,26 @@
         "_attr": "volantes-cursors",
         "_repo": "ambroisie"
     },
+    "nur.repos.artturin.example-package": {
+        "name": "example-package-1.0",
+        "pname": "example-package",
+        "version": "1.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "example-package-1.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/artturin/pkgs/example-package/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "example-package",
+        "_repo": "artturin"
+    },
     "nur.repos.babariviere.godot": {
         "name": "godot-3.3.2",
         "pname": "godot",
