@@ -37894,7 +37894,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/bane/default.nix#L30",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/bane/default.nix#L28",
             "unfree": false,
             "unsupported": false
         },
@@ -38013,7 +38013,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/conform/default.nix#L33",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/conform/default.nix#L31",
             "unfree": false,
             "unsupported": false
         },
@@ -38021,14 +38021,14 @@
         "_repo": "j-k"
     },
     "nur.repos.j-k.container-diff": {
-        "name": "container-diff-0.16.0",
+        "name": "container-diff-0.17.0",
         "pname": "container-diff",
-        "version": "0.16.0",
+        "version": "0.17.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/GoogleContainerTools/container-diff/blob/v0.16.0/CHANGELOG.md",
+            "changelog": "https://github.com/GoogleContainerTools/container-diff/blob/v0.17.0/CHANGELOG.md",
             "description": "Diff your Docker containers",
             "homepage": "https://github.com/GoogleContainerTools/container-diff",
             "insecure": false,
@@ -38053,7 +38053,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "container-diff-0.16.0",
+            "name": "container-diff-0.17.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -38075,7 +38075,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/container-diff/default.nix#L39",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/container-diff/default.nix#L36",
             "unfree": false,
             "unsupported": false
         },
@@ -38100,6 +38100,66 @@
             "unsupported": false
         },
         "_attr": "firefox-addons.cors-everywhere",
+        "_repo": "j-k"
+    },
+    "nur.repos.j-k.crane": {
+        "name": "crane-0.5.1",
+        "pname": "crane",
+        "version": "0.5.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A tool for interacting with remote images and registries",
+            "homepage": "https://github.com/google/go-containerregistry/tree/main/cmd/crane",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "hello+nixpkgs@j-k.io",
+                    "github": "06kellyjac",
+                    "githubId": 9866621,
+                    "name": "Jack"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "crane-0.5.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/crane/default.nix#L28",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "crane",
         "_repo": "j-k"
     },
     "nur.repos.j-k.firefox-addons.decentraleyes": {
@@ -38175,77 +38235,15 @@
         "_repo": "j-k"
     },
     "nur.repos.j-k.google-fonts": {
-        "name": "google-fonts-2021-04-09",
+        "name": "google-fonts-2021-06-26",
         "pname": "google-fonts",
-        "version": "2021-04-09",
+        "version": "2021-06-26",
         "system": "x86_64-linux",
         "meta": {
             "homepage": "https://github.com/google/fonts",
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k"
         },
         "_attr": "google-fonts",
-        "_repo": "j-k"
-    },
-    "nur.repos.j-k.goss": {
-        "name": "goss-0.3.16",
-        "pname": "goss",
-        "version": "0.3.16",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/aelsabbahy/goss/releases/tag/v0.3.16",
-            "description": "Quick and Easy server testing/validation",
-            "homepage": "https://github.com/aelsabbahy/goss",
-            "insecure": false,
-            "license": {
-                "fullName": "Apache License 2.0",
-                "shortName": "asl20",
-                "spdxId": "Apache-2.0",
-                "url": "https://spdx.org/licenses/Apache-2.0.html"
-            },
-            "longDescription": "Goss is a YAML based serverspec alternative tool for validating a server\u2019s configuration. It eases the process of\nwriting tests by allowing the user to generate tests from the current system state. Once the test suite is written\nthey can be executed, waited-on, or served as a health endpoint.\n",
-            "maintainers": [
-                {
-                    "email": "hello+nixpkgs@j-k.io",
-                    "github": "06kellyjac",
-                    "githubId": 9866621,
-                    "name": "Jack"
-                },
-                {
-                    "email": "wael.nasreddine@gmail.com",
-                    "github": "kalbasit",
-                    "githubId": 87115,
-                    "name": "Wael Nasreddine"
-                }
-            ],
-            "name": "goss-0.3.16",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/goss/default.nix#L31",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "goss",
         "_repo": "j-k"
     },
     "nur.repos.j-k.firefox-addons.disable-webrtc": {
@@ -38288,87 +38286,15 @@
         "_attr": "firefox-addons.https-everywhere",
         "_repo": "j-k"
     },
-    "nur.repos.j-k.hunter": {
-        "name": "hunter-stable-2021-01-27",
-        "pname": "hunter-stable",
-        "version": "2021-01-27",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": true,
-            "description": "The fastest file manager in the galaxy - rust stable fork",
-            "homepage": "https://github.com/06kellyjac/hunter/tree/hunter_rust_stable_updated",
-            "insecure": false,
-            "license": {
-                "fullName": "Do What The F*ck You Want To Public License",
-                "shortName": "wtfpl",
-                "spdxId": "WTFPL",
-                "url": "https://spdx.org/licenses/WTFPL.html"
-            },
-            "maintainers": [
-                {
-                    "email": "hello+nixpkgs@j-k.io",
-                    "github": "06kellyjac",
-                    "githubId": 9866621,
-                    "name": "Jack"
-                }
-            ],
-            "name": "hunter-stable-2021-01-27",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/hunter/default.nix#L42",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "hunter",
-        "_repo": "j-k"
-    },
     "nur.repos.j-k.infracost": {
-        "name": "infracost-0.9.0",
+        "name": "infracost-0.9.1",
         "pname": "infracost",
-        "version": "0.9.0",
+        "version": "0.9.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/infracost/infracost/releases/tag/v0.9.0",
+            "changelog": "https://github.com/infracost/infracost/releases/tag/v0.9.1",
             "description": "Cloud cost estimates for Terraform in your CLI and pull requests",
             "homepage": "https://infracost.io",
             "insecure": false,
@@ -38393,7 +38319,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "infracost-0.9.0",
+            "name": "infracost-0.9.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -38415,7 +38341,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/infracost/default.nix#L45",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/infracost/default.nix#L42",
             "unfree": false,
             "unsupported": false
         },
@@ -38477,7 +38403,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/ko/default.nix#L50",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/ko/default.nix#L48",
             "unfree": false,
             "unsupported": false
         },
@@ -38539,7 +38465,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/konstraint/default.nix#L29",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/konstraint/default.nix#L30",
             "unfree": false,
             "unsupported": false
         },
@@ -38755,7 +38681,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/rakkess/default.nix#L39",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/rakkess/default.nix#L37",
             "unfree": false,
             "unsupported": false
         },
@@ -38856,7 +38782,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/scorecard/default.nix#L32",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/scorecard/default.nix#L30",
             "unfree": false,
             "unsupported": false
         },
@@ -38884,14 +38810,14 @@
         "_repo": "j-k"
     },
     "nur.repos.j-k.subo": {
-        "name": "subo-0.0.15",
+        "name": "subo-0.0.17",
         "pname": "subo",
-        "version": "0.0.15",
+        "version": "0.0.17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/suborbital/subo/tree/v0.0.15/changelogs",
+            "changelog": "https://github.com/suborbital/subo/tree/v0.0.17/changelogs",
             "description": "The Suborbital CLI",
             "homepage": "https://suborbital.dev",
             "insecure": false,
@@ -38916,7 +38842,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "subo-0.0.15",
+            "name": "subo-0.0.17",
             "outputsToInstall": [
                 "out"
             ],
@@ -38938,72 +38864,11 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/subo/default.nix#L31",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/subo/default.nix#L29",
             "unfree": false,
             "unsupported": false
         },
         "_attr": "subo",
-        "_repo": "j-k"
-    },
-    "nur.repos.j-k.terraform-ls": {
-        "name": "terraform-ls-0.17.1",
-        "pname": "terraform-ls",
-        "version": "0.17.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "changelog": "https://github.com/hashicorp/terraform-ls/blob/v0.17.1/CHANGELOG.md",
-            "description": "Terraform Language Server",
-            "homepage": "https://github.com/hashicorp/terraform-ls",
-            "insecure": false,
-            "license": {
-                "fullName": "Mozilla Public License 2.0",
-                "shortName": "mpl20",
-                "spdxId": "MPL-2.0",
-                "url": "https://spdx.org/licenses/MPL-2.0.html"
-            },
-            "maintainers": [
-                {
-                    "email": "hello+nixpkgs@j-k.io",
-                    "github": "06kellyjac",
-                    "githubId": 9866621,
-                    "name": "Jack"
-                },
-                {
-                    "email": "wael.nasreddine@gmail.com",
-                    "github": "kalbasit",
-                    "githubId": 87115,
-                    "name": "Wael Nasreddine"
-                }
-            ],
-            "name": "terraform-ls-0.17.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/j-k/pkgs/terraform-ls/default.nix#L36",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "terraform-ls",
         "_repo": "j-k"
     },
     "nur.repos.j-k.firefox-addons.tree-style-tab": {
