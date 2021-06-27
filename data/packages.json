@@ -45623,7 +45623,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/misc/ccache/default.nix#L101",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/misc/ccache/default.nix#L107",
             "unfree": false,
             "unsupported": false
         },
@@ -46147,9 +46147,9 @@
         "_repo": "kira-bruneau"
     },
     "nur.repos.kira-bruneau.mangohud": {
-        "name": "mangohud-0.6.3",
+        "name": "mangohud-0.6.4",
         "pname": "mangohud",
-        "version": "0.6.3",
+        "version": "0.6.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46183,7 +46183,7 @@
                     "name": "Jona Abdinghoff"
                 }
             ],
-            "name": "mangohud-0.6.3",
+            "name": "mangohud-0.6.4",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -46202,7 +46202,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/mangohud/default.nix#L141",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/mangohud/default.nix#L143",
             "unfree": false,
             "unsupported": false
         },
@@ -46310,8 +46310,16 @@
         "meta": {
             "available": true,
             "broken": false,
+            "description": "Elegant Facebook Messenger desktop app",
             "homepage": "https://sindresorhus.com/caprine",
             "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "caprine",
             "maintainers": [
                 {
                     "email": "kira.bruneau@pm.me",
@@ -46381,7 +46389,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/networking/instant-messengers/caprine/node2nix/node-packages.nix#L9103",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/applications/networking/instant-messengers/caprine/node2nix/node-packages.nix#L10779",
             "unfree": false,
             "unsupported": false
         },
@@ -77501,6 +77509,51 @@
             "unsupported": false
         },
         "_attr": "numworks-udev-rules",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.protify": {
+        "name": "Protify-unstable",
+        "pname": "Protify-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The Qt gui frontend for FakeMicWavPlayer",
+            "homepage": "https://github.com/SCOTT-HAMILTON/ControlsForFake",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "Protify-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/Protify/default.nix#L30",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "protify",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.graph-cli": {
