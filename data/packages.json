@@ -7686,6 +7686,50 @@
         "_attr": "gyro",
         "_repo": "devins2518"
     },
+    "nur.repos.devins2518.zig-master": {
+        "name": "zig-master-unstable-2021-06-27",
+        "pname": "zig-master-unstable",
+        "version": "2021-06-27",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
+            "homepage": "https://github.com/ziglang/zig",
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "drsingh2518@icloud.com",
+                    "github": "devins2518",
+                    "githubId": 17111639,
+                    "name": "Devin Singh"
+                }
+            ],
+            "name": "zig-master-unstable-2021-06-27",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/devins2518/pkgs/zig-master/default.nix#L22",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "zig-master",
+        "_repo": "devins2518"
+    },
     "nur.repos.devins2518.zigup": {
         "name": "zigup-unstable-2021-06-16",
         "pname": "zigup-unstable",
@@ -7723,7 +7767,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/devins2518/pkgs/zigup/default.nix#L21",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/devins2518/pkgs/zigup/default.nix#L20",
             "unfree": false,
             "unsupported": false
         },
