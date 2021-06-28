@@ -14341,8 +14341,8 @@
         "_repo": "emmanuelrosa"
     },
     "nur.repos.emmanuelrosa.bitcoin-onion-nodes": {
-        "name": "bitcoin-onion-nodes-ccba39f58905da0277d81c0e0509f01d9885f243.txt",
-        "pname": "bitcoin-onion-nodes-ccba39f58905da0277d81c0e0509f01d9885f243.txt",
+        "name": "bitcoin-onion-nodes-a3d30c0e967ba4b86040488c7a19a566ee8a2b5a.txt",
+        "pname": "bitcoin-onion-nodes-a3d30c0e967ba4b86040488c7a19a566ee8a2b5a.txt",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -14365,7 +14365,7 @@
                     "name": "Emmanuel Rosa"
                 }
             ],
-            "name": "bitcoin-onion-nodes-ccba39f58905da0277d81c0e0509f01d9885f243.txt",
+            "name": "bitcoin-onion-nodes-a3d30c0e967ba4b86040488c7a19a566ee8a2b5a.txt",
             "outputsToInstall": [
                 "out"
             ],
@@ -59394,6 +59394,62 @@
             "unsupported": false
         },
         "_attr": "lunasvg",
+        "_repo": "nagy"
+    },
+    "nur.repos.nagy.pigo": {
+        "name": "pigo-1.4.4",
+        "pname": "pigo",
+        "version": "1.4.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Fast face detection, pupil/eyes localization and facial landmark points detection library in pure Go",
+            "homepage": "https://github.com/esimov/pico",
+            "insecure": false,
+            "license": [
+                {
+                    "fullName": "MIT License",
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "pigo-1.4.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/nagy/pkgs/pigo/default.nix#L22",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "pigo",
         "_repo": "nagy"
     },
     "nur.repos.nagy.blender-file": {
