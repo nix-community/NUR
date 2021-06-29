@@ -69361,9 +69361,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.grammarly": {
-        "name": "grammarly-8.877.0",
+        "name": "grammarly-8.878.0",
         "pname": "grammarly",
-        "version": "8.877.0",
+        "version": "8.878.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -69377,7 +69377,7 @@
                 "shortName": "grammarly",
                 "url": "https://www.grammarly.com/terms"
             },
-            "name": "grammarly-8.877.0",
+            "name": "grammarly-8.878.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -69871,9 +69871,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.i-dont-care-about-cookies": {
-        "name": "i-dont-care-about-cookies-3.3.0",
+        "name": "i-dont-care-about-cookies-3.3.1",
         "pname": "i-dont-care-about-cookies",
-        "version": "3.3.0",
+        "version": "3.3.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -69888,7 +69888,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "i-dont-care-about-cookies-3.3.0",
+            "name": "i-dont-care-about-cookies-3.3.1",
             "outputsToInstall": [
                 "out"
             ],
