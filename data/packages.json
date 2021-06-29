@@ -14296,9 +14296,9 @@
         "_repo": "eeva"
     },
     "nur.repos.emmanuelrosa.bisq-desktop": {
-        "name": "bisq-desktop-1.6.5",
+        "name": "bisq-desktop-1.7.0",
         "pname": "bisq-desktop",
-        "version": "1.6.5",
+        "version": "1.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -14326,7 +14326,7 @@
                     "name": "Emmanuel Rosa"
                 }
             ],
-            "name": "bisq-desktop-1.6.5",
+            "name": "bisq-desktop-1.7.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -19354,9 +19354,9 @@
         "_repo": "instantos"
     },
     "nur.repos.ivar.ryujinx": {
-        "name": "ryujinx-1.0.6940",
+        "name": "ryujinx-1.0.6941",
         "pname": "ryujinx",
-        "version": "1.0.6940",
+        "version": "1.0.6941",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19378,7 +19378,7 @@
                     "name": "Ivar"
                 }
             ],
-            "name": "ryujinx-1.0.6940",
+            "name": "ryujinx-1.0.6941",
             "outputsToInstall": [
                 "out"
             ],
@@ -19393,9 +19393,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1833",
+        "name": "yuzu-ea-1834",
         "pname": "yuzu-ea",
-        "version": "1833",
+        "version": "1834",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -19424,7 +19424,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1833",
+            "name": "yuzu-ea-1834",
             "outputsToInstall": [
                 "out"
             ],
