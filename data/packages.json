@@ -4530,7 +4530,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/casey/just/blob/v0.9.5/CHANGELOG.md",
+            "changelog": "https://github.com/casey/just/blob/0.9.6/CHANGELOG.md",
             "description": "A handy way to save and run project-specific commands",
             "homepage": "https://github.com/casey/just",
             "insecure": false,
@@ -43923,15 +43923,15 @@
         "_repo": "kapack"
     },
     "nur.repos.kapack.glibc-batsky": {
-        "name": "glibc-2.32-46",
+        "name": "glibc-2.32-48",
         "pname": "glibc",
-        "version": "2.32-46",
+        "version": "2.32-48",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
             "insecure": false,
-            "name": "glibc-2.32-46",
+            "name": "glibc-2.32-48",
             "outputsToInstall": [
                 "bin"
             ],
@@ -63978,80 +63978,6 @@
         "_attr": "libvdwxc",
         "_repo": "qchem"
     },
-    "nur.repos.qchem.libvori": {
-        "name": "libvori-210412",
-        "pname": "libvori",
-        "version": "210412",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Library for Voronoi intergration of electron densities",
-            "homepage": "https://brehm-research.de/libvori.php",
-            "insecure": false,
-            "license": [
-                {
-                    "fullName": "GNU Lesser General Public License v3.0 only",
-                    "shortName": "lgpl3Only",
-                    "spdxId": "LGPL-3.0-only",
-                    "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
-                }
-            ],
-            "maintainers": [
-                {
-                    "email": "phillip.seeber@googlemail.com",
-                    "github": "sheepforce",
-                    "githubId": 16844216,
-                    "name": "Phillip Seeber"
-                }
-            ],
-            "name": "libvori-210412",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/libvori/default.nix#L16",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "libvori",
-        "_repo": "qchem"
-    },
     "nur.repos.qchem.libxc4": {
         "name": "libxc-4.3.4",
         "pname": "libxc",
@@ -65798,47 +65724,6 @@
         "_attr": "sharc21",
         "_repo": "qchem"
     },
-    "nur.repos.qchem.siesta": {
-        "name": "siesta-4.1-b3",
-        "pname": "siesta",
-        "version": "4.1-b3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A first-principles materials simulation code using DFT",
-            "homepage": "https://www.quantum-espresso.org/",
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v2.0",
-                "shortName": "gpl2",
-                "spdxId": "GPL-2.0",
-                "url": "https://spdx.org/licenses/GPL-2.0.html"
-            },
-            "longDescription": "SIESTA is both a method and its computer program\nimplementation, to perform efficient electronic structure\ncalculations and ab initio molecular dynamics simulations of\nmolecules and solids. SIESTA's efficiency stems from the use\nof strictly localized basis sets and from the implementation\nof linear-scaling algorithms which can be applied to suitable\nsystems. A very important feature of the code is that its\naccuracy and cost can be tuned in a wide range, from quick\nexploratory calculations to highly accurate simulations\nmatching the quality of other approaches, such as plane-wave\nand all-electron methods.\n",
-            "maintainers": [
-                {
-                    "email": "chris.ostrouchov@gmail.com",
-                    "github": "costrouc",
-                    "githubId": 1740337,
-                    "name": "Chris Ostrouchov"
-                }
-            ],
-            "name": "siesta-4.1-b3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "siesta",
-        "_repo": "qchem"
-    },
     "nur.repos.qchem.siesta-mpi": {
         "name": "siesta-4.1-b3",
         "pname": "siesta",
@@ -65878,6 +65763,47 @@
             "unsupported": false
         },
         "_attr": "siesta-mpi",
+        "_repo": "qchem"
+    },
+    "nur.repos.qchem.siesta": {
+        "name": "siesta-4.1-b3",
+        "pname": "siesta",
+        "version": "4.1-b3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A first-principles materials simulation code using DFT",
+            "homepage": "https://www.quantum-espresso.org/",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v2.0",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0",
+                "url": "https://spdx.org/licenses/GPL-2.0.html"
+            },
+            "longDescription": "SIESTA is both a method and its computer program\nimplementation, to perform efficient electronic structure\ncalculations and ab initio molecular dynamics simulations of\nmolecules and solids. SIESTA's efficiency stems from the use\nof strictly localized basis sets and from the implementation\nof linear-scaling algorithms which can be applied to suitable\nsystems. A very important feature of the code is that its\naccuracy and cost can be tuned in a wide range, from quick\nexploratory calculations to highly accurate simulations\nmatching the quality of other approaches, such as plane-wave\nand all-electron methods.\n",
+            "maintainers": [
+                {
+                    "email": "chris.ostrouchov@gmail.com",
+                    "github": "costrouc",
+                    "githubId": 1740337,
+                    "name": "Chris Ostrouchov"
+                }
+            ],
+            "name": "siesta-4.1-b3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "siesta",
         "_repo": "qchem"
     },
     "nur.repos.qchem.slurm-tools": {
@@ -66196,48 +66122,6 @@
             "unsupported": false
         },
         "_attr": "wfoverlap",
-        "_repo": "qchem"
-    },
-    "nur.repos.qchem.xcfun": {
-        "name": "xcfun-2.1.1",
-        "pname": "xcfun",
-        "version": "2.1.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A library of exchange-correlation functionals with arbitrary-order derivatives.",
-            "homepage": "https://github.com/dftlibs/xcfun",
-            "insecure": false,
-            "license": {
-                "fullName": "Mozilla Public License 2.0",
-                "shortName": "mpl20",
-                "spdxId": "MPL-2.0",
-                "url": "https://spdx.org/licenses/MPL-2.0.html"
-            },
-            "name": "xcfun-2.1.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/xcfun/default.nix#L29",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "xcfun",
         "_repo": "qchem"
     },
     "nur.repos.qchem.xtb": {
