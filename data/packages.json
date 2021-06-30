@@ -38847,14 +38847,14 @@
         "_repo": "j-k"
     },
     "nur.repos.j-k.scorecard": {
-        "name": "scorecard-1.2.0",
+        "name": "scorecard-2.0.0",
         "pname": "scorecard",
-        "version": "1.2.0",
+        "version": "2.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/ossf/scorecard/releases/tag/v1.2.0",
+            "changelog": "https://github.com/ossf/scorecard/releases/tag/v2.0.0",
             "description": "A program that shows security scorecard for an open source software",
             "homepage": "https://github.com/ossf/scorecard",
             "insecure": false,
@@ -38878,7 +38878,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "scorecard-1.2.0",
+            "name": "scorecard-2.0.0",
             "outputsToInstall": [
                 "out"
             ],
