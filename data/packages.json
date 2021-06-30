@@ -68990,9 +68990,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ghostery": {
-        "name": "ghostery-8.5.5",
+        "name": "ghostery-8.5.7",
         "pname": "ghostery",
-        "version": "8.5.5",
+        "version": "8.5.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -69006,7 +69006,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "ghostery-8.5.5",
+            "name": "ghostery-8.5.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -70968,9 +70968,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.min-twitter": {
-        "name": "min-twitter-3.1.2",
+        "name": "min-twitter-3.1.3",
         "pname": "min-twitter",
-        "version": "3.1.2",
+        "version": "3.1.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -70984,7 +70984,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "min-twitter-3.1.2",
+            "name": "min-twitter-3.1.3",
             "outputsToInstall": [
                 "out"
             ],
