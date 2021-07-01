@@ -60594,9 +60594,9 @@
         "_repo": "mweinelt"
     },
     "nur.repos.mweinelt.zigbee2mqtt": {
-        "name": "node_zigbee2mqtt-1.19.1",
+        "name": "node_zigbee2mqtt-1.20.0",
         "pname": "node_zigbee2mqtt",
-        "version": "1.19.1",
+        "version": "1.20.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -60619,7 +60619,7 @@
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "node_zigbee2mqtt-1.19.1",
+            "name": "node_zigbee2mqtt-1.20.0",
             "outputsToInstall": [
                 "out"
             ],
