@@ -98518,6 +98518,446 @@
         "_attr": "qemu_kvm",
         "_repo": "vroad"
     },
+    "nur.repos.wamserma.bandit": {
+        "name": "bandit-1.7.0",
+        "pname": "bandit",
+        "version": "1.7.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Security oriented static analyser for python code",
+            "homepage": "https://bandit.readthedocs.io/en/latest/",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "bandit",
+            "maintainers": [
+                {
+                    "email": "kamadorueda@gmail.com",
+                    "github": "kamadorueda",
+                    "githubId": 47480384,
+                    "keys": [
+                        {
+                            "fingerprint": "2BE3 BAFD 793E A349 ED1F  F00F 04D0 CEAF 916A 9A40",
+                            "longkeyid": "rsa4096/0x04D0CEAF916A9A40"
+                        }
+                    ],
+                    "name": "Kevin Amado"
+                }
+            ],
+            "name": "python3.8-bandit-1.7.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "bandit",
+        "_repo": "wamserma"
+    },
+    "nur.repos.wamserma.bundlewrap": {
+        "name": "bundlewrap-4.9.0",
+        "pname": "bundlewrap",
+        "version": "4.9.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Easy, Concise and Decentralized Config management with Python",
+            "homepage": "https://bundlewrap.org/",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": [
+                {
+                    "deprecated": true,
+                    "fullName": "GNU General Public License v3.0",
+                    "shortName": "gpl3",
+                    "spdxId": "GPL-3.0",
+                    "url": "https://spdx.org/licenses/GPL-3.0.html"
+                }
+            ],
+            "mainProgram": "bundlewrap",
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "python3.8-bundlewrap-4.9.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma/pkgs/development/python-modules/bundlewrap/default.nix#L43",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "bundlewrap",
+        "_repo": "wamserma"
+    },
+    "nur.repos.wamserma.dietlibc": {
+        "name": "dietlibc-0.34",
+        "pname": "dietlibc",
+        "version": "0.34",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "a libc optimized for small size",
+            "homepage": "https://www.fefe.de/dietlibc/",
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": true,
+                    "fullName": "GNU General Public License v2.0",
+                    "shortName": "gpl2",
+                    "spdxId": "GPL-2.0",
+                    "url": "https://spdx.org/licenses/GPL-2.0.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "dietlibc-0.34",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma/pkgs/development/libraries/dietlibc/default.nix#L35",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "dietlibc",
+        "_repo": "wamserma"
+    },
+    "nur.repos.wamserma.encpipe": {
+        "name": "encpipe-0.5",
+        "pname": "encpipe",
+        "version": "0.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "a simple, pipeable encryption tool without runtime deps",
+            "homepage": "https://github.com/jedisct1/encpipe",
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": true,
+                    "fullName": "GNU General Public License v2.0",
+                    "shortName": "gpl2",
+                    "spdxId": "GPL-2.0",
+                    "url": "https://spdx.org/licenses/GPL-2.0.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "encpipe-0.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma/pkgs/tools/security/encpipe/default.nix#L51",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "encpipe",
+        "_repo": "wamserma"
+    },
+    "nur.repos.wamserma.encpipe-static": {
+        "name": "encpipe-static-0.5",
+        "pname": "encpipe-static",
+        "version": "0.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "a simple, pipeable encryption tool without runtime deps",
+            "homepage": "https://github.com/jedisct1/encpipe",
+            "insecure": false,
+            "license": [
+                {
+                    "deprecated": true,
+                    "fullName": "GNU General Public License v2.0",
+                    "shortName": "gpl2",
+                    "spdxId": "GPL-2.0",
+                    "url": "https://spdx.org/licenses/GPL-2.0.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "encpipe-static-0.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma/pkgs/tools/security/encpipe/default.nix#L51",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "encpipe-static",
+        "_repo": "wamserma"
+    },
+    "nur.repos.wamserma.friidump": {
+        "name": "friidump-0.5.3.1",
+        "pname": "friidump",
+        "version": "0.5.3.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A program to dump Nintendo Wii and GameCube disc",
+            "homepage": "https://github.com/bradenmcd/friidump",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v2.0",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0",
+                "url": "https://spdx.org/licenses/GPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "friidump-0.5.3.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma/pkgs/games/friidump/default.nix#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "friidump",
+        "_repo": "wamserma"
+    },
+    "nur.repos.wamserma.genius-sf-600-firmware": {
+        "name": "genius-sf-600-firmware-5.3.1",
+        "pname": "genius-sf",
+        "version": "600-firmware-5.3.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "firmware blob for Genius SF-600 scanner",
+            "homepage": "http://download.geniusnet.com",
+            "insecure": false,
+            "license": [
+                {
+                    "free": false,
+                    "fullName": "Unfree",
+                    "shortName": "unfree"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "genius-sf-600-firmware-5.3.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma/pkgs/misc/firmware/genius/sf600.nix#L47",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "genius-sf-600-firmware",
+        "_repo": "wamserma"
+    },
+    "nur.repos.wamserma.masterpdfeditor4": {
+        "name": "masterpdfeditor4-4.3.89",
+        "pname": "masterpdfeditor4",
+        "version": "4.3.89",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Master PDF Editor (old version with free text editing)",
+            "homepage": "https://code-industry.net/free-pdf-editor/",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree redistributable",
+                "shortName": "unfreeRedistributable"
+            },
+            "maintainers": [
+                {
+                    "email": "github-dev@mail2013.wamser.eu",
+                    "github": "wamserma",
+                    "githubId": 60148,
+                    "name": "Markus S. Wamser"
+                }
+            ],
+            "name": "masterpdfeditor4-4.3.89",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/wamserma/pkgs/applications/misc/masterpdfeditor/default.nix#L42",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "masterpdfeditor4",
+        "_repo": "wamserma"
+    },
     "nur.repos.xe.cabytcini": {
         "name": "cabytcini-0.3.0",
         "pname": "cabytcini",
