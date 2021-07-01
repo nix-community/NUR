@@ -80593,7 +80593,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/astronaut/default.nix#L31",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/astronaut/default.nix#L25",
             "unfree": false,
             "unsupported": false
         },
@@ -82467,6 +82467,90 @@
         "_attr": "gef",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.gemget": {
+        "name": "gemget-1.8.0",
+        "pname": "gemget",
+        "version": "1.8.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Command line downloader for the Gemini protocol",
+            "homepage": "https://github.com/makeworld-the-better-one/gemget",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "gemget-1.8.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gemget/default.nix#L17",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gemget",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.geminid": {
         "name": "geminid-2021-04-11",
         "pname": "geminid",
@@ -83223,9 +83307,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gmnitohtml": {
-        "name": "gmnitohtml-0.1.0",
+        "name": "gmnitohtml-0.1.1",
         "pname": "gmnitohtml",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83259,7 +83343,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "gmnitohtml-0.1.0",
+            "name": "gmnitohtml-0.1.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -83299,7 +83383,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gmnitohtml/default.nix#L31",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gmnitohtml/default.nix#L25",
             "unfree": false,
             "unsupported": false
         },
@@ -85534,9 +85618,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.kiln": {
-        "name": "kiln-0.2.0",
+        "name": "kiln-0.2.1",
         "pname": "kiln",
-        "version": "0.2.0",
+        "version": "0.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -85570,7 +85654,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "kiln-0.2.0",
+            "name": "kiln-0.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -85610,7 +85694,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/kiln/default.nix#L31",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/kiln/default.nix#L25",
             "unfree": false,
             "unsupported": false
         },
@@ -85830,9 +85914,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.komputeko": {
-        "name": "komputeko-2021-04-21",
+        "name": "komputeko-2021-05-28",
         "pname": "komputeko",
-        "version": "2021-04-21",
+        "version": "2021-05-28",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -85860,7 +85944,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "komputeko-2021-04-21",
+            "name": "komputeko-2021-05-28",
             "outputsToInstall": [
                 "out"
             ],
@@ -87564,9 +87648,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-2021-05-26",
+        "name": "nakarte-2021-06-29",
         "pname": "nakarte",
-        "version": "2021-05-26",
+        "version": "2021-06-29",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -87594,7 +87678,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-2021-05-26",
+            "name": "nakarte-2021-06-29",
             "outputsToInstall": [
                 "out"
             ],
@@ -89563,85 +89647,6 @@
         "_attr": "maprec",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.mercantile": {
-        "name": "python3.8-mercantile-1.2.1",
-        "pname": "python3.8-mercantile",
-        "version": "1.2.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Spherical mercator tile and coordinate utilities",
-            "homepage": "http://mercantile.readthedocs.io/en/latest/",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "mainProgram": "mercantile",
-            "maintainers": [
-                {
-                    "email": "sikmir@gmail.com",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
-                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
-                        }
-                    ],
-                    "name": "Nikolay Korotkiy"
-                }
-            ],
-            "name": "python3.8-mercantile-1.2.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/development/python-modules/mercantile/default.nix#L19",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "mercantile",
-        "_repo": "sikmir"
-    },
     "nur.repos.sikmir.mikatools": {
         "name": "python3.8-mikatools-1.0.0",
         "pname": "python3.8-mikatools",
@@ -90111,85 +90116,6 @@
             "unsupported": false
         },
         "_attr": "python-hfst",
-        "_repo": "sikmir"
-    },
-    "nur.repos.sikmir.rasterio": {
-        "name": "python3.8-rasterio-1.2.3",
-        "pname": "python3.8-rasterio",
-        "version": "1.2.3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Python package to read and write geospatial raster data",
-            "homepage": "https://rasterio.readthedocs.io/",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
-                "shortName": "bsd3",
-                "spdxId": "BSD-3-Clause",
-                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
-            },
-            "mainProgram": "rasterio",
-            "maintainers": [
-                {
-                    "email": "sikmir@gmail.com",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
-                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
-                        }
-                    ],
-                    "name": "Nikolay Korotkiy"
-                }
-            ],
-            "name": "python3.8-rasterio-1.2.3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/development/python-modules/rasterio/default.nix#L24",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "rasterio",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.s2sphere": {
@@ -92735,9 +92661,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tatoeba": {
-        "name": "tatoeba-2021-06-05",
+        "name": "tatoeba-2021-06-26",
         "pname": "tatoeba",
-        "version": "2021-06-05",
+        "version": "2021-06-26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -92763,7 +92689,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tatoeba-2021-06-05",
+            "name": "tatoeba-2021-06-26",
             "outputsToInstall": [
                 "out"
             ],
