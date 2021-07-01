@@ -14043,6 +14043,26 @@
         "_attr": "knobkraft-orm",
         "_repo": "dukzcry"
     },
+    "nur.repos.dukzcry.re3": {
+        "name": "re3-0.1",
+        "pname": "re3",
+        "version": "0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "re3-0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dukzcry/pkgs/re3.nix#L18",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "re3",
+        "_repo": "dukzcry"
+    },
     "nur.repos.dukzcry.realrtcw": {
         "name": "RealRTCW-3.1n",
         "pname": "RealRTCW",
@@ -14085,6 +14105,26 @@
             "unsupported": false
         },
         "_attr": "realrtcw",
+        "_repo": "dukzcry"
+    },
+    "nur.repos.dukzcry.revc": {
+        "name": "revc-0.1",
+        "pname": "revc",
+        "version": "0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "revc-0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dukzcry/pkgs/revc.nix#L18",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "revc",
         "_repo": "dukzcry"
     },
     "nur.repos.dustinblackman.fetch-hls": {
