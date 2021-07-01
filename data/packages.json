@@ -66719,9 +66719,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.betterttv": {
-        "name": "betterttv-7.2.99",
+        "name": "betterttv-7.2.100",
         "pname": "betterttv",
-        "version": "7.2.99",
+        "version": "7.2.100",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -66735,7 +66735,7 @@
                 "shortName": "betterttv",
                 "url": "https://betterttv.com/terms"
             },
-            "name": "betterttv-7.2.99",
+            "name": "betterttv-7.2.100",
             "outputsToInstall": [
                 "out"
             ],
@@ -74826,9 +74826,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.translate-web-pages": {
-        "name": "translate-web-pages-9.0.4",
+        "name": "translate-web-pages-9.1",
         "pname": "translate-web-pages",
-        "version": "9.0.4",
+        "version": "9.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74841,7 +74841,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "translate-web-pages-9.0.4",
+            "name": "translate-web-pages-9.1",
             "outputsToInstall": [
                 "out"
             ],
