@@ -63790,7 +63790,7 @@
         "_attr": "libint1",
         "_repo": "qchem"
     },
-    "nur.repos.qchem.libint-bagel": {
+    "nur.repos.qchem.libint": {
         "name": "libint2-2.6.0",
         "pname": "libint2",
         "version": "2.6.0",
@@ -63841,69 +63841,11 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/libint/default.nix#L60",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "libint-bagel",
-        "_repo": "qchem"
-    },
-    "nur.repos.qchem.libint2": {
-        "name": "libint2-2.6.0",
-        "pname": "libint2",
-        "version": "2.6.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Library for the evaluation of molecular integrals of many-body operators over Gaussian functions",
-            "homepage": "https://github.com/evaleev/libint",
-            "insecure": false,
-            "license": [
-                {
-                    "fullName": "GNU Lesser General Public License v3.0 only",
-                    "shortName": "lgpl3Only",
-                    "spdxId": "LGPL-3.0-only",
-                    "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
-                },
-                {
-                    "fullName": "GNU General Public License v3.0 only",
-                    "shortName": "gpl3Only",
-                    "spdxId": "GPL-3.0-only",
-                    "url": "https://spdx.org/licenses/GPL-3.0-only.html"
-                }
-            ],
-            "maintainers": [
-                {
-                    "email": "markus.kowalewski@gmail.com",
-                    "github": "markuskowa",
-                    "githubId": 26470037,
-                    "name": "Markus Kowalewski"
-                }
-            ],
-            "name": "libint2-2.6.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/libint/default.nix#L60",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "libint2",
+        "_attr": "libint",
         "_repo": "qchem"
     },
     "nur.repos.qchem.libvdwxc": {
@@ -65287,7 +65229,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/pysisyphus/default.nix#L134",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/pysisyphus/default.nix#L136",
             "unfree": false,
             "unsupported": false
         },
@@ -71222,6 +71164,90 @@
         "_attr": "firefox-addons.netflix-1080p",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.firefox-addons.new-window-without-toolbar": {
+        "name": "new-window-without-toolbar-1.3.0",
+        "pname": "new-window-without-toolbar",
+        "version": "1.3.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Open current page in new window without toolbar.",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "new-window-without-toolbar-1.3.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L828",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.new-window-without-toolbar",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons.news-feed-eradicator": {
         "name": "news-feed-eradicator-2.2.1",
         "pname": "news-feed-eradicator",
@@ -71300,7 +71326,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L829",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L842",
             "unfree": false,
             "unsupported": false
         },
@@ -71505,7 +71531,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L843",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L856",
             "unfree": false,
             "unsupported": false
         },
@@ -71591,7 +71617,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L857",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L870",
             "unfree": false,
             "unsupported": false
         },
@@ -71676,7 +71702,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L871",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L884",
             "unfree": false,
             "unsupported": false
         },
@@ -71755,7 +71781,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L885",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L898",
             "unfree": false,
             "unsupported": false
         },
@@ -71840,7 +71866,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L898",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L911",
             "unfree": false,
             "unsupported": false
         },
@@ -71925,7 +71951,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L912",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L925",
             "unfree": true,
             "unsupported": false
         },
@@ -72010,7 +72036,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L931",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L944",
             "unfree": false,
             "unsupported": false
         },
@@ -72095,7 +72121,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L945",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L958",
             "unfree": false,
             "unsupported": false
         },
@@ -72180,7 +72206,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L959",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L972",
             "unfree": false,
             "unsupported": false
         },
@@ -72266,7 +72292,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L973",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L986",
             "unfree": false,
             "unsupported": false
         },
@@ -72352,7 +72378,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L987",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1000",
             "unfree": false,
             "unsupported": false
         },
@@ -72436,7 +72462,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1000",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1013",
             "unfree": true,
             "unsupported": false
         },
@@ -72515,7 +72541,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1019",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1032",
             "unfree": false,
             "unsupported": false
         },
@@ -72601,7 +72627,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1032",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1045",
             "unfree": false,
             "unsupported": false
         },
@@ -72687,7 +72713,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1046",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1059",
             "unfree": false,
             "unsupported": false
         },
@@ -72772,7 +72798,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1060",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1073",
             "unfree": false,
             "unsupported": false
         },
@@ -72857,7 +72883,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1074",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1087",
             "unfree": false,
             "unsupported": false
         },
@@ -72942,7 +72968,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1088",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1101",
             "unfree": false,
             "unsupported": false
         },
@@ -73027,7 +73053,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1102",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1115",
             "unfree": false,
             "unsupported": false
         },
@@ -73113,7 +73139,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1116",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1129",
             "unfree": false,
             "unsupported": false
         },
@@ -73198,7 +73224,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1130",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1143",
             "unfree": false,
             "unsupported": false
         },
@@ -73283,7 +73309,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1144",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1157",
             "unfree": false,
             "unsupported": false
         },
@@ -73368,7 +73394,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1158",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1171",
             "unfree": false,
             "unsupported": false
         },
@@ -73453,7 +73479,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1171",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1184",
             "unfree": false,
             "unsupported": false
         },
@@ -73539,7 +73565,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1185",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1198",
             "unfree": false,
             "unsupported": false
         },
@@ -73624,7 +73650,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1199",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1212",
             "unfree": false,
             "unsupported": false
         },
@@ -73709,7 +73735,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1213",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1226",
             "unfree": false,
             "unsupported": false
         },
@@ -73794,7 +73820,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1227",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1240",
             "unfree": false,
             "unsupported": false
         },
@@ -73880,7 +73906,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1241",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1254",
             "unfree": false,
             "unsupported": false
         },
@@ -73966,7 +73992,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1255",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1268",
             "unfree": false,
             "unsupported": false
         },
@@ -74051,7 +74077,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1268",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1281",
             "unfree": false,
             "unsupported": false
         },
@@ -74136,7 +74162,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1282",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1295",
             "unfree": false,
             "unsupported": false
         },
@@ -74221,7 +74247,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1296",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1309",
             "unfree": false,
             "unsupported": false
         },
@@ -74307,7 +74333,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1310",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1323",
             "unfree": false,
             "unsupported": false
         },
@@ -74392,7 +74418,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1324",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1337",
             "unfree": false,
             "unsupported": false
         },
@@ -74477,7 +74503,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1338",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1351",
             "unfree": false,
             "unsupported": false
         },
@@ -74561,7 +74587,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1351",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1364",
             "unfree": false,
             "unsupported": false
         },
@@ -74647,7 +74673,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1365",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1378",
             "unfree": false,
             "unsupported": false
         },
@@ -74732,7 +74758,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1379",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1392",
             "unfree": false,
             "unsupported": false
         },
@@ -74818,7 +74844,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1393",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1406",
             "unfree": false,
             "unsupported": false
         },
@@ -74902,7 +74928,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1406",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1419",
             "unfree": false,
             "unsupported": false
         },
@@ -74986,7 +75012,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1419",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1432",
             "unfree": false,
             "unsupported": false
         },
@@ -75071,7 +75097,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1433",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1446",
             "unfree": false,
             "unsupported": false
         },
@@ -75156,7 +75182,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1452",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1465",
             "unfree": false,
             "unsupported": false
         },
@@ -75242,7 +75268,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1466",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1479",
             "unfree": false,
             "unsupported": false
         },
@@ -75328,7 +75354,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1480",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1493",
             "unfree": false,
             "unsupported": false
         },
@@ -75413,11 +75439,96 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1494",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1507",
             "unfree": false,
             "unsupported": false
         },
         "_attr": "firefox-addons.unpaywall",
+        "_repo": "rycee"
+    },
+    "nur.repos.rycee.firefox-addons.user-agent-string-switcher": {
+        "name": "user-agent-string-switcher-0.4.7.1",
+        "pname": "user-agent-string-switcher",
+        "version": "0.4.7.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Spoof websites trying to gather information about your web navigation\u2014like your browser type and operating system\u2014to deliver distinct content you may not want.",
+            "homepage": "http://add0n.com/useragent-switcher.html",
+            "insecure": false,
+            "license": {
+                "fullName": "Mozilla Public License 2.0",
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "name": "user-agent-string-switcher-0.4.7.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1521",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.user-agent-string-switcher",
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.videospeed": {
@@ -75498,7 +75609,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1508",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1535",
             "unfree": false,
             "unsupported": false
         },
@@ -75583,7 +75694,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1522",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1549",
             "unfree": false,
             "unsupported": false
         },
@@ -75668,7 +75779,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1536",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1563",
             "unfree": false,
             "unsupported": false
         },
@@ -75753,7 +75864,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1550",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1577",
             "unfree": false,
             "unsupported": false
         },
@@ -75838,7 +75949,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1564",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1591",
             "unfree": false,
             "unsupported": false
         },
@@ -75924,7 +76035,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1578",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1605",
             "unfree": false,
             "unsupported": false
         },
@@ -76009,7 +76120,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1592",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1619",
             "unfree": false,
             "unsupported": false
         },
@@ -76095,7 +76206,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1606",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1633",
             "unfree": false,
             "unsupported": false
         },
@@ -76180,7 +76291,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1619",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1646",
             "unfree": false,
             "unsupported": false
         },
@@ -76264,7 +76375,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1632",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1659",
             "unfree": false,
             "unsupported": false
         },
