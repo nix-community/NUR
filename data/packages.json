@@ -72785,9 +72785,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.lastpass-password-manager": {
-        "name": "lastpass-password-manager-4.74.0.3",
+        "name": "lastpass-password-manager-4.75.0.4",
         "pname": "lastpass-password-manager",
-        "version": "4.74.0.3",
+        "version": "4.75.0.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -72801,7 +72801,7 @@
                 "shortName": "unfree",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/license/"
             },
-            "name": "lastpass-password-manager-4.74.0.3",
+            "name": "lastpass-password-manager-4.75.0.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -75979,9 +75979,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-21.6.17",
+        "name": "refined-github-21.7.1",
         "pname": "refined-github",
-        "version": "21.6.17",
+        "version": "21.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75995,7 +75995,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-21.6.17",
+            "name": "refined-github-21.7.1",
             "outputsToInstall": [
                 "out"
             ],
