@@ -6490,9 +6490,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.eslint": {
-        "name": "node_eslint-7.29.0",
+        "name": "node_eslint-7.30.0",
         "pname": "node_eslint",
-        "version": "7.29.0",
+        "version": "7.30.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6501,11 +6501,11 @@
             "homepage": "https://eslint.org",
             "insecure": false,
             "license": "MIT",
-            "name": "node_eslint-7.29.0",
+            "name": "node_eslint-7.30.0",
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/eslint/node-packages.nix#L1146",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/eslint/node-packages.nix#L1166",
             "unfree": false,
             "unsupported": false
         },
@@ -6617,7 +6617,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/preact-cli/node-packages.nix#L13091",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/preact-cli/node-packages.nix#L13073",
             "unfree": false,
             "unsupported": false
         },
@@ -6625,9 +6625,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.52.3",
+        "name": "node_rollup-2.52.7",
         "pname": "node_rollup",
-        "version": "2.52.3",
+        "version": "2.52.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6636,7 +6636,7 @@
             "homepage": "https://rollupjs.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_rollup-2.52.3",
+            "name": "node_rollup-2.52.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -6693,9 +6693,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.typescript": {
-        "name": "node_typescript-4.3.4",
+        "name": "node_typescript-4.3.5",
         "pname": "node_typescript",
-        "version": "4.3.4",
+        "version": "4.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -6704,7 +6704,7 @@
             "homepage": "https://www.typescriptlang.org/",
             "insecure": false,
             "license": "Apache-2.0",
-            "name": "node_typescript-4.3.4",
+            "name": "node_typescript-4.3.5",
             "outputsToInstall": [
                 "out"
             ],
