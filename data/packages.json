@@ -53265,92 +53265,6 @@
         "_attr": "yosys-symbiflow-plugins",
         "_repo": "mcaju"
     },
-    "nur.repos.mic92.bitwarden_rs_ldap": {
-        "name": "bitwarden_rs_ldap-0.1.1-cargo-fix",
-        "pname": "bitwarden_rs_ldap",
-        "version": "0.1.1-cargo-fix",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "LDAP directory connector for bitwarden_rs",
-            "homepage": "https://github.com/ViViDboarder/bitwarden_rs_ldap",
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v3.0",
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
-            },
-            "name": "bitwarden_rs_ldap-0.1.1-cargo-fix",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "aarch64-genode",
-                "i686-genode",
-                "x86_64-genode",
-                "x86_64-solaris",
-                "js-ghcjs",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "mmix-mmixware",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "aarch64-none",
-                "arm-none",
-                "armv6l-none",
-                "avr-none",
-                "i686-none",
-                "msp430-none",
-                "or1k-none",
-                "powerpc-none",
-                "riscv32-none",
-                "riscv64-none",
-                "vc4-none",
-                "x86_64-none",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox",
-                "wasm64-wasi",
-                "wasm32-wasi",
-                "x86_64-windows",
-                "i686-windows"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/bitwarden_rs_ldap/default.nix#L30",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "bitwarden_rs_ldap",
-        "_repo": "mic92"
-    },
     "nur.repos.mic92.gatttool": {
         "name": "bluez-5.58",
         "pname": "bluez",
@@ -53718,9 +53632,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.goatcounter": {
-        "name": "goatcounter-1.4.2",
+        "name": "goatcounter-2.0.4",
         "pname": "goatcounter",
-        "version": "1.4.2",
+        "version": "2.0.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -53754,7 +53668,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "goatcounter-1.4.2",
+            "name": "goatcounter-2.0.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -53794,7 +53708,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/goatcounter/default.nix#L31",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/goatcounter/default.nix#L27",
             "unfree": false,
             "unsupported": false
         },
@@ -56138,34 +56052,6 @@
         "_attr": "rspamd-learn-spam-ham",
         "_repo": "mic92"
     },
-    "nur.repos.mic92.sgx-lkl": {
-        "name": "sgx-lkl-2019-11-19",
-        "pname": "sgx-lkl",
-        "version": "2019-11-19",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "SGX-LKL Library OS for running Linux applications inside of Intel SGX enclaves",
-            "homepage": "https://github.com/lsds/sgx-lkl",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "name": "sgx-lkl-2019-11-19",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/sgx-lkl/default.nix#L186",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "sgx-lkl",
-        "_repo": "mic92"
-    },
     "nur.repos.mic92.signald": {
         "name": "signald-0.11.1",
         "pname": "signald",
@@ -56339,6 +56225,92 @@
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92"
         },
         "_attr": "untilport",
+        "_repo": "mic92"
+    },
+    "nur.repos.mic92.vaultwarden_ldap": {
+        "name": "vaultwarden_ldap-0.5.0",
+        "pname": "vaultwarden_ldap",
+        "version": "0.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "LDAP directory connector for vaultwarden",
+            "homepage": "https://github.com/ViViDboarder/vaultwarden_ldap",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "name": "vaultwarden_ldap-0.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/vaultwarden_ldap/default.nix#L30",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "vaultwarden_ldap",
         "_repo": "mic92"
     },
     "nur.repos.mic92.weechat-signal": {
