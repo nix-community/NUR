@@ -54631,9 +54631,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.peep": {
-        "name": "peep-unstable-2020-02-06",
+        "name": "peep-unstable-2021-04-17",
         "pname": "peep-unstable",
-        "version": "2020-02-06",
+        "version": "2021-04-17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -54647,7 +54647,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "peep-unstable-2020-02-06",
+            "name": "peep-unstable-2021-04-17",
             "outputsToInstall": [
                 "out"
             ],
@@ -54669,7 +54669,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/peep/default.nix#L25",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mic92/pkgs/peep/default.nix#L16",
             "unfree": false,
             "unsupported": false
         },
