@@ -69447,9 +69447,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.bitwarden": {
-        "name": "bitwarden-1.50.0",
+        "name": "bitwarden-1.51.0",
         "pname": "bitwarden",
-        "version": "1.50.0",
+        "version": "1.51.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -69464,7 +69464,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "bitwarden-1.50.0",
+            "name": "bitwarden-1.51.0",
             "outputsToInstall": [
                 "out"
             ],
