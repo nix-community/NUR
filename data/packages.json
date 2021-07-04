@@ -68841,9 +68841,9 @@
         "_repo": "reedrw"
     },
     "nur.repos.rencire.neovim": {
-        "name": "neovim-0.4.4",
+        "name": "neovim-0.5.0",
         "pname": "neovim",
-        "version": "0.4.4",
+        "version": "0.5.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68888,7 +68888,7 @@
                     "name": "Maximilian Bosch"
                 }
             ],
-            "name": "neovim-unwrapped-0.4.4",
+            "name": "neovim-unwrapped-0.5.0",
             "outputsToInstall": [
                 "out"
             ],
