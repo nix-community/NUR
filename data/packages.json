@@ -7798,6 +7798,18 @@
         "_attr": "gyro",
         "_repo": "devins2518"
     },
+    "nur.repos.devins2518.iosevka-serif": {
+        "name": "iosevka-serif",
+        "pname": "iosevka-serif",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "homepage": "https://github.com/devins2518/iosevka-serif",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/devins2518"
+        },
+        "_attr": "iosevka-serif",
+        "_repo": "devins2518"
+    },
     "nur.repos.devins2518.zig-master": {
         "name": "zig-master-unstable-2021-06-27",
         "pname": "zig-master-unstable",
