@@ -2053,9 +2053,9 @@
         "_repo": "alwinb"
     },
     "nur.repos.alwinb.sikulixIDE": {
-        "name": "sikulixIDE-2.0.4",
+        "name": "sikulixIDE-2.0.5",
         "pname": "sikulixIDE",
-        "version": "2.0.4",
+        "version": "2.0.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -2069,7 +2069,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "sikulixIDE-2.0.4",
+            "name": "sikulixIDE-2.0.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -103537,9 +103537,9 @@
         "_repo": "wamserma"
     },
     "nur.repos.wamserma.bundlewrap": {
-        "name": "bundlewrap-4.9.0",
+        "name": "bundlewrap-4.10.0",
         "pname": "bundlewrap",
-        "version": "4.9.0",
+        "version": "4.10.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -103583,7 +103583,7 @@
                     "name": "Markus S. Wamser"
                 }
             ],
-            "name": "python3.8-bundlewrap-4.9.0",
+            "name": "python3.8-bundlewrap-4.10.0",
             "outputsToInstall": [
                 "out"
             ],
