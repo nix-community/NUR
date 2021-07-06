@@ -43945,9 +43945,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.libtas": {
-        "name": "libtas-1.4.1",
+        "name": "libtas-1.4.2",
         "pname": "libtas",
-        "version": "1.4.1",
+        "version": "1.4.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -43960,7 +43960,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "libtas-1.4.1",
+            "name": "libtas-1.4.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -43968,7 +43968,7 @@
                 "x86_64-linux",
                 "i686-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs/pkgs/libtas/default.nix#L81",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs/pkgs/libtas/default.nix#L68",
             "unfree": false,
             "unsupported": false
         },
@@ -43976,9 +43976,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.libtasMulti": {
-        "name": "libtas-1.4.1",
+        "name": "libtas-1.4.2",
         "pname": "libtas",
-        "version": "1.4.1",
+        "version": "1.4.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -43991,7 +43991,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "libtas-1.4.1",
+            "name": "libtas-1.4.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -43999,7 +43999,7 @@
                 "x86_64-linux",
                 "i686-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs/pkgs/libtas/default.nix#L81",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs/pkgs/libtas/default.nix#L68",
             "unfree": false,
             "unsupported": false
         },
@@ -44007,9 +44007,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.libtasNoMulti": {
-        "name": "libtas-1.4.1",
+        "name": "libtas-1.4.2",
         "pname": "libtas",
-        "version": "1.4.1",
+        "version": "1.4.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -44022,7 +44022,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "libtas-1.4.1",
+            "name": "libtas-1.4.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -44030,7 +44030,7 @@
                 "x86_64-linux",
                 "i686-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs/pkgs/libtas/default.nix#L81",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs/pkgs/libtas/default.nix#L68",
             "unfree": false,
             "unsupported": false
         },
