@@ -3097,6 +3097,4191 @@
         "_attr": "volantes-cursors",
         "_repo": "ambroisie"
     },
+    "nur.repos.arc.packages.base16-shell": {
+        "name": "base16-shell-ce8e1e540367ea83cc3e01eec7b2a11783b3f9e1",
+        "pname": "base16-shell-ce8e1e540367ea83cc3e01eec7b2a11783b3f9e1",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "base16-shell-ce8e1e540367ea83cc3e01eec7b2a11783b3f9e1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/base16-shell.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.base16-shell",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.benc": {
+        "name": "benc",
+        "pname": "benc",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "benc",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/build-support/wrap.nix#L9",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.benc",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.bitlbee-libpurple": {
+        "name": "bitlbee-3.6",
+        "pname": "bitlbee",
+        "version": "3.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "IRC instant messaging gateway",
+            "homepage": "https://www.bitlbee.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "BitlBee brings IM (instant messaging) to IRC clients.  It's a\ngreat solution for people who have an IRC client running all the\ntime and don't want to run an additional MSN/AIM/whatever\nclient.\n\nBitlBee currently supports the following IM networks/protocols:\nXMPP/Jabber (including Google Talk), MSN Messenger, Yahoo!\nMessenger, AIM and ICQ.\n",
+            "maintainers": [
+                {
+                    "email": "mail@pascal-wittmann.de",
+                    "github": "pSub",
+                    "githubId": 83842,
+                    "name": "Pascal Wittmann"
+                }
+            ],
+            "name": "bitlbee-3.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.bitlbee-libpurple",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.cargo-binutils-unwrapped": {
+        "name": "cargo-binutils-0.3.2",
+        "pname": "cargo-binutils",
+        "version": "0.3.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "cargo-binutils-0.3.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L124",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.cargo-binutils-unwrapped",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.cargo-binutils": {
+        "name": "cargo-binutils-wrapper-0.3.2",
+        "pname": "cargo-binutils-wrapper",
+        "version": "0.3.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "cargo-binutils-wrapper-0.3.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L147",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.cargo-binutils",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.cargo-call-stack": {
+        "name": "cargo-call-stack-2020-07-07",
+        "pname": "cargo-call-stack",
+        "version": "2020-07-07",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "cargo-call-stack-2020-07-07",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L172",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.cargo-call-stack",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.cargo-download-arc": {
+        "name": "cargo-download-0.1.2",
+        "pname": "cargo-download",
+        "version": "0.1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "cargo-download-0.1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L29",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.cargo-download-arc",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.cargo-info": {
+        "name": "cargo-info-0.5.14",
+        "pname": "cargo-info",
+        "version": "0.5.14",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "cargo-info-0.5.14",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L64",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.cargo-info",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.cargo-llvm-lines": {
+        "name": "cargo-llvm-lines-0.4.9",
+        "pname": "cargo-llvm-lines",
+        "version": "0.4.9",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "cargo-llvm-lines-0.4.9",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L215",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.cargo-llvm-lines",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.cargo-with": {
+        "name": "cargo-with-0.3.2",
+        "pname": "cargo-with",
+        "version": "0.3.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "cargo-with-0.3.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L46",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.cargo-with",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.clip": {
+        "name": "clip-0.0.1",
+        "pname": "clip",
+        "version": "0.0.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "clip-0.0.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/clip.nix#L26",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.clip",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.droid-sans-mono-dotted": {
+        "name": "droid-sans-mono-dotted-1.00",
+        "pname": "droid-sans-mono-dotted",
+        "version": "1.00",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "droid-sans-mono-dotted-1.00",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/droid.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.droid-sans-mono-dotted",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.droid-sans-mono-slashed": {
+        "name": "droid-sans-mono-slashed-1.00",
+        "pname": "droid-sans-mono-slashed",
+        "version": "1.00",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "droid-sans-mono-slashed-1.00",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/droid.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.droid-sans-mono-slashed",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.droidcam-obs": {
+        "name": "droidcam-obs-1.2.1",
+        "pname": "droidcam-obs",
+        "version": "1.2.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "droidcam-obs-1.2.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L67",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.droidcam-obs",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.duc-cli": {
+        "name": "duc-cli-1.4.4",
+        "pname": "duc-cli",
+        "version": "1.4.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Collection of tools for inspecting and visualizing disk usage",
+            "homepage": "http://duc.zevv.nl/",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v2.0",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0",
+                "url": "https://spdx.org/licenses/GPL-2.0.html"
+            },
+            "maintainers": [],
+            "name": "duc-cli-1.4.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.duc-cli",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.edfbrowser": {
+        "name": "EDFbrowser-1.71",
+        "pname": "EDFbrowser",
+        "version": "1.71",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "EDFbrowser-1.71",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/edfbrowser/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.edfbrowser",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.electrum-cli": {
+        "name": "electrum-4.1.3",
+        "pname": "electrum",
+        "version": "4.1.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A lightweight Bitcoin wallet",
+            "homepage": "https://electrum.org/",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "An easy-to-use Bitcoin client featuring wallets generated from\nmnemonic seeds (in addition to other, more advanced, wallet options)\nand the ability to perform transactions without downloading a copy\nof the blockchain.\n",
+            "mainProgram": "electrum",
+            "maintainers": [
+                {
+                    "email": "joachifm@fastmail.fm",
+                    "github": "joachifm",
+                    "githubId": 41977,
+                    "name": "Joachim Fasting"
+                },
+                {
+                    "email": "np.nix@nicolaspouillard.fr",
+                    "github": "np",
+                    "githubId": 5548,
+                    "name": "Nicolas Pouillard"
+                },
+                {
+                    "email": "pavol@rusnak.io",
+                    "github": "prusnak",
+                    "githubId": 42201,
+                    "keys": [
+                        {
+                            "fingerprint": "86E6 792F C27B FD47 8860  C110 91F3 B339 B9A0 2A3D",
+                            "longkeyid": "rsa4096/0x91F3B339B9A02A3D"
+                        }
+                    ],
+                    "name": "Pavol Rusnak"
+                }
+            ],
+            "name": "electrum-4.1.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.electrum-cli",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.filebin": {
+        "name": "filebin",
+        "pname": "filebin",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "filebin",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/build-support/wrap.nix#L9",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.filebin",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.forcefully-remove-bootfb": {
+        "name": "forcefully-remove-bootfb-5.10.45-2018-02-08",
+        "pname": "forcefully-remove-bootfb",
+        "version": "5.10.45-2018-02-08",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "forcefully-remove-bootfb-5.10.45-2018-02-08",
+            "outputsToInstall": [
+                "bin"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/linux/default.nix#L61",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.forcefully-remove-bootfb",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.generateLinuxConfig": {
+        "name": "generate-config.pl",
+        "pname": "generate-config.pl",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "generate-config.pl",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/linux/default.nix#L14",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.generateLinuxConfig",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.getquote-alphavantage": {
+        "name": "getquote-alphavantage-6f426157f700fb7291aa0fd0ff74cc422b5ad9eb",
+        "pname": "getquote-alphavantage",
+        "version": "6f426157f700fb7291aa0fd0ff74cc422b5ad9eb",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "getquote-alphavantage-6f426157f700fb7291aa0fd0ff74cc422b5ad9eb",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/personal/getquote-alphavantage.nix#L14",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.getquote-alphavantage",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.git-annex-remote-b2": {
+        "name": "git-annex-remote-b2-2020-02-05-arc",
+        "pname": "git-annex-remote-b2",
+        "version": "2020-02-05-arc",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "git-annex-remote-b2-2020-02-05-arc",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/git/git-annex-remote-b2/default.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.git-annex-remote-b2",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.git-remote-s3": {
+        "name": "git-remote-s3-0.1.2",
+        "pname": "git-remote-s3",
+        "version": "0.1.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "git-remote-s3-0.1.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/git/git-remote-s3.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.git-remote-s3",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.gst-jpegtrunc": {
+        "name": "gst-jpegtrunc-2021-06-14",
+        "pname": "gst-jpegtrunc",
+        "version": "2021-06-14",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "gst-jpegtrunc-2021-06-14",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/gst-jpegtrunc.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.gst-jpegtrunc",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.gst-rtsp-launch": {
+        "name": "gst-rtsp-launch-2019-12-26",
+        "pname": "gst-rtsp-launch",
+        "version": "2019-12-26",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "gst-rtsp-launch-2019-12-26",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/gst-rtsp-launch/default.nix#L10",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.gst-rtsp-launch",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.hook-chain": {
+        "name": "hook-chain",
+        "pname": "hook-chain",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "hook-chain",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.hook-chain",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.i3gopher": {
+        "name": "i3gopher-2020-09-02",
+        "pname": "i3gopher",
+        "version": "2020-09-02",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "i3gopher-2020-09-02",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/i3gopher/default.nix#L7",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.i3gopher",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.i3gopher-i3": {
+        "name": "i3gopher-2020-09-02",
+        "pname": "i3gopher",
+        "version": "2020-09-02",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "i3gopher-2020-09-02",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/i3gopher/default.nix#L7",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.i3gopher-i3",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.i3gopher-sway": {
+        "name": "i3gopher-2020-09-02",
+        "pname": "i3gopher",
+        "version": "2020-09-02",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "maintainers": [
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "i3gopher-2020-09-02",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/i3gopher/default.nix#L7",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.i3gopher-sway",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.i3workspaceoutput": {
+        "name": "i3workspaceoutput",
+        "pname": "i3workspaceoutput",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "i3workspaceoutput",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/build-support/wrap.nix#L9",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.i3workspaceoutput",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.jimtcl-minimal": {
+        "name": "jimtcl-minimal-0.79",
+        "pname": "jimtcl-minimal",
+        "version": "0.79",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "An open source small-footprint implementation of the Tcl programming language",
+            "homepage": "http://jim.tcl.tk/",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "dbohdan@dbohdan.com",
+                    "github": "dbohdan",
+                    "githubId": 3179832,
+                    "name": "D. Bohdan"
+                },
+                {
+                    "email": "rahul@gopinath.org",
+                    "github": "vrthra",
+                    "githubId": 70410,
+                    "name": "Rahul Gopinath"
+                }
+            ],
+            "name": "jimtcl-minimal-0.79",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.jimtcl-minimal",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.konawall": {
+        "name": "konawall",
+        "pname": "konawall",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "konawall",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/build-support/wrap.nix#L9",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.konawall",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.ladspa-rnnoise": {
+        "name": "ladspa-rnnoise-2021-05-24",
+        "pname": "ladspa-rnnoise",
+        "version": "2021-05-24",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "ladspa-rnnoise-2021-05-24",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L257",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.ladspa-rnnoise",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.libjaylink": {
+        "name": "libjaylink-2021-03-14",
+        "pname": "libjaylink",
+        "version": "2021-03-14",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "libjaylink-2021-03-14",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/libjaylink.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.libjaylink",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.libmpdclient-buffer": {
+        "name": "libmpdclient-buffer-2.19",
+        "pname": "libmpdclient-buffer",
+        "version": "2.19",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Client library for MPD (music player daemon)",
+            "homepage": "https://www.musicpd.org/libs/libmpdclient/",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "ehmry@posteo.net",
+                    "github": "ehmry",
+                    "githubId": 537775,
+                    "name": "Emery Hemingway"
+                },
+                {
+                    "email": "torres.anderson.85@protonmail.com",
+                    "github": "AndersonTorres",
+                    "githubId": 5954806,
+                    "name": "Anderson Torres"
+                }
+            ],
+            "name": "libmpdclient-buffer-2.19",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.libmpdclient-buffer",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.libsmu": {
+        "name": "libsmu-2021-04-21",
+        "pname": "libsmu",
+        "version": "2021-04-21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "ryzen-smu-5.10.45-2021-04-21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/ryzen-smu/default.nix#L20",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.libsmu",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.looking-glass-client-develop": {
+        "name": "looking-glass-client-2021-07-04",
+        "pname": "looking-glass-client",
+        "version": "2021-07-04",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A KVM Frame Relay (KVMFR) implementation",
+            "homepage": "https://looking-glass.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "Looking Glass is an open source application that allows the use of a KVM\n(Kernel-based Virtual Machine) configured for VGA PCI Pass-through\nwithout an attached physical monitor, keyboard or mouse. This is the final\nstep required to move away from dual booting with other operating systems\nfor legacy programs that require high performance graphics.\n",
+            "maintainers": [
+                {
+                    "email": "ab@alexbakker.me",
+                    "github": "alexbakker",
+                    "githubId": 2387841,
+                    "name": "Alexander Bakker"
+                }
+            ],
+            "name": "looking-glass-client-2021-07-04",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.looking-glass-client-develop",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.looking-glass-kvmfr-develop": {
+        "name": "looking-glass-client-kvmfr-5.10.45-2021-07-04",
+        "pname": "looking-glass-client-kvmfr",
+        "version": "5.10.45-2021-07-04",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "looking-glass-client-kvmfr-5.10.45-2021-07-04",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/linux/default.nix#L153",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.looking-glass-kvmfr-develop",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.looking-glass-kvmfr": {
+        "name": "looking-glass-client-kvmfr-5.10.45-B3",
+        "pname": "looking-glass-client-kvmfr",
+        "version": "5.10.45-B3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "looking-glass-client-kvmfr-5.10.45-B3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/linux/default.nix#L153",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.looking-glass-kvmfr",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.looking-glass-host": {
+        "name": "looking-glass-host-2021-07-04",
+        "pname": "looking-glass-host",
+        "version": "2021-07-04",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A KVM Frame Relay (KVMFR) implementation",
+            "homepage": "https://looking-glass.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "Looking Glass is an open source application that allows the use of a KVM\n(Kernel-based Virtual Machine) configured for VGA PCI Pass-through\nwithout an attached physical monitor, keyboard or mouse. This is the final\nstep required to move away from dual booting with other operating systems\nfor legacy programs that require high performance graphics.\n",
+            "maintainers": [
+                {
+                    "email": "ab@alexbakker.me",
+                    "github": "alexbakker",
+                    "githubId": 2387841,
+                    "name": "Alexander Bakker"
+                }
+            ],
+            "name": "looking-glass-client-B3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.looking-glass-host",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.luakit-develop": {
+        "name": "luakit-develop-2021-03-23",
+        "pname": "luakit-develop",
+        "version": "2021-03-23",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Fast, small, webkit-based browser framework extensible in Lua",
+            "homepage": "https://luakit.github.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "longDescription": "Luakit is a highly configurable browser framework based on the WebKit web\ncontent engine and the GTK+ toolkit. It is very fast, extensible with Lua,\nand licensed under the GNU GPLv3 license. It is primarily targeted at\npower users, developers and anyone who wants to have fine-grained control\nover their web browser\u2019s behaviour and interface.\n",
+            "maintainers": [
+                {
+                    "email": "torres.anderson.85@protonmail.com",
+                    "github": "AndersonTorres",
+                    "githubId": 5954806,
+                    "name": "Anderson Torres"
+                }
+            ],
+            "name": "luakit-develop-2021-03-23",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.luakit-develop",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.mautrix-hangouts": {
+        "name": "mautrix-hangouts-2021-06-16",
+        "pname": "mautrix-hangouts",
+        "version": "2021-06-16",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "mainProgram": "mautrix-hangouts",
+            "name": "mautrix-hangouts-2021-06-16",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/matrix/mautrix-hangouts/default.nix#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.mautrix-hangouts",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.mdloader": {
+        "name": "mdloader-1.05",
+        "pname": "mdloader",
+        "version": "1.05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "mdloader-1.05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/mdloader.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.mdloader",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.mergeLinuxConfig": {
+        "name": "merge_config.sh",
+        "pname": "merge_config.sh",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "merge_config.sh",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/build-support/wrap.nix#L9",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.mergeLinuxConfig",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.mosh-client": {
+        "name": "mosh-client-1.3.2",
+        "pname": "mosh-client",
+        "version": "1.3.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "mosh-client-1.3.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L546",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.mosh-client",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.mpd-youtube-dl": {
+        "name": "mpd-youtube-dl-0.22.9",
+        "pname": "mpd-youtube-dl",
+        "version": "0.22.9",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A flexible, powerful daemon for playing music",
+            "homepage": "https://www.musicpd.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 only",
+                "shortName": "gpl2Only",
+                "spdxId": "GPL-2.0-only",
+                "url": "https://spdx.org/licenses/GPL-2.0-only.html"
+            },
+            "longDescription": "Music Player Daemon (MPD) is a flexible, powerful daemon for playing\nmusic. Through plugins and libraries it can play a variety of sound\nfiles while being controlled by its network protocol.\n",
+            "maintainers": [
+                {
+                    "email": "astsmtl@yandex.ru",
+                    "github": "astsmtl",
+                    "githubId": 2093941,
+                    "name": "Alexander Tsamutali"
+                },
+                {
+                    "email": "ehmry@posteo.net",
+                    "github": "ehmry",
+                    "githubId": 537775,
+                    "name": "Emery Hemingway"
+                },
+                {
+                    "email": "fpletz@fnordicwalking.de",
+                    "github": "fpletz",
+                    "githubId": 114159,
+                    "keys": [
+                        {
+                            "fingerprint": "8A39 615D CE78 AF08 2E23  F303 846F DED7 7926 17B4",
+                            "longkeyid": "rsa4096/0x846FDED7792617B4"
+                        }
+                    ],
+                    "name": "Franz Pletz"
+                },
+                {
+                    "email": "nix@tobim.fastmail.fm",
+                    "github": "tobim",
+                    "githubId": 858790,
+                    "name": "Tobias Mayer"
+                }
+            ],
+            "name": "mpd-youtube-dl-0.22.9",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.mpd-youtube-dl",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.muFFT": {
+        "name": "muFFT-2019-02-15",
+        "pname": "muFFT",
+        "version": "2019-02-15",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "muFFT-2019-02-15",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/mufft.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.muFFT",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.mumble-develop": {
+        "name": "mumble-develop-1.3.4",
+        "pname": "mumble-develop",
+        "version": "1.3.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Low-latency, high quality voice chat software",
+            "homepage": "https://mumble.info",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "milan@petabyte.dev",
+                    "github": "petabyteboy",
+                    "githubId": 3250809,
+                    "name": "Milan P\u00e4ssler"
+                },
+                {
+                    "email": "contact@infinisil.com",
+                    "github": "infinisil",
+                    "githubId": 20525370,
+                    "keys": [
+                        {
+                            "fingerprint": "6C2B 55D4 4E04 8266 6B7D  DA1A 422E 9EDA E015 7170",
+                            "longkeyid": "rsa4096/0x422E9EDAE0157170"
+                        }
+                    ],
+                    "name": "Silvan Mosberger"
+                },
+                {
+                    "email": "felixsinger@posteo.net",
+                    "github": "felixsinger",
+                    "githubId": 628359,
+                    "name": "Felix Singer"
+                }
+            ],
+            "name": "mumble-develop-1.3.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.mumble-develop",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.mumble_1_4": {
+        "name": "mumble-develop-1.4.0-development-snapshot-006",
+        "pname": "mumble-develop",
+        "version": "1.4.0-development-snapshot-006",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Low-latency, high quality voice chat software",
+            "homepage": "https://mumble.info",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "milan@petabyte.dev",
+                    "github": "petabyteboy",
+                    "githubId": 3250809,
+                    "name": "Milan P\u00e4ssler"
+                },
+                {
+                    "email": "contact@infinisil.com",
+                    "github": "infinisil",
+                    "githubId": 20525370,
+                    "keys": [
+                        {
+                            "fingerprint": "6C2B 55D4 4E04 8266 6B7D  DA1A 422E 9EDA E015 7170",
+                            "longkeyid": "rsa4096/0x422E9EDAE0157170"
+                        }
+                    ],
+                    "name": "Silvan Mosberger"
+                },
+                {
+                    "email": "felixsinger@posteo.net",
+                    "github": "felixsinger",
+                    "githubId": 628359,
+                    "name": "Felix Singer"
+                }
+            ],
+            "name": "mumble-develop-1.4.0-development-snapshot-006",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.mumble_1_4",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.nix-readline": {
+        "name": "nix-readline-2.3.12",
+        "pname": "nix-readline",
+        "version": "2.3.12",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Powerful package manager that makes package management reliable and reproducible",
+            "homepage": "https://nixos.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU Library General Public License v2 or later",
+                "shortName": "lgpl2Plus",
+                "spdxId": "LGPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+            },
+            "longDescription": "Nix is a powerful package manager for Linux and other Unix systems that\nmakes package management reliable and reproducible. It provides atomic\nupgrades and rollbacks, side-by-side installation of multiple versions of\na package, multi-user package management and easy setup of build\nenvironments.\n",
+            "maintainers": [
+                {
+                    "email": "edolstra+nixpkgs@gmail.com",
+                    "github": "edolstra",
+                    "githubId": 1148549,
+                    "name": "Eelco Dolstra"
+                }
+            ],
+            "name": "nix-readline-2.3.12",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.nix-readline",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.mustache": {
+        "name": "node_mustache-4.0.0",
+        "pname": "node_mustache",
+        "version": "4.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "node_mustache-4.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L403",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.mustache",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.notmuch-arc": {
+        "name": "notmuch-arc-0.32.1",
+        "pname": "notmuch-arc",
+        "version": "0.32.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Mail indexer",
+            "homepage": "https://notmuchmail.org/",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "flokli@flokli.de",
+                    "github": "flokli",
+                    "githubId": 183879,
+                    "name": "Florian Klink"
+                },
+                {
+                    "email": "puck@puckipedia.com",
+                    "github": "puckipedia",
+                    "githubId": 488734,
+                    "name": "Puck Meerburg"
+                }
+            ],
+            "name": "notmuch-arc-0.32.1",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.notmuch-arc",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.nvflash": {
+        "name": "nvflash-5.692",
+        "pname": "nvflash",
+        "version": "5.692",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "nvflash-5.692",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/nvflash.nix#L10",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.nvflash",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.nvidia-capture-sdk": {
+        "name": "nvidia-capture-sdk-8.0.4",
+        "pname": "nvidia-capture-sdk",
+        "version": "8.0.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "nvidia-capture-sdk-8.0.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/nvidia-capture-sdk.nix#L8",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "packages.nvidia-capture-sdk",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.nvidia-patch": {
+        "name": "nvidia-patch-2021-06-23",
+        "pname": "nvidia-patch",
+        "version": "2021-06-23",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "nvidia-patch-2021-06-23",
+            "outputsToInstall": [
+                "bin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/linux/default.nix#L195",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "packages.nvidia-patch",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.nvidia-vbios-vfio-patcher": {
+        "name": "nvidia-vbios-vfio-patcher-2019-02-05",
+        "pname": "nvidia-vbios-vfio-patcher",
+        "version": "2019-02-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "nvidia-vbios-vfio-patcher-2019-02-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/nvidia-vbios-vfio-patcher/default.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.nvidia-vbios-vfio-patcher",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.openocd-git": {
+        "name": "openocd-git-2021-03-24",
+        "pname": "openocd-git",
+        "version": "2021-03-24",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing",
+            "homepage": "https://openocd.sourceforge.net/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "OpenOCD provides on-chip programming and debugging support with a layered\narchitecture of JTAG interface and TAP support, debug target support\n(e.g. ARM, MIPS), and flash chip drivers (e.g. CFI, NAND, etc.).  Several\nnetwork interfaces are available for interactiving with OpenOCD: HTTP,\ntelnet, TCL, and GDB.  The GDB server enables OpenOCD to function as a\n\"remote target\" for source-level debugging of embedded systems using the\nGNU GDB program.\n",
+            "maintainers": [
+                {
+                    "email": "bjorn.forsman@gmail.com",
+                    "github": "bjornfor",
+                    "githubId": 133602,
+                    "name": "Bj\u00f8rn Forsman"
+                },
+                {
+                    "email": "pavol@rusnak.io",
+                    "github": "prusnak",
+                    "githubId": 42201,
+                    "keys": [
+                        {
+                            "fingerprint": "86E6 792F C27B FD47 8860  C110 91F3 B339 B9A0 2A3D",
+                            "longkeyid": "rsa4096/0x91F3B339B9A02A3D"
+                        }
+                    ],
+                    "name": "Pavol Rusnak"
+                }
+            ],
+            "name": "openocd-git-2021-03-24",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.openocd-git",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.pass-extension-arc-b2": {
+        "name": "pass-extension-b2-1",
+        "pname": "pass-extension-b2",
+        "version": "1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A pass extension to retrieve meta-data properties",
+            "homepage": "https://github.com/rjekker/pass-extension-meta",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "name": "pass-extension-b2-1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/pass/b2.nix#L54",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.pass-extension-arc-b2",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.pass-extension-meta": {
+        "name": "pass-extension-meta-2019-03-11",
+        "pname": "pass-extension-meta",
+        "version": "2019-03-11",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A pass extension to retrieve meta-data properties",
+            "homepage": "https://github.com/rjekker/pass-extension-meta",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "name": "pass-extension-meta-2019-03-11",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/pass/meta.nix#L29",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.pass-extension-meta",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.pass-arc": {
+        "name": "pass-extensions-env",
+        "pname": "pass-extensions-env",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "pass-extensions-env",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.pass-arc",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.pass2bitwarden": {
+        "name": "pass2bitwarden-2019-05-31",
+        "pname": "pass2bitwarden",
+        "version": "2019-05-31",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "pass2bitwarden-2019-05-31",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/personal/pass2bitwarden.nix#L7",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.pass2bitwarden",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.paswitch": {
+        "name": "paswitch-1b900dae95068be5f72cf679c889c0c12b01091b",
+        "pname": "paswitch",
+        "version": "1b900dae95068be5f72cf679c889c0c12b01091b",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "paswitch-1b900dae95068be5f72cf679c889c0c12b01091b",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/paswitch.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.paswitch",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.picom-next": {
+        "name": "picom-2021-04-13",
+        "pname": "picom",
+        "version": "2021-04-13",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A fork of XCompMgr, a sample compositing manager for X servers",
+            "homepage": "https://github.com/yshui/picom",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "A fork of XCompMgr, which is a sample compositing manager for X\nservers supporting the XFIXES, DAMAGE, RENDER, and COMPOSITE\nextensions. It enables basic eye-candy effects. This fork adds\nadditional features, such as additional effects, and a fork at a\nwell-defined and proper place.\n\nThe package can be installed in debug mode as:\n\n  picom.override { withDebug = true; }\n\nFor gdb to find the source files, you need to run gdb in the bin directory\nof picom package in the nix store.\n",
+            "maintainers": [
+                {
+                    "email": "esz@posteo.de",
+                    "github": "ertes",
+                    "githubId": 1855930,
+                    "name": "Ertugrul S\u00f6ylemez"
+                },
+                {
+                    "email": "twey@twey.co.uk",
+                    "github": "Twey",
+                    "githubId": 101639,
+                    "name": "James \u2018Twey\u2019 Kay"
+                },
+                {
+                    "email": "thiagokokada@gmail.com",
+                    "github": "thiagokokada",
+                    "githubId": 844343,
+                    "name": "Thiago K. Okada"
+                }
+            ],
+            "name": "picom-2021-04-13",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.picom-next",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.pidgin-arc": {
+        "name": "pidgin-with-plugins-2.13.0",
+        "pname": "pidgin-with-plugins",
+        "version": "2.13.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "pidgin-with-plugins-2.13.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.pidgin-arc",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.qemu-vfio": {
+        "name": "qemu-vfio-6.0.0",
+        "pname": "qemu-vfio",
+        "version": "6.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A generic and open source machine emulator and virtualizer",
+            "homepage": "http://www.qemu.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "edolstra+nixpkgs@gmail.com",
+                    "github": "edolstra",
+                    "githubId": 1148549,
+                    "name": "Eelco Dolstra"
+                },
+                {
+                    "email": "hi@alyssa.is",
+                    "github": "alyssais",
+                    "githubId": 2768870,
+                    "keys": [
+                        {
+                            "fingerprint": "7573 56D7 79BB B888 773E  415E 736C CDF9 EF51 BD97",
+                            "longkeyid": "rsa4096/736CCDF9EF51BD97"
+                        }
+                    ],
+                    "name": "Alyssa Ross"
+                }
+            ],
+            "name": "qemu-vfio-6.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.qemu-vfio",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.qemucomm": {
+        "name": "qemucomm",
+        "pname": "qemucomm",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "qemucomm",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/personal/qemucomm.nix#L16",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.qemucomm",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.rbw-bitw": {
+        "name": "rbw-bitw-2020-10-05",
+        "pname": "rbw-bitw",
+        "version": "2020-10-05",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "rbw-bitw-2020-10-05",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L286",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.rbw-bitw",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.rink-readline": {
+        "name": "rink-readline-0.6.1",
+        "pname": "rink-readline",
+        "version": "0.6.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Unit-aware calculator",
+            "homepage": "https://rinkcalc.app",
+            "insecure": false,
+            "license": [
+                {
+                    "fullName": "Mozilla Public License 2.0",
+                    "shortName": "mpl20",
+                    "spdxId": "MPL-2.0",
+                    "url": "https://spdx.org/licenses/MPL-2.0.html"
+                },
+                {
+                    "fullName": "GNU General Public License v3.0 or later",
+                    "shortName": "gpl3Plus",
+                    "spdxId": "GPL-3.0-or-later",
+                    "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                }
+            ],
+            "maintainers": [
+                {
+                    "email": "sb@m-labs.hk",
+                    "github": "sbourdeauducq",
+                    "githubId": 720864,
+                    "name": "S\u00e9bastien Bourdeauducq"
+                },
+                {
+                    "email": "brightone@protonmail.com",
+                    "github": "Br1ght0ne",
+                    "githubId": 12615679,
+                    "keys": [
+                        {
+                            "fingerprint": "F549 3B7F 9372 5578 FDD3  D0B8 A1BC 8428 323E CFE8",
+                            "longkeyid": "rsa3072/0xA1BC8428323ECFE8"
+                        }
+                    ],
+                    "name": "Oleksii Filonenko"
+                }
+            ],
+            "name": "rink-0.6.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.rink-readline",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.rnnoise-plugin-extern": {
+        "name": "rnnoise-plugin-0.91",
+        "pname": "rnnoise-plugin",
+        "version": "0.91",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A real-time noise suppression plugin for voice based on Xiph's RNNoise",
+            "homepage": "https://github.com/werman/noise-suppression-for-voice",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "vitalii.voloshyn@gmail.com",
+                    "github": "panaeon",
+                    "githubId": 686076,
+                    "name": "Vitalii Voloshyn"
+                },
+                {
+                    "email": "henrik@fixme.se",
+                    "github": "henrikolsson",
+                    "githubId": 982322,
+                    "name": "Henrik Olsson"
+                }
+            ],
+            "name": "rnnoise-plugin-0.91",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.rnnoise-plugin-extern",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.rnnoise-plugin-develop": {
+        "name": "rnnoise-plugin-2021-05-21",
+        "pname": "rnnoise-plugin",
+        "version": "2021-05-21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A real-time noise suppression plugin for voice based on Xiph's RNNoise",
+            "homepage": "https://github.com/werman/noise-suppression-for-voice",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "vitalii.voloshyn@gmail.com",
+                    "github": "panaeon",
+                    "githubId": 686076,
+                    "name": "Vitalii Voloshyn"
+                },
+                {
+                    "email": "henrik@fixme.se",
+                    "github": "henrikolsson",
+                    "githubId": 982322,
+                    "name": "Henrik Olsson"
+                }
+            ],
+            "name": "rnnoise-plugin-2021-05-21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.rnnoise-plugin-develop",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.rtl8189es": {
+        "name": "rtl8189es-5.10.45-2021-03-02",
+        "pname": "rtl8189es",
+        "version": "5.10.45-2021-03-02",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "rtl8189es-5.10.45-2021-03-02",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/linux/default.nix#L124",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.rtl8189es",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.rust-analyzer": {
+        "name": "rust-analyzer-2021-03-15",
+        "pname": "rust-analyzer",
+        "version": "2021-03-15",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "rust-analyzer-2021-03-15",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L4",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.rust-analyzer",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.rxvt-unicode-arc": {
+        "name": "rxvt-unicode-2020-06-30",
+        "pname": "rxvt-unicode",
+        "version": "2020-06-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "rxvt-unicode-2020-06-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.rxvt-unicode-arc",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.rxvt-unicode-cvs-unwrapped": {
+        "name": "rxvt-unicode-unwrapped-9.26",
+        "pname": "rxvt-unicode-unwrapped",
+        "version": "9.26",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A clone of the well-known terminal emulator rxvt",
+            "downloadPage": "http://dist.schmorp.de/rxvt-unicode/Attic/",
+            "homepage": "http://software.schmorp.de/pkg/rxvt-unicode.html",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "rnhmjoj@inventati.org",
+                    "github": "rnhmjoj",
+                    "githubId": 2817565,
+                    "keys": [
+                        {
+                            "fingerprint": "92B2 904F D293 C94D C4C9  3E6B BFBA F4C9 75F7 6450",
+                            "longkeyid": "ed25519/0xBFBAF4C975F76450"
+                        }
+                    ],
+                    "name": "Michele Guerini Rocco"
+                }
+            ],
+            "name": "rxvt-unicode-unwrapped-9.26",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.rxvt-unicode-cvs-unwrapped",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.ryzen-monitor": {
+        "name": "ryzen-monitor-2021-05-16",
+        "pname": "ryzen-monitor",
+        "version": "2021-05-16",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "ryzen-monitor-2021-05-16",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/ryzen-smu/default.nix#L97",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.ryzen-monitor",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.ryzen-smu": {
+        "name": "ryzen-smu-5.10.45-2021-04-21",
+        "pname": "ryzen-smu",
+        "version": "5.10.45-2021-04-21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "ryzen-smu-5.10.45-2021-04-21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/linux/default.nix#L96",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.ryzen-smu",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.ryzen-smu-scripts": {
+        "name": "ryzen-smu-scripts-2021-04-21",
+        "pname": "ryzen-smu-scripts",
+        "version": "2021-04-21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "mainProgram": "ryzen-smu-scripts",
+            "name": "ryzen-smu-5.10.45-2021-04-21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/ryzen-smu/default.nix#L58",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.ryzen-smu-scripts",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.ryzen-smu-monitor_cpu": {
+        "name": "ryzen-smu-userspace-2021-04-21",
+        "pname": "ryzen-smu-userspace",
+        "version": "2021-04-21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "ryzen-smu-5.10.45-2021-04-21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/ryzen-smu/default.nix#L4",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.ryzen-smu-monitor_cpu",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.scream-develop": {
+        "name": "scream-2021-05-30",
+        "pname": "scream",
+        "version": "2021-05-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Audio receiver for the Scream virtual network sound card",
+            "homepage": "https://github.com/duncanthrax/scream",
+            "insecure": false,
+            "license": {
+                "fullName": "Microsoft Public License",
+                "shortName": "mspl",
+                "spdxId": "MS-PL",
+                "url": "https://spdx.org/licenses/MS-PL.html"
+            },
+            "maintainers": [
+                {
+                    "email": "arcnmx@users.noreply.github.com",
+                    "github": "arcnmx",
+                    "githubId": 13426784,
+                    "name": "arcnmx"
+                }
+            ],
+            "name": "scream-2021-05-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.scream-develop",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.scream-arc": {
+        "name": "scream-arc-2021-05-30",
+        "pname": "scream-arc",
+        "version": "2021-05-30",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Audio receiver for the Scream virtual network sound card",
+            "homepage": "https://github.com/duncanthrax/scream",
+            "insecure": false,
+            "license": {
+                "fullName": "Microsoft Public License",
+                "shortName": "mspl",
+                "spdxId": "MS-PL",
+                "url": "https://spdx.org/licenses/MS-PL.html"
+            },
+            "maintainers": [
+                {
+                    "email": "arcnmx@users.noreply.github.com",
+                    "github": "arcnmx",
+                    "githubId": 13426784,
+                    "name": "arcnmx"
+                }
+            ],
+            "name": "scream-arc-2021-05-30",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.scream-arc",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.screenstub": {
+        "name": "screenstub-2021-05-26",
+        "pname": "screenstub",
+        "version": "2021-05-26",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "screenstub-2021-05-26",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L236",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.screenstub",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.cargo-stack-sizes": {
+        "name": "stack-sizes-0.4.0",
+        "pname": "stack-sizes",
+        "version": "0.4.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "stack-sizes-0.4.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L195",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.cargo-stack-sizes",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.svdtools": {
+        "name": "svdtools-0.1.14",
+        "pname": "svdtools",
+        "version": "0.1.14",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "mainProgram": "svdtools",
+            "name": "python3.8-svdtools-0.1.14",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/python/svdtools.nix#L7",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.svdtools",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.syncplay-cli": {
+        "name": "syncplay-1.6.7",
+        "pname": "syncplay",
+        "version": "1.6.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Free software that synchronises media players",
+            "homepage": "https://syncplay.pl/",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "mainProgram": "syncplay",
+            "maintainers": [
+                {
+                    "email": "enzime@users.noreply.github.com",
+                    "github": "enzime",
+                    "githubId": 10492681,
+                    "name": "Michael Hoang"
+                }
+            ],
+            "name": "syncplay-1.6.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.syncplay-cli",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.tamzen": {
+        "name": "tamzen-font",
+        "pname": "tamzen-font",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Bitmapped programming font, based on Tamsyn",
+            "downloadPage": "https://github.com/sunaku/tamzen-font/releases",
+            "homepage": "https://github.com/sunaku/tamzen-font",
+            "insecure": false,
+            "license": {
+                "fullName": "Unspecified free software license",
+                "shortName": "free"
+            },
+            "name": "tamzen-font",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/tamzen.nix#L27",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.tamzen",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.task-blocks": {
+        "name": "task-blocks",
+        "pname": "task-blocks",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "task-blocks",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/personal/task-blocks.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.task-blocks",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.vim_configurable-pynvim": {
+        "name": "vim_configurable-8.2.2567",
+        "pname": "vim_configurable",
+        "version": "8.2.2567",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "The most popular clone of the VI editor",
+            "homepage": "http://www.vim.org",
+            "insecure": false,
+            "license": {
+                "fullName": "Vim License",
+                "shortName": "vim",
+                "spdxId": "Vim",
+                "url": "https://spdx.org/licenses/Vim.html"
+            },
+            "maintainers": [
+                {
+                    "email": "jason@oconal.id.au",
+                    "github": "lovek323",
+                    "githubId": 265084,
+                    "name": "Jason O'Conal"
+                },
+                {
+                    "email": "eduardo@eduardoquiros.com",
+                    "github": "equirosa",
+                    "githubId": 39096810,
+                    "name": "Eduardo Quiros"
+                }
+            ],
+            "name": "vim_configurable-8.2.2567",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.vim_configurable-pynvim",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.weechat-arc": {
+        "name": "weechat-bin-env-3.2",
+        "pname": "weechat-bin-env",
+        "version": "3.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A fast, light and extensible chat client",
+            "homepage": "http://www.weechat.org/",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "longDescription": "You can find more documentation as to how to customize this package\n(eg. adding python modules for scripts that would require them, etc.)\non https://nixos.org/nixpkgs/manual/#sec-weechat .\n",
+            "maintainers": [
+                {
+                    "email": "jason@oconal.id.au",
+                    "github": "lovek323",
+                    "githubId": 265084,
+                    "name": "Jason O'Conal"
+                },
+                {
+                    "email": "git@sphalerite.org",
+                    "github": "lheckemann",
+                    "githubId": 341954,
+                    "name": "Linus Heckemann"
+                }
+            ],
+            "name": "weechat-3.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.weechat-arc",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.weechat-matrix": {
+        "name": "weechat-matrix-2021-06-06",
+        "pname": "weechat-matrix",
+        "version": "2021-06-06",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "mainProgram": "weechat-matrix",
+            "name": "weechat-matrix-2021-06-06",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/weechat/default.nix#L4",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.weechat-matrix",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.winpath": {
+        "name": "winpath",
+        "pname": "winpath",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "winpath",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.winpath",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.xargo": {
+        "name": "xargo-0.3.16",
+        "pname": "xargo",
+        "version": "0.3.16",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "xargo-0.3.16",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L105",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.xargo",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.xargo-unwrapped": {
+        "name": "xargo-0.3.16",
+        "pname": "xargo",
+        "version": "0.3.16",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "xargo-0.3.16",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L88",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.xargo-unwrapped",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.xdg_utils-mimi": {
+        "name": "xdg-utils-unstable-2020-10-21",
+        "pname": "xdg-utils-unstable",
+        "version": "2020-10-21",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A set of command line tools that assist applications with a variety of desktop integration tasks",
+            "homepage": "https://www.freedesktop.org/wiki/Software/xdg-utils/",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v2.0",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0",
+                "url": "https://spdx.org/licenses/GPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "edolstra+nixpkgs@gmail.com",
+                    "github": "edolstra",
+                    "githubId": 1148549,
+                    "name": "Eelco Dolstra"
+                }
+            ],
+            "name": "xdg-utils-unstable-2020-10-21",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.xdg_utils-mimi",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.yamllint": {
+        "name": "yamllint-1.26.1",
+        "pname": "yamllint",
+        "version": "1.26.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A linter for YAML files",
+            "homepage": "https://github.com/adrienverge/yamllint",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "GNU General Public License v3.0 or later",
+                "shortName": "gpl3Plus",
+                "spdxId": "GPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+            },
+            "mainProgram": "yamllint",
+            "maintainers": [
+                {
+                    "email": "jonringer117@gmail.com",
+                    "github": "jonringer",
+                    "githubId": 7673602,
+                    "name": "Jonathan Ringer"
+                },
+                {
+                    "email": "michael@faille.io",
+                    "github": "mikefaille",
+                    "githubId": 978196,
+                    "name": "Micha\u00ebl Faille"
+                }
+            ],
+            "name": "python3.8-yamllint-1.26.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.yamllint",
+        "_repo": "arc"
+    },
     "nur.repos.artturin.koneko": {
         "name": "koneko-unstable-2021-06-15",
         "pname": "koneko-unstable",
