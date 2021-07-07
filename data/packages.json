@@ -3801,15 +3801,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.forcefully-remove-bootfb": {
-        "name": "forcefully-remove-bootfb-5.10.45-2018-02-08",
+        "name": "forcefully-remove-bootfb-5.10.47-2018-02-08",
         "pname": "forcefully-remove-bootfb",
-        "version": "5.10.45-2018-02-08",
+        "version": "5.10.47-2018-02-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "forcefully-remove-bootfb-5.10.45-2018-02-08",
+            "name": "forcefully-remove-bootfb-5.10.47-2018-02-08",
             "outputsToInstall": [
                 "bin"
             ],
@@ -4460,7 +4460,7 @@
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "ryzen-smu-5.10.45-2021-04-21",
+            "name": "ryzen-smu-5.10.47-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -4526,15 +4526,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.looking-glass-kvmfr-develop": {
-        "name": "looking-glass-client-kvmfr-5.10.45-2021-07-04",
+        "name": "looking-glass-client-kvmfr-5.10.47-2021-07-04",
         "pname": "looking-glass-client-kvmfr",
-        "version": "5.10.45-2021-07-04",
+        "version": "5.10.47-2021-07-04",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "looking-glass-client-kvmfr-5.10.45-2021-07-04",
+            "name": "looking-glass-client-kvmfr-5.10.47-2021-07-04",
             "outputsToInstall": [
                 "out"
             ],
@@ -4560,15 +4560,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.looking-glass-kvmfr": {
-        "name": "looking-glass-client-kvmfr-5.10.45-B3",
+        "name": "looking-glass-client-kvmfr-5.10.47-B3",
         "pname": "looking-glass-client-kvmfr",
-        "version": "5.10.45-B3",
+        "version": "5.10.47-B3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "looking-glass-client-kvmfr-5.10.45-B3",
+            "name": "looking-glass-client-kvmfr-5.10.47-B3",
             "outputsToInstall": [
                 "out"
             ],
@@ -6141,15 +6141,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.rtl8189es": {
-        "name": "rtl8189es-5.10.45-2021-03-02",
+        "name": "rtl8189es-5.10.47-2021-03-02",
         "pname": "rtl8189es",
-        "version": "5.10.45-2021-03-02",
+        "version": "5.10.47-2021-03-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "rtl8189es-5.10.45-2021-03-02",
+            "name": "rtl8189es-5.10.47-2021-03-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -6333,15 +6333,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.ryzen-smu": {
-        "name": "ryzen-smu-5.10.45-2021-04-21",
+        "name": "ryzen-smu-5.10.47-2021-04-21",
         "pname": "ryzen-smu",
-        "version": "5.10.45-2021-04-21",
+        "version": "5.10.47-2021-04-21",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "ryzen-smu-5.10.45-2021-04-21",
+            "name": "ryzen-smu-5.10.47-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -6394,7 +6394,7 @@
                 "armv7a-darwin"
             ],
             "mainProgram": "ryzen-smu-scripts",
-            "name": "ryzen-smu-5.10.45-2021-04-21",
+            "name": "ryzen-smu-5.10.47-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -6428,7 +6428,7 @@
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "ryzen-smu-5.10.45-2021-04-21",
+            "name": "ryzen-smu-5.10.47-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -50425,9 +50425,9 @@
         "_repo": "kapack"
     },
     "nur.repos.kapack.slurm-front-end": {
-        "name": "slurm-20.11.7.1",
+        "name": "slurm-20.11.8.1",
         "pname": "slurm",
-        "version": "20.11.7.1",
+        "version": "20.11.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50455,7 +50455,7 @@
                     "name": "Markus Kowalewski"
                 }
             ],
-            "name": "slurm-20.11.7.1",
+            "name": "slurm-20.11.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -50481,9 +50481,9 @@
         "_repo": "kapack"
     },
     "nur.repos.kapack.slurm-multiple-slurmd": {
-        "name": "slurm-20.11.7.1",
+        "name": "slurm-20.11.8.1",
         "pname": "slurm",
-        "version": "20.11.7.1",
+        "version": "20.11.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -50511,7 +50511,7 @@
                     "name": "Markus Kowalewski"
                 }
             ],
-            "name": "slurm-20.11.7.1",
+            "name": "slurm-20.11.8.1",
             "outputsToInstall": [
                 "out"
             ],
