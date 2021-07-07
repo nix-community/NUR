@@ -75046,9 +75046,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.duckduckgo-privacy-essentials": {
-        "name": "duckduckgo-privacy-essentials-2021.6.2",
+        "name": "duckduckgo-privacy-essentials-2021.7.5",
         "pname": "duckduckgo-privacy-essentials",
-        "version": "2021.6.2",
+        "version": "2021.7.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75062,7 +75062,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "duckduckgo-privacy-essentials-2021.6.2",
+            "name": "duckduckgo-privacy-essentials-2021.7.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -77963,9 +77963,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-9.6.1",
+        "name": "metamask-9.7.1",
         "pname": "metamask",
-        "version": "9.6.1",
+        "version": "9.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -77978,7 +77978,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-9.6.1",
+            "name": "metamask-9.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -82242,9 +82242,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tree-style-tab": {
-        "name": "tree-style-tab-3.8.4",
+        "name": "tree-style-tab-3.8.6",
         "pname": "tree-style-tab",
-        "version": "3.8.4",
+        "version": "3.8.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82258,7 +82258,7 @@
                 "shortName": "tree-style-tab",
                 "url": "https://github.com/piroor/treestyletab/blob/trunk/COPYING.txt"
             },
-            "name": "tree-style-tab-3.8.4",
+            "name": "tree-style-tab-3.8.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -82412,9 +82412,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.36.0",
+        "name": "ublock-origin-1.36.2",
         "pname": "ublock-origin",
-        "version": "1.36.0",
+        "version": "1.36.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82429,7 +82429,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "ublock-origin-1.36.0",
+            "name": "ublock-origin-1.36.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -82584,9 +82584,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.unpaywall": {
-        "name": "unpaywall-3.94",
+        "name": "unpaywall-3.96",
         "pname": "unpaywall",
-        "version": "3.94",
+        "version": "3.96",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82600,7 +82600,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "unpaywall-3.94",
+            "name": "unpaywall-3.96",
             "outputsToInstall": [
                 "out"
             ],
