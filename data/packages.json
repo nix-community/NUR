@@ -3508,26 +3508,6 @@
         "_attr": "packages.droid-sans-mono-slashed",
         "_repo": "arc"
     },
-    "nur.repos.arc.packages.droidcam-obs": {
-        "name": "droidcam-obs-1.2.1",
-        "pname": "droidcam-obs",
-        "version": "1.2.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "insecure": false,
-            "name": "droidcam-obs-1.2.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L67",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "packages.droidcam-obs",
-        "_repo": "arc"
-    },
     "nur.repos.arc.packages.duc-cli": {
         "name": "duc-cli-1.4.4",
         "pname": "duc-cli",
@@ -4845,7 +4825,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L546",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L520",
             "unfree": false,
             "unsupported": false
         },
@@ -5193,7 +5173,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L403",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L377",
             "unfree": false,
             "unsupported": false
         },
@@ -5473,6 +5453,26 @@
         "_attr": "packages.openocd-git",
         "_repo": "arc"
     },
+    "nur.repos.arc.packages.openrazer-dpi": {
+        "name": "openrazer-dpi",
+        "pname": "openrazer-dpi",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "openrazer-dpi",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.openrazer-dpi",
+        "_repo": "arc"
+    },
     "nur.repos.arc.packages.pass-extension-arc-b2": {
         "name": "pass-extension-b2-1",
         "pname": "pass-extension-b2",
@@ -5621,26 +5621,6 @@
             "unsupported": false
         },
         "_attr": "packages.pass-arc",
-        "_repo": "arc"
-    },
-    "nur.repos.arc.packages.pass2bitwarden": {
-        "name": "pass2bitwarden-2019-05-31",
-        "pname": "pass2bitwarden",
-        "version": "2019-05-31",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "insecure": false,
-            "name": "pass2bitwarden-2019-05-31",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/personal/pass2bitwarden.nix#L7",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "packages.pass2bitwarden",
         "_repo": "arc"
     },
     "nur.repos.arc.packages.paswitch": {
