@@ -12574,9 +12574,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.asteval": {
-        "name": "python3.8-asteval-0.9.23",
+        "name": "python3.8-asteval-0.9.25",
         "pname": "python3.8-asteval",
-        "version": "0.9.23",
+        "version": "0.9.25",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -12618,7 +12618,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-asteval-0.9.23",
+            "name": "python3.8-asteval-0.9.25",
             "outputsToInstall": [
                 "out"
             ],
@@ -12640,7 +12640,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/asteval/default.nix#L29",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/drewrisinger/pkgs/python-modules/asteval/default.nix#L38",
             "unfree": false,
             "unsupported": false
         },
@@ -14595,9 +14595,9 @@
         "_repo": "drewrisinger"
     },
     "nur.repos.drewrisinger.python3Packages.pyquil": {
-        "name": "python3.8-pyquil-2.28.1",
+        "name": "python3.8-pyquil-2.28.2",
         "pname": "python3.8-pyquil",
-        "version": "2.28.1",
+        "version": "2.28.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -14638,7 +14638,7 @@
                     "name": "Drew Risinger"
                 }
             ],
-            "name": "python3.8-pyquil-2.28.1",
+            "name": "python3.8-pyquil-2.28.2",
             "outputsToInstall": [
                 "out"
             ],
