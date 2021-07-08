@@ -50297,7 +50297,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kapack/pkgs/simgrid/simgrid327.nix#L91",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kapack/pkgs/simgrid/simgrid327.nix#L95",
             "unfree": false,
             "unsupported": false
         },
@@ -50397,7 +50397,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kapack/pkgs/simgrid/simgrid327.nix#L91",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kapack/pkgs/simgrid/simgrid327.nix#L95",
             "unfree": false,
             "unsupported": false
         },
@@ -67799,9 +67799,9 @@
         "_repo": "ondt"
     },
     "nur.repos.ouzu.cf-dns-updater": {
-        "name": "cf-dns-updater-0.2",
+        "name": "cf-dns-updater-0.3",
         "pname": "cf-dns-updater",
-        "version": "0.2",
+        "version": "0.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -67824,7 +67824,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "cf-dns-updater-0.2",
+            "name": "cf-dns-updater-0.3",
             "outputsToInstall": [
                 "out"
             ],
