@@ -24838,9 +24838,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb_10_6": {
-        "name": "mariadb-server-10.5.11",
+        "name": "mariadb-server-10.6.3",
         "pname": "mariadb-server",
-        "version": "10.5.11",
+        "version": "10.6.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24863,7 +24863,7 @@
                     "name": "Austin Seipp"
                 }
             ],
-            "name": "mariadb-server-10.5.11",
+            "name": "mariadb-server-10.6.3",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -24925,7 +24925,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/servers/mariadb/mariadb_10_5.nix#L106",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/servers/mariadb/mariadb_10_6.nix#L106",
             "unfree": false,
             "unsupported": false
         },
