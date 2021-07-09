@@ -8745,7 +8745,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/casey/just/blob/0.9.6/CHANGELOG.md",
+            "changelog": "https://github.com/casey/just/blob/0.9.8/CHANGELOG.md",
             "description": "A handy way to save and run project-specific commands",
             "homepage": "https://github.com/casey/just",
             "insecure": false,
@@ -23820,9 +23820,9 @@
         "_repo": "instantos"
     },
     "nur.repos.ivar.ryujinx": {
-        "name": "ryujinx-1.0.6956",
+        "name": "ryujinx-1.0.6957",
         "pname": "ryujinx",
-        "version": "1.0.6956",
+        "version": "1.0.6957",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23844,14 +23844,14 @@
                     "name": "Ivar"
                 }
             ],
-            "name": "ryujinx-1.0.6956",
+            "name": "ryujinx-1.0.6957",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar/ryujinx/default.nix#L111",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar/ryujinx/default.nix#L112",
             "unfree": false,
             "unsupported": false
         },
@@ -23859,9 +23859,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1860",
+        "name": "yuzu-ea-1864",
         "pname": "yuzu-ea",
-        "version": "1860",
+        "version": "1864",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23890,7 +23890,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1860",
+            "name": "yuzu-ea-1864",
             "outputsToInstall": [
                 "out"
             ],
@@ -23908,7 +23908,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar/yuzu/base.nix#L85",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar/yuzu/base.nix#L71",
             "unfree": false,
             "unsupported": false
         },
@@ -23965,7 +23965,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar/yuzu/base.nix#L85",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar/yuzu/base.nix#L71",
             "unfree": false,
             "unsupported": false
         },
