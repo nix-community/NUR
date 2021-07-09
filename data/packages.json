@@ -23916,9 +23916,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-680",
+        "name": "yuzu-mainline-682",
         "pname": "yuzu-mainline",
-        "version": "680",
+        "version": "682",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -23947,7 +23947,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-680",
+            "name": "yuzu-mainline-682",
             "outputsToInstall": [
                 "out"
             ],
