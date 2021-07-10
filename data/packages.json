@@ -51322,9 +51322,9 @@
         "_repo": "kira-bruneau"
     },
     "nur.repos.kira-bruneau.mangohud": {
-        "name": "mangohud-0.6.4",
+        "name": "mangohud-0.6.5",
         "pname": "mangohud",
-        "version": "0.6.4",
+        "version": "0.6.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -51358,7 +51358,7 @@
                     "name": "Jona Abdinghoff"
                 }
             ],
-            "name": "mangohud-0.6.4",
+            "name": "mangohud-0.6.5",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -51377,7 +51377,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/mangohud/default.nix#L143",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/kira-bruneau/pkgs/tools/graphics/mangohud/default.nix#L141",
             "unfree": false,
             "unsupported": false
         },
