@@ -66828,9 +66828,9 @@
         "_repo": "nagy"
     },
     "nur.repos.nagy.schemaorg": {
-        "name": "schemaorg-12.0",
+        "name": "schemaorg-13.0",
         "pname": "schemaorg",
-        "version": "12.0",
+        "version": "13.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66845,7 +66845,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "schemaorg-12.0",
+            "name": "schemaorg-13.0",
             "outputsToInstall": [
                 "out"
             ],
