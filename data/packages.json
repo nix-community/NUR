@@ -73863,9 +73863,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.bitwarden": {
-        "name": "bitwarden-1.51.0",
+        "name": "bitwarden-1.51.1",
         "pname": "bitwarden",
-        "version": "1.51.0",
+        "version": "1.51.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -73880,7 +73880,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "bitwarden-1.51.0",
+            "name": "bitwarden-1.51.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -75026,9 +75026,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.duckduckgo-privacy-essentials": {
-        "name": "duckduckgo-privacy-essentials-2021.7.5",
+        "name": "duckduckgo-privacy-essentials-2021.7.9",
         "pname": "duckduckgo-privacy-essentials",
-        "version": "2021.7.5",
+        "version": "2021.7.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75042,7 +75042,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "duckduckgo-privacy-essentials-2021.7.5",
+            "name": "duckduckgo-privacy-essentials-2021.7.9",
             "outputsToInstall": [
                 "out"
             ],
@@ -79923,9 +79923,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.privacy-redirect": {
-        "name": "privacy-redirect-1.1.47",
+        "name": "privacy-redirect-1.1.48",
         "pname": "privacy-redirect",
-        "version": "1.1.47",
+        "version": "1.1.48",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79939,7 +79939,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
-            "name": "privacy-redirect-1.1.47",
+            "name": "privacy-redirect-1.1.48",
             "outputsToInstall": [
                 "out"
             ],
@@ -80349,9 +80349,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-moderator-toolbox": {
-        "name": "reddit-moderator-toolbox-5.6.0",
+        "name": "reddit-moderator-toolbox-5.6.1",
         "pname": "reddit-moderator-toolbox",
-        "version": "5.6.0",
+        "version": "5.6.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -80365,7 +80365,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "reddit-moderator-toolbox-5.6.0",
+            "name": "reddit-moderator-toolbox-5.6.1",
             "outputsToInstall": [
                 "out"
             ],
