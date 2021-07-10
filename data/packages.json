@@ -10840,9 +10840,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.52.7",
+        "name": "node_rollup-2.53.0",
         "pname": "node_rollup",
-        "version": "2.52.7",
+        "version": "2.53.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10851,7 +10851,7 @@
             "homepage": "https://rollupjs.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_rollup-2.52.7",
+            "name": "node_rollup-2.53.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -87620,6 +87620,84 @@
         "_attr": "aamath",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.airspyhf": {
+        "name": "airspyhf-1.6.8",
+        "pname": "airspyhf",
+        "version": "1.6.8",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "User mode driver for Airspy HF+",
+            "homepage": "https://github.com/airspy/airspyhf",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "airspyhf-1.6.8",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/radio/airspyhf/default.nix#L19",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "airspyhf",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.amethyst-bin": {
         "name": "Amethyst-bin-0.15.4",
         "pname": "Amethyst-bin",
@@ -93497,6 +93575,65 @@
         "_attr": "lel",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.libad9361": {
+        "name": "libad9361-0.2",
+        "pname": "libad9361",
+        "version": "0.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "IIO AD9361 library for filter design and handling, multi-chip sync, etc",
+            "homepage": "https://github.com/analogdevicesinc/libad9361-iio",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU Lesser General Public License v2.1 or later",
+                "shortName": "lgpl21Plus",
+                "spdxId": "LGPL-2.1-or-later",
+                "url": "https://spdx.org/licenses/LGPL-2.1-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "libad9361-0.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/radio/libad9361/default.nix#L19",
+            "skip": {
+                "ci": false
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "libad9361",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.libgarmin": {
         "name": "libgarmin-2008-12-27",
         "pname": "libgarmin",
@@ -98788,6 +98925,65 @@
             "unsupported": false
         },
         "_attr": "sdlmap",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.sdrpp": {
+        "name": "sdrpp-2021-07-09",
+        "pname": "sdrpp",
+        "version": "2021-07-09",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Cross-Platform SDR Software",
+            "homepage": "https://github.com/AlexandreRouma/SDRPlusPlus",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "sdrpp-2021-07-09",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/radio/sdrpp/default.nix#L88",
+            "skip": {
+                "ci": false
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "sdrpp",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.sendmap20": {
