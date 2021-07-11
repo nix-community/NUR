@@ -107277,9 +107277,9 @@
         "_repo": "zeratax"
     },
     "nur.repos.zeratax.matrix-registration": {
-        "name": "python3.8-matrix-registration-1.0.0.dev6",
+        "name": "python3.8-matrix-registration-1.0.0.dev7",
         "pname": "python3.8-matrix-registration",
-        "version": "1.0.0.dev6",
+        "version": "1.0.0.dev7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -107306,7 +107306,7 @@
                 "armv7a-darwin"
             ],
             "mainProgram": "matrix-registration",
-            "name": "python3.8-matrix-registration-1.0.0.dev6",
+            "name": "python3.8-matrix-registration-1.0.0.dev7",
             "outputsToInstall": [
                 "out"
             ],
@@ -107328,7 +107328,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/matrix-registration/default.nix#L67",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/zeratax/pkgs/matrix-registration/default.nix#L64",
             "unfree": false,
             "unsupported": false
         },
