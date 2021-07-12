@@ -21823,6 +21823,7 @@
                 }
             ],
             "longDescription": "Neovim is a project that seeks to aggressively refactor Vim in order to:\n- Simplify maintenance and encourage contributions\n- Split the work between multiple developers\n- Enable the implementation of new/modern user interfaces without any\n  modifications to the core source\n- Improve extensibility with a new plugin architecture\n",
+            "mainProgram": "nvim",
             "maintainers": [
                 {
                     "email": "m.fellinger@gmail.com",
@@ -23908,7 +23909,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar/yuzu/base.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar/yuzu/base.nix#L71",
             "unfree": false,
             "unsupported": false
         },
@@ -23965,7 +23966,7 @@
                 "riscv64-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar/yuzu/base.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ivar/yuzu/base.nix#L71",
             "unfree": false,
             "unsupported": false
         },
@@ -57801,9 +57802,9 @@
         "_repo": "mcaju"
     },
     "nur.repos.mic92.gatttool": {
-        "name": "bluez-5.58",
+        "name": "bluez-5.60",
         "pname": "bluez",
-        "version": "5.58",
+        "version": "5.60",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -57827,7 +57828,7 @@
                     "url": "https://spdx.org/licenses/LGPL-2.1.html"
                 }
             ],
-            "name": "bluez-5.58",
+            "name": "bluez-5.60",
             "outputsToInstall": [
                 "out"
             ],
