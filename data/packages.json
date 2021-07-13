@@ -66068,9 +66068,9 @@
         "_repo": "nagy"
     },
     "nur.repos.nagy.cxxmatrix": {
-        "name": "cxxmatrix-unstable-2020-11-28",
+        "name": "cxxmatrix-unstable-2021-06-30",
         "pname": "cxxmatrix-unstable",
-        "version": "2020-11-28",
+        "version": "2021-06-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66085,7 +66085,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "cxxmatrix-unstable-2020-11-28",
+            "name": "cxxmatrix-unstable-2021-06-30",
             "outputsToInstall": [
                 "out",
                 "man"
@@ -66743,9 +66743,9 @@
         "_repo": "nagy"
     },
     "nur.repos.nagy.lunasvg": {
-        "name": "lunasvg-2.0.1",
+        "name": "lunasvg-2.1.4",
         "pname": "lunasvg",
-        "version": "2.0.1",
+        "version": "2.1.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -66760,7 +66760,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "lunasvg-2.0.1",
+            "name": "lunasvg-2.1.4",
             "outputsToInstall": [
                 "out"
             ],
