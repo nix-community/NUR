@@ -73635,6 +73635,44 @@
         "_attr": "picom-next-ibhagwan",
         "_repo": "reedrw"
     },
+    "nur.repos.reedrw.rctpm": {
+        "name": "rctpm",
+        "pname": "rctpm",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "OpenRCT2 Plugin Manager",
+            "homepage": "https://github.com/tubbo/rctpm",
+            "insecure": false,
+            "license": "",
+            "name": "rctpm",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/reedrw/pkgs/rctpm/default.nix#L32",
+            "unfree": false,
+            "unsupported": false,
+            "version": ""
+        },
+        "_attr": "rctpm",
+        "_repo": "reedrw"
+    },
     "nur.repos.reedrw.toonmux": {
         "name": "toonmux",
         "pname": "toonmux",
