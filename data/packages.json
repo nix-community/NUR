@@ -11566,56 +11566,6 @@
         "_attr": "lyra-cursors",
         "_repo": "dan4ik605743"
     },
-    "nur.repos.dan4ik605743.myzsh": {
-        "name": "myZsh",
-        "pname": "myZsh",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Custom oh-my-zsh",
-            "homepage": "https://github.com/ohmyzsh/ohmyzsh",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "6057430gu@gmail.com",
-                    "github": "dan4ik605743",
-                    "githubId": 86075850,
-                    "name": "Danil Danevich"
-                }
-            ],
-            "name": "myZsh",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/myzsh/default.nix#L40",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "myzsh",
-        "_repo": "dan4ik605743"
-    },
     "nur.repos.dan4ik605743.vk-cli": {
         "name": "vk-cli-0.7.6",
         "pname": "vk-cli",
