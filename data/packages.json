@@ -77156,9 +77156,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.languagetool": {
-        "name": "languagetool-4.0.3",
+        "name": "languagetool-4.0.6",
         "pname": "languagetool",
-        "version": "4.0.3",
+        "version": "4.0.6",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -77172,7 +77172,7 @@
                 "shortName": "allrightsreserved",
                 "url": "https://languagetool.org/legal/"
             },
-            "name": "languagetool-4.0.3",
+            "name": "languagetool-4.0.6",
             "outputsToInstall": [
                 "out"
             ],
@@ -79077,9 +79077,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.old-reddit-redirect": {
-        "name": "old-reddit-redirect-1.5.0",
+        "name": "old-reddit-redirect-1.5.1",
         "pname": "old-reddit-redirect",
-        "version": "1.5.0",
+        "version": "1.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79093,7 +79093,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "old-reddit-redirect-1.5.0",
+            "name": "old-reddit-redirect-1.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -80520,9 +80520,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-21.7.1",
+        "name": "refined-github-21.7.12",
         "pname": "refined-github",
-        "version": "21.7.1",
+        "version": "21.7.12",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -80536,7 +80536,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-21.7.1",
+            "name": "refined-github-21.7.12",
             "outputsToInstall": [
                 "out"
             ],
@@ -81031,9 +81031,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.sponsorblock": {
-        "name": "sponsorblock-2.1.1",
+        "name": "sponsorblock-2.1.2.1",
         "pname": "sponsorblock",
-        "version": "2.1.1",
+        "version": "2.1.2.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -81048,7 +81048,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "sponsorblock-2.1.1",
+            "name": "sponsorblock-2.1.2.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -82055,9 +82055,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.translate-web-pages": {
-        "name": "translate-web-pages-9.1",
+        "name": "translate-web-pages-9.2",
         "pname": "translate-web-pages",
-        "version": "9.1",
+        "version": "9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82070,7 +82070,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "translate-web-pages-9.1",
+            "name": "translate-web-pages-9.2",
             "outputsToInstall": [
                 "out"
             ],
