@@ -1901,6 +1901,62 @@
         "_attr": "wowup",
         "_repo": "afreakk"
     },
+    "nur.repos.alarsyo.grafanaDashboards.nginx": {
+        "name": "grafana-dashboard-nginx-0.9.0",
+        "pname": "grafana-dashboard-nginx",
+        "version": "0.9.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "grafana dashboard for NGINX exporter",
+            "homepage": "https://github.com/nginxinc/nginx-prometheus-exporter",
+            "insecure": false,
+            "license": {
+                "fullName": "Apache License 2.0",
+                "shortName": "asl20",
+                "spdxId": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0.html"
+            },
+            "name": "grafana-dashboard-nginx-0.9.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/alarsyo/pkgs/grafana-dashboards/nginx.nix#L24",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "grafanaDashboards.nginx",
+        "_repo": "alarsyo"
+    },
+    "nur.repos.alarsyo.grafanaDashboards.node-exporter": {
+        "name": "grafana-dashboard-node-exporter-master-7d61c79619e5749e629758ecd96748c010028120",
+        "pname": "grafana-dashboard-node-exporter-master",
+        "version": "7d61c79619e5749e629758ecd96748c010028120",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "grafana dashboard for node exporter",
+            "homepage": "https://github.com/rfrail3/grafana-dashboards",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU Lesser General Public License v3.0 only",
+                "shortName": "lgpl3Only",
+                "spdxId": "LGPL-3.0-only",
+                "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+            },
+            "name": "grafana-dashboard-node-exporter-master-7d61c79619e5749e629758ecd96748c010028120",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/alarsyo/pkgs/grafana-dashboards/node-exporter.nix#L24",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "grafanaDashboards.node-exporter",
+        "_repo": "alarsyo"
+    },
     "nur.repos.alarsyo.kaleidoscope-udev-rules": {
         "name": "kaleidoscope-udev-rules-1.99.3",
         "pname": "kaleidoscope-udev-rules",
