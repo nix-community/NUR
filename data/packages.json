@@ -1952,6 +1952,26 @@
         "_attr": "sddm-sugar-candy",
         "_repo": "alarsyo"
     },
+    "nur.repos.alarsyo.spot": {
+        "name": "spot-2.9.7",
+        "pname": "spot",
+        "version": "2.9.7",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "spot-2.9.7",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/alarsyo/pkgs/spot/default.nix#L9",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "spot",
+        "_repo": "alarsyo"
+    },
     "nur.repos.alwinb.mescc-tools": {
         "name": "mescc-tools",
         "pname": "mescc-tools",
