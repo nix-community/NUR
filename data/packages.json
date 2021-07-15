@@ -21690,9 +21690,9 @@
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened": {
-        "name": "firefox-89.0.2",
+        "name": "firefox-90.0",
         "pname": "firefox",
-        "version": "89.0.2",
+        "version": "90.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -21739,7 +21739,7 @@
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "firefox-unwrapped-89.0.2",
+            "name": "firefox-unwrapped-90.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -21788,9 +21788,9 @@
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened-wayland": {
-        "name": "firefox-89.0.2",
+        "name": "firefox-90.0",
         "pname": "firefox",
-        "version": "89.0.2",
+        "version": "90.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -21837,7 +21837,7 @@
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "firefox-unwrapped-89.0.2",
+            "name": "firefox-unwrapped-90.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -71960,9 +71960,9 @@
         "_repo": "qchem"
     },
     "nur.repos.qchem.octopus": {
-        "name": "octopus-10.3",
+        "name": "octopus-10.5",
         "pname": "octopus",
-        "version": "10.3",
+        "version": "10.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -72004,7 +72004,7 @@
                     "name": "Markus Kowalewski"
                 }
             ],
-            "name": "octopus-10.3",
+            "name": "octopus-10.5",
             "outputsToInstall": [
                 "out"
             ],
