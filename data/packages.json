@@ -24314,9 +24314,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1880",
+        "name": "yuzu-ea-1881",
         "pname": "yuzu-ea",
-        "version": "1880",
+        "version": "1881",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24345,7 +24345,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1880",
+            "name": "yuzu-ea-1881",
             "outputsToInstall": [
                 "out"
             ],
@@ -24371,9 +24371,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-687",
+        "name": "yuzu-mainline-688",
         "pname": "yuzu-mainline",
-        "version": "687",
+        "version": "688",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24402,7 +24402,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-687",
+            "name": "yuzu-mainline-688",
             "outputsToInstall": [
                 "out"
             ],
