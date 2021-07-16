@@ -18736,9 +18736,9 @@
         "_repo": "eeva"
     },
     "nur.repos.emmanuelrosa.bisq-desktop": {
-        "name": "bisq-desktop-1.7.0",
+        "name": "bisq-desktop-1.7.1",
         "pname": "bisq-desktop",
-        "version": "1.7.0",
+        "version": "1.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18766,14 +18766,14 @@
                     "name": "Emmanuel Rosa"
                 }
             ],
-            "name": "bisq-desktop-1.7.0",
+            "name": "bisq-desktop-1.7.1",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa/pkgs/applications/blockchains/bisq-desktop/default.nix#L93",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa/pkgs/applications/blockchains/bisq-desktop/default.nix#L85",
             "unfree": false,
             "unsupported": false
         },
