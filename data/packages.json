@@ -77307,9 +77307,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.https-everywhere": {
-        "name": "https-everywhere-2021.4.15",
+        "name": "https-everywhere-2021.7.13",
         "pname": "https-everywhere",
-        "version": "2021.4.15",
+        "version": "2021.7.13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -77323,7 +77323,7 @@
                 "shortName": "https-everywhere-license",
                 "url": "https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/license/"
             },
-            "name": "https-everywhere-2021.4.15",
+            "name": "https-everywhere-2021.7.13",
             "outputsToInstall": [
                 "out"
             ],
@@ -77733,9 +77733,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.languagetool": {
-        "name": "languagetool-4.0.6",
+        "name": "languagetool-4.0.7",
         "pname": "languagetool",
-        "version": "4.0.6",
+        "version": "4.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -77749,7 +77749,7 @@
                 "shortName": "allrightsreserved",
                 "url": "https://languagetool.org/legal/"
             },
-            "name": "languagetool-4.0.6",
+            "name": "languagetool-4.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -78521,9 +78521,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-9.7.1",
+        "name": "metamask-9.8.0",
         "pname": "metamask",
-        "version": "9.7.1",
+        "version": "9.8.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78536,7 +78536,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-9.7.1",
+            "name": "metamask-9.8.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -79569,9 +79569,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.okta-browser-plugin": {
-        "name": "okta-browser-plugin-5.47.0",
+        "name": "okta-browser-plugin-6.1.0",
         "pname": "okta-browser-plugin",
-        "version": "5.47.0",
+        "version": "6.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -79585,7 +79585,7 @@
                 "shortName": "okta",
                 "url": "https://www.okta.com/agreements/"
             },
-            "name": "okta-browser-plugin-5.47.0",
+            "name": "okta-browser-plugin-6.1.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -79739,9 +79739,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.onepassword-password-manager": {
-        "name": "onepassword-password-manager-2.0.4",
+        "name": "onepassword-password-manager-2.0.5",
         "pname": "onepassword-password-manager",
-        "version": "2.0.4",
+        "version": "2.0.5",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -79755,7 +79755,7 @@
                 "shortName": "1pwd",
                 "url": "https://1password.com/legal/terms-of-service/"
             },
-            "name": "onepassword-password-manager-2.0.4",
+            "name": "onepassword-password-manager-2.0.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -80927,9 +80927,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.reddit-moderator-toolbox": {
-        "name": "reddit-moderator-toolbox-5.6.1",
+        "name": "reddit-moderator-toolbox-5.6.2",
         "pname": "reddit-moderator-toolbox",
-        "version": "5.6.1",
+        "version": "5.6.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -80943,7 +80943,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "reddit-moderator-toolbox-5.6.1",
+            "name": "reddit-moderator-toolbox-5.6.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -83142,15 +83142,15 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.unpaywall": {
-        "name": "unpaywall-3.96",
+        "name": "unpaywall-3.97",
         "pname": "unpaywall",
-        "version": "3.96",
+        "version": "3.97",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "description": "Get free text of research papers as you browse, using Unpaywall's index of ten million legal, open-access articles.",
-            "homepage": "http://unpaywall.org/products/extension",
+            "homepage": "https://unpaywall.org/products/extension",
             "insecure": false,
             "license": {
                 "fullName": "MIT License",
@@ -83158,7 +83158,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "unpaywall-3.96",
+            "name": "unpaywall-3.97",
             "outputsToInstall": [
                 "out"
             ],
