@@ -10943,9 +10943,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "node_pnpm-6.9.1",
+        "name": "node_pnpm-6.10.2",
         "pname": "node_pnpm",
-        "version": "6.9.1",
+        "version": "6.10.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -10954,7 +10954,7 @@
             "homepage": "https://pnpm.io",
             "insecure": false,
             "license": "MIT",
-            "name": "node_pnpm-6.9.1",
+            "name": "node_pnpm-6.10.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -10989,9 +10989,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "node_rollup-2.53.0",
+        "name": "node_rollup-2.53.2",
         "pname": "node_rollup",
-        "version": "2.53.0",
+        "version": "2.53.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11000,7 +11000,7 @@
             "homepage": "https://rollupjs.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "node_rollup-2.53.0",
+            "name": "node_rollup-2.53.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -24225,9 +24225,9 @@
         "_repo": "instantos"
     },
     "nur.repos.ivar.ryujinx": {
-        "name": "ryujinx-1.0.6969",
+        "name": "ryujinx-1.0.6970",
         "pname": "ryujinx",
-        "version": "1.0.6969",
+        "version": "1.0.6970",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24249,7 +24249,7 @@
                     "name": "Ivar"
                 }
             ],
-            "name": "ryujinx-1.0.6969",
+            "name": "ryujinx-1.0.6970",
             "outputsToInstall": [
                 "out"
             ],
@@ -24264,9 +24264,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1883",
+        "name": "yuzu-ea-1884",
         "pname": "yuzu-ea",
-        "version": "1883",
+        "version": "1884",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24295,7 +24295,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1883",
+            "name": "yuzu-ea-1884",
             "outputsToInstall": [
                 "out"
             ],
