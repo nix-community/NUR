@@ -5780,15 +5780,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.pidgin-arc": {
-        "name": "pidgin-with-plugins-2.13.0",
+        "name": "pidgin-with-plugins-2.14.6",
         "pname": "pidgin-with-plugins",
-        "version": "2.13.0",
+        "version": "2.14.6",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "pidgin-with-plugins-2.13.0",
+            "name": "pidgin-with-plugins-2.14.6",
             "outputsToInstall": [
                 "out"
             ],
