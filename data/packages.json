@@ -17522,9 +17522,9 @@
         "_repo": "dschrempf"
     },
     "nur.repos.dschrempf.frida-tools": {
-        "name": "frida-tools-9.2.5",
+        "name": "frida-tools-10.0.0",
         "pname": "frida-tools",
-        "version": "9.2.5",
+        "version": "10.0.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -17571,7 +17571,7 @@
                     "name": "Dominik Schrempf"
                 }
             ],
-            "name": "frida-tools-9.2.5",
+            "name": "frida-tools-10.0.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -18014,9 +18014,9 @@
         "_repo": "dschrempf"
     },
     "nur.repos.dschrempf.frida-python": {
-        "name": "python3.8-frida-python-14.2.18",
+        "name": "python3.8-frida-python-15.0.8",
         "pname": "python3.8-frida-python",
-        "version": "14.2.18",
+        "version": "15.0.8",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18063,14 +18063,14 @@
                     "name": "Dominik Schrempf"
                 }
             ],
-            "name": "python3.8-frida-python-14.2.18",
+            "name": "python3.8-frida-python-15.0.8",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dschrempf/pkgs/misc/frida-python/default.nix#L41",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dschrempf/pkgs/misc/frida-python/default.nix#L42",
             "unfree": false,
             "unsupported": false
         },
