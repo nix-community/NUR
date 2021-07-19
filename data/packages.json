@@ -57172,6 +57172,124 @@
         "_attr": "vlmcsd",
         "_repo": "linyinfeng"
     },
+    "nur.repos.lourkeur.mars-simulator": {
+        "name": "mars-simulator-4.5",
+        "pname": "mars-simulator",
+        "version": "4.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "MIPS Assembler and Runtime Simulator",
+            "homepage": "http://courses.missouristate.edu/KenVollmar/mars/index.htm",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "MARS is a lightweight interactive development environment (IDE) for\nprogramming in MIPS assembly language, intended for educational-level use\nwith Patterson and Hennessy's Computer Organization and Design.\n",
+            "name": "mars-simulator-4.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/lourkeur/pkgs/mars-simulator/default.nix#L29",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "mars-simulator",
+        "_repo": "lourkeur"
+    },
+    "nur.repos.lourkeur.teck-programmer": {
+        "name": "node_teck-programmer-1.1.1",
+        "pname": "node_teck-programmer",
+        "version": "1.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Programmer for TECK keyboards.",
+            "homepage": "https://github.com/m-ou-se/teck-programmer",
+            "insecure": false,
+            "license": "GPL-3.0+",
+            "name": "node_teck-programmer-1.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/lourkeur",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "teck-programmer",
+        "_repo": "lourkeur"
+    },
+    "nur.repos.lourkeur.semiphemeral": {
+        "name": "semiphemeral-0.5",
+        "pname": "semiphemeral",
+        "version": "0.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Automatically delete your old tweets, except for the ones you want to keep",
+            "homepage": "https://micahflee.com/2019/06/semiphemeral-automatically-delete-your-old-tweets-except-for-the-ones-you-want-to-keep/",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "There are plenty of tools that let you make your Twitter feed ephemeral,\nautomatically deleting tweets older than some threshold, like one month.\n\nSemiphemeral does this, but also lets you automatically exclude tweets\nbased on criteria: how many RTs or likes they have, and if they're part\nof a thread where one of your tweets has that many RTs or likes. It also\nlets you manually select tweets you'd like to exclude from deleting.\n",
+            "mainProgram": "semiphemeral",
+            "name": "semiphemeral-0.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/lourkeur/pkgs/semiphemeral/default.nix#L29",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "semiphemeral",
+        "_repo": "lourkeur"
+    },
     "nur.repos.mcaju.decaf-emu": {
         "name": "decaf-emu-unstable",
         "pname": "decaf-emu-unstable",
