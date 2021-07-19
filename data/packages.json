@@ -24264,9 +24264,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1887",
+        "name": "yuzu-ea-1888",
         "pname": "yuzu-ea",
-        "version": "1887",
+        "version": "1888",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24295,7 +24295,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1887",
+            "name": "yuzu-ea-1888",
             "outputsToInstall": [
                 "out"
             ],
@@ -83858,6 +83858,91 @@
         "_attr": "firefox-addons.wappalyzer",
         "_repo": "rycee"
     },
+    "nur.repos.rycee.firefox-addons.wayback-machine": {
+        "name": "wayback-machine-1.8.6",
+        "pname": "wayback-machine",
+        "version": "1.8.6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Detects dead pages, 404s, DNS failures &amp; a range of other web breakdowns, offering to show archived versions via the Internet Archive's Wayback Machine.  In addition you can archive web pages, and see their most recent &amp; first archives.",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "name": "wayback-machine-1.8.6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1604",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "firefox-addons.wayback-machine",
+        "_repo": "rycee"
+    },
     "nur.repos.rycee.firefox-addons.web-scrobbler": {
         "name": "web-scrobbler-2.44.0",
         "pname": "web-scrobbler",
@@ -83936,7 +84021,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1605",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1618",
             "unfree": false,
             "unsupported": false
         },
@@ -84022,7 +84107,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1619",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1632",
             "unfree": false,
             "unsupported": false
         },
@@ -84107,7 +84192,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1632",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1645",
             "unfree": false,
             "unsupported": false
         },
@@ -84191,7 +84276,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1645",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/rycee/pkgs/firefox-addons/generated-firefox-addons.nix#L1658",
             "unfree": false,
             "unsupported": false
         },
