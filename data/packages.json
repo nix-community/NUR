@@ -3854,15 +3854,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.forcefully-remove-bootfb": {
-        "name": "forcefully-remove-bootfb-5.10.48-2018-02-08",
+        "name": "forcefully-remove-bootfb-5.10.50-2018-02-08",
         "pname": "forcefully-remove-bootfb",
-        "version": "5.10.48-2018-02-08",
+        "version": "5.10.50-2018-02-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "forcefully-remove-bootfb-5.10.48-2018-02-08",
+            "name": "forcefully-remove-bootfb-5.10.50-2018-02-08",
             "outputsToInstall": [
                 "bin"
             ],
@@ -4513,7 +4513,7 @@
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "ryzen-smu-5.10.48-2021-04-21",
+            "name": "ryzen-smu-5.10.50-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -4562,6 +4562,18 @@
                     "github": "alexbakker",
                     "githubId": 2387841,
                     "name": "Alexander Bakker"
+                },
+                {
+                    "email": "babbaj45@gmail.com",
+                    "github": "babbaj",
+                    "githubId": 12820770,
+                    "keys": [
+                        {
+                            "fingerprint": "6FBC A462 4EAF C69C A7C4  98C1 F044 3098 48A0 7CAC",
+                            "longkeyid": "rsa4096/0xF044309848A07CAC"
+                        }
+                    ],
+                    "name": "babbaj"
                 }
             ],
             "name": "looking-glass-client-2021-07-04",
@@ -4579,15 +4591,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.looking-glass-kvmfr-develop": {
-        "name": "looking-glass-client-kvmfr-5.10.48-2021-07-04",
+        "name": "looking-glass-client-kvmfr-5.10.50-2021-07-04",
         "pname": "looking-glass-client-kvmfr",
-        "version": "5.10.48-2021-07-04",
+        "version": "5.10.50-2021-07-04",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "looking-glass-client-kvmfr-5.10.48-2021-07-04",
+            "name": "looking-glass-client-kvmfr-5.10.50-2021-07-04",
             "outputsToInstall": [
                 "out"
             ],
@@ -4613,15 +4625,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.looking-glass-kvmfr": {
-        "name": "looking-glass-client-kvmfr-5.10.48-B3",
+        "name": "looking-glass-client-kvmfr-5.10.50-B4",
         "pname": "looking-glass-client-kvmfr",
-        "version": "5.10.48-B3",
+        "version": "5.10.50-B4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "looking-glass-client-kvmfr-5.10.48-B3",
+            "name": "looking-glass-client-kvmfr-5.10.50-B4",
             "outputsToInstall": [
                 "out"
             ],
@@ -4670,9 +4682,21 @@
                     "github": "alexbakker",
                     "githubId": 2387841,
                     "name": "Alexander Bakker"
+                },
+                {
+                    "email": "babbaj45@gmail.com",
+                    "github": "babbaj",
+                    "githubId": 12820770,
+                    "keys": [
+                        {
+                            "fingerprint": "6FBC A462 4EAF C69C A7C4  98C1 F044 3098 48A0 7CAC",
+                            "longkeyid": "rsa4096/0xF044309848A07CAC"
+                        }
+                    ],
+                    "name": "babbaj"
                 }
             ],
-            "name": "looking-glass-client-B3",
+            "name": "looking-glass-client-B4",
             "outputsToInstall": [
                 "out"
             ],
@@ -5159,6 +5183,44 @@
         "_attr": "packages.mumble_1_4",
         "_repo": "arc"
     },
+    "nur.repos.arc.packages.mustache": {
+        "name": "mustache-4.0.0",
+        "pname": "mustache",
+        "version": "4.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "mustache-4.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L377",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.mustache",
+        "_repo": "arc"
+    },
     "nur.repos.arc.packages.nix-readline": {
         "name": "nix-readline-2.3.12",
         "pname": "nix-readline",
@@ -5231,26 +5293,6 @@
             "unsupported": false
         },
         "_attr": "packages.nix-readline",
-        "_repo": "arc"
-    },
-    "nur.repos.arc.packages.mustache": {
-        "name": "node_mustache-4.0.0",
-        "pname": "node_mustache",
-        "version": "4.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "insecure": false,
-            "name": "node_mustache-4.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L377",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "packages.mustache",
         "_repo": "arc"
     },
     "nur.repos.arc.packages.notmuch-arc": {
@@ -6194,15 +6236,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.rtl8189es": {
-        "name": "rtl8189es-5.10.48-2021-03-02",
+        "name": "rtl8189es-5.10.50-2021-03-02",
         "pname": "rtl8189es",
-        "version": "5.10.48-2021-03-02",
+        "version": "5.10.50-2021-03-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "rtl8189es-5.10.48-2021-03-02",
+            "name": "rtl8189es-5.10.50-2021-03-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -6386,15 +6428,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.ryzen-smu": {
-        "name": "ryzen-smu-5.10.48-2021-04-21",
+        "name": "ryzen-smu-5.10.50-2021-04-21",
         "pname": "ryzen-smu",
-        "version": "5.10.48-2021-04-21",
+        "version": "5.10.50-2021-04-21",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "ryzen-smu-5.10.48-2021-04-21",
+            "name": "ryzen-smu-5.10.50-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -6447,7 +6489,7 @@
                 "armv7a-darwin"
             ],
             "mainProgram": "ryzen-smu-scripts",
-            "name": "ryzen-smu-5.10.48-2021-04-21",
+            "name": "ryzen-smu-5.10.50-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -6481,7 +6523,7 @@
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "ryzen-smu-5.10.48-2021-04-21",
+            "name": "ryzen-smu-5.10.50-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -24264,9 +24306,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1898",
+        "name": "yuzu-ea-1899",
         "pname": "yuzu-ea",
-        "version": "1898",
+        "version": "1899",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24295,7 +24337,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1898",
+            "name": "yuzu-ea-1899",
             "outputsToInstall": [
                 "out"
             ],
@@ -44459,9 +44501,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.libtas-unstable": {
-        "name": "libtas-unstable-2021-05-27",
+        "name": "libtas-unstable-2021-07-20",
         "pname": "libtas-unstable",
-        "version": "2021-05-27",
+        "version": "2021-07-20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -44474,7 +44516,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "libtas-unstable-2021-05-27",
+            "name": "libtas-unstable-2021-07-20",
             "outputsToInstall": [
                 "out"
             ],
@@ -44490,9 +44532,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.libtasMulti-unstable": {
-        "name": "libtas-unstable-2021-05-27",
+        "name": "libtas-unstable-2021-07-20",
         "pname": "libtas-unstable",
-        "version": "2021-05-27",
+        "version": "2021-07-20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -44505,7 +44547,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "libtas-unstable-2021-05-27",
+            "name": "libtas-unstable-2021-07-20",
             "outputsToInstall": [
                 "out"
             ],
@@ -44521,9 +44563,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.libtasNoMulti-unstable": {
-        "name": "libtas-unstable-2021-05-27",
+        "name": "libtas-unstable-2021-07-20",
         "pname": "libtas-unstable",
-        "version": "2021-05-27",
+        "version": "2021-07-20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -44536,7 +44578,7 @@
                 "spdxId": "GPL-3.0-only",
                 "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
-            "name": "libtas-unstable-2021-05-27",
+            "name": "libtas-unstable-2021-07-20",
             "outputsToInstall": [
                 "out"
             ],
@@ -57201,29 +57243,6 @@
         "_attr": "mars-simulator",
         "_repo": "lourkeur"
     },
-    "nur.repos.lourkeur.teck-programmer": {
-        "name": "node_teck-programmer-1.1.1",
-        "pname": "node_teck-programmer",
-        "version": "1.1.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Programmer for TECK keyboards.",
-            "homepage": "https://github.com/m-ou-se/teck-programmer",
-            "insecure": false,
-            "license": "GPL-3.0+",
-            "name": "node_teck-programmer-1.1.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/lourkeur",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "teck-programmer",
-        "_repo": "lourkeur"
-    },
     "nur.repos.lourkeur.semiphemeral": {
         "name": "semiphemeral-0.5",
         "pname": "semiphemeral",
@@ -57288,6 +57307,47 @@
             "unsupported": false
         },
         "_attr": "semiphemeral",
+        "_repo": "lourkeur"
+    },
+    "nur.repos.lourkeur.teck-programmer": {
+        "name": "teck-programmer-1.1.1",
+        "pname": "teck-programmer",
+        "version": "1.1.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Programmer for TECK keyboards.",
+            "homepage": "https://github.com/m-ou-se/teck-programmer",
+            "insecure": false,
+            "license": "GPL-3.0+",
+            "name": "teck-programmer-1.1.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/lourkeur",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "teck-programmer",
         "_repo": "lourkeur"
     },
     "nur.repos.mcaju.decaf-emu": {
