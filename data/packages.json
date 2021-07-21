@@ -24306,9 +24306,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1902",
+        "name": "yuzu-ea-1904",
         "pname": "yuzu-ea",
-        "version": "1902",
+        "version": "1904",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -24337,7 +24337,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1902",
+            "name": "yuzu-ea-1904",
             "outputsToInstall": [
                 "out"
             ],
