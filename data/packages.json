@@ -56908,7 +56908,7 @@
                 "x86_64-darwin",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/clash-premium/default.nix#L42",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/clash-premium/default.nix#L19",
             "unfree": true,
             "unsupported": false
         },
@@ -56916,9 +56916,9 @@
         "_repo": "linyinfeng"
     },
     "nur.repos.linyinfeng.dpt-rp1-py": {
-        "name": "dpt-rp1-py-0.1.13",
-        "pname": "dpt-rp1-py",
-        "version": "0.1.13",
+        "name": "dpt-rp1-py-v0.1.13",
+        "pname": "dpt-rp1-py-v0.1.13",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -56951,7 +56951,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "mainProgram": "dpt-rp1-py",
-            "name": "dpt-rp1-py-0.1.13",
+            "name": "dpt-rp1-py-v0.1.13",
             "outputsToInstall": [
                 "out"
             ],
@@ -56973,7 +56973,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/dpt-rp1-py/default.nix#L30",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/dpt-rp1-py/default.nix#L22",
             "unfree": false,
             "unsupported": false
         },
@@ -56981,9 +56981,9 @@
         "_repo": "linyinfeng"
     },
     "nur.repos.linyinfeng.godns": {
-        "name": "godns-2.4.1",
-        "pname": "godns",
-        "version": "2.4.1",
+        "name": "godns-v2.5",
+        "pname": "godns-v2.5",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -57005,7 +57005,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "godns-2.4.1",
+            "name": "godns-v2.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -57027,82 +57027,17 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/godns/default.nix#L24",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/godns/default.nix#L17",
             "unfree": false,
             "unsupported": false
         },
         "_attr": "godns",
         "_repo": "linyinfeng"
     },
-    "nur.repos.linyinfeng.musicbox": {
-        "name": "musicbox-0.2.5.4",
-        "pname": "musicbox",
-        "version": "0.2.5.4",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "\u7f51\u6613\u4e91\u97f3\u4e50\u547d\u4ee4\u884c\u7248\u672c",
-            "homepage": "https://github.com/darknessomi/musicbox",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "musicbox",
-            "name": "musicbox-0.2.5.4",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/musicbox/default.nix#L30",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "musicbox",
-        "_repo": "linyinfeng"
-    },
     "nur.repos.linyinfeng.trojan": {
-        "name": "trojan-gfw-1.16.0",
-        "pname": "trojan-gfw",
-        "version": "1.16.0",
+        "name": "trojan-v1.16.0",
+        "pname": "trojan-v1.16.0",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -57117,21 +57052,105 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "trojan-gfw-1.16.0",
+            "name": "trojan-v1.16.0",
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/trojan/default.nix#L22",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/trojan/default.nix#L14",
             "unfree": false,
             "unsupported": false
         },
         "_attr": "trojan",
         "_repo": "linyinfeng"
     },
+    "nur.repos.linyinfeng.updater": {
+        "name": "updater-0.1.0.0",
+        "pname": "updater",
+        "version": "0.1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "homepage": "https://hackage.haskell.org/package/updater",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "name": "updater-0.1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/updater/updater.nix#L3",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "updater",
+        "_repo": "linyinfeng"
+    },
     "nur.repos.linyinfeng.vlmcsd": {
-        "name": "vlmcsd-1113",
-        "pname": "vlmcsd",
-        "version": "1113",
+        "name": "vlmcsd-svn1113",
+        "pname": "vlmcsd-svn1113",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -57139,11 +57158,11 @@
             "description": "KMS Emulator in C.",
             "homepage": "https://github.com/Wind4/vlmcsd",
             "insecure": false,
-            "name": "vlmcsd-1113",
+            "name": "vlmcsd-svn1113",
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/vlmcsd/default.nix#L38",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/vlmcsd/default.nix#L30",
             "unfree": false,
             "unsupported": false
         },
