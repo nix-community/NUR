@@ -76752,9 +76752,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.grammarly": {
-        "name": "grammarly-8.878.0",
+        "name": "grammarly-8.880.0",
         "pname": "grammarly",
-        "version": "8.878.0",
+        "version": "8.880.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -76768,7 +76768,7 @@
                 "shortName": "grammarly",
                 "url": "https://www.grammarly.com/terms"
             },
-            "name": "grammarly-8.878.0",
+            "name": "grammarly-8.880.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -77348,9 +77348,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ipfs-companion": {
-        "name": "ipfs-companion-2.19.0",
+        "name": "ipfs-companion-2.19.1",
         "pname": "ipfs-companion",
-        "version": "2.19.0",
+        "version": "2.19.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -77364,7 +77364,7 @@
                 "spdxId": "CC0-1.0",
                 "url": "https://spdx.org/licenses/CC0-1.0.html"
             },
-            "name": "ipfs-companion-2.19.0",
+            "name": "ipfs-companion-2.19.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -77517,9 +77517,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.keepassxc-browser": {
-        "name": "keepassxc-browser-1.7.9",
+        "name": "keepassxc-browser-1.7.9.1",
         "pname": "keepassxc-browser",
-        "version": "1.7.9",
+        "version": "1.7.9.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -77534,7 +77534,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "keepassxc-browser-1.7.9",
+            "name": "keepassxc-browser-1.7.9.1",
             "outputsToInstall": [
                 "out"
             ],
