@@ -18290,221 +18290,6 @@
         "_attr": "tracer",
         "_repo": "dschrempf"
     },
-    "nur.repos.dukzcry.gamescope": {
-        "name": "gamescope-3.8.1",
-        "pname": "gamescope",
-        "version": "3.8.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "The micro-compositor formerly known as steamcompmgr",
-            "homepage": "https://github.com/Plagman/gamescope",
-            "insecure": false,
-            "license": {
-                "fullName": "BSD 2-clause \"Simplified\" License",
-                "shortName": "bsd2",
-                "spdxId": "BSD-2-Clause",
-                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
-            },
-            "maintainers": [],
-            "name": "gamescope-3.8.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dukzcry/pkgs/gamescope.nix#L38",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "gamescope",
-        "_repo": "dukzcry"
-    },
-    "nur.repos.dukzcry.k380-function-keys-conf": {
-        "name": "k380-function-keys-conf-1.1",
-        "pname": "k380-function-keys-conf",
-        "version": "1.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Make function keys default on Logitech k380 bluetooth keyboard",
-            "homepage": "https://github.com/jergusg/k380-function-keys-conf",
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v3.0",
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
-            },
-            "maintainers": [],
-            "name": "k380-function-keys-conf-1.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dukzcry/pkgs/k380-function-keys-conf.nix#L16",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "k380-function-keys-conf",
-        "_repo": "dukzcry"
-    },
-    "nur.repos.dukzcry.knobkraft-orm": {
-        "name": "KnobKraft-orm-1.10.1",
-        "pname": "KnobKraft-orm",
-        "version": "1.10.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Free modern cross-platform MIDI Sysex Librarian",
-            "homepage": "https://github.com/christofmuc/KnobKraft-orm",
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "fullName": "GNU Affero General Public License v3.0",
-                "shortName": "agpl3",
-                "spdxId": "AGPL-3.0",
-                "url": "https://spdx.org/licenses/AGPL-3.0.html"
-            },
-            "maintainers": [],
-            "name": "KnobKraft-orm-1.10.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dukzcry/pkgs/knobkraft-orm.nix#L56",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "knobkraft-orm",
-        "_repo": "dukzcry"
-    },
-    "nur.repos.dukzcry.re3": {
-        "name": "re3-0.1",
-        "pname": "re3",
-        "version": "0.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "insecure": false,
-            "name": "re3-0.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dukzcry/pkgs/re3.nix#L18",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "re3",
-        "_repo": "dukzcry"
-    },
-    "nur.repos.dukzcry.realrtcw": {
-        "name": "RealRTCW-3.1n",
-        "pname": "RealRTCW",
-        "version": "3.1n",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "RealRTCW mod based on ioRTCW engine",
-            "homepage": "https://github.com/wolfetplayer/realrtcw",
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v3.0",
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
-            },
-            "maintainers": [],
-            "name": "RealRTCW-3.1n",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dukzcry/pkgs/realrtcw.nix#L21",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "realrtcw",
-        "_repo": "dukzcry"
-    },
-    "nur.repos.dukzcry.revc": {
-        "name": "revc-0.1",
-        "pname": "revc",
-        "version": "0.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "insecure": false,
-            "name": "revc-0.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dukzcry/pkgs/revc.nix#L18",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "revc",
-        "_repo": "dukzcry"
-    },
     "nur.repos.dustinblackman.fetch-hls": {
         "name": "fetch-hls",
         "pname": "fetch-hls",
@@ -65279,9 +65064,9 @@
         "_repo": "moredread"
     },
     "nur.repos.moredread.joplin-desktop": {
-        "name": "joplin-desktop-2.2.1",
+        "name": "joplin-desktop-2.2.2",
         "pname": "joplin-desktop",
-        "version": "2.2.1",
+        "version": "2.2.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -65297,7 +65082,7 @@
             },
             "longDescription": "Joplin is a free, open source note taking and to-do application, which can\nhandle a large number of notes organised into notebooks. The notes are\nsearchable, can be copied, tagged and modified either from the\napplications directly or from your own text editor. The notes are in\nMarkdown format.\n",
             "maintainers": [],
-            "name": "joplin-desktop-2.2.1",
+            "name": "joplin-desktop-2.2.2",
             "outputsToInstall": [
                 "out"
             ],
