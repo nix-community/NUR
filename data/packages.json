@@ -74653,9 +74653,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.buster-captcha-solver": {
-        "name": "buster-captcha-solver-1.2.0",
+        "name": "buster-captcha-solver-1.2.2",
         "pname": "buster-captcha-solver",
-        "version": "1.2.0",
+        "version": "1.2.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -74670,7 +74670,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "buster-captcha-solver-1.2.0",
+            "name": "buster-captcha-solver-1.2.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -78392,9 +78392,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-9.8.0",
+        "name": "metamask-9.8.2",
         "pname": "metamask",
-        "version": "9.8.0",
+        "version": "9.8.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78407,7 +78407,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-9.8.0",
+            "name": "metamask-9.8.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -79105,9 +79105,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.noscript": {
-        "name": "noscript-11.2.9",
+        "name": "noscript-11.2.10",
         "pname": "noscript",
-        "version": "11.2.9",
+        "version": "11.2.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79122,7 +79122,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
-            "name": "noscript-11.2.9",
+            "name": "noscript-11.2.10",
             "outputsToInstall": [
                 "out"
             ],
