@@ -3703,14 +3703,16 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.electrum-cli": {
-        "name": "electrum-4.1.3",
+        "name": "electrum-4.1.5",
         "pname": "electrum",
-        "version": "4.1.3",
+        "version": "4.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
+            "changelog": "https://github.com/spesmilo/electrum/blob/master/RELEASE-NOTES",
             "description": "A lightweight Bitcoin wallet",
+            "downloadPage": "https://electrum.org/#download",
             "homepage": "https://electrum.org/",
             "insecure": false,
             "isBuildPythonPackage": [
@@ -3765,7 +3767,7 @@
                     "name": "Pavol Rusnak"
                 }
             ],
-            "name": "electrum-4.1.3",
+            "name": "electrum-4.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -3874,15 +3876,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.forcefully-remove-bootfb": {
-        "name": "forcefully-remove-bootfb-5.10.51-2018-02-08",
+        "name": "forcefully-remove-bootfb-5.10.52-2018-02-08",
         "pname": "forcefully-remove-bootfb",
-        "version": "5.10.51-2018-02-08",
+        "version": "5.10.52-2018-02-08",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "forcefully-remove-bootfb-5.10.51-2018-02-08",
+            "name": "forcefully-remove-bootfb-5.10.52-2018-02-08",
             "outputsToInstall": [
                 "bin"
             ],
@@ -4676,7 +4678,7 @@
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "ryzen-smu-5.10.51-2021-04-21",
+            "name": "ryzen-smu-5.10.52-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -4754,15 +4756,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.looking-glass-kvmfr-develop": {
-        "name": "looking-glass-client-kvmfr-5.10.51-2021-07-04",
+        "name": "looking-glass-client-kvmfr-5.10.52-2021-07-04",
         "pname": "looking-glass-client-kvmfr",
-        "version": "5.10.51-2021-07-04",
+        "version": "5.10.52-2021-07-04",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "looking-glass-client-kvmfr-5.10.51-2021-07-04",
+            "name": "looking-glass-client-kvmfr-5.10.52-2021-07-04",
             "outputsToInstall": [
                 "out"
             ],
@@ -4788,15 +4790,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.looking-glass-kvmfr": {
-        "name": "looking-glass-client-kvmfr-5.10.51-B4",
+        "name": "looking-glass-client-kvmfr-5.10.52-B4",
         "pname": "looking-glass-client-kvmfr",
-        "version": "5.10.51-B4",
+        "version": "5.10.52-B4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "looking-glass-client-kvmfr-5.10.51-B4",
+            "name": "looking-glass-client-kvmfr-5.10.52-B4",
             "outputsToInstall": [
                 "out"
             ],
@@ -6399,15 +6401,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.rtl8189es": {
-        "name": "rtl8189es-5.10.51-2021-03-02",
+        "name": "rtl8189es-5.10.52-2021-03-02",
         "pname": "rtl8189es",
-        "version": "5.10.51-2021-03-02",
+        "version": "5.10.52-2021-03-02",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "rtl8189es-5.10.51-2021-03-02",
+            "name": "rtl8189es-5.10.52-2021-03-02",
             "outputsToInstall": [
                 "out"
             ],
@@ -6591,15 +6593,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.ryzen-smu": {
-        "name": "ryzen-smu-5.10.51-2021-04-21",
+        "name": "ryzen-smu-5.10.52-2021-04-21",
         "pname": "ryzen-smu",
-        "version": "5.10.51-2021-04-21",
+        "version": "5.10.52-2021-04-21",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "ryzen-smu-5.10.51-2021-04-21",
+            "name": "ryzen-smu-5.10.52-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -6652,7 +6654,7 @@
                 "armv7a-darwin"
             ],
             "mainProgram": "ryzen-smu-scripts",
-            "name": "ryzen-smu-5.10.51-2021-04-21",
+            "name": "ryzen-smu-5.10.52-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -6686,7 +6688,7 @@
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "ryzen-smu-5.10.51-2021-04-21",
+            "name": "ryzen-smu-5.10.52-2021-04-21",
             "outputsToInstall": [
                 "out"
             ],
@@ -21922,9 +21924,9 @@
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened": {
-        "name": "firefox-90.0.1",
+        "name": "firefox-90.0.2",
         "pname": "firefox",
-        "version": "90.0.1",
+        "version": "90.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -21971,7 +21973,7 @@
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "firefox-unwrapped-90.0.1",
+            "name": "firefox-unwrapped-90.0.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -22020,9 +22022,9 @@
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened-wayland": {
-        "name": "firefox-90.0.1",
+        "name": "firefox-90.0.2",
         "pname": "firefox",
-        "version": "90.0.1",
+        "version": "90.0.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22069,7 +22071,7 @@
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "firefox-unwrapped-90.0.1",
+            "name": "firefox-unwrapped-90.0.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -84882,18 +84884,6 @@
                     "name": "J\u00f6rg Thalheim"
                 },
                 {
-                    "email": "cole.e.helbling@outlook.com",
-                    "github": "cole-h",
-                    "githubId": 28582702,
-                    "keys": [
-                        {
-                            "fingerprint": "68B8 0D57 B2E5 4AC3 EC1F  49B0 B37E 0F23 7101 6A4C",
-                            "longkeyid": "rsa4096/0xB37E0F2371016A4C"
-                        }
-                    ],
-                    "name": "Cole Helbling"
-                },
-                {
                     "email": "maximilian@mbosch.me",
                     "github": "ma27",
                     "githubId": 6025220,
@@ -106028,18 +106018,6 @@
                         }
                     ],
                     "name": "J\u00f6rg Thalheim"
-                },
-                {
-                    "email": "cole.e.helbling@outlook.com",
-                    "github": "cole-h",
-                    "githubId": 28582702,
-                    "keys": [
-                        {
-                            "fingerprint": "68B8 0D57 B2E5 4AC3 EC1F  49B0 B37E 0F23 7101 6A4C",
-                            "longkeyid": "rsa4096/0xB37E0F2371016A4C"
-                        }
-                    ],
-                    "name": "Cole Helbling"
                 },
                 {
                     "email": "maximilian@mbosch.me",
