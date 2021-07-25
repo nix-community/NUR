@@ -78300,9 +78300,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.localcdn": {
-        "name": "localcdn-2.6.8",
+        "name": "localcdn-2.6.10",
         "pname": "localcdn",
-        "version": "2.6.8",
+        "version": "2.6.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78316,7 +78316,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "localcdn-2.6.8",
+            "name": "localcdn-2.6.10",
             "outputsToInstall": [
                 "out"
             ],
