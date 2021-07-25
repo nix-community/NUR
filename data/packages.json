@@ -88615,9 +88615,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.astronaut": {
-        "name": "astronaut-2021-07-04",
+        "name": "astronaut-2021-07-13",
         "pname": "astronaut",
-        "version": "2021-07-04",
+        "version": "2021-07-13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -88651,7 +88651,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "astronaut-2021-07-04",
+            "name": "astronaut-2021-07-13",
             "outputsToInstall": [
                 "out"
             ],
@@ -89529,8 +89529,8 @@
         "version": "2020-05-06",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "description": "Extracts tables from .docx files and saves them as .csv or .xls files",
             "homepage": "https://github.com/ivbeg/docx2csv",
             "insecure": false,
@@ -91236,6 +91236,84 @@
         "_attr": "gmi2html",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.gmid": {
+        "name": "gmid-1.7.2",
+        "pname": "gmid",
+        "version": "1.7.2",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple and secure Gemini server",
+            "homepage": "https://gmid.omarpolo.com/",
+            "insecure": false,
+            "license": {
+                "fullName": "ISC License",
+                "shortName": "isc",
+                "spdxId": "ISC",
+                "url": "https://spdx.org/licenses/ISC.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "gmid-1.7.2",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gmid/default.nix#L23",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gmid",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.gmnhg": {
         "name": "gmnhg-0.1.1",
         "pname": "gmnhg",
@@ -91321,9 +91399,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gmnigit": {
-        "name": "gmnigit-2021-05-03",
+        "name": "gmnigit-2021-07-19",
         "pname": "gmnigit",
-        "version": "2021-05-03",
+        "version": "2021-07-19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -91357,7 +91435,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "gmnigit-2021-05-03",
+            "name": "gmnigit-2021-07-19",
             "outputsToInstall": [
                 "out"
             ],
@@ -91402,90 +91480,6 @@
             "unsupported": false
         },
         "_attr": "gmnigit",
-        "_repo": "sikmir"
-    },
-    "nur.repos.sikmir.gmnitohtml": {
-        "name": "gmnitohtml-0.1.1",
-        "pname": "gmnitohtml",
-        "version": "0.1.1",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Gemini text to HTML converter",
-            "homepage": "https://git.sr.ht/~adnano/gmnitohtml/",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "sikmir@gmail.com",
-                    "github": "sikmir",
-                    "githubId": 688044,
-                    "keys": [
-                        {
-                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
-                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
-                        }
-                    ],
-                    "name": "Nikolay Korotkiy"
-                },
-                {
-                    "email": "wael.nasreddine@gmail.com",
-                    "github": "kalbasit",
-                    "githubId": 87115,
-                    "name": "Wael Nasreddine"
-                }
-            ],
-            "name": "gmnitohtml-0.1.1",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gmnitohtml/default.nix#L25",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "gmnitohtml",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.go-staticmaps": {
@@ -93429,9 +93423,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.imscript": {
-        "name": "imscript-2021-06-23",
+        "name": "imscript-2021-07-19",
         "pname": "imscript",
-        "version": "2021-06-23",
+        "version": "2021-07-19",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -93460,7 +93454,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "imscript-2021-06-23",
+            "name": "imscript-2021-07-19",
             "outputsToInstall": [
                 "out"
             ],
@@ -94030,9 +94024,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.lacc": {
-        "name": "lacc-2021-07-06",
+        "name": "lacc-2021-07-10",
         "pname": "lacc",
-        "version": "2021-07-06",
+        "version": "2021-07-10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94060,7 +94054,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "lacc-2021-07-06",
+            "name": "lacc-2021-07-10",
             "outputsToInstall": [
                 "out"
             ],
@@ -95164,9 +95158,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2021-07-04",
+        "name": "maptourist-2021-07-24",
         "pname": "maptourist",
-        "version": "2021-07-04",
+        "version": "2021-07-24",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -95192,7 +95186,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2021-07-04",
+            "name": "maptourist-2021-07-24",
             "outputsToInstall": [
                 "out"
             ],
@@ -95721,9 +95715,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.nakarte": {
-        "name": "nakarte-2021-06-29",
+        "name": "nakarte-2021-07-17",
         "pname": "nakarte",
-        "version": "2021-06-29",
+        "version": "2021-07-17",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -95751,7 +95745,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "nakarte-2021-06-29",
+            "name": "nakarte-2021-07-17",
             "outputsToInstall": [
                 "out"
             ],
@@ -99191,9 +99185,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-210705",
+        "name": "routinodb-210723",
         "pname": "routinodb",
-        "version": "210705",
+        "version": "210723",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99219,7 +99213,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-210705",
+            "name": "routinodb-210723",
             "outputsToInstall": [
                 "out"
             ],
@@ -99537,9 +99531,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.sbase": {
-        "name": "sbase-2021-06-18",
+        "name": "sbase-2021-07-17",
         "pname": "sbase",
-        "version": "2021-06-18",
+        "version": "2021-07-17",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99567,7 +99561,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "sbase-2021-06-18",
+            "name": "sbase-2021-07-17",
             "outputsToInstall": [
                 "out"
             ],
@@ -99915,9 +99909,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.sfeed": {
-        "name": "sfeed-0.9.24",
+        "name": "sfeed-0.9.25",
         "pname": "sfeed",
-        "version": "0.9.24",
+        "version": "0.9.25",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -99945,7 +99939,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "sfeed-0.9.24",
+            "name": "sfeed-0.9.25",
             "outputsToInstall": [
                 "out"
             ],
@@ -101164,9 +101158,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.telescope": {
-        "name": "telescope-0.3",
+        "name": "telescope-0.4.1",
         "pname": "telescope",
-        "version": "0.3",
+        "version": "0.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -101194,7 +101188,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "telescope-0.3",
+            "name": "telescope-0.4.1",
             "outputsToInstall": [
                 "out"
             ],
