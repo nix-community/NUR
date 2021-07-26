@@ -80557,9 +80557,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.privacy-redirect": {
-        "name": "privacy-redirect-1.1.48",
+        "name": "privacy-redirect-1.1.49",
         "pname": "privacy-redirect",
-        "version": "1.1.48",
+        "version": "1.1.49",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -80573,7 +80573,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
-            "name": "privacy-redirect-1.1.48",
+            "name": "privacy-redirect-1.1.49",
             "outputsToInstall": [
                 "out"
             ],
@@ -83793,9 +83793,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.wappalyzer": {
-        "name": "wappalyzer-6.7.10",
+        "name": "wappalyzer-6.7.11",
         "pname": "wappalyzer",
-        "version": "6.7.10",
+        "version": "6.7.11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83810,7 +83810,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "wappalyzer-6.7.10",
+            "name": "wappalyzer-6.7.11",
             "outputsToInstall": [
                 "out"
             ],
@@ -83964,9 +83964,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.web-scrobbler": {
-        "name": "web-scrobbler-2.44.0",
+        "name": "web-scrobbler-2.45.0",
         "pname": "web-scrobbler",
-        "version": "2.44.0",
+        "version": "2.45.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83980,7 +83980,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "web-scrobbler-2.44.0",
+            "name": "web-scrobbler-2.45.0",
             "outputsToInstall": [
                 "out"
             ],
