@@ -74582,9 +74582,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.betterttv": {
-        "name": "betterttv-7.3.2",
+        "name": "betterttv-7.3.3",
         "pname": "betterttv",
-        "version": "7.3.2",
+        "version": "7.3.3",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -74598,7 +74598,7 @@
                 "shortName": "betterttv",
                 "url": "https://betterttv.com/terms"
             },
-            "name": "betterttv-7.3.2",
+            "name": "betterttv-7.3.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -75745,9 +75745,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.duckduckgo-privacy-essentials": {
-        "name": "duckduckgo-privacy-essentials-2021.7.9",
+        "name": "duckduckgo-privacy-essentials-2021.7.22.1",
         "pname": "duckduckgo-privacy-essentials",
-        "version": "2021.7.9",
+        "version": "2021.7.22.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -75761,7 +75761,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "duckduckgo-privacy-essentials-2021.7.9",
+            "name": "duckduckgo-privacy-essentials-2021.7.22.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -79461,9 +79461,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.octotree": {
-        "name": "octotree-7.0.6",
+        "name": "octotree-7.0.7",
         "pname": "octotree",
-        "version": "7.0.6",
+        "version": "7.0.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79471,7 +79471,7 @@
             "description": "GitHub on steroids",
             "homepage": "https://github.com/buunguyen/octotree/",
             "insecure": false,
-            "name": "octotree-7.0.6",
+            "name": "octotree-7.0.7",
             "outputsToInstall": [
                 "out"
             ],
@@ -81323,9 +81323,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.search-by-image": {
-        "name": "search-by-image-3.7.0",
+        "name": "search-by-image-3.7.1",
         "pname": "search-by-image",
-        "version": "3.7.0",
+        "version": "3.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -81340,7 +81340,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "search-by-image-3.7.0",
+            "name": "search-by-image-3.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -83026,9 +83026,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.36.2",
+        "name": "ublock-origin-1.37.0",
         "pname": "ublock-origin",
-        "version": "1.36.2",
+        "version": "1.37.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -83043,7 +83043,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "ublock-origin-1.36.2",
+            "name": "ublock-origin-1.37.0",
             "outputsToInstall": [
                 "out"
             ],
