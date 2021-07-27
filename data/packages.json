@@ -18900,9 +18900,9 @@
         "_repo": "eeva"
     },
     "nur.repos.emmanuelrosa.bisq-desktop": {
-        "name": "bisq-desktop-1.7.1",
+        "name": "bisq-desktop-1.7.2",
         "pname": "bisq-desktop",
-        "version": "1.7.1",
+        "version": "1.7.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -18930,14 +18930,14 @@
                     "name": "Emmanuel Rosa"
                 }
             ],
-            "name": "bisq-desktop-1.7.1",
+            "name": "bisq-desktop-1.7.2",
             "outputsToInstall": [
                 "out"
             ],
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa/pkgs/applications/blockchains/bisq-desktop/default.nix#L85",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/emmanuelrosa/pkgs/applications/blockchains/bisq-desktop/default.nix#L90",
             "unfree": false,
             "unsupported": false
         },
@@ -18945,14 +18945,14 @@
         "_repo": "emmanuelrosa"
     },
     "nur.repos.emmanuelrosa.bitcoin-onion-nodes": {
-        "name": "bitcoin-onion-nodes-4e5fd359c96cceb545f3529b545c5f5be7a2683e.txt",
-        "pname": "bitcoin-onion-nodes",
-        "version": "4e5fd359c96cceb545f3529b545c5f5be7a2683e.txt",
+        "name": "bitcoin-onion-nodes-f79ad4c1d7f2c46420c6042d52da52d18a9d4345.txt",
+        "pname": "bitcoin-onion-nodes-f79ad4c1d7f2c46420c6042d52da52d18a9d4345.txt",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A list of over 500 Bitcoin Core nodes running as Tor v3 onion services.",
+            "description": "A list of over 600 Bitcoin Core nodes running as Tor v3 onion services.",
             "homepage": "https://github.com/emmanuelrosa/bitcoin-onion-nodes",
             "insecure": false,
             "license": {
@@ -18969,7 +18969,7 @@
                     "name": "Emmanuel Rosa"
                 }
             ],
-            "name": "bitcoin-onion-nodes-4e5fd359c96cceb545f3529b545c5f5be7a2683e.txt",
+            "name": "bitcoin-onion-nodes-f79ad4c1d7f2c46420c6042d52da52d18a9d4345.txt",
             "outputsToInstall": [
                 "out"
             ],
