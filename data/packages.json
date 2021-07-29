@@ -81750,9 +81750,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.noscript": {
-        "name": "noscript-11.2.10",
+        "name": "noscript-11.2.11",
         "pname": "noscript",
-        "version": "11.2.10",
+        "version": "11.2.11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -81767,7 +81767,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
-            "name": "noscript-11.2.10",
+            "name": "noscript-11.2.11",
             "outputsToInstall": [
                 "out"
             ],
@@ -84236,9 +84236,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.sponsorblock": {
-        "name": "sponsorblock-2.1.2.1",
+        "name": "sponsorblock-2.1.3",
         "pname": "sponsorblock",
-        "version": "2.1.2.1",
+        "version": "2.1.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -84253,7 +84253,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "sponsorblock-2.1.2.1",
+            "name": "sponsorblock-2.1.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -85842,9 +85842,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.unpaywall": {
-        "name": "unpaywall-3.97",
+        "name": "unpaywall-3.98",
         "pname": "unpaywall",
-        "version": "3.97",
+        "version": "3.98",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -85858,7 +85858,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "unpaywall-3.97",
+            "name": "unpaywall-3.98",
             "outputsToInstall": [
                 "out"
             ],
