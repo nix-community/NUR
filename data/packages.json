@@ -23053,6 +23053,112 @@
         "_attr": "firefox-hardened-wayland",
         "_repo": "ijohanne"
     },
+    "nur.repos.ijohanne.firefox-devedition-hardened": {
+        "name": "firefox-devedition-bin-unwrapped-90.0b6",
+        "pname": "firefox-devedition-bin-unwrapped",
+        "version": "90.0b6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Mozilla Firefox, free web browser (binary package)",
+            "homepage": "http://www.mozilla.org/firefox/",
+            "hydraPlatforms": [],
+            "insecure": false,
+            "license": {
+                "free": false,
+                "url": "http://www.mozilla.org/en-US/foundation/trademarks/policy/"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                },
+                {
+                    "email": "meurerbernardo@gmail.com",
+                    "github": "lovesegfault",
+                    "githubId": 7243783,
+                    "keys": [
+                        {
+                            "fingerprint": "F193 7596 57D5 6DA4 CCD4  786B F4C0 D53B 8D14 C246",
+                            "longkeyid": "rsa4096/0xF4C0D53B8D14C246"
+                        }
+                    ],
+                    "name": "Bernardo Meurer"
+                }
+            ],
+            "name": "firefox-devedition-bin-unwrapped-90.0b6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "priority": -1,
+            "timeout": 86400,
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "firefox-devedition-hardened",
+        "_repo": "ijohanne"
+    },
+    "nur.repos.ijohanne.firefox-devedition-hardened-wayland": {
+        "name": "firefox-devedition-bin-unwrapped-90.0b6",
+        "pname": "firefox-devedition-bin-unwrapped",
+        "version": "90.0b6",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "Mozilla Firefox, free web browser (binary package)",
+            "homepage": "http://www.mozilla.org/firefox/",
+            "hydraPlatforms": [],
+            "insecure": false,
+            "license": {
+                "free": false,
+                "url": "http://www.mozilla.org/en-US/foundation/trademarks/policy/"
+            },
+            "maintainers": [
+                {
+                    "email": "mxxouy6x3m_github@tatapa.org",
+                    "github": "taku0",
+                    "githubId": 870673,
+                    "name": "Takuo Yonezawa"
+                },
+                {
+                    "email": "meurerbernardo@gmail.com",
+                    "github": "lovesegfault",
+                    "githubId": 7243783,
+                    "keys": [
+                        {
+                            "fingerprint": "F193 7596 57D5 6DA4 CCD4  786B F4C0 D53B 8D14 C246",
+                            "longkeyid": "rsa4096/0xF4C0D53B8D14C246"
+                        }
+                    ],
+                    "name": "Bernardo Meurer"
+                }
+            ],
+            "name": "firefox-devedition-bin-unwrapped-90.0b6",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
+            "priority": -1,
+            "timeout": 86400,
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "firefox-devedition-hardened-wayland",
+        "_repo": "ijohanne"
+    },
     "nur.repos.ijohanne.firefoxPlugins.fx-cast": {
         "name": "fx_cast",
         "pname": "fx_cast",
