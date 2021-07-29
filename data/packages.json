@@ -94200,9 +94200,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gmi2html": {
-        "name": "gmi2html-0.3.0",
+        "name": "gmi2html-0.4.0",
         "pname": "gmi2html",
-        "version": "0.3.0",
+        "version": "0.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94230,7 +94230,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gmi2html-0.3.0",
+            "name": "gmi2html-0.4.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -103360,15 +103360,6 @@
                 "out"
             ],
             "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
                 "aarch64-linux",
                 "armv5tel-linux",
                 "armv6l-linux",
@@ -103382,22 +103373,12 @@
                 "riscv64-linux",
                 "x86_64-linux",
                 "m68k-linux",
-                "s390-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
+                "s390-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/suckless/sfeed_curses/default.nix#L23",
+            "skip": {
+                "ci": false
+            },
             "unfree": false,
             "unsupported": false
         },
