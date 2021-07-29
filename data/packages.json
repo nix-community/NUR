@@ -19757,14 +19757,14 @@
         "_repo": "emmanuelrosa"
     },
     "nur.repos.emmanuelrosa.bitcoin-onion-nodes": {
-        "name": "bitcoin-onion-nodes-f79ad4c1d7f2c46420c6042d52da52d18a9d4345.txt",
-        "pname": "bitcoin-onion-nodes-f79ad4c1d7f2c46420c6042d52da52d18a9d4345.txt",
-        "version": "",
+        "name": "bitcoin-onion-nodes-0336c52bf9484ac91ed6797991796066249586c9.txt",
+        "pname": "bitcoin-onion-nodes",
+        "version": "0336c52bf9484ac91ed6797991796066249586c9.txt",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "description": "A list of over 600 Bitcoin Core nodes running as Tor v3 onion services.",
+            "description": "A list of over 700 Bitcoin Core nodes running as Tor v3 onion services.",
             "homepage": "https://github.com/emmanuelrosa/bitcoin-onion-nodes",
             "insecure": false,
             "license": {
@@ -19781,7 +19781,7 @@
                     "name": "Emmanuel Rosa"
                 }
             ],
-            "name": "bitcoin-onion-nodes-f79ad4c1d7f2c46420c6042d52da52d18a9d4345.txt",
+            "name": "bitcoin-onion-nodes-0336c52bf9484ac91ed6797991796066249586c9.txt",
             "outputsToInstall": [
                 "out"
             ],
@@ -22854,9 +22854,9 @@
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened": {
-        "name": "firefox-90.0.2",
+        "name": "firefox-78.12.0esr",
         "pname": "firefox",
-        "version": "90.0.2",
+        "version": "78.12.0esr",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22867,7 +22867,7 @@
                 "armv7a-darwin"
             ],
             "broken": false,
-            "description": "A web browser built from Firefox source tree",
+            "description": "A web browser built from Firefox Extended Support Release source tree",
             "homepage": "http://www.mozilla.com/en-US/firefox/",
             "hydraPlatforms": [],
             "insecure": false,
@@ -22885,25 +22885,13 @@
                     "name": "Eelco Dolstra"
                 },
                 {
-                    "email": "meurerbernardo@gmail.com",
-                    "github": "lovesegfault",
-                    "githubId": 7243783,
-                    "keys": [
-                        {
-                            "fingerprint": "F193 7596 57D5 6DA4 CCD4  786B F4C0 D53B 8D14 C246",
-                            "longkeyid": "rsa4096/0xF4C0D53B8D14C246"
-                        }
-                    ],
-                    "name": "Bernardo Meurer"
-                },
-                {
                     "email": "hexa@darmstadt.ccc.de",
                     "github": "mweinelt",
                     "githubId": 131599,
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "firefox-unwrapped-90.0.2",
+            "name": "firefox-esr-unwrapped-78.12.0esr",
             "outputsToInstall": [
                 "out"
             ],
@@ -22954,9 +22942,9 @@
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefox-hardened-wayland": {
-        "name": "firefox-90.0.2",
+        "name": "firefox-78.12.0esr",
         "pname": "firefox",
-        "version": "90.0.2",
+        "version": "78.12.0esr",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -22967,7 +22955,7 @@
                 "armv7a-darwin"
             ],
             "broken": false,
-            "description": "A web browser built from Firefox source tree",
+            "description": "A web browser built from Firefox Extended Support Release source tree",
             "homepage": "http://www.mozilla.com/en-US/firefox/",
             "hydraPlatforms": [],
             "insecure": false,
@@ -22985,25 +22973,13 @@
                     "name": "Eelco Dolstra"
                 },
                 {
-                    "email": "meurerbernardo@gmail.com",
-                    "github": "lovesegfault",
-                    "githubId": 7243783,
-                    "keys": [
-                        {
-                            "fingerprint": "F193 7596 57D5 6DA4 CCD4  786B F4C0 D53B 8D14 C246",
-                            "longkeyid": "rsa4096/0xF4C0D53B8D14C246"
-                        }
-                    ],
-                    "name": "Bernardo Meurer"
-                },
-                {
                     "email": "hexa@darmstadt.ccc.de",
                     "github": "mweinelt",
                     "githubId": 131599,
                     "name": "Martin Weinelt"
                 }
             ],
-            "name": "firefox-unwrapped-90.0.2",
+            "name": "firefox-esr-unwrapped-78.12.0esr",
             "outputsToInstall": [
                 "out"
             ],
@@ -23051,112 +23027,6 @@
             "unsupported": false
         },
         "_attr": "firefox-hardened-wayland",
-        "_repo": "ijohanne"
-    },
-    "nur.repos.ijohanne.firefox-devedition-hardened": {
-        "name": "firefox-90.0b6",
-        "pname": "firefox",
-        "version": "90.0b6",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Mozilla Firefox, free web browser (binary package)",
-            "homepage": "http://www.mozilla.org/firefox/",
-            "hydraPlatforms": [],
-            "insecure": false,
-            "license": {
-                "free": false,
-                "url": "http://www.mozilla.org/en-US/foundation/trademarks/policy/"
-            },
-            "maintainers": [
-                {
-                    "email": "mxxouy6x3m_github@tatapa.org",
-                    "github": "taku0",
-                    "githubId": 870673,
-                    "name": "Takuo Yonezawa"
-                },
-                {
-                    "email": "meurerbernardo@gmail.com",
-                    "github": "lovesegfault",
-                    "githubId": 7243783,
-                    "keys": [
-                        {
-                            "fingerprint": "F193 7596 57D5 6DA4 CCD4  786B F4C0 D53B 8D14 C246",
-                            "longkeyid": "rsa4096/0xF4C0D53B8D14C246"
-                        }
-                    ],
-                    "name": "Bernardo Meurer"
-                }
-            ],
-            "name": "firefox-devedition-bin-unwrapped-90.0b6",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
-            "priority": -1,
-            "timeout": 86400,
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "firefox-devedition-hardened",
-        "_repo": "ijohanne"
-    },
-    "nur.repos.ijohanne.firefox-devedition-hardened-wayland": {
-        "name": "firefox-90.0b6",
-        "pname": "firefox",
-        "version": "90.0b6",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": false,
-            "broken": false,
-            "description": "Mozilla Firefox, free web browser (binary package)",
-            "homepage": "http://www.mozilla.org/firefox/",
-            "hydraPlatforms": [],
-            "insecure": false,
-            "license": {
-                "free": false,
-                "url": "http://www.mozilla.org/en-US/foundation/trademarks/policy/"
-            },
-            "maintainers": [
-                {
-                    "email": "mxxouy6x3m_github@tatapa.org",
-                    "github": "taku0",
-                    "githubId": 870673,
-                    "name": "Takuo Yonezawa"
-                },
-                {
-                    "email": "meurerbernardo@gmail.com",
-                    "github": "lovesegfault",
-                    "githubId": 7243783,
-                    "keys": [
-                        {
-                            "fingerprint": "F193 7596 57D5 6DA4 CCD4  786B F4C0 D53B 8D14 C246",
-                            "longkeyid": "rsa4096/0xF4C0D53B8D14C246"
-                        }
-                    ],
-                    "name": "Bernardo Meurer"
-                }
-            ],
-            "name": "firefox-devedition-bin-unwrapped-90.0b6",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/ijohanne",
-            "priority": -1,
-            "timeout": 86400,
-            "unfree": true,
-            "unsupported": false
-        },
-        "_attr": "firefox-devedition-hardened-wayland",
         "_repo": "ijohanne"
     },
     "nur.repos.ijohanne.firefoxPlugins.fx-cast": {
