@@ -26048,9 +26048,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb-galera_25": {
-        "name": "mariadb-galera-25.3.33",
+        "name": "mariadb-galera-25.3.34",
         "pname": "mariadb-galera",
-        "version": "25.3.33",
+        "version": "25.3.34",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26072,7 +26072,7 @@
                     "name": "Yurii Izorkin"
                 }
             ],
-            "name": "mariadb-galera-25.3.33",
+            "name": "mariadb-galera-25.3.34",
             "outputsToInstall": [
                 "out"
             ],
@@ -26145,9 +26145,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.mariadb-galera_26": {
-        "name": "mariadb-galera-26.4.8",
+        "name": "mariadb-galera-26.4.9",
         "pname": "mariadb-galera",
-        "version": "26.4.8",
+        "version": "26.4.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26169,7 +26169,7 @@
                     "name": "Yurii Izorkin"
                 }
             ],
-            "name": "mariadb-galera-26.4.8",
+            "name": "mariadb-galera-26.4.9",
             "outputsToInstall": [
                 "out"
             ],
@@ -27667,9 +27667,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74": {
-        "name": "php-7.4.21",
+        "name": "php-7.4.22",
         "pname": "php",
-        "version": "7.4.21",
+        "version": "7.4.22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27703,7 +27703,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.4.21",
+            "name": "php-7.4.22",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -27777,9 +27777,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74-unit": {
-        "name": "php-7.4.21",
+        "name": "php-7.4.22",
         "pname": "php",
-        "version": "7.4.21",
+        "version": "7.4.22",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27813,7 +27813,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-7.4.21",
+            "name": "php-7.4.22",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -27887,9 +27887,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80-unit": {
-        "name": "php-8.0.8",
+        "name": "php-8.0.9",
         "pname": "php",
-        "version": "8.0.8",
+        "version": "8.0.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -27923,7 +27923,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-8.0.8",
+            "name": "php-8.0.9",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -27997,9 +27997,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80": {
-        "name": "php-8.0.8",
+        "name": "php-8.0.9",
         "pname": "php",
-        "version": "8.0.8",
+        "version": "8.0.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -28033,7 +28033,7 @@
                     "name": "Elis Hirwing"
                 }
             ],
-            "name": "php-8.0.8",
+            "name": "php-8.0.9",
             "outputsToInstall": [
                 "out",
                 "dev"
@@ -28827,15 +28827,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -28847,15 +28847,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -28867,15 +28867,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -28887,15 +28887,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -28907,15 +28907,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -28927,15 +28927,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -28947,15 +28947,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -28967,15 +28967,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -28987,15 +28987,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -29007,15 +29007,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -29027,15 +29027,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -29047,15 +29047,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.ast": {
-        "name": "php-ast-1.0.13",
+        "name": "php-ast-1.0.14",
         "pname": "php-ast",
-        "version": "1.0.13",
+        "version": "1.0.14",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
             "insecure": false,
-            "name": "php-ast-1.0.13",
+            "name": "php-ast-1.0.14",
             "outputsToInstall": [
                 "out"
             ],
@@ -30003,9 +30003,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30033,7 +30033,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30045,9 +30045,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30075,7 +30075,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30087,9 +30087,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30117,7 +30117,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30129,9 +30129,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30159,7 +30159,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30171,9 +30171,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30201,7 +30201,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30213,9 +30213,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30243,7 +30243,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30255,9 +30255,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30285,7 +30285,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30297,9 +30297,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30327,7 +30327,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30339,9 +30339,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30369,7 +30369,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30381,9 +30381,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30411,7 +30411,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30423,9 +30423,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30453,7 +30453,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -30465,9 +30465,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.composer2": {
-        "name": "php-composer-2.1.3",
+        "name": "php-composer-2.1.5",
         "pname": "php-composer",
-        "version": "2.1.3",
+        "version": "2.1.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -30495,7 +30495,7 @@
                     "name": "Jaka Hudoklin"
                 }
             ],
-            "name": "php-composer-2.1.3",
+            "name": "php-composer-2.1.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -31563,15 +31563,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.igbinary": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31583,15 +31583,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.igbinary30": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31603,15 +31603,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.igbinary": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31623,15 +31623,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.igbinary": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31643,15 +31643,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.igbinary": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31663,15 +31663,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.igbinary": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31683,15 +31683,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.igbinary": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31703,15 +31703,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.igbinary30": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31723,15 +31723,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.igbinary": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31743,15 +31743,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.igbinary": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31763,15 +31763,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.igbinary": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31783,15 +31783,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.igbinary": {
-        "name": "php-igbinary-3.2.3",
+        "name": "php-igbinary-3.2.4",
         "pname": "php-igbinary",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-igbinary-3.2.3",
+            "name": "php-igbinary-3.2.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -31803,15 +31803,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -31823,15 +31823,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -31843,15 +31843,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -31863,15 +31863,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -31883,15 +31883,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -31903,15 +31903,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -31923,15 +31923,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -31943,15 +31943,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -31963,15 +31963,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -31983,15 +31983,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32003,15 +32003,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -32023,15 +32023,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.imagick": {
-        "name": "php-imagick-3.5.0",
+        "name": "php-imagick-3.5.1",
         "pname": "php-imagick",
-        "version": "3.5.0",
+        "version": "3.5.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-imagick-3.5.0",
+            "name": "php-imagick-3.5.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -44213,7 +44213,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/servers/unit/default.nix#L78",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/servers/unit/default.nix#L81",
             "unfree": false,
             "unsupported": false
         },
