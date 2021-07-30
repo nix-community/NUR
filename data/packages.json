@@ -86545,9 +86545,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.wappalyzer": {
-        "name": "wappalyzer-6.7.11",
+        "name": "wappalyzer-6.7.12",
         "pname": "wappalyzer",
-        "version": "6.7.11",
+        "version": "6.7.12",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -86562,7 +86562,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "wappalyzer-6.7.11",
+            "name": "wappalyzer-6.7.12",
             "outputsToInstall": [
                 "out"
             ],
@@ -86903,9 +86903,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.zoom-page-we": {
-        "name": "zoom-page-we-18.6",
+        "name": "zoom-page-we-18.7",
         "pname": "zoom-page-we",
-        "version": "18.6",
+        "version": "18.7",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -86919,7 +86919,7 @@
                 "spdxId": "GPL-2.0",
                 "url": "https://spdx.org/licenses/GPL-2.0.html"
             },
-            "name": "zoom-page-we-18.6",
+            "name": "zoom-page-we-18.7",
             "outputsToInstall": [
                 "out"
             ],
