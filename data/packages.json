@@ -25520,9 +25520,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1943",
+        "name": "yuzu-ea-1944",
         "pname": "yuzu-ea",
-        "version": "1943",
+        "version": "1944",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25551,7 +25551,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1943",
+            "name": "yuzu-ea-1944",
             "outputsToInstall": [
                 "out"
             ],
@@ -25579,9 +25579,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-703",
+        "name": "yuzu-mainline-704",
         "pname": "yuzu-mainline",
-        "version": "703",
+        "version": "704",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25610,7 +25610,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-703",
+            "name": "yuzu-mainline-704",
             "outputsToInstall": [
                 "out"
             ],
