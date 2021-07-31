@@ -58845,7 +58845,7 @@
             "platforms": [
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/clash-for-windows/default.nix#L55",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/clash-for-windows/default.nix#L58",
             "unfree": true,
             "unsupported": false
         },
@@ -94303,9 +94303,6 @@
                 "x86_64-redox"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gmi2html/default.nix#L29",
-            "skip": {
-                "ci": true
-            },
             "unfree": false,
             "unsupported": false
         },
@@ -96033,13 +96030,13 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gurl": {
-        "name": "gurl-unstable-2020-12-28",
-        "pname": "gurl-unstable",
-        "version": "2020-12-28",
+        "name": "gurl-2021-03-06",
+        "pname": "gurl",
+        "version": "2021-03-06",
         "system": "x86_64-linux",
         "meta": {
-            "available": false,
-            "broken": true,
+            "available": true,
+            "broken": false,
             "description": "A curl-like cli application to interact with Gemini sites",
             "homepage": "https://github.com/MasterQ32/gurl",
             "insecure": false,
@@ -96063,7 +96060,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gurl-unstable-2020-12-28",
+            "name": "gurl-2021-03-06",
             "outputsToInstall": [
                 "out"
             ],
@@ -96105,7 +96102,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gurl/default.nix#L22",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gurl/default.nix#L24",
             "unfree": false,
             "unsupported": false
         },
@@ -98354,9 +98351,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2021-07-24",
+        "name": "maptourist-2021-07-30",
         "pname": "maptourist",
-        "version": "2021-07-24",
+        "version": "2021-07-30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -98382,7 +98379,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2021-07-24",
+            "name": "maptourist-2021-07-30",
             "outputsToInstall": [
                 "out"
             ],
@@ -100186,7 +100183,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/osm/phyghtmap/default.nix#L17",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/osm/phyghtmap/default.nix#L19",
             "unfree": false,
             "unsupported": false
         },
