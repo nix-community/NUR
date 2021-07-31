@@ -78389,9 +78389,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.facebook-container": {
-        "name": "facebook-container-2.2.1",
+        "name": "facebook-container-2.3.0",
         "pname": "facebook-container",
-        "version": "2.2.1",
+        "version": "2.3.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78405,7 +78405,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "facebook-container-2.2.1",
+            "name": "facebook-container-2.3.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -79370,9 +79370,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.grammarly": {
-        "name": "grammarly-8.880.0",
+        "name": "grammarly-8.881.0",
         "pname": "grammarly",
-        "version": "8.880.0",
+        "version": "8.881.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -79386,7 +79386,7 @@
                 "shortName": "grammarly",
                 "url": "https://www.grammarly.com/terms"
             },
-            "name": "grammarly-8.880.0",
+            "name": "grammarly-8.881.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -85742,9 +85742,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ublock-origin": {
-        "name": "ublock-origin-1.37.0",
+        "name": "ublock-origin-1.37.2",
         "pname": "ublock-origin",
-        "version": "1.37.0",
+        "version": "1.37.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -85759,7 +85759,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "ublock-origin-1.37.0",
+            "name": "ublock-origin-1.37.2",
             "outputsToInstall": [
                 "out"
             ],
