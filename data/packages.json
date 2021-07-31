@@ -58822,6 +58822,36 @@
         "_attr": "activate-dpt",
         "_repo": "linyinfeng"
     },
+    "nur.repos.linyinfeng.clash-for-windows": {
+        "name": "clash-for-windows-0.17.0",
+        "pname": "clash-for-windows",
+        "version": "0.17.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "A Windows/macOS/Linux GUI based on Clash and Electron",
+            "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "clash-for-windows-0.17.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/clash-for-windows/default.nix#L55",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "clash-for-windows",
+        "_repo": "linyinfeng"
+    },
     "nur.repos.linyinfeng.clash-premium": {
         "name": "clash-premium-2021.07.03",
         "pname": "clash-premium",
@@ -58973,7 +59003,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/godns/default.nix#L17",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/linyinfeng/pkgs/godns/default.nix#L16",
             "unfree": false,
             "unsupported": false
         },
