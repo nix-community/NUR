@@ -11278,9 +11278,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.eslint": {
-        "name": "eslint-7.31.0",
+        "name": "eslint-7.32.0",
         "pname": "eslint",
-        "version": "7.31.0",
+        "version": "7.32.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11289,7 +11289,7 @@
             "homepage": "https://eslint.org",
             "insecure": false,
             "license": "MIT",
-            "name": "eslint-7.31.0",
+            "name": "eslint-7.32.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -11736,7 +11736,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/parcel-bundler/node-packages.nix#L7382",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/parcel-bundler/node-packages.nix#L7406",
             "unfree": false,
             "unsupported": false
         },
@@ -11744,9 +11744,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "pnpm-6.10.3",
+        "name": "pnpm-6.11.5",
         "pname": "pnpm",
-        "version": "6.10.3",
+        "version": "6.11.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11755,7 +11755,7 @@
             "homepage": "https://pnpm.io",
             "insecure": false,
             "license": "MIT",
-            "name": "pnpm-6.10.3",
+            "name": "pnpm-6.11.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -11822,7 +11822,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/preact-cli/node-packages.nix#L13073",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/preact-cli/node-packages.nix#L13093",
             "unfree": false,
             "unsupported": false
         },
@@ -11830,9 +11830,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "rollup-2.53.3",
+        "name": "rollup-2.55.1",
         "pname": "rollup",
-        "version": "2.53.3",
+        "version": "2.55.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11841,7 +11841,7 @@
             "homepage": "https://rollupjs.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "rollup-2.53.3",
+            "name": "rollup-2.55.1",
             "outputsToInstall": [
                 "out"
             ],
