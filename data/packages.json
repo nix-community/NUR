@@ -4458,9 +4458,9 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.imv-develop": {
-        "name": "imv-2021-07-08",
+        "name": "imv-2021-07-29",
         "pname": "imv",
-        "version": "2021-07-08",
+        "version": "2021-07-29",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -4494,7 +4494,7 @@
                     "name": "Markus Hauck"
                 }
             ],
-            "name": "imv-2021-07-08",
+            "name": "imv-2021-07-29",
             "outputsToInstall": [
                 "out"
             ],
@@ -5263,7 +5263,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L537",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L530",
             "unfree": false,
             "unsupported": false
         },
@@ -5563,7 +5563,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L394",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L387",
             "unfree": false,
             "unsupported": false
         },
@@ -6649,15 +6649,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.rust-analyzer": {
-        "name": "rust-analyzer-2021-03-15",
+        "name": "rust-analyzer-2021-07-26",
         "pname": "rust-analyzer",
-        "version": "2021-03-15",
+        "version": "2021-07-26",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "rust-analyzer-2021-03-15",
+            "name": "rust-analyzer-2021-07-26",
             "outputsToInstall": [
                 "out"
             ],
@@ -7257,49 +7257,6 @@
         "_attr": "packages.syncplay-cli",
         "_repo": "arc"
     },
-    "nur.repos.arc.packages.tamzen": {
-        "name": "tamzen-font",
-        "pname": "tamzen-font",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Bitmapped programming font, based on Tamsyn",
-            "downloadPage": "https://github.com/sunaku/tamzen-font/releases",
-            "homepage": "https://github.com/sunaku/tamzen-font",
-            "insecure": false,
-            "license": {
-                "fullName": "Unspecified free software license",
-                "shortName": "free"
-            },
-            "name": "tamzen-font",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "m68k-linux",
-                "s390-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/tamzen.nix#L27",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "packages.tamzen",
-        "_repo": "arc"
-    },
     "nur.repos.arc.packages.task-blocks": {
         "name": "task-blocks",
         "pname": "task-blocks",
@@ -7822,6 +7779,27 @@
             "unsupported": false
         },
         "_attr": "packages.yamllint",
+        "_repo": "arc"
+    },
+    "nur.repos.arc.packages.zsh-completions-abduco": {
+        "name": "zsh-completions-abduco-2019-04-27",
+        "pname": "zsh-completions-abduco",
+        "version": "2019-04-27",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "zsh-completions-abduco-2019-04-27",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/zsh-completions-abduco.nix#L3",
+            "priority": -10,
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "packages.zsh-completions-abduco",
         "_repo": "arc"
     },
     "nur.repos.artturin.koneko": {
@@ -25520,9 +25498,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1948",
+        "name": "yuzu-ea-1951",
         "pname": "yuzu-ea",
-        "version": "1948",
+        "version": "1951",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25551,7 +25529,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1948",
+            "name": "yuzu-ea-1951",
             "outputsToInstall": [
                 "out"
             ],
