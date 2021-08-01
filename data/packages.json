@@ -88188,7 +88188,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/CdC-cognitoform-result-generator/default.nix#L29",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/CdC-cognitoform-result-generator/default.nix#L26",
             "unfree": false,
             "unsupported": false
         },
@@ -88256,7 +88256,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/commix/default.nix#L23",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/commix/default.nix#L22",
             "unfree": false,
             "unsupported": false
         },
@@ -88350,7 +88350,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/ControlsForFake/default.nix#L43",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/ControlsForFake/default.nix#L38",
             "unfree": false,
             "unsupported": false
         },
@@ -88538,7 +88538,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/FakeMicWavPlayer/default.nix#L38",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/FakeMicWavPlayer/default.nix#L36",
             "unfree": false,
             "unsupported": false
         },
@@ -89042,6 +89042,74 @@
         "_attr": "lokalize",
         "_repo": "shamilton"
     },
+    "nur.repos.shamilton.mouseinfo": {
+        "name": "MouseInfo-unstable",
+        "pname": "MouseInfo-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "m68k-linux",
+                "s390-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v3.0",
+                "shortName": "gpl3",
+                "spdxId": "GPL-3.0",
+                "url": "https://spdx.org/licenses/GPL-3.0.html"
+            },
+            "longDescription": "An application to display XY position and RGB color information for the\npixel currently under the mouse. Works on Python 2 and 3.\n",
+            "mainProgram": "MouseInfo",
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "MouseInfo-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "m68k-linux",
+                "s390-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/mouseinfo/default.nix#L9",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "mouseinfo",
+        "_repo": "shamilton"
+    },
     "nur.repos.shamilton.MyVimConfig": {
         "name": "Myvimconfig-unstable",
         "pname": "Myvimconfig-unstable",
@@ -89200,213 +89268,11 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/Protify/default.nix#L31",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/Protify/default.nix#L32",
             "unfree": false,
             "unsupported": false
         },
         "_attr": "protify",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.mouseinfo": {
-        "name": "python3.8-MouseInfo-0.1.3",
-        "pname": "python3.8-MouseInfo",
-        "version": "0.1.3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "m68k-linux",
-                "s390-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v3.0",
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
-            },
-            "longDescription": "An application to display XY position and RGB color information for the\npixel currently under the mouse. Works on Python 2 and 3.\n",
-            "mainProgram": "MouseInfo",
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "python3.8-MouseInfo-0.1.3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "m68k-linux",
-                "s390-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/mouseinfo/default.nix#L11",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "mouseinfo",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.pdf2timetable": {
-        "name": "python3.8-Pdf2TimeTable-1.0.0",
-        "pname": "python3.8-Pdf2TimeTable",
-        "version": "1.0.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Converts a pdf timetable (generated by pronote) to an excel timetable (that can be used with TimeTable2Header)",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "m68k-linux",
-                "s390-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "Pdf2TimeTable",
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "python3.8-Pdf2TimeTable-1.0.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "m68k-linux",
-                "s390-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/Pdf2TimeTable/default.nix#L37",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "pdf2timetable",
-        "_repo": "shamilton"
-    },
-    "nur.repos.shamilton.tabula-py": {
-        "name": "python3.8-tabula-py-2.2.0",
-        "pname": "python3.8-tabula-py",
-        "version": "2.2.0",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Simple wrapper for tabula-java, read tables from PDF into DataFrame",
-            "insecure": false,
-            "isBuildPythonPackage": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "m68k-linux",
-                "s390-linux",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "mainProgram": "tabula-py",
-            "maintainers": [
-                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
-            ],
-            "name": "python3.8-tabula-py-2.2.0",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "x86_64-linux",
-                "m68k-linux",
-                "s390-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/tabula-py/default.nix#L31",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "tabula-py",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.graph-cli": {
@@ -89470,7 +89336,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/graph-cli/default.nix#L23",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/graph-cli/default.nix#L20",
             "unfree": false,
             "unsupported": false
         },
@@ -89537,7 +89403,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/python-iconf/default.nix#L19",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/python-iconf/default.nix#L17",
             "unfree": false,
             "unsupported": false
         },
@@ -89604,7 +89470,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/merge-keepass/default.nix#L30",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/merge-keepass/default.nix#L27",
             "unfree": false,
             "unsupported": false
         },
@@ -89671,11 +89537,78 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/parallel-ssh/default.nix#L33",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/parallel-ssh/default.nix#L28",
             "unfree": false,
             "unsupported": false
         },
         "_attr": "parallel-ssh",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.pdf2timetable": {
+        "name": "python3.9-Pdf2TimeTable-1.0.0",
+        "pname": "python3.9-Pdf2TimeTable",
+        "version": "1.0.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Converts a pdf timetable (generated by pronote) to an excel timetable (that can be used with TimeTable2Header)",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "m68k-linux",
+                "s390-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "Pdf2TimeTable",
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.9-Pdf2TimeTable-1.0.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "m68k-linux",
+                "s390-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/Pdf2TimeTable/default.nix#L35",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "pdf2timetable",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.pronotebot": {
@@ -89738,7 +89671,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/PronoteBot/default.nix#L35",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/PronoteBot/default.nix#L31",
             "unfree": false,
             "unsupported": false
         },
@@ -89805,7 +89738,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/pyautogui/default.nix#L15",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/pyautogui/default.nix#L13",
             "unfree": false,
             "unsupported": false
         },
@@ -89872,7 +89805,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/pygetwindow/default.nix#L23",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/pygetwindow/default.nix#L22",
             "unfree": false,
             "unsupported": false
         },
@@ -89939,7 +89872,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/pyrect/default.nix#L18",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/pyrect/default.nix#L17",
             "unfree": false,
             "unsupported": false
         },
@@ -89947,8 +89880,8 @@
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.pyscreeze": {
-        "name": "python3.9-PyScreeze-latest",
-        "pname": "python3.9-PyScreeze-latest",
+        "name": "python3.9-PyScreeze-unstable",
+        "pname": "python3.9-PyScreeze-unstable",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -89986,7 +89919,7 @@
             "maintainers": [
                 "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
             ],
-            "name": "python3.9-PyScreeze-latest",
+            "name": "python3.9-PyScreeze-unstable",
             "outputsToInstall": [
                 "out"
             ],
@@ -90006,7 +89939,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/pyscreeze/default.nix#L35",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/pyscreeze/default.nix#L32",
             "unfree": false,
             "unsupported": false
         },
@@ -90074,7 +90007,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/python3-xlib/default.nix#L18",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/python3-xlib/default.nix#L17",
             "unfree": false,
             "unsupported": false
         },
@@ -90208,7 +90141,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/ssh-python/default.nix#L29",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/ssh-python/default.nix#L28",
             "unfree": false,
             "unsupported": false
         },
@@ -90276,7 +90209,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/ssh2-python/default.nix#L36",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/ssh2-python/default.nix#L30",
             "unfree": false,
             "unsupported": false
         },
@@ -90343,11 +90276,78 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/sync-database/default.nix#L32",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/sync-database/default.nix#L36",
             "unfree": false,
             "unsupported": false
         },
         "_attr": "sync-database",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.tabula-py": {
+        "name": "python3.9-tabula-py-2.2.0",
+        "pname": "python3.9-tabula-py",
+        "version": "2.2.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Simple wrapper for tabula-java, read tables from PDF into DataFrame",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "m68k-linux",
+                "s390-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "tabula-py",
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "python3.9-tabula-py-2.2.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "m68k-linux",
+                "s390-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/tabula-py/default.nix#L31",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "tabula-py",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.timetable2header": {
@@ -90410,7 +90410,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/TimeTable2Header/default.nix#L33",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/TimeTable2Header/default.nix#L27",
             "unfree": false,
             "unsupported": false
         },
@@ -90544,7 +90544,7 @@
                 "m68k-linux",
                 "s390-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/Yaml2ProbaTree/default.nix#L29",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/Yaml2ProbaTree/default.nix#L25",
             "unfree": false,
             "unsupported": false
         },
@@ -90834,6 +90834,53 @@
             "unsupported": false
         },
         "_attr": "patched-tabbed",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.tg": {
+        "name": "tg-0.5.0",
+        "pname": "tg",
+        "version": "0.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Argument Parser for Modern C++",
+            "homepage": "https://github.com/p-ranav/argparse",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "tg-0.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "m68k-linux",
+                "s390-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/tg/default.nix#L27",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "tg",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.unoconvui": {
@@ -95463,9 +95510,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gpxsee-bin": {
-        "name": "gpxsee-bin-9.0",
+        "name": "gpxsee-bin-9.3",
         "pname": "gpxsee-bin",
-        "version": "9.0",
+        "version": "9.3",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -95494,7 +95541,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "gpxsee-bin-9.0",
+            "name": "gpxsee-bin-9.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -95629,11 +95676,10 @@
             "homepage": "https://notabug.org/irdvo/gpxtools",
             "insecure": false,
             "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v3.0",
-                "shortName": "gpl3",
-                "spdxId": "GPL-3.0",
-                "url": "https://spdx.org/licenses/GPL-3.0.html"
+                "fullName": "GNU General Public License v3.0 only",
+                "shortName": "gpl3Only",
+                "spdxId": "GPL-3.0-only",
+                "url": "https://spdx.org/licenses/GPL-3.0-only.html"
             },
             "maintainers": [
                 {
@@ -105968,14 +106014,14 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.yabai": {
-        "name": "yabai-3.3.7",
+        "name": "yabai-3.3.10",
         "pname": "yabai",
-        "version": "3.3.7",
+        "version": "3.3.10",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": false,
-            "changelog": "https://github.com/koekeishiya/yabai/blob/v3.3.7/CHANGELOG.md",
+            "changelog": "https://github.com/koekeishiya/yabai/blob/v3.3.10/CHANGELOG.md",
             "description": "A tiling window manager for macOS based on binary space partitioning",
             "homepage": "https://github.com/koekeishiya/yabai",
             "insecure": false,
@@ -105999,7 +106045,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "yabai-3.3.7",
+            "name": "yabai-3.3.10",
             "outputsToInstall": [
                 "out"
             ],
