@@ -94622,15 +94622,15 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.gmnhg": {
-        "name": "gmnhg-0.1.1",
+        "name": "gmnhg-0.1.2",
         "pname": "gmnhg",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "description": "Hugo-to-Gemini Markdown converter",
-            "homepage": "https://git.tdem.in/tdemin/gmnhg",
+            "homepage": "https://github.com/tdemin/gmnhg",
             "insecure": false,
             "license": {
                 "fullName": "GNU General Public License v3.0 or later",
@@ -94658,7 +94658,7 @@
                     "name": "Wael Nasreddine"
                 }
             ],
-            "name": "gmnhg-0.1.1",
+            "name": "gmnhg-0.1.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -94700,7 +94700,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gmnhg/default.nix#L16",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gmnhg/default.nix#L17",
             "unfree": false,
             "unsupported": false
         },
@@ -98582,9 +98582,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2021-07-31",
+        "name": "maptourist-2021-08-01",
         "pname": "maptourist",
-        "version": "2021-07-31",
+        "version": "2021-08-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -98610,7 +98610,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2021-07-31",
+            "name": "maptourist-2021-08-01",
             "outputsToInstall": [
                 "out"
             ],
