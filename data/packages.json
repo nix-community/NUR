@@ -83996,9 +83996,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.refined-github": {
-        "name": "refined-github-21.7.18",
+        "name": "refined-github-21.8.1",
         "pname": "refined-github",
-        "version": "21.7.18",
+        "version": "21.8.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -84012,7 +84012,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "refined-github-21.7.18",
+            "name": "refined-github-21.8.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -86404,9 +86404,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.view-image": {
-        "name": "view-image-3.4.1",
+        "name": "view-image-3.4.2",
         "pname": "view-image",
-        "version": "3.4.1",
+        "version": "3.4.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -86420,7 +86420,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "view-image-3.4.1",
+            "name": "view-image-3.4.2",
             "outputsToInstall": [
                 "out"
             ],
