@@ -67792,6 +67792,302 @@
         "_attr": "sc3-plugins",
         "_repo": "moredread"
     },
+    "nur.repos.mozilla.git-cinnabar": {
+        "name": "git-cinnabar-0.5.4",
+        "pname": "git-cinnabar",
+        "version": "0.5.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "git-cinnabar-0.5.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mozilla/pkgs/git-cinnabar/default.nix#L17",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "git-cinnabar",
+        "_repo": "mozilla"
+    },
+    "nur.repos.mozilla.rr": {
+        "name": "rr-5.4.0",
+        "pname": "rr",
+        "version": "5.4.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Records nondeterministic executions and debugs them deterministically",
+            "homepage": "https://rr-project.org/",
+            "insecure": false,
+            "license": [
+                {
+                    "fullName": "MIT License",
+                    "shortName": "mit",
+                    "spdxId": "MIT",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                },
+                {
+                    "fullName": "BSD 2-clause \"Simplified\" License",
+                    "shortName": "bsd2",
+                    "spdxId": "BSD-2-Clause",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                }
+            ],
+            "longDescription": "rr aspires to be your primary debugging tool, replacing -- well,\nenhancing -- gdb. You record a failure once, then debug the\nrecording, deterministically, as many times as you want. Every\ntime the same execution is replayed.\n",
+            "maintainers": [
+                {
+                    "email": "nixos@nbp.name",
+                    "github": "nbp",
+                    "githubId": 1179566,
+                    "name": "Nicolas B. Pierron"
+                },
+                {
+                    "email": "aseipp@pobox.com",
+                    "github": "thoughtpolice",
+                    "githubId": 3416,
+                    "name": "Austin Seipp"
+                }
+            ],
+            "name": "rr-5.4.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "m68k-linux",
+                "s390-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mozilla",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "rr",
+        "_repo": "mozilla"
+    },
+    "nur.repos.mozilla.rust-cbindgen-latest": {
+        "name": "rust-cbindgen-0.13.1",
+        "pname": "rust-cbindgen",
+        "version": "0.13.1",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A project for generating C bindings from Rust code",
+            "homepage": "https://github.com/eqrion/cbindgen",
+            "insecure": false,
+            "license": {
+                "fullName": "Mozilla Public License 2.0",
+                "shortName": "mpl20",
+                "spdxId": "MPL-2.0",
+                "url": "https://spdx.org/licenses/MPL-2.0.html"
+            },
+            "maintainers": [
+                {
+                    "email": "jtojnar@gmail.com",
+                    "github": "jtojnar",
+                    "githubId": 705123,
+                    "name": "Jan Tojnar"
+                },
+                {
+                    "email": "andreas@rammhold.de",
+                    "github": "andir",
+                    "githubId": 638836,
+                    "name": "Andreas Rammhold"
+                }
+            ],
+            "name": "rust-cbindgen-0.13.1",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "m68k-linux",
+                "s390-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "vc4-none",
+                "m68k-none",
+                "s390-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mozilla/pkgs/cbindgen/default.nix#L31",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "rust-cbindgen-latest",
+        "_repo": "mozilla"
+    },
+    "nur.repos.mozilla.valgrind-3_14": {
+        "name": "valgrind-3.14.0",
+        "pname": "valgrind",
+        "version": "3.14.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "badPlatforms": [
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv6m-linux",
+                "sparc-linux",
+                "sparc64-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "alpha-linux"
+            ],
+            "broken": false,
+            "description": "Debugging and profiling tool suite",
+            "homepage": "http://www.valgrind.org/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "longDescription": "Valgrind is an award-winning instrumentation framework for\nbuilding dynamic analysis tools.  There are Valgrind tools that\ncan automatically detect many memory management and threading\nbugs, and profile your programs in detail.  You can also use\nValgrind to build new tools.\n",
+            "maintainers": [
+                {
+                    "email": "edolstra+nixpkgs@gmail.com",
+                    "github": "edolstra",
+                    "githubId": 1148549,
+                    "name": "Eelco Dolstra"
+                }
+            ],
+            "name": "valgrind-3.14.0",
+            "outputsToInstall": [
+                "out",
+                "man"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "x86_64-linux",
+                "m68k-linux",
+                "s390-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mozilla",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "valgrind-3_14",
+        "_repo": "mozilla"
+    },
+    "nur.repos.mozilla.VidyoDesktop": {
+        "name": "VidyoDesktop",
+        "pname": "VidyoDesktop",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "VidyoDesktop",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/mozilla",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "VidyoDesktop",
+        "_repo": "mozilla"
+    },
     "nur.repos.mpickering.ghc-head-from": {
         "name": "ghc-head-from",
         "pname": "ghc-head-from",
