@@ -78632,9 +78632,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.duckduckgo-privacy-essentials": {
-        "name": "duckduckgo-privacy-essentials-2021.7.22.1",
+        "name": "duckduckgo-privacy-essentials-2021.7.30",
         "pname": "duckduckgo-privacy-essentials",
-        "version": "2021.7.22.1",
+        "version": "2021.7.30",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -78648,7 +78648,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "duckduckgo-privacy-essentials-2021.7.22.1",
+            "name": "duckduckgo-privacy-essentials-2021.7.30",
             "outputsToInstall": [
                 "out"
             ],
@@ -80772,9 +80772,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.languagetool": {
-        "name": "languagetool-4.0.7",
+        "name": "languagetool-4.1.0",
         "pname": "languagetool",
-        "version": "4.0.7",
+        "version": "4.1.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -80788,7 +80788,7 @@
                 "shortName": "allrightsreserved",
                 "url": "https://languagetool.org/legal/"
             },
-            "name": "languagetool-4.0.7",
+            "name": "languagetool-4.1.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -81596,9 +81596,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-9.8.2",
+        "name": "metamask-9.8.4",
         "pname": "metamask",
-        "version": "9.8.2",
+        "version": "9.8.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -81611,7 +81611,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-9.8.2",
+            "name": "metamask-9.8.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -84827,9 +84827,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.sponsorblock": {
-        "name": "sponsorblock-2.1.3",
+        "name": "sponsorblock-2.1.4",
         "pname": "sponsorblock",
-        "version": "2.1.3",
+        "version": "2.1.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -84844,7 +84844,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "sponsorblock-2.1.3",
+            "name": "sponsorblock-2.1.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -85096,9 +85096,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tab-session-manager": {
-        "name": "tab-session-manager-6.8.3",
+        "name": "tab-session-manager-6.9.0",
         "pname": "tab-session-manager",
-        "version": "6.8.3",
+        "version": "6.9.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -85112,7 +85112,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "tab-session-manager-6.8.3",
+            "name": "tab-session-manager-6.9.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -86700,9 +86700,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.view-image": {
-        "name": "view-image-3.4.2",
+        "name": "view-image-3.4.3",
         "pname": "view-image",
-        "version": "3.4.2",
+        "version": "3.4.3",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -86716,7 +86716,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "view-image-3.4.2",
+            "name": "view-image-3.4.3",
             "outputsToInstall": [
                 "out"
             ],
