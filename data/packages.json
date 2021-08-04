@@ -73858,75 +73858,6 @@
         "_attr": "gpaw",
         "_repo": "qchem"
     },
-    "nur.repos.qchem.gromacsMpi": {
-        "name": "gromacs-2020.4",
-        "pname": "gromacs",
-        "version": "2020.4",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "Molecular dynamics software package",
-            "homepage": "http://www.gromacs.org",
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v2.0",
-                "shortName": "gpl2",
-                "spdxId": "GPL-2.0",
-                "url": "https://spdx.org/licenses/GPL-2.0.html"
-            },
-            "longDescription": "GROMACS is a versatile package to perform molecular dynamics,\ni.e. simulate the Newtonian equations of motion for systems\nwith hundreds to millions of particles.\n\nIt is primarily designed for biochemical molecules like\nproteins, lipids and nucleic acids that have a lot of\ncomplicated bonded interactions, but since GROMACS is\nextremely fast at calculating the nonbonded interactions (that\nusually dominate simulations) many groups are also using it\nfor research on non-biological systems, e.g. polymers.\n\nGROMACS supports all the usual algorithms you expect from a\nmodern molecular dynamics implementation, (check the online\nreference or manual for details), but there are also quite a\nfew features that make it stand out from the competition.\n\nSee: http://www.gromacs.org/About_Gromacs for details.\n",
-            "name": "gromacs-2020.4",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "i686-cygwin",
-                "x86_64-cygwin",
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin",
-                "i686-freebsd",
-                "x86_64-freebsd",
-                "x86_64-solaris",
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "m68k-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "x86_64-linux",
-                "aarch64-netbsd",
-                "armv6l-netbsd",
-                "armv7a-netbsd",
-                "armv7l-netbsd",
-                "i686-netbsd",
-                "m68k-netbsd",
-                "mipsel-netbsd",
-                "powerpc-netbsd",
-                "riscv32-netbsd",
-                "riscv64-netbsd",
-                "x86_64-netbsd",
-                "i686-openbsd",
-                "x86_64-openbsd",
-                "x86_64-redox"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "gromacsMpi",
-        "_repo": "qchem"
-    },
     "nur.repos.qchem.gromacsDoubleMpi": {
         "name": "gromacs-2020.4",
         "pname": "gromacs",
@@ -73996,7 +73927,7 @@
         "_attr": "gromacsDoubleMpi",
         "_repo": "qchem"
     },
-    "nur.repos.qchem.gromacs": {
+    "nur.repos.qchem.gromacsMpi": {
         "name": "gromacs-2020.4",
         "pname": "gromacs",
         "version": "2020.4",
@@ -74062,7 +73993,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "gromacs",
+        "_attr": "gromacsMpi",
         "_repo": "qchem"
     },
     "nur.repos.qchem.gromacsDouble": {
@@ -74132,6 +74063,75 @@
             "unsupported": false
         },
         "_attr": "gromacsDouble",
+        "_repo": "qchem"
+    },
+    "nur.repos.qchem.gromacs": {
+        "name": "gromacs-2020.4",
+        "pname": "gromacs",
+        "version": "2020.4",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Molecular dynamics software package",
+            "homepage": "http://www.gromacs.org",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v2.0",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0",
+                "url": "https://spdx.org/licenses/GPL-2.0.html"
+            },
+            "longDescription": "GROMACS is a versatile package to perform molecular dynamics,\ni.e. simulate the Newtonian equations of motion for systems\nwith hundreds to millions of particles.\n\nIt is primarily designed for biochemical molecules like\nproteins, lipids and nucleic acids that have a lot of\ncomplicated bonded interactions, but since GROMACS is\nextremely fast at calculating the nonbonded interactions (that\nusually dominate simulations) many groups are also using it\nfor research on non-biological systems, e.g. polymers.\n\nGROMACS supports all the usual algorithms you expect from a\nmodern molecular dynamics implementation, (check the online\nreference or manual for details), but there are also quite a\nfew features that make it stand out from the competition.\n\nSee: http://www.gromacs.org/About_Gromacs for details.\n",
+            "name": "gromacs-2020.4",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gromacs",
         "_repo": "qchem"
     },
     "nur.repos.qchem.harminv": {
@@ -74885,6 +74885,110 @@
             "unsupported": false
         },
         "_attr": "libvdwxc",
+        "_repo": "qchem"
+    },
+    "nur.repos.qchem.libwfa": {
+        "name": "libwfa-2020-02-19",
+        "pname": "libwfa",
+        "version": "2020-02-19",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Wave-function analysis tool library for quantum chemical applications",
+            "homepage": "https://github.com/libwfa/libwfa",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "markus.kowalewski@gmail.com",
+                    "github": "markuskowa",
+                    "githubId": 26470037,
+                    "name": "Markus Kowalewski"
+                }
+            ],
+            "name": "libwfa-2020-02-19",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/libwfa/default.nix#L45",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "libwfa",
+        "_repo": "qchem"
+    },
+    "nur.repos.qchem.wfaMolcas": {
+        "name": "libwfa-2020-02-19",
+        "pname": "libwfa",
+        "version": "2020-02-19",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Wave-function analysis tool library for quantum chemical applications",
+            "homepage": "https://github.com/libwfa/libwfa",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 3-clause \"New\" or \"Revised\" License",
+                "shortName": "bsd3",
+                "spdxId": "BSD-3-Clause",
+                "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "markus.kowalewski@gmail.com",
+                    "github": "markuskowa",
+                    "githubId": 26470037,
+                    "name": "Markus Kowalewski"
+                }
+            ],
+            "name": "libwfa-2020-02-19",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/lib/libwfa/default.nix#L45",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "wfaMolcas",
         "_repo": "qchem"
     },
     "nur.repos.qchem.libxc4": {
@@ -75714,7 +75818,7 @@
                 "s390-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/openmolcas/default.nix#L146",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/openmolcas/default.nix#L139",
             "unfree": false,
             "unsupported": false
         },
@@ -76692,47 +76796,6 @@
         "_attr": "sharc21",
         "_repo": "qchem"
     },
-    "nur.repos.qchem.siesta-mpi": {
-        "name": "siesta-4.1-b3",
-        "pname": "siesta",
-        "version": "4.1-b3",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "A first-principles materials simulation code using DFT",
-            "homepage": "https://www.quantum-espresso.org/",
-            "insecure": false,
-            "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v2.0",
-                "shortName": "gpl2",
-                "spdxId": "GPL-2.0",
-                "url": "https://spdx.org/licenses/GPL-2.0.html"
-            },
-            "longDescription": "SIESTA is both a method and its computer program\nimplementation, to perform efficient electronic structure\ncalculations and ab initio molecular dynamics simulations of\nmolecules and solids. SIESTA's efficiency stems from the use\nof strictly localized basis sets and from the implementation\nof linear-scaling algorithms which can be applied to suitable\nsystems. A very important feature of the code is that its\naccuracy and cost can be tuned in a wide range, from quick\nexploratory calculations to highly accurate simulations\nmatching the quality of other approaches, such as plane-wave\nand all-electron methods.\n",
-            "maintainers": [
-                {
-                    "email": "chris.ostrouchov@gmail.com",
-                    "github": "costrouc",
-                    "githubId": 1740337,
-                    "name": "Chris Ostrouchov"
-                }
-            ],
-            "name": "siesta-4.1-b3",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "siesta-mpi",
-        "_repo": "qchem"
-    },
     "nur.repos.qchem.siesta": {
         "name": "siesta-4.1-b3",
         "pname": "siesta",
@@ -76772,6 +76835,47 @@
             "unsupported": false
         },
         "_attr": "siesta",
+        "_repo": "qchem"
+    },
+    "nur.repos.qchem.siesta-mpi": {
+        "name": "siesta-4.1-b3",
+        "pname": "siesta",
+        "version": "4.1-b3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "A first-principles materials simulation code using DFT",
+            "homepage": "https://www.quantum-espresso.org/",
+            "insecure": false,
+            "license": {
+                "deprecated": true,
+                "fullName": "GNU General Public License v2.0",
+                "shortName": "gpl2",
+                "spdxId": "GPL-2.0",
+                "url": "https://spdx.org/licenses/GPL-2.0.html"
+            },
+            "longDescription": "SIESTA is both a method and its computer program\nimplementation, to perform efficient electronic structure\ncalculations and ab initio molecular dynamics simulations of\nmolecules and solids. SIESTA's efficiency stems from the use\nof strictly localized basis sets and from the implementation\nof linear-scaling algorithms which can be applied to suitable\nsystems. A very important feature of the code is that its\naccuracy and cost can be tuned in a wide range, from quick\nexploratory calculations to highly accurate simulations\nmatching the quality of other approaches, such as plane-wave\nand all-electron methods.\n",
+            "maintainers": [
+                {
+                    "email": "chris.ostrouchov@gmail.com",
+                    "github": "costrouc",
+                    "githubId": 1740337,
+                    "name": "Chris Ostrouchov"
+                }
+            ],
+            "name": "siesta-4.1-b3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "siesta-mpi",
         "_repo": "qchem"
     },
     "nur.repos.qchem.slurm-tools": {
