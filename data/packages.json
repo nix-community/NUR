@@ -79262,9 +79262,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.facebook-container": {
-        "name": "facebook-container-2.3.0",
+        "name": "facebook-container-2.3.1",
         "pname": "facebook-container",
-        "version": "2.3.0",
+        "version": "2.3.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79278,7 +79278,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "facebook-container-2.3.0",
+            "name": "facebook-container-2.3.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -87149,9 +87149,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.view-image": {
-        "name": "view-image-3.4.3",
+        "name": "view-image-3.5.0",
         "pname": "view-image",
-        "version": "3.4.3",
+        "version": "3.5.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -87165,7 +87165,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "view-image-3.4.3",
+            "name": "view-image-3.5.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -87509,9 +87509,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.wappalyzer": {
-        "name": "wappalyzer-6.7.12",
+        "name": "wappalyzer-6.7.13",
         "pname": "wappalyzer",
-        "version": "6.7.12",
+        "version": "6.7.13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -87526,7 +87526,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "wappalyzer-6.7.12",
+            "name": "wappalyzer-6.7.13",
             "outputsToInstall": [
                 "out"
             ],
