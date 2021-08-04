@@ -27219,7 +27219,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -27330,7 +27330,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -27441,7 +27441,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -27552,7 +27552,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -27663,7 +27663,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -27774,7 +27774,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -27885,7 +27885,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -27996,7 +27996,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -28107,7 +28107,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -28218,7 +28218,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -28329,7 +28329,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -28440,7 +28440,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L320",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/izorkin/pkgs/development/php/default.nix#L321",
             "unfree": false,
             "unsupported": false
         },
@@ -35544,9 +35544,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35568,7 +35568,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35580,9 +35580,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35604,7 +35604,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35616,9 +35616,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35640,7 +35640,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35652,9 +35652,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35676,7 +35676,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35688,9 +35688,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35712,7 +35712,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35724,9 +35724,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35748,7 +35748,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35760,9 +35760,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35784,7 +35784,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35796,9 +35796,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35820,7 +35820,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35832,9 +35832,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35856,7 +35856,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35868,9 +35868,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35892,7 +35892,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35904,9 +35904,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35928,7 +35928,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -35940,9 +35940,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.php-cs-fixer": {
-        "name": "php-php-cs-fixer-3.0.0",
+        "name": "php-php-cs-fixer-3.0.1",
         "pname": "php-php-cs-fixer",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -35964,7 +35964,7 @@
                     "name": "Jan Tojnar"
                 }
             ],
-            "name": "php-php-cs-fixer-3.0.0",
+            "name": "php-php-cs-fixer-3.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -39576,9 +39576,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39592,7 +39592,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39604,9 +39604,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39620,7 +39620,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39632,9 +39632,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39648,7 +39648,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39660,9 +39660,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39676,7 +39676,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39688,9 +39688,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39704,7 +39704,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39716,9 +39716,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39732,7 +39732,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39744,9 +39744,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39760,7 +39760,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39772,9 +39772,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39788,7 +39788,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39800,9 +39800,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39816,7 +39816,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39828,9 +39828,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39844,7 +39844,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39856,9 +39856,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39872,7 +39872,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -39884,9 +39884,9 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.psalm": {
-        "name": "php-psalm-4.8.1",
+        "name": "php-psalm-4.9.2",
         "pname": "php-psalm",
-        "version": "4.8.1",
+        "version": "4.9.2",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -39900,7 +39900,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "php-psalm-4.8.1",
+            "name": "php-psalm-4.9.2",
             "outputsToInstall": [
                 "out"
             ],
@@ -41804,15 +41804,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages-unit.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -41824,15 +41824,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages-unit.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -41844,15 +41844,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -41864,15 +41864,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php80Packages.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -41884,15 +41884,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages-unit.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -41904,15 +41904,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php71Packages-unit.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -41924,15 +41924,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php74Packages.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -41944,15 +41944,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -41964,15 +41964,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages-unit.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -41984,15 +41984,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php72Packages-unit.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -42004,15 +42004,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php73Packages.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -42024,15 +42024,15 @@
         "_repo": "izorkin"
     },
     "nur.repos.izorkin.php56Packages.snuffleupagus": {
-        "name": "php-snuffleupagus-0.7.0",
+        "name": "php-snuffleupagus-0.7.1",
         "pname": "php-snuffleupagus",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
             "broken": true,
             "insecure": false,
-            "name": "php-snuffleupagus-0.7.0",
+            "name": "php-snuffleupagus-0.7.1",
             "outputsToInstall": [
                 "out"
             ],
