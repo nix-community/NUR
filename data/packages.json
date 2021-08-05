@@ -73279,6 +73279,49 @@
         "_attr": "dftd3",
         "_repo": "qchem"
     },
+    "nur.repos.qchem.dirac": {
+        "name": "dirac-21.0",
+        "pname": "dirac",
+        "version": "21.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": false,
+            "broken": false,
+            "description": "The DIRAC program computes molecular properties using relativistic quantum chemical methods.",
+            "homepage": "https://diracprogram.org/",
+            "insecure": false,
+            "license": {
+                "free": false,
+                "fullName": "Unfree",
+                "shortName": "unfree"
+            },
+            "name": "dirac-21.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/dirac/default.nix#L124",
+            "unfree": true,
+            "unsupported": false
+        },
+        "_attr": "dirac",
+        "_repo": "qchem"
+    },
     "nur.repos.qchem.dkh": {
         "name": "dkh-1.2",
         "pname": "dkh",
@@ -73396,6 +73439,50 @@
             "unsupported": false
         },
         "_attr": "ergoscf",
+        "_repo": "qchem"
+    },
+    "nur.repos.qchem.exatensor": {
+        "name": "exatensor-2020-07-15",
+        "pname": "exatensor",
+        "version": "2020-07-15",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "ExaTENSOR is a basic numerical tensor algebra library for\ndistributed HPC systems equipped with multicore CPU and NVIDIA or AMD GPU.",
+            "homepage": "https://gitlab.com/DmitryLyakh/ExaTensor",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU Lesser General Public License v3.0 only",
+                "shortName": "lgpl3Only",
+                "spdxId": "LGPL-3.0-only",
+                "url": "https://spdx.org/licenses/LGPL-3.0-only.html"
+            },
+            "name": "exatensor-2020-07-15",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/exatensor/default.nix#L44",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "exatensor",
         "_repo": "qchem"
     },
     "nur.repos.qchem.fftw": {
@@ -73858,7 +73945,7 @@
         "_attr": "gpaw",
         "_repo": "qchem"
     },
-    "nur.repos.qchem.gromacsDoubleMpi": {
+    "nur.repos.qchem.gromacs": {
         "name": "gromacs-2020.4",
         "pname": "gromacs",
         "version": "2020.4",
@@ -73924,7 +74011,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "gromacsDoubleMpi",
+        "_attr": "gromacs",
         "_repo": "qchem"
     },
     "nur.repos.qchem.gromacsMpi": {
@@ -74065,7 +74152,7 @@
         "_attr": "gromacsDouble",
         "_repo": "qchem"
     },
-    "nur.repos.qchem.gromacs": {
+    "nur.repos.qchem.gromacsDoubleMpi": {
         "name": "gromacs-2020.4",
         "pname": "gromacs",
         "version": "2020.4",
@@ -74131,7 +74218,7 @@
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "gromacs",
+        "_attr": "gromacsDoubleMpi",
         "_repo": "qchem"
     },
     "nur.repos.qchem.harminv": {
@@ -91477,6 +91564,53 @@
             "unsupported": false
         },
         "_attr": "patched-rofi",
+        "_repo": "shamilton"
+    },
+    "nur.repos.shamilton.rpi-fan": {
+        "name": "rpi-fan-unstable",
+        "pname": "rpi-fan-unstable",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Argument Parser for Modern C++",
+            "homepage": "https://github.com/p-ranav/argparse",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                "Scott Hamilton <sgn.hamilton+nixpkgs@protonmail.com>"
+            ],
+            "name": "rpi-fan-unstable",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/shamilton/pkgs/rpi-fan/default.nix#L33",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "rpi-fan",
         "_repo": "shamilton"
     },
     "nur.repos.shamilton.scripts": {
