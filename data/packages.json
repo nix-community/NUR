@@ -73398,7 +73398,7 @@
             "available": true,
             "broken": false,
             "description": "Quantum chemistry program for large-scale self-consistent field calculations",
-            "homepage": "http://http://www.ergoscf.org",
+            "homepage": "http://www.ergoscf.org",
             "insecure": false,
             "license": {
                 "fullName": "GNU General Public License v3.0 or later",
@@ -73434,7 +73434,7 @@
                 "s390-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem/pkgs/apps/ergoscf/default.nix#L60",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/qchem",
             "unfree": false,
             "unsupported": false
         },
