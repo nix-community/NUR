@@ -11370,9 +11370,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.truffleSqueak": {
-        "name": "graalvm11-ce-21.0.0",
+        "name": "graalvm11-ce",
         "pname": "graalvm11-ce",
-        "version": "21.0.0",
+        "version": "",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11441,9 +11441,15 @@
                         }
                     ],
                     "name": "Bastien Rivi\u00e8re"
+                },
+                {
+                    "email": "ercdll1337@gmail.com",
+                    "github": "ericdallo",
+                    "githubId": 7820865,
+                    "name": "Eric Dallo"
                 }
             ],
-            "name": "graalvm11-ce-21.0.0",
+            "name": "graalvm11-ce",
             "outputsToInstall": [
                 "out"
             ],
@@ -50910,12 +50916,6 @@
         "system": "x86_64-linux",
         "meta": {
             "available": true,
-            "badPlatforms": [
-                "x86_64-darwin",
-                "i686-darwin",
-                "aarch64-darwin",
-                "armv7a-darwin"
-            ],
             "broken": false,
             "insecure": false,
             "name": "docker-image-batsim.tar.gz",
@@ -88790,14 +88790,14 @@
         "_repo": "shados"
     },
     "nur.repos.shamilton.patched-alacritty": {
-        "name": "alacritty-patched-0.8.0",
+        "name": "alacritty-patched-0.9.0",
         "pname": "alacritty-patched",
-        "version": "0.8.0",
+        "version": "0.9.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/alacritty/alacritty/blob/v0.8.0/CHANGELOG.md",
+            "changelog": "https://github.com/alacritty/alacritty/blob/v0.9.0/CHANGELOG.md",
             "description": "A cross-platform, GPU-accelerated terminal emulator",
             "homepage": "https://github.com/alacritty/alacritty",
             "insecure": false,
@@ -88839,7 +88839,7 @@
                     "name": "Maximilian Bosch"
                 }
             ],
-            "name": "alacritty-patched-0.8.0",
+            "name": "alacritty-patched-0.9.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -111185,7 +111185,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "changelog": "https://github.com/alacritty/alacritty/blob/v0.8.0/CHANGELOG.md",
+            "changelog": "https://github.com/alacritty/alacritty/blob/v0.9.0/CHANGELOG.md",
             "description": "Alacritty with ligature patch applied",
             "homepage": "https://github.com/zenixls2/alacritty/tree/ligature",
             "insecure": false,
