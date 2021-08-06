@@ -94159,9 +94159,9 @@
         "_attr": "elevation_server",
         "_repo": "sikmir"
     },
-    "nur.repos.sikmir.embox": {
-        "name": "embox-0.5.3",
-        "pname": "embox",
+    "nur.repos.sikmir.embox-aarch64": {
+        "name": "embox-aarch64-qemu-0.5.3",
+        "pname": "embox-aarch64-qemu",
         "version": "0.5.3",
         "system": "x86_64-linux",
         "meta": {
@@ -94190,7 +94190,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-0.5.3",
+            "name": "embox-aarch64-qemu-0.5.3",
             "outputsToInstall": [
                 "out"
             ],
@@ -94233,14 +94233,350 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L71",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L94",
             "skip": {
                 "ci": true
             },
             "unfree": false,
             "unsupported": false
         },
-        "_attr": "embox",
+        "_attr": "embox-aarch64",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.embox-arm": {
+        "name": "embox-arm-qemu-0.5.3",
+        "pname": "embox-arm-qemu",
+        "version": "0.5.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Modular and configurable OS for embedded applications",
+            "homepage": "http://embox.github.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "embox-arm-qemu-0.5.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L94",
+            "skip": {
+                "ci": true
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "embox-arm",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.embox-ppc": {
+        "name": "embox-ppc-qemu-0.5.3",
+        "pname": "embox-ppc-qemu",
+        "version": "0.5.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Modular and configurable OS for embedded applications",
+            "homepage": "http://embox.github.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "embox-ppc-qemu-0.5.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L94",
+            "skip": {
+                "ci": true
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "embox-ppc",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.embox-riscv64": {
+        "name": "embox-riscv64-qemu-0.5.3",
+        "pname": "embox-riscv64-qemu",
+        "version": "0.5.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Modular and configurable OS for embedded applications",
+            "homepage": "http://embox.github.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "embox-riscv64-qemu-0.5.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L94",
+            "skip": {
+                "ci": true
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "embox-riscv64",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.embox-x86": {
+        "name": "embox-x86-qemu-0.5.3",
+        "pname": "embox-x86-qemu",
+        "version": "0.5.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Modular and configurable OS for embedded applications",
+            "homepage": "http://embox.github.io/",
+            "insecure": false,
+            "license": {
+                "fullName": "BSD 2-clause \"Simplified\" License",
+                "shortName": "bsd2",
+                "spdxId": "BSD-2-Clause",
+                "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "embox-x86-qemu-0.5.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L94",
+            "skip": {
+                "ci": true
+            },
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "embox-x86",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.farbfeld-utils": {
