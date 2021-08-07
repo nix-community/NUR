@@ -11793,7 +11793,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/parcel-bundler/node-packages.nix#L7406",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/parcel-bundler/node-packages.nix#L7416",
             "unfree": false,
             "unsupported": false
         },
@@ -11801,9 +11801,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.pnpm": {
-        "name": "pnpm-6.11.5",
+        "name": "pnpm-6.12.0",
         "pname": "pnpm",
-        "version": "6.11.5",
+        "version": "6.12.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11812,7 +11812,7 @@
             "homepage": "https://pnpm.io",
             "insecure": false,
             "license": "MIT",
-            "name": "pnpm-6.11.5",
+            "name": "pnpm-6.12.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -11879,7 +11879,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/preact-cli/node-packages.nix#L13093",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crazazy/pkgs/js/preact-cli/node-packages.nix#L13126",
             "unfree": false,
             "unsupported": false
         },
@@ -11887,9 +11887,9 @@
         "_repo": "crazazy"
     },
     "nur.repos.crazazy.js.rollup": {
-        "name": "rollup-2.55.1",
+        "name": "rollup-2.56.0",
         "pname": "rollup",
-        "version": "2.55.1",
+        "version": "2.56.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -11898,7 +11898,7 @@
             "homepage": "https://rollupjs.org/",
             "insecure": false,
             "license": "MIT",
-            "name": "rollup-2.55.1",
+            "name": "rollup-2.56.0",
             "outputsToInstall": [
                 "out"
             ],
