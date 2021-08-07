@@ -3124,9 +3124,9 @@
         "_repo": "ambroisie"
     },
     "nur.repos.ambroisie.unified-hosts-lists": {
-        "name": "unified-hosts-lists-3.6.4",
+        "name": "unified-hosts-lists-3.8.5",
         "pname": "unified-hosts-lists",
-        "version": "3.6.4",
+        "version": "3.8.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -3149,7 +3149,7 @@
                     "name": "Bruno BELANYI"
                 }
             ],
-            "name": "unified-hosts-lists-3.6.4",
+            "name": "unified-hosts-lists-3.8.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -25845,9 +25845,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1970",
+        "name": "yuzu-ea-1972",
         "pname": "yuzu-ea",
-        "version": "1970",
+        "version": "1972",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25876,7 +25876,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1970",
+            "name": "yuzu-ea-1972",
             "outputsToInstall": [
                 "out"
             ],
@@ -25904,9 +25904,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-709",
+        "name": "yuzu-mainline-710",
         "pname": "yuzu-mainline",
-        "version": "709",
+        "version": "710",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25935,7 +25935,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-709",
+            "name": "yuzu-mainline-710",
             "outputsToInstall": [
                 "out"
             ],
