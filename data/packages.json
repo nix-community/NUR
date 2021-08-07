@@ -77952,9 +77952,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.betterttv": {
-        "name": "betterttv-7.3.3",
+        "name": "betterttv-7.3.5",
         "pname": "betterttv",
-        "version": "7.3.3",
+        "version": "7.3.5",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -77968,7 +77968,7 @@
                 "shortName": "betterttv",
                 "url": "https://betterttv.com/terms"
             },
-            "name": "betterttv-7.3.3",
+            "name": "betterttv-7.3.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -79813,9 +79813,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.floccus": {
-        "name": "floccus-4.6.4",
+        "name": "floccus-4.7.0",
         "pname": "floccus",
-        "version": "4.6.4",
+        "version": "4.7.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -79829,7 +79829,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "floccus-4.6.4",
+            "name": "floccus-4.7.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -85446,9 +85446,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.sponsorblock": {
-        "name": "sponsorblock-2.1.4",
+        "name": "sponsorblock-2.1.4.1",
         "pname": "sponsorblock",
-        "version": "2.1.4",
+        "version": "2.1.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -85463,7 +85463,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "sponsorblock-2.1.4",
+            "name": "sponsorblock-2.1.4.1",
             "outputsToInstall": [
                 "out"
             ],
