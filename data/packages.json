@@ -1789,6 +1789,26 @@
         "_attr": "irc-link-informant",
         "_repo": "afreakk"
     },
+    "nur.repos.afreakk.mongosh": {
+        "name": "mongosh",
+        "pname": "mongosh",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "mongosh",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/pkgs/mongosh/default.nix#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "mongosh",
+        "_repo": "afreakk"
+    },
     "nur.repos.afreakk.qutebrowser-start-page": {
         "name": "qutebrowser-start-page-0.1.0.0",
         "pname": "qutebrowser-start-page",
@@ -1963,7 +1983,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/default.nix#L18",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/afreakk/default.nix#L19",
             "unfree": false,
             "unsupported": false
         },
@@ -46458,9 +46478,9 @@
         "_repo": "jakobrs"
     },
     "nur.repos.jakobrs.wireplumber": {
-        "name": "wireplumber-0.4.0",
+        "name": "wireplumber-0.4.1",
         "pname": "wireplumber",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -46473,11 +46493,11 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "wireplumber-0.4.0",
+            "name": "wireplumber-0.4.1",
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs/pkgs/wireplumber/default.nix#L26",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs/pkgs/wireplumber/default.nix#L30",
             "unfree": false,
             "unsupported": false
         },
