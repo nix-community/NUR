@@ -25825,9 +25825,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1968",
+        "name": "yuzu-ea-1970",
         "pname": "yuzu-ea",
-        "version": "1968",
+        "version": "1970",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25856,7 +25856,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1968",
+            "name": "yuzu-ea-1970",
             "outputsToInstall": [
                 "out"
             ],
@@ -25884,9 +25884,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-mainline": {
-        "name": "yuzu-mainline-708",
+        "name": "yuzu-mainline-709",
         "pname": "yuzu-mainline",
-        "version": "708",
+        "version": "709",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25915,7 +25915,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-mainline-708",
+            "name": "yuzu-mainline-709",
             "outputsToInstall": [
                 "out"
             ],
