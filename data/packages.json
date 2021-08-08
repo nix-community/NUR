@@ -12652,6 +12652,58 @@
         "_attr": "python3Packages.web2ldap",
         "_repo": "crtified"
     },
+    "nur.repos.dan4ik605743.bitmap-fonts": {
+        "name": "bitmap-fonts",
+        "pname": "bitmap-fonts",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "bitmap-fonts",
+            "homepage": "https://github.com/addy-dclxvi/bitmap-font-collections",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "6057430gu@gmail.com",
+                    "github": "dan4ik605743",
+                    "githubId": 86075850,
+                    "name": "Danil Danevich"
+                }
+            ],
+            "name": "bitmap-fonts",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/bitmap-fonts/default.nix#L29",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "bitmap-fonts",
+        "_repo": "dan4ik605743"
+    },
     "nur.repos.dan4ik605743.compton": {
         "name": "compton",
         "pname": "compton",
@@ -12812,58 +12864,6 @@
             "unsupported": false
         },
         "_attr": "lyra-cursors",
-        "_repo": "dan4ik605743"
-    },
-    "nur.repos.dan4ik605743.waffle-font": {
-        "name": "waffle-font",
-        "pname": "waffle-font",
-        "version": "",
-        "system": "x86_64-linux",
-        "meta": {
-            "available": true,
-            "broken": false,
-            "description": "bitmap-font",
-            "homepage": "https://github.com/addy-dclxvi/bitmap-font-collections",
-            "insecure": false,
-            "license": {
-                "fullName": "MIT License",
-                "shortName": "mit",
-                "spdxId": "MIT",
-                "url": "https://spdx.org/licenses/MIT.html"
-            },
-            "maintainers": [
-                {
-                    "email": "6057430gu@gmail.com",
-                    "github": "dan4ik605743",
-                    "githubId": 86075850,
-                    "name": "Danil Danevich"
-                }
-            ],
-            "name": "waffle-font",
-            "outputsToInstall": [
-                "out"
-            ],
-            "platforms": [
-                "aarch64-linux",
-                "armv5tel-linux",
-                "armv6l-linux",
-                "armv7a-linux",
-                "armv7l-linux",
-                "i686-linux",
-                "m68k-linux",
-                "mipsel-linux",
-                "powerpc64-linux",
-                "powerpc64le-linux",
-                "riscv32-linux",
-                "riscv64-linux",
-                "s390-linux",
-                "x86_64-linux"
-            ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/waffle-font/default.nix#L29",
-            "unfree": false,
-            "unsupported": false
-        },
-        "_attr": "waffle-font",
         "_repo": "dan4ik605743"
     },
     "nur.repos.dandellion.colors": {
