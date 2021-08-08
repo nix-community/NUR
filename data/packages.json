@@ -22979,6 +22979,26 @@
         "_attr": "python39",
         "_repo": "graham33"
     },
+    "nur.repos.heph2.atlas": {
+        "name": "Atlas",
+        "pname": "Atlas",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "Atlas",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/heph2/pkgs/atlas/default.nix#L12",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "atlas",
+        "_repo": "heph2"
+    },
     "nur.repos.hutzdog.build-sh": {
         "name": "build.sh-1.0.0",
         "pname": "build.sh",
