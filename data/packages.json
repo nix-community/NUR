@@ -4836,7 +4836,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L257",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L258",
             "unfree": false,
             "unsupported": false
         },
@@ -5379,7 +5379,7 @@
             "outputsToInstall": [
                 "out"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L530",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/customized/default.nix#L536",
             "unfree": false,
             "unsupported": false
         },
@@ -6442,7 +6442,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L286",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/arc/pkgs/public/crates/default.nix#L287",
             "unfree": false,
             "unsupported": false
         },
@@ -7168,15 +7168,15 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.screenstub": {
-        "name": "screenstub-2021-05-26",
+        "name": "screenstub-2021-08-01",
         "pname": "screenstub",
-        "version": "2021-05-26",
+        "version": "2021-08-01",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
             "insecure": false,
-            "name": "screenstub-2021-05-26",
+            "name": "screenstub-2021-08-01",
             "outputsToInstall": [
                 "out"
             ],
@@ -25959,9 +25959,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1978",
+        "name": "yuzu-ea-1980",
         "pname": "yuzu-ea",
-        "version": "1978",
+        "version": "1980",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -25990,7 +25990,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1978",
+            "name": "yuzu-ea-1980",
             "outputsToInstall": [
                 "out"
             ],
