@@ -68102,9 +68102,9 @@
         "_repo": "moredread"
     },
     "nur.repos.moredread.joplin-desktop": {
-        "name": "joplin-desktop-2.2.2",
+        "name": "joplin-desktop-2.2.5",
         "pname": "joplin-desktop",
-        "version": "2.2.2",
+        "version": "2.2.5",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -68120,7 +68120,7 @@
             },
             "longDescription": "Joplin is a free, open source note taking and to-do application, which can\nhandle a large number of notes organised into notebooks. The notes are\nsearchable, can be copied, tagged and modified either from the\napplications directly or from your own text editor. The notes are in\nMarkdown format.\n",
             "maintainers": [],
-            "name": "joplin-desktop-2.2.2",
+            "name": "joplin-desktop-2.2.5",
             "outputsToInstall": [
                 "out"
             ],
@@ -70001,13 +70001,14 @@
         "_repo": "nagy"
     },
     "nur.repos.nagy.luaPackages.fennel": {
-        "name": "lua5.3-fennel-0.9.2-1",
+        "name": "lua5.3-fennel-0.10.0",
         "pname": "lua5.3-fennel",
-        "version": "0.9.2-1",
+        "version": "0.10.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
             "broken": false,
+            "changelog": "https://git.sr.ht/~technomancy/fennel/tree/0.10.0/item/changelog.md",
             "description": "A lisp that compiles to Lua",
             "homepage": "https://fennel-lang.org/",
             "insecure": false,
@@ -70018,7 +70019,7 @@
                 "url": "https://spdx.org/licenses/MIT.html"
             },
             "maintainers": [],
-            "name": "lua5.3-fennel-0.9.2-1",
+            "name": "lua5.3-fennel-0.10.0",
             "outputsToInstall": [
                 "out",
                 "man"
