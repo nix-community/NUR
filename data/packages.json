@@ -95548,6 +95548,93 @@
         "_attr": "gemget",
         "_repo": "sikmir"
     },
+    "nur.repos.sikmir.gemini-ipfs-gateway": {
+        "name": "gemini-ipfs-gateway-2021-03-23",
+        "pname": "gemini-ipfs-gateway",
+        "version": "2021-03-23",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "IPFS access over the Gemini protocol",
+            "homepage": "https://git.sr.ht/~hsanjuan/gemini-ipfs-gateway/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU Affero General Public License v3.0 only",
+                "shortName": "agpl3Only",
+                "spdxId": "AGPL-3.0-only",
+                "url": "https://spdx.org/licenses/AGPL-3.0-only.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "gemini-ipfs-gateway-2021-03-23",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/gemini-ipfs-gateway/default.nix#L17",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "gemini-ipfs-gateway",
+        "_repo": "sikmir"
+    },
     "nur.repos.sikmir.geminid": {
         "name": "geminid-2021-04-11",
         "pname": "geminid",
@@ -100036,7 +100123,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/nakarte/map-tiler/default.nix#L52",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/nakarte/map-tiler/default.nix#L63",
             "unfree": false,
             "unsupported": false
         },
@@ -100330,6 +100417,108 @@
             "unsupported": false
         },
         "_attr": "maptourist",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.mbtiles2osmand": {
+        "name": "mbtiles2osmand-2021-01-01",
+        "pname": "mbtiles2osmand",
+        "version": "2021-01-01",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Converts mbtiles format to sqlitedb format suitable for OsmAnd and RMaps",
+            "homepage": "https://github.com/tarwirdur/mbtiles2osmand",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin"
+            ],
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "mainProgram": "mbtiles2osmand",
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "mbtiles2osmand-2021-01-01",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/tools/geo/mbtiles2osmand/default.nix#L38",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "mbtiles2osmand",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.microjson": {
@@ -104484,7 +104673,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/osm/roentgen/default.nix#L43",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/osm/roentgen/default.nix#L50",
             "unfree": false,
             "unsupported": false
         },
@@ -104755,7 +104944,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gis/sasplanet/bin.nix#L44",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gis/sasplanet/bin.nix#L51",
             "skip": {
                 "ci": true
             },
@@ -106559,7 +106748,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/dicts/tatoeba/default.nix#L58",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/dicts/tatoeba/default.nix#L62",
             "skip": {
                 "ci": true
             },
@@ -106928,7 +107117,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/tools/geo/tilesets-cli/default.nix#L28",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/tools/geo/tilesets-cli/default.nix#L33",
             "unfree": false,
             "unsupported": false
         },
@@ -107035,6 +107224,171 @@
             "unsupported": false
         },
         "_attr": "tpkutils",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.tracks_storage_server": {
+        "name": "tracks_storage_server-2018-03-24",
+        "pname": "tracks_storage_server",
+        "version": "2018-03-24",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Tracks storage server",
+            "homepage": "https://github.com/wladich/tracks_storage_server",
+            "insecure": false,
+            "isBuildPythonPackage": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "s390-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "license": {
+                "fullName": "Unspecified free software license",
+                "shortName": "free"
+            },
+            "mainProgram": "tracks_storage_server",
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "tracks_storage_server-2018-03-24",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "aarch64-genode",
+                "i686-genode",
+                "x86_64-genode",
+                "x86_64-solaris",
+                "js-ghcjs",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "mmix-mmixware",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "aarch64-none",
+                "arm-none",
+                "armv6l-none",
+                "avr-none",
+                "i686-none",
+                "msp430-none",
+                "or1k-none",
+                "m68k-none",
+                "powerpc-none",
+                "riscv32-none",
+                "riscv64-none",
+                "s390-none",
+                "vc4-none",
+                "x86_64-none",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox",
+                "wasm64-wasi",
+                "wasm32-wasi",
+                "x86_64-windows",
+                "i686-windows"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/nakarte/tracks_storage_server/default.nix#L66",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "tracks_storage_server",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.usa-osm-topo-routable": {
@@ -107219,7 +107573,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/applications/visualgps/default.nix#L36",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/applications/visualgps/default.nix#L37",
             "unfree": false,
             "unsupported": false
         },
