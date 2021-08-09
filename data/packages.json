@@ -94396,9 +94396,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox-aarch64": {
-        "name": "embox-aarch64-qemu-0.5.3",
+        "name": "embox-aarch64-qemu-2021-08-09",
         "pname": "embox-aarch64-qemu",
-        "version": "0.5.3",
+        "version": "2021-08-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94426,7 +94426,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-aarch64-qemu-0.5.3",
+            "name": "embox-aarch64-qemu-2021-08-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -94469,7 +94469,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L94",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L96",
             "skip": {
                 "ci": true
             },
@@ -94480,9 +94480,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox-arm": {
-        "name": "embox-arm-qemu-0.5.3",
+        "name": "embox-arm-qemu-2021-08-09",
         "pname": "embox-arm-qemu",
-        "version": "0.5.3",
+        "version": "2021-08-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94510,7 +94510,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-arm-qemu-0.5.3",
+            "name": "embox-arm-qemu-2021-08-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -94553,7 +94553,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L94",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L96",
             "skip": {
                 "ci": true
             },
@@ -94564,9 +94564,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox-ppc": {
-        "name": "embox-ppc-qemu-0.5.3",
+        "name": "embox-ppc-qemu-2021-08-09",
         "pname": "embox-ppc-qemu",
-        "version": "0.5.3",
+        "version": "2021-08-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94594,7 +94594,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-ppc-qemu-0.5.3",
+            "name": "embox-ppc-qemu-2021-08-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -94637,7 +94637,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L94",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L96",
             "skip": {
                 "ci": true
             },
@@ -94648,9 +94648,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox-riscv64": {
-        "name": "embox-riscv64-qemu-0.5.3",
+        "name": "embox-riscv64-qemu-2021-08-09",
         "pname": "embox-riscv64-qemu",
-        "version": "0.5.3",
+        "version": "2021-08-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94678,7 +94678,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-riscv64-qemu-0.5.3",
+            "name": "embox-riscv64-qemu-2021-08-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -94721,7 +94721,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L94",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L96",
             "skip": {
                 "ci": true
             },
@@ -94732,9 +94732,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.embox-x86": {
-        "name": "embox-x86-qemu-0.5.3",
+        "name": "embox-x86-qemu-2021-08-09",
         "pname": "embox-x86-qemu",
-        "version": "0.5.3",
+        "version": "2021-08-09",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -94762,7 +94762,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "embox-x86-qemu-0.5.3",
+            "name": "embox-x86-qemu-2021-08-09",
             "outputsToInstall": [
                 "out"
             ],
@@ -94805,7 +94805,7 @@
                 "x86_64-openbsd",
                 "x86_64-redox"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L94",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/embox/default.nix#L96",
             "skip": {
                 "ci": true
             },
