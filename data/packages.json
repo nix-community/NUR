@@ -5387,9 +5387,9 @@
         "_repo": "arc"
     },
     "nur.repos.arc.packages.mpd-youtube-dl": {
-        "name": "mpd-youtube-dl-0.22.9",
+        "name": "mpd-youtube-dl-0.22.10",
         "pname": "mpd-youtube-dl",
-        "version": "0.22.9",
+        "version": "0.22.10",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -5436,7 +5436,7 @@
                     "name": "Tobias Mayer"
                 }
             ],
-            "name": "mpd-youtube-dl-0.22.9",
+            "name": "mpd-youtube-dl-0.22.10",
             "outputsToInstall": [
                 "out",
                 "man"
