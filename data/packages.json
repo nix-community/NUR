@@ -110256,6 +110256,33 @@
         "_attr": "st",
         "_repo": "uleenucks"
     },
+    "nur.repos.vojtechstep.uwu": {
+        "name": "uwu",
+        "pname": "uwu",
+        "version": "",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Obfuscated C uwu",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
+            },
+            "name": "uwu",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/vojtechstep/pkgs/uwu/default.nix#L21",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "uwu",
+        "_repo": "vojtechstep"
+    },
     "nur.repos.vroad.looking-glass-client": {
         "name": "looking-glass-client-5d5eb47598e74f7d398d4150267aa44d33eafd91",
         "pname": "looking-glass-client",
