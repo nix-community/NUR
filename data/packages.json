@@ -13509,7 +13509,7 @@
                 "aarch64-darwin",
                 "armv7a-darwin"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/devins2518/pkgs/paper/default.nix#L32",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/devins2518/pkgs/paper/default.nix#L39",
             "unfree": false,
             "unsupported": false
         },
@@ -25979,9 +25979,9 @@
         "_repo": "ivar"
     },
     "nur.repos.ivar.yuzu-ea": {
-        "name": "yuzu-ea-1983",
+        "name": "yuzu-ea-1984",
         "pname": "yuzu-ea",
-        "version": "1983",
+        "version": "1984",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -26010,7 +26010,7 @@
                     "name": "Joshua Fern"
                 }
             ],
-            "name": "yuzu-ea-1983",
+            "name": "yuzu-ea-1984",
             "outputsToInstall": [
                 "out"
             ],
