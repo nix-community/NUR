@@ -82504,9 +82504,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.min-twitter": {
-        "name": "min-twitter-3.1.3",
+        "name": "min-twitter-3.1.4",
         "pname": "min-twitter",
-        "version": "3.1.3",
+        "version": "3.1.4",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82520,7 +82520,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "min-twitter-3.1.3",
+            "name": "min-twitter-3.1.4",
             "outputsToInstall": [
                 "out"
             ],
@@ -82594,9 +82594,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.multi-account-containers": {
-        "name": "multi-account-containers-7.3.0",
+        "name": "multi-account-containers-7.4.0",
         "pname": "multi-account-containers",
-        "version": "7.3.0",
+        "version": "7.4.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82610,7 +82610,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "multi-account-containers-7.3.0",
+            "name": "multi-account-containers-7.4.0",
             "outputsToInstall": [
                 "out"
             ],
