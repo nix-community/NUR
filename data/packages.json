@@ -72707,6 +72707,70 @@
         "_attr": "lsix",
         "_repo": "plabadens"
     },
+    "nur.repos.plabadens.nwg-dock": {
+        "name": "nwg-dock-0.1.5",
+        "pname": "nwg-dock",
+        "version": "0.1.5",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Application drawer for sway Wayland compositor",
+            "homepage": "https://github.com/nwg-piotr/nwg-dock",
+            "insecure": false,
+            "license": {
+                "fullName": "MIT License",
+                "shortName": "mit",
+                "spdxId": "MIT",
+                "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "maintainers": [
+                {
+                    "email": "labadens.pierre+nixpkgs@gmail.com",
+                    "github": "plabadens",
+                    "githubId": 4303706,
+                    "keys": [
+                        {
+                            "fingerprint": "B00F E582 FD3F 0732 EA48  3937 F558 14E4 D687 4375",
+                            "longkeyid": "rsa2048/0xF55814E4D6874375"
+                        }
+                    ],
+                    "name": "Pierre Labadens"
+                },
+                {
+                    "email": "wael.nasreddine@gmail.com",
+                    "github": "kalbasit",
+                    "githubId": 87115,
+                    "name": "Wael Nasreddine"
+                }
+            ],
+            "name": "nwg-dock-0.1.5",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/plabadens/pkgs/nwg-dock/default.nix#L29",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "nwg-dock",
+        "_repo": "plabadens"
+    },
     "nur.repos.plabadens.python3Packages.obspy": {
         "name": "python3.9-obspy-1.2.2",
         "pname": "python3.9-obspy",
