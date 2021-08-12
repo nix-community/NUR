@@ -20231,9 +20231,9 @@
         "_repo": "emmanuelrosa"
     },
     "nur.repos.emmanuelrosa.bitcoin-onion-nodes": {
-        "name": "bitcoin-onion-nodes-0336c52bf9484ac91ed6797991796066249586c9.txt",
+        "name": "bitcoin-onion-nodes-1.0.txt",
         "pname": "bitcoin-onion-nodes",
-        "version": "0336c52bf9484ac91ed6797991796066249586c9.txt",
+        "version": "1.0.txt",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -20255,7 +20255,7 @@
                     "name": "Emmanuel Rosa"
                 }
             ],
-            "name": "bitcoin-onion-nodes-0336c52bf9484ac91ed6797991796066249586c9.txt",
+            "name": "bitcoin-onion-nodes-1.0.txt",
             "outputsToInstall": [
                 "out"
             ],
@@ -106338,6 +106338,87 @@
             "unsupported": false
         },
         "_attr": "stardict-tools",
+        "_repo": "sikmir"
+    },
+    "nur.repos.sikmir.stargazer": {
+        "name": "stargazer-0.5.0",
+        "pname": "stargazer",
+        "version": "0.5.0",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "description": "stargazer is a concurrent Gemini server using async io with no runtime dependencies",
+            "homepage": "https://git.sr.ht/~zethra/stargazer/",
+            "insecure": false,
+            "license": {
+                "fullName": "GNU Affero General Public License v3.0 or later",
+                "shortName": "agpl3Plus",
+                "spdxId": "AGPL-3.0-or-later",
+                "url": "https://spdx.org/licenses/AGPL-3.0-or-later.html"
+            },
+            "maintainers": [
+                {
+                    "email": "sikmir@gmail.com",
+                    "github": "sikmir",
+                    "githubId": 688044,
+                    "keys": [
+                        {
+                            "fingerprint": "ADF4 C13D 0E36 1240 BD01  9B51 D1DE 6D7F 6936 63A5",
+                            "longkeyid": "rsa2048/0xD1DE6D7F693663A5"
+                        }
+                    ],
+                    "name": "Nikolay Korotkiy"
+                }
+            ],
+            "name": "stargazer-0.5.0",
+            "outputsToInstall": [
+                "out"
+            ],
+            "platforms": [
+                "i686-cygwin",
+                "x86_64-cygwin",
+                "x86_64-darwin",
+                "i686-darwin",
+                "aarch64-darwin",
+                "armv7a-darwin",
+                "i686-freebsd",
+                "x86_64-freebsd",
+                "x86_64-solaris",
+                "aarch64-linux",
+                "armv5tel-linux",
+                "armv6l-linux",
+                "armv7a-linux",
+                "armv7l-linux",
+                "i686-linux",
+                "m68k-linux",
+                "mipsel-linux",
+                "powerpc64-linux",
+                "powerpc64le-linux",
+                "riscv32-linux",
+                "riscv64-linux",
+                "s390-linux",
+                "x86_64-linux",
+                "aarch64-netbsd",
+                "armv6l-netbsd",
+                "armv7a-netbsd",
+                "armv7l-netbsd",
+                "i686-netbsd",
+                "m68k-netbsd",
+                "mipsel-netbsd",
+                "powerpc-netbsd",
+                "riscv32-netbsd",
+                "riscv64-netbsd",
+                "x86_64-netbsd",
+                "i686-openbsd",
+                "x86_64-openbsd",
+                "x86_64-redox"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gemini/stargazer/default.nix#L37",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "stargazer",
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.sthkd": {
