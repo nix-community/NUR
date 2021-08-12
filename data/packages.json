@@ -46539,11 +46539,10 @@
             "homepage": "https://obsproject.com",
             "insecure": false,
             "license": {
-                "deprecated": true,
-                "fullName": "GNU General Public License v2.0",
-                "shortName": "gpl2",
-                "spdxId": "GPL-2.0",
-                "url": "https://spdx.org/licenses/GPL-2.0.html"
+                "fullName": "GNU General Public License v2.0 or later",
+                "shortName": "gpl2Plus",
+                "spdxId": "GPL-2.0-or-later",
+                "url": "https://spdx.org/licenses/GPL-2.0-or-later.html"
             },
             "longDescription": "This project is a rewrite of what was formerly known as \"Open Broadcaster\nSoftware\", software originally designed for recording and streaming live\nvideo content, efficiently\n",
             "maintainers": [
@@ -46572,7 +46571,8 @@
             ],
             "platforms": [
                 "x86_64-linux",
-                "i686-linux"
+                "i686-linux",
+                "aarch64-linux"
             ],
             "position": "https://github.com/nix-community/nur-combined/tree/master/repos/jakobrs",
             "unfree": false,
