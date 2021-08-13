@@ -12871,8 +12871,8 @@
         "_repo": "dan4ik605743"
     },
     "nur.repos.dan4ik605743.lyra-cursors": {
-        "name": "my-cursor",
-        "pname": "my-cursor",
+        "name": "Lyra-Cursors-Bin",
+        "pname": "Lyra-Cursors-Bin",
         "version": "",
         "system": "x86_64-linux",
         "meta": {
@@ -12895,7 +12895,7 @@
                     "name": "Danil Danevich"
                 }
             ],
-            "name": "my-cursor",
+            "name": "Lyra-Cursors-Bin",
             "outputsToInstall": [
                 "out"
             ],
@@ -12915,7 +12915,7 @@
                 "s390-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/lyra-cursors/default.nix#L22",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/dan4ik605743/pkgs/lyra-cursors/default.nix#L19",
             "unfree": false,
             "unsupported": false
         },
