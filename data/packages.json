@@ -61957,9 +61957,9 @@
         "_repo": "mic92"
     },
     "nur.repos.mic92.mosh-ssh-agent": {
-        "name": "mosh-ssh-agent-2020-07-22",
+        "name": "mosh-ssh-agent-2021-08-13",
         "pname": "mosh-ssh-agent",
-        "version": "2020-07-22",
+        "version": "2021-08-13",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -61973,7 +61973,7 @@
                 "spdxId": "GPL-3.0-or-later",
                 "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
             },
-            "name": "mosh-ssh-agent-2020-07-22",
+            "name": "mosh-ssh-agent-2021-08-13",
             "outputsToInstall": [
                 "out"
             ],
@@ -79043,7 +79043,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "Control your cookies! This WebExtension is inspired by Self Destructing Cookies. When a tab closes, any cookies not being used are automatically deleted. Whitelist the ones you trust while deleting the rest. Support for Container Tabs.",
+            "description": "Control your cookies! This WebExtension is inspired by Self Destructing Cookies. When a tab closes, any cookies not being used are automatically deleted. Keep the ones you trust (forever/until restart) while deleting the rest. Containers Supported",
             "homepage": "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete",
             "insecure": false,
             "license": {
@@ -82631,9 +82631,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.metamask": {
-        "name": "metamask-9.8.4",
+        "name": "metamask-10.0.1",
         "pname": "metamask",
-        "version": "9.8.4",
+        "version": "10.0.1",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82646,7 +82646,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "metamask-9.8.4",
+            "name": "metamask-10.0.1",
             "outputsToInstall": [
                 "out"
             ],
@@ -84544,9 +84544,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.privacy-badger": {
-        "name": "privacy-badger-2021.6.8",
+        "name": "privacy-badger-2021.8.11",
         "pname": "privacy-badger",
-        "version": "2021.6.8",
+        "version": "2021.8.11",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -84561,7 +84561,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "privacy-badger-2021.6.8",
+            "name": "privacy-badger-2021.8.11",
             "outputsToInstall": [
                 "out"
             ],
