@@ -82011,9 +82011,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.duckduckgo-privacy-essentials": {
-        "name": "duckduckgo-privacy-essentials-2021.7.30",
+        "name": "duckduckgo-privacy-essentials-2021.8.13.36133",
         "pname": "duckduckgo-privacy-essentials",
-        "version": "2021.7.30",
+        "version": "2021.8.13.36133",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82030,7 +82030,7 @@
                 "spdxId": "Apache-2.0",
                 "url": "https://spdx.org/licenses/Apache-2.0.html"
             },
-            "name": "duckduckgo-privacy-essentials-2021.7.30",
+            "name": "duckduckgo-privacy-essentials-2021.8.13.36133",
             "outputsToInstall": [
                 "out"
             ],
@@ -82383,9 +82383,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.ff2mpv": {
-        "name": "ff2mpv-3.7.1",
+        "name": "ff2mpv-3.8.0",
         "pname": "ff2mpv",
-        "version": "3.7.1",
+        "version": "3.8.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -82402,7 +82402,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "ff2mpv-3.7.1",
+            "name": "ff2mpv-3.8.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -83312,9 +83312,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.grammarly": {
-        "name": "grammarly-8.881.0",
+        "name": "grammarly-8.882.0",
         "pname": "grammarly",
-        "version": "8.881.0",
+        "version": "8.882.0",
         "system": "x86_64-linux",
         "meta": {
             "available": false,
@@ -83328,7 +83328,7 @@
                 "shortName": "grammarly",
                 "url": "https://www.grammarly.com/terms"
             },
-            "name": "grammarly-8.881.0",
+            "name": "grammarly-8.882.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -87408,9 +87408,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.react-devtools": {
-        "name": "react-devtools-4.14.0",
+        "name": "react-devtools-4.16.0",
         "pname": "react-devtools",
-        "version": "4.14.0",
+        "version": "4.16.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -87427,7 +87427,7 @@
                 "spdxId": "MIT",
                 "url": "https://spdx.org/licenses/MIT.html"
             },
-            "name": "react-devtools-4.14.0",
+            "name": "react-devtools-4.16.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -88523,9 +88523,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.stylus": {
-        "name": "stylus-1.5.19",
+        "name": "stylus-1.5.20",
         "pname": "stylus",
-        "version": "1.5.19",
+        "version": "1.5.20",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -88542,7 +88542,7 @@
                 "spdxId": "GPL-3.0",
                 "url": "https://spdx.org/licenses/GPL-3.0.html"
             },
-            "name": "stylus-1.5.19",
+            "name": "stylus-1.5.20",
             "outputsToInstall": [
                 "out"
             ],
@@ -88708,9 +88708,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tab-session-manager": {
-        "name": "tab-session-manager-6.9.0",
+        "name": "tab-session-manager-6.10.0",
         "pname": "tab-session-manager",
-        "version": "6.9.0",
+        "version": "6.10.0",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -88727,7 +88727,7 @@
                 "spdxId": "MPL-2.0",
                 "url": "https://spdx.org/licenses/MPL-2.0.html"
             },
-            "name": "tab-session-manager-6.9.0",
+            "name": "tab-session-manager-6.10.0",
             "outputsToInstall": [
                 "out"
             ],
@@ -89728,9 +89728,9 @@
         "_repo": "rycee"
     },
     "nur.repos.rycee.firefox-addons.tree-style-tab": {
-        "name": "tree-style-tab-3.8.8",
+        "name": "tree-style-tab-3.8.9",
         "pname": "tree-style-tab",
-        "version": "3.8.8",
+        "version": "3.8.9",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -89744,7 +89744,7 @@
                 "shortName": "tree-style-tab",
                 "url": "https://github.com/piroor/treestyletab/blob/trunk/COPYING.txt"
             },
-            "name": "tree-style-tab-3.8.8",
+            "name": "tree-style-tab-3.8.9",
             "outputsToInstall": [
                 "out"
             ],
