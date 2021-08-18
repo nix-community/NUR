@@ -103982,7 +103982,7 @@
                 "s390-linux",
                 "x86_64-linux"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gis/mapsoft/2.nix#L80",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/gis/mapsoft/2.nix#L89",
             "skip": {
                 "ci": true
             },
@@ -103993,9 +103993,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.maptourist": {
-        "name": "maptourist-2021-08-12",
+        "name": "maptourist-2021-08-16",
         "pname": "maptourist",
-        "version": "2021-08-12",
+        "version": "2021-08-16",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -104024,7 +104024,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "maptourist-2021-08-12",
+            "name": "maptourist-2021-08-16",
             "outputsToInstall": [
                 "out"
             ],
@@ -104395,9 +104395,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.mtk-suomi": {
-        "name": "mtk-suomi-2021-07-24",
+        "name": "mtk-suomi-2021-08-14",
         "pname": "mtk-suomi",
-        "version": "2021-07-24",
+        "version": "2021-08-14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -104426,7 +104426,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "mtk-suomi-2021-07-24",
+            "name": "mtk-suomi-2021-08-14",
             "outputsToInstall": [
                 "out"
             ],
@@ -108512,9 +108512,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.routinodb": {
-        "name": "routinodb-210812",
+        "name": "routinodb-210816",
         "pname": "routinodb",
-        "version": "210812",
+        "version": "210816",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -108543,7 +108543,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "routinodb-210812",
+            "name": "routinodb-210816",
             "outputsToInstall": [
                 "out"
             ],
@@ -109692,7 +109692,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/maps/slazav/hr.nix#L16",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/maps/slazav/hr.nix#L21",
             "skip": {
                 "ci": true
             },
@@ -109818,7 +109818,7 @@
         "meta": {
             "available": true,
             "broken": false,
-            "description": "\u041a\u0430\u0440\u0442\u044b \u041f\u043e\u0434\u043c\u043e\u0441\u043a\u043e\u0432\u044c\u044f \u0432 \u0432\u0438\u0434\u0435 \u043d\u043e\u043c\u0435\u043d\u043a\u043b\u0430\u0442\u0443\u0440\u043d\u044b\u0445 \u043b\u0438\u0441\u0442\u043e\u0432 1:100000 - \u0438\u0441\u0445\u043e\u0434\u043d\u0438\u043a\u0438 \u0432 \u0444\u043e\u0440\u043c\u0430\u0442\u0435 mapsoft vmap",
+            "description": "Slazav Moscow region map",
             "homepage": "http://slazav.xyz/maps/",
             "insecure": false,
             "license": {
@@ -109908,7 +109908,7 @@
                 "x86_64-windows",
                 "i686-windows"
             ],
-            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/maps/slazav/podm.nix#L16",
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/sikmir/pkgs/data/maps/slazav/podm.nix#L21",
             "skip": {
                 "ci": true
             },
@@ -110641,9 +110641,9 @@
         "_repo": "sikmir"
     },
     "nur.repos.sikmir.tatoeba": {
-        "name": "tatoeba-2021-07-24",
+        "name": "tatoeba-2021-08-14",
         "pname": "tatoeba",
-        "version": "2021-07-24",
+        "version": "2021-08-14",
         "system": "x86_64-linux",
         "meta": {
             "available": true,
@@ -110672,7 +110672,7 @@
                     "name": "Nikolay Korotkiy"
                 }
             ],
-            "name": "tatoeba-2021-07-24",
+            "name": "tatoeba-2021-08-14",
             "outputsToInstall": [
                 "out"
             ],
