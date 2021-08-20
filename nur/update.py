@@ -53,9 +53,9 @@ import {EVALREPO_PATH} {{
             cmd, env=dict(PATH=os.environ["PATH"]), stdout=subprocess.DEVNULL
         )
         try:
-            res = proc.wait(5)
+            res = proc.wait(10)
         except subprocess.TimeoutExpired:
-            raise EvalError(f"evaluation for {repo.name} timed out of after 5 seconds")
+            raise EvalError(f"evaluation for {repo.name} timed out of after 10 seconds")
         if res != 0:
             raise EvalError(f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}")
 
