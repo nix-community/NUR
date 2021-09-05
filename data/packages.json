@@ -13185,6 +13185,26 @@
         "_attr": "python3Packages.web2ldap",
         "_repo": "crtified"
     },
+    "nur.repos.crtified.self-service-password": {
+        "name": "self-service-password-1.4.3",
+        "pname": "self-service-password",
+        "version": "1.4.3",
+        "system": "x86_64-linux",
+        "meta": {
+            "available": true,
+            "broken": false,
+            "insecure": false,
+            "name": "self-service-password-1.4.3",
+            "outputsToInstall": [
+                "out"
+            ],
+            "position": "https://github.com/nix-community/nur-combined/tree/master/repos/crtified/pkgs/self-service-password/default.nix#L5",
+            "unfree": false,
+            "unsupported": false
+        },
+        "_attr": "self-service-password",
+        "_repo": "crtified"
+    },
     "nur.repos.dan4ik605743.bitmap-fonts": {
         "name": "bitmap-fonts",
         "pname": "bitmap-fonts",
