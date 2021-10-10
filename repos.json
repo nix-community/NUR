@@ -416,6 +416,7 @@
             "url": "https://github.com/milahu/nur-packages"
         },
         "mipmip": {
+            "branch": "main",
             "file": "pkgs/default.nix",
             "github-contact": "mipmip",
             "url": "https://github.com/mipmip/nixos"
