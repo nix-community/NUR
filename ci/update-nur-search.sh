@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -p git -p nix -p bash -i bash
+#!nix-shell -p git -p nixUnstable -p bash -i bash
 
 set -eu -o pipefail # Exit with nonzero exit code if anything fails
 
@@ -12,13 +12,15 @@ set -x
 # build package.json for nur-search
 # ---------------------------------
 
-nix-build --quiet release.nix
+nix build "${DIR}#"
 
-git clone --single-branch "https://$API_TOKEN_GITHUB@github.com/nix-community/nur-combined.git"
+cd "${DIR}/.."
 
-git clone --recurse-submodules "https://$API_TOKEN_GITHUB@github.com/nix-community/nur-search.git"
+git clone --single-branch "https://${API_TOKEN_GITHUB:-git}@github.com/nix-community/nur-combined.git" || git -C nur-combined pull
 
-nix run '(import ./release.nix {})' -c nur index nur-combined > nur-search/data/packages.json
+git clone --recurse-submodules "https://${API_TOKEN_GITHUB:-git}@github.com/nix-community/nur-search.git" || git -C nur-search pull
+
+nix run "${DIR}#" -- index nur-combined > nur-search/data/packages.json
 
 # rebuild and publish nur-search repository
 # -----------------------------------------
