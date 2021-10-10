@@ -5,3 +5,6 @@ theme = "docdock"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe = true

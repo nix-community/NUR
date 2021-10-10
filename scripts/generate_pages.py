@@ -25,6 +25,12 @@ title = "{repo_name}"
 
 # Packages
 
+<style>
+table td {{
+overflow-wrap: break-word;
+}}
+</style>
+
 Name | Attribute | Description
 -----|-----------|------------
 """
