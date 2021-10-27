@@ -299,8 +299,8 @@ perform also an evaluation check, which must be passed for your repository. Comm
 `repos.json` but NOT `repos.json.lock`
 
 ```
-$ git add repos.json
 $ ./bin/nur format-manifest # ensure repos.json is sorted alphabetically
+$ git add repos.json
 $ git commit -m "add <your-repo-name> repository"
 $ git push
 ```
