@@ -3,8 +3,31 @@ languageCode = "en-us"
 title = "Packages search for NUR"
 theme = "docdock"
 
+[params]
+themeStyle = "nur"
+disableHomeIcon = false
+disableNavChevron = false
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-plus'></i> <label>Add your repo</label>"
+url = "/documentation/#how-to-add-your-own-repository"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-book'></i> <label>Documentation</label>"
+url = "/documentation/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-github'></i> <label>NUR Project</label>"
+url = "https://github.com/nix-community/NUR"
+weight = 31
+
+

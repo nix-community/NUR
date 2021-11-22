@@ -5,5 +5,6 @@ stdenv.mkDerivation {
     bashInteractive
     hugo
     python3
+    python3Packages.requests
   ];
 }
