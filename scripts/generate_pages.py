@@ -5,6 +5,7 @@ import os
 import shutil
 from pathlib import Path
 from typing import Any, DefaultDict, Dict, List
+import requests
 
 ROOT = Path(__file__).parent.parent.resolve()
 
@@ -55,30 +56,59 @@ Name | Attribute | Description
 
             f.write(f"{name}|{attribute}|{description}\n")
 
-
-def main() -> None:
-    with open(ROOT.joinpath("data", "packages.json")) as f:
-        repos: DefaultDict[str, List[Package]] = DefaultDict(list)
-        packages = json.load(f)
-        for attribute, pkg in packages.items():
-            repos[pkg["_repo"]].append(Package(attribute, pkg))
-
-        repos_path = ROOT.joinpath("content", "repos")
-        shutil.rmtree(repos_path, ignore_errors=True)
-        os.makedirs(repos_path)
-        with open(repos_path.joinpath("_index.md"), "w+") as f:
-            f.write("""
+def download_readme():
+    url = "https://raw.githubusercontent.com/nix-community/NUR/master/README.md"
+    r = requests.get(url)
+    with open("content/documentation/_index.md", 'wb') as f:
+        fm = bytes("""
 +++
-title = "Repos"
+title = "Documentation"
 weight = 1
 alwaysopen = true
 +++
+""", 'utf-8')
+        f.write(fm)
+        f.write(r.content)
+
+def create_repos_section():
+    repos_path = ROOT.joinpath("content", "repos")
+    shutil.rmtree(repos_path, ignore_errors=True)
+    os.makedirs(repos_path)
+    with open(repos_path.joinpath("_index.md"), "w+") as f:
+        f.write("""
++++
+title = "Repos"
+weight = 10
+alwaysopen = true
++++
 # Repo index
+
 """)
 
+def main() -> None:
+
+    download_readme()
+
+    with open(ROOT.joinpath("data", "packages.json")) as f:
+        repos: DefaultDict[str, List[Package]] = DefaultDict(list)
+        packages = json.load(f)
+        pkg_count = 0
+        for attribute, pkg in packages.items():
+            pkg_count += 1
+            repos[pkg["_repo"]].append(Package(attribute, pkg))
+
+        repos_path = ROOT.joinpath("content", "repos")
+        create_repos_section()
+
+        repo_count = 0
         for repo_name, pkgs in repos.items():
+            repo_count += 1
             write_repo_page(repos_path, repo_name, pkgs)
 
+        stats_dict={'repo_count':repo_count, 'pkg_count': pkg_count}
+        stats_path = ROOT.joinpath("data", "stats.json")
+        with open(stats_path, "w+") as f:
+            f.write(json.dumps(stats_dict))
 
 if __name__ == "__main__":
     main()
