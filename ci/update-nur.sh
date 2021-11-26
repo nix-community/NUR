@@ -9,13 +9,15 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 source ${DIR}/lib/setup-git.sh
 set -x
 
-nix run ${DIR}# -- update
+nix run "${DIR}#" -- update
 
 cd ${DIR}/..
 
 git clone \
   --single-branch \
   "https://$API_TOKEN_GITHUB@github.com/nix-community/nur-combined.git"
+
+nix run "${DIR}#" -- combine nur-combined
 
 if [[ -z "$(git diff --exit-code)" ]]; then
   echo "No changes to the output on this push; exiting."

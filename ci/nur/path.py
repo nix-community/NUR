@@ -26,6 +26,7 @@ def _find_root() -> Path:
                     return new_root
                 else:
                     raise NurError("NUR repository not found in current directory")
+            root = new_root
 
 
 ROOT = _find_root()
