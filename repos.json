@@ -392,6 +392,12 @@
             "github-contact": "lucasew",
             "url": "https://github.com/lucasew/nixcfg"
         },
+        "m15a": {
+            "branch": "main",
+            "github-contact": "m15a",
+            "submodules": true,
+            "url": "https://github.com/m15a/nur-packages"
+        },
         "makefu": {
             "file": "nur.nix",
             "github-contact": "makefu",
