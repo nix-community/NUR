@@ -469,6 +469,12 @@
             "sha256": "118s716x8dq3yjbpgc30cf7y5gfq8j6zwmbixs76qrc1yrb1b1af",
             "url": "https://github.com/lucasew/nixcfg"
         },
+        "m15a": {
+            "rev": "915b58fe0195ffb2d4ae21e058fddc39b4fbf0d5",
+            "sha256": "0arsn4va2aybpm3abvashcgckk30lhcxp3rfih6ybsq6jcsh24qw",
+            "submodules": true,
+            "url": "https://github.com/m15a/nur-packages"
+        },
         "makefu": {
             "rev": "f00511612219ed6fdd79252701ebf89227e1cb98",
             "sha256": "1wx1c3hi5d6b814lkg6a7j54h2s7gdms9qzfyiib1j7gaknaiin2",
