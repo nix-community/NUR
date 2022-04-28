@@ -26,7 +26,7 @@ class GitPrefetcher:
 
     def latest_commit(self) -> str:
         data = subprocess.check_output(
-            ["git", "ls-remote", self.repo.url.geturl(), self.repo.branch],
+            ["git", "ls-remote", self.repo.url.geturl(), self.repo.branch or "HEAD"],
             env={**os.environ, "GIT_ASKPASS": "", "GIT_TERMINAL_PROMPT": "0"},
         )
         return data.decode().split(maxsplit=1)[0]
@@ -35,7 +35,8 @@ class GitPrefetcher:
         cmd = ["nix-prefetch-git"]
         if self.repo.submodules:
             cmd += ["--fetch-submodules"]
-        cmd += ["--rev", f"refs/heads/{self.repo.branch}"]
+        if self.repo.branch:
+            cmd += ["--rev", f"refs/heads/{self.repo.branch}"]
         cmd += [self.repo.url.geturl()]
         proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         try:
