@@ -357,8 +357,8 @@
             "url": "https://git.immae.eu/perso/Immae/Config/Nix/NUR.git"
         },
         "instantos": {
-            "rev": "992c3481e932252ad740a5e1ec5a8b96c552abdc",
-            "sha256": "16ldspb3zwmdwyizr9y6x82bmvyabjhsb8n41n49v5jsf5rr63hv",
+            "rev": "cf105effa2d1848c3f28de79fc2ee7a2ebcfa4a5",
+            "sha256": "191rlfnl6nshpllfh3cxhsqrmzsdmsi3vjrax97q065168la37q3",
             "url": "https://github.com/instantOS/nix"
         },
         "ivar": {
@@ -437,8 +437,8 @@
             "url": "https://github.com/kf5grd/nur-packages"
         },
         "kira-bruneau": {
-            "rev": "b6ef9a02d4bb3ad21e0aee33e6fc449c45f28e7a",
-            "sha256": "08smbzvvsvibx0fcd2wpw4d56wgby5ifz4wfm6qqn0r05pf1ikyy",
+            "rev": "0c079f75ceee23e8c348e5accde654b667aa064a",
+            "sha256": "17103i3hamdy51g70hhj1dz37s248cnan13n9332ak32hxgnpsi5",
             "url": "https://gitlab.com/kira-bruneau/nur-packages"
         },
         "kolloch": {
@@ -625,6 +625,11 @@
             "sha256": "0xiws8k1ba8939z0njvaypv6vx6pn62vgx086lx5dn0fdrr4x2b8",
             "url": "https://github.com/Jake-Gillberg/nix-data"
         },
+        "nix-swift-packages": {
+            "rev": "44a1dc3a5159e881da2d168bb2e4017f2eec99e1",
+            "sha256": "0qlyc27ldm82w7zs8yifwj0xkfwbivvgn5ffwkr8az7flwycb310",
+            "url": "https://github.com/dduan/nix-swift-packages"
+        },
         "nnb": {
             "rev": "6c48f4ed223c55bee55819b4b39f08c3b0cbfa30",
             "sha256": "1q2xj57rhjqhjbvb13ih9hiffkn5mlh7lcqrz0v1i4gnhxl28bz9",
@@ -646,8 +651,8 @@
             "url": "https://github.com/nerdypepper/npkgs"
         },
         "nprindle": {
-            "rev": "ac49fce4b8d50e295ce3c16cad475d9f66743474",
-            "sha256": "12mykbngnlz9j2xw10jpz4jbl58k2v05nvnkx64qr8zshf7nafm0",
+            "rev": "cc3d49bf460f11c487aa4cfca61aa5077e0ebd68",
+            "sha256": "1qpdiffq6kg6i476snwhwkj50mwlyhlq9g5qbl4y4vazjn37akin",
             "url": "https://github.com/nprindle/nur-packages"
         },
         "ondt": {
@@ -772,8 +777,8 @@
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "schmittlauch": {
-            "rev": "6685d83cee309b06f5f025ff38caf133426ce89c",
-            "sha256": "0ds290x4y2j3mr1wk810faqj2c8gqxhq0fng51yivbhsf2wg98qv",
+            "rev": "6f4739cf5cc00030001ee3792b60f2003b12083d",
+            "sha256": "1449lszgfwf462gjlc14lbcx32611x8qigiq4nvqqnilvfghkl08",
             "url": "https://github.com/schmittlauch/nur-packages"
         },
         "sehqlr": {
@@ -810,6 +815,11 @@
             "rev": "8778d81a533729d44b5ca3988187bfaee897feea",
             "sha256": "0rss3rdwqprf6i9xgnqylk0svsz5a0l0ppdfy9q1svcl6s7hcr87",
             "url": "https://github.com/sikmir/nur-packages"
+        },
+        "sky": {
+            "rev": "9aaf7d1f8115915ec113e0bda84b81792cd2319b",
+            "sha256": "0bknfmfwiz8dh0n27nqgs4kwqvr1irppks7aj95vay644vp7l357",
+            "url": "https://github.com/SkyLeite/nix-repository"
         },
         "smaret": {
             "rev": "60ab13411b7449cd30c995dcec40fa26834c7df0",
