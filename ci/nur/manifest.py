@@ -67,10 +67,7 @@ class Repo:
             self.file = "default.nix"
         else:
             self.file = file_
-        if branch is None:
-            self.branch = "master"
-        else:
-            self.branch = branch
+        self.branch = branch
         self.locked_version = None
 
         if (
@@ -155,7 +152,7 @@ def load_manifest(manifest_path: PathType, lock_path: PathType) -> Manifest:
     for name, repo in data["repos"].items():
         url = urlparse(repo["url"])
         submodules = repo.get("submodules", False)
-        branch_ = repo.get("branch", "master")
+        branch_ = repo.get("branch")
         file_ = repo.get("file", "default.nix")
         type_ = repo.get("type", None)
         locked_version = locked_versions.get(name)
