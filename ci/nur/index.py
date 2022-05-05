@@ -1,6 +1,7 @@
 import json
 import subprocess
 import sys
+import os
 from argparse import Namespace
 from pathlib import Path
 from tempfile import NamedTemporaryFile
@@ -73,9 +74,11 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
     with NamedTemporaryFile(mode="w") as f:
         f.write(expr)
         f.flush()
+        env = os.environ.copy()
+        env.update(NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1")
         query_cmd = ["nix-env", "-qa", "*", "--json", "-f", str(f.name)]
         try:
-            out = subprocess.check_output(query_cmd)
+            out = subprocess.check_output(query_cmd, env=env)
         except subprocess.CalledProcessError:
             print(f"failed to evaluate {repo}", file=sys.stderr)
             return {}

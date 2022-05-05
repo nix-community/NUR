@@ -49,9 +49,8 @@ import {EVALREPO_PATH} {{
         # fmt: on
 
         logger.info(f"Evaluate repository {repo.name}")
-        proc = subprocess.Popen(
-            cmd, env=dict(PATH=os.environ["PATH"]), stdout=subprocess.DEVNULL
-        )
+        env = dict(PATH=os.environ["PATH"], NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1")
+        proc = subprocess.Popen(cmd, env=env, stdout=subprocess.DEVNULL)
         try:
             res = proc.wait(10)
         except subprocess.TimeoutExpired:
