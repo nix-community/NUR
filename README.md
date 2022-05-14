@@ -347,6 +347,21 @@ With every build triggered via the URL hook all repositories will be evaluated.O
 
 You can find out if your evaluation succeeded by checking the [latest build job](https://github.com/nix-community/NUR/actions).
 
+#### Local evaluation check
+
+In your `nur-packages/` folder, run the [check evaluation](https://github.com/nix-community/nur-packages-template/blob/master/.github/workflows/build.yml) task
+
+```sh
+nix-env -f . -qa \* --meta --xml \
+  --allowed-uris https://static.rust-lang.org \
+  --option restrict-eval true \
+  --option allow-import-from-derivation true \
+  --drv-path --show-trace \
+  -I nixpkgs=$(nix-instantiate --find-file nixpkgs) \
+  -I ./
+```
+
+On success, this shows an XML document with a list of your packages
 
 ### Git submodules
 
