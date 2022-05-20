@@ -361,6 +361,11 @@
             "sha256": "05irxc736ahckv4cn1f0l2cprwqx6h56m2a61ipjr795h72gmlcd",
             "url": "https://git.immae.eu/perso/Immae/Config/Nix/NUR.git"
         },
+        "imsofi": {
+            "rev": "e99becce11ffefb42ffa7b95b3e611da059b27b4",
+            "sha256": "04gzsdgjq9cnm7jz2vjlw95z4aa5cb6ynfr2ckjyvw6y6f7y5ijw",
+            "url": "https://github.com/imsofi/nur-pkgs"
+        },
         "instantos": {
             "rev": "cf105effa2d1848c3f28de79fc2ee7a2ebcfa4a5",
             "sha256": "191rlfnl6nshpllfh3cxhsqrmzsdmsi3vjrax97q065168la37q3",
