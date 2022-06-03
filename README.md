@@ -116,7 +116,7 @@ You cannot use `config.nur` for importing NixOS modules from NUR as this will le
 
 Instead use:
 
-```
+```nix
 {
   inputs.nur.url = github:nix-community/NUR;
 
