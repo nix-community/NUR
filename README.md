@@ -128,7 +128,7 @@ Instead use:
           nurpkgs = import nixpkgs { system = "x86_64-linux"; };
         };
       in [
-       imports = [ nur-modules.repos.paul.modules.foo ];
+       { imports = [ nur-modules.repos.paul.modules.foo ]; }
       ];
     };
   };
