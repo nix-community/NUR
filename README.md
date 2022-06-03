@@ -86,6 +86,56 @@ for its content.
 ***NUR does not check the repository for malicious content on a regular basis
 and it is recommended to check the expressions before installing them.***
 
+### Using the flake in NixOS
+
+Using overlays and modules from NUR in your configuration is fairly straight forward.
+
+In your flake.nix add `nur.nixosModules.nur` to your module list:
+
+```nix
+{
+  inputs.nur.url = github:nix-community/NUR;
+
+  outputs = { self, nixpkgs, nur }: {
+    nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
+      # ...
+      modules = [
+        nur.nixosModules.nur
+        # This adds a nur configuration option.
+        # Use `config.nur` for packages like this:
+        # ({ config, ... }: {
+        #   environment.systemPackages = [ config.nur.repos.mic92.hello-nur ];
+        # })
+      ];
+    };
+  };
+}
+```
+
+You cannot use `config.nur` for importing NixOS modules from NUR as this will lead to infinite recursion errrors.
+
+Instead use:
+
+```
+{
+  inputs.nur.url = github:nix-community/NUR;
+
+  outputs = { self, nixpkgs, nur }: {
+    nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
+      # ...
+      modules = let
+        nur-modules = import nur {
+          nurpkgs = import nixpkgs { system = "x86_64-linux"; };
+        };
+      in [
+       imports = [ nur-modules.repos.paul.modules.foo ];
+      ];
+    };
+  };
+}
+```
+
+
 ### Using modules overlays or library functions in NixOS
 
 If you intend to use modules, overlays or library functions in your NixOS configuration.nix, you need to take care to not introduce infinite recursion. Specifically, you need to import NUR like this in the modules:
@@ -128,58 +178,6 @@ in
         extraArgs = "-batch -watch -ui text -repeat 60 -fat";
       };
     };
-  };
-}
-```
-
-### Flake Support
-
-**Experimental** Note that flake support is still experimental and might change in future in a backwards incompatible way.
-Using overlays and modules from NUR in your configuration is fairly straight forward.
-
-In your flake.nix:
-```nix
-{
-  inputs.nur.url = github:nix-community/NUR;
-
-  outputs = {self, nixpkgs, nur }:
-  {
-    nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
-      # ...
-      modules = [
-        # this adds a nur attribute set that can be used for example like this:
-        #  ({ pkgs, ... }: {
-        #    environment.systemPackages = [ pkgs.nur.repos.mic92.hello-nur ];
-        #  })
-        { nixpkgs.overlays = [ nur.overlay ]; }
-      ];
-    };
- };
-}
-```
-
-Using NUR defined modules in your NixOS configuration.nix introduce infinite recursion, you need to add additional imports to prevent it:
-
-```nix
-{
-  inputs.nur.url = "github:nix-community/NUR";
-  outputs = { self, nixpkgs, nur }: rec {
-    nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
-      modules = [
-        { nixpkgs.overlays = [ nur.overlay ]; }
-        ({ pkgs, ... }:
-          let
-            nur-no-pkgs = import nur {
-              nurpkgs = import nixpkgs { system = "x86_64-linux"; };
-            };
-          in {
-            imports = [ nur-no-pkgs.repos.paul.modules.foo ];
-            ...
-         })
-      ];
-    };
-    defaultPackage.x86_64-linux = nixosConfigurations.myConfig.config.system.build.vm;
   };
 }
 ```
