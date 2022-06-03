@@ -125,7 +125,7 @@ Instead use:
       # ...
       modules = let
         nur-modules = import nur {
-          nurpkgs = import nixpkgs { system = "x86_64-linux"; };
+          nurpkgs = inputs.nixpkgs.legacyPackages.x86_64-linux;
         };
       in [
        { imports = [ nur-modules.repos.paul.modules.foo ]; }
