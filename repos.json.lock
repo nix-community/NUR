@@ -85,6 +85,11 @@
             "sha256": "18zzd4hsx62bj8yb4v7qdgc9rrvvsh8hwp9mq1pmpb8i3xilm6rr",
             "url": "https://github.com/balsoft/nur-packages"
         },
+        "bandithedoge": {
+            "rev": "a71fcdff568bae5fa65aa3e8d379eb676d6d4a11",
+            "sha256": "1zw0b5w6py20ll551x9w24gh5zipkrzbmhxpdxqh7a1hjy2z0yys",
+            "url": "https://github.com/bandithedoge/nur-packages"
+        },
         "bb010g": {
             "rev": "68722ce8680a84002d95b4788263ada0a32190a1",
             "sha256": "0aiplnhcgyz4sp2cdm2dnkyr2xpa13pvlns3zl3bvpxd6ixwhm0s",
@@ -489,8 +494,8 @@
             "url": "https://github.com/lheckemann/nixwip"
         },
         "linyinfeng": {
-            "rev": "11c2a2b4d1419fd88ec3dfb22fab7cb5f7146b97",
-            "sha256": "1i85a2r0x8fnmij13nr9id1zbd9myxjyavrhmamz0z9a0p7zvsyh",
+            "rev": "726f6d4be96e8c91fc67b61faa30077c7bcea9fd",
+            "sha256": "1d70hcc5y4ip9i2pafb7rvpqc4mi5p9mfr5g08z3qvhkv7v8xdj0",
             "url": "https://github.com/linyinfeng/nur-packages"
         },
         "lourkeur": {
@@ -1005,6 +1010,11 @@
             "rev": "7414d45aa4575b32863d6651ee5e07cec152b3e9",
             "sha256": "0zkwz8rhxqvnxxw1q50c16fhds9fkxkd4irng02ch0807qbdpj40",
             "url": "https://github.com/xeals/nur-packages"
+        },
+        "xfix": {
+            "rev": "5ee728d23eb3de8f510678a2345bbab61cacaae2",
+            "sha256": "1mqaaqpb5fnjrvmnzw8k9jndqa911aivgsnfa78bi3ch97gp6dsk",
+            "url": "https://github.com/xfix/nur-packages"
         },
         "yellowonion": {
             "rev": "3c221d50110140c582f86bce9bfd360dee254b11",
