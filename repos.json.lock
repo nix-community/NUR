@@ -66,8 +66,8 @@
             "url": "https://github.com/angr/nixpkgs"
         },
         "arc": {
-            "rev": "6c9144dd486ff09d2a29f9260a1ae6f259ee5f3a",
-            "sha256": "19f1irbknk0r153806mm2j18k2wfs8v7i2q5rp2d7d15g1ww3iv5",
+            "rev": "4163d041f6cbb098ad79afbf7580d5b0bea83361",
+            "sha256": "0vfym1r142srn8r1yknwzwcfzag5nf78i14f3mv5mkhg8bw0z8sx",
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "artturin": {
@@ -482,8 +482,8 @@
             "url": "https://github.com/kf5grd/nur-packages"
         },
         "kira-bruneau": {
-            "rev": "87fa254bec10a195462e1a3ffdae1910bc72807a",
-            "sha256": "1mcdckbsp6bdv3xi9dpx9hv3syy0z5wlrp5c42aip8vlili55psm",
+            "rev": "e76db48880c91473bcd8ec2110672d9511ff277a",
+            "sha256": "1br3af2zgkdfx0s2vawgsj3br3i8yay6042xqnkz7m9gzaba6xqh",
             "url": "https://gitlab.com/kira-bruneau/nur-packages"
         },
         "kolloch": {
@@ -529,13 +529,13 @@
             "url": "https://github.com/lschuermann/nur-packages"
         },
         "lucasew": {
-            "rev": "4045ae467c5c8d6cb5f4abeb610574a2cf69acdb",
-            "sha256": "1l2pfpw5n8fgzrjvjc4msrv1w7lsfngpkc58dki2g8g2501d0s10",
+            "rev": "d7ed66fab64a6f24db45fc4221c16856792177fa",
+            "sha256": "0fbmckrgrm0hipl7qya2ibx7aq88gq6ic3sh0dgnyq3r90l7ml8a",
             "url": "https://github.com/lucasew/nixcfg"
         },
         "m15a": {
-            "rev": "5f3bb69010cdc4c524618a6165c3d257e2ea9cbe",
-            "sha256": "0jd38sackjnn0ifjj93awxd2srv4n8kkh8ygvgil34i6p6abs74c",
+            "rev": "da608efc8638da45e71c3ce77e6980d0c2e33dce",
+            "sha256": "1wikgfxgnnakp7skb4vgdgg314plvfrnjcfkjfg8wji2mk5hwzgb",
             "submodules": true,
             "url": "https://github.com/m15a/nur-packages"
         },
