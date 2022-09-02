@@ -419,6 +419,10 @@
             "submodules": true,
             "url": "https://github.com/kreisys/nur-packages"
         },
+        "kuro": {
+            "github-contact": "LostAttractor",
+            "url": "https://github.com/LostAttractor/nur-packages-kuro"
+        },
         "lambdadog": {
             "file": "nur.nix",
             "github-contact": "lambdadog",
