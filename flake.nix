@@ -22,5 +22,6 @@
         };
       };
     };
+    hmModules.nur = self.nixosModules.nur;
   };
 }
