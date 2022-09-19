@@ -71,8 +71,8 @@
             "url": "https://github.com/angr/nixpkgs"
         },
         "arc": {
-            "rev": "a84cbe6d648397ea4f36ba213a8a705ff99c7f1f",
-            "sha256": "0d8yxhwqms2v4738a4km69csmw49mg280ghv7h0mjz8j147zmgb3",
+            "rev": "792714ae1ea6d634b1d616d31096de4d537026e2",
+            "sha256": "0nc22zwr2srjmyz03wf4wrk9j0p7nqms516rkfk7w99y7fsc73p0",
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "artturin": {
@@ -267,8 +267,8 @@
             "url": "https://github.com/repos-holder/nur-packages"
         },
         "dustinblackman": {
-            "rev": "296110b6ba4982a37029c0aafe4eb86e1174ebd2",
-            "sha256": "0mms0c24j9x3qh66rv0cbi0dyg7miyiy22nqkfwxvb4nq639z6sr",
+            "rev": "00ea29bb18bb2cc8a8998422a0291c7f8ddbe9cc",
+            "sha256": "1yqkfglhnfzrjq4f7q10h7hc5ks45safyfnlf6cjxmpw84svqhj5",
             "url": "https://github.com/dustinblackman/nur-packages"
         },
         "dywedir": {
@@ -282,8 +282,8 @@
             "url": "https://git.marvid.fr/eeva/nur-packages"
         },
         "eh5": {
-            "rev": "6975bd1ee98695a993d1889dc9ecafe968f171c5",
-            "sha256": "0g0zj7sdmh1vbdm83ibk9vk4pm5r7zks7g8w4gg8sfc9y9pswqwj",
+            "rev": "2aee4dd74b346e9ec56574b6b1277bb4146ed93e",
+            "sha256": "0d4fkr6yj8wk33q07sp8mdb1h3mbpf7jh77flfqcy8k034ya9zg2",
             "url": "https://github.com/EHfive/flakes"
         },
         "emiller88": {
@@ -842,8 +842,8 @@
             "url": "https://gitlab.com/rummik/nixos/nur-packages"
         },
         "rycee": {
-            "rev": "d70089267c4752525943bc8c36d16b2fefd89689",
-            "sha256": "14plq973mia8apac73g04g35gvcac560y3cmaw7csgnhdw6qva4z",
+            "rev": "9d918e0cffa94091557af74bf778dffa2bcf0358",
+            "sha256": "02p99zxsd135d35cj55rbnlmg75dkqhfbw81qfk75yhqvmxlxsiw",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "sagikazarmark": {
@@ -892,8 +892,8 @@
             "url": "https://github.com/sigprof/nur-packages"
         },
         "sikmir": {
-            "rev": "835e04fcd869a496e11d572afd8a5a8236933835",
-            "sha256": "0kk3jil98yjbkf4xgx4n0p5g40wp6rxxfzcaay3128jd0frq90sg",
+            "rev": "51e058523e20de651680d753d6177fec94e6ec47",
+            "sha256": "1anaa6i5ia0mb3cgzqkxk5hzp31r0c13ih3xsbr2qp2i1sswa0ha",
             "url": "https://github.com/sikmir/nur-packages"
         },
         "sky": {
