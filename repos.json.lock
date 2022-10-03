@@ -76,8 +76,8 @@
             "url": "https://github.com/angr/nixpkgs"
         },
         "arc": {
-            "rev": "4e09592dade1388d900ab3524bc240ce75b14abb",
-            "sha256": "0v91kdbbg0rzabfk0gg190mz8wdkk255wmf531d8zxr847d0m5x6",
+            "rev": "1657b47fb5f6b5d8295d4dbe106a33c9d834b645",
+            "sha256": "0k0y8p57gsnq8hja36z2mqnxpmla11xmddsiv7y96ihhakykzjcv",
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "artturin": {
@@ -111,8 +111,8 @@
             "url": "https://github.com/balsoft/nur-packages"
         },
         "bandithedoge": {
-            "rev": "f80592b64472124c2f2d9e8c211302963bdc3ce8",
-            "sha256": "1xvwwz0l5y8vmv5pjnip59vjwmbfk23gmzgx529hybh4drnjzryb",
+            "rev": "8f9f2bcb587fdca6bcaf42de4d99eb5aa1e2974e",
+            "sha256": "1yym4f5kxrvv2jrp11x04al0fmiz57210kxgx7j0pcbacyafmw0q",
             "url": "https://github.com/bandithedoge/nur-packages"
         },
         "bb010g": {
@@ -287,8 +287,8 @@
             "url": "https://git.marvid.fr/eeva/nur-packages"
         },
         "eh5": {
-            "rev": "48024a25bd4985edfa47bc77e55b635c8ef727fd",
-            "sha256": "0ngk9zkh7j8d660crqyagwfm4wn3h52mja0ba2s1mkwvg110m3am",
+            "rev": "6c2d3527585b4df5d1114ec61d181b250c7711e7",
+            "sha256": "13pxl2k6yzgxvs5jph81zhqm7cfm6ri5amvl5cv2awm29k1v6qcm",
             "url": "https://github.com/EHfive/flakes"
         },
         "emiller88": {
@@ -549,8 +549,8 @@
             "url": "https://github.com/lucasew/nixcfg"
         },
         "m15a": {
-            "rev": "da244982d0bbbb1203373167394793dc2413a250",
-            "sha256": "16rlwrsd1bj0mlnhpawiwwp4d7gg1ld2a9bhcsff2fka8msfxzv7",
+            "rev": "d57266869d99ffc80c8bd5368d302b5731f95aad",
+            "sha256": "0zr3sn0k2qwv3811qdrl3g0miclzgjfxjdgldd031918jy28rc6z",
             "submodules": true,
             "url": "https://github.com/m15a/nur-packages"
         },
@@ -600,8 +600,8 @@
             "url": "https://github.com/milahu/nur-packages"
         },
         "mipmip": {
-            "rev": "a02761b2f367450bafb436df40c06b8b07382c53",
-            "sha256": "1ya1kp1pc8gkysqppvh43i4s9j2w3nnqripmbpm6fjzyxlysjj6q",
+            "rev": "83ddee78e42656e67d511c0ceee40b5fecf2c51a",
+            "sha256": "1jp764rmavb3i84vr7w7h3wgq0z30j4gqr66y5a20kassf54dha7",
             "url": "https://github.com/mipmip/nixos"
         },
         "misterio": {
