@@ -56,8 +56,8 @@
             "url": "https://gitlab.com/AlwinB/nur-packages"
         },
         "ambroisie": {
-            "rev": "fffdf91fe0355975b1dae3b7d8c06b99ced85dd0",
-            "sha256": "0ap8bydqsd8via5vcixddmg8w39b08qh0zfvs1hddirzy97mfk59",
+            "rev": "ad8430f886f2e872ed0f215ca43f7b3af284ee5e",
+            "sha256": "1k6i03ic9i43hgz3jqg3gc4mivrzpnvh2x6d41sy65ph4k70g0ys",
             "url": "https://github.com/ambroisie/nix-config"
         },
         "amesgen": {
@@ -569,8 +569,8 @@
             "url": "https://github.com/lucasew/nixcfg"
         },
         "m15a": {
-            "rev": "73bf04e844c29154664f2822671a72fdad705b18",
-            "sha256": "0lsw7d60jr3wh1wy5fd65fsv5cc3lwm7kidgmj7z64fx7a87szcc",
+            "rev": "4b0a6dcd48e143d43ac5b313df6225d5af4e1c91",
+            "sha256": "0kg416j4b3g5slzijfmlpj8vyq6djq28qhfbs7l06jl69r5ls8bn",
             "submodules": true,
             "url": "https://github.com/m15a/nur-packages"
         },
@@ -1117,8 +1117,8 @@
             "url": "https://github.com/yellowonion/nur-bcachefs"
         },
         "yes": {
-            "rev": "5fbea8cbfe1834a20a576b880cc55274d6dd83c0",
-            "sha256": "1mbygkd3sda30wbv723zxlyl4s9a0d9mhxj21iai00n84ssn3g41",
+            "rev": "702724e99ba41b5d263a6d5edae44aa00e110cd8",
+            "sha256": "1sn2i5gb2psj1v8fwp5qyfkqj7n76xswwp60hz7m78lxp8a9h826",
             "url": "https://github.com/SamLukeYes/nix-custom-packages"
         },
         "ysndr": {
