@@ -282,8 +282,8 @@
             "url": "https://github.com/dtzWill/nur-packages"
         },
         "dukzcry": {
-            "rev": "5086dfb8da37c68af3836cfa3c303d2f0f3792b5",
-            "sha256": "14qybhbg1pkv2a1frhs9n50khfy3gml9n64sb953w32d9lrr2daf",
+            "rev": "d6153774310b9d82ce45e8182ea45dfffd06fd5f",
+            "sha256": "0sz323xw1q039b7pkkxfii45inrvxx0czfis5q39fb0a09w6b4mf",
             "url": "https://github.com/repos-holder/nur-packages"
         },
         "dustinblackman": {
@@ -372,8 +372,8 @@
             "url": "https://github.com/bignaux/nur-packages"
         },
         "geonix": {
-            "rev": "799adf86124d356f5e77e1c70d6a83d1a067d035",
-            "sha256": "06ksa3jcll5w8xhvchgp3xw4vxy4aivwskgahh239bh1zap2sgk4",
+            "rev": "2435929f1a0a2a983add9369af5ac6bdb7e9f12c",
+            "sha256": "0c48rqzd16bfacwix96yyn3ninxh775hzdqbdb4jd16lsff1bh8s",
             "url": "https://github.com/imincik/geonix"
         },
         "grafcube": {
@@ -574,8 +574,8 @@
             "url": "https://github.com/lschuermann/nur-packages"
         },
         "lucasew": {
-            "rev": "880555714b1f73f2469e36fb3b0e2234e304d193",
-            "sha256": "0pnazis92i95rkbf7wc9a26z2hvy40hs51y63ap1jg8grdr3jxhh",
+            "rev": "8288a9f7265f0aa89be744e957006973c1b4997f",
+            "sha256": "0rrrq1ficrmf8g8hybbr1h8v0r1yybwh3mrlmnzks1qbc1i4zq5q",
             "url": "https://github.com/lucasew/nixcfg"
         },
         "m15a": {
@@ -1095,6 +1095,11 @@
             "rev": "fdb8636bad46045d69250da3d43e0b28dbeeafcb",
             "sha256": "1qy1aplyq8s6rdnnia3m4gwjpfb724brb9i139x9g8w2nnalnrm2",
             "url": "https://github.com/vroad/nur-packages"
+        },
+        "vsoch": {
+            "rev": "83b4e32ca76cb434afe1c8531b7476f04c70d50d",
+            "sha256": "19dlplpnbm5gvh71zimmzd9p10r1mppjcy2qf8z3qdi9dh2v36ip",
+            "url": "https://github.com/vsoch/nix"
         },
         "wamserma": {
             "rev": "5a9daafaa6226e126f46db18c8acf33132bae713",
