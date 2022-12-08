@@ -16,8 +16,8 @@
             "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
         },
         "ProducerMatt": {
-            "rev": "059e01edcef4a7b7a0ec78de0af73b08c6c753e5",
-            "sha256": "1mjpwil6v0684a6p00pcnwvi7q7f55v8mm1gicwcidrz1kdpcdnl",
+            "rev": "d9cefd1616800ead6a06ca0e7e6c50d3051c8fd1",
+            "sha256": "1slrmanr5wxfpyvbypla2iblc7s3hv3wikvhp367j647aalbymvx",
             "url": "https://github.com/ProducerMatt/my-nur-pkgs"
         },
         "YisuiMilena": {
@@ -41,8 +41,8 @@
             "url": "https://github.com/afreakk/mynixrepo"
         },
         "alarsyo": {
-            "rev": "61a9813019712bb3d9eeeaee931c09ec708160d4",
-            "sha256": "0im42x059yf7ckxdysnkdvf04rj51q1jxanxcm643ssgv3rnzjnw",
+            "rev": "0db0119e50bad94c3cf756450c3b752bbf201e57",
+            "sha256": "17fsjp52845ylvca32mkg93mv39nqxcgwa0r0xcs8ipqiqzw34xb",
             "url": "https://github.com/alarsyo/nixos-config"
         },
         "alexnortung": {
@@ -146,8 +146,9 @@
             "url": "https://github.com/bhipple/nur-packages"
         },
         "blakat360": {
-            "rev": "2b9847b12e89ed5aef376334cd1746409c4ff1f7",
-            "sha256": "0yw650fvankhnrspr1rs97jzwvm399b273mk2ns68d4kkkbd93xm",
+            "rev": "63735e6ada90bb7197faed582582697af219a21f",
+            "sha256": "1cd7i528sbzqnkb250gj2mw8qx80wkdqq1mp21853d8li6mdcxbr",
+            "submodules": true,
             "url": "https://github.com/blakat360/nur-packages"
         },
         "c0deaddict": {
@@ -302,8 +303,8 @@
             "url": "https://git.marvid.fr/eeva/nur-packages"
         },
         "eh5": {
-            "rev": "9ffe02ba43359ccb370c4fad7fee7e3afa8208e5",
-            "sha256": "1fimk2iyxs3cslwqg8j1wwb2b1hmjxbb7mfz80mdz9wf49jvrmkj",
+            "rev": "6f64dea6b9cacfc7eab6a36bfd0d395b564babd3",
+            "sha256": "0fdp98lr2xnx998g6lwcj0v96h77ss6wp2wcldzvaxqws74l9vbr",
             "url": "https://github.com/EHfive/flakes"
         },
         "emiller88": {
