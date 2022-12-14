@@ -90,11 +90,6 @@
             "sha256": "0zk0pmm8n9rvmkz1qyx1w9z5ky7nd54561f0dl0ahixrab89s7k8",
             "url": "https://github.com/Artturin/artturin-nur"
         },
-        "astridyu": {
-            "rev": "3b5b22a4907ebc03eafab3abc81a2b5e71ebbded",
-            "sha256": "0v5lh62lasbaqnijbqdy0z3c4bx625ag2qb3kkisgzv4fr1vshql",
-            "url": "https://github.com/astridyu/nur-packages"
-        },
         "awl-fcarza": {
             "rev": "7aa113aef4e3dcffdf51e4dbf5d678d27f286018",
             "sha256": "02w319ca1nl2fgjz3cj3ksi3gv8r3202wb288098mgqylq84fvdc",
@@ -417,6 +412,11 @@
             "sha256": "10wrhpwz1839bqv0p443dlq9c48nr92mafli5dhdw49p959vfdan",
             "url": "https://github.com/iagocq/nix"
         },
+        "ifd3f": {
+            "rev": "3b5b22a4907ebc03eafab3abc81a2b5e71ebbded",
+            "sha256": "0v5lh62lasbaqnijbqdy0z3c4bx625ag2qb3kkisgzv4fr1vshql",
+            "url": "https://github.com/ifd3f/nur-packages"
+        },
         "ijohanne": {
             "rev": "ef8081e00371c9d7e9b98624d6ab316bd6e59f5a",
             "sha256": "0nhkjdxszkd7x55f1xkvszafq3bv8058k3qdp6zhcjlx1zfjns18",
@@ -503,8 +503,8 @@
             "url": "https://github.com/JoshuaFern/nur-package-lab"
         },
         "k3a": {
-            "rev": "fb8148d6c5e87f0f78cd5081f90feb41bd761aa5",
-            "sha256": "16xlgpq398bhml21pysppjzd6zxyfwik0hhfz82m4aa47s2lvdjz",
+            "rev": "8c560520479c54307f018ecdcfdaa9c8e7652168",
+            "sha256": "1xh8my0sd2cdxn7fs4jl1gwn7cc268lqh6fn0h9b9pz49l08jz6g",
             "url": "https://github.com/k3a/nurpkgs"
         },
         "kalbasit": {
@@ -580,8 +580,8 @@
             "url": "https://github.com/lschuermann/nur-packages"
         },
         "lucasew": {
-            "rev": "42c51ad0c663fb655ff71315d1aa5d1a2bbe11c5",
-            "sha256": "1cg9adl9xpmq4cv6x89mqj28jyzhn8dq7lxqymk72a955b28mwd1",
+            "rev": "6b3fe9d2be846f0f8208015c9f837ff25d06fe18",
+            "sha256": "08lr31mymizgssdf1bnvwhg5cxdqc3s3g605sflrbiph2pb0amwv",
             "url": "https://github.com/lucasew/nixcfg"
         },
         "m15a": {
@@ -1153,8 +1153,8 @@
             "url": "https://github.com/yellowonion/nur-bcachefs"
         },
         "yes": {
-            "rev": "b8bd9830850958dd7a7ffcd78138267cb4372722",
-            "sha256": "1ahs5cvslmx3mrbq7hmfp2b87wfv969l368diy3km0mpcvafx313",
+            "rev": "606e756634de7917b9e73325c231eba3b0e6b6e1",
+            "sha256": "1ffkgrqpymk4hahnqv88vgxhilpxz1v11cvdl0y8dn58r7zlvg0g",
             "url": "https://github.com/SamLukeYes/nix-custom-packages"
         },
         "ysndr": {
