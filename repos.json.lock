@@ -213,8 +213,8 @@
             "url": "https://git.dodsorf.as/Dandellion/NUR"
         },
         "darkkirb": {
-            "rev": "200482e43675385e65b71dc48c68a3996d5dfd84",
-            "sha256": "0vvdnnhjahwsqcycsx33x7y2512m65j5nd1ri579rvd22mzsp4n7",
+            "rev": "b73bdd42c1ca13c557daa5e1299ee06bf53de17f",
+            "sha256": "175g8df5hh0qhpis9544b4r9px5hfpk5ap964sxj8fac57xbpkav",
             "url": "https://git.chir.rs/darkkirb/nix-packages"
         },
         "dawidsowa": {
@@ -580,8 +580,8 @@
             "url": "https://github.com/lschuermann/nur-packages"
         },
         "lucasew": {
-            "rev": "6b3fe9d2be846f0f8208015c9f837ff25d06fe18",
-            "sha256": "08lr31mymizgssdf1bnvwhg5cxdqc3s3g605sflrbiph2pb0amwv",
+            "rev": "4b1cc6c752867e52292883b643115918f0956d70",
+            "sha256": "17plc6k2xfyk1dyigyzc9si2hlax6djhdjvgx11a2qmkn7ddwz8f",
             "url": "https://github.com/lucasew/nixcfg"
         },
         "m15a": {
@@ -852,8 +852,8 @@
             "url": "https://github.com/polykernel/nur-packages"
         },
         "priegger": {
-            "rev": "b02b4bee43900b94a8ed001b3240e1ef431de4fb",
-            "sha256": "1xs51s32w7567l0s1baf1d1z30lpylymijp5kwdf2gwagnp2jh33",
+            "rev": "29e27e852ec397849ddb393dc208ca78bb34e3a8",
+            "sha256": "0l7n5arwd2jvh8xqh1a0vsjgxyd84daqkk4z6y2mmgfcphrpdziv",
             "url": "https://git.sr.ht/~priegger/nur-packages"
         },
         "pschuprikov": {
@@ -1021,6 +1021,11 @@
             "rev": "23b7a382a1b15ab9bb0372350647da72c7bb8621",
             "sha256": "1gnmrx8k2rid9f8pvmjw19b5rjr5447vjqp5wsvzhr2ddhamyj6i",
             "url": "https://github.com/tboerger/nur-packages"
+        },
+        "thaumy": {
+            "rev": "ca4c5e007c5c74f6abb32d11f7394222739cd906",
+            "sha256": "075pqy5m7k4idf7g37jgraqfrbg4v9ipd244pz3ajb6axa1k4qwa",
+            "url": "https://github.com/Thaumy/nur-pkgs"
         },
         "thilobillerbeck": {
             "rev": "9fab250e907703d814b9a09c78909fa804d4cb30",
