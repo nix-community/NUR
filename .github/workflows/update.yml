@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     # chosen by fair dice rolling
-    - cron:  '05 4 * * *'
+    - cron:  '40 * * * *'
   push:
     branches:
       - master
