@@ -329,11 +329,11 @@ option to a path relative to the repository root:
 
 By default we only check for repository updates once a day with an automatic
 github action to update our lock file `repos.json.lock`.
-To update NUR faster, you can use our service at https://nur-update.herokuapp.com/
+To update NUR faster, you can use our service at https://nur-update.nix-community.org/
 after you have pushed an update to your repository, e.g.:
 
 ```console
-curl -XPOST https://nur-update.herokuapp.com/update?repo=mic92
+curl -XPOST https://nur-update.nix-community.org/update?repo=mic92
 ```
 
 Check out the [github page](https://github.com/nix-community/nur-update#nur-update-endpoint) for further details
