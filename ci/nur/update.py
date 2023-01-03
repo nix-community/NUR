@@ -52,9 +52,9 @@ import {EVALREPO_PATH} {{
         env = dict(PATH=os.environ["PATH"], NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1")
         proc = subprocess.Popen(cmd, env=env, stdout=subprocess.DEVNULL)
         try:
-            res = proc.wait(10)
+            res = proc.wait(15)
         except subprocess.TimeoutExpired:
-            raise EvalError(f"evaluation for {repo.name} timed out of after 10 seconds")
+            raise EvalError(f"evaluation for {repo.name} timed out of after 15 seconds")
         if res != 0:
             raise EvalError(f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}")
 
