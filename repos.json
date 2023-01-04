@@ -13,6 +13,11 @@
             "type": "gitlab",
             "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
         },
+        "JayRovacsek": {
+            "file": "pkgs/default.nix",
+            "github-contact": "JayRovacsek",
+            "url": "https://github.com/JayRovacsek/nix-packages"
+        },
         "ProducerMatt": {
             "github-contact": "ProducerMatt",
             "url": "https://github.com/ProducerMatt/my-nur-pkgs"
@@ -383,10 +388,6 @@
         "jakobrs": {
             "github-contact": "jakobrs",
             "url": "https://github.com/jakobrs/nur-packages"
-        },
-        "jayrovacsek": {
-            "github-contact": "jayrovacsek",
-            "url": "https://github.com/jayrovacsek/nur-packages"
         },
         "jbarthelmes": {
             "github-contact": "jbarthelmes",
