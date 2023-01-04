@@ -15,6 +15,11 @@
             "sha256": "082k3j383zl7vp8fmbwjdh9wmnhv776i6in3pjf3g06ijb4cwcg1",
             "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
         },
+        "JayRovacsek": {
+            "rev": "0bef896f70916a0e032e0ef1693eceb58e90231d",
+            "sha256": "0l77cdypskw3kzi3dnfnqxczbsvsvzwqjmqy3lrvps0m95b6ag7p",
+            "url": "https://github.com/JayRovacsek/nix-packages"
+        },
         "ProducerMatt": {
             "rev": "d9cefd1616800ead6a06ca0e7e6c50d3051c8fd1",
             "sha256": "1slrmanr5wxfpyvbypla2iblc7s3hv3wikvhp367j647aalbymvx",
@@ -466,11 +471,6 @@
             "rev": "7bd8e62ecab7891f7b9c3aaa23aaefd884755ba0",
             "sha256": "118fyji32az9iwn5lr5h2kz073h7zbk27zzh18z0qhhism83kwlh",
             "url": "https://github.com/jakobrs/nur-packages"
-        },
-        "jayrovacsek": {
-            "rev": "e76a4d943d7751bd090f9f60a2cf42c3107192b6",
-            "sha256": "0fm35lhfryibg3jr6xi7kzdhwvaw5sln0lb2p7i6rj69rm4acr8c",
-            "url": "https://github.com/jayrovacsek/nur-packages"
         },
         "jbarthelmes": {
             "rev": "64340769e8da95b4289916c9798c902f0256cac5",
