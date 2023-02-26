@@ -112,7 +112,7 @@ In your flake.nix add `nur.nixosModules.nur` to your module list:
 }
 ```
 
-You cannot use `config.nur` for importing NixOS modules from NUR as this will lead to infinite recursion errrors.
+You cannot use `config.nur` for importing NixOS modules from NUR as this will lead to infinite recursion errors.
 
 Instead use:
 
