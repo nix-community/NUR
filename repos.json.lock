@@ -21,8 +21,8 @@
             "url": "https://github.com/JayRovacsek/nix-config"
         },
         "ProducerMatt": {
-            "rev": "59c46fb5a81e5b256636bc434359359dd795bd13",
-            "sha256": "1caxa38zhp928l495k8cylyagfvn53hhxw62rz3vllicg6wqhnr5",
+            "rev": "97bc57cab0af38a85d059a0bb2b0bcaa9c8d5753",
+            "sha256": "1p532skh7s49ya0lhxqdi9991svkhihrzh69i7bz87097n2kdkhx",
             "url": "https://github.com/ProducerMatt/my-nur-pkgs"
         },
         "YisuiMilena": {
@@ -905,6 +905,11 @@
             "rev": "524cfea6404133f468148170af05ed57189740e9",
             "sha256": "187yl39w1dg0c57bf0w6wi28w9b13z8wwdg0vb0lksfjb92qrdna",
             "url": "https://github.com/markuskowa/NixOS-QChem"
+        },
+        "qwbarch": {
+            "rev": "d25c6522d720e02be08fd358e7e493dbe0493096",
+            "sha256": "0sjkwws1qab1930ab0bavmri3h3ss6cgas73i6qay8qf5z1q07sz",
+            "url": "https://github.com/qwbarch/nur-packages"
         },
         "reedrw": {
             "rev": "78ec3882bd4d25f48d7abc46638ae9d1f9d60f6b",
