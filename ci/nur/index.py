@@ -26,7 +26,6 @@ def resolve_source(pkg: Dict, repo: str, url: str) -> str:
         }
         stripped = path.parts[4:]
         if path.parts[3].endswith("source"):
-
             canonical_url = url
             # if we want to add the option of specifying branches, we have to update this
             if "github" in url:
@@ -102,7 +101,7 @@ def index_command(args: Namespace) -> None:
     repos = manifest.get("repos", [])
     pkgs: Dict[str, Any] = {}
 
-    for (repo, data) in repos.items():
+    for repo, data in repos.items():
         repo_pkgs = index_repo(
             directory,
             repo,
