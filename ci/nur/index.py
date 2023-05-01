@@ -12,6 +12,7 @@ def resolve_source(pkg: Dict, repo: str, url: str) -> str:
     # TODO commit hash
     prefix = f"https://github.com/nix-community/nur-combined/tree/master/repos/{repo}"
     position = pkg["meta"].get("position", None)
+
     if position is not None and position.startswith("/nix/store"):
         path_str, line = position.rsplit(":", 1)
         path = Path(path_str)
@@ -75,7 +76,7 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
         f.flush()
         env = os.environ.copy()
         env.update(NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1")
-        query_cmd = ["nix-env", "-qa", "*", "--json", "-f", str(f.name)]
+        query_cmd = ["nix-env", "-qa", "*", "--meta", "--json", "-f", str(f.name)]
         try:
             out = subprocess.check_output(query_cmd, env=env)
         except subprocess.CalledProcessError:
