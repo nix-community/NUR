@@ -74,3 +74,4 @@ def eval_command(args: Namespace) -> None:
         None,
     )
     eval_repo(repo, repo_path)
+    print("OK")
