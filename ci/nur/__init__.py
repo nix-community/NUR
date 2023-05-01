@@ -8,6 +8,7 @@ from .format_manifest import format_manifest_command
 from .index import index_command
 from .path import ROOT
 from .update import update_command
+from .eval import eval_command
 
 LOG_LEVELS = dict(
     debug=logging.DEBUG,
@@ -36,6 +37,10 @@ def parse_arguments(argv: List[str]) -> argparse.Namespace:
 
     update = subparsers.add_parser("update")
     update.set_defaults(func=update_command)
+
+    eval = subparsers.add_parser("eval")
+    eval.add_argument("directory", default=".")
+    eval.set_defaults(func=eval_command)
 
     index = subparsers.add_parser("index")
     index.add_argument("directory", default=ROOT)
