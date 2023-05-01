@@ -1,7 +1,7 @@
 import logging
+import os
 import subprocess
 import tempfile
-import os
 from argparse import Namespace
 from pathlib import Path
 from urllib.parse import urlparse
@@ -74,3 +74,4 @@ def eval_command(args: Namespace) -> None:
         None,
     )
     eval_repo(repo, repo_path)
+    print("OK")

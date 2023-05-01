@@ -1,7 +1,7 @@
 import json
+import os
 import subprocess
 import sys
-import os
 from argparse import Namespace
 from pathlib import Path
 from tempfile import NamedTemporaryFile
