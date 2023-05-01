@@ -4,11 +4,11 @@ import sys
 from typing import List
 
 from .combine import combine_command
+from .eval import eval_command
 from .format_manifest import format_manifest_command
 from .index import index_command
 from .path import ROOT
 from .update import update_command
-from .eval import eval_command
 
 LOG_LEVELS = dict(
     debug=logging.DEBUG,

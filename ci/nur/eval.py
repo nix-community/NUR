@@ -1,7 +1,7 @@
 import logging
+import os
 import subprocess
 import tempfile
-import os
 from argparse import Namespace
 from pathlib import Path
 from urllib.parse import urlparse

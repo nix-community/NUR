@@ -1,7 +1,7 @@
 import json
 from enum import Enum, auto
 from pathlib import Path
-from typing import Dict, List, Optional, Any
+from typing import Any, Dict, List, Optional
 from urllib.parse import ParseResult, urlparse
 
 from .fileutils import PathType, to_path, write_json_file

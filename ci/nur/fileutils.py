@@ -4,8 +4,7 @@ import shutil
 from contextlib import contextmanager
 from pathlib import Path
 from tempfile import NamedTemporaryFile
-from typing import Any, Union, Generator
-
+from typing import Any, Generator, Union
 
 PathType = Union[str, Path]
 
