@@ -167,6 +167,12 @@
             "github-contact": "clefru",
             "url": "https://github.com/clefru/nur-packages"
         },
+        "colinsane": {
+            "file": "integrations/nur/default.nix",
+            "github-contact": "uninsane",
+            "type": "gitea",
+            "url": "https://git.uninsane.org/colin/nix-files"
+        },
         "congee": {
             "github-contact": "congee",
             "url": "https://github.com/congee/nur"
