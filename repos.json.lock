@@ -145,6 +145,11 @@
             "sha256": "0aiplnhcgyz4sp2cdm2dnkyr2xpa13pvlns3zl3bvpxd6ixwhm0s",
             "url": "https://github.com/bb010g/nur-packages"
         },
+        "bd-g": {
+            "rev": "9711eb12eefe719b84e0e8723dc2203028fab887",
+            "sha256": "0w0c55v5yzzqd1aw742ylm7625489j7zindsmzq53qvqqfkg75yg",
+            "url": "https://github.com/bd-g/nur-packages"
+        },
         "beam": {
             "rev": "1cf4e59bf0f0abe374cf0e43ba16873a276483af",
             "sha256": "1hmll3md59sfs6aq4n4fbhzw1fg2nkilmbfqxfhv6glilks9b0np",
@@ -1068,8 +1073,8 @@
             "url": "https://github.com/sigprof/nur-packages"
         },
         "sikmir": {
-            "rev": "cd243bbd24bb07336930d0a1229a1988dd214e72",
-            "sha256": "052b1jrpamv99lp41h7c1wfr2ydxlvh5l1qihdxpcrvq7iqr55wy",
+            "rev": "dc4944986c35b94ecf0643d693a6d15fae151531",
+            "sha256": "1axdn13vzsfc9hi6issizsf9lz8f1wd8lr4nf6xgs2nfxm8vyn10",
             "url": "https://github.com/sikmir/nur-packages"
         },
         "sky": {
