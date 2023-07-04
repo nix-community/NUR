@@ -15,6 +15,11 @@
             "sha256": "1janz4r1a8ra38zb4l76z3rqhb38g0wwirmpcbrh8lg9qfbzx6az",
             "url": "https://github.com/9glenda/nur-packages"
         },
+        "AsterisMono": {
+            "rev": "d9723887f7312e79e5a514aad4557999f8a02c77",
+            "sha256": "1d9ha59mxs72vp9422kr8mxx2gq7y01bzzbkd7f2i9wq04sli774",
+            "url": "https://github.com/AsterisMono/nur-packages"
+        },
         "Freed-Wu": {
             "rev": "f8984fbe366bc4a69d6f0b265a2a20f73b5cbb96",
             "sha256": "0jd7dhjqvr5nk709gsss65cxmkhv5jc23m3pli2raqq36i1pws0a",
@@ -338,8 +343,8 @@
             "url": "https://github.com/dtzWill/nur-packages"
         },
         "dukzcry": {
-            "rev": "7188edf54eae608385b9b529bb72941d4bf475d8",
-            "sha256": "1wygmm16m8y2vmmz533wwhf1v3aca4i6rrpyj6cg07bgp33w0ils",
+            "rev": "76e2ac62277e23bddfa4bfeacb6fade0b93911e0",
+            "sha256": "18y0rd5wsc481q5sb2wn1mwmgc5bhhav2n4pn9nkmv9s9r8vb28n",
             "url": "https://github.com/repos-holder/nur-packages"
         },
         "dustinblackman": {
@@ -591,6 +596,11 @@
             "rev": "45b185e4be4e9df77f907fe0e8e8d52943ee5df2",
             "sha256": "1z991vgqqnbvq2agykcwg3hrab4i2jzs3ms6hdvvlsd9x4rkz1bp",
             "url": "https://github.com/JoshuaFern/nur-package-lab"
+        },
+        "jpts": {
+            "rev": "3184198029a95a881718e18e0871369865cb846a",
+            "sha256": "1lb7cp17in3yzhdd80w42gb56i7hg05mvi3x6svcsyhcb3bs63kn",
+            "url": "https://github.com/jpts/nur"
         },
         "k0ral": {
             "rev": "12fe5799543d671ccf05db4f7c3fb1851012be93",
