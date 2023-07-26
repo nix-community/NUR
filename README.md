@@ -118,18 +118,22 @@ Instead use:
 
 ```nix
 {
-  inputs.nur.url = github:nix-community/NUR;
-
-  outputs = { self, nixpkgs, nur }: {
-    nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
-      # ...
-      modules = let
-        nur-modules = import nur {
-          nurpkgs = nixpkgs.legacyPackages.x86_64-linux;
-          pkgs = nixpkgs.legacyPackages.x86_64-linux;
-        };
-      in [
-       { imports = [ nur-modules.repos.paul.modules.foo ]; }
+  inputs.nur.url = "github:nix-community/NUR";
+  outputs = { self, nixpkgs, nur }: rec {
+    nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      modules = [
+        { nixpkgs.overlays = [ nur.overlay ]; }
+        ({ pkgs, ... }:
+          let
+            nur-no-pkgs = import nur {
+              nurpkgs = import nixpkgs { system = "x86_64-linux"; };
+            };
+          in {
+            imports = [ nur-no-pkgs.repos.iopq.modules.xraya  ];
+            services.xraya.enable = true;
+          })
+        #./configuration.nix or other imports here
       ];
     };
   };
