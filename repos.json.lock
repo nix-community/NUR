@@ -216,10 +216,20 @@
             "sha256": "03csv2gg8l7cyk1z3z8rgvax78ir8kld5rr0n69sfq320h5d9idv",
             "url": "https://github.com/c0deaddict/nur-packages"
         },
+        "caarlos0": {
+            "rev": "854c0826e775f5f44cc317c724ac6343c7c5d616",
+            "sha256": "1fivkvldhhjdn3d8hgp99nq8grc8w62ybk870ygcb6g74ndls12w",
+            "url": "https://github.com/caarlos0/nur"
+        },
         "chagra": {
             "rev": "48e11e3bb7df3aa9a23b309b543a47cbb29ee40b",
             "sha256": "18x03ga9l41nzj32nrmw39gssnza69inki0jh6bg4xv6mygmrdy2",
             "url": "https://github.com/ihebchagra/nur-packages"
+        },
+        "charmbracelet": {
+            "rev": "840853355aed67ed2fb3461bb22600bffcbf25a9",
+            "sha256": "1f3f7mwynrffpadivrnbxcfwixskvi2aqy0gm71nwxnpr6gclvfq",
+            "url": "https://github.com/charmbracelet/nur"
         },
         "chisui": {
             "rev": "e6ef209e1dd84125595eca0dae4adf3c4a9dfea4",
@@ -471,6 +481,11 @@
             "rev": "b1dbda111818223dbdbcafe80edca2035d9b3e68",
             "sha256": "1xviz7wjcfmn3lkg5875zsyxka75jvjplwbyh2gi9njyzsb2ic5j",
             "url": "https://github.com/imincik/geonix"
+        },
+        "goreleaser": {
+            "rev": "3c102ad7e7ff60626286f9d0f9e579c961a06905",
+            "sha256": "1fk0lpw5h85gwm3fgly76lrpppx1qji3wy8msnmxsh6qvgs3xds3",
+            "url": "https://github.com/goreleaser/nur"
         },
         "grafcube": {
             "rev": "90fcd3263beebbd648703e7fcf1bda0e8b6fae57",
