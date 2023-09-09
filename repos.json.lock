@@ -15,6 +15,11 @@
             "sha256": "1janz4r1a8ra38zb4l76z3rqhb38g0wwirmpcbrh8lg9qfbzx6az",
             "url": "https://github.com/9glenda/nur-packages"
         },
+        "Adamekka": {
+            "rev": "bd9425313b00627d1322fb12055c8dc485d18f7a",
+            "sha256": "1q2c3xm83vm9vva0ipazbydr4xlxga3823g7macci4vpaq4zbhcw",
+            "url": "https://github.com/Adamekka/nur-packages"
+        },
         "AsterisMono": {
             "rev": "150de46cf3161d1b40b30338e7c0a61e3724a30f",
             "sha256": "1rbchaaspfqqybh1adqa6gzanlsm910h5gh20d9r43ncp0dmi9dw",
@@ -398,8 +403,8 @@
             "url": "https://git.marvid.fr/eeva/nur-packages"
         },
         "eh5": {
-            "rev": "46ad37573dfe857657a1a5a0a4f98214eead3136",
-            "sha256": "0kfsaav3xh6lx0x6rwsk20jl7k57bjh665drvbp3xpflqhcg2kh9",
+            "rev": "8f5a3fbe4c237dbd198b36187fcbc49d641dfb80",
+            "sha256": "1pyil35mnh63cfdvvaz7xs3q0mqm1cyzj95089n0c1d8b3kbi4m2",
             "url": "https://github.com/EHfive/flakes"
         },
         "emiller88": {
@@ -1209,8 +1214,8 @@
             "url": "https://github.com/SkyLeite/nix-repository"
         },
         "slaier": {
-            "rev": "c3f31ede0847aba5c62dafc08e3b7ae0eeeadf68",
-            "sha256": "1ymfj84vx0m9fchx96hng953388r6rzmxa8brylnkkg2g3q3mr9a",
+            "rev": "77b135fb9a00f31ca8fbb0fde29a533c3ae151d2",
+            "sha256": "06qr8n6w8s7vgaalj5j0jv0d2lyax69kb986cqqfmlcngd51kwd7",
             "url": "https://github.com/slaier/nixos-config"
         },
         "smaret": {
