@@ -297,8 +297,8 @@
             "url": "https://github.com/CrazedProgrammer/nix"
         },
         "crtified": {
-            "rev": "ac7ddbc0c6ff96b768d4b19d8dd1192b062e9150",
-            "sha256": "0asy59ihlhl5gh06bazz8ph3cjd3liw47fi6pk4sdv9l2ch8sszh",
+            "rev": "cc11c84adc97eb6e448c4c5f8d4fb0eaa9e3aaa2",
+            "sha256": "19wm8x9kvv1d672g91w2338zvkr1qkax7hi4bca52yy8nnmgdykd",
             "url": "https://github.com/CRTified/nur-packages"
         },
         "cryolitia": {
@@ -849,6 +849,11 @@
             "rev": "da7fc6f9aae849fd5721a324311ceb97101b4ea0",
             "sha256": "0x0zb7f9k14qbzaimgvxg9h6gg2g9lhni2ra52r2a72dvf7gbqbl",
             "url": "https://github.com/Mic92/nur-packages"
+        },
+        "mikaelfangel-nur": {
+            "rev": "7105a00b70d39b5198e67ba805fac83ec6322fde",
+            "sha256": "0qh781jz40zvg96zgg7akxxszfi35phywhv07n1gx3mdd3qk2sh1",
+            "url": "https://github.com/MikaelFangel/NUR"
         },
         "mikilio": {
             "rev": "ea5640183080aca07b89cd863355adbf46f12659",
