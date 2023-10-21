@@ -1142,6 +1142,11 @@
             "sha256": "0sjkwws1qab1930ab0bavmri3h3ss6cgas73i6qay8qf5z1q07sz",
             "url": "https://github.com/qwbarch/nur-packages"
         },
+        "rconan": {
+            "rev": "5c760a4f0e3e6fce384327c9d3a3a21fd4c8768b",
+            "sha256": "0xq5j3p2rm6icrr3wjzhmmlkv08yhgl2g8mf87jq5k5dr1b3c43f",
+            "url": "https://gitlab.com/rconan/nix-packages"
+        },
         "reedrw": {
             "rev": "9d1e8a3e795123f752bb26915fb9217433711dd2",
             "sha256": "0fa1p9zjrg9k7wjaw1danrhc8naa14mzrm1kwvwci3sbcvn587yy",
