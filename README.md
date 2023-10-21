@@ -476,7 +476,7 @@ The repo must be a valid package repo, i.e. its root contains a `default.nix` fi
 
 **Experimental** Note that flake support is still experimental and might change in future in a backwards incompatible way.
 
-You can overide repositories in two ways:
+You can override repositories in two ways:
 
 - With packageOverrides 
 ```nix
