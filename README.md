@@ -1,3 +1,4 @@
+<div id="top"></div>
 # NUR
 
 The Nix User Repository (NUR) is community-driven meta repository for Nix packages.
@@ -571,3 +572,5 @@ cycles.
 
 We have a matrix channel on [#nur:nixos.org](https://matrix.to/#/#nur:nixos.org).
 Apart from that we also read posts on [https://discourse.nixos.org](https://discourse.nixos.org/).
+
+<p align="right">(<a href="#top">🔼 Back to top</a>)</p>
