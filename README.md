@@ -119,26 +119,33 @@ Instead use:
 
 ```nix
 {
-  inputs.nur.url = "github:nix-community/NUR";
+  inputs.nur.url = "github:nix-community/NUR";  # Input for the Nix User Repository (NUR)
   outputs = { self, nixpkgs, nur }: rec {
-    nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
+  nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
+
+    # Define a NixOS configuration for a laptop
+      system = "x86_64-linux";  # Target system architecture
+
       modules = [
-        { nixpkgs.overlays = [ nur.overlay ]; }
-        ({ pkgs, ... }:
+        { nixpkgs.overlays = [ nur.overlay ]; }  # Apply NUR overlay to the package set
+
+        ({ pkgs, ... }:    # Define the NixOS configuration module
           let
-            nur-no-pkgs = import nur {
-              nurpkgs = import nixpkgs { system = "x86_64-linux"; };
+            nur-no-pkgs = import nur {  # Import NUR without packages
+              # Import Nixpkgs for the specified system
+              nurpkgs = import nixpkgs { system = "x86_64-linux"; }; 
             };
           in {
-            imports = [ nur-no-pkgs.repos.iopq.modules.xraya  ];
-            services.xraya.enable = true;
+            # Import the xraya module from NUR
+            imports = [ nur-no-pkgs.repos.iopq.modules.xraya  ]; 
+            services.xraya.enable = true;  # Enable the xraya service
           })
-        #./configuration.nix or other imports here
+        # Add other module imports here, such as './configuration.nix'
       ];
     };
   };
 }
+
 ```
 
 
@@ -220,21 +227,23 @@ In this example `hello-nur` would be a directory containing a `default.nix`:
 { stdenv, fetchurl, lib }:
 
 stdenv.mkDerivation rec {
-  pname = "hello";
-  version = "2.10";
+  pname = "hello";        # Package name
+  version = "2.10";       # Package version
 
   src = fetchurl {
-    url = "mirror://gnu/hello/${pname}-${version}.tar.gz";
+    url = "mirror://gnu/hello/${pname}-${version}.tar.gz";       # Source URL
     sha256 = "0ssi1wpaf7plaswqqjwigppsg5fyh99vdlb9kzl7c9lng89ndq1i";
   };
 
+  # Post-patch shell code
   postPatch = ''
     sed -i -e 's/Hello, world!/Hello, NUR!/' src/hello.c
   '';
 
-  # fails due to patch
+  # Disable test suite (fails due to the patch)
   doCheck = false;
 
+  # Metadata information
   meta = with lib; {
     description = "A program that produces a familiar, friendly greeting";
     longDescription = ''
@@ -482,28 +491,35 @@ You can override repositories in two ways:
 - With packageOverrides 
 ```nix
 {
-  inputs.nur.url = "github:nix-community/NUR";
-  inputs.paul.url = "path:/some_path/nur-paul"; # example: a local nur.repos.paul for development 
+  inputs.nur.url = "github:nix-community/NUR";  # Input for the Nix User Repository (NUR)
+  inputs.paul.url = "path:/some_path/nur-paul";  # Input for a local nur.repos.paul for development
 
-  outputs = {self, nixpkgs, nur, paul }: {
- 
-  system = "x86_64-linux";
- 
+  outputs = { self, nixpkgs, nur, paul }: {
+
+  system = "x86_64-linux";  # Target system architecture
+
+  # Import the Nix packages from nixpkgs
   nurpkgs = import nixpkgs { inherit system; };
 
-  ...
+  # ... (other configuration options)
+
   modules = [
-       {
-         nixpkgs.config.packageOverrides = pkgs: {
-            nur = import nur {
-              inherit pkgs nurpkgs;
-              repoOverrides = { paul = import paul { inherit pkgs; }; };
-            };
+      {
+        # Override packages in nixpkgs using packageOverrides
+        nixpkgs.config.packageOverrides = pkgs: {
+        nur = import nur {
+            inherit pkgs nurpkgs;
+            repoOverrides = { paul = import paul { inherit pkgs; }; };
           };
-        }
-  ];
-  ...
+        };
+      }
+      # ... (other modules)
+    ];
+
+    # ... (other output configurations)
+  };
 }
+
 ```
 - With overlay
 ```nix
