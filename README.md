@@ -498,7 +498,6 @@ You can override repositories in two ways:
 
   system = "x86_64-linux";  # Target system architecture
 
-  # Import the Nix packages from nixpkgs
   nurpkgs = import nixpkgs { inherit system; };
 
   # ... (other configuration options)
