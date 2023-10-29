@@ -2,7 +2,7 @@
 # NUR
 
 The Nix User Repository (NUR) is community-driven meta repository for Nix packages.
-It provides access to user repositories that contain package descriptions (Nix
+It provides the access to user repositories that contain package descriptions (Nix
 expressions) and allows you to install packages by referencing them via attributes.
 In contrast to [Nixpkgs](https://github.com/NixOS/nixpkgs/), packages are built
 from source and **are not reviewed by any Nixpkgs member**.
@@ -11,7 +11,7 @@ The NUR was created to share new packages from the community in a faster and
 more decentralized way.
 
 NUR automatically checks its list of repositories and performs evaluation checks
-before it propagates the updates.
+before it propagates and instigates the updates.
 
 ## Installation
 
