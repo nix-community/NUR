@@ -312,6 +312,11 @@
             "submodules": true,
             "url": "https://github.com/cwyc/nur-packages"
         },
+        "dagger": {
+            "rev": "74ba0e2b6a5022e10874ceaed8fef52fb6e1977a",
+            "sha256": "0vlbhs83hkyc12lvwydwkg9nhs72lvppjhmyx9c7z50q5nmn0fyj",
+            "url": "https://github.com/dagger/nix"
+        },
         "dan4ik605743": {
             "rev": "aac67954bbeacce64d84ddf800e05bcb467c11da",
             "sha256": "0fsyrklfvzyi46lkxhvsi4811yqalnshpqjsq16sxdnjx62r98nv",
