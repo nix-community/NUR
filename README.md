@@ -1,7 +1,7 @@
 <div id="top"></div>
 # NUR
 
-The Nix User Repository (NUR) is community-driven meta repository for Nix packages.
+The Nix User Repository (NUR) is a community-driven meta repository for Nix packages.
 It provides access to user repositories that contain package descriptions (Nix
 expressions) and allows you to install packages by referencing them via attributes.
 In contrast to [Nixpkgs](https://github.com/NixOS/nixpkgs/), packages are built
