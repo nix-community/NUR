@@ -144,7 +144,7 @@ Instead use:
 
 ### Using modules overlays or library functions in NixOS
 
-If you intend to use modules, overlays or library functions in your NixOS configuration.nix, you need to take care to not introduce infinite recursion. Specifically, you need to import NUR like this in the modules:
+If you intend to use modules, overlays or library functions in your NixOS configuration.nix, you need to take care not to introduce infinite recursion. Specifically, you need to import NUR like this in the modules:
 
 ```nix
 { pkgs, config, lib, ... }:
@@ -199,8 +199,8 @@ repository, which contains all nix expressions from all users, via
 
 ## How to add your own repository.
 
-First create a repository that contains a `default.nix` in its top-level directory.
-We also provide [repository template](https://github.com/nix-community/nur-packages-template) that contains
+First, create a repository that contains a `default.nix` in its top-level directory.
+We also provide a [repository template](https://github.com/nix-community/nur-packages-template) that contains
 a prepared directory structure.
 
 DO NOT import packages for example `with import <nixpkgs> {};`.
@@ -275,7 +275,7 @@ For development convenience, you can also set a default value for the pkgs argum
 $ nix-build -A hello-nur
 ```
 
-Add your own repository to in the `repos.json` of NUR:
+Add your own repository to the `repos.json` of NUR:
 
 ```console
 $ git clone --depth 1 https://github.com/nix-community/NUR
@@ -297,9 +297,9 @@ edit the file `repos.json`:
 }
 ```
 
-At the moment each URL must point to a git repository. By running `bin/nur update`
+At the moment, each URL must point to a git repository. By running `bin/nur update`
 the corresponding `repos.json.lock` is updated and the repository is  tested. This will
-perform also an evaluation check, which must be passed for your repository. Commit the changed
+also perform an evaluation check, which must be passed for your repository. Commit the changed
 `repos.json` but NOT `repos.json.lock`
 
 ```
