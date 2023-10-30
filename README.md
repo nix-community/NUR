@@ -332,7 +332,7 @@ option to a path relative to the repository root:
 
 ### Update NUR's lock file after updating your repository
 
-By default we only check for repository updates once a day with an automatic
+By default, we only check for repository updates once a day with an automatic
 github action to update our lock file `repos.json.lock`.
 To update NUR faster, you can use our service at https://nur-update.nix-community.org/
 after you have pushed an update to your repository, e.g.:
@@ -344,7 +344,7 @@ curl -XPOST https://nur-update.nix-community.org/update?repo=mic92
 Check out the [github page](https://github.com/nix-community/nur-update#nur-update-endpoint) for further details
 
 ### HELP! Why are my NUR packages not updating?
-With every build triggered via the URL hook all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are:
+With every build triggered via the URL hook, all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are:
 
 * Using a wrong license attribute in the metadata.
 * Using a builtin fetcher because it will cause access to external URLs during evaluation. Use pkgs.fetch* instead (i.e. instead of `builtins.fetchGit` use `pkgs.fetchgit`)
