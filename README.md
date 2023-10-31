@@ -574,3 +574,9 @@ We have a matrix channel on [#nur:nixos.org](https://matrix.to/#/#nur:nixos.org)
 Apart from that we also read posts on [https://discourse.nixos.org](https://discourse.nixos.org/).
 
 <p align="right">(<a href="#top">🔼 Back to top</a>)</p>
+
+## Wall of Contributors
+
+<a href="https://github.com/nix-community/NUR/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=nix-community/NUR" />
+</a>
