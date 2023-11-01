@@ -357,7 +357,7 @@ In your `nur-packages/` folder, run the [check evaluation](https://github.com/ni
 ```sh
 nix-env -f . -qa \* --meta \
   --allowed-uris https://static.rust-lang.org \
-  --option restrict-eval true \
+  --impure \
   --option allow-import-from-derivation true \
   --drv-path --show-trace \
   -I nixpkgs=$(nix-instantiate --find-file nixpkgs) \
