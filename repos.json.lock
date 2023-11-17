@@ -215,6 +215,11 @@
             "sha256": "1hmll3md59sfs6aq4n4fbhzw1fg2nkilmbfqxfhv6glilks9b0np",
             "url": "https://github.com/jechol/nix-beam"
         },
+        "behoof4mind": {
+            "rev": "332f5c4a12dfe68b225f64ac2d1d30f513b7114c",
+            "sha256": "05gyvszi6y4zwdy58iay2fbvxhpgld7gz1yh26d4ki5w9fadxmbw",
+            "url": "https://github.com/behoof4mind/packages"
+        },
         "bendlas": {
             "rev": "9f6b417dfd7106d60a0a07f7adbae1ddb98fc8da",
             "sha256": "189jgq5w4jxvqziaa197qk3kawxnx3nyv42w7l89bn51kv6vsl4z",
@@ -257,8 +262,8 @@
             "url": "https://github.com/ihebchagra/nur-packages"
         },
         "charmbracelet": {
-            "rev": "157dcc96b2a0bb3729e2962e38cd5c41a0b61fe5",
-            "sha256": "015q89w3ms0xbkx3y343mbd7a5vgybx5kg8654g09fk2ik205di1",
+            "rev": "ef5f2375f7e34b7940318718ffecc7adc048efe3",
+            "sha256": "067z444fs5angqq7a46bpzfjamm71p5nwv204j9snrfw0q3f77r3",
             "url": "https://github.com/charmbracelet/nur"
         },
         "chisui": {
