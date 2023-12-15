@@ -171,8 +171,8 @@
             "url": "https://github.com/Artturin/artturin-nur"
         },
         "ataraxiasjel": {
-            "rev": "95838018ad7a182e9990fb2d8f7f6aae39dede45",
-            "sha256": "0z1ii13wji868zsrf9hxv20sbyp7ivqsqx60cifp4fibgi51lvn3",
+            "rev": "317f783a61d822a53232058985095aeb2fee300d",
+            "sha256": "1hicwpd5clwjfvg1f7cslb2wagjpqbzdn1nyay35qdgkwxdxd087",
             "url": "https://github.com/AtaraxiaSjel/nur"
         },
         "awl-fcarza": {
@@ -276,6 +276,11 @@
             "sha256": "1d9dkpv541kz5z1iirbbbc3l9fn5k2f0zgaac2l55nbsafz2lagr",
             "url": "https://github.com/cu1ch3n/nur-packages"
         },
+        "cherrypiejam": {
+            "rev": "fcc7de401317f933913d98e5b21e6aa80fd7e76f",
+            "sha256": "017czq4gqgi2apkih3b1isjkij7gjfzk3j6vris8dib324lmpn59",
+            "url": "https://github.com/cherrypiejam/nur-packages"
+        },
         "chisui": {
             "rev": "e6ef209e1dd84125595eca0dae4adf3c4a9dfea4",
             "sha256": "0zzzlgcx2nn6d1cp7kn0yxqavgwgz624g4l721j127zwm269igl7",
@@ -292,8 +297,8 @@
             "url": "https://github.com/clefru/nur-packages"
         },
         "colinsane": {
-            "rev": "83b83841d67c282cdf7d24e531aec8ebecea6914",
-            "sha256": "00lgadw037hrgkfdhjk39ya42m3wr4sarm04krvj01yqbj522bah",
+            "rev": "728604e036367f74eb5942cd276cf7b981505b0b",
+            "sha256": "0a2spvcrma8ilxzp3c8xajisxz789wvnpmys6avc23d7n5x0ygh6",
             "url": "https://git.uninsane.org/colin/nix-files"
         },
         "congee": {
