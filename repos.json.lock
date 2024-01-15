@@ -126,8 +126,8 @@
             "url": "https://gitlab.com/AlwinB/nur-packages"
         },
         "ambroisie": {
-            "rev": "e99d91bdf199cbe774ac949f9bbef0cd4a5910be",
-            "sha256": "0pmvchs3sg6d87qr8xx0fdy65k63wm4arb3qk392igfxh31xy3rm",
+            "rev": "29a96b905c81894d4def2c055f0538beea26fb34",
+            "sha256": "1xrnf8mspyhp4k8954lq70hfwj3xnxk4lfyrr58yrs2x1lpz56xw",
             "url": "https://github.com/ambroisie/nix-config"
         },
         "amesgen": {
@@ -567,6 +567,11 @@
             "sha256": "0kfcdi7brcdf1nnnhpdsxlls5iaiczria78zkim12x4nx1vm2jai",
             "url": "https://github.com/friedow/nur-packages"
         },
+        "friendsofshopware": {
+            "rev": "aec312a79438652bda0894e32b424773bbbcd11b",
+            "sha256": "0nczlck31y0xsyqvni1bv5yvn73h2x7sa8sx23ipxyrkn5py2p9y",
+            "url": "https://github.com/FriendsOfShopware/nur-packages/"
+        },
         "ftbwiki": {
             "rev": "e5d8650a52c79a25efde5e3a6e990eb5db8e9898",
             "sha256": "0kxyh4gi0lb99m3vysxasmjb0p9zqwaknrrgc08bzrwfdgpmlfyg",
@@ -840,8 +845,8 @@
             "url": "https://github.com/linyinfeng/nur-packages"
         },
         "liyangau": {
-            "rev": "dcb12949faf9c29d0f70ac490e375bd6b352c2f5",
-            "sha256": "0rl63mm10sx7ypw9ky68j35zpraxa6ygl3m9sz0skymiarkr6d27",
+            "rev": "28b07a76d50962c3cd5e6588319a9f66ee8f92d9",
+            "sha256": "1lm9aam9zcbs28f9rswr8905g9s5qkpjcmkfpgqpxl0axf2sgpgy",
             "url": "https://github.com/liyangau/nur-packages"
         },
         "lourkeur": {
@@ -942,8 +947,8 @@
             "url": "https://github.com/minion3665/nurpkgs"
         },
         "mipmip": {
-            "rev": "92af6c199730f44b70f00abeed6bf427cdc8c9e7",
-            "sha256": "0n696dhxzycsp6klcw4jjkl2zmqz4as88ppzpp1s23zjfwmxdc70",
+            "rev": "2dea003ccfff30abad7f6d8f65525141947c5bb2",
+            "sha256": "0ryxd1siihv9z1jfrlxbv0qcj22d0gdchlsgqlg2fy5sxc17y2n4",
             "url": "https://github.com/mipmip/nixos"
         },
         "misterio": {
