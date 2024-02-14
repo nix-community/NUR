@@ -1092,6 +1092,11 @@
             "sha256": "0gs2257ddiis4h3bajg9rbxkd59i3a79jpjwnffv071kwcrjd9ql",
             "url": "https://github.com/neXromancers/nixromancers"
         },
+        "nginx": {
+            "rev": "07e2f365606f00925bc6b7f949640ae12e7911d8",
+            "sha256": "1c4klp5qcc4zy9pp5lyxi3pv8n7d8w75mivp0pvqjvy5zvcgqnj5",
+            "url": "https://github.com/nginxinc/nur"
+        },
         "nix-data": {
             "rev": "ffc99060e70d03c95b68b1e405db0d4d8af941e9",
             "sha256": "0xiws8k1ba8939z0njvaypv6vx6pn62vgx086lx5dn0fdrr4x2b8",
