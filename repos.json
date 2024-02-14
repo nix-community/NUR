@@ -29,6 +29,10 @@
             "github-contact": "AsterisMono",
             "url": "https://github.com/AsterisMono/nur-packages"
         },
+        "DanNixon": {
+            "github-contact": "DanNixon",
+            "url": "https://github.com/DanNixon/nur-packages"
+        },
         "Ex-32": {
             "github-contact": "Ex-32",
             "url": "https://github.com/Ex-32/nur-packages"
@@ -81,6 +85,11 @@
         "aasg": {
             "github-contact": "AluisioASG",
             "url": "https://git.sr.ht/~aasg/nixexprs"
+        },
+        "abszero": {
+            "file": "nur.nix",
+            "github-contact": "Weathercold",
+            "url": "https://github.com/Weathercold/nixfiles"
         },
         "afreakk": {
             "github-contact": "afreakk",
@@ -896,6 +905,10 @@
         "nexromancers": {
             "github-contact": "neXromancers",
             "url": "https://github.com/neXromancers/nixromancers"
+        },
+        "nginx": {
+            "github-contact": "lucacome",
+            "url": "https://github.com/nginxinc/nur"
         },
         "nix-data": {
             "github-contact": "Jake-Gillberg",
