@@ -240,6 +240,11 @@
             "sha256": "0aiplnhcgyz4sp2cdm2dnkyr2xpa13pvlns3zl3bvpxd6ixwhm0s",
             "url": "https://github.com/bb010g/nur-packages"
         },
+        "bbjubjub": {
+            "rev": "ef3e9305525440e3626c4571b494383e2b473c42",
+            "sha256": "029390jl1g2lbyb5gyinkl8gnsq6029g1hlg5lpfgy0gsqzaav1f",
+            "url": "https://github.com/bbjubjub2494/nur-expressions"
+        },
         "bd-g": {
             "rev": "f91c23ef2a8c001ca3839617d2b9bd676be4a503",
             "sha256": "09wz585cdpv300xhiczvdcl47078zg11hl08anyzjqzqz3b6m28c",
@@ -893,11 +898,6 @@
             "rev": "fec6d6a40afda83f2ca340f8091ec826bf8c8c5f",
             "sha256": "1li2q2i1crn234pg24q6h9lrh68jnv09jifjn7qyza7dqwxlb7i1",
             "url": "https://github.com/liyangau/nur-packages"
-        },
-        "lourkeur": {
-            "rev": "ef3e9305525440e3626c4571b494383e2b473c42",
-            "sha256": "029390jl1g2lbyb5gyinkl8gnsq6029g1hlg5lpfgy0gsqzaav1f",
-            "url": "https://github.com/lourkeur/nur-expressions"
         },
         "lschuermann": {
             "rev": "20e97bff02d489b41ebe4127a8413bcd117aaf44",
