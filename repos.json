@@ -737,6 +737,11 @@
             "submodules": true,
             "url": "https://github.com/kreisys/nur-packages"
         },
+        "kugland": {
+            "github-contact": "kugland",
+            "submodules": true,
+            "url": "https://github.com/kugland/nur-packages"
+        },
         "lambdadog": {
             "file": "nur.nix",
             "github-contact": "lambdadog",
