@@ -38,15 +38,10 @@
 
 
 	<div>
-{{ $footer := print "_footer." .Lang }}
-{{ range where .Site.Pages "File.BaseFileName" $footer }}
-  {{ .Content }} 
+{{ if .Site.GetPage "page" "_footer.md" }}
+  {{(.Site.GetPage "page" "_footer.md").Content}}
 {{else}}
-  {{ if .Site.GetPage "page" "_footer.md" }}
-    {{(.Site.GetPage "page" "_footer.md").Content}}
-  {{else}}
-    {{ T "create-footer-md" }}
-  {{end}}
+  {{ T "create-footer-md" }}
 {{end}}
 
 
