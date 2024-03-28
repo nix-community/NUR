@@ -9,7 +9,7 @@ disableHomeIcon = false
 disableNavChevron = false
 
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+home = [ "HTML", "RSS", "search" ]
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -29,5 +29,3 @@ weight = 20
 name = "<i class='fa fa-github'></i> <label>NUR Project</label>"
 url = "https://github.com/nix-community/NUR"
 weight = 31
-
-
