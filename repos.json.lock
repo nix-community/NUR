@@ -111,8 +111,8 @@
             "url": "https://git.sr.ht/~aasg/nixexprs"
         },
         "abszero": {
-            "rev": "ee2eef91ec7e9ed6c8ea5f70b0ec12a8871eb550",
-            "sha256": "0p61x28z4khnv87zr364z7w8zax006rjlprz831dvbpx60nm3dv8",
+            "rev": "9e5ad5f28c45d856a4c2e6c7cc782fcf9b8db5b4",
+            "sha256": "1q25m2vk8kz7pc2wn3xx0pg39m7pgg0kgxp9595d3i053ly86m8w",
             "url": "https://github.com/Weathercold/nixfiles"
         },
         "afreakk": {
@@ -357,8 +357,8 @@
             "url": "https://github.com/clefru/nur-packages"
         },
         "colinsane": {
-            "rev": "43aa498ff983a0d333079af3a9a90ffef48bd77e",
-            "sha256": "0802lmsnp69hg4x3xdk9pdrnhwf9zr8rb02wc9s8irxqq60iiy47",
+            "rev": "28110c3e858244e3e45585f8c2fd6250898213ac",
+            "sha256": "07a5cr83mhidbqqd9nc1hjxmkhg1hy862gy3f5i5a7qmii8mmmj3",
             "url": "https://git.uninsane.org/colin/nix-files"
         },
         "congee": {
@@ -493,8 +493,8 @@
             "url": "https://github.com/dtzWill/nur-packages"
         },
         "dukzcry": {
-            "rev": "7091412f546373e8405f5d0858bd1b6f09d84f86",
-            "sha256": "18jdsdj0fgzqvjc865yl3m4x1cw1k5z1y7vlz2s6ldfzpks2j8qw",
+            "rev": "8a05fdbcc32753f5e033b98008039eefa7c318b6",
+            "sha256": "1kyq8dg82g656m27zqrbcvr3f9335sszg1yg23q4lgrvai332npl",
             "url": "https://gitlab.com/repos-holder/nur-packages"
         },
         "dustinblackman": {
@@ -1197,6 +1197,11 @@
             "rev": "cc3d49bf460f11c487aa4cfca61aa5077e0ebd68",
             "sha256": "1qpdiffq6kg6i476snwhwkj50mwlyhlq9g5qbl4y4vazjn37akin",
             "url": "https://github.com/nprindle/nur-packages"
+        },
+        "nykma": {
+            "rev": "124bd5b1b1cd150fb8905555fd5264c94097af71",
+            "sha256": "1lif5xc3a3n1zn3ys9f06ljf44gz4nm0qd65wjjnc674949di323",
+            "url": "https://github.com/nykma/nur-packages"
         },
         "ocfox": {
             "rev": "bacaf868d1c9c4ab02d8d2e0d1675c3d64774d4c",
