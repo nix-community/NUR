@@ -1679,6 +1679,11 @@
             "sha256": "09z0yxmqqq8pfh2airsr49a7jz0mp2c1xxl0d88xnzpfm0854i62",
             "url": "https://github.com/wenjinnn/nur-packages"
         },
+        "whs": {
+            "rev": "be8012be37e795e63a4428d2959f98eae59e3459",
+            "sha256": "1a5xxkqbpwnnhb1zs67frbvx8jqa663yi71nbxvxbab7x0vdgllm",
+            "url": "https://github.com/whs/nix"
+        },
         "willpower3309": {
             "rev": "982b85880a549eabc035bd08a9dd136ad0c86408",
             "sha256": "19wfsrli1ksk8d3m8klfwgcgif9d4sgngn0iawyxssmxcyxqry3q",
@@ -1690,8 +1695,8 @@
             "url": "https://codeberg.org/wolfangaukang/nix-agordoj.git"
         },
         "xddxdd": {
-            "rev": "87179015471b8defd4db4c2f959b99755bb84d37",
-            "sha256": "0d1kfakxw967g81r6y91b20pdqdm0gmbn2l815dkih06a3727vs8",
+            "rev": "3420ed7345594fe23ff6417a5d0b01b1ced950ac",
+            "sha256": "07ryyrryakksq6qcw7l44h9hhgjbb4qsw4j4qg6yr2mzzwv7sccp",
             "url": "https://github.com/xddxdd/nur-packages"
         },
         "xe": {
