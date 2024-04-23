@@ -347,8 +347,8 @@
             "url": "https://github.com/clefru/nur-packages"
         },
         "colinsane": {
-            "rev": "7db40fbf476e184d92ce99e6d47e83107ec34f20",
-            "sha256": "0bgz234a947lh6y4zbvgg7whjz011hwvpkl2s0wmkag0rbpgjz8f",
+            "rev": "b5874f4b49479dab04e95b4f3982f590e9d94230",
+            "sha256": "1cmdczpzrmm5axicvqxw1i097ifgy0scjgnwwibihciw7z4pfp3a",
             "url": "https://git.uninsane.org/colin/nix-files"
         },
         "congee": {
@@ -746,6 +746,11 @@
             "rev": "896c689b7442ee47f915ece4b79e821b3fa59238",
             "sha256": "160yr81hrnk3xpf2mw7wc8ynydm54i0yckrjfdanamidy48jwlp8",
             "url": "https://github.com/iopq/nur-packages"
+        },
+        "iuricarras": {
+            "rev": "54bcbd308cdb4d3dbe902a0114fe725138d5bafc",
+            "sha256": "0hbgnjj991wnmlfbjqn8b4zfla4c3vxhc4bwdhz1rmc4yzxj3rda",
+            "url": "https://github.com/iuricarras/nur-packages"
         },
         "ivar": {
             "rev": "20e9f7b54e15f44a2ca92d1e552ed0d61c834ad1",
