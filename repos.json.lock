@@ -362,8 +362,8 @@
             "url": "https://github.com/cransom/nur-packages"
         },
         "crazazy": {
-            "rev": "2b0c35fee20319767d7fc647ea3ec135de8ce4d2",
-            "sha256": "07cp8z5xaw54160nmiwknpg70swragg053y97jhn56x5sl9362pv",
+            "rev": "40f9b0d258ec49d553944550075ca044b952719b",
+            "sha256": "04xpzj68ppff2hhwmm0c5hpk79gcvfd397lqfcjiiy3m6sp3y1g3",
             "url": "https://github.com/crazazy/nixos-config"
         },
         "crazedprogrammer": {
@@ -886,6 +886,11 @@
             "rev": "7e31f672c62757fee36e4c1d5c47426fee4562e4",
             "sha256": "0zjf4ygrw0b46m2hcrydx0v7ragkmmwhg3bhp4db6wh03ryxpzaq",
             "url": "https://gitlab.com/kira-bruneau/nur-packages"
+        },
+        "kokakiwi": {
+            "rev": "f0cb5f38b1110dbdf988703d7bd7136f09725557",
+            "sha256": "1wy1cdn7bzk5vsq3bkjxggax53id5apmmd7ppb1v2g8dcsxz2wiy",
+            "url": "https://github.com/KokaKiwi/nur-packages"
         },
         "kolloch": {
             "rev": "606ac0cb71f21626c8ffd9f43a0b950d874696c5",
