@@ -888,8 +888,8 @@
             "url": "https://gitlab.com/kira-bruneau/nur-packages"
         },
         "kokakiwi": {
-            "rev": "566e0312e16965944d379d5a755caaee27077794",
-            "sha256": "1cciddassl6hrf0zbidf677v1bj8dribyazj8k04v8bk577j4d6a",
+            "rev": "1c22f7d66f36ac0beae769cbc1686926480a1f42",
+            "sha256": "18asbawm16ahjw6692haa86ak274anf6v1irfhp1hp2fzq50cp2b",
             "url": "https://github.com/KokaKiwi/nur-packages"
         },
         "kolloch": {
@@ -1673,6 +1673,11 @@
             "rev": "be8012be37e795e63a4428d2959f98eae59e3459",
             "sha256": "1a5xxkqbpwnnhb1zs67frbvx8jqa663yi71nbxvxbab7x0vdgllm",
             "url": "https://github.com/whs/nix"
+        },
+        "willbou1": {
+            "rev": "dff452addb68d28546c8aa79eb6289b901791d32",
+            "sha256": "1js8733pfx8ahyzq3p6fcrm4sdqvzj9hv70b2kgz8jz5nm624rg8",
+            "url": "https://github.com/willbou1/nur-packages"
         },
         "willpower3309": {
             "rev": "982b85880a549eabc035bd08a9dd136ad0c86408",
