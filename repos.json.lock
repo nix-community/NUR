@@ -1178,6 +1178,11 @@
             "sha256": "0qlyc27ldm82w7zs8yifwj0xkfwbivvgn5ffwkr8az7flwycb310",
             "url": "https://github.com/dduan/nix-swift-packages"
         },
+        "nltch": {
+            "rev": "c5d182e3f5c4a9c97941de30989b7d752e1f1133",
+            "sha256": "0f1h21llfybnrimfxz29nm2c79ms221b9jz982069jm47p87phcj",
+            "url": "https://github.com/nl-tch/nur-packages"
+        },
         "nnb": {
             "rev": "db7e5e403c9bddbc3e3f5aefb7f0de5a2da256d2",
             "sha256": "1qazpqb2z5bias78g78y8yyzq54bq1czs2d3pnp1q09ymp78nv78",
@@ -1690,8 +1695,8 @@
             "url": "https://codeberg.org/wolfangaukang/nix-agordoj.git"
         },
         "xddxdd": {
-            "rev": "2375db87035231ea2c896a8be6e5740b67f99258",
-            "sha256": "03iirbjcfrar2iypjfkpvx3kpscyfqcj08q6p82vzba278hc9qff",
+            "rev": "187b8d7a6be19a240f603fce7cc5140a300c6b34",
+            "sha256": "1pr9rg4xv9aj4v14h3xvzggv8kf70dc3kpplf95gqmsil32favah",
             "url": "https://github.com/xddxdd/nur-packages"
         },
         "xe": {
