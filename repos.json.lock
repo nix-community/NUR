@@ -477,6 +477,11 @@
             "sha256": "089av3vq1f77bq148glllxinf09mmpai8zlck6q3z5x9z028r5vl",
             "url": "https://github.com/dmayle/nur-packages"
         },
+        "draftea": {
+            "rev": "830432f78afb6a2ed4377d56353f56351b5af2e8",
+            "sha256": "0d2j515a409088rmxvgj2fyvf2fwx276lf68nimfz8yx1ciyzbhs",
+            "url": "https://github.com/Drafteame/nur-packages"
+        },
         "drewrisinger": {
             "rev": "295ca29567e8e4fc2b4329d24bc1739d46fb7768",
             "sha256": "12m1g2kam028gm4qww8m4gfjfkxcrz5396019hwz48qyz7bcailb",
@@ -1349,8 +1354,8 @@
             "url": "https://github.com/mistzzt/program-synthesis-nur"
         },
         "propheci": {
-            "rev": "de95f1f71bde84913e16ca569c3c998781c772a5",
-            "sha256": "15s6bz9gakzrcs1h70d6lf2vh37i41lhnrh59mz68qrhdxp17jdv",
+            "rev": "6b78cdaefb04fa55dd435fbf6a06a2b23069ca0d",
+            "sha256": "1y941v22q4kfbfvxwvd723njx997kc74xnriksqzz9f7rwz221gi",
             "url": "https://github.com/Propheci/NixUR"
         },
         "pschuprikov": {
