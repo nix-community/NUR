@@ -108,6 +108,10 @@
             "github-contact": "adam-gaia",
             "url": "https://github.com/adam-gaia/nur-packages"
         },
+        "alanpearce": {
+            "github-contact": "alanpearce",
+            "url": "https://git.alanpearce.eu/nix-packages"
+        },
         "alarsyo": {
             "file": "pkgs/default.nix",
             "github-contact": "alarsyo",
@@ -224,6 +228,10 @@
         "berryp": {
             "github-contact": "berryp",
             "url": "https://github.com/berryp/nur-packages"
+        },
+        "bhasherbel": {
+            "github-contact": "BhasherBEL",
+            "url": "https://github.com/bhasherbel/nur-packages"
         },
         "bhipple": {
             "github-contact": "bhipple",
@@ -409,6 +417,10 @@
             "type": "gitlab",
             "url": "https://gitlab.com/repos-holder/nur-packages"
         },
+        "dur": {
+            "github-contact": "paladhammika",
+            "url": "https://github.com/paladhammika/dur"
+        },
         "dustinblackman": {
             "github-contact": "dustinblackman",
             "url": "https://github.com/dustinblackman/nur-packages"
@@ -568,8 +580,9 @@
             "url": "https://github.com/guoard/nur"
         },
         "harukafractus": {
+            "file": "nur-everything/default.nix",
             "github-contact": "harukafractus",
-            "url": "https://github.com/harukafractus/nurpkgs"
+            "url": "https://github.com/harukafractus/nix"
         },
         "heph2": {
             "github-contact": "heph2",
@@ -976,6 +989,10 @@
             "github-contact": "dduan",
             "url": "https://github.com/dduan/nix-swift-packages"
         },
+        "nltch": {
+            "github-contact": "nltch",
+            "url": "https://github.com/nl-tch/nur-packages"
+        },
         "nnb": {
             "github-contact": "NNBnh",
             "url": "https://github.com/NNBnh/nur-packages"
@@ -1097,6 +1114,10 @@
         "progsyn": {
             "github-contact": "mistzzt",
             "url": "https://github.com/mistzzt/program-synthesis-nur"
+        },
+        "propheci": {
+            "github-contact": "akshettrj",
+            "url": "https://github.com/Propheci/NixUR"
         },
         "pschuprikov": {
             "github-contact": "pschuprikov",
@@ -1377,6 +1398,10 @@
             "github-contact": "whs",
             "url": "https://github.com/whs/nix"
         },
+        "willbou1": {
+            "github-contact": "willbou1",
+            "url": "https://github.com/willbou1/nur-packages"
+        },
         "willpower3309": {
             "github-contact": "willpower3309",
             "url": "https://github.com/WillPower3309/nur-packages"
@@ -1428,6 +1453,10 @@
         "zeratax": {
             "github-contact": "ZerataX",
             "url": "https://github.com/ZerataX/nur-packages"
+        },
+        "zimeg": {
+            "github-contact": "zimeg",
+            "url": "https://github.com/zimeg/nur-packages"
         },
         "zsien": {
             "github-contact": "zsien",
