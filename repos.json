@@ -229,6 +229,10 @@
             "github-contact": "berryp",
             "url": "https://github.com/berryp/nur-packages"
         },
+        "bhasherbel": {
+            "github-contact": "BhasherBEL",
+            "url": "https://github.com/bhasherbel/nur-packages"
+        },
         "bhipple": {
             "github-contact": "bhipple",
             "url": "https://github.com/bhipple/nur-packages"
@@ -576,8 +580,9 @@
             "url": "https://github.com/guoard/nur"
         },
         "harukafractus": {
+            "file": "nur-everything/default.nix",
             "github-contact": "harukafractus",
-            "url": "https://github.com/harukafractus/nurpkgs"
+            "url": "https://github.com/harukafractus/nix"
         },
         "heph2": {
             "github-contact": "heph2",
@@ -1109,6 +1114,10 @@
         "progsyn": {
             "github-contact": "mistzzt",
             "url": "https://github.com/mistzzt/program-synthesis-nur"
+        },
+        "propheci": {
+            "github-contact": "akshettrj",
+            "url": "https://github.com/Propheci/NixUR"
         },
         "pschuprikov": {
             "github-contact": "pschuprikov",
