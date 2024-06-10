@@ -275,6 +275,11 @@
             "sha256": "0hnij1g3xwdk0jsh8g67xrjzq8fk0npfvi3na05hy5jz2scb35w3",
             "url": "https://github.com/berryp/nur-packages"
         },
+        "bhasherbel": {
+            "rev": "cb80ffd63af6c0e055c498b8e36718244d870aa1",
+            "sha256": "1pw0k5yxqlx8q6lnd113y4lx3qqqysxhp025s7xzsssp9na2gfh3",
+            "url": "https://github.com/bhasherbel/nur-packages"
+        },
         "bhipple": {
             "rev": "2656da5285def6029d3d2fe968595cb0aeb4aecf",
             "sha256": "0slj5l4xfv048cad7g899imxqzcar0kkf6lhammiqqwg2ajxqiy7",
@@ -693,9 +698,9 @@
             "url": "https://github.com/guoard/nur"
         },
         "harukafractus": {
-            "rev": "a63789f60501c7eb991a430b69065ef040c38a3d",
-            "sha256": "031gs7qasgyh50g7bz0fl0b6r70a6m8lwja1ylz06iphp85hn0rm",
-            "url": "https://github.com/harukafractus/nurpkgs"
+            "rev": "1275149ebc51447ed6d8ff7a2915c65ba075dcc3",
+            "sha256": "0aj820r18yw112ck2dvaiha96fs20dw6rrf1hnqh8kpm0nchacpp",
+            "url": "https://github.com/harukafractus/nix"
         },
         "heph2": {
             "rev": "539dd4cd4b933e62df9e015ba1b0527be8a76540",
