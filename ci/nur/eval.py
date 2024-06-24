@@ -29,10 +29,11 @@ import {EVALREPO_PATH} {{
 """
             )
 
+        canonicalized_eval_path = eval_path.resolve()
         # fmt: off
         cmd = [
             "nix-env",
-            "-f", str(eval_path),
+            "-f", str(canonicalized_eval_path),
             "-qa", "*",
             "--meta",
             "--xml",
@@ -43,7 +44,7 @@ import {EVALREPO_PATH} {{
             "--show-trace",
             "-I", f"nixpkgs={nixpkgs_path()}",
             "-I", str(repo_path),
-            "-I", str(eval_path),
+            "-I", str(canonicalized_eval_path),
             "-I", str(EVALREPO_PATH),
         ]
         # fmt: on
