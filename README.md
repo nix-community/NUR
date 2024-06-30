@@ -88,6 +88,35 @@ for its content.
 ***NUR does not check the repository for malicious content on a regular basis
 and it is recommended to check the expressions before installing them.***
 
+### Using a single package in a devshell
+
+This simple example demostrates how to add a single package from nur to a devshell defined in a flake.nix.
+
+```nix
+{
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    flake-utils.url = "github:numtide/flake-utils";
+    nur.url = "github:nix-community/NUR";
+  };
+
+  outputs = { self, nixpkgs, flake-utils, nur }:
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        pkgs = import nixpkgs {
+          inherit system;
+          overlays = [ nur.overlay ];
+        };
+      in
+      {
+        devShells.default = pkgs.mkShell {
+          packages = [ pkgs.nur.repos.mic92.hello-nur ];
+        };
+      }
+    );
+}
+```
+
 ### Using the flake in NixOS
 
 Using overlays and modules from NUR in your configuration is fairly straight forward.
