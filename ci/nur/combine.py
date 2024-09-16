@@ -3,7 +3,6 @@ import os
 import shutil
 import subprocess
 from argparse import Namespace
-from distutils.dir_util import copy_tree
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from typing import Dict, List, Optional
@@ -51,7 +50,7 @@ def commit_repo(repo: Repo, message: str, path: Path) -> Repo:
     assert tmp is not None
 
     try:
-        copy_tree(repo_source(repo.name), tmp.name, preserve_symlinks=1)
+        shutil.copytree(repo_source(repo.name), tmp.name, preserve_symlinks=1)
         shutil.rmtree(repo_path, ignore_errors=True)
         os.rename(tmp.name, repo_path)
         tmp = None
@@ -160,7 +159,7 @@ def setup_combined() -> None:
         write_json_file(dict(repos={}), manifest_path)
 
     manifest_lib = "lib"
-    copy_tree(str(ROOT.joinpath("lib")), manifest_lib, preserve_symlinks=1)
+    shutil.copytree(str(ROOT.joinpath("lib")), manifest_lib, preserve_symlinks=1)
     default_nix = "default.nix"
     shutil.copy(ROOT.joinpath("default.nix"), default_nix)
 
