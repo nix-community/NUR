@@ -50,7 +50,9 @@ def commit_repo(repo: Repo, message: str, path: Path) -> Repo:
     assert tmp is not None
 
     try:
-        shutil.copytree(repo_source(repo.name), tmp.name, symlinks=True)
+        shutil.copytree(
+            repo_source(repo.name), tmp.name, symlinks=True, dirs_exist_ok=True
+        )
         shutil.rmtree(repo_path, ignore_errors=True)
         os.rename(tmp.name, repo_path)
         tmp = None
@@ -159,7 +161,9 @@ def setup_combined() -> None:
         write_json_file(dict(repos={}), manifest_path)
 
     manifest_lib = "lib"
-    shutil.copytree(str(ROOT.joinpath("lib")), manifest_lib, symlinks=True)
+    shutil.copytree(
+        str(ROOT.joinpath("lib")), manifest_lib, symlinks=True, dirs_exist_ok=True
+    )
     default_nix = "default.nix"
     shutil.copy(ROOT.joinpath("default.nix"), default_nix)
 
