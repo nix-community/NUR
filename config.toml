@@ -9,7 +9,7 @@ disableHomeIcon = false
 disableNavChevron = false
 
 [outputs]
-home = [ "HTML", "RSS", "search" ]
+home = [ "HTML", "RSS", "JSON" ]
 
 [markup.goldmark.renderer]
 unsafe = true
