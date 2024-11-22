@@ -1,4 +1,11 @@
-{ buildPythonApplication, lib, nix-prefetch-git, git, nix, glibcLocales }:
+{
+  buildPythonApplication,
+  lib,
+  nix-prefetch-git,
+  git,
+  nix,
+  glibcLocales,
+}:
 
 buildPythonApplication {
   name = "nur";
@@ -7,7 +14,16 @@ buildPythonApplication {
   doCheck = false;
 
   makeWrapperArgs = [
-    "--prefix" "PATH" ":" "${lib.makeBinPath [ nix-prefetch-git git nix ]}"
-    "--set" "LOCALE_ARCHIVE" "${glibcLocales}/lib/locale/locale-archive"
+    "--prefix"
+    "PATH"
+    ":"
+    "${lib.makeBinPath [
+      nix-prefetch-git
+      git
+      nix
+    ]}"
+    "--set"
+    "LOCALE_ARCHIVE"
+    "${glibcLocales}/lib/locale/locale-archive"
   ];
 }
