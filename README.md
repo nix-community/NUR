@@ -2,10 +2,8 @@
 
 # NUR
 
-## IMPORTANT: Looking for new maintainer!!!
-
-https://github.com/nix-community/NUR/issues/755
-
+Current maintainer: [Pandapip1](https://github.com/Pandapip1)
+Original creator: NUR was started by [@Mic92](https://github.com/Mic92) in 2018.
 
 The Nix User Repository (NUR) is a community-driven meta repository for Nix packages.
 It provides access to user repositories that contain package descriptions (Nix
