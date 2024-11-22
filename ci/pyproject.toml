@@ -2,8 +2,8 @@
 target-version = "py311"
 line-length = 88
 
-select = ["E", "F", "I"]
-ignore = ["E501"]
+lint.select = ["E", "F", "I"]
+lint.ignore = ["E501"]
 
 [tool.black]
 line-length = 88
