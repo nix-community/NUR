@@ -1,7 +1,8 @@
-{ nurpkgs ? import <nixpkgs> {} # For nixpkgs dependencies used by NUR itself
+{
+  nurpkgs ? import <nixpkgs> { }, # For nixpkgs dependencies used by NUR itself
   # Dependencies to call NUR repos with
-, pkgs ? null
-, repoOverrides ? { }
+  pkgs ? null,
+  repoOverrides ? { },
 }:
 
 let
@@ -10,18 +11,29 @@ let
 
   inherit (nurpkgs) lib;
 
-  repoSource = name: attr: import ./lib/repoSource.nix {
-    inherit name attr manifest lockedRevisions lib;
-    inherit (nurpkgs) fetchgit fetchzip;
-  };
+  repoSource =
+    name: attr:
+    import ./lib/repoSource.nix {
+      inherit
+        name
+        attr
+        manifest
+        lockedRevisions
+        lib
+        ;
+      inherit (nurpkgs) fetchgit fetchzip;
+    };
 
-  createRepo = name: attr: import ./lib/evalRepo.nix {
-    inherit name pkgs lib;
-    inherit (attr) url;
-    src = repoSource name attr + ("/" + (attr.file or ""));
-  };
+  createRepo =
+    name: attr:
+    import ./lib/evalRepo.nix {
+      inherit name pkgs lib;
+      inherit (attr) url;
+      src = repoSource name attr + ("/" + (attr.file or ""));
+    };
 
-in {
-  repos =  (lib.mapAttrs createRepo manifest) // repoOverrides;
+in
+{
+  repos = (lib.mapAttrs createRepo manifest) // repoOverrides;
   repo-sources = lib.mapAttrs repoSource manifest;
 }
