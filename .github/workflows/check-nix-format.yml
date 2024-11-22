@@ -1,0 +1,63 @@
+# This file was mostly copied from nixpkgs's check-nix-format.yml,
+# which itself wsa mostly copied from nixpkgs's check-maintainers-sorted.yaml.
+
+name: Check that Nix files are formatted
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+permissions:
+  contents: read
+
+jobs:
+  nixos:
+    name: nixfmt-check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Calculate changed files
+        id: changed-files
+        run: echo "changed_files=$(git diff --name-only -r HEAD^1 HEAD | xargs)" >> $GITHUB_OUTPUT
+      - uses: cachix/install-nix-action@v30
+        with:
+          extra_nix_config: sandbox = true
+          nix_path: nixpkgs=channel:nixpkgs-unstable
+      - name: Install nixfmt
+        run: "nix-env -f '<nixpkgs>' -iAP nixfmt-rfc-style"
+      - name: Check that Nix files are formatted according to the RFC style
+        run: |
+          # List of changed files
+          changed_files="${{ steps.changed-files.outputs.changed_files }}"
+          
+          # Convert the string of changed files into an array
+          IFS=' ' read -r -a files <<< "$changed_files"
+          
+          # A variable to track failures
+          failure=0
+          
+          # Function to check the file and run nixfmt
+          check_file() {
+            local file="$1"
+            if [[ -f "$file" ]]; then
+              if ! nixfmt --check "$file"; then
+                echo "::error file=$file::Formatting check failed for $file" >&2
+                failure=1
+              fi
+            else
+              echo "File does not exist: $file" >&2
+            fi
+          }
+          
+          # Export the function and failure variable for parallel execution
+          export -f check_file
+          export failure
+          
+          # Run the checks in parallel
+          printf "%s\n" "${files[@]}" | xargs -n 1 -P "$(nproc)" -I {} bash -c 'check_file "$@"' _ {}
+          
+          # Exit with a status of 1 if any checks failed
+          if [[ $failure -eq 1 ]]; then
+            exit 1
+          fi
