@@ -743,8 +743,8 @@
             "url": "https://github.com/glostis/nur-packages"
         },
         "goreleaser": {
-            "rev": "b5d4910d8431b46b81278223add74c8ed33b2201",
-            "sha256": "1jrr8xvi01iarlrbfvyxbjr5cyqvs5s5qnf6hd0zinflzni28kh9",
+            "rev": "d65134bd2cc0e930e6c03694734deb41ec72e030",
+            "sha256": "19q4jwcwn5fx2c25qby7439f6247ri7f0mnli6rdbc43hdj5am13",
             "url": "https://github.com/goreleaser/nur"
         },
         "grafcube": {
@@ -1858,6 +1858,11 @@
             "rev": "1c01816dc289b2ed500ba943ef277f553e8515a2",
             "sha256": "1d20ypzy1c54qvl35klvry7z7i8714ydnpylq7lqz2gdbjlrwf6r",
             "url": "https://github.com/wwmoraes/nurpkgs"
+        },
+        "wyzdwdz": {
+            "rev": "882e9dc1658ff5711fdecda400cda82c9b5fc74c",
+            "sha256": "039srmzwrn7mlxj0h4pps9ysc7gaa7sjbkgi334hn7db5bz9w60j",
+            "url": "https://github.com/wyzdwdz/nur-pkgs"
         },
         "xddxdd": {
             "rev": "6f20f0845fdc409b4ca12cb942039d1d2299ceed",
