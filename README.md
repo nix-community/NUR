@@ -2,6 +2,9 @@
 
 # NUR
 
+Current maintainer: [Pandapip1](https://github.com/Pandapip1)
+Original creator: NUR was started by [@Mic92](https://github.com/Mic92) in 2018.
+
 The Nix User Repository (NUR) is a community-driven meta repository for Nix packages.
 It provides access to user repositories that contain package descriptions (Nix
 expressions) and allows you to install packages by referencing them via attributes.
@@ -509,16 +512,16 @@ The repo must be a valid package repo, i.e. its root contains a `default.nix` fi
 
 You can override repositories in two ways:
 
-- With packageOverrides 
+- With packageOverrides
 ```nix
 {
   inputs.nur.url = "github:nix-community/NUR";
-  inputs.paul.url = "path:/some_path/nur-paul"; # example: a local nur.repos.paul for development 
+  inputs.paul.url = "path:/some_path/nur-paul"; # example: a local nur.repos.paul for development
 
   outputs = {self, nixpkgs, nur, paul }: {
- 
+
   system = "x86_64-linux";
- 
+
   nurpkgs = import nixpkgs { inherit system; };
 
   ...
@@ -549,13 +552,13 @@ You can override repositories in two ways:
           };
         })
       ];
-    } 
+    }
     ...
   ];
 }
 ```
 
-The **repo must contains** a `flake.nix` file to addition of `default.nix`:  [flake.nix example](https://github.com/Mic92/nur-packages/blob/master/flake.nix) 
+The **repo must contains** a `flake.nix` file to addition of `default.nix`:  [flake.nix example](https://github.com/Mic92/nur-packages/blob/master/flake.nix)
 
 - If you need to use NUR defined modules and to avoid infinite recursion complete `nur-no-pkgs` (from previous Flake Support section) as:
 ```nix

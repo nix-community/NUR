@@ -11,7 +11,7 @@ mypy nur
 # Format checker
 black --check .
 # Linter
-ruff .
+ruff check .
 
 cd "${DIR}/.."
 nix run "${DIR}#" -- format-manifest
