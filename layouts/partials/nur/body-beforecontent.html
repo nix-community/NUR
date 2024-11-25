@@ -54,7 +54,7 @@
         <script type="text/javascript" src="{{"js/auto-complete.js" | relURL}}"></script>
         <link href="{{"css/auto-complete.css" | relURL}}" rel="stylesheet">
         <script type="text/javascript">
-          {{ if .Site.IsMultiLingual }}
+          {{ if hugo.IsMultilingual }}
               var baseurl = "{{.Site.BaseURL}}{{.Site.LanguagePrefix}}";
           {{ else }}
               var baseurl = "{{.Site.BaseURL}}";
