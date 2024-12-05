@@ -19,6 +19,8 @@ git clone \
 
 nix run "${DIR}#" -- combine nur-combined
 
+nix flake update nixpkgs
+
 if [[ -z "$(git diff --exit-code)" ]]; then
   echo "No changes to the output on this push; exiting."
 else
