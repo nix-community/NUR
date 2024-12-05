@@ -19,6 +19,26 @@ before it propagates the updates.
 
 ## Installation
 
+### Using flakes
+
+Include NUR in your `flake.nix`:
+
+```nix
+{
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nur = {
+      url = "github:nix-community/NUR";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+};
+```
+
+Then, either the overlay (`overlays.default`) or `legacyPackages.<system>` can be used.
+
+### Using `packageOverrides`
+
 First include NUR in your `packageOverrides`:
 
 To make NUR accessible for your login user, add the following to `~/.config/nixpkgs/config.nix`:
@@ -89,7 +109,7 @@ Each contributor can register their repository under a name and is responsible
 for its content.
 
 ***NUR does not check the repository for malicious content on a regular basis
-and it is recommended to check the expressions before installing them.***
+and it is recommended to check expressions before installing them.***
 
 ### Using a single package in a devshell
 
@@ -98,9 +118,12 @@ This simple example demostrates how to add a single package from nur to a devshe
 ```nix
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    nur.url = "github:nix-community/NUR";
+    nur = {
+      url = "github:nix-community/NUR";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { self, nixpkgs, flake-utils, nur }:
@@ -122,77 +145,35 @@ This simple example demostrates how to add a single package from nur to a devshe
 
 ### Using the flake in NixOS
 
-Using overlays and modules from NUR in your configuration is fairly straight forward.
-
-In your flake.nix add `nur.nixosModules.nur` to your module list:
+Using overlays and modules from NUR in your configuration is fairly straightforward.
 
 ```nix
 {
-  inputs.nur.url = github:nix-community/NUR;
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    flake-utils.url = "github:numtide/flake-utils";
+    nur = {
+      url = "github:nix-community/NUR";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
 
   outputs = { self, nixpkgs, nur }: {
     nixosConfigurations.myConfig = nixpkgs.lib.nixosSystem {
       # ...
       modules = [
-        nur.nixosModules.nur
-        # This adds a nur configuration option.
-        # Use `config.nur` for packages like this:
-        # ({ config, ... }: {
-        #   environment.systemPackages = [ config.nur.repos.mic92.hello-nur ];
+        # Adds the NUR overlay
+        nur.modules.nixos.default
+        # NUR modules to import
+        nur.legacyPackages."${system}".repos.iopq.modules.xraya
+        # This adds the NUR nixpkgs overlay.
+        # Example:
+        # ({ pkgs, ... }: {
+        #   environment.systemPackages = [ pkgs.nur.repos.mic92.hello-nur ];
         # })
       ];
     };
   };
-}
-```
-
-You cannot use `config.nur` for importing NixOS modules from NUR as this will lead to infinite recursion errors.
-
-Instead use:
-
-```nix
-{
-  inputs.nur.url = "github:nix-community/NUR";
-  outputs = { self, nixpkgs, nur }: rec {
-    nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
-      modules = [
-        { nixpkgs.overlays = [ nur.overlay ]; }
-        ({ pkgs, ... }:
-          let
-            nur-no-pkgs = import nur {
-              nurpkgs = import nixpkgs { system = "x86_64-linux"; };
-            };
-          in {
-            imports = [ nur-no-pkgs.repos.iopq.modules.xraya  ];
-            services.xraya.enable = true;
-          })
-        #./configuration.nix or other imports here
-      ];
-    };
-  };
-}
-```
-
-
-### Using modules overlays or library functions in NixOS
-
-If you intend to use modules, overlays or library functions in your NixOS configuration.nix, you need to take care not to introduce infinite recursion. Specifically, you need to import NUR like this in the modules:
-
-```nix
-{ pkgs, config, lib, ... }:
-let
-  nur-no-pkgs = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {};
-in {
-
-  imports = [
-    nur-no-pkgs.repos.paul.modules.foo
-  ];
-
-  nixpkgs.overlays = [
-    nur-no-pkgs.repos.ben.overlays.bar
-  ];
-
 }
 ```
 
@@ -376,8 +357,9 @@ curl -XPOST https://nur-update.nix-community.org/update?repo=mic92
 
 Check out the [github page](https://github.com/nix-community/nur-update#nur-update-endpoint) for further details
 
-### HELP! Why are my NUR packages not updating?
-With every build triggered via the URL hook, all repositories will be evaluated.Only if the evaluation does not contain errors the repository revision for the user is updated. Typical evaluation errors are:
+### Why are my NUR packages not updating?
+
+With every build triggered via the URL hook, all repositories will be evaluated. The repository revision for the user is only updated if the evaluation does not contain any errors. Typical evaluation errors include:
 
 * Using a wrong license attribute in the metadata.
 * Using a builtin fetcher because it will cause access to external URLs during evaluation. Use pkgs.fetch* instead (i.e. instead of `builtins.fetchGit` use `pkgs.fetchgit`)
@@ -421,9 +403,7 @@ To fetch git submodules in repositories set `submodules`:
 It is also possible to define more than just packages. In fact any Nix expression can be used.
 
 To make NixOS modules, overlays and library functions more discoverable,
-we propose to put them in their own namespace within the repository.
-This allows us to make them later searchable, when the indexer is ready.
-
+they must be put them in their own namespace within the repository.
 
 #### Providing NixOS modules
 
@@ -445,9 +425,11 @@ NixOS modules should be placed in the `modules` attribute:
 An example can be found [here](https://github.com/Mic92/nur-packages/tree/master/modules).
 Modules should be defined as paths, not functions, to avoid conflicts if imported from multiple locations.
 
+A module with no [_class](https://nixos.org/manual/nixpkgs/stable/index.html#module-system-lib-evalModules-param-class) will be assumed to be both a NixOS and Home Manager module. If a module is NixOS or Home Manager specific, the `_class` attribute should be set to `"nixos"` or [`"home-manager"`](https://github.com/nix-community/home-manager/commit/26e72d85e6fbda36bf2266f1447215501ec376fd).
+
 #### Providing Overlays
 
-For overlays use the `overlays` attribute:
+For overlays, use the `overlays` attribute:
 
 ```nix
 # default.nix
@@ -558,19 +540,9 @@ You can override repositories in two ways:
 }
 ```
 
-The **repo must contains** a `flake.nix` file to addition of `default.nix`:  [flake.nix example](https://github.com/Mic92/nur-packages/blob/master/flake.nix)
+The repo must contain a `flake.nix` file in addition to a `default.nix`:  [flake.nix example](https://github.com/Mic92/nur-packages/blob/master/flake.nix)
 
-- If you need to use NUR defined modules and to avoid infinite recursion complete `nur-no-pkgs` (from previous Flake Support section) as:
-```nix
-{
-  nur-no-pkgs = import nur {
-    nurpkgs = import nixpkgs { system = "x86_64-linux"; };
-    repoOverrides = { paul = import paul { }; };
-  };
-}
-```
-
-## Contribution guideline
+## Contribution guidelines
 
 - When adding packages to your repository make sure they build and set
   `meta.broken` attribute to true otherwise.
@@ -590,20 +562,7 @@ Examples for packages that could be in NUR:
 - Software with opinionated patches
 - Experiments
 
-
-## Why package sets instead of overlays?
-
-To make it easier to review nix expression NUR makes it obvious where the
-package is coming from.
-If NUR would be an overlay malicious repositories could
-override existing packages.
-Also without coordination multiple overlays could easily introduce dependency
-cycles.
-
-
 ## Contact
 
 We have a matrix channel on [#nur:nixos.org](https://matrix.to/#/#nur:nixos.org).
 Apart from that we also read posts on [https://discourse.nixos.org](https://discourse.nixos.org/).
-
-<p align="right">(<a href="#top">🔼 Back to top</a>)</p>
