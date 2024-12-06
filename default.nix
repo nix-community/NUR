@@ -1,7 +1,14 @@
 {
   nurpkgs ? import <nixpkgs> { }, # For nixpkgs dependencies used by NUR itself
   # Dependencies to call NUR repos with
-  pkgs ? null,
+  # The override handles the case where NUR is installed via standalone channel or channel + override
+  pkgs ? (
+    import <nixpkgs> {
+      overrides = [
+        (final: prev: if prev ? nur then prev else { nur = ./. { pkgs = final; }; })
+      ];
+    }
+  ),
   repoOverrides ? { },
 }:
 
