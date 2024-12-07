@@ -32,7 +32,7 @@
       flake = {
         overlay = lib.warn "nur.overlay has been replaced by nur.overlays.default" overlay; # Added 2024-12-06
         nixosModules.nur = builtins.throw "nur.nixosModules.nur has been replaced by nur.modules.nixos.default"; # Added 2024-12-06
-        hmModules.nur = builtins.throw "nur.hmModules.nur has been replaced by nur.modules.home-manager.default"; # Added 2024-12-06
+        hmModules.nur = builtins.throw "nur.hmModules.nur has been replaced by nur.modules.homeManager.default"; # Added 2024-12-06
 
         overlays = {
           default = overlay;
@@ -43,7 +43,7 @@
               nixpkgs.overlays = [ overlay ];
             };
           };
-          home-manager = {
+          homeManager = {
             default = {
               nixpkgs.overlays = [ overlay ];
             };
