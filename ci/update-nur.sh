@@ -24,7 +24,7 @@ nix flake update nixpkgs
 if [[ -z "$(git diff --exit-code)" ]]; then
   echo "No changes to the output on this push; exiting."
 else
-  git add --all repos.json*
+  git add --all repos.json* flake.lock
   git commit -m "automatic update"
   # in case we are getting overtaken by a different job
   git pull --rebase origin master
