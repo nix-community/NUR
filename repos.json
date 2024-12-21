@@ -915,6 +915,10 @@
             "submodules": true,
             "url": "https://github.com/m15a/nur-packages"
         },
+        "make-42": {
+            "github-contact": "make-42",
+            "url": "https://github.com/make-42/NUR"
+        },
         "makefu": {
             "file": "nur.nix",
             "github-contact": "makefu",
