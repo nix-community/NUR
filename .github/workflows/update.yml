@@ -7,6 +7,9 @@ on:
   push:
     branches:
       - master
+concurrency:
+  group: update
+  cancel-in-progress: false
 jobs:
   update_nur:
     runs-on: ubuntu-latest
