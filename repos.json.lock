@@ -1064,6 +1064,12 @@
             "submodules": true,
             "url": "https://github.com/kreisys/nur-packages"
         },
+        "kugland": {
+            "rev": "2cb85070295b3b3492f4842729fc50b32bfccf3f",
+            "sha256": "049qb0i303gx2fwhjidwgk6khfb738m93w04wbll2x2lnram48pd",
+            "submodules": true,
+            "url": "https://github.com/kugland/nur-packages"
+        },
         "lambdadog": {
             "rev": "222127489b9b2c89d68ca06e2f3c8f8bace0f65e",
             "sha256": "07v9sim0a4xc5m1v6rrh9mzml70ps9cm494asrj80q3bxmyc16ra",
@@ -1634,8 +1640,8 @@
             "url": "https://github.com/ryan4yin/nur-packages"
         },
         "rycee": {
-            "rev": "7f8746a7ef2d15b8fb4acc63cb0d7e3a407739bf",
-            "sha256": "0zqc7jx3b1d9cdqxgy5p9f8472jbmxkhpgd9wzcw6qmglvjf8524",
+            "rev": "da021d3646bf8fc6c7a74ad6edbab6fd7e59b828",
+            "sha256": "1lbajhzh80dm60jk5rrym9jivlsq78dc6sq6a1cmc7wmbywly2w1",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "sagikazarmark": {
