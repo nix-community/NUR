@@ -1,12 +1,13 @@
 The following points apply when adding a new repository to repos.json
 
 - [ ] I ran `./bin/nur format-manifest` after updating `repos.json` (We will use the same script in github actions to make sure we keep the format consistent)
-- [ ] By including this repository in NUR I give permission to license the
-content under the MIT license.
+- [ ] By including this repository in NUR, I confirm that any copyrightable content in the repository (other than built derivations or patches, if applicable) is licensed under the MIT license
+- [ ] I confirm that `meta.license` and `meta.sourceProvenance` have been set correctly for any derivations for unfree or not built from source packages
 
-Clarification where license should apply:
-The license above does not apply to the packages built by the Nix Packages
-collection, merely to the package descriptions (i.e., Nix expressions, build
-scripts, etc.). It also might not apply to patches included in Nixpkgs, which
-may be derivative works of the packages to which they apply. The aforementioned
-artifacts are all covered by the licenses of the respective packages.
+Additionally, the following points are recommended:
+
+- [ ] All applicable `meta` fields have been filled out. See https://nixos.org/manual/nixpkgs/stable/#sec-standard-meta-attributes for more information. The following fields are particularly helpful and can always be filled out:
+  - [ ] `meta.description`, so consumers can confirm that that your package is what they're looking for
+  - [ ] `meta.license`, even for free packages
+  - [ ] `meta.homepage`, for tracking and deduplication
+  - [ ] `meta.mainProgram`, so that `nix run` works correctly
