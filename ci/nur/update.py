@@ -1,5 +1,6 @@
 import logging
 from argparse import Namespace
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from .eval import EvalError, eval_repo
 from .manifest import Repo, load_manifest, update_lock_file
@@ -24,20 +25,37 @@ def update_command(args: Namespace) -> None:
 
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
-    for repo in manifest.repos:
-        try:
-            update(repo)
-        except EvalError as err:
-            if repo.locked_version is None:
-                # likely a repository added in a pull request, make it fatal then
-                logger.error(
-                    f"repository {repo.name} failed to evaluate: {err}. This repo is not yet in our lock file!!!!"
-                )
-                raise
-            # Do not print stack traces
-            logger.error(f"repository {repo.name} failed to evaluate: {err}")
-        except Exception:
-            # for non-evaluation errors we want the stack trace
-            logger.exception(f"Failed to updated repository {repo.name}")
+    if getattr(args, "debug", False):
+        for repo in manifest.repos:
+            try:
+                update(repo)
+            except EvalError as err:
+                if repo.locked_version is None:
+                    logger.error(
+                        f"repository {repo.name} failed to evaluate: {err}. This repo is not yet in our lock file!!!!"
+                    )
+                    raise
+                logger.error(f"repository {repo.name} failed to evaluate: {err}")
+            except Exception:
+                logger.exception(f"Failed to update repository {repo.name}")
+    else:
+        with ThreadPoolExecutor() as executor:
+            future_to_repo = {
+                executor.submit(update, repo): repo for repo in manifest.repos
+            }
+
+            for future in as_completed(future_to_repo):
+                repo = future_to_repo[future]
+                try:
+                    future.result()
+                except EvalError as err:
+                    if repo.locked_version is None:
+                        logger.error(
+                            f"repository {repo.name} failed to evaluate: {err}. This repo is not yet in our lock file!!!!"
+                        )
+                        raise
+                    logger.error(f"repository {repo.name} failed to evaluate: {err}")
+                except Exception:
+                    logger.exception(f"Failed to update repository {repo.name}")
 
     update_lock_file(manifest.repos, LOCK_PATH)
