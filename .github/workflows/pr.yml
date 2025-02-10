@@ -1,6 +1,7 @@
 name: "Test"
 on:
   pull_request:
+  merge_group:
   # For bors
   push:
     branches:
