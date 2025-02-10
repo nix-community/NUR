@@ -13,8 +13,6 @@ nix run "${DIR}#" -- update
 
 cd ${DIR}/..
 
-nix run "${DIR}#" -- combine nur-combined
-
 nix flake update nixpkgs
 
 if [[ -z "$(git diff --exit-code)" ]]; then
