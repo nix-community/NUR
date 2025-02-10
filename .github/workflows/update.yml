@@ -14,6 +14,13 @@ jobs:
   update_nur:
     runs-on: ubuntu-latest
     steps:
+    - id: get_workflow_token
+      uses: peter-murray/workflow-application-token-action@v4.0.1
+      with:
+        application_id: '${{ secrets.GH_APPLICATION_ID }}'
+        application_private_key: '${{ secrets.GH_APPLICATION_PRIVATE_KEY }}'
+        permissions: "contents:write"
+        revoke_token: true
     - uses: actions/checkout@v4
       with:
         fetch-depth: '0'
@@ -25,11 +32,18 @@ jobs:
     - name: update nur / nur-combined
       run: ./ci/update-nur.sh
       env:
-        API_TOKEN_GITHUB: '${{ secrets.API_TOKEN_GITHUB }}'
+        API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
   update_search:
     runs-on: ubuntu-latest
     needs: update_nur
     steps:
+    - id: get_workflow_token
+      uses: peter-murray/workflow-application-token-action@v4.0.1
+      with:
+        application_id: '${{ secrets.GH_APPLICATION_ID }}'
+        application_private_key: '${{ secrets.GH_APPLICATION_PRIVATE_KEY }}'
+        permissions: "contents:write"
+        revoke_token: true
     - uses: actions/checkout@v4
     - uses: cachix/install-nix-action@v30
       with:
@@ -39,4 +53,4 @@ jobs:
     - name: update nur-search/data/packages.json
       run: ./ci/update-nur-search.sh
       env:
-        API_TOKEN_GITHUB: '${{ secrets.API_TOKEN_GITHUB }}'
+        API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
