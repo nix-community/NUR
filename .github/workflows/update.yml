@@ -35,7 +35,7 @@ jobs:
         API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
     - name: rebase # TODO: fix upstream push-protected to retry when push fails
       run: |
-        ./ci/lib/setup-git.sh
+        source ./ci/lib/setup-git.sh
         git -C $GITHUB_WORKSPACE/nur fetch origin master
         git -C $GITHUB_WORKSPACE/nur pull --rebase origin master
       env:
@@ -75,7 +75,7 @@ jobs:
         API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
     - name: rebase and push
       run: |
-        ./nur/ci/lib/setup-git.sh
+        source ./nur/ci/lib/setup-git.sh
         git -C $GITHUB_WORKSPACE/nur-combined pull --rebase origin master
         git -C $GITHUB_WORKSPACE/nur-combined push origin HEAD:master
       env:
