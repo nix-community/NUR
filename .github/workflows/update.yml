@@ -70,12 +70,12 @@ jobs:
         extra_nix_config: |
           experimental-features = nix-command flakes
     - name: update nur-combined
-      run: ./ci/update-nur-combined.sh
+      run: ./nur/ci/update-nur-combined.sh
       env:
         API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
     - name: rebase and push
       run: |
-        ./ci/lib/setup-git.sh
+        ./nur/ci/lib/setup-git.sh
         git -C $GITHUB_WORKSPACE/nur-combined pull --rebase origin master
         git -C $GITHUB_WORKSPACE/nur-combined push origin HEAD:master
       env:
