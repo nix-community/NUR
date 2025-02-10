@@ -9,17 +9,9 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 source ${DIR}/lib/setup-git.sh
 set -x
 
-nix run "${DIR}#" -- update
-
 cd ${DIR}/..
 
 nix run "${DIR}#" -- combine nur-combined
 
-nix flake update nixpkgs
-
-if [[ -z "$(git diff --exit-code)" ]]; then
-  echo "No changes to the output on this push; exiting."
-else
-  git add --all repos.json* flake.lock
-  git commit -m "automatic update"
-fi
+git -C nur-combined pull --rebase origin master
+git -C nur-combined push origin HEAD:master

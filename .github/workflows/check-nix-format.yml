@@ -6,6 +6,10 @@ name: Check that Nix files are formatted
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - master
+      - 'push-action/**'
   merge_group:
 permissions:
   contents: read
