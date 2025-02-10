@@ -36,8 +36,8 @@ jobs:
     - name: rebase # TODO: fix upstream push-protected to retry when push fails
       run: |
         source ./ci/lib/setup-git.sh
-        git -C $GITHUB_WORKSPACE/nur fetch origin master
-        git -C $GITHUB_WORKSPACE/nur pull --rebase origin master
+        git fetch origin master
+        git pull --rebase origin master
       env:
         GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
     - uses: CasperWA/push-protected@v2
