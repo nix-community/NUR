@@ -12,6 +12,3 @@ set -x
 cd "${DIR}/.."
 
 nix run "${DIR}#" -- combine nur-combined
-
-git -C nur-combined pull --rebase origin master
-git -C nur-combined push origin HEAD:master
