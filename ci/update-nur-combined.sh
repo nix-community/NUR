@@ -9,7 +9,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 source ${DIR}/lib/setup-git.sh
 set -x
 
-cd ${DIR}/..
+cd ${DIR}/../..
 
 nix run "${DIR}#" -- combine nur-combined
 
