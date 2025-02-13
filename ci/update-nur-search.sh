@@ -14,7 +14,7 @@ set -x
 
 nix build "${DIR}#"
 
-cd "${DIR}/../.."
+cd "${DIR}/.."
 
 nix run "${DIR}#" -- index nur-combined > nur-search/data/packages.json
 
