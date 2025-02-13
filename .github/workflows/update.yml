@@ -62,7 +62,6 @@ jobs:
       with:
         repository: nix-community/NUR
         fetch-depth: '0'
-        path: nur
     - uses: actions/checkout@v4
       with:
         repository: nix-community/nur-combined
@@ -74,12 +73,12 @@ jobs:
         extra_nix_config: |
           experimental-features = nix-command flakes
     - name: update nur-combined
-      run: ./nur/ci/update-nur-combined.sh
+      run: ./ci/update-nur-combined.sh
       env:
         API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
     - name: rebase and push
       run: |
-        source ./nur/ci/lib/setup-git.sh
+        source ./ci/lib/setup-git.sh
         git -C $GITHUB_WORKSPACE/nur-combined pull --rebase origin master
         git -C $GITHUB_WORKSPACE/nur-combined push origin HEAD:master
       env:
@@ -100,7 +99,6 @@ jobs:
       with:
         repository: nix-community/NUR
         fetch-depth: '0'
-        path: nur
     - uses: actions/checkout@v4
       with:
         repository: nix-community/nur-combined
@@ -118,12 +116,12 @@ jobs:
         extra_nix_config: |
           experimental-features = nix-command flakes
     - name: update nur-search/data/packages.json
-      run: ./nur/ci/update-nur-search.sh
+      run: ./ci/update-nur-search.sh
       env:
         API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
     - name: rebase and push
       run: |
-        source ./nur/ci/lib/setup-git.sh
+        source ./ci/lib/setup-git.sh
         git -C $GITHUB_WORKSPACE/nur-search pull --rebase origin master
         git -C $GITHUB_WORKSPACE/nur-search push origin HEAD:master
       env:
