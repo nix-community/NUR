@@ -97,12 +97,34 @@ jobs:
         permissions: "contents:write"
         revoke_token: true
     - uses: actions/checkout@v4
+      with:
+        repository: nix-community/NUR
+        fetch-depth: '0'
+        path: nur
+    - uses: actions/checkout@v4
+      with:
+        repository: nix-community/nur-combined
+        fetch-depth: '0'
+        submodules: 'recursive'
+        path: nur-combined
+    - uses: actions/checkout@v4
+      with:
+        repository: nix-community/nur-search
+        fetch-depth: '0'
+        path: nur-search
     - uses: cachix/install-nix-action@v30
       with:
         nix_path: nixpkgs=channel:nixos-unstable
         extra_nix_config: |
           experimental-features = nix-command flakes
     - name: update nur-search/data/packages.json
-      run: ./ci/update-nur-search.sh
+      run: ./nur/ci/update-nur-search.sh
       env:
         API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
+    - name: rebase and push
+      run: |
+        source ./nur/ci/lib/setup-git.sh
+        git -C $GITHUB_WORKSPACE/nur-search pull --rebase origin master
+        git -C $GITHUB_WORKSPACE/nur-search push origin HEAD:master
+      env:
+        GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
