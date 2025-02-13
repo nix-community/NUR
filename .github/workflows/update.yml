@@ -59,10 +59,12 @@ jobs:
     - uses: actions/checkout@v4
       with:
         repository: nix-community/NUR
+        fetch-depth: '0'
         path: nur
     - uses: actions/checkout@v4
       with:
         repository: nix-community/nur-combined
+        fetch-depth: '0'
         path: nur-combined
     - uses: cachix/install-nix-action@v30
       with:
