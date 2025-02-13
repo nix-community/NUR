@@ -58,7 +58,7 @@ jobs:
         revoke_token: true
     - uses: actions/checkout@v4
       with:
-        repository: nix-community/nur-combined
+        repository: nix-community/NUR
         path: nur
     - uses: actions/checkout@v4
       with:
