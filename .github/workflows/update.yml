@@ -83,11 +83,13 @@ jobs:
         git -C $GITHUB_WORKSPACE/nur-combined pull --rebase origin master
       env:
         GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
-    - uses: CasperWA/push-protected@v2
+    - uses: ad-m/github-push-action@v0.8.0
       with:
-        token: ${{ steps.get_workflow_token.outputs.token }}
+        directory: "./nur-combined"
+        repository: nix-community/nur-combined
+        github_token: ${{ steps.get_workflow_token.outputs.token }}
         branch: master
-        path: './nur-combined'
+
 
   update_search:
     runs-on: ubuntu-latest
@@ -131,8 +133,9 @@ jobs:
         git -C $GITHUB_WORKSPACE/nur-search pull --rebase origin master
       env:
         GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
-    - uses: CasperWA/push-protected@v2
+    - uses: ad-m/github-push-action@v0.8.0
       with:
-        token: ${{ steps.get_workflow_token.outputs.token }}
+        directory: "./nur-search"
+        repository: nix-community/nur-search
+        github_token: ${{ steps.get_workflow_token.outputs.token }}
         branch: master
-        path: './nur-search'
