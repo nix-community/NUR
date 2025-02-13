@@ -14,11 +14,7 @@ set -x
 
 nix build "${DIR}#"
 
-cd "${DIR}/.."
-
-git clone --single-branch "https://${API_TOKEN_GITHUB:-git}@github.com/nix-community/nur-combined.git" || git -C nur-combined pull
-
-git clone --recurse-submodules "https://${API_TOKEN_GITHUB:-git}@github.com/nix-community/nur-search.git" || git -C nur-search pull
+cd "${DIR}/../.."
 
 nix run "${DIR}#" -- index nur-combined > nur-search/data/packages.json
 
@@ -29,9 +25,6 @@ cd nur-search
 if [[ ! -z "$(git diff --exit-code)" ]]; then
     git add ./data/packages.json
     git commit -m "automatic update package.json"
-    git pull --rebase origin master
-    git push origin master
-    nix-shell --run "make clean && make && make publish"
 else
     echo "nothings changed will not commit anything"
 fi
