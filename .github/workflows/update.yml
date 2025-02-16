@@ -87,7 +87,7 @@ jobs:
       with:
         directory: "./nur-combined"
         repository: nix-community/nur-combined
-        github_token: ${{ steps.get_workflow_token.outputs.token }}
+        github_token: ${{ secrets.API_TOKEN_GITHUB }}
         branch: master
 
 
@@ -137,5 +137,5 @@ jobs:
       with:
         directory: "./nur-search"
         repository: nix-community/nur-search
-        github_token: ${{ steps.get_workflow_token.outputs.token }}
+        github_token: ${{ secrets.API_TOKEN_GITHUB }}
         branch: master
