@@ -76,19 +76,16 @@ jobs:
       run: ./ci/update-nur-combined.sh
       env:
         API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
-    - name: rebase
+    - name: Rebase and Push
       run: |
         source ./ci/lib/setup-git.sh
+        git -C $GITHUB_WORKSPACE/nur-combined remote set-url origin https://${API_TOKEN_GITHUB:-git}@github.com/nix-community/nur-combined.git
         git -C $GITHUB_WORKSPACE/nur-combined fetch origin master
         git -C $GITHUB_WORKSPACE/nur-combined pull --rebase origin master
+        git -C $GITHUB_WORKSPACE/nur-combined push origin master
       env:
         GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
-    - uses: ad-m/github-push-action@v0.8.0
-      with:
-        directory: "./nur-combined"
-        repository: nix-community/nur-combined
-        github_token: ${{ secrets.API_TOKEN_GITHUB }}
-        branch: master
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
 
 
   update_search:
@@ -126,16 +123,13 @@ jobs:
       run: ./ci/update-nur-search.sh
       env:
         API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
-    - name: rebase
+    - name: Rebase and Push
       run: |
         source ./ci/lib/setup-git.sh
+        git -C $GITHUB_WORKSPACE/nur-search remote set-url origin https://${API_TOKEN_GITHUB:-git}@github.com/nix-community/nur-search.git
         git -C $GITHUB_WORKSPACE/nur-search fetch origin master
         git -C $GITHUB_WORKSPACE/nur-search pull --rebase origin master
+        git -C $GITHUB_WORKSPACE/nur-search push origin master
       env:
         GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
-    - uses: ad-m/github-push-action@v0.8.0
-      with:
-        directory: "./nur-search"
-        repository: nix-community/nur-search
-        github_token: ${{ secrets.API_TOKEN_GITHUB }}
-        branch: master
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
