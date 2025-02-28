@@ -1237,6 +1237,11 @@
             "submodules": true,
             "url": "https://github.com/milahu/nur-packages"
         },
+        "minegameYTB": {
+            "rev": "e968b9cb18b1c9be595ee85409ec805af2d89f99",
+            "sha256": "0sy65c5p6xs0mrnhsa61p9wf04jxcpz4kjv9mq73rvk9pb9yjqj6",
+            "url": "https://github.com/minegameYTB/nurpkgs-repo"
+        },
         "minion3665": {
             "rev": "ab2f419e72faa0a4e3d9a3af0f14bae615255eea",
             "sha256": "0rc9hqzd826ciw4h5bd06r2p9ccpv5v0g5fq5dcsl4wcl6vmq8b2",
@@ -1986,8 +1991,8 @@
             "url": "https://github.com/wyzdwdz/nur-pkgs"
         },
         "xddxdd": {
-            "rev": "1b48a56fd0a8469af4e261c8ffbebfad9118ddd6",
-            "sha256": "138ifyjvfi67az6d2i1qrxdxhdlhc8qrr3wqkm5zbz8zbrsmjn7f",
+            "rev": "b5c92bedc7d42b17a5126caf7d1b23ab75f78be3",
+            "sha256": "115cid6985ricl1zvkwrv46vlgfdj71825z27kxjsq762rc62saw",
             "url": "https://github.com/xddxdd/nur-packages"
         },
         "xe": {
