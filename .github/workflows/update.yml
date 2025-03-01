@@ -38,89 +38,23 @@ jobs:
     - name: rebase # TODO: fix upstream push-protected to retry when push fails
       run: |
         source ./ci/lib/setup-git.sh
-        git fetch origin master
-        git pull --rebase origin master
+        git fetch origin ${{ github.event.repository.default_branch }}
+        git pull --rebase origin ${{ github.event.repository.default_branch }}
       env:
         GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}
     - uses: CasperWA/push-protected@v2
       with:
         token: ${{ steps.get_workflow_token.outputs.token }}
-        branch: master
-
-  update_combined:
-    runs-on: ubuntu-latest
-    needs: update_nur
-    steps:
-    - id: get_workflow_token
-      uses: peter-murray/workflow-application-token-action@v4.0.1
+        branch: ${{ github.event.repository.default_branch }}
+    - name: Dispatch NUR-combined update
+      uses: peter-evans/repository-dispatch@v2
       with:
-        application_id: '${{ secrets.GH_APPLICATION_ID }}'
-        application_private_key: '${{ secrets.GH_APPLICATION_PRIVATE_KEY }}'
-        permissions: "contents:write"
-        revoke_token: true
-    - uses: actions/checkout@v4
-      with:
-        repository: nix-community/NUR
-        fetch-depth: '0'
-    - uses: actions/checkout@v4
-      with:
+        token: ${{ steps.get_workflow_token.outputs.token }}
         repository: nix-community/nur-combined
-        fetch-depth: '0'
-        path: nur-combined
-    - uses: cachix/install-nix-action@v30
+        event-type: nur_update
+    - name: Dispatch NUR-search update
+      uses: peter-evans/repository-dispatch@v2
       with:
-        nix_path: nixpkgs=channel:nixos-unstable
-        extra_nix_config: |
-          experimental-features = nix-command flakes
-    - name: update nur-combined
-      run: ./ci/update-nur-combined.sh
-      env:
-        API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
-    - name: Rebase and Push
-      run: |
-        source ./ci/lib/setup-git.sh
-        git -C $GITHUB_WORKSPACE/nur-combined fetch origin master
-        git -C $GITHUB_WORKSPACE/nur-combined pull --rebase origin master
-        git -C $GITHUB_WORKSPACE/nur-combined -c http.extraheader="Authorization: Bearer ${{ steps.get_workflow_token.outputs.token }}" push origin master
-
-  update_search:
-    runs-on: ubuntu-latest
-    needs: update_nur
-    steps:
-    - id: get_workflow_token
-      uses: peter-murray/workflow-application-token-action@v4.0.1
-      with:
-        application_id: '${{ secrets.GH_APPLICATION_ID }}'
-        application_private_key: '${{ secrets.GH_APPLICATION_PRIVATE_KEY }}'
-        permissions: "contents:write"
-        revoke_token: true
-    - uses: actions/checkout@v4
-      with:
-        repository: nix-community/NUR
-        fetch-depth: '0'
-    - uses: actions/checkout@v4
-      with:
-        repository: nix-community/nur-combined
-        fetch-depth: '0'
-        submodules: 'recursive'
-        path: nur-combined
-    - uses: actions/checkout@v4
-      with:
+        token: ${{ steps.get_workflow_token.outputs.token }}
         repository: nix-community/nur-search
-        fetch-depth: '0'
-        path: nur-search
-    - uses: cachix/install-nix-action@v30
-      with:
-        nix_path: nixpkgs=channel:nixos-unstable
-        extra_nix_config: |
-          experimental-features = nix-command flakes
-    - name: update nur-search/data/packages.json
-      run: ./ci/update-nur-search.sh
-      env:
-        API_TOKEN_GITHUB: '${{ steps.get_workflow_token.outputs.token }}'
-    - name: Rebase and Push
-      run: |
-        source ./ci/lib/setup-git.sh
-        git -C $GITHUB_WORKSPACE/nur-search fetch origin master
-        git -C $GITHUB_WORKSPACE/nur-search pull --rebase origin master
-        git -C $GITHUB_WORKSPACE/nur-search -c http.extraheader="Authorization: Bearer ${{ steps.get_workflow_token.outputs.token }}" push origin master
+        event-type: nur_update
