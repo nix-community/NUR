@@ -46,7 +46,7 @@ To make NUR accessible for your login user, add the following to `~/.config/nixp
 ```nix
 {
   packageOverrides = pkgs: {
-    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
+    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/main.tar.gz") {
       inherit pkgs;
     };
   };
@@ -60,7 +60,7 @@ as shown above!
 ```nix
 {
   nixpkgs.config.packageOverrides = pkgs: {
-    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
+    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/main.tar.gz") {
       inherit pkgs;
     };
   };
@@ -73,7 +73,7 @@ Using `builtins.fetchTarball` without a sha256 will only cache the download for 
 
 ```nix
 builtins.fetchTarball {
-  # Get the revision by choosing a version from https://github.com/nix-community/NUR/commits/master
+  # Get the revision by choosing a version from https://github.com/nix-community/NUR/commits/main
   url = "https://github.com/nix-community/NUR/archive/3a6a6f4da737da41e27922ce2cfacf68a109ebce.tar.gz";
   # Get the hash by running `nix-prefetch-url --unpack <url>` on the above url
   sha256 = "04387gzgl8y555b3lkz9aiw9xsldfg4zmzp930m62qw8zbrvrshd";
@@ -184,7 +184,7 @@ You can then configure your services like usual.
 
 ```nix
 let
-  nur-no-pkgs = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {};
+  nur-no-pkgs = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/main.tar.gz") {};
 in
 {
   imports = lib.attrValues nur-no-pkgs.repos.moredhel.hmModules.rawModules;
@@ -474,12 +474,12 @@ This allows to test changes before publishing.
 ```nix
 {
   packageOverrides = pkgs: {
-    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
+    nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/main.tar.gz") {
       inherit pkgs;
       repoOverrides = {
         mic92 = import ../nur-packages { inherit pkgs; };
         ## remote locations are also possible:
-        # mic92 = import (builtins.fetchTarball "https://github.com/your-user/nur-packages/archive/master.tar.gz") { inherit pkgs; };
+        # mic92 = import (builtins.fetchTarball "https://github.com/your-user/nur-packages/archive/main.tar.gz") { inherit pkgs; };
       };
     };
   };
