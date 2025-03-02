@@ -368,7 +368,7 @@ You can find out if your evaluation succeeded by checking the [latest build job]
 
 #### Local evaluation check
 
-In your `nur-packages/` folder, run the [check evaluation](https://github.com/nix-community/nur-packages-template/blob/master/.github/workflows/build.yml) task
+In your `nur-packages/` folder, run the [check evaluation](https://github.com/nix-community/nur-packages-template/blob/main/.github/workflows/build.yml) task
 
 ```sh
 nix-env -f . -qa \* --meta \
