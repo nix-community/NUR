@@ -47,13 +47,13 @@ jobs:
         token: ${{ steps.get_workflow_token.outputs.token }}
         branch: ${{ github.event.repository.default_branch }}
     - name: Dispatch NUR-combined update
-      uses: peter-evans/repository-dispatch@v2
+      uses: peter-evans/repository-dispatch@v3
       with:
         token: ${{ steps.get_workflow_token.outputs.token }}
         repository: nix-community/nur-combined
         event-type: nur_update
     - name: Dispatch NUR-search update
-      uses: peter-evans/repository-dispatch@v2
+      uses: peter-evans/repository-dispatch@v3
       with:
         token: ${{ steps.get_workflow_token.outputs.token }}
         repository: nix-community/nur-search
