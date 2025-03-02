@@ -6,7 +6,7 @@ on:
     - cron:  '40 * * * *'
   push:
     branches:
-      - master
+      - main
 concurrency:
   group: update
   cancel-in-progress: false
