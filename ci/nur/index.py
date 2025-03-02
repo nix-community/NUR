@@ -10,7 +10,7 @@ from typing import Any, Dict
 
 def resolve_source(pkg: Dict, repo: str, url: str) -> str:
     # TODO commit hash
-    prefix = f"https://github.com/nix-community/nur-combined/tree/master/repos/{repo}"
+    prefix = f"https://github.com/nix-community/nur-combined/tree/main/repos/{repo}"
     position = pkg["meta"].get("position", None)
 
     if position is not None and position.startswith("/nix/store"):
@@ -23,7 +23,7 @@ def resolve_source(pkg: Dict, repo: str, url: str) -> str:
         # TODO find commit hash
         prefixes = {
             "nixpkgs": "https://github.com/nixos/nixpkgs/tree/main/",
-            "nur": "https://github.com/nix-community/nur-combined/tree/master/",
+            "nur": "https://github.com/nix-community/nur-combined/tree/main/",
         }
         stripped = path.parts[4:]
         if path.parts[3].endswith("source"):
