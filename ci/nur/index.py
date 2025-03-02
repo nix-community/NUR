@@ -22,7 +22,7 @@ def resolve_source(pkg: Dict, repo: str, url: str) -> str:
         # `nix edit` is
         # TODO find commit hash
         prefixes = {
-            "nixpkgs": "https://github.com/nixos/nixpkgs/tree/main/",
+            "nixpkgs": "https://github.com/nixos/nixpkgs/tree/master/",
             "nur": "https://github.com/nix-community/nur-combined/tree/main/",
         }
         stripped = path.parts[4:]
