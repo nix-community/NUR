@@ -55,12 +55,6 @@
         inputs.treefmt-nix.flakeModule
       ];
       perSystem =
-        { pkgs, ... }:
-        {
-          treefmt.programs.nixfmt.enable = true;
-          # legacyPackages is used because nur is a package set
-          # This trick with the overlay is used because it allows NUR packages to depend on other NUR packages
-          legacyPackages = (pkgs.extend overlay).nur;
-        };
+        { pkgs, ... }: builtins.throw "The NUR master branch has been renamed to main. Please update your expressions and/or flake inputs!";
     };
 }
