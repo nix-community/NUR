@@ -37,18 +37,11 @@
         overlays = {
           default = overlay;
         };
-        modules = {
-          nixos = {
-            default = {
-              nixpkgs.overlays = [ overlay ];
-            };
+        modules = lib.genAttrs [ "nixos" "homeManager" "darwin" ] (_: {
+          default = {
+            nixpkgs.overlays = [ overlay ];
           };
-          homeManager = {
-            default = {
-              nixpkgs.overlays = [ overlay ];
-            };
-          };
-        };
+        });
       };
       imports = [
         inputs.flake-parts.flakeModules.modules
