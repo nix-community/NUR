@@ -19,13 +19,13 @@ jobs:
     name: nixfmt-check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 2
       - name: Calculate changed files
         id: changed-files
         run: echo "changed_files=$(git diff --name-only -r HEAD^1 HEAD | xargs)" >> $GITHUB_OUTPUT
-      - uses: cachix/install-nix-action@v30
+      - uses: cachix/install-nix-action@08dcb3a5e62fa31e2da3d490afc4176ef55ecd72 # v30
         with:
           extra_nix_config: sandbox = true
           nix_path: nixpkgs=channel:nixpkgs-unstable
