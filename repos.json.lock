@@ -406,6 +406,11 @@
             "sha256": "18x03ga9l41nzj32nrmw39gssnza69inki0jh6bg4xv6mygmrdy2",
             "url": "https://github.com/ihebchagra/nur-packages"
         },
+        "chap9": {
+            "rev": "9ecbad4da9b32804ebbd85c08687280def4716f0",
+            "sha256": "1xp1aqa4nn9lllgdpshxgxpr46drwvshlmnff643h4pa4szpcjlk",
+            "url": "https://github.com/chap9/chap9-nur"
+        },
         "charmbracelet": {
             "rev": "fac99e886be5d3edc5fb55a2ce1b2d8a646a1e3f",
             "sha256": "18ah8rdqigi3r4g14zxk3mrirg5pv8izciblj30m24bmkw0c3vbl",
@@ -1790,8 +1795,8 @@
             "url": "https://github.com/sikmir/nur-packages"
         },
         "skiletro": {
-            "rev": "1a5d6240ba99c12416cad4ef9efa0da54c2ac0b5",
-            "sha256": "0z3g05cg5rbrskandmlwdsgh9k7kw5q4m41hm7h277107ycyz0vm",
+            "rev": "53df13eceae4411ebe38ff1be4a04ec4f1deb8fa",
+            "sha256": "085bfl1wgks4q5n07gagq0fry2pjdnwmqkx6sgy45ryd5w7kr5k2",
             "url": "https://github.com/skiletro/nur-repo"
         },
         "sky": {
