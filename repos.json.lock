@@ -1629,14 +1629,19 @@
             "url": "https://git.sr.ht/~priegger/nur-packages"
         },
         "progsyn": {
-            "rev": "5a89268d93eb4ebd4d954acbd679ad8c7e6c0cd5",
-            "sha256": "02714inwkkjv466hdl3s5palzdjnacmbhhfa9p6p5kgyalh2n9k2",
+            "rev": "c4b9ade34024af7f68dfe303db4e0a0211eaaf03",
+            "sha256": "19x0339g9yl3nsb2pic03sdgp82r986r6nmxp9dfy8vymxrsslp2",
             "url": "https://github.com/mistzzt/program-synthesis-nur"
         },
         "propheci": {
             "rev": "c761d1e65ae057fd3f966fec2346c4cb223b89e2",
             "sha256": "0m9a3b2apmfch0hq7qjrm6jsw6c4fzigqggvs1zidc5v0jdaj8kl",
             "url": "https://github.com/Propheci/NixUR"
+        },
+        "ps": {
+            "rev": "dd78c6d7021b272d7a9334846e7a11eb231f9ad3",
+            "sha256": "0590a2777czsnv66qjrndrpa63iqpn1h3x356jfq23cfkldha3iw",
+            "url": "https://github.com/patryk-s/nur-packages"
         },
         "pschuprikov": {
             "rev": "39933bbec28fee1e262804796fef691d3996db48",
