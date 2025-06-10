@@ -5,7 +5,7 @@
   pkgs ? (
     import <nixpkgs> {
       overrides = [
-        (final: prev: if prev ? nur then prev else { nur = ./. { pkgs = final; }; })
+        (final: prev: if prev ? nur then prev else { nur = import ./. { pkgs = final; }; })
       ];
     }
   ),
@@ -19,6 +19,22 @@ let
   inherit (nurpkgs) lib;
 
   repoSource =
+    name: attr:
+    import ./lib/repoSource.nix {
+      inherit
+        name
+        attr
+        manifest
+        lockedRevisions
+        lib
+        ;
+      fetchgit = builtins.fetchGit or nurpkgs.fetchgit;
+      fetchzip = builtins.fetchTarball or nurpkgs.fetchzip;
+    };
+
+  # https://github.com/nix-community/NUR/issues/916
+  # Use Nixpkgs fetchers in repo-sources for compatibility with ci
+  repoSource' =
     name: attr:
     import ./lib/repoSource.nix {
       inherit
@@ -42,5 +58,5 @@ let
 in
 {
   repos = (lib.mapAttrs createRepo manifest) // repoOverrides;
-  repo-sources = lib.mapAttrs repoSource manifest;
+  repo-sources = lib.mapAttrs repoSource' manifest;
 }
