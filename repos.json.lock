@@ -150,6 +150,11 @@
             "sha256": "0crraycz6mcz04qa6vc1l788k59x7r7gv39xhbz0q4qrl2zxvb4y",
             "url": "https://github.com/Rhys-T/nur-packages"
         },
+        "RossSmyth": {
+            "rev": "3b2e4387a06bb45df454315da0be0dd3e675d3c3",
+            "sha256": "0bylb0mpr8x0yzrxsdvmlr93gvfbwv53yly6m60yq0pg9k5923rm",
+            "url": "https://github.com/RossSmyth/nur"
+        },
         "Samuel-Martineau": {
             "rev": "65a44edc27e56b02b19c5c2eac96dfaa5dfa6c20",
             "sha256": "00hf633mx21k51b9w3bqbpb3zqqa74d1qk15lbmaq63fsjzhq6z9",
@@ -420,6 +425,11 @@
             "rev": "bb22ab12adeabff8b1178ed5a283d7cc574cbae1",
             "sha256": "1vagazi0z4wcd9lpagyfq09nn3n8x9zhrw5rh00w1knv6afzphss",
             "url": "https://github.com/caarlos0/nur"
+        },
+        "cameronyule": {
+            "rev": "75e31a760c63692bf2a84efe7a3cd29ea9592cfd",
+            "sha256": "1w36f3hm47bmhp3j7850axchydnk8zyk6hp8la2lhlpdyw7r9rmp",
+            "url": "https://github.com/cameronyule/nurpkgs"
         },
         "ccicnce113424": {
             "rev": "155c07b2235b13267062a06ca7910e9d6c5d3bf5",
@@ -1554,8 +1564,8 @@
             "url": "https://github.com/ohheyrj/nur"
         },
         "oluceps": {
-            "rev": "5defd5a812845567a62dc51953d14cac4eba5d20",
-            "sha256": "045w8rjhzj6hbbchmkivb77cxyqpzn2jxji1xkhslmgnkpm0a0zn",
+            "rev": "b349c7945f9d58bc9ad5419cf7489139c1f7cd52",
+            "sha256": "1xk3x8j8dnrqlyz8w4qskkdz0j6zlcsm0d8gdhcj08736dq0p2r0",
             "url": "https://github.com/oluceps/nixos-config"
         },
         "ondt": {
