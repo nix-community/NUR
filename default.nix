@@ -5,7 +5,7 @@
   pkgs ? (
     import <nixpkgs> {
       overrides = [
-        (final: prev: if prev ? nur then prev else { nur = import ./. { pkgs = final; }; })
+        (final: prev: if prev ? nur then prev else { nur = ./. { pkgs = final; }; })
       ];
     }
   ),
@@ -28,8 +28,7 @@ let
         lockedRevisions
         lib
         ;
-      fetchgit = builtins.fetchGit or nurpkgs.fetchgit;
-      fetchzip = builtins.fetchTarball or nurpkgs.fetchzip;
+      inherit (nurpkgs) fetchgit fetchzip;
     };
 
   createRepo =
