@@ -47,14 +47,6 @@ else if (lib.hasPrefix "https://gitlab.com" attr.url || type == "gitlab") && !su
 else
   fetchgit {
     inherit (attr) url;
-    inherit (revision) rev;
+    inherit (revision) rev sha256;
+    fetchSubmodules = submodules;
   }
-  // (
-    if fetchgit == builtins.fetchGit or null then
-      { inherit submodules; }
-    else
-      {
-        inherit (revision) sha256;
-        fetchSubmodules = submodules;
-      }
-  )
