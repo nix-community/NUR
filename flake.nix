@@ -7,10 +7,6 @@
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
-    treefmt-nix = {
-      url = "github:numtide/treefmt-nix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
   outputs =
@@ -45,12 +41,27 @@
       };
       imports = [
         inputs.flake-parts.flakeModules.modules
-        inputs.treefmt-nix.flakeModule
       ];
       perSystem =
         { pkgs, ... }:
         {
-          treefmt.programs.nixfmt.enable = true;
+          formatter = pkgs.treefmt.withConfig {
+            runtimeInputs = with pkgs; [
+              nixfmt-rfc-style
+            ];
+
+            settings = {
+              on-unmatched = "info";
+              tree-root-file = "flake.nix";
+
+              formatter = {
+                nixfmt = {
+                  command = "nixfmt";
+                  includes = [ "*.nix" ];
+                };
+              };
+            };
+          };
           # legacyPackages is used because nur is a package set
           # This trick with the overlay is used because it allows NUR packages to depend on other NUR packages
           legacyPackages = (pkgs.extend overlay).nur;
