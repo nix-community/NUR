@@ -461,10 +461,6 @@
             "submodules": true,
             "url": "https://github.com/cwyc/nur-packages"
         },
-        "cyberleagueaustria": {
-            "github-contact": "sencrash",
-            "url": "https://github.com/CyberLeagueAustria/nur-packages"
-        },
         "dagger": {
             "github-contact": "dagger",
             "url": "https://github.com/dagger/nix"
@@ -1260,6 +1256,10 @@
         "nnb": {
             "github-contact": "NNBnh",
             "url": "https://github.com/NNBnh/nur-packages"
+        },
+        "nodezeroat": {
+            "github-contact": "sencrash",
+            "url": "https://github.com/nodezeroat/nur-packages"
         },
         "nolith": {
             "github-contact": "nolith",
