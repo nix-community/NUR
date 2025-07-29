@@ -206,8 +206,8 @@
             "url": "https://git.sr.ht/~aasg/nixexprs"
         },
         "abszero": {
-            "rev": "c307c83c5e68116104152c541d25be7c69bc19a6",
-            "sha256": "02y7n69k43wbdczjharghg6yvk3gsx2033rn0yqwzf6n51s0w0d6",
+            "rev": "1ffe4c4cec152a111d5874239a0f3bd528762adf",
+            "sha256": "1v2i9sms2frw7xfyy8pa2yg5fky97pjw25hqyg99v3xjmdh75sy6",
             "url": "https://github.com/Weathercold/nixfiles"
         },
         "afreakk": {
@@ -457,8 +457,8 @@
             "url": "https://github.com/chap9/chap9-nur"
         },
         "charmbracelet": {
-            "rev": "c8db2dbf96dc6292929c2daedc67d844be4561e5",
-            "sha256": "1scjqj44gfimnjcs6f3pf1iq3fmrg8r7dv77f6vj0rha7bzc6w5b",
+            "rev": "378966b5624a1de8ff11ef97ad2ad8c4a95ea77e",
+            "sha256": "05hikycwad4lnm82cczj85zlwjj006ffkklm4b0xq7x8ncvsfay4",
             "url": "https://github.com/charmbracelet/nur"
         },
         "chen": {
@@ -495,6 +495,11 @@
             "rev": "bedbb3623d3da586432cd1cc394f468fbcab4cd0",
             "sha256": "0r8ynfnpjfzlf2rc76gpylnk1qr0rbmb8didn732fpm327n5zjip",
             "url": "https://github.com/ChrisOboe/nurrepo"
+        },
+        "chrjabs": {
+            "rev": "fb3aed18694c73be861fc83238be1ec008d28122",
+            "sha256": "0dmny6wdyvcv472ir1jvhc0sjnja964f2iggp538h17rla76s67s",
+            "url": "https://github.com/chrjabs/nur-packages"
         },
         "clefru": {
             "rev": "fc5a47a40aaf58aae80ffee2a5146682979aa50f",
