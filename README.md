@@ -131,7 +131,7 @@ This simple example demostrates how to add a single package from nur to a devshe
       let
         pkgs = import nixpkgs {
           inherit system;
-          overlays = [ nur.overlay ];
+          overlays = [ nur.overlays.default ];
         };
       in
       {
