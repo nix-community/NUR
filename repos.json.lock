@@ -512,8 +512,8 @@
             "url": "https://github.com/codgician/nur-packages"
         },
         "colinsane": {
-            "rev": "38899ce392dfadabf933716864c65d2a47ea1c36",
-            "sha256": "1ivl2dmx4dbviq28v4r8jsg83cr21a1ipxbiwl817ga1568dg998",
+            "rev": "2ec26e95342bbd4ba125f235d7bd7a114c73bd59",
+            "sha256": "173v51yfqgd0akkks4dmvz6fghxxmni8nn242c1w6918x4mf0h8h",
             "url": "https://git.uninsane.org/colin/nix-files"
         },
         "colorman": {
@@ -1249,6 +1249,11 @@
             "rev": "f5c0748816fc1f8378f52bcf13ed4426f90f1643",
             "sha256": "0z0p539q0ysd3wsmlkm08zhy0i9qsw98v6jyn6swkld7lrga6mnk",
             "url": "https://github.com/lucasew/nixcfg"
+        },
+        "lucasfa": {
+            "rev": "04f0dc214fb101630d4b40d12a69d4913a2bfbd8",
+            "sha256": "1g1n5jbljxic3fvz6kf8jjh3ic54ww0br24q5idg3qj2anwdkq4c",
+            "url": "https://github.com/lucasfa/nur-packages"
         },
         "lunik1": {
             "rev": "e07177e76be081d6b199a3f59de982791cd89e95",
