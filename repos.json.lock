@@ -206,8 +206,8 @@
             "url": "https://git.sr.ht/~aasg/nixexprs"
         },
         "abszero": {
-            "rev": "1d18befc61586c6c23818b913acbb6a3c53a4154",
-            "sha256": "05mdfzzh305f0641y6ffx6lipw6dyb7hprf2dbaa5yz70yh78a23",
+            "rev": "9ebd57d3c67215604234d16d14b48a065feea27b",
+            "sha256": "1ms27j280l47iwyv1c9kyng0csfi5z2n38sbac95ki911qhzmsj7",
             "url": "https://github.com/Weathercold/nixfiles"
         },
         "afreakk": {
@@ -219,6 +219,11 @@
             "rev": "c5fc1a64b5e90b58b1567d06fc55dd8c33efb591",
             "sha256": "0f6z5n2f2gwx606z3lfyxx3mrm0sxinl9k8y3mdsnrrziipykw9i",
             "url": "https://github.com/adam-gaia/nur-packages"
+        },
+        "akinokaede": {
+            "rev": "203397030db2283c49f5d78fbb72cd795ab3530a",
+            "sha256": "1nj0h50w15adzrciwbpjpqc7gnzk6mvqbn0k1jq1a0lh5zcgl86j",
+            "url": "https://github.com/AkinoKaede/nur-packages"
         },
         "alanpearce": {
             "rev": "a52cbdbb65f5fd8d08a14458a4fd807d13c8c14e",
@@ -1231,8 +1236,8 @@
             "url": "https://github.com/PhotonQuantum/nur-packages"
         },
         "linyinfeng": {
-            "rev": "af0629d9586d078d63d2061f52b6ab380f27eb6b",
-            "sha256": "1b09ivrk5yh7hj0hanaidi4z3xfkm6vpmmprljj3am51nqx53sbp",
+            "rev": "42e256e38b51453d568ad2cfec5c1a7def20016f",
+            "sha256": "1w171gj3b1lbp3rdq6rxca3cklsm86iwmba758mcl8qd24vaxcf8",
             "url": "https://github.com/linyinfeng/nur-packages"
         },
         "liyangau": {
