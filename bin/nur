@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -p python3 -p nix-prefetch-git -p nix -i python3 -p python3Packages.distutils
+#!nix-shell -p python3 -p nix-prefetch-git -p nix -i python3
 import sys
 import os
 
