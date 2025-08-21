@@ -159,9 +159,9 @@ def setup_combined() -> None:
         write_json_file(dict(repos={}), manifest_path)
 
     manifest_lib = "lib"
-    shutil.copytree(str(ROOT.joinpath("lib")), manifest_lib, symlinks=True)
+    shutil.copytree(str(ROOT.joinpath("lib")), manifest_lib, symlinks=True, dirs_exist_ok=True)
     default_nix = "default.nix"
-    shutil.copy(ROOT.joinpath("default.nix"), default_nix)
+    shutil.copy(ROOT.joinpath("default.nix"), default_nix, dirs_exist_ok=True)
 
     vcs_files = [manifest_path, manifest_lib, default_nix]
 
