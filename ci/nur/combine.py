@@ -159,7 +159,9 @@ def setup_combined() -> None:
         write_json_file(dict(repos={}), manifest_path)
 
     manifest_lib = "lib"
-    shutil.copytree(str(ROOT.joinpath("lib")), manifest_lib, symlinks=True, dirs_exist_ok=True)
+    shutil.copytree(
+        str(ROOT.joinpath("lib")), manifest_lib, symlinks=True, dirs_exist_ok=True
+    )
     default_nix = "default.nix"
     shutil.copy(ROOT.joinpath("default.nix"), default_nix)
 
