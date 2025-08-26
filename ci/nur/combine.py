@@ -51,7 +51,9 @@ def commit_repo(repo: Repo, message: str, path: Path) -> Repo:
 
     try:
         # dirs_exist_ok=True because our directory definitely already exists
-        shutil.copytree(repo_source(repo.name), tmp.name, symlinks=True, dirs_exist_ok=True)
+        shutil.copytree(
+            repo_source(repo.name), tmp.name, symlinks=True, dirs_exist_ok=True
+        )
         if os.path.exists(repo_path):
             shutil.rmtree(repo_path)
         shutil.copytree(tmp.name, repo_path, symlinks=True)
