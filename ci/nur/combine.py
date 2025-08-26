@@ -52,7 +52,7 @@ def commit_repo(repo: Repo, message: str, path: Path) -> Repo:
     try:
         shutil.copytree(repo_source(repo.name), tmp.name, symlinks=True, dirs_exist_ok=True)
         shutil.rmtree(repo_path, ignore_errors=True)
-        os.rename(tmp.name, repo_path)
+        shutil.move(tmp.name, repo_path)
         tmp = None
     finally:
         if tmp is not None:
