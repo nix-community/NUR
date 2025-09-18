@@ -1624,8 +1624,8 @@
             "url": "https://github.com/novafacing/nur-packages"
         },
         "novel2430": {
-            "rev": "b43ec11e7b8a9fb8d275686b661d8151da69160c",
-            "sha256": "1abyn1q48mknhqh0khxiy4sz68vn2b81mbljmfnajjfyzwa6x2dh",
+            "rev": "5ca9c9a6e288ce2a654aa1101e2bfd73896e63c6",
+            "sha256": "1hfzphzxmyvjnvka2c89iizjmdrjql3adv8x67gn0xq7vchrv0q5",
             "url": "https://github.com/novel2430/MyNUR"
         },
         "npkgs": {
@@ -1792,11 +1792,6 @@
             "rev": "0190c53aa923aaeefb5473ab9fb59634250409ee",
             "sha256": "1v9d536p2ynnc0kbif1s31ybv1xxj3zvsysj2g4ja5pxgi17mzya",
             "url": "https://github.com/Ptival/nur-packages"
-        },
-        "qchem": {
-            "rev": "524cfea6404133f468148170af05ed57189740e9",
-            "sha256": "187yl39w1dg0c57bf0w6wi28w9b13z8wwdg0vb0lksfjb92qrdna",
-            "url": "https://github.com/markuskowa/NixOS-QChem"
         },
         "qenya": {
             "rev": "f52dcae4c2b4c03f6f5bf87872071cbfc66a0958",
