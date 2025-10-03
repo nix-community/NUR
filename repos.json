@@ -1105,6 +1105,11 @@
             "submodules": true,
             "url": "https://github.com/m15a/nur-packages"
         },
+        "m3tam3re": {
+            "file": "nur.nix",
+            "github-contact": "m3tam3re",
+            "url": "https://code.m3ta.dev/m3tam3re/nixpkgs"
+        },
         "magnap": {
             "github-contact": "Magnap",
             "url": "https://github.com/Magnap/nur-packages"
