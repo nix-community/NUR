@@ -225,6 +225,11 @@
             "sha256": "19cvxa980fxrxhccdiyjfpkgr075zndffyic2ph0kpvm7rp27ykd",
             "url": "https://github.com/Weathercold/nixfiles"
         },
+        "adam0": {
+            "rev": "f878f76e33e660900ecd6dc0584b288a2637e829",
+            "sha256": "1d3a23v5cj8b1bhcwxmdamvwxhh1ma3gy07dadqm6ll7mkkx957h",
+            "url": "https://github.com/adam01110/nur"
+        },
         "afreakk": {
             "rev": "7d5f4ec7271abb7d0a7cc4ed53d2fb14859fe924",
             "sha256": "0cnq8hsdwmsnmv4rdnyl38md420chsm7c9n4zlwpnjxxyqhp7yb0",
@@ -461,6 +466,11 @@
             "sha256": "1w36f3hm47bmhp3j7850axchydnk8zyk6hp8la2lhlpdyw7r9rmp",
             "url": "https://github.com/cameronyule/nurpkgs"
         },
+        "cawilliamson": {
+            "rev": "f6d1db34737785f54f5ef03700e8f463c633d807",
+            "sha256": "0f5hdq5lgd9dm9w6sqqcl9c92vj4cdbysj268ip2yih0hh42r1gy",
+            "url": "https://github.com/cawilliamson/nur-packages"
+        },
         "ccicnce113424": {
             "rev": "f3e5c769c1d9bba91d557e3b139a52376b899599",
             "sha256": "1wy4flwnny4bdgahsph6pv2yz9jfqyb5h2gq7n7v67xbypa3kdz2",
@@ -520,6 +530,11 @@
             "rev": "ee4906b284cbcb93012819f2f49e1b44df5c3ef9",
             "sha256": "0qmragr8iyy4xql77xsy9w2w4bcnvgkyjw4j5vi8izg0g750az2i",
             "url": "https://github.com/chrjabs/nur-packages"
+        },
+        "cinqwqeggs": {
+            "rev": "ae8406d08faa6f5e18bca291df72cf485691f373",
+            "sha256": "0k1wqi5cvlacb84289ywp9jq4gypb6gbp1mcy8nwhf56hvxv2iq3",
+            "url": "https://github.com/CinQwQeggs01/nur-packages-template"
         },
         "clefru": {
             "rev": "155a932807e6b6ddb43ab2066286ee7d1f09017f",
@@ -836,6 +851,11 @@
             "rev": "af832ac9bbe2213339c3c6d8e6d8f4adf4ae2d4a",
             "sha256": "15ajrzp1bfjhr2iha8jy2izbmpb174y4fk1jw0x8znbpasfwjjcr",
             "url": "https://github.com/foresense/nur-packages"
+        },
+        "forkprince": {
+            "rev": "a6fec46202e5b0c9d2d454362de540200f1f3f10",
+            "sha256": "17yaixsfzs1z9ciwg9kc7ishq4k19i6yy2wjvhcfmavamriihmpk",
+            "url": "https://github.com/forkprince/nur-packages"
         },
         "fortuneteller2k": {
             "rev": "4cd0dcc8fa4fdacf026605b24927884173d13f67",
@@ -1395,6 +1415,11 @@
             "rev": "bc1ebbdb9bd1719ff263f1af4b7e945bea38bfde",
             "sha256": "04aksr7ysjlri9vi5z5gzz9kzlrjz8fag2bw736wfsa2fwrwkwpy",
             "url": "https://github.com/meain/nur-packages"
+        },
+        "merrkry": {
+            "rev": "7524ecb2fb8f774aad8289d30f2b96c54ee5fdbd",
+            "sha256": "01xmg65318xnidsfjlag32bzw9yb935r46122avjrphl11aja943",
+            "url": "https://github.com/merrkry/nur-packages"
         },
         "mgord9518": {
             "rev": "cc6d2124c85bdbb682654c610b5319bf46cfe732",
@@ -2058,6 +2083,12 @@
             "rev": "7f4383847924aaf6d4fd7695b05830fa627a55fe",
             "sha256": "1zkhybvlqn4bjm0kih4s22zlb8f5gycpms48rx27gs2jz86ms1f4",
             "url": "https://github.com/suhr/nur-packages"
+        },
+        "swarsel": {
+            "rev": "ab8460e796c0694fe612a02817d8c290d0662188",
+            "sha256": "0i5hh41dn70jznhbmx9832illlq3hnx45qscc3bvqhlsim1i1z5d",
+            "submodules": true,
+            "url": "https://github.com/Swarsel/swarsel-nix"
         },
         "syberant": {
             "rev": "c0b1a823454b9858b890e7ab25301cbc4f447305",
