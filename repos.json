@@ -1681,6 +1681,11 @@
             "github-contact": "suhr",
             "url": "https://github.com/suhr/nur-packages"
         },
+        "swarsel": {
+            "github-contact": "Swarsel",
+            "submodules": true,
+            "url": "https://github.com/Swarsel/swarsel-nix"
+        },
         "syberant": {
             "github-contact": "syberant",
             "url": "https://github.com/syberant/nur-packages"
