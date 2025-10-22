@@ -245,6 +245,11 @@
             "sha256": "0f6z5n2f2gwx606z3lfyxx3mrm0sxinl9k8y3mdsnrrziipykw9i",
             "url": "https://github.com/adam-gaia/nur-packages"
         },
+        "ahi6": {
+            "rev": "280ce5f55a699cfdae04e6c68b7d615714bac576",
+            "sha256": "09r2f17h07y26jqv17l5c19cx7s8iv5f1krcrxsnqjwcsrmlk35m",
+            "url": "https://github.com/ahi6/nurpkgs"
+        },
         "akinokaede": {
             "rev": "a7b48c6a67760f600a84ed29bd0c9d5f63995284",
             "sha256": "0ah7axmwzk9ppwsha5nqxk93df7ggmcxa3japksby3g6l6lg8d5q",
@@ -329,6 +334,11 @@
             "rev": "c3daeeb704f4b366f8488c89d72f9733b133e341",
             "sha256": "1xrvm3gryvzrw94m1vbs5kvjdl2i0kqyzjpbgpv5ibq23adjw7cr",
             "url": "https://github.com/Artturin/artturin-nur"
+        },
+        "aster-void": {
+            "rev": "cf7a965c4725e820329805c414f95373d8616aa3",
+            "sha256": "1j1bws83xkasslhiq4s5lszblsagds1423j88dhl4b2b4lnk435h",
+            "url": "https://github.com/aster-void/nix-repository"
         },
         "ataraxiasjel": {
             "rev": "a41112356f5096c1fae7fa85f7fe1c029fb9eb23",
@@ -1331,8 +1341,8 @@
             "url": "https://github.com/lmdevv/nur-packages"
         },
         "lonerOrz": {
-            "rev": "75817d83ce6f1e65627524b879320c3a86b4a332",
-            "sha256": "1scdh9n7haz2nr3pwrs9nalml8cyxg4b73db9imx8kflz9hp9yx8",
+            "rev": "e9d7e32c31975c1dfe2939ce89ef9ee597dca46d",
+            "sha256": "1hyl52szyrsjkwzrhvqv67ly3y818hnca01qy4jmsw1gr4hszxy7",
             "url": "https://github.com/lonerOrz/loneros-nur"
         },
         "lschuermann": {
@@ -1487,10 +1497,20 @@
             "sha256": "0rc9hqzd826ciw4h5bd06r2p9ccpv5v0g5fq5dcsl4wcl6vmq8b2",
             "url": "https://github.com/minion3665/nurpkgs"
         },
+        "mio": {
+            "rev": "4690f7b03582634083be9cdb7568adf380e522a9",
+            "sha256": "0ns8p3vqwzfv2d5w81h8l6a6pqi0qg3h37j9jkahcmxjpxgzcbgi",
+            "url": "https://github.com/mio-19/nurpkgs"
+        },
         "misterio": {
             "rev": "8a41f8e2226c3d23c0dba612d33f2e4876a800a5",
             "sha256": "1qql58zn52fdmrvcgm1wjm5rbrqbpsqhp577s95bk3fx5qchpxfg",
             "url": "https://git.sr.ht/~misterio/nix-config"
+        },
+        "misuzu": {
+            "rev": "0caa463c4addb8f5c7a9ea34d3602f164cc46971",
+            "sha256": "1aapakfcp5f2gzzgda7ghxcjdnz4brr45nn5h03wmsy9yf5kvq29",
+            "url": "https://github.com/misuzu/mur"
         },
         "mloeper": {
             "rev": "f5a6bd83ababb5a05d10b337c0849db71646f213",
@@ -1667,6 +1687,11 @@
             "rev": "3211ca63ce22fe86dd1462cc550fd6605614b246",
             "sha256": "1y4jbw9vq3dndcr608v56q1fhkfwyjrgpbi2ry4wyfgia2ylclm1",
             "url": "https://git.sr.ht/~noneucat/nur-packages"
+        },
+        "nooneknowspeter": {
+            "rev": "b542e38c5902174f1ffe8adbaccc2e055373fc51",
+            "sha256": "1yy47ax3spxvjfgcjw502ba1msdnzv0pg45i6qax8yw9vzrypwal",
+            "url": "https://github.com/nooneknowspeter/nurpkgs"
         },
         "nousefreak": {
             "rev": "a7efa86b438a5b8824bcac7890bd641e99ff337f",
@@ -2390,6 +2415,11 @@
             "rev": "4d4b8b34cbc18a9e29cd3b1516cc99472292a538",
             "sha256": "06ffymnhznm1zl713f2d2kjv09h5xrfdz8ggdl6kb6q4a5c87gdi",
             "url": "https://github.com/ZerataX/nur-packages"
+        },
+        "zerozawa": {
+            "rev": "e61afd5360df9c7ad8b5622206e07a84c30576d9",
+            "sha256": "13qp4ap3y5ll62i9jnyzvhlp6cfjy44bpp8b1pqz69nngs9d21c3",
+            "url": "https://github.com/lz37/nur"
         },
         "zimeg": {
             "rev": "c1e1cb4cc767d9521472a146cd1f88934adaa440",
