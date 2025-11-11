@@ -56,8 +56,8 @@
             "url": "https://github.com/AstroOrbis/nur"
         },
         "AusCyber": {
-            "rev": "b4eb5cfd87ddbf4c5b4f07eda7c76c4fb1dd75fb",
-            "sha256": "1gjz8vcpii132cq45k02lcm3dh7gv2kkiwm5g7jh1kbk4rsfdbc8",
+            "rev": "ce898f4fce3d7dc7435bcdd10b0ae23c6bfcf61f",
+            "sha256": "1nf2szrd0jhii20dzmgcl7fqxl069anc7akwjqmr8daqgd0vpspz",
             "url": "https://github.com/Auscyber/nur-packages"
         },
         "DanNixon": {
@@ -1142,6 +1142,11 @@
             "sha256": "1xx8h2ylr2bgypwpzaqhq34v80wc1kpd3jdciayc9i9cc75r3a1n",
             "url": "https://github.com/jbarthelmes/nur-packages"
         },
+        "jcranney": {
+            "rev": "f6e872a014f1f6995a17ebc5a0fd3f7772cf9877",
+            "sha256": "1wkny7r4av09m9cs6sddm1ji6iv62r1jdmda47rnn2j8b8dcv0a9",
+            "url": "https://github.com/jcranney/nur-packages"
+        },
         "jcs090218": {
             "rev": "a8db93f081f220802b879df2ca9064008c30509b",
             "sha256": "1bjzbq8lzq383hny3n8q3d2bn9rdj2mj6knyjf0gr7hr1svvqbdm",
@@ -1508,8 +1513,8 @@
             "url": "https://github.com/minion3665/nurpkgs"
         },
         "mio": {
-            "rev": "87d4659c2892b75e24e2549851058fe46ccfae06",
-            "sha256": "0s966ad150rzyky72yyhb9cbrnxsiphcskfflhr9zgha291qdab6",
+            "rev": "0212b129586a1c6a9cdd53d60d16bdf060d67008",
+            "sha256": "1skdpylyjb3x1rcnf3vxrxnfks6dxbahsd0diprbl2527mmw939w",
             "url": "https://github.com/mio-19/nurpkgs"
         },
         "misterio": {
@@ -1985,8 +1990,8 @@
             "url": "https://github.com/ryan4yin/nur-packages"
         },
         "rycee": {
-            "rev": "09deac38ec607361200ed0d88e77b50b00426f0f",
-            "sha256": "0hbwnc0s93qvwiwwp88zb2jccy22wz0dvd0in1mz8lhplv8kgl8k",
+            "rev": "0ef2ed6c67119c75bbcc0b4e0340917e6016e29e",
+            "sha256": "066jplgvmr9a4kj13cslsayi0dcr3k3kcdqg4w3471ihig2blqqn",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "sagikazarmark": {
@@ -2060,8 +2065,8 @@
             "url": "https://github.com/shymega/nixfigs-nur"
         },
         "sigprof": {
-            "rev": "fce3f6d4f5386c452f5c668c53653f548e42ef76",
-            "sha256": "1g0lvqbh2x64zn2ln3yrc0m33lkkfvb1i1a9zf7aqngqj0sjqr7m",
+            "rev": "7702c5898731860e9fedbf9b1f1980a9599ef1bd",
+            "sha256": "0zavy4fgd2pa5lhj52nxqv2w8y4nfb1dycc808aw74cv7fl9rqc8",
             "url": "https://github.com/sigprof/nur-packages"
         },
         "sikmir": {
