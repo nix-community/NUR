@@ -2055,8 +2055,8 @@
             "url": "https://github.com/shymega/nixfigs-nur"
         },
         "sigprof": {
-            "rev": "bd834dd2d5c3fc9a79d6ddccf3f52f8cfd62695e",
-            "sha256": "05xc3k25i3d302a451f00clfq4ivq217gbp1pmpfka5cyyk7alsl",
+            "rev": "fce3f6d4f5386c452f5c668c53653f548e42ef76",
+            "sha256": "1g0lvqbh2x64zn2ln3yrc0m33lkkfvb1i1a9zf7aqngqj0sjqr7m",
             "url": "https://github.com/sigprof/nur-packages"
         },
         "sikmir": {
@@ -2255,6 +2255,11 @@
             "rev": "2e0c90538f4eb161fdab76d0d71301d1c7040833",
             "sha256": "0203851sfwpz596sn9ksan3iqxlzygz8hng6j0kzlp8hvp8jrckl",
             "url": "https://github.com/uleenucks/nurpkgs"
+        },
+        "ungood": {
+            "rev": "1eb77a31438de1ef3194959db6a098d44eff27a1",
+            "sha256": "0lmr8km05xkb11x4sgwy6w9lykwwcb4v0f9v94blswi3112agscq",
+            "url": "https://github.com/ungood/nur-packages"
         },
         "uniquepointer": {
             "rev": "a7e51776a6a9da246fbb19a9f0a7beb87e6c5429",
