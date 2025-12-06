@@ -497,8 +497,8 @@
             "url": "https://github.com/cawilliamson/nur-packages"
         },
         "ccicnce113424": {
-            "rev": "451b90670290b2f2dc0b385bd8b577d5c60da8f4",
-            "sha256": "135dlh9d2rprd84kl89y31s6hllns35pzg7wfv4dcf5zqmq77sgb",
+            "rev": "4a8717869442a9c5fff5f86b66f4e38021787c45",
+            "sha256": "0zkz7n793v7frr8r320f7nixa11nwxarbw4mbsd2nmcmp244w4bl",
             "url": "https://github.com/ccicnce113424/nix-packages"
         },
         "chagra": {
@@ -1073,8 +1073,8 @@
             "url": "https://github.com/ijohanne/nur-packages"
         },
         "ilya-fedin": {
-            "rev": "c50866154cb19eca23ec73a2d096a3e6fd43bcd6",
-            "sha256": "0h3xprw8x0dl2qw8r8qdshvngxd1b6bi56s3z0778x39i9f91xnh",
+            "rev": "c283aad6f62c79d922a126c19d143995ad82d2ba",
+            "sha256": "15il5j7rnkxpypb22vyiqjxvb61mkmzjx3f5cjlm7xna4xi2dz77",
             "url": "https://github.com/ilya-fedin/nur-repository"
         },
         "immae": {
@@ -1445,6 +1445,11 @@
             "rev": "21b678d31d567730921dd932fef6682694715b65",
             "sha256": "0h5al1rd3pklk5m76g47l5c34l272grappbaracxi9ryzmsxckc4",
             "url": "https://github.com/matthewbauer/nur-packages"
+        },
+        "mattrobenolt": {
+            "rev": "5761ebc0f66ad1e83c0721e54381fcb5b138a9be",
+            "sha256": "07qmb2cvw41745xn1nw907pwcgdcr6brl6kib3dx8z6425i26j6m",
+            "url": "https://github.com/mattrobenolt/nixpkgs"
         },
         "mcaju": {
             "rev": "8343e0014303910cac0cbd859e77ebbab066ac1b",
@@ -1817,6 +1822,11 @@
             "rev": "140e600310eb50f924b629ed4a10920d4caedc39",
             "sha256": "1qdqmj7yxwq769337kpppgssy7z2k7wk6jyix6fvz6941ch4zqkh",
             "url": "https://github.com/pborzenkov/nur-packages"
+        },
+        "peacock0803sz": {
+            "rev": "101e70a938e8376aeb023821506808056f09916c",
+            "sha256": "0vxh25z9h1qmab6hr3ph4nc6i3gdcjj29v98zq2l0bqkjvxzkz3z",
+            "url": "https://github.com/peacock0803sz/nur-packages"
         },
         "peel": {
             "rev": "edca34098808717772878ea0ba0e1bc6f0b736ed",
