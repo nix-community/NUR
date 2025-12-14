@@ -1533,8 +1533,8 @@
             "url": "https://git.sr.ht/~misterio/nix-config"
         },
         "misuzu": {
-            "rev": "259e6311a84888d50f52428d71307700557c034c",
-            "sha256": "02frl93piy8kz8l1d515f2zqy6n5fp68jla5gz7275jwy6raajvg",
+            "rev": "85e947b3d6aa94b577a982085466e597677b449e",
+            "sha256": "1pjxpnznk7g52h0rr5vznmmsjp2bdrjqfqlkfnh52x57vd87qc69",
             "url": "https://github.com/misuzu/mur"
         },
         "mloeper": {
@@ -2148,6 +2148,11 @@
             "rev": "66d64acf2ff19633209c765b76884d9d61b2d33c",
             "sha256": "0q61y4ha5dg60vhzzdc3c1c69cxfh4sazbiia5kz7svrlk782ibg",
             "url": "https://github.com/splintah/nurpkgs"
+        },
+        "srcres258": {
+            "rev": "824643ac6bf9754604335998f3cffc5a2f0feedb",
+            "sha256": "0cnzrq1gf5wmghray4w47cxg549dq6bmvq4shzdgvcbwrjbzgayh",
+            "url": "https://github.com/srcres258/nur-packages"
         },
         "stupremee": {
             "rev": "8ea430cd798b8a39f9d5af2d68ee2f020ecd25d9",
