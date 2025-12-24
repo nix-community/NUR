@@ -892,6 +892,11 @@
             "sha256": "10igdf76hpkj7q3d4bpz6k1nlyq1nq77q9izg933yy74px4j1axf",
             "url": "https://github.com/fortuneteller2k/nur"
         },
+        "fractuscontext": {
+            "rev": "ce50d7ec2536a70db0c9fb4b4b57d9978f412545",
+            "sha256": "1n0pyifjjbgh9mczx9zhdlbfa46m4997mgif4p51fy5s447z04m4",
+            "url": "https://github.com/fractuscontext/nix-nur"
+        },
         "frankoslaw": {
             "rev": "5e91561597d758947a541a2e52e33476944f8e8c",
             "sha256": "0p0rkrsfh98m38f2j6fnpg82n1kd43vbfikmyarcigl678qcdhk6",
@@ -996,11 +1001,6 @@
             "rev": "197d7e2459cecb01398a8841cbb557134f1d272a",
             "sha256": "0z15mss6n4jix56vgfplz65s6xfgfqwp4yfl9p14ksdl639x1xhl",
             "url": "https://github.com/guoard/nur"
-        },
-        "harukafractus": {
-            "rev": "7ef45bf8b1bb0cea3014367855ae37b98c048ad9",
-            "sha256": "06xc5nmffbnmhfcs4ni4jf9ficfgpl57mdvrlpczfydj5k2xxa8a",
-            "url": "https://github.com/harukafractus/nix"
         },
         "henriquekh": {
             "rev": "dd708b35edd229015c651a852c3334ee45a573f8",
