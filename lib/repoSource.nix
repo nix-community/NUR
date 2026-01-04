@@ -51,7 +51,7 @@ else
       inherit (revision) rev;
     }
     // (
-      if fetchgit == builtins.fetchGit or null then
+      if !builtins.isAttrs fetchgit then
         { inherit submodules; }
       else
         {
