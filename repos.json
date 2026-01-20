@@ -1890,6 +1890,10 @@
             "github-contact": "uniquepointer",
             "url": "https://github.com/uniquepointer/nur-babies"
         },
+        "urio": {
+            "github-contact": "urio",
+            "url": "https://github.com/urioTV/urio-nur"
+        },
         "utybo": {
             "github-contact": "utybo",
             "url": "https://github.com/utybo/NUR"
@@ -2059,10 +2063,6 @@
             "file": "parts/nur.nix",
             "github-contact": "zzzsyyy",
             "url": "https://github.com/zzzsyyy/flakes"
-        },
-        "urio": {
-            "github-contact": "urio",
-            "url": "https://github.com/urioTV/urio-nur"
         }
     }
 }
