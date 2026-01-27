@@ -456,6 +456,11 @@
             "sha256": "02v621rn3vzbsz4v1j0953nirdn1cspkmgl6hnyn6srchh7gkq8k",
             "url": "https://github.com/blemouzy/nur-packages"
         },
+        "boo15mario": {
+            "rev": "1eee13fd19eeb00b33f33093b88444d66dc7e5a7",
+            "sha256": "055ygmgran79bl4xppx9ickmv9075lmx52407y08f5za3pqwwgmy",
+            "url": "https://github.com/boo15mario/access-nix"
+        },
         "bot-wxt1221": {
             "rev": "e6702d40050cfbb7fd9efed4058d8670e14400fd",
             "sha256": "0dwyzsxqzvdyy9nlwpxrcakbhgrc05bk6pn0vas2dhajya7fzd7w",
@@ -723,8 +728,8 @@
             "url": "https://github.com/dmfrpro/nur-packages"
         },
         "doomhammer": {
-            "rev": "13341a9d19572d659e5e56611a004f5634443bf9",
-            "sha256": "0klx04nablbq1wj31z91fv4r2p5yjmrn4ixf75nzp0qc6z7k9k2m",
+            "rev": "6963045cb9ce2f681ca422583421d11bac12e69b",
+            "sha256": "0r4k8j4288pflp2fbd7yjnsxzxhwx9djsqh6b15f64n5agqvbfmd",
             "url": "https://github.com/doomhammer/nur-packages"
         },
         "draftea": {
@@ -798,8 +803,8 @@
             "url": "https://github.com/Eggflaw/nur-packages"
         },
         "eh5": {
-            "rev": "c547a8073bbf2575f94000e96036ff8139a1b320",
-            "sha256": "0b5wym6dwldghk1cic8qx1bfjxx0ja89kanngglbk5z6d57lclq6",
+            "rev": "488662ccb4945e7ef061ea0e1c771a755d006f13",
+            "sha256": "0w8gxjkqmkmr2ia6pvwrgpmfxrncz4by8s0igbnjwz9qgn7gnx8x",
             "url": "https://github.com/EHfive/flakes"
         },
         "emiller88": {
