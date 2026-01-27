@@ -457,8 +457,8 @@
             "url": "https://github.com/blemouzy/nur-packages"
         },
         "boo15mario": {
-            "rev": "b602ffd26f6bacbfa9693511b75ff3d0a18aba85",
-            "sha256": "0p9hyxj540s6x7r6a9l546qz2319dlklz2jd0y5pmlqrl2mprbxw",
+            "rev": "d24cbd5d11387caa9a1eb053c5d01925264149f4",
+            "sha256": "0ay8wn4cz857yw0v98l8vjgzi1xayw9fcf9ps3dyswx35zsg1ibl",
             "url": "https://github.com/boo15mario/access-nix"
         },
         "bot-wxt1221": {
@@ -1390,6 +1390,11 @@
             "sha256": "0yz4d51fxkr5samyvhp0rzsmqknqn9k31bchjwymq53y4c8y1gpr",
             "url": "https://github.com/lschuermann/nur-packages"
         },
+        "ltpie123": {
+            "rev": "eea71e5d030706b82dcf874617b1bee695d7a9c4",
+            "sha256": "01qjrd85dj3hqi5k118lb6yaac2709xd4z3634bhdjkisbhc5pgx",
+            "url": "https://github.com/ltpie123/nur-packages"
+        },
         "lucasew": {
             "rev": "f5c0748816fc1f8378f52bcf13ed4426f90f1643",
             "sha256": "0z0p539q0ysd3wsmlkm08zhy0i9qsw98v6jyn6swkld7lrga6mnk",
@@ -2158,6 +2163,11 @@
             "rev": "9d5c85708d2043243d28ca5ea36cc45be559041f",
             "sha256": "1qx17my4k3vrvlk39ihyjvg7jiz97v052qqg1gmncachy1cyashm",
             "url": "https://github.com/SomeoneSerge/pkgs"
+        },
+        "someron": {
+            "rev": "6c36951f02485f7522d5ad05ccd1bfdca5d7cd35",
+            "sha256": "1mi8y8vl5p1b8m2nkybz35kxdwsyf7ii0z936nj3vr0lh5q9a4bf",
+            "url": "https://codeberg.org/someron/nur"
         },
         "sondr3": {
             "rev": "af1c3aa32d95f54ae0e4052d1b2d46138c0ac0df",
