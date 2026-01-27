@@ -231,8 +231,8 @@
             "url": "https://git.sr.ht/~aasg/nixexprs"
         },
         "abszero": {
-            "rev": "d2d11a0f51395a1d1a3c0156d6b6dba4f3060bc3",
-            "sha256": "0dj6ja78l40zss4x6ijmv9f7p396av5ch5g1kr2zr74msfhdb32s",
+            "rev": "214473d50a84f736296c4b0f76787cd8513bdd5a",
+            "sha256": "0b39x1r0xwb43i3fsam420majpp6kl7zsh7iq0i09bfks4jj2ckj",
             "url": "https://github.com/Weathercold/nixfiles"
         },
         "aciceri": {
@@ -1778,6 +1778,11 @@
             "sha256": "05f444rrd83ykcnbq969p5zc6cxbhgyviyx9xfm2pg16cdbmjb7j",
             "url": "https://github.com/nuclear06/NUR"
         },
+        "nyadiia": {
+            "rev": "3cb212ee4c9846e57547c719979d40136ae20f7c",
+            "sha256": "1y7n9r59byrpm8a6qp3s5qrj59w1wwn3r5m3naig2gj6k7pwhpp7",
+            "url": "https://github.com/nyadiia/nur-packages"
+        },
         "nykma": {
             "rev": "95c7997cfb4a13440e0e56e43f4e318baf170e07",
             "sha256": "1dwvcgj8hhmmrpr9chmr853qskfz3qzrl3bz9j743p1l2lnmcrhd",
@@ -2035,8 +2040,8 @@
             "url": "https://github.com/ryan4yin/nur-packages"
         },
         "rycee": {
-            "rev": "02ae5ccdcbe8defe6047840a7b46e67e215bef69",
-            "sha256": "1ghj5h6cdq2hljxlwjl0cxdsvg4bp05vmvqv56wwxxm3qd34lh1h",
+            "rev": "1b3e739ad7cece5bbf12d09ee68871fd672637ed",
+            "sha256": "1n2nsv3z4v9sa46c0kh16nmjjc52rqpp56k7l5bj3y7yqjlaf2hh",
             "url": "https://gitlab.com/rycee/nur-expressions"
         },
         "rypkgs": {
