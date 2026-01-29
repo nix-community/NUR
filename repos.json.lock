@@ -80,6 +80,11 @@
             "sha256": "0251b791kwp75wsxlwvz2wh59dd8gvzhdsh2awpql5gzbs4dx6mi",
             "url": "https://github.com/DimitarNestorov/Nix-user-repository-packages"
         },
+        "DzmingLi": {
+            "rev": "a8db406c0ba9c58c8d96c77c0b0fe9448a148f33",
+            "sha256": "0mclck8bn2sha3pyvp04b87ck8gx07djkkib15klh4qnhxrkk1jp",
+            "url": "https://github.com/DzmingLi/nur-packages"
+        },
         "Educorreia932": {
             "rev": "e8fbd54f224085fba9e125bb346a71f63bc3cff1",
             "sha256": "1iz3jlfcp7s9qlkdzx6qbwxzy5jx1mdd7vbdnkmmf9cl2kkl68r5",
@@ -359,6 +364,11 @@
             "rev": "833a8bec12611ee244eb88a7843943b4be1eb526",
             "sha256": "1781gnwcahb5v4r9aysclr4qgba3w6ym23bbkqy61hzqsgjsjznk",
             "url": "https://github.com/avrahambenaram/nur-packages"
+        },
+        "awa2333": {
+            "rev": "af5bc36511665047c830b2f1165816ccb2d25a51",
+            "sha256": "0ynsr0rwnr1p62i0wishikc1dlccicij8q8hzlwiy780anrx7x27",
+            "url": "https://github.com/awa2333/nurpkgs"
         },
         "awl-fcarza": {
             "rev": "7aa113aef4e3dcffdf51e4dbf5d678d27f286018",
