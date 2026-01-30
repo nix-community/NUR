@@ -1,5 +1,6 @@
 import logging
 import asyncio
+from typing import List
 from argparse import Namespace
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -20,7 +21,7 @@ async def update(repo: Repo) -> Repo:
         return repo
 
     sha256, repo_path = await prefetcher.prefetch(latest_commit)
-    eval_repo(repo, repo_path)
+    await eval_repo(repo, repo_path)
     repo.locked_version = LockedVersion(repo.url, latest_commit, sha256, repo.submodules)
     return repo
 

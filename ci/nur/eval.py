@@ -80,5 +80,5 @@ async def eval_command(args: Namespace) -> None:
         None,
         None,
     )
-    eval_repo(repo, repo_path)
+    await eval_repo(repo, repo_path)
     print("OK")

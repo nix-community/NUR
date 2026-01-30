@@ -5,7 +5,7 @@ import subprocess
 import asyncio
 import aiohttp
 from pathlib import Path
-from typing import Optional, Tuple
+from typing import Optional, Tuple, List
 from urllib.parse import urlparse, ParseResult
 
 from .error import NurError, RepositoryDeletedError
@@ -30,7 +30,7 @@ async def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
     return sha256, Path(path)
 
 
-def parse_pkt_lines(data: bytes):
+def parse_pkt_lines(data: bytes) -> List[bytes]:
     i = 0
     lines = []
     while i < len(data):
