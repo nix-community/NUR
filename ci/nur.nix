@@ -2,6 +2,7 @@
   buildPythonApplication,
   lib,
   nix-prefetch-git,
+  aiohttp,
   git,
   nix,
   glibcLocales,
@@ -12,6 +13,10 @@ buildPythonApplication {
   src = ./.;
 
   doCheck = false;
+
+  dependencies = [
+    aiohttp
+  ];
 
   makeWrapperArgs = [
     "--prefix"
