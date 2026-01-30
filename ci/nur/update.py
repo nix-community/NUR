@@ -1,6 +1,6 @@
 import logging
 import asyncio
-from typing import List
+from typing import List, Tuple
 from argparse import Namespace
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
