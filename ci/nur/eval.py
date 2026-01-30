@@ -63,7 +63,7 @@ import {EVALREPO_PATH} {{
             raise EvalError(f"evaluation for {repo.name} timed out of after 15 seconds")
         if proc.returncode != 0:
             raise EvalError(
-                f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}\n\n{stdout.decode()}"
+                f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}\n\n{stderr.decode()}"
             )
 
 
