@@ -60,7 +60,7 @@ import {EVALREPO_PATH} {{
             raise EvalError(f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}")
 
 
-def eval_command(args: Namespace) -> None:
+async def eval_command(args: Namespace) -> None:
     logging.basicConfig(level=logging.INFO)
 
     repo_path = Path(args.directory)

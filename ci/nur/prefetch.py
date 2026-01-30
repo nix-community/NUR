@@ -2,21 +2,28 @@ import json
 import os
 import re
 import subprocess
+import asyncio
 from pathlib import Path
 from typing import Optional, Tuple
-from urllib.parse import ParseResult
+from urllib.parse import urlparse, ParseResult
 
 from .error import NurError
 from .manifest import LockedVersion, Repo, RepoType
 
 Url = ParseResult
 
-
-def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
-    data = subprocess.check_output(
-        ["nix-prefetch-url", "--name", "source", "--unpack", "--print-path", url]
+async def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
+    proc = await asyncio.create_subprocess_exec(
+        *["nix-prefetch-url", "--name", "source", "--unpack", "--print-path", url],
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
     )
-    sha256, path = data.decode().strip().split("\n")
+    stdout, stderr = await proc.communicate()
+
+    if proc.returncode != 0:
+        raise RuntimeError(stderr.decode())
+
+    sha256, path = stdout.decode().strip().split("\n")
     return sha256, Path(path)
 
 
@@ -24,21 +31,32 @@ class GitPrefetcher:
     def __init__(self, repo: Repo) -> None:
         self.repo = repo
 
-    def latest_commit(self) -> str:
-        data = subprocess.check_output(
-            ["git", "ls-remote", self.repo.url.geturl(), self.repo.branch or "HEAD"],
+    async def latest_commit(self) -> str:
+        proc = await asyncio.create_subprocess_exec(
+            *["git", "ls-remote", self.repo.url.geturl(), self.repo.branch or "HEAD"],
             env={**os.environ, "GIT_ASKPASS": "", "GIT_TERMINAL_PROMPT": "0"},
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
         )
-        return data.decode().split(maxsplit=1)[0]
+        stdout, stderr = await proc.communicate()
 
-    def prefetch(self, ref: str) -> Tuple[str, Path]:
+        if proc.returncode != 0:
+            raise RuntimeError(stderr.decode())
+
+        return stdout.decode().split(maxsplit=1)[0]
+
+    async def prefetch(self, ref: str) -> Tuple[str, Path]:
         cmd = ["nix-prefetch-git"]
         if self.repo.submodules:
             cmd += ["--fetch-submodules"]
         if self.repo.branch:
             cmd += ["--rev", f"refs/heads/{self.repo.branch}"]
         cmd += [self.repo.url.geturl()]
-        proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        proc = await asyncio.create_subprocess_exec(
+            *cmd,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+        )
         try:
             stdout, stderr = proc.communicate(timeout=30)
         except subprocess.TimeoutExpired:
@@ -62,12 +80,12 @@ class GitPrefetcher:
 
 
 class GithubPrefetcher(GitPrefetcher):
-    def prefetch(self, ref: str) -> Tuple[str, Path]:
-        return nix_prefetch_zip(f"{self.repo.url.geturl()}/archive/{ref}.tar.gz")
+    async def prefetch(self, ref: str) -> Tuple[str, Path]:
+        return await nix_prefetch_zip(f"{self.repo.url.geturl()}/archive/{ref}.tar.gz")
 
 
 class GitlabPrefetcher(GitPrefetcher):
-    def prefetch(self, ref: str) -> Tuple[str, Path]:
+    async def prefetch(self, ref: str) -> Tuple[str, Path]:
         hostname = self.repo.url.hostname
         assert (
             hostname is not None
@@ -75,10 +93,10 @@ class GitlabPrefetcher(GitPrefetcher):
         path = Path(self.repo.url.path)
         escaped_path = "%2F".join(path.parts[1:])
         url = f"https://{hostname}/api/v4/projects/{escaped_path}/repository/archive.tar.gz?sha={ref}"
-        return nix_prefetch_zip(url)
+        return await nix_prefetch_zip(url)
 
 
-def prefetch(repo: Repo) -> Tuple[Repo, LockedVersion, Optional[Path]]:
+async def prefetch(repo: Repo) -> Tuple[Repo, LockedVersion, Optional[Path]]:
     prefetcher: GitPrefetcher
     if repo.type == RepoType.GITHUB:
         prefetcher = GithubPrefetcher(repo)
@@ -87,11 +105,11 @@ def prefetch(repo: Repo) -> Tuple[Repo, LockedVersion, Optional[Path]]:
     else:
         prefetcher = GitPrefetcher(repo)
 
-    commit = prefetcher.latest_commit()
+    commit = await prefetcher.latest_commit()
     locked_version = repo.locked_version
     if locked_version is not None:
         if locked_version.rev == commit:
             return repo, locked_version, None
 
-    sha256, path = prefetcher.prefetch(commit)
+    sha256, path = await prefetcher.prefetch(commit)
     return repo, LockedVersion(repo.url, commit, sha256, repo.submodules), path

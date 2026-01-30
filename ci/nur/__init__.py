@@ -1,6 +1,7 @@
 import argparse
 import logging
 import sys
+import asyncio
 from typing import List
 
 from .combine import combine_command
@@ -60,4 +61,4 @@ def main() -> None:
     args = parse_arguments(sys.argv)
     logging.basicConfig(level=LOG_LEVELS[args.log_level])
 
-    args.func(args)
+    asyncio.run(args.func(args))
