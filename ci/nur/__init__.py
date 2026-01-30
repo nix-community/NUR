@@ -1,7 +1,7 @@
 import argparse
+import asyncio
 import logging
 import sys
-import asyncio
 from typing import List
 
 from .combine import combine_command

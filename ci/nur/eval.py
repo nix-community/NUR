@@ -1,8 +1,7 @@
+import asyncio
 import logging
 import os
-import subprocess
 import tempfile
-import asyncio
 from argparse import Namespace
 from pathlib import Path
 from urllib.parse import urlparse
@@ -63,7 +62,9 @@ import {EVALREPO_PATH} {{
             proc.kill()
             raise EvalError(f"evaluation for {repo.name} timed out of after 15 seconds")
         if proc.returncode != 0:
-            raise EvalError(f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}\n\n{stdout.decode()}")
+            raise EvalError(
+                f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}\n\n{stdout.decode()}"
+            )
 
 
 async def eval_command(args: Namespace) -> None:

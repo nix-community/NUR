@@ -1,17 +1,17 @@
-import json
-import os
-import re
-import subprocess
 import asyncio
-import aiohttp
+import json
+import re
 from pathlib import Path
-from typing import Optional, Tuple, List
-from urllib.parse import urlparse, ParseResult
+from typing import List, Tuple
+from urllib.parse import ParseResult
+
+import aiohttp
 
 from .error import NurError, RepositoryDeletedError
 from .manifest import Repo, RepoType
 
 Url = ParseResult
+
 
 async def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
     proc = await asyncio.create_subprocess_exec(
@@ -22,9 +22,7 @@ async def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
     stdout, stderr = await proc.communicate()
 
     if proc.returncode != 0:
-        raise NurError(
-            f"Failed to prefetch git repository {url}: {stderr.decode()}"
-        )
+        raise NurError(f"Failed to prefetch git repository {url}: {stderr.decode()}")
 
     sha256, path = stdout.decode().strip().split("\n")
     return sha256, Path(path)
@@ -36,11 +34,11 @@ def parse_pkt_lines(data: bytes) -> List[bytes]:
     while i < len(data):
         if i + 4 > len(data):
             break
-        length = int(data[i:i+4], 16)
+        length = int(data[i : i + 4], 16)
         i += 4
         if length == 0:
             continue
-        line = data[i:i+length-4]
+        line = data[i : i + length - 4]
         i += length - 4
         lines.append(line)
     return lines
@@ -56,14 +54,20 @@ class GitPrefetcher:
         async with aiohttp.ClientSession() as session:
             async with session.get(info_url) as resp:
                 if resp.status == 401:
-                    raise RepositoryDeletedError(f"Repository deleted!")
+                    raise RepositoryDeletedError("Repository deleted!")
                 elif resp.status != 200:
-                    raise NurError(f"Failed to get refs for {self.repo.url.geturl()}: {(await resp.read()).decode()}")
+                    raise NurError(
+                        f"Failed to get refs for {self.repo.url.geturl()}: {(await resp.read()).decode()}"
+                    )
                 raw = await resp.read()
 
         lines = parse_pkt_lines(raw)
 
-        wanted = b"HEAD" if self.repo.branch is None else f"refs/heads/{self.repo.branch}".encode()
+        wanted = (
+            b"HEAD"
+            if self.repo.branch is None
+            else f"refs/heads/{self.repo.branch}".encode()
+        )
 
         for line in lines:
             # Strip capabilities after NUL
@@ -132,6 +136,7 @@ class GitlabPrefetcher(GitPrefetcher):
         escaped_path = "%2F".join(path.parts[1:])
         url = f"https://{hostname}/api/v4/projects/{escaped_path}/repository/archive.tar.gz?sha={ref}"
         return await nix_prefetch_zip(url)
+
 
 def prefetcher_for(repo: Repo) -> GitPrefetcher:
     match repo.type:

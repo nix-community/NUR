@@ -1,11 +1,10 @@
-import logging
 import asyncio
-from typing import List, Tuple, Optional
+import logging
 from argparse import Namespace
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import List, Optional, Tuple
 
 from .eval import EvalError, eval_repo
-from .manifest import Repo, LockedVersion, load_manifest, update_lock_file
+from .manifest import LockedVersion, Repo, load_manifest, update_lock_file
 from .path import LOCK_PATH, MANIFEST_PATH
 from .prefetch import prefetcher_for
 
@@ -22,7 +21,9 @@ async def update(repo: Repo) -> Repo:
 
     sha256, repo_path = await prefetcher.prefetch(latest_commit)
     await eval_repo(repo, repo_path)
-    repo.locked_version = LockedVersion(repo.url, latest_commit, sha256, repo.submodules)
+    repo.locked_version = LockedVersion(
+        repo.url, latest_commit, sha256, repo.submodules
+    )
     return repo
 
 
@@ -31,7 +32,7 @@ async def update_command(args: Namespace) -> None:
 
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
-    log_lock = asyncio.Lock()   # serialize success/error output
+    log_lock = asyncio.Lock()  # serialize success/error output
 
     results: List[Tuple[int, Optional[Repo], Optional[BaseException]]] = []
 
@@ -43,7 +44,9 @@ async def update_command(args: Namespace) -> None:
 
             async with log_lock:
                 if updated.locked_version is not None:
-                    logger.info(f"Updated repository {repo.name} -> {updated.locked_version.rev}")
+                    logger.info(
+                        f"Updated repository {repo.name} -> {updated.locked_version.rev}"
+                    )
                 else:
                     logger.info(f"Updated repository {repo.name}")
         except BaseException as e:
@@ -58,9 +61,13 @@ async def update_command(args: Namespace) -> None:
                 elif isinstance(e, EvalError):
                     logger.error(f"repository {repo.name} failed to evaluate: {e}")
                 else:
-                    logger.exception(f"Failed to update repository {repo.name}", exc_info=e)
+                    logger.exception(
+                        f"Failed to update repository {repo.name}", exc_info=e
+                    )
 
-    tasks = [asyncio.create_task(run_one(i, repo)) for i, repo in enumerate(manifest.repos)]
+    tasks = [
+        asyncio.create_task(run_one(i, repo)) for i, repo in enumerate(manifest.repos)
+    ]
     await asyncio.gather(*tasks)
 
     updated_repos: List[Repo] = list(manifest.repos)
