@@ -6,7 +6,7 @@ from argparse import Namespace
 from .path import ROOT
 
 
-def format_manifest_command(args: Namespace) -> None:
+async def format_manifest_command(args: Namespace) -> None:
     path = ROOT.joinpath("repos.json")
     manifest = json.load(open(path))
     for name, repo in manifest.get("repos", []).items():

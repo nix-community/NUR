@@ -94,7 +94,7 @@ callPackage (nur.repo-sources."%s" + "/%s") {}
         return pkgs
 
 
-def index_command(args: Namespace) -> None:
+async def index_command(args: Namespace) -> None:
     directory = Path(args.directory)
     manifest_path = directory.joinpath("repos.json")
     with open(manifest_path) as f:

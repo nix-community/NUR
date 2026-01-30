@@ -1,4 +1,5 @@
 import argparse
+import asyncio
 import logging
 import sys
 from typing import List
@@ -60,4 +61,4 @@ def main() -> None:
     args = parse_arguments(sys.argv)
     logging.basicConfig(level=LOG_LEVELS[args.log_level])
 
-    args.func(args)
+    asyncio.run(args.func(args))

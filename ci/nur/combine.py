@@ -174,7 +174,7 @@ def setup_combined() -> None:
     commit_files(vcs_files, "update code")
 
 
-def combine_command(args: Namespace) -> None:
+async def combine_command(args: Namespace) -> None:
     combined_path = Path(args.directory)
 
     with chdir(combined_path):
