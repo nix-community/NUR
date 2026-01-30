@@ -21,7 +21,9 @@ async def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
     stdout, stderr = await proc.communicate()
 
     if proc.returncode != 0:
-        raise RuntimeError(stderr.decode())
+        raise NurError(
+            f"Failed to prefetch git repository {url}: {stderr.decode()}"
+        )
 
     sha256, path = stdout.decode().strip().split("\n")
     return sha256, Path(path)
@@ -41,7 +43,9 @@ class GitPrefetcher:
         stdout, stderr = await proc.communicate()
 
         if proc.returncode != 0:
-            raise RuntimeError(stderr.decode())
+            raise NurError(
+                f"Failed to prefetch git repository {self.repo.url.geturl()}: {stderr.decode()}"
+            )
 
         return stdout.decode().split(maxsplit=1)[0]
 
@@ -58,7 +62,7 @@ class GitPrefetcher:
             stderr=asyncio.subprocess.PIPE,
         )
         try:
-            stdout, stderr = proc.communicate(timeout=30)
+            stdout, stderr = await asyncio.wait_for(proc.communicate(), 30)
         except subprocess.TimeoutExpired:
             proc.kill()
             raise NurError(
