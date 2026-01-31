@@ -57,10 +57,10 @@ import {EVALREPO_PATH} {{
             stderr=asyncio.subprocess.PIPE,
         )
         try:
-            stdout, stderr = await asyncio.wait_for(proc.communicate(), 15)
+            stdout, stderr = await asyncio.wait_for(proc.communicate(), 180)
         except TimeoutError:
             proc.kill()
-            raise EvalError(f"evaluation for {repo.name} timed out of after 15 seconds")
+            raise EvalError(f"evaluation for {repo.name} timed out of after 3 minutes")
         if proc.returncode != 0:
             raise EvalError(
                 f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}\n\n{stderr.decode()}"
