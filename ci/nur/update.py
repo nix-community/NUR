@@ -1,61 +1,79 @@
+import asyncio
 import logging
 from argparse import Namespace
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import List, Optional, Tuple
 
 from .eval import EvalError, eval_repo
-from .manifest import Repo, load_manifest, update_lock_file
+from .manifest import LockedVersion, Repo, load_manifest, update_lock_file
 from .path import LOCK_PATH, MANIFEST_PATH
-from .prefetch import prefetch
+from .prefetch import prefetcher_for
 
 logger = logging.getLogger(__name__)
 
 
-def update(repo: Repo) -> Repo:
-    repo, locked_version, repo_path = prefetch(repo)
+async def update(repo: Repo) -> Repo:
+    prefetcher = prefetcher_for(repo)
 
-    if repo_path:
-        eval_repo(repo, repo_path)
+    latest_commit = await prefetcher.latest_commit()
 
-    repo.locked_version = locked_version
+    if repo.locked_version is not None and repo.locked_version.rev == latest_commit:
+        return repo
+
+    sha256, repo_path = await prefetcher.prefetch(latest_commit)
+    await eval_repo(repo, repo_path)
+    repo.locked_version = LockedVersion(
+        repo.url, latest_commit, sha256, repo.submodules
+    )
     return repo
 
 
-def update_command(args: Namespace) -> None:
+async def update_command(args: Namespace) -> None:
     logging.basicConfig(level=logging.INFO)
 
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
-    if getattr(args, "debug", False):
-        for repo in manifest.repos:
-            try:
-                update(repo)
-            except EvalError as err:
-                if repo.locked_version is None:
-                    logger.error(
-                        f"repository {repo.name} failed to evaluate: {err}. This repo is not yet in our lock file!!!!"
+    log_lock = asyncio.Lock()  # serialize success/error output
+
+    results: List[Tuple[int, Optional[Repo], Optional[BaseException]]] = []
+
+    async def run_one(i: int, repo: Repo) -> None:
+        try:
+            updated = await update(repo)
+
+            results.append((i, updated, None))
+
+            async with log_lock:
+                if updated.locked_version is not None:
+                    logger.info(
+                        f"Updated repository {repo.name} -> {updated.locked_version.rev}"
                     )
-                    raise
-                logger.error(f"repository {repo.name} failed to evaluate: {err}")
-            except Exception:
-                logger.exception(f"Failed to update repository {repo.name}")
-    else:
-        with ThreadPoolExecutor() as executor:
-            future_to_repo = {
-                executor.submit(update, repo): repo for repo in manifest.repos
-            }
+                else:
+                    logger.info(f"Updated repository {repo.name}")
+        except BaseException as e:
+            results.append((i, None, e))
 
-            for future in as_completed(future_to_repo):
-                repo = future_to_repo[future]
-                try:
-                    future.result()
-                except EvalError as err:
-                    if repo.locked_version is None:
-                        logger.error(
-                            f"repository {repo.name} failed to evaluate: {err}. This repo is not yet in our lock file!!!!"
-                        )
-                        raise
-                    logger.error(f"repository {repo.name} failed to evaluate: {err}")
-                except Exception:
-                    logger.exception(f"Failed to update repository {repo.name}")
+            async with log_lock:
+                if isinstance(e, EvalError) and repo.locked_version is None:
+                    logger.error(
+                        f"repository {repo.name} failed to evaluate: {e}. "
+                        "This repo is not yet in our lock file!!!!"
+                    )
+                elif isinstance(e, EvalError):
+                    logger.error(f"repository {repo.name} failed to evaluate: {e}")
+                else:
+                    logger.exception(
+                        f"Failed to update repository {repo.name}", exc_info=e
+                    )
 
-    update_lock_file(manifest.repos, LOCK_PATH)
+    tasks = [
+        asyncio.create_task(run_one(i, repo)) for i, repo in enumerate(manifest.repos)
+    ]
+    await asyncio.gather(*tasks)
+
+    updated_repos: List[Repo] = list(manifest.repos)
+
+    for i, updated, err in results:
+        if err is None and updated is not None:
+            updated_repos[i] = updated
+
+    update_lock_file(updated_repos, LOCK_PATH)
