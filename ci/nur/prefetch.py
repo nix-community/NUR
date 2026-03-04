@@ -143,6 +143,6 @@ def prefetcher_for(repo: Repo) -> GitPrefetcher:
         case RepoType.GITHUB:
             return GithubPrefetcher(repo)
         case RepoType.GITLAB:
-            return GithubPrefetcher(repo)
+            return GitlabPrefetcher(repo)
         case _:
             return GitPrefetcher(repo)
