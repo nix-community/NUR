@@ -24,7 +24,7 @@ jobs:
         permissions: "contents:write"
         revoke_token: true
     - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
-    - uses: cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15 # v31
+    - uses: cachix/install-nix-action@2126ae7fc54c9df00dd18f7f18754393182c73cd # v31
       with:
         nix_path: nixpkgs=channel:nixos-unstable
         extra_nix_config: |
