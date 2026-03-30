@@ -72,7 +72,7 @@ class Repo:
 
         if (
             locked_version is not None
-            and locked_version.url != url.geturl()
+            and locked_version.url == url.geturl()
             and locked_version.submodules == submodules
         ):
             self.locked_version = locked_version
