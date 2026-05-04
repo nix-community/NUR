@@ -1077,6 +1077,11 @@
             "sha256": "08p57kf216apy9vh1gqar74dn5hil5zm4gr14fmxdajigq42nirl",
             "url": "https://github.com/heph2/nur-packages"
         },
+        "herver": {
+            "rev": "3d920afc8c3be5ed890f255f61631784f5d5c73c",
+            "sha256": "0vvi3r62zn7zvp66yr2hiw7shf3s2h33566x4sm1vlnc1k7zrx0i",
+            "url": "https://github.com/herver/nur"
+        },
         "hexadecimalDinosaur": {
             "rev": "3b4d9e390e06364850edc253ce4890df39a73a5e",
             "sha256": "1fx18v2xwd5q47x6m62p3hq8n5kwdmk84dlq20ziqdw404zl8cl3",
@@ -1456,8 +1461,8 @@
             "url": "https://github.com/lmdevv/nur-packages"
         },
         "lonerOrz": {
-            "rev": "57e5adf0a50e75e73afa604c924e9689478ca458",
-            "sha256": "1473vh1gnr5a8ql6z3hl21wx3gs082c0cbknhyndnqq54i3hahbw",
+            "rev": "b2d6c4c4046d9e5a998b78b318d8c36b8fc6226d",
+            "sha256": "0n79hd3drsdz244bhf54wn334m5im22crcny0jpf825a0s6gvfag",
             "url": "https://github.com/lonerOrz/loneros-nur"
         },
         "lschuermann": {
@@ -1575,6 +1580,11 @@
             "rev": "83b0ba76173dcc88f2b4b617efeae1fba1b08994",
             "sha256": "1lkghpyf4pvdw9jwf215j64055jvciyjaa0xx9kh87861plw80qm",
             "url": "https://github.com/mhuesch/nur-packages"
+        },
+        "miaupaw": {
+            "rev": "e96b3c780e5d008481f3985714462e2f4cb75a58",
+            "sha256": "132cn4nx8qi1s27gpp1lxwairaq7s56hg828sr8q8v1422jk552s",
+            "url": "https://github.com/miaupaw/ie-r"
         },
         "mic92": {
             "rev": "a27cc983bbd5857003c374392827a39166a57a39",
@@ -2339,6 +2349,11 @@
             "rev": "c60cd44d19c625a605103fd51ac43d43b5e182ca",
             "sha256": "1mzpg4dk0xy6rw225pk63zlp0fb34mwlarinx1jxv7z9fcwsybdv",
             "url": "https://github.com/tarantoj/nur-packages"
+        },
+        "teformel": {
+            "rev": "ef12b21fbb82574e73d55f3df219dd698bc32be7",
+            "sha256": "1b9sybnjfsn3kf0856xz1j216nnnrksanp4nvndqp6rz09mm0yy8",
+            "url": "https://github.com/teformel/nur-packages"
         },
         "tehplague": {
             "rev": "97f448fc6dc44a4c5fc9045f70cef342abd3e741",
