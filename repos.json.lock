@@ -757,6 +757,11 @@
             "sha256": "1hvzgjmj78c1b6jvrczsp1wbc9rlk8r06v3w704mzpl9c1q8zv9d",
             "url": "https://github.com/dguibert/nur-packages"
         },
+        "dima": {
+            "rev": "4f44960d80a5fddff9a591d3e4e2d9b591949e7e",
+            "sha256": "0nqhxd46zhn3pzk5142bc2xbnm0f54ydxkss3szclwy15gyi12jk",
+            "url": "https://gitlab.com/shdima/nur-packages"
+        },
         "divanorama": {
             "rev": "fa84dfcd2f76840409a4ac6f1854900afe862dec",
             "sha256": "1mw4an6gr4pxlkprd0qd9np1nbkdi76aah2bphdsjvykf01jknws",
@@ -808,8 +813,8 @@
             "url": "https://github.com/dtn7/nur-packages"
         },
         "dtomvan": {
-            "rev": "0dc2f5f1a64c112370458dbc1c35dec0f9dea522",
-            "sha256": "1gpsvsr6hcajkwknany7spin6fyih0cagpqhac88kllpr40679zk",
+            "rev": "2fac501571f746f52f46e619f27e0af740d4ae34",
+            "sha256": "1gyx3f49vn4wcrrspmd7czza3mcyr6q250qvlfkw2jsfdar77cg5",
             "url": "https://github.com/dtomvan/nur-packages"
         },
         "dtz": {
@@ -1116,11 +1121,6 @@
             "rev": "93ba3ccc36d77760854eb12bbed6d86ae02555cf",
             "sha256": "1k06k4w7lkbhwlfws53k4srg57wav2sp74gix63n86mpmlkv5af6",
             "url": "https://git.sr.ht/~hutzdog/NUR"
-        },
-        "hythera": {
-            "rev": "cb687e6711f94d3f96eeec086f73c6dda9a8c042",
-            "sha256": "13vfcvl17v0r18ljf8ajalm1aic7p7nqw5b6hxb1il4p3ir2x79h",
-            "url": "https://github.com/Hythera/nur-packages"
         },
         "iagocq": {
             "rev": "8a6ea267bec4244f2b266e218e2a24eae8ff2608",
