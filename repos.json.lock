@@ -70,10 +70,10 @@
             "sha256": "1sfx154ihjlnm303y5sjaia0ssvdp7v01f9l3jilh28zcsfx84ad",
             "url": "https://github.com/Auscyber/nur-packages"
         },
-        "Baum": {
-            "rev": "01816fcfead16cbfda23e99c4100bbc8343b7bc4",
-            "sha256": "1k4vnswlspgp0prfsxbdbkkb03qz11bsq6p5msp5m2h4fhwdlfk0",
-            "url": "https://git.kruemmelspalter.org/Baum/nur-packages"
+        "Communix": {
+            "rev": "f87c3792749a314a81247bffa01a80708b6e39c8",
+            "sha256": "0j2arxhg8ijfbyavlv3abwvydprsvia0x5gwih85cviylj2bqsy8",
+            "url": "https://forge.kruemmelspalter.org/communix/nur-packages"
         },
         "DanNixon": {
             "rev": "09498fb582ad32eb13d00e5be16760cd60a49c71",
@@ -911,6 +911,11 @@
             "rev": "b10484ec659e5c1643455642361ca9b61aba1bcd",
             "sha256": "14mixw1kr2lzpm56ll2n36id25lrj59mpkl58nn5df7w7zwnl7ys",
             "url": "https://github.com/etu/nur-packages"
+        },
+        "examosa": {
+            "rev": "9f220586ebd8457b79754ce1bd45c223a268fdf5",
+            "sha256": "0502diz4s776phx5acpawycwcsgfha8i85hng19sipvjsjvd1z4l",
+            "url": "https://codeberg.org/examosa/nur-packages"
         },
         "extends": {
             "rev": "cb5dd151c29b15c0b462ba206198be17ced19f39",
