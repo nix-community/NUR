@@ -2109,6 +2109,11 @@
             "sha256": "0lm43scpd2spv8x3cpw8i557ffdm9jpysc0rbp9fgd51sqrbwd65",
             "url": "https://github.com/raizyr/nur-packages"
         },
+        "rapatao": {
+            "rev": "f8698886c113eed19e1d01183eebc4d240fb92a9",
+            "sha256": "1i9il4nn96a149f83ba68481f4mjyy7qm8ncbgbsv7biaavr4zyd",
+            "url": "https://github.com/rapatao/nur-packages"
+        },
         "rconan": {
             "rev": "5c760a4f0e3e6fce384327c9d3a3a21fd4c8768b",
             "sha256": "0xq5j3p2rm6icrr3wjzhmmlkv08yhgl2g8mf87jq5k5dr1b3c43f",
@@ -2498,8 +2503,8 @@
             "url": "https://github.com/ToyVo/nixcfg"
         },
         "trev": {
-            "rev": "e3cb3eeff657ea253b7748faf16db5bcf476a5be",
-            "sha256": "0zqbi2ij6qmlnaqiqzgcd4i3xh5k9j55vixnsl2phllmwcg12m13",
+            "rev": "abf6fcc3144bad4cc66f5b1a8a94bf1327c62257",
+            "sha256": "1z06g77b72hhjkq9vbygqjvj4qx227qw1hqpvw6qz0yidgp2p6r4",
             "url": "https://github.com/spotdemo4/nur"
         },
         "trevorriles": {
