@@ -43,8 +43,27 @@ def commit_files(files: List[str], message: str) -> None:
         subprocess.check_call(["git", "commit", "-m", message])
 
 
+def resolve_repo_path(path: Path, name: str) -> Path:
+    name_path = Path(name)
+    if (
+        name_path.is_absolute()
+        or name in ("", ".", "..")
+        or name_path.name != name
+    ):
+        raise ValueError(f"invalid repository name: {name}")
+
+    base_path = path.resolve()
+    repo_path = base_path.joinpath(name).resolve()
+    try:
+        repo_path.relative_to(base_path)
+    except ValueError as e:
+        raise ValueError(f"invalid repository name: {name}") from e
+
+    return repo_path
+
+
 def commit_repo(repo: Repo, message: str, path: Path) -> Repo:
-    repo_path = path.joinpath(repo.name).resolve()
+    repo_path = resolve_repo_path(path, repo.name)
 
     tmp: Optional[TemporaryDirectory] = TemporaryDirectory(prefix=str(repo_path.parent))
     assert tmp is not None
@@ -102,7 +121,12 @@ def update_combined_repo(
 
 
 def remove_repo(repo: Repo, path: Path) -> None:
-    repo_path = path.joinpath("repos", repo.name).resolve()
+    try:
+        repo_path = resolve_repo_path(path.joinpath("repos"), repo.name)
+    except ValueError:
+        logger.warning(f"Skipping removal for invalid repository name: {repo.name}")
+        return
+
     if repo_path.exists():
         shutil.rmtree(repo_path)
     with chdir(path):

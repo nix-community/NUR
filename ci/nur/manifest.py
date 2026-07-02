@@ -60,12 +60,23 @@ class Repo:
         branch: Optional[str],
         locked_version: Optional[LockedVersion],
     ) -> None:
+        name_path = Path(name)
+        if (
+            name_path.is_absolute()
+            or name in ("", ".", "..")
+            or name_path.name != name
+        ):
+            raise ValueError(f"invalid repository name: {name}")
+
         self.name = name
         self.url = url
         self.submodules = submodules
         if file_ is None:
             self.file = "default.nix"
         else:
+            file_path = Path(file_)
+            if file_path.is_absolute() or ".." in file_path.parts:
+                raise ValueError(f"invalid repository file path: {file_}")
             self.file = file_
         self.branch = branch
         self.locked_version = None
