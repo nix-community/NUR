@@ -17,8 +17,7 @@ async def eval_repo(repo: Repo, repo_path: Path) -> None:
     with tempfile.TemporaryDirectory() as d:
         eval_path = Path(d).joinpath("default.nix")
         with open(eval_path, "w") as f:
-            f.write(
-                f"""
+            f.write(f"""
                     with import <nixpkgs> {{}};
 import {EVALREPO_PATH} {{
   name = "{repo.name}";
@@ -26,8 +25,7 @@ import {EVALREPO_PATH} {{
   src = {repo_path.joinpath(repo.file)};
   inherit pkgs lib;
 }}
-"""
-            )
+""")
 
         canonicalized_eval_path = eval_path.resolve()
         # fmt: off
