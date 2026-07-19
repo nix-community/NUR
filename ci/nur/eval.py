@@ -14,6 +14,13 @@ logger = logging.getLogger(__name__)
 
 
 async def eval_repo(repo: Repo, repo_path: Path) -> None:
+    canonicalized_repo_path = repo_path.resolve()
+    source_path = canonicalized_repo_path.joinpath(repo.file).resolve()
+    try:
+        source_path.relative_to(canonicalized_repo_path)
+    except ValueError as e:
+        raise EvalError(f"{repo.name} has invalid file path: {repo.file}") from e
+
     with tempfile.TemporaryDirectory() as d:
         eval_path = Path(d).joinpath("default.nix")
         with open(eval_path, "w") as f:
@@ -22,7 +29,7 @@ async def eval_repo(repo: Repo, repo_path: Path) -> None:
 import {EVALREPO_PATH} {{
   name = "{repo.name}";
   url = "{repo.url}";
-  src = {repo_path.joinpath(repo.file)};
+  src = {source_path};
   inherit pkgs lib;
 }}
 """)
