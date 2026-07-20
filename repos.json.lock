@@ -898,6 +898,11 @@
             "sha256": "1agx86wsfnhmpfw1v5m5wf4ir4ahl8qmh5dmi1m5jfn0yaw4c9wq",
             "url": "https://github.com/EHfive/flakes"
         },
+        "elzorrorebelde": {
+            "rev": "7c04d2e41d54d61e08d5423efc21859cd9677254",
+            "sha256": "0da4qsrd7y6wk52cmyv1p1ylip71kqy05mwhz99p5kg61730l9x0",
+            "url": "https://rosa.radicle.network/z3YkDws5EsBLkbzbbrjzrzB775AJX.git"
+        },
         "emiller88": {
             "rev": "0e0450a7b5e653ecb7bf72103e4374d1e91c6c17",
             "sha256": "08hczl8k44dxdxfr234dfv6qnakirvxx7jmfbf7hzqzpiyd8jahq",
@@ -2269,11 +2274,6 @@
             "rev": "89b0726d252e36cb5130d45a8312f6f96639bcc3",
             "sha256": "1x84yrhffzpinlq267c293dv5crrrihx0fykdpj5m9sh0s4s4vm6",
             "url": "https://github.com/stigtsp/nur"
-        },
-        "shackra": {
-            "rev": "7c04d2e41d54d61e08d5423efc21859cd9677254",
-            "sha256": "0da4qsrd7y6wk52cmyv1p1ylip71kqy05mwhz99p5kg61730l9x0",
-            "url": "https://github.com/shackra/nur"
         },
         "shados": {
             "rev": "7fc2ff09299e58aba8eb48c8c736aaf9107b9bf0",
