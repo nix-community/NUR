@@ -1243,6 +1243,11 @@
             "sha256": "1gmbwjwmy3ckfsd5y43ndqlfij3a7nyqj6pf0xhl57n0zblfiwa0",
             "url": "https://github.com/itscrystalline/nur-packages"
         },
+        "itzemoji": {
+            "rev": "f0e2fc6550fdd1b491a54ce45c08efcb40b37668",
+            "sha256": "06l9njs4inkfipj01v8r37wql498rxgs5szgjgfgyp77bsx7imsc",
+            "url": "https://github.com/ItzEmoji/nix-packages"
+        },
         "iuricarras": {
             "rev": "06005ab9ffdb5fd743e0a38e554bbc887431fcc6",
             "sha256": "1rvjvaz1qf6w6xc3i9ikgkh6vllc0ccia8x7bd8p1aqlw20bwfxl",
@@ -1768,6 +1773,11 @@
             "rev": "7c28cc199da83b02b3b9a66746443fa58e34c3a6",
             "sha256": "0xavqk1m7pn9rvsgmkwapsdjabiswg6vnz7nvwh4w75dji07ds0x",
             "url": "https://github.com/mrtnvgr/nurpkgs"
+        },
+        "msaxena": {
+            "rev": "f340fbed0e6024957f932ff58658fde6b174753d",
+            "sha256": "1bc9n0m9i98blprc4yk0900xlmas0f1cqf5ywgp93kvbadiaxw4w",
+            "url": "https://github.com/MayurSaxena/nurpkgs"
         },
         "mur": {
             "rev": "c6f0fd15590de11195798475183bf44cc939f387",
