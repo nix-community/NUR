@@ -1232,6 +1232,10 @@
             "github-contact": "lennis-dev",
             "url": "https://github.com/lennis-dev/nur-packages"
         },
+        "leonleespkg": {
+            "github-contact": "LeonLeeLi",
+            "url": "https://github.com/LeonLeeLi/LeesNixPackage"
+        },
         "lheckemann": {
             "github-contact": "lheckemann",
             "url": "https://github.com/lheckemann/nixwip"
@@ -2304,10 +2308,6 @@
             "file": "parts/nur.nix",
             "github-contact": "zzzsyyy",
             "url": "https://github.com/zzzsyyy/flakes"
-        },
-        "leonleespkg": {
-            "github-contact": "LeonLeeLi",
-            "url": "https://github.com/LeonLeeLi/LeesNixPackage"
         }
     }
 }
