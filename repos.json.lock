@@ -125,11 +125,6 @@
             "sha256": "1zvhxrfnqqgz1ralxp6k0ilv9453jk91mg23b6v4f4ksl50yy15a",
             "url": "https://github.com/HeyImKyu/nur-packages"
         },
-        "INFO4-19": {
-            "rev": "8e7468efbb7fc13e0c4ccf7e2fd64f5106012301",
-            "sha256": "082k3j383zl7vp8fmbwjdh9wmnhv776i6in3pjf3g06ijb4cwcg1",
-            "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/18-19/19/code"
-        },
         "LuisChDev": {
             "rev": "08e36a896c42c8e75e79a9013d3e8d50c171d617",
             "sha256": "0x03xfs7dmwphcqzb9r17svl4nagv3jhxibbx8hxs05z03kjmr1b",
@@ -290,11 +285,6 @@
             "rev": "a7b48c6a67760f600a84ed29bd0c9d5f63995284",
             "sha256": "0ah7axmwzk9ppwsha5nqxk93df7ggmcxa3japksby3g6l6lg8d5q",
             "url": "https://github.com/AkinoKaede/nur-packages"
-        },
-        "alanpearce": {
-            "rev": "a52cbdbb65f5fd8d08a14458a4fd807d13c8c14e",
-            "sha256": "1ifd615iah0801294ymaxzvbsdhxm1yqms1j9ghrn1cag1c7f9rq",
-            "url": "https://git.alanpearce.eu/nix-packages"
         },
         "alarsyo": {
             "rev": "916ebb1fff4875cc0c4705f62e37936c16c6eb88",
@@ -1633,8 +1623,8 @@
             "url": "https://github.com/minion3665/nurpkgs"
         },
         "mio": {
-            "rev": "8fc886dad82b80457f886288b38098acc5e4a05e",
-            "sha256": "18wg9naxzsmb5yzz0r97ymld1qb9fbmvdlgs375hcb1daqzys7wa",
+            "rev": "c2515e98f3300b50548303dcf69de950eabf13b5",
+            "sha256": "1haazqv3sgf32qi611zq1i9s9z82zzv5l6xsvkjxq6cirpm7dfqx",
             "url": "https://github.com/mio-19/nurpkgs"
         },
         "misterio": {
