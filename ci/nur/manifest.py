@@ -1,4 +1,5 @@
 import json
+import shutil
 from enum import Enum, auto
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -159,3 +160,19 @@ def load_manifest(manifest_path: PathType, lock_path: PathType) -> Manifest:
         repos.append(Repo(name, url, submodules, type_, file_, branch_, locked_version))
 
     return Manifest(repos)
+
+
+def remove_repos(repos: List[Repo], manifest_path: PathType) -> None:
+    path = to_path(manifest_path)
+
+    with open(path) as f:
+        data = json.load(f)
+
+    for name in [repo.name for repo in repos]:
+        data["repos"].pop(name, None)
+
+    tmp_path = str(path) + ".tmp"
+    with open(tmp_path, "w+") as tmp:
+        json.dump(data, tmp, indent=4, sort_keys=True)
+        tmp.write("\n")
+    shutil.move(tmp_path, path)
