@@ -1,6 +1,7 @@
 import asyncio
 import json
 import re
+import ssl
 from pathlib import Path
 from typing import List, Optional, Tuple
 from urllib.parse import ParseResult
@@ -21,6 +22,16 @@ def _find_dns_error(exc: BaseException) -> Optional[int]:
         return None
     else:
         return _find_dns_error(exc.__cause__)
+
+
+def _is_invalid_certificate_error(exc: BaseException) -> bool:
+    if isinstance(exc, aiohttp.ClientConnectorCertificateError):
+        return True
+    if isinstance(exc, aiohttp.ClientConnectorSSLError) and isinstance(
+        exc.os_error, ssl.SSLCertVerificationError
+    ):
+        return "expired" not in str(exc.os_error).lower()
+    return False
 
 
 async def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
@@ -75,6 +86,8 @@ class GitPrefetcher:
             dns_error = _find_dns_error(e)
             if dns_error in [ARES_ENOTFOUND, ARES_EREFUSED]:
                 raise RepositoryDeletedError("Repository deleted!") from e
+            if _is_invalid_certificate_error(e):
+                raise RepositoryDeletedError("Repository has invalid SSL!") from e
             raise
 
         lines = parse_pkt_lines(raw)
