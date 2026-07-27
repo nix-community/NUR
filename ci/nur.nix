@@ -3,6 +3,7 @@
   lib,
   nix-prefetch-git,
   aiohttp,
+  aiodns,
   git,
   nix,
   glibcLocales,
@@ -19,6 +20,7 @@ buildPythonApplication {
 
   dependencies = [
     aiohttp
+    aiodns
   ];
 
   makeWrapperArgs = [

@@ -29,6 +29,10 @@ jobs:
         with:
           extra_nix_config: sandbox = true
           nix_path: nixpkgs=channel:nixpkgs-unstable
+      - uses: DeterminateSystems/magic-nix-cache-action@908b263ff629f4cc17666315b7fd3ec127c6244d # v14
+        with:
+          diagnostic-endpoint: ""
+          use-flakehub: false
       - name: Install nixfmt
         run: "nix-env -f '<nixpkgs>' -iAP nixfmt-rfc-style"
       - name: Check that Nix files are formatted according to the RFC style
