@@ -53,7 +53,7 @@ class GitPrefetcher:
 
         async with aiohttp.ClientSession() as session:
             async with session.get(info_url) as resp:
-                if resp.status == 401:
+                if resp.status in [401, 402, 403, 404, 410, 451]:
                     raise RepositoryDeletedError("Repository deleted!")
                 elif resp.status != 200:
                     raise NurError(
