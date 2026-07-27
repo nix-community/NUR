@@ -3,8 +3,9 @@ import logging
 from argparse import Namespace
 from typing import List, Optional, Tuple
 
+from .error import RepositoryDeletedError
 from .eval import EvalError, eval_repo
-from .manifest import LockedVersion, Repo, load_manifest, update_lock_file
+from .manifest import LockedVersion, Repo, load_manifest, remove_repos, update_lock_file
 from .path import LOCK_PATH, MANIFEST_PATH
 from .prefetch import prefetcher_for
 
@@ -53,7 +54,12 @@ async def update_command(args: Namespace) -> None:
             results.append((i, None, e))
 
             async with log_lock:
-                if isinstance(e, EvalError) and repo.locked_version is None:
+                if isinstance(e, RepositoryDeletedError):
+                    logger.warning(
+                        f"repository {repo.name} appears to have been deleted "
+                        "upstream; removing it from the repository list"
+                    )
+                elif isinstance(e, EvalError) and repo.locked_version is None:
                     logger.error(
                         f"repository {repo.name} failed to evaluate: {e}. "
                         "This repo is not yet in our lock file!!!!"
@@ -70,10 +76,16 @@ async def update_command(args: Namespace) -> None:
     ]
     await asyncio.gather(*tasks)
 
-    updated_repos: List[Repo] = list(manifest.repos)
+    updated_repos: List[Repo] = []
+    deleted_repos: List[Repo] = []
 
-    for i, updated, err in results:
+    for i, updated, err in sorted(results, key=lambda i: i[0]):
         if err is None and updated is not None:
-            updated_repos[i] = updated
+            updated_repos.append(updated)
+        elif isinstance(err, RepositoryDeletedError):
+            deleted_repos.append(manifest.repos[i])
+        else:
+            updated_repos.append(manifest.repos[i])
 
     update_lock_file(updated_repos, LOCK_PATH)
+    remove_repos(deleted_repos, MANIFEST_PATH)
