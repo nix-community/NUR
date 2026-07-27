@@ -2,15 +2,25 @@ import asyncio
 import json
 import re
 from pathlib import Path
-from typing import List, Tuple
+from typing import List, Optional, Tuple
 from urllib.parse import ParseResult
 
 import aiohttp
+from aiodns.error import ARES_ENOTFOUND, ARES_EREFUSED, DNSError
 
 from .error import NurError, RepositoryDeletedError
 from .manifest import Repo, RepoType
 
 Url = ParseResult
+
+
+def _find_dns_error(exc: BaseException) -> Optional[int]:
+    if isinstance(exc, DNSError):
+        return exc.args[0]
+    elif exc.__cause__ is None:
+        return None
+    else:
+        return _find_dns_error(exc.__cause__)
 
 
 async def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
@@ -51,15 +61,21 @@ class GitPrefetcher:
     async def latest_commit(self) -> str:
         info_url = f"{self.repo.url.geturl()}/info/refs?service=git-upload-pack"
 
-        async with aiohttp.ClientSession() as session:
-            async with session.get(info_url) as resp:
-                if resp.status in [401, 402, 403, 404, 410, 451]:
-                    raise RepositoryDeletedError("Repository deleted!")
-                elif resp.status != 200:
-                    raise NurError(
-                        f"Failed to get refs for {self.repo.url.geturl()}: {(await resp.read()).decode()}"
-                    )
-                raw = await resp.read()
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(info_url) as resp:
+                    if resp.status in [401, 402, 403, 404, 410, 451]:
+                        raise RepositoryDeletedError("Repository deleted!")
+                    elif resp.status != 200:
+                        raise NurError(
+                            f"Failed to get refs for {self.repo.url.geturl()}: {(await resp.read()).decode()}"
+                        )
+                    raw = await resp.read()
+        except (aiohttp.ClientConnectorError, DNSError) as e:
+            dns_error = _find_dns_error(e)
+            if dns_error in [ARES_ENOTFOUND, ARES_EREFUSED]:
+                raise RepositoryDeletedError("Repository deleted!") from e
+            raise
 
         lines = parse_pkt_lines(raw)
 
