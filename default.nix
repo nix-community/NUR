@@ -18,6 +18,16 @@ let
 
   inherit (nurpkgs) lib;
 
+  tryEvalRepo =
+    name: fallback: value:
+    let
+      result = builtins.tryEval value;
+    in
+    if result.success then
+      result.value
+    else
+      lib.warn "NUR: repository '${name}' failed to evaluate and was skipped" fallback;
+
   repoSource =
     name: attr:
     import ./lib/repoSource.nix {
@@ -49,11 +59,13 @@ let
 
   createRepo =
     name: attr:
-    import ./lib/evalRepo.nix {
-      inherit name pkgs lib;
-      inherit (attr) url;
-      src = repoSource name attr + ("/" + (attr.file or ""));
-    };
+    tryEvalRepo name { } (
+      import ./lib/evalRepo.nix {
+        inherit name pkgs lib;
+        inherit (attr) url;
+        src = repoSource name attr + ("/" + (attr.file or ""));
+      }
+    );
 
 in
 {
