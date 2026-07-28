@@ -191,8 +191,8 @@
             "url": "https://github.com/Samuel-Martineau/nur-packages"
         },
         "Sittymin": {
-            "rev": "79206af338add6812e996b311af73bfedec66039",
-            "sha256": "14ai4mn0mhy1s4a24bmvhx5cby70vkqlpish64lw25da669v7fvz",
+            "rev": "45ba84504ce31e4ff10d017c2fffdcae2c73bad6",
+            "sha256": "1pyzjr71ydh6079kbpgsg99qf17wrz1xfr4fdslbbhcmfrwav1x1",
             "url": "https://github.com/Sittymin/NUR"
         },
         "SuperKenVery": {
@@ -543,8 +543,8 @@
             "url": "https://github.com/cawilliamson/nur-packages"
         },
         "ccicnce113424": {
-            "rev": "e3b9cea6f20ae803bce28da8c160727565cf5a59",
-            "sha256": "0bjs0qlyvx8za4bgygrg1v95f3l6q6s82y9xjk5c5d0p2ldlv8sj",
+            "rev": "5c8e01a108c5124f4a95456501231e371f3126c2",
+            "sha256": "1j0w7qqqf2lp3bs2vcj8pq4pvyqzxwsaz2a83k62nm6ayxr2cdgg",
             "url": "https://github.com/ccicnce113424/nix-packages"
         },
         "chagra": {
@@ -1723,6 +1723,11 @@
             "sha256": "0wmvmq4m3yh21apgayrg1188xi20c274ibbbw29cwpzy7iqjrvyb",
             "url": "https://github.com/mzntori/nur-packages"
         },
+        "mzwing": {
+            "rev": "dec5b76bbd1240d1f87224a0c3d5d1e0345bc563",
+            "sha256": "1g2b2yj39nw5mdwzqx78wqmd8qz0s67pl4ca962r8r6ni60ar5b0",
+            "url": "https://github.com/mzwing/nur-packages"
+        },
         "n1kolasM": {
             "rev": "9e6c706e1e476f42aae9c8de0a676c3fca368a55",
             "sha256": "1gdfyjpmh6ys81psmryh8y3n3rji4rfwmlfj0xjf8r4q41ld58h8",
@@ -2457,8 +2462,8 @@
             "url": "https://github.com/ToyVo/nixcfg"
         },
         "trev": {
-            "rev": "4efa653a610b192419619fef1acf94ff8f6741aa",
-            "sha256": "06mag55wqnwdrp66b1y537b6wf8mjsvfxfmc6fmzq9ky1w33gnyd",
+            "rev": "f43295fe5f96113a8d4f65f2baf8f8b8eea696fd",
+            "sha256": "086a8f546hgjv003w6chc3zg23pkk158w8dhldhc20p5n0c7zvjy",
             "url": "https://github.com/spotdemo4/nur"
         },
         "trevorriles": {
