@@ -176,8 +176,8 @@
             "url": "https://github.com/Redrield/nurpkgs"
         },
         "Rhys-T": {
-            "rev": "ee6c6be2d76efbd2b144bb67e825c8378591e9e6",
-            "sha256": "06jcbw91zlqy4fn0bwivhsvgdc3yjhm7hl6v707rcjdqxqvjxyd4",
+            "rev": "2a444e1797bb6c25cc913d713588ea0305538d36",
+            "sha256": "1s4xyl9hdzchd9wpzx53hd7s3mi9m7m9ja4zfnw2dskyckxzv9my",
             "url": "https://github.com/Rhys-T/nur-packages"
         },
         "RossSmyth": {
@@ -241,8 +241,8 @@
             "url": "https://git.sr.ht/~aasg/nixexprs"
         },
         "abszero": {
-            "rev": "8103c935132e76e95649da91d82eb4d5b697db93",
-            "sha256": "0hb5c4096kb4fa81j8njy3b188kl4rvrbj91rbd30mycz4ljayd9",
+            "rev": "ed4d8793dd95acf9dc104e50d68afb2cb9ab6489",
+            "sha256": "0lssxc1v98vny18n91sp0q21sbv1m3kwcpxgv7w6cxvgri9cg78p",
             "url": "https://github.com/Weathercold/nixfiles"
         },
         "aciceri": {
@@ -924,8 +924,8 @@
             "url": "https://github.com/FliegendeWurst/nur-packages/"
         },
         "fooker": {
-            "rev": "dcd96344d43a837847b1c1920c6866e9c78d4a59",
-            "sha256": "0623jffd3j1nahh51768sqmk5q4wbnxl7i2ip8685bk1g1hmki8q",
+            "rev": "515ac4475f4797b4d481398956e31e830c4ea7b7",
+            "sha256": "0c1bs83mg7qznv550vznx095lk7lrqsyb7q29wpimqpasri3y8xa",
             "url": "https://github.com/fooker/nur-packages"
         },
         "foolnotion": {
@@ -2004,8 +2004,8 @@
             "url": "https://git.sr.ht/~priegger/nur-packages"
         },
         "prince213": {
-            "rev": "d94f9f3d40b782196a0d31420697e43e93bf1625",
-            "sha256": "08qfn8qf0bb4kjhkbw20g136a0w9yjccyv6slzcjsjiqcbq6mj6v",
+            "rev": "9f81d84c7734fed697b1f41a20f977470af3f9fc",
+            "sha256": "1n2lifvzg1qlpx2yx9si07spliic5l3cd4j7nk4f0pq63qlhmnw8",
             "url": "https://github.com/Prince213/nix-packages"
         },
         "progsyn": {
@@ -2042,6 +2042,11 @@
             "rev": "f52dcae4c2b4c03f6f5bf87872071cbfc66a0958",
             "sha256": "06liiv6dlmchxwafv94l161adhh011r5y3l6r0mqr6pm9l2ym4hv",
             "url": "https://github.com/qenya/nur-packages"
+        },
+        "quriosity": {
+            "rev": "66f6ed2b3092f12fce8003a6559254d7803fa8e1",
+            "sha256": "0q3v2z826vd36jpi1jpr10a0vjldgwv024w9qv46qzhkqylqn3c3",
+            "url": "https://github.com/Quriosity0/NUR-Repo"
         },
         "qwbarch": {
             "rev": "d25c6522d720e02be08fd358e7e493dbe0493096",
