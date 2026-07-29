@@ -1304,8 +1304,8 @@
             "url": "https://github.com/jorsn/nur-packages"
         },
         "josh": {
-            "rev": "aff2a7111581ef34c372e07e372ce662c0db2832",
-            "sha256": "0304hdhwpl8waw646m3w90c2faasnhndd3w54lcl6p6pq2vj6qhl",
+            "rev": "e187958cb2d6c6c123c3b98861fafb63ccde197e",
+            "sha256": "1di2cmfv20naks88ga9pl511s3zz1wwpsdj769s1xsw0794x07qm",
             "url": "https://github.com/josh/nurpkgs"
         },
         "jpts": {
@@ -2185,8 +2185,8 @@
             "url": "https://github.com/SebRut/personal-nix-packages-repository"
         },
         "sedlund": {
-            "rev": "7582b91519f19a1aa301aa925430f3e89e0b5069",
-            "sha256": "1jsw5ihsmg22gzq9m4rn1d6cyr16xbdmca5jrn5xw7pg05f5g991",
+            "rev": "414c5be1f4c0cf3bd4f24d95ea632de27e784ee1",
+            "sha256": "1yz63d41lblqq9f0544g19lhm10r8s44wn1cr95d9n33bhjcxnxr",
             "url": "https://github.com/sedlund/nur-packages"
         },
         "sehqlr": {
@@ -2253,6 +2253,11 @@
             "rev": "7fc95050d1f2369b39e5a7c67388ddf1390d94cf",
             "sha256": "122d66w8143hj6v1a3ln1s4i03rrxq737baj0lha4h5rwfmyhia1",
             "url": "https://github.com/sikmir/nur-packages"
+        },
+        "silicalet": {
+            "rev": "9446485500bef9c17ba1bd8ca89f20bc7b25b340",
+            "sha256": "0vjay92a9fr5s3cq06bgcz55wjs8hv8fqwwhrxn6q3rvlypr6sli",
+            "url": "https://github.com/silicalet/nur-packages-silicalet"
         },
         "skiletro": {
             "rev": "2604ffc5b67c0d5a177a41e159775f041e757922",
