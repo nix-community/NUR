@@ -14,6 +14,8 @@ from .manifest import Repo, RepoType
 
 Url = ParseResult
 
+USER_AGENT = "nur-update-bot/1.0 (+https://github.com/nix-community/NUR)"
+
 
 def _find_dns_error(exc: BaseException) -> Optional[int]:
     if isinstance(exc, DNSError):
@@ -73,7 +75,9 @@ class GitPrefetcher:
         info_url = f"{self.repo.url.geturl()}/info/refs?service=git-upload-pack"
 
         try:
-            async with aiohttp.ClientSession() as session:
+            async with aiohttp.ClientSession(
+                headers={"User-Agent": USER_AGENT}
+            ) as session:
                 async with session.get(info_url) as resp:
                     if resp.status in [401, 402, 403, 404, 410, 451]:
                         raise RepositoryDeletedError("Repository deleted!")
