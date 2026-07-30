@@ -67,6 +67,10 @@ class Repo:
         if file_ is None:
             self.file = "default.nix"
         else:
+            if Path(file_).is_absolute() or ".." in Path(file_).parts:
+                raise ValueError(
+                    f"{name}: file {file_!r} must be a relative path without '..' components"
+                )
             self.file = file_
         self.branch = branch
         self.locked_version = None
