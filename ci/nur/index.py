@@ -100,8 +100,14 @@ async def index_command(args: Namespace) -> None:
     with open(manifest_path) as f:
         manifest = json.load(f)
     repos = manifest.get("repos", [])
-    pkgs: Dict[str, Any] = {}
+    if not repos:
+        print(
+            f"Refusing to index: {manifest_path} contains no repos",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
+    pkgs: Dict[str, Any] = {}
     for repo, data in repos.items():
         repo_pkgs = index_repo(
             directory,
@@ -110,5 +116,12 @@ async def index_command(args: Namespace) -> None:
             data.get("url", "https://github.com/nixos/nixpkgs"),
         )
         pkgs.update(repo_pkgs)
+
+    if not pkgs:
+        print(
+            "Refusing to write index: no packages indexed across all repos",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     json.dump(pkgs, sys.stdout, indent=4)
