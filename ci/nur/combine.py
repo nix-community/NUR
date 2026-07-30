@@ -7,6 +7,7 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 from typing import Dict, List, Optional
 
+from .error import NurError
 from .fileutils import chdir, write_json_file
 from .manifest import Repo, load_manifest, update_lock_file
 from .path import LOCK_PATH, MANIFEST_PATH, ROOT
@@ -121,6 +122,7 @@ def update_combined(path: Path) -> None:
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
     combined_repos = load_combined_repos(path)
+    previous_repo_count = len(combined_repos)
 
     repos_path = path.joinpath("repos")
     os.makedirs(repos_path, exist_ok=True)
@@ -140,6 +142,11 @@ def update_combined(path: Path) -> None:
 
         if new_repo is not None:
             updated_repos.append(new_repo)
+
+    if previous_repo_count > 0 and len(updated_repos) < previous_repo_count // 2:
+        raise NurError(
+            f"Refusing to update repos.json: more than half ({previous_repo_count - len(updated_repos)}) of all ({previous_repo_count}) previous repos dropped"
+        )
 
     for combined_repo in combined_repos.values():
         remove_repo(combined_repo, path)
