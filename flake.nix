@@ -160,7 +160,7 @@
               let
                 darwinModules = r.darwinModules or { };
                 flakeModules = r.flakeModules or { };
-                homeModules = r.homeModules or { };
+                homeModules = r.homeModules or r.modules or { };
                 nixosModules = r.nixosModules or r.modules or { };
               in
               {
