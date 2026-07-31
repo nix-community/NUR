@@ -45,11 +45,6 @@
             "sha256": "1ah7y45f5g2h716kv4azm1rw8s74hl9jrd4s5fshzbn9rca17gv0",
             "url": "https://github.com/Alxandr/nur"
         },
-        "AndrewKvalheim": {
-            "rev": "f9723c3b6d0e65e554815bebfe74c3e25d518207",
-            "sha256": "05mj0d1d90qmrymz69kp1ki7f91q5f2w8iddzn9fncaxaz2iv3x9",
-            "url": "https://codeberg.org/AndrewKvalheim/configuration"
-        },
         "AsterisMono": {
             "rev": "150de46cf3161d1b40b30338e7c0a61e3724a30f",
             "sha256": "1rbchaaspfqqybh1adqa6gzanlsm910h5gh20d9r43ncp0dmi9dw",
@@ -290,11 +285,6 @@
             "rev": "916ebb1fff4875cc0c4705f62e37936c16c6eb88",
             "sha256": "10i3faj8d4rlnilh6gisbmf5z6l13apfdisn1p0n7r8l42c3icc7",
             "url": "https://github.com/alarsyo/nixos-config"
-        },
-        "alejo7797": {
-            "rev": "b6a06f3d049b3eff3607d83245ee53ba2e1b9d47",
-            "sha256": "1b7f8m9w7haz63wmlj70qq4hv1ggix81kppskbn66i0c26q2wfrw",
-            "url": "https://codeberg.org/alejo7797/nix-expressions"
         },
         "aleksana": {
             "rev": "bf6167576099ddd86ae0d3a372e6eda60009959b",
@@ -642,11 +632,6 @@
             "sha256": "03zxz9gk6fs5a2zcpbxg70c00vz7p0x1cbfkwlr3nnj60bw61gnn",
             "url": "https://github.com/congee/nur"
         },
-        "connoromalley": {
-            "rev": "ec6db89006aeafecda0b406f1077d4ea9d09c81d",
-            "sha256": "130imlbsxhdzl78pbdrl7028pyjag274gj3i93hkffgbcfy325iw",
-            "url": "https://codeberg.org/connoromalley/nur-packages"
-        },
         "crazazy": {
             "rev": "796e843c852dba603616c46684fdb6fccaabbbf7",
             "sha256": "0dsgc7mg606yp5r55avc228rmsf0br935dbgy66n8vjl0hxjfj3p",
@@ -863,11 +848,6 @@
             "sha256": "1sl7si55vjz3cr2521blsgdbrwz6hfd6rs816kzl0fs04nqczz2v",
             "url": "https://github.com/Endle/nur-packages"
         },
-        "eownerdead": {
-            "rev": "80c3949dbc5f768b3290d808566daebcbdcffc77",
-            "sha256": "00fmmn2c9cy4i97gsxbrjxc70jxcj0lwdpdp0d3p2hcxk18xllvi",
-            "url": "https://codeberg.org/eownerdead/flakes"
-        },
         "ethancedwards8": {
             "rev": "0263960bdfc98e590db580f5a25f80f20b95160d",
             "sha256": "0vi426n7drnq7i954s7g2y8q1p8jfb5vz562fdp7w378cc9fnry9",
@@ -877,11 +857,6 @@
             "rev": "f8f9f785ab0eadad16093ed68265206413e2b163",
             "sha256": "08y50mi9969i41akpznp8cyxsqa18ppjjsnp7007s2h17b6pcbdb",
             "url": "https://github.com/etu/nur-packages"
-        },
-        "examosa": {
-            "rev": "634fa93e1b63db119777e46a86f993cd254b700f",
-            "sha256": "1s5c4x86ypv08yrbv9jd5gvkrkpkv40rngyx1z2r462wd63v4c7i",
-            "url": "https://codeberg.org/examosa/nur-packages"
         },
         "extends": {
             "rev": "cb5dd151c29b15c0b462ba206198be17ced19f39",
@@ -897,11 +872,6 @@
             "rev": "30875479923385433632063e1e4b0b93f18273a4",
             "sha256": "0qhhslxqys1mz4r6mal5xrpin3ijfvs7zpljvmck8hw93zp6dk1d",
             "url": "https://github.com/FanBB2333/nur-packages"
-        },
-        "federicoschonborn": {
-            "rev": "99536d8e3b836520f162613ece693698d97f712d",
-            "sha256": "0ww4ydwc2i7qfbbpmxis9bsdsf07mc87wx09g6gjdf70b0i3zp3h",
-            "url": "https://codeberg.org/FedericoSchonborn/nur-packages"
         },
         "fedx": {
             "rev": "b1ee80ee8a790671f4b8fc1502cd52ca760cdf61",
@@ -1441,8 +1411,8 @@
             "url": "https://github.com/PhotonQuantum/nur-packages"
         },
         "linyinfeng": {
-            "rev": "b2e65bb30d8dcbc6c5182a0b23df8eacac96d53f",
-            "sha256": "1zpwd3wa5mpjs9rzn3cnsg5cj0wxn2nhlwp0vvrm21rkrjdsy376",
+            "rev": "46b06493e7a1b7c7ef571a80bfca41c286c8fe1a",
+            "sha256": "0r2hfmj1fxfw0hvicvq6k54f5z6d7gqrzfg6wkm61p6zj4cyj05h",
             "url": "https://github.com/linyinfeng/nur-packages"
         },
         "liyangau": {
@@ -2288,11 +2258,6 @@
             "sha256": "1r6ycwq28brq1scahmq13354wi4nd3nymf8ka5qiy85liaynx2yn",
             "url": "https://github.com/SomeoneSerge/pkgs"
         },
-        "someron": {
-            "rev": "e37fa9ab5b52b8a80555c6f66eb25e138d6fb153",
-            "sha256": "14d1psns1gvjv0rv3kfchy7ixszmgz6alk3jzy0rnry3if3m8rkh",
-            "url": "https://codeberg.org/someron/nur"
-        },
         "sondr3": {
             "rev": "af1c3aa32d95f54ae0e4052d1b2d46138c0ac0df",
             "sha256": "1wfgyb3qpgb4lh0bxdi7q66y9gj6giapa5sgqy70y1j296lxqnqi",
@@ -2604,11 +2569,6 @@
             "rev": "908bad88ed06d144970957cfe49f8705b09767da",
             "sha256": "0hk0n6l0gs3yijy8ggs2b38jbw70zf1fg85m31phm3ppfnc825ks",
             "url": "https://github.com/wingej0/nur-packages"
-        },
-        "wolfangaukang": {
-            "rev": "e5f8fed24075c160befeb283d36cf865ddceec29",
-            "sha256": "1r5x8hiwc1abwzah000fbygrny5v5hfwyvpqlhcmwpwx5q42riww",
-            "url": "https://codeberg.org/wolfangaukang/nix-agordoj.git"
         },
         "workman-nur": {
             "rev": "58fbd09f9f95cfa915718c30bb3fbbe5262cdf33",
