@@ -454,6 +454,8 @@ Home Manager modules should be placed in the `homeModules` attribute:
 
 These modules are then accessible as `nur.repos.<repo>.modules.homeManager.<module>` in flakes.
 
+The legacy `modules` attribute is also supported as a fallback for `homeModules`.
+
 #### Providing Darwin modules
 
 Darwin (nix-darwin) modules should be placed in the `darwinModules` attribute:
