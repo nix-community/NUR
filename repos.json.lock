@@ -56,8 +56,8 @@
             "url": "https://github.com/AstroOrbis/nur"
         },
         "AusCyber": {
-            "rev": "306ca8e2c7c4b9aab53de6dd3ea037c442f0fd45",
-            "sha256": "1nf5jmmfylqjb673imkfj6ah4znmrk7jjniwlj9kisg2afgawh4x",
+            "rev": "fe771e79c15cf1bff5a75c40bcf9a36ee4e9ee5b",
+            "sha256": "17pgifbncp9vmp4whzfr70kzqxssay2xnnmf9zbnbnfjzl7w42l3",
             "url": "https://github.com/Auscyber/nur-packages"
         },
         "Communix": {
@@ -602,6 +602,11 @@
             "sha256": "01vcz974jzawgs63xnsl8cs8fv9642qg1f97zhcj818nawwjbgqw",
             "url": "https://github.com/CinQwQeggs01/nur-packages-template"
         },
+        "claymorwan": {
+            "rev": "8672b9753847f6ed9289506aba590af4dacbf608",
+            "sha256": "1gpixy52fylj4zxlzhxjniyff6x4mzwqyyibz13jckcyxvpnb3dh",
+            "url": "https://github.com/claymorwan/nurpkgs"
+        },
         "clefru": {
             "rev": "1ed6c1a44b0926588071ccf3abcb5529bb1d4a53",
             "sha256": "1ni6gs5ynvwch8zn3k1ndxnqr5z89yrkslrj48m73jal21nna9i1",
@@ -1044,8 +1049,8 @@
             "url": "https://github.com/herver/nur"
         },
         "hexadecimalDinosaur": {
-            "rev": "24adaa388691ed58604f337355d331b674076851",
-            "sha256": "1rxzkbwq30piyk8khidgykg6kgx480s3g48ayphv5lrd1i9raqnb",
+            "rev": "35e0ed424c8328eb3ce33b41c129ccad3c7a003e",
+            "sha256": "01w88vdmgkpg6k7l9bmd4zygj12w88pmjl7k1x49jhwpcbq0a01c",
             "url": "https://github.com/hexadecimalDinosaur/nur"
         },
         "hhr2020": {
@@ -1077,6 +1082,11 @@
             "rev": "8a6ea267bec4244f2b266e218e2a24eae8ff2608",
             "sha256": "0m6fj37wrcvhzjqx7r5941ciycj72rycb689rqn98g5jkiph97qn",
             "url": "https://github.com/iagocq/nix"
+        },
+        "iamanaws": {
+            "rev": "cb520b7e3f8b141dfc6d3dbba460413dbaf460bb",
+            "sha256": "03md8l7k3n7awc9xdyc2dq8yl1v0zq67cajggbbp5nighrbh5zhf",
+            "url": "https://github.com/iamanaws/dotfiles"
         },
         "ianmurphy1": {
             "rev": "00ba9e0bee82495dd3e2345b53222d55480d8e88",
@@ -1441,8 +1451,8 @@
             "url": "https://github.com/ltpie123/nur-packages"
         },
         "lucasew": {
-            "rev": "3c4ac2c511a69dae3c2465776da4fad6af3566dd",
-            "sha256": "0vkc95zrpj0v6rkli2qvghadnx3lxybbc291gcbxjb2zpxnjnwkr",
+            "rev": "9eb3caa9e719528a859bd8b72a2461c6500ed8a3",
+            "sha256": "1p26ywvhnmd09j0i729b67y2vgzxh2m2l5gys7xzaxfafhwigj62",
             "url": "https://github.com/lucasew/nixcfg"
         },
         "lucasfa": {
