@@ -272,8 +272,8 @@
             "url": "https://github.com/ahi6/nurpkgs"
         },
         "ahmet-cetinkaya": {
-            "rev": "2c159044d7775df106025c966fa6471bf4c1c2a9",
-            "sha256": "19p233ghjckx7l01aw7m22dh3v7qk7dgn8r2a86n49ipbbsjjwyl",
+            "rev": "463074c9d68328b118416b1927c00b7d1090c347",
+            "sha256": "1z27r3j9wlz9v6wkbna8kr3cisrddyy9jldh7100csavf1igd2s4",
             "url": "https://github.com/ahmet-cetinkaya/dotfiles"
         },
         "akinokaede": {
@@ -646,6 +646,11 @@
             "rev": "b92589c2a6f7f7a50688c2d02194d85c10d3e273",
             "sha256": "1d0gavn56ayp94da4pqdlldhb0wgdiwg47chkxkz72x6cjm392zv",
             "url": "https://github.com/CrazedProgrammer/nix"
+        },
+        "crimsonvariable": {
+            "rev": "7516c9556a854d7db628a620f23ec909237c08ad",
+            "sha256": "0al1lq7qwbhb53wdqi3fmz5n7gxyjbpv03p9k2v6hnw0dnmkl38g",
+            "url": "https://github.com/crimsonvariable/nur-packages"
         },
         "crtified": {
             "rev": "9bfdca8e56ec7608ea19c8f97f20edc09d3faf99",
