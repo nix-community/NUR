@@ -90,7 +90,7 @@ async def update_command(
                 if isinstance(e, RepositoryDeletedError):
                     logger.warning(
                         f"repository {repo.name} appears to have been deleted "
-                        "upstream; removing it from the repository list"
+                        f"upstream ({e}); removing it from the repository list"
                     )
                 else:
                     logger.exception(

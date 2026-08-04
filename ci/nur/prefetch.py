@@ -1,13 +1,12 @@
 import asyncio
 import json
 import re
-import ssl
 from pathlib import Path
 from typing import List, Optional, Tuple
-from urllib.parse import ParseResult
+from urllib.parse import ParseResult, urlparse
 
 import aiohttp
-from aiodns.error import ARES_ENOTFOUND, ARES_EREFUSED, DNSError
+from aiodns.error import ARES_ENOTFOUND, DNSError
 
 from .error import NurError, RepositoryDeletedError
 from .manifest import Repo, RepoType
@@ -15,6 +14,17 @@ from .manifest import Repo, RepoType
 Url = ParseResult
 
 USER_AGENT = "nur-update-bot/1.0 (+https://github.com/nix-community/NUR)"
+
+DELETION_HTTP_CODES = [
+    401,  # Unauthorized; can be used instead of 403 since NUR is unauthenticated
+    403,  # Forbidden; sometimes used to avoid leaking private repo names
+    404,  # Not Found
+    410,  # Gone
+]
+UNSAFE_DNS_WHITELIST = [
+    "github.com",
+    "codeberg.org",
+]
 
 
 def _find_dns_error(exc: BaseException) -> Optional[int]:
@@ -24,16 +34,6 @@ def _find_dns_error(exc: BaseException) -> Optional[int]:
         return None
     else:
         return _find_dns_error(exc.__cause__)
-
-
-def _is_invalid_certificate_error(exc: BaseException) -> bool:
-    if isinstance(exc, aiohttp.ClientConnectorCertificateError):
-        return True
-    if isinstance(exc, aiohttp.ClientConnectorSSLError) and isinstance(
-        exc.os_error, ssl.SSLCertVerificationError
-    ):
-        return "expired" not in str(exc.os_error).lower()
-    return False
 
 
 async def nix_prefetch_zip(url: str) -> Tuple[str, Path]:
@@ -79,8 +79,10 @@ class GitPrefetcher:
                 headers={"User-Agent": USER_AGENT}
             ) as session:
                 async with session.get(info_url) as resp:
-                    if resp.status in [401, 402, 403, 404, 410, 451]:
-                        raise RepositoryDeletedError("Repository deleted!")
+                    if resp.status in DELETION_HTTP_CODES:
+                        raise RepositoryDeletedError(
+                            f"Repository fetch returned status code {resp.status}"
+                        )
                     elif resp.status != 200:
                         raise NurError(
                             f"Failed to get refs for {self.repo.url.geturl()}: {(await resp.read()).decode()}"
@@ -88,10 +90,14 @@ class GitPrefetcher:
                     raw = await resp.read()
         except (aiohttp.ClientConnectorError, DNSError) as e:
             dns_error = _find_dns_error(e)
-            if dns_error in [ARES_ENOTFOUND, ARES_EREFUSED]:
-                raise RepositoryDeletedError("Repository deleted!") from e
-            if _is_invalid_certificate_error(e):
-                raise RepositoryDeletedError("Repository has invalid SSL!") from e
+            parsed_info_url = urlparse(info_url)
+            hostname = parsed_info_url.hostname
+            if dns_error == ARES_ENOTFOUND and hostname not in UNSAFE_DNS_WHITELIST:
+                raise RepositoryDeletedError("Repository deleted") from e
+            if isinstance(e, aiohttp.ClientConnectorCertificateError):
+                raise RepositoryDeletedError(
+                    "Repository has invalid SSL certificate"
+                ) from e
             raise
 
         lines = parse_pkt_lines(raw)
