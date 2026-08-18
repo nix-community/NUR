@@ -61,8 +61,8 @@
             "url": "https://github.com/AstroOrbis/nur"
         },
         "AusCyber": {
-            "rev": "5e8d40e9bc0adac0eb43f6309092be5480c7f0b6",
-            "sha256": "0yd7ddlc3x8v0lap9yk047kyazki4f2baialnwcj9awa8jxcls4i",
+            "rev": "8d0ba0321e961e4a4d243e87669fb7c08b6a47eb",
+            "sha256": "1xaxp9v5v2n7wgirn553k0yblb4mmm1siknyy8vnzkkwpmyh7l4m",
             "url": "https://github.com/Auscyber/nur-packages"
         },
         "Communix": {
@@ -1682,6 +1682,11 @@
             "sha256": "1zp55320ck1479sxqlcim1sqc76kdy0md73f796g3ixkwyfqqds7",
             "url": "https://github.com/moosingin3space/nur-packages"
         },
+        "mopigames": {
+            "rev": "3696a4a93f49c6d0d7ea25f646eb583ead6850ef",
+            "sha256": "0bg8f9f1y75gyg3r1mnvn85fkg0k1w6xcs72951p663l20xmvmsg",
+            "url": "https://github.com/MopigamesYT/moonlight-os"
+        },
         "moraxyc": {
             "rev": "368ed5fbb38a40d0a8e08c023e277c2d1c4d52a2",
             "sha256": "145qlhhy53v0msz0gr4gp4psgsk839q42j4b88i5rzqrmsqy27lc",
@@ -1732,6 +1737,11 @@
             "rev": "5e85a41371864e4274e2eba4ecf57981b11b4748",
             "sha256": "1j9wqq0z6li0n5vw5x2xrva1vk3i0ryli0yy8afk155skh0vxwn2",
             "url": "https://github.com/MayurSaxena/nurpkgs"
+        },
+        "mst-mkt": {
+            "rev": "1c992333ff9a87dd2701976c4b710d77e2333a08",
+            "sha256": "17x5kln4ml10rjq8b15g8mfjxhm492pq25pna4ha6k2klb3qsayf",
+            "url": "https://github.com/mst-mkt/nur-packages"
         },
         "mweinelt": {
             "rev": "ce964f21470ed455db9ce051d3e11838a292bbfc",
@@ -2034,8 +2044,8 @@
             "url": "https://git.sr.ht/~priegger/nur-packages"
         },
         "prince213": {
-            "rev": "a7e9607c130fd3bb03a993791320398a0775fc64",
-            "sha256": "17lfp378bkhf0p8rjh6f9b77kij1b8y772y5glvl657bmpm83b0s",
+            "rev": "f73867c345fbeac9c01d9e69402d89de02712332",
+            "sha256": "1cz4vpgazkazvfzcxwwgdp9d913wnfjdcmr3vrhqbmqjp2av31d5",
             "url": "https://github.com/Prince213/nix-packages"
         },
         "progsyn": {
