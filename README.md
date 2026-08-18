@@ -215,6 +215,41 @@ in
 }
 ```
 
+### Using the flake in a standalone Home Manager configuration
+
+The section above covers Home Manager used as a NixOS (or nix-darwin) module.
+If you instead build your Home Manager configuration standalone, with
+`home-manager.lib.homeManagerConfiguration`, add the NUR overlay and any
+repo modules you need to its `modules` list directly:
+
+```nix
+{
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    home-manager = {
+      url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    nur = {
+      url = "github:nix-community/NUR";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+
+  outputs = { self, nixpkgs, home-manager, nur, ... }: {
+    homeConfigurations.myUser = home-manager.lib.homeManagerConfiguration {
+      pkgs = nixpkgs.legacyPackages.x86_64-linux;
+      modules = [
+        # Adds the NUR overlay to Home Manager's pkgs
+        nur.modules.homeManager.default
+        # Import all Home Manager modules published by a NUR repo:
+        { imports = nixpkgs.lib.attrValues nur.repos.moredhel.modules.homeManager; }
+      ];
+    };
+  };
+}
+```
+
 ## Finding packages
 
 You can find all packages using
