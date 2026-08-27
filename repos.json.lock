@@ -1,10 +1,5 @@
 {
     "repos": {
-        "0komo": {
-            "rev": "895f0fe9ced70b1a93050aff3ce0803761a1a36f",
-            "sha256": "1zf9dqyqrmgpv2kqafnlvrpa0yh48rd1lihgxgv1wxwaxb5gircy",
-            "url": "https://github.com/0komo/nurpkgs"
-        },
         "0x4A6F": {
             "rev": "0514d23b1eff0ee3d66d42266b0ca8230dc82d9a",
             "sha256": "0j16yk5f7pr84knd2v2ncdhxyvr0mzmxqq14cm4wagzwqcmd9ag8",
@@ -653,8 +648,8 @@
             "url": "https://github.com/cmdorexe/nur-packages"
         },
         "codgician": {
-            "rev": "948f50a56a46ad8ecac1c2a116bd0fcb34e1c701",
-            "sha256": "1m4kqlhfj5fxpjxnz0c91hvwjqaarhqc31qw4x7xqaf9pj29659w",
+            "rev": "3edfc4a4b61e6a6d2b07409d61f031a0fb8de4d1",
+            "sha256": "0r0bi1hgvk2vv4d1swdlr6dcivqvq4y5p2j0y3m2v52695bpgyfc",
             "url": "https://github.com/codgician/nur-packages"
         },
         "colinsane": {
@@ -1423,6 +1418,11 @@
             "rev": "606ac0cb71f21626c8ffd9f43a0b950d874696c5",
             "sha256": "08izwrpa2nrgb0gnixpynm7s5kkmcj22kx9mjmjp6ppzwgph0nvw",
             "url": "https://github.com/kolloch/nur-packages"
+        },
+        "komo": {
+            "rev": "e576e0dd313f589752fd775d30c64f7b8eb041a7",
+            "sha256": "094ik203hkamgxrhksxiwd4gbkj00g55c4y855dfy2smm3w8q125",
+            "url": "https://git.gay/kromfin/nur-pkgs"
         },
         "kongjian520": {
             "rev": "edf0b4a08b68d7efb73f9240fb54e65f8279576b",
