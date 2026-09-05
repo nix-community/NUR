@@ -25,7 +25,7 @@ jobs:
       - name: Calculate changed files
         id: changed-files
         run: echo "changed_files=$(git diff --name-only -r HEAD^1 HEAD | xargs)" >> $GITHUB_OUTPUT
-      - uses: cachix/install-nix-action@630ae543ea3a38a9a4166f03376c02c50f408342 # v31
+      - uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24 # v31
         with:
           extra_nix_config: sandbox = true
           nix_path: nixpkgs=channel:nixpkgs-unstable
