@@ -250,6 +250,11 @@
             "sha256": "0skgvrls4ak6nhq8d51qsvf4qwz4x70d5d9svm3v8s8vikad8fz5",
             "url": "https://git.sr.ht/~aasg/nixexprs"
         },
+        "abemedia": {
+            "rev": "7b6c067b31254cfd309e34111c7a7e7465cce978",
+            "sha256": "0k9660p17qzz6j1pkzl8k4zvmrs26zx516bc9fjkshy3z5bhr4l6",
+            "url": "https://github.com/abemedia/nur-packages"
+        },
         "abszero": {
             "rev": "6ca30d02f461c33f30a2ccbae41897cc53e76d08",
             "sha256": "1zfgaxa4r2hzh67p6x0yf89gp652jpq4akzdxvkrdflyll9gqbjn",
@@ -848,6 +853,11 @@
             "rev": "dabf4820ee5b3203cf29e7d81c62b26a33a91692",
             "sha256": "1fs5vsw494a5vr0drnzrw5sfzb20l783x02zx0hyfahyvs8l0mvj",
             "url": "https://github.com/dtzWill/nur-packages"
+        },
+        "duncannah": {
+            "rev": "2946bf159db851a310a1d445ca6c6b1b82540ffc",
+            "sha256": "0pyvi0x82fz9rfjz240g1vs97s087d6x3b1gff3kgwxazpvgnasb",
+            "url": "https://github.com/duncannah/nur-packages"
         },
         "dustinblackman": {
             "rev": "55b771873f0f568f15e5ffa9eea8771fcf33b56e",
@@ -2284,6 +2294,11 @@
             "sha256": "1x84yrhffzpinlq267c293dv5crrrihx0fykdpj5m9sh0s4s4vm6",
             "url": "https://github.com/stigtsp/nur"
         },
+        "sh0rtround": {
+            "rev": "abb4b6edd21057438411ca45c7939b68e72c050d",
+            "sha256": "1s7kqax7ipkn1yhbdsz3x2vrxahlc1ygkxziy3hj90qdi3rrv9wq",
+            "url": "https://github.com/Sh0rtRound-wq/nur-packages"
+        },
         "shados": {
             "rev": "7fc2ff09299e58aba8eb48c8c736aaf9107b9bf0",
             "sha256": "0gi9x0iisacq4bqjdax6hywm4rcdvjyablilwhnkw3p0jpkcb1l8",
@@ -2547,8 +2562,8 @@
             "url": "https://github.com/ToyVo/nixcfg"
         },
         "trev": {
-            "rev": "620d17c78f4e3977977d3fcbef9a8d6271693712",
-            "sha256": "1flifm7px7wgdzjpg5rilv6zrghw93rgikr7byv6i2sy7d1sn9wd",
+            "rev": "5e321f719eab691f7dfbe3ea0b66a8fbe7bb4f4a",
+            "sha256": "0jyjc3j28gpdr41jrkbpv5hm36a51h7fwfg2zdghasp0875gnglq",
             "url": "https://github.com/spotdemo4/nur"
         },
         "trevorriles": {
