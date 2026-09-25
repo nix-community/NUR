@@ -206,8 +206,8 @@
             "url": "https://github.com/Sittymin/NUR"
         },
         "Skyb0rg007": {
-            "rev": "aaf5502006db4eeb1958a22ec1f45c21ab0086f6",
-            "sha256": "0fy2c8vswkd2lhqhfmiyzsgz2ncfr262khx4k9l8c6xivb4jh5s9",
+            "rev": "e06b15fee296ba81ca3a36d003d87d5953ce90e5",
+            "sha256": "1wf4gcah374y4q45yp6lrl9jjnf0qr8rcfyfrq6m11gwmd5y2z9y",
             "url": "https://github.com/Skyb0rg007/packages"
         },
         "SuperKenVery": {
@@ -900,14 +900,14 @@
             "url": "https://github.com/Eggflaw/nur-packages"
         },
         "eh5": {
-            "rev": "8e44e8380f117bf0f7013b7efcea70bb2908ccfe",
-            "sha256": "19w0d4kmsmb6x60n474sm1787a7qf0qv2sry3yfravjc67zn5zlz",
+            "rev": "1863d44875ef8d891d3aa6c84bde86b36ec430a6",
+            "sha256": "0y1sm16mgbm0wbc4rpy9ss74xlx3bzlwhrs7xw1p496fymwcm6nh",
             "url": "https://github.com/EHfive/flakes"
         },
         "elzorrorebelde": {
             "rev": "190caa3574fc1b9dd1ca9a17804decdb8a9d76ee",
             "sha256": "08x643yyl4d68rwsk76q72g1yw6p8kb7b1fgy34m86zvnixi17nz",
-            "url": "https://rosa.radicle.network/z3YkDws5EsBLkbzbbrjzrzB775AJX.git"
+            "url": "https://jardin.jorgearaya.dev/z3YkDws5EsBLkbzbbrjzrzB775AJX.git"
         },
         "emiller88": {
             "rev": "0e0450a7b5e653ecb7bf72103e4374d1e91c6c17",
@@ -923,6 +923,11 @@
             "rev": "80c3949dbc5f768b3290d808566daebcbdcffc77",
             "sha256": "00fmmn2c9cy4i97gsxbrjxc70jxcj0lwdpdp0d3p2hcxk18xllvi",
             "url": "https://codeberg.org/eownerdead/flakes"
+        },
+        "epicrazzmatazz": {
+            "rev": "4c917e568c9d3daf60b51f36f5ea711ac299e940",
+            "sha256": "1nxw20vh3xm0dkbwbgcr9br3zrbj79v2c9qw5y0p4nwd9wlhw9yl",
+            "url": "https://codeberg.org/epicrazzmatazz/nurpkgs"
         },
         "ethancedwards8": {
             "rev": "0263960bdfc98e590db580f5a25f80f20b95160d",
@@ -1394,6 +1399,11 @@
             "sha256": "0knd599a4zxfrgbgybcqjrs6cb360d2gl8rv3difpidcb2rnhhsd",
             "url": "https://github.com/JPyke3/JPyke3-Nur"
         },
+        "juacamole": {
+            "rev": "1ac5e7d0a14a45499dd4b8b54fcd47cc8aa010ca",
+            "sha256": "019ks493wvqa1z6fhjgwnkzhrhc9mh91dfb2i5ajxsqbqfzbjgqx",
+            "url": "https://github.com/juacamole/nur-packages"
+        },
         "juxgd": {
             "rev": "868a6a8d519a70958f40c77a8b7cf912f67d4715",
             "sha256": "0h1xm2ifl9rwm8vjprmadxikpsvvzc59ffiyv8xjv5rhi92i6znj",
@@ -1516,6 +1526,11 @@
             "sha256": "0si5v22n4h1zrfa004r6gkc1i3v463bb2w0a50hsf1w2rqljq2af",
             "url": "https://github.com/PhotonQuantum/nur-packages"
         },
+        "lillycham": {
+            "rev": "5be1ed1f94ddfb018cc5ec44d60a28f94e565942",
+            "sha256": "1mf2a8h0vs51y7yw0r4pc36l5wvc2hjbdqziln5vpyarfack8wcn",
+            "url": "https://github.com/lillycham/nur-packages"
+        },
         "linyinfeng": {
             "rev": "b4ef4b90a86b5d558cfa8e5c7e217125fdc137fe",
             "sha256": "0dlnp1hisqrch85y04ny3xvp7m5kgz7r15md927rgni1f2sas8lf",
@@ -1547,8 +1562,8 @@
             "url": "https://github.com/ltpie123/nur-packages"
         },
         "lucasew": {
-            "rev": "820e6315695d4e9de94b872f8c1515d42d1dc895",
-            "sha256": "0nyvz45snb9q0v7dzwbnm516ncrkg9jlbf30gim4kmgidd294syy",
+            "rev": "4e25ad801d5a81868601722d5906897cb719e393",
+            "sha256": "037crv3jqxaa9d5vd1ms18lpn5kzh11c7al0xkam6yg9dyhrr702",
             "url": "https://github.com/lucasew/nixcfg"
         },
         "lucasfa": {
@@ -1839,8 +1854,8 @@
             "url": "https://github.com/nasirhm/nasirhmpkgs"
         },
         "natsukium": {
-            "rev": "e2ee4901ae7c0cf080b7fa616546aedd254a4cbf",
-            "sha256": "0gx75liba0414ch5dy1k60rl1hlfmnnb60wn1i5kyac5m88x029d",
+            "rev": "105d2037b6ad77c8f78888b0fc0bd4f67c46cb8d",
+            "sha256": "0wm5wmb57rgi2csz5r31byirbsqj22xcx53qmc6q31734v0p4iyp",
             "url": "https://github.com/natsukium/nur-packages"
         },
         "nelonn": {
@@ -2264,6 +2279,11 @@
             "sha256": "1a3zh6dnxmxwjnpbmr5wafz9fpic8p4k1hn0dy58xhr1hmp1298g",
             "url": "https://github.com/sagikazarmark/nur-packages"
         },
+        "sakuraba07": {
+            "rev": "029b497f838eed49424d2522a1cf11306d3e7264",
+            "sha256": "1glsmxq11mx587rx1bqkvjnjw0ppqb1fcj82gx6v466rlk49rr8g",
+            "url": "https://github.com/sakuraba07/nur-packages"
+        },
         "schmittlauch": {
             "rev": "6f4739cf5cc00030001ee3792b60f2003b12083d",
             "sha256": "1449lszgfwf462gjlc14lbcx32611x8qigiq4nvqqnilvfghkl08",
@@ -2353,6 +2373,11 @@
             "rev": "8b9e28412565bae814ea9f37b4859147f5c78e0a",
             "sha256": "1xasl0i5b0pvb13fpv7yb75jh6mnp9bbinhbvcmvmc5a7krzdnlq",
             "url": "https://github.com/silicalet/nur-packages-silicalet"
+        },
+        "skerrixx": {
+            "rev": "8f70bd143a759674c062028b74291ab524b64773",
+            "sha256": "1hpp35xapialik4931lrfrwnbn2bhd6by6yq925bg91wr34dbash",
+            "url": "https://github.com/skerrixx/rfetch"
         },
         "skiletro": {
             "rev": "2604ffc5b67c0d5a177a41e159775f041e757922",
