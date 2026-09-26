@@ -382,8 +382,8 @@
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "arch-fan": {
-            "rev": "f37ff67976f8fcfdcd55bee5584df28621557211",
-            "sha256": "1v3pd6cz7mgbmfxrdhj00wvrwv5kgjd3zgn39pglfn1kaz1mfh1c",
+            "rev": "a7c7a25bf9caa3095ac8232b4d9db1b0d343e221",
+            "sha256": "10x33wrbmkdh0b3v238i8qm6l666gbxi2s121174m94nhgwfr1vz",
             "url": "https://github.com/arch-fan/nur-packages"
         },
         "armaria": {
@@ -578,8 +578,8 @@
             "url": "https://github.com/cawilliamson/nur-packages"
         },
         "ccicnce113424": {
-            "rev": "1c736ed607d6336f68bca7189b6ee7f51e90253b",
-            "sha256": "09xmdb1fs5yw8alwdcq383sa74753xh50yp62xp7wih4xa2j35zk",
+            "rev": "7a80e858a2857e92c49047fadbdd025444df3c5d",
+            "sha256": "108izc4mnm4119vflb6a3lgbkp39skcypm1y896y9yc6rfifxmcd",
             "url": "https://github.com/ccicnce113424/nix-packages"
         },
         "chagra": {
@@ -1713,8 +1713,8 @@
             "url": "https://github.com/minion3665/nurpkgs"
         },
         "mio": {
-            "rev": "caa5ae81326e627c990a0e3e76ed2daae70d662f",
-            "sha256": "04wi4il2s4jaavf545bkzyv9y747vqljiy2gycb0hd1vrsj39sbv",
+            "rev": "e5fbd68e6ad2138c39eb6277ddd9f75484c5f576",
+            "sha256": "0kwpgj47s7388qzsinfshn572i5xbbb3h49c6mjgvhv850dswyw3",
             "url": "https://github.com/mio-19/nurpkgs"
         },
         "misterio": {
@@ -1723,8 +1723,8 @@
             "url": "https://git.sr.ht/~misterio/nix-config"
         },
         "misuzu": {
-            "rev": "298291b688eea667e5b34615594dce39df34535a",
-            "sha256": "0gr2knj21pz1462s546b1ks4fmmq4f9jfpjy736dcnpb0lylf6v1",
+            "rev": "f629fb18923bb188fc884264d65a3765a4a26489",
+            "sha256": "1sx5rwxky4437gwzskbqcripr7pqsk7j71dcll8m20398h5q79b0",
             "url": "https://github.com/misuzu/mur"
         },
         "mloeper": {
@@ -1741,6 +1741,11 @@
             "rev": "a835678ecd9d3c6ddee47e84782affc4a52c3609",
             "sha256": "1kcfg9yxijd1vwrzr2hcqqfa3zy9jagm1yv6g21g6wjkdhx76w55",
             "url": "https://github.com/moaxcp/nur"
+        },
+        "momiji-rs": {
+            "rev": "15c44de208f4fa6b4886d2b84d1db08af79851f6",
+            "sha256": "06ca766641r0b4v140q48awhp7aqknisyib80mzzk8j9cfw9fk2z",
+            "url": "https://github.com/momiji-rs/sasso"
         },
         "moonlight-os": {
             "rev": "7ad5a4c9f25df1d503645c8640f1f9ad97eeb5f4",
