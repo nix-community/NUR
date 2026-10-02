@@ -1,6 +1,7 @@
+import asyncio
+import json
 import logging
 import os
-import subprocess
 import tempfile
 from argparse import Namespace
 from pathlib import Path
@@ -13,21 +14,31 @@ from .path import EVALREPO_PATH, nixpkgs_path
 logger = logging.getLogger(__name__)
 
 
-def eval_repo(repo: Repo, repo_path: Path) -> None:
+async def eval_repo(repo: Repo, repo_path: Path) -> None:
     with tempfile.TemporaryDirectory() as d:
         eval_path = Path(d).joinpath("default.nix")
+        args_path = Path(d).joinpath("args.json")
+        with open(args_path, "w") as f:
+            json.dump(
+                {
+                    "name": repo.name,
+                    "url": repo.url.geturl(),
+                    "src": str(repo_path.joinpath(repo.file)),
+                },
+                f,
+            )
         with open(eval_path, "w") as f:
-            f.write(
-                f"""
+            f.write(f"""
                     with import <nixpkgs> {{}};
+let
+  args = builtins.fromJSON (builtins.readFile {args_path});
+in
 import {EVALREPO_PATH} {{
-  name = "{repo.name}";
-  url = "{repo.url}";
-  src = {repo_path.joinpath(repo.file)};
+  inherit (args) name url;
+  src = /. + args.src;
   inherit pkgs lib;
 }}
-"""
-            )
+""")
 
         canonicalized_eval_path = eval_path.resolve()
         # fmt: off
@@ -45,22 +56,30 @@ import {EVALREPO_PATH} {{
             "-I", f"nixpkgs={nixpkgs_path()}",
             "-I", str(repo_path),
             "-I", str(canonicalized_eval_path),
+            "-I", str(args_path),
             "-I", str(EVALREPO_PATH),
         ]
         # fmt: on
 
-        logger.info(f"Evaluate repository {repo.name}")
         env = dict(PATH=os.environ["PATH"], NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM="1")
-        proc = subprocess.Popen(cmd, env=env, stdout=subprocess.DEVNULL)
+        proc = await asyncio.create_subprocess_exec(
+            *cmd,
+            env=env,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+        )
         try:
-            res = proc.wait(15)
-        except subprocess.TimeoutExpired:
-            raise EvalError(f"evaluation for {repo.name} timed out of after 15 seconds")
-        if res != 0:
-            raise EvalError(f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}")
+            stdout, stderr = await asyncio.wait_for(proc.communicate(), 180)
+        except TimeoutError:
+            proc.kill()
+            raise EvalError(f"evaluation for {repo.name} timed out of after 3 minutes")
+        if proc.returncode != 0:
+            raise EvalError(
+                f"{repo.name} does not evaluate:\n$ {' '.join(cmd)}\n\n{stderr.decode()}"
+            )
 
 
-def eval_command(args: Namespace) -> None:
+async def eval_command(args: Namespace) -> None:
     logging.basicConfig(level=logging.INFO)
 
     repo_path = Path(args.directory)
@@ -74,5 +93,5 @@ def eval_command(args: Namespace) -> None:
         None,
         None,
     )
-    eval_repo(repo, repo_path)
+    await eval_repo(repo, repo_path)
     print("OK")

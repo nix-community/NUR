@@ -131,7 +131,7 @@ This simple example demostrates how to add a single package from nur to a devshe
       let
         pkgs = import nixpkgs {
           inherit system;
-          overlays = [ nur.overlay ];
+          overlays = [ nur.overlays.default ];
         };
       in
       {
@@ -164,8 +164,10 @@ Using overlays and modules from NUR in your configuration is fairly straightforw
       modules = [
         # Adds the NUR overlay
         nur.modules.nixos.default
-        # NUR modules to import
-        nur.legacyPackages."${system}".repos.iopq.modules.xraya
+        # NUR modules can be imported directly:
+        nur.repos.iopq.modules.nixos.xraya
+        # Or via legacyPackages (legacy path):
+        # nur.legacyPackages."${system}".repos.iopq.modules.xraya
         # This adds the NUR nixpkgs overlay.
         # Example:
         # ({ pkgs, ... }: {
@@ -182,12 +184,12 @@ Using overlays and modules from NUR in your configuration is fairly straightforw
 Integrating with [Home Manager](https://github.com/rycee/home-manager) can be done by adding your modules to the `imports` attribute.
 You can then configure your services like usual.
 
+When using flakes, Home Manager modules can be accessed directly:
+
 ```nix
-let
-  nur-no-pkgs = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/main.tar.gz") {};
-in
+# In your Home Manager configuration
 {
-  imports = lib.attrValues nur-no-pkgs.repos.moredhel.hmModules.rawModules;
+  imports = lib.attrValues nur.repos.moredhel.modules.homeManager;
 
   services.unison = {
     enable = true;
@@ -197,6 +199,52 @@ in
         dest = "/home/moredhel/org.backup";
         extraArgs = "-batch -watch -ui text -repeat 60 -fat";
       };
+    };
+  };
+}
+```
+
+Without flakes:
+
+```nix
+let
+  nur-no-pkgs = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/main.tar.gz") {};
+in
+{
+  imports = lib.attrValues nur-no-pkgs.repos.moredhel.homeModules;
+}
+```
+
+### Using the flake in a standalone Home Manager configuration
+
+The section above covers Home Manager used as a NixOS (or nix-darwin) module.
+If you instead build your Home Manager configuration standalone, with
+`home-manager.lib.homeManagerConfiguration`, add the NUR overlay and any
+repo modules you need to its `modules` list directly:
+
+```nix
+{
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    home-manager = {
+      url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    nur = {
+      url = "github:nix-community/NUR";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+
+  outputs = { self, nixpkgs, home-manager, nur, ... }: {
+    homeConfigurations.myUser = home-manager.lib.homeManagerConfiguration {
+      pkgs = nixpkgs.legacyPackages.x86_64-linux;
+      modules = [
+        # Adds the NUR overlay to Home Manager's pkgs
+        nur.modules.homeManager.default
+        # Import all Home Manager modules published by a NUR repo:
+        { imports = nixpkgs.lib.attrValues nur.repos.moredhel.modules.homeManager; }
+      ];
     };
   };
 }
@@ -407,11 +455,11 @@ they must be put them in their own namespace within the repository.
 
 #### Providing NixOS modules
 
-NixOS modules should be placed in the `modules` attribute:
+NixOS modules should be placed in the `nixosModules` attribute:
 
 ```nix
 { pkgs }: {
-  modules = import ./modules;
+  nixosModules = import ./modules;
 }
 ```
 
@@ -422,10 +470,50 @@ NixOS modules should be placed in the `modules` attribute:
 }
 ```
 
+These modules are then accessible as `nur.repos.<repo>.modules.nixos.<module>` in flakes.
+
+The legacy `modules` attribute is also supported as a fallback for `nixosModules`.
+
 An example can be found [here](https://github.com/Mic92/nur-packages/tree/master/modules).
 Modules should be defined as paths, not functions, to avoid conflicts if imported from multiple locations.
 
-A module with no [_class](https://nixos.org/manual/nixpkgs/stable/index.html#module-system-lib-evalModules-param-class) will be assumed to be both a NixOS and Home Manager module. If a module is NixOS or Home Manager specific, the `_class` attribute should be set to `"nixos"` or [`"home-manager"`](https://github.com/nix-community/home-manager/commit/26e72d85e6fbda36bf2266f1447215501ec376fd).
+#### Providing Home Manager modules
+
+Home Manager modules should be placed in the `homeModules` attribute:
+
+```nix
+{ pkgs }: {
+  homeModules = import ./hm-modules;
+}
+```
+
+These modules are then accessible as `nur.repos.<repo>.modules.homeManager.<module>` in flakes.
+
+The legacy `modules` attribute is also supported as a fallback for `homeModules`.
+
+#### Providing Darwin modules
+
+Darwin (nix-darwin) modules should be placed in the `darwinModules` attribute:
+
+```nix
+{ pkgs }: {
+  darwinModules = import ./darwin-modules;
+}
+```
+
+These modules are then accessible as `nur.repos.<repo>.modules.darwin.<module>` in flakes.
+
+#### Providing flake-parts modules
+
+Flake-parts modules should be placed in the `flakeModules` attribute:
+
+```nix
+{ pkgs }: {
+  flakeModules = import ./flake-modules;
+}
+```
+
+These modules are then accessible as `nur.repos.<repo>.modules.flake.<module>` in flakes.
 
 #### Providing Overlays
 

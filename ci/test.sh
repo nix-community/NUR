@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -p bash -i bash -p mypy -p black -p ruff -p nix
+#!nix-shell -p bash -i bash -p mypy -p black -p ruff -p nix -p python3Packages.aiohttp
 
 set -eux -o pipefail # Exit with nonzero exit code if anything fails
 

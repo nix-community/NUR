@@ -4,3 +4,7 @@ class NurError(Exception):
 
 class EvalError(NurError):
     pass
+
+
+class RepositoryDeletedError(NurError):
+    pass

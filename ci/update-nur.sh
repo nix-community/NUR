@@ -9,6 +9,8 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 source ${DIR}/lib/setup-git.sh
 set -x
 
+nix flake update --flake "${DIR}" nixpkgs
+
 nix run "${DIR}#" -- update
 
 cd ${DIR}/..
@@ -18,6 +20,6 @@ nix flake update nixpkgs
 if [[ -z "$(git diff --exit-code)" ]]; then
   echo "No changes to the output on this push; exiting."
 else
-  git add --all repos.json* flake.lock
+  git add --all repos.json* flake.lock ci/flake.lock
   git commit -m "automatic update"
 fi

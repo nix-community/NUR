@@ -3,11 +3,11 @@ import os
 import shutil
 import subprocess
 from argparse import Namespace
-from distutils.dir_util import copy_tree
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from typing import Dict, List, Optional
 
+from .error import NurError
 from .fileutils import chdir, write_json_file
 from .manifest import Repo, load_manifest, update_lock_file
 from .path import LOCK_PATH, MANIFEST_PATH, ROOT
@@ -51,9 +51,13 @@ def commit_repo(repo: Repo, message: str, path: Path) -> Repo:
     assert tmp is not None
 
     try:
-        copy_tree(repo_source(repo.name), tmp.name, preserve_symlinks=1)
-        shutil.rmtree(repo_path, ignore_errors=True)
-        os.rename(tmp.name, repo_path)
+        # dirs_exist_ok=True because our directory definitely already exists
+        shutil.copytree(
+            repo_source(repo.name), tmp.name, symlinks=True, dirs_exist_ok=True
+        )
+        if os.path.exists(repo_path):
+            shutil.rmtree(repo_path)
+        shutil.copytree(tmp.name, repo_path, symlinks=True)
         tmp = None
     finally:
         if tmp is not None:
@@ -118,6 +122,7 @@ def update_combined(path: Path) -> None:
     manifest = load_manifest(MANIFEST_PATH, LOCK_PATH)
 
     combined_repos = load_combined_repos(path)
+    previous_repo_count = len(combined_repos)
 
     repos_path = path.joinpath("repos")
     os.makedirs(repos_path, exist_ok=True)
@@ -137,6 +142,11 @@ def update_combined(path: Path) -> None:
 
         if new_repo is not None:
             updated_repos.append(new_repo)
+
+    if previous_repo_count > 0 and len(updated_repos) < previous_repo_count // 2:
+        raise NurError(
+            f"Refusing to update repos.json: more than half ({previous_repo_count - len(updated_repos)}) of all ({previous_repo_count}) previous repos dropped"
+        )
 
     for combined_repo in combined_repos.values():
         remove_repo(combined_repo, path)
@@ -160,7 +170,9 @@ def setup_combined() -> None:
         write_json_file(dict(repos={}), manifest_path)
 
     manifest_lib = "lib"
-    copy_tree(str(ROOT.joinpath("lib")), manifest_lib, preserve_symlinks=1)
+    if os.path.exists(manifest_lib):
+        shutil.rmtree(manifest_lib)
+    shutil.copytree(str(ROOT.joinpath("lib")), manifest_lib, symlinks=True)
     default_nix = "default.nix"
     shutil.copy(ROOT.joinpath("default.nix"), default_nix)
 
@@ -169,7 +181,7 @@ def setup_combined() -> None:
     commit_files(vcs_files, "update code")
 
 
-def combine_command(args: Namespace) -> None:
+async def combine_command(args: Namespace) -> None:
     combined_path = Path(args.directory)
 
     with chdir(combined_path):

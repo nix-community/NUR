@@ -1,4 +1,5 @@
 import json
+import shutil
 from enum import Enum, auto
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -66,13 +67,17 @@ class Repo:
         if file_ is None:
             self.file = "default.nix"
         else:
+            if Path(file_).is_absolute() or ".." in Path(file_).parts:
+                raise ValueError(
+                    f"{name}: file {file_!r} must be a relative path without '..' components"
+                )
             self.file = file_
         self.branch = branch
         self.locked_version = None
 
         if (
             locked_version is not None
-            and locked_version.url != url.geturl()
+            and locked_version.url.geturl() == url.geturl()
             and locked_version.submodules == submodules
         ):
             self.locked_version = locked_version
@@ -159,3 +164,19 @@ def load_manifest(manifest_path: PathType, lock_path: PathType) -> Manifest:
         repos.append(Repo(name, url, submodules, type_, file_, branch_, locked_version))
 
     return Manifest(repos)
+
+
+def remove_repos(repos: List[Repo], manifest_path: PathType) -> None:
+    path = to_path(manifest_path)
+
+    with open(path) as f:
+        data = json.load(f)
+
+    for name in [repo.name for repo in repos]:
+        data["repos"].pop(name, None)
+
+    tmp_path = str(path) + ".tmp"
+    with open(tmp_path, "w+") as tmp:
+        json.dump(data, tmp, indent=4, sort_keys=True)
+        tmp.write("\n")
+    shutil.move(tmp_path, path)
