@@ -1551,6 +1551,11 @@
             "sha256": "09y7xp6cj62397dsxasik1bfpnfi7kj6p2sij4ik2d623fx00vqm",
             "url": "https://github.com/lonerOrz/loneros-nur"
         },
+        "lorlike": {
+            "rev": "7d0f279097f93e37f9cbf8060b3fe1b4446c606c",
+            "sha256": "1dpws4lvb0vhmyj6nnzvfyxw332gxk9vb97pjlc2gn13wz60cwlv",
+            "url": "https://github.com/lorlike/NUR"
+        },
         "lschuermann": {
             "rev": "860073ac157bb4b719d7f5d798130d20f20a3682",
             "sha256": "0raq4b0aig5m6nqnvrnxhh4i4rmrk16454srxdln0fav6zz56prg",
@@ -1713,8 +1718,8 @@
             "url": "https://github.com/minion3665/nurpkgs"
         },
         "mio": {
-            "rev": "4eec4019ef54460be212af8ac236eeaf0bf2bc83",
-            "sha256": "1lhp44f332jyh62wpic313bmh42qmgvhm1i2526qzc8ir0xnk8cb",
+            "rev": "4a5a9912ff62be5b8ddd8ff7262aa766b7a0b8c0",
+            "sha256": "07zg1pbnzr9vp0h22086ddv183dj31k8ryznjky55hn4lpjrah0g",
             "url": "https://github.com/mio-19/nurpkgs"
         },
         "misterio": {
@@ -2172,6 +2177,11 @@
             "rev": "f7c7f9ba5d1e64a53a1b75f133968ef143a86bca",
             "sha256": "0lm43scpd2spv8x3cpw8i557ffdm9jpysc0rbp9fgd51sqrbwd65",
             "url": "https://github.com/raizyr/nur-packages"
+        },
+        "rajveer": {
+            "rev": "046e1393ee7c63a72b513ffd5f52072dc53bfb2a",
+            "sha256": "00946b9959qv7qbnbszqm7q9kbbgh717wvrj44svvl938afb64j0",
+            "url": "https://github.com/SINGH-RAJVEER/nur-packages"
         },
         "rapatao": {
             "rev": "52ded03a3be2ce843c449df6f199ef5ff0321e21",
@@ -2797,8 +2807,8 @@
             "url": "https://github.com/xfix/nur-packages"
         },
         "xiaojing": {
-            "rev": "f50b27f67d54d711eae9afcf23af46ca52f5ab39",
-            "sha256": "1g0ficx8q2cvgjmqdzpivyzf2s38pxj9ic0wq3yv3fkcnsi51nx7",
+            "rev": "4cc4481b0e72d428ac25a13a73710e2112a30318",
+            "sha256": "09fq3fv5v9lpjw9h5c0053af83jv805cvszy62xdplcbcjj913cf",
             "url": "https://github.com/xiaojing911/xiaojing-pkgs"
         },
         "ximimoments": {
