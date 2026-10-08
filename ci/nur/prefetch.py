@@ -94,11 +94,11 @@ class GitPrefetcher:
             hostname = parsed_info_url.hostname
             if dns_error == ARES_ENOTFOUND and hostname not in UNSAFE_DNS_WHITELIST:
                 raise RepositoryDeletedError("Repository deleted") from e
-            # SSL certificate errors are infrastructure issues, not proof
-            # that a repository has been deleted. Let them propagate so
-            # the caller can decide whether to retry.
-            if isinstance(e, aiohttp.ClientConnectorCertificateError):
-                raise
+            # Anything else, SSL certificate errors included, is an
+            # infrastructure issue, not proof that a repository has been
+            # deleted. Let it propagate so the caller can decide whether to
+            # retry.
+            raise
 
         lines = parse_pkt_lines(raw)
 
