@@ -377,8 +377,8 @@
             "url": "https://github.com/arcnmx/nixexprs"
         },
         "arch-fan": {
-            "rev": "db698d0f25b1a61467e899bf80dacbef4c96ccdb",
-            "sha256": "00ik47lxav36idpj0knhsdic7d0bl1hi6vf3lb59pii7l4f2wccd",
+            "rev": "73ee563d162cddb3c2ca65e053548d6bac9f96df",
+            "sha256": "16xs6gvl02ah15xxizdhzfkvd4ja1wz2p233hqvwinvmw3z6jan6",
             "url": "https://github.com/arch-fan/nur-packages"
         },
         "armaria": {
@@ -1320,8 +1320,8 @@
             "url": "https://github.com/jdev082/jdpkgs"
         },
         "jeffguorg": {
-            "rev": "b454a7b4cb733be04e77e6c2411d70f842f04af6",
-            "sha256": "0g63zdgvq141h3yjh3m2smwjxhs1zrjhagqkm53s3nlqdx9sn1hn",
+            "rev": "8d4cfe662a1cf35d75f619744120b33941c94859",
+            "sha256": "0502kvds857rkcav017sy1jhb4d8c9y5j78aq0rivsgwlhxphj2k",
             "url": "https://github.com/jeffguorg/nur-packages"
         },
         "jerrita": {
@@ -1642,8 +1642,8 @@
             "url": "https://github.com/matthewbauer/nur-packages"
         },
         "mattrobenolt": {
-            "rev": "fd186157f369f6461c3ec4c0215b8f53c161182d",
-            "sha256": "0rdd5j1710g1kmybxamxnhdnhwffymf2h2686ids3d7043pk11x9",
+            "rev": "6a3c82485af3ee5ebd355af7e9301f6c56f775c4",
+            "sha256": "0h8z0idsm6p3cr06pxn2r1ns2mfs9ay0bprlvn3wf529mjpa48zj",
             "url": "https://github.com/mattrobenolt/nixpkgs"
         },
         "meain": {
@@ -2177,6 +2177,11 @@
             "rev": "f7c7f9ba5d1e64a53a1b75f133968ef143a86bca",
             "sha256": "0lm43scpd2spv8x3cpw8i557ffdm9jpysc0rbp9fgd51sqrbwd65",
             "url": "https://github.com/raizyr/nur-packages"
+        },
+        "rajanmaghera": {
+            "rev": "78cb4e3a4e8e6a71fbddd7b4b1bb74b3f96aabf4",
+            "sha256": "1wy4hjwhznjkv6kzyq27gmz90l1c4x2z169x94nm63f09iqpwziy",
+            "url": "https://github.com/rajanmaghera/nur-packages"
         },
         "rajveer": {
             "rev": "046e1393ee7c63a72b513ffd5f52072dc53bfb2a",
@@ -2807,8 +2812,8 @@
             "url": "https://github.com/xfix/nur-packages"
         },
         "xiaojing": {
-            "rev": "4cc4481b0e72d428ac25a13a73710e2112a30318",
-            "sha256": "09fq3fv5v9lpjw9h5c0053af83jv805cvszy62xdplcbcjj913cf",
+            "rev": "d8338bd2efe3f599a14e4ffa8dfc5043bdff0d25",
+            "sha256": "00rb67jnvnrj7liq77cnzb8b58dc5f3kr8ihbgamsb3r30x720g4",
             "url": "https://github.com/xiaojing911/xiaojing-pkgs"
         },
         "ximimoments": {
