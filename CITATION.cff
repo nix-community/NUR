@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "NUR (fork of nix-community/NUR)"
+authors:
+  - family-names: Porter
+    given-names: Matthew A.
+    orcid: "https://orcid.org/0000-0002-0302-4812"
+    affiliation: "Qompass AI"
+version: "v2026-10-17"
+date-released: 2026-10-17
+license: Apache-2.0
+repository-code: "https://github.com/qompassai/NUR"
+abstract: "Fork of nix-community/NUR (https://github.com/nix-community/NUR), held in the Qompass AI GitHub estate. Authorship of the underlying work belongs to the upstream project. Repository description: Nix User Repository: User contributed nix packages [maintainer=@Pandapip1]"
