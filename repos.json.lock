@@ -31,8 +31,8 @@
             "url": "https://git.catgirl.cloud/999eagle/nur-packages"
         },
         "Adamekka": {
-            "rev": "8edc15940b090fb59307bad5da7969d6a1d6e5a2",
-            "sha256": "0hn3v95rrzhjjbg7ss77xwk5cj7r070ixijspl6l17cyl113is0g",
+            "rev": "7c843f3a3f13ec14c65330dff171af1c29eade46",
+            "sha256": "1wc8wzrjdr2xrjmakzppnsg0938qx2yx37pj417qwnk523861gf3",
             "url": "https://github.com/Adamekka/nur-packages"
         },
         "Alxandr": {
@@ -381,6 +381,11 @@
             "sha256": "0h4vs0gr8fvzp71csls2fghidkkcvkhfzc8prysyvi7kf5k7cnbn",
             "url": "https://github.com/arch-fan/nur-packages"
         },
+        "arielherself": {
+            "rev": "461358ab97dfa0a86f9ecefadba7052a6f9f2ac5",
+            "sha256": "0pwgjs5j0rz0vvnb52y00iz2ab5a4llwvji4iyqw415hywvixg3p",
+            "url": "https://github.com/arielherself/nur-packages"
+        },
         "armaria": {
             "rev": "ed55f1ec5ab7e8f1c7a7b39793fbec6f1b26f4f2",
             "sha256": "0h02a3mc64nxws005r79xbpssk01b91crj7p7p9cx1241dli197v",
@@ -658,8 +663,8 @@
             "url": "https://github.com/cmdorexe/nur-packages"
         },
         "codgician": {
-            "rev": "f7ca0a9ce7848157ee141bcc5b391d691b13bf6a",
-            "sha256": "1c84k8lb8wjhngafl3b5gfkvllvr78b9kgxwz9q11vpyqyk1psm6",
+            "rev": "0aff7da2bfe2230b4d11407d6061a44c595a69a7",
+            "sha256": "1875xymyd5b7x4yrqfdvq0bv3n49qq596d3zw18svjgpz9la31il",
             "url": "https://github.com/codgician/nur-packages"
         },
         "colinsane": {
@@ -959,6 +964,11 @@
             "sha256": "0qhhslxqys1mz4r6mal5xrpin3ijfvs7zpljvmck8hw93zp6dk1d",
             "url": "https://github.com/FanBB2333/nur-packages"
         },
+        "fclairamb": {
+            "rev": "055c41b762732ba4574f1f160a78ad06ccb0dbfd",
+            "sha256": "1g5paiyfvynvqkdd5m7vz8r18zgdqg44i4rhbxg1hiim2igcc2li",
+            "url": "https://github.com/fclairamb/nur-packages"
+        },
         "fedx": {
             "rev": "b1ee80ee8a790671f4b8fc1502cd52ca760cdf61",
             "sha256": "1cv7z24rfx9glwqqdlh2ddf1f9h154g6r23qah2spshb3s2iw35q",
@@ -1114,6 +1124,11 @@
             "sha256": "0z15mss6n4jix56vgfplz65s6xfgfqwp4yfl9p14ksdl639x1xhl",
             "url": "https://github.com/guoard/nur"
         },
+        "heizeisaburou": {
+            "rev": "76a09cc72722839a67cea4e465960b4874040ab9",
+            "sha256": "1drpazbrd5na9i0nn61bs0n47zc54kszz7vhm7iqkcg3cnn46j1h",
+            "url": "https://github.com/heizeisaburou/nur-packages"
+        },
         "henriquekh": {
             "rev": "dd708b35edd229015c651a852c3334ee45a573f8",
             "sha256": "0vw8zxi1z1p6n4sbsf5xa6mn5686091fgkfq2mwnipznwfmn5x7j",
@@ -1148,6 +1163,11 @@
             "rev": "71e203ffc45d3096180ca864559ee54c5b2941ab",
             "sha256": "0klcqfhwqkdayaja9vmb5awm9fljbidpxsgqxrqggyivvrk1mfhd",
             "url": "https://github.com/Hol1kgmg/nur-packages"
+        },
+        "hsctech": {
+            "rev": "53307288f53593add84df7388f54cff111cce3ea",
+            "sha256": "19v8invsz9w7mllclwd1jkayz5pbawrikj58kf424rn3phrrk61g",
+            "url": "https://codeberg.org/hsctech/nur-packages"
         },
         "htr": {
             "rev": "49bb48aa7095b105483883c161eb19be3bc27ab8",
@@ -1323,6 +1343,11 @@
             "rev": "c54516794e1be8b65523febc84322c1c1d81411b",
             "sha256": "1jb18ay614cck6hkm3jc3dg30gamk458zc85ciycincfz61hsziz",
             "url": "https://github.com/jeffguorg/nur-packages"
+        },
+        "jeremymeadows": {
+            "rev": "4ec5da79476d674bf312cf4328eee37c17292436",
+            "sha256": "0j76jzyqg9jl9di5l07nbrpq6yfvf4j7scn1y8g7mdc0m3fbgha2",
+            "url": "https://github.com/jeremymeadows/nur"
         },
         "jerrita": {
             "rev": "27a64c1a812f449fc57444be31745383393f6e52",
@@ -1526,6 +1551,11 @@
             "sha256": "0si5v22n4h1zrfa004r6gkc1i3v463bb2w0a50hsf1w2rqljq2af",
             "url": "https://github.com/PhotonQuantum/nur-packages"
         },
+        "lihaoze123": {
+            "rev": "1b8f7daea4b98942cbf95f444057881c0cceedc6",
+            "sha256": "06cc83f1m23dk87mb8q8gj6kv94c67g1fb5vcbk705h3rnaivmxl",
+            "url": "https://github.com/lihaoze123/nur-packages"
+        },
         "lillycham": {
             "rev": "c130136d9959dbcf997e42df08b7622d07268586",
             "sha256": "0bmgzxnh58gdxr7wm0r34i6vcdvksn4hksdxz35fzk39l2aqkjm0",
@@ -1636,6 +1666,11 @@
             "sha256": "1xc5vwv1s9kx3jy4n1vhq8kjhgsazi0mrpzvz3vmg5ya9wiknc07",
             "url": "https://github.com/materusPL/Nixerus"
         },
+        "matheusbrunheroto": {
+            "rev": "b49bf92a9e6903ebcaa1a6f092db4a4eb15051d4",
+            "sha256": "0q63xvavc5p2abd54azws9wd64zdxvnvvkblvxq0zk7al50ijk18",
+            "url": "https://github.com/MatheusBrunheroto/nur-packages"
+        },
         "matthewbauer": {
             "rev": "21b678d31d567730921dd932fef6682694715b65",
             "sha256": "0h5al1rd3pklk5m76g47l5c34l272grappbaracxi9ryzmsxckc4",
@@ -1721,6 +1756,11 @@
             "rev": "b0a3093ded1a40ec7983b1f0e5b8d429735fa014",
             "sha256": "0z0393cywll36xsr2jabkyxj4yq9714dclmi4vgy5l82l3h42gnd",
             "url": "https://github.com/mio-19/nurpkgs"
+        },
+        "mirdukkkkk": {
+            "rev": "08b1fb6232c5d5f364eaf262d89b10411caa65db",
+            "sha256": "135slsla7x2v1ak1s7n5ilpma67nx02fb4c0kpbwnkzrayw71s24",
+            "url": "https://github.com/mirdukkkkk/honeycomb"
         },
         "misterio": {
             "rev": "c1ee5c7310e3993b13522714d8c9cbc39d47d7eb",
@@ -1963,6 +2003,11 @@
             "sha256": "09kgl1vigm4ms0jp1f8qpwx8g4ffcccs2z608dg4pcaap4np4yl5",
             "url": "https://github.com/nooneknowspeter/nurpkgs"
         },
+        "nosugarcoffee": {
+            "rev": "8c84380bb64a42fce84d3c4b2564aac04534006c",
+            "sha256": "1911mj5yshvbrv24q4i7yq6gkjhh6brs8q7a4mrhh1f7aj6bsvx6",
+            "url": "https://github.com/NoSugarCoffee/nur-packages"
+        },
         "nousefreak": {
             "rev": "225538fd55486c0c99c1322acbf23d280ad97ab9",
             "sha256": "00xqykhhlirlffksp7iczrzrvrcmcikrs01097lahsksbvh8944b",
@@ -2102,6 +2147,11 @@
             "rev": "06b78a6d42bd0f2d0cc1adccbe7d0e40214e46d1",
             "sha256": "1q9i2cg74ihbkcfayl5p89jk004xaq1k2ra7c88v48bshwgb3al8",
             "url": "https://github.com/pniedzwiedzinski/pnpkgs"
+        },
+        "pokanop": {
+            "rev": "4389c7f68eb8c543e7447be7f46a68893b97ab0b",
+            "sha256": "0plrl13s2x1gs5nnldc5gcf372q2pb1768zg44vwa3nam973x6sc",
+            "url": "https://github.com/pokanop/nur-packages"
         },
         "pokon548": {
             "rev": "d5acde66b0f5e9a158dc2c0dab3345240792dd6b",
@@ -2313,6 +2363,11 @@
             "rev": "56182bcd9997c7231e04ecc25b9f620b15776382",
             "sha256": "0i08i2a26nxvshxplz3k8wp2psgkiiawpnaa69gwh07042ghwrm0",
             "url": "https://github.com/SebRut/personal-nix-packages-repository"
+        },
+        "sectui": {
+            "rev": "53deb86704b93fe7c4c9e2834dc7f7b033bd1abd",
+            "sha256": "1yf4dwc5ymvs4ccn688jmxzlnzqxyilh5x1pnd2iim968rvamyc7",
+            "url": "https://github.com/sectui/nur"
         },
         "sedlund": {
             "rev": "8df431f7917cf4871bc449f5b58600af91926f5e",
@@ -2572,8 +2627,8 @@
             "url": "https://github.com/tinybeachthor/nur-packages"
         },
         "tnmt": {
-            "rev": "106709e39f81da707e4600a2f9cf8c29e95ccb2b",
-            "sha256": "1vxrfm9xfjdzxr7arhajvr5vfbgkdhnb0hy52ms0zy12lwma72s4",
+            "rev": "6cb1a7290b9c777d693a227f701bd2ad343575bf",
+            "sha256": "0v0x7i2sk9qi4fkgy5z1rn602rk8h4lin5p0vf5bvdsjnr5y8hsm",
             "url": "https://github.com/tnmt/nur-packages"
         },
         "tokudan": {
@@ -2612,8 +2667,8 @@
             "url": "https://github.com/ToyVo/nixcfg"
         },
         "trev": {
-            "rev": "3f080abe99b98108ae4160204a6603242baeb94b",
-            "sha256": "015n5lifcx3ylq03751qydb794jbv6gh4if28p1w56i4c2jyjzkd",
+            "rev": "8568abd973f5e107187c1351fdeddfc2ead84ffc",
+            "sha256": "0vspwihig1h81vaymh48mlhyg0xjavm2p5rxb1c96m33zzc7md2a",
             "url": "https://github.com/spotdemo4/nur"
         },
         "trevorriles": {
