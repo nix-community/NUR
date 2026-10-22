@@ -67,6 +67,52 @@ as shown above!
 }
 ```
 
+### Using a Nix channel
+
+Add NUR as a channel named `nur`, so `<nur>` resolves. The revision moves only on `nix-channel --update`, and `nix-channel --rollback` restores the previous revision.
+
+For your login user:
+
+```console
+$ nix-channel --add https://github.com/nix-community/NUR/archive/main.tar.gz nur
+$ nix-channel --update
+```
+
+`nix-channel --rollback` restores the previous revision of that user channel. Add the following to `~/.config/nixpkgs/config.nix`:
+
+```nix
+{
+  packageOverrides = pkgs: {
+    nur = import <nur> {
+      inherit pkgs;
+    };
+  };
+}
+```
+
+For NixOS, a root channel is what `nixos-rebuild` sees:
+
+```console
+$ sudo nix-channel --add https://github.com/nix-community/NUR/archive/main.tar.gz nur
+$ sudo nix-channel --update
+```
+
+`sudo nix-channel --rollback` restores the previous revision of the root channel. Add the following to `/etc/nixos/configuration.nix`:
+
+```nix
+{
+  nixpkgs.config.packageOverrides = pkgs: {
+    nur = import <nur> {
+      inherit pkgs;
+    };
+  };
+}
+```
+
+`nix-env`, `nix-shell`, and Home Manager for the login user still need the user channel plus `~/.config/nixpkgs/config.nix`.
+
+Flake configs keep using the flake section (`### Using flakes`) and `flake.lock`. For a non-flake config, prefer this channel over the unpinned `fetchTarball` when NixOS and Home Manager should advance together on an explicit `nix-channel --update`, without editing a pin in two repositories. The unpinned tarball follows Nix's tarball TTL (the download cache is about one hour; see `### Pinning`). When the revision must be reviewable in git, or teammates cannot share one channel, use `### Pinning` or a pinning tool such as [niv](https://github.com/nmattia/niv). `repoOverrides` from the Overriding repositories section is the same argument on `import <nur>`.
+
 ### Pinning
 
 Using `builtins.fetchTarball` without a sha256 will only cache the download for 1 hour by default, so you need internet access almost every time you build something. You can pin the version if you don't want that:
