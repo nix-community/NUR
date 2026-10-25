@@ -256,8 +256,8 @@
             "url": "https://github.com/abemedia/nur-packages"
         },
         "abszero": {
-            "rev": "92bcb19b543aaa9374dd4c4b540e0a49c8fb3616",
-            "sha256": "1nnvjnyjw9x0ifnixrchyb75gyrang1fbwmck184yfnphm0khx29",
+            "rev": "dcaf59225c42d58e8cfbadfe27f0db49b19ff801",
+            "sha256": "0fssbxiy4b83w4bay4nvbsdp0afvhmc1j3gz91kmj4m4ayxy3842",
             "url": "https://github.com/Weathercold/nixfiles"
         },
         "aciceri": {
@@ -737,6 +737,11 @@
             "rev": "7e85f62e40cd585ce81fa1f3debd5385bb0cad03",
             "sha256": "1m64i6d898v306vfkzm4v63wd56gwm9yvw1lqhr51g0lgk5jhb6v",
             "url": "https://git.dodsorf.as/Dandellion/NUR"
+        },
+        "danny19862025": {
+            "rev": "8f47baa446b8abfb53e766b7f07bc7b49e7b874c",
+            "sha256": "0vyzlra5as0j05m3ab0xh6nb53sj24glv6k128p9yvsipwj5ms31",
+            "url": "https://github.com/danny19862025/spotlight"
         },
         "davinci42": {
             "rev": "29fe02fc02acd8a2f30b3e790df0c9a1f20f64d5",
@@ -1239,6 +1244,11 @@
             "sha256": "0xqwz6r0xb0fn0n0q9x2xi2xfnfkz6017a7a2pzams8zrv4603jn",
             "url": "https://github.com/ilya-fedin/nur-repository"
         },
+        "ilyasturki": {
+            "rev": "a62cda474ffef5d8e7227aa597be49cfb06c0449",
+            "sha256": "033ypy2mw67kh2mv1s5mkj7kk61klghznnj112nb0mj3jd2sw55h",
+            "url": "https://github.com/ilyasturki/emulation-nix"
+        },
         "immae": {
             "rev": "9951b235a76800a572ea30793126b7dd8cdf3f0d",
             "sha256": "05irxc736ahckv4cn1f0l2cprwqx6h56m2a61ipjr795h72gmlcd",
@@ -1597,8 +1607,8 @@
             "url": "https://github.com/ltpie123/nur-packages"
         },
         "lucasew": {
-            "rev": "4d0e21821079e0d1d41297935a311897db30e84c",
-            "sha256": "0wjd30j3c67lvzamd64clj8i92rkszdhm8x16923c16j21vdfr3n",
+            "rev": "34d2f174483382e37095506a622755030abdea15",
+            "sha256": "1j37acx7ibjmjh9z3rsvay4ih22552jyp2l0rdvdgmmd5pg4x0f8",
             "url": "https://github.com/lucasew/nixcfg"
         },
         "lucasfa": {
@@ -1768,8 +1778,8 @@
             "url": "https://git.sr.ht/~misterio/nix-config"
         },
         "misuzu": {
-            "rev": "8a6bdf7998aef86f6650d6561a5d777812d500ef",
-            "sha256": "1q08xs110lqhwwrr223bnbkm9v6cs0mq6zjr7f2ak6s52ph35nmi",
+            "rev": "b330df0be895b5d0a8ba32a3e7fb3f5b51a4ac97",
+            "sha256": "1yvj0bni0bxj2g90bh1xf8l04gp6lshxslpr6b2qb19wbnvys7gd",
             "url": "https://github.com/misuzu/mur"
         },
         "mloeper": {
@@ -2099,8 +2109,8 @@
             "url": "https://github.com/pborzenkov/nur-packages"
         },
         "peacock0803sz": {
-            "rev": "62f38178d8e53db0f807ba09a51c515ad3d071f6",
-            "sha256": "1kippskh9jczvc9fym6cgf39pfyvlc3azccmd0lxcjfxdjjnsval",
+            "rev": "072ca9875642ed087893348622468b02f086fbb7",
+            "sha256": "02xxwz4k9nl50d7rka7amc0iyh1jjbaw3hhb8bqs1j83lrh2lz8p",
             "url": "https://github.com/peacock0803sz/nur-packages"
         },
         "pedorich-n": {
@@ -2209,8 +2219,8 @@
             "url": "https://github.com/qenya/nur-packages"
         },
         "quriosity": {
-            "rev": "b0b5612ffc2140d65ce58a6fedfa78bcf00e10e7",
-            "sha256": "13japd01wm912xbazmfs0pgjamj4m3f7dr9y0dzwhmshf8q5mh8s",
+            "rev": "18eb8235b839062c61b589593d981274e661cbf7",
+            "sha256": "17vylf7csmfc6z0dnlhcrg5x3lv8q603zhqn9n2l51zlgx47clqp",
             "url": "https://github.com/Quriosity0/NUR-Repo"
         },
         "qwbarch": {
@@ -2657,8 +2667,8 @@
             "url": "https://github.com/tox-rs/nur-tox"
         },
         "toyvo": {
-            "rev": "ac04281d30cd80b90e3c30d112befde12277c427",
-            "sha256": "03pscarbf5iaa3b4h5df0rf1vrmiq8ixr9g15b9pch1b23jsswqc",
+            "rev": "89924bb1217d85075a3e80f3aa95372b663f5a64",
+            "sha256": "0hqb19yiz6i2p09ri76qfr0k3mj09jch65lnzrl35065yk4c7szb",
             "url": "https://github.com/ToyVo/nixcfg"
         },
         "trev": {
@@ -2935,6 +2945,11 @@
             "rev": "dec9b1a2c7f7028dd57c934aee09cd1d31d88ef5",
             "sha256": "1b0nkcrdxd1ps0xssxag24y225zdh58zysi9f1rjd535jipra40p",
             "url": "https://github.com/ZerataX/nur-packages"
+        },
+        "zerokaze420": {
+            "rev": "186c20bc9230ec67d1d08c2dd0a6e1c3a371d722",
+            "sha256": "0jrnk71fsxm6f4bmh4q1jy1f3fsyb8qyvs9sprbpyxdii26d3dbi",
+            "url": "https://github.com/zerokaze420/nur-lazycat-cloud-client-flake"
         },
         "zerozawa": {
             "rev": "f610d032c27995695e5b0d1e9d67d0f3d64c5de0",
