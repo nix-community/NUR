@@ -75,6 +75,11 @@
             "sha256": "0k0ql6az48nnjkaizrvl4mwq6zx6f0xp51v9yfkzz116mi6cy8h8",
             "url": "https://github.com/DanNixon/nur-packages"
         },
+        "Dauliac": {
+            "rev": "00d33c295a9461a8f377e41be50844b64870c752",
+            "sha256": "0spbwfkv3hrmg8fnmi82n02lmrhpd5jm9p6dfd2mhjwxkkknrwkg",
+            "url": "https://github.com/Dauliac/nur-packages"
+        },
         "Dev380": {
             "rev": "520a4e1ed0b2ca5233183b917660aa43c9a27039",
             "sha256": "1flsb4dq4x5n2v1jclp0g38n097p878cpn7iwffi2pyswkzy6yrf",
@@ -256,8 +261,8 @@
             "url": "https://github.com/abemedia/nur-packages"
         },
         "abszero": {
-            "rev": "7434780259ff31504732a93964313a8cf92b5f80",
-            "sha256": "0ck72v3i5j3w12mwiggx3swryawb0hh90l5wmwi6d4k814wj4cnj",
+            "rev": "b5cc3009df7aa2da891f58aa433c4dd316f6c3e4",
+            "sha256": "1yswwppdkp196l9jgdv7gs91h1m19y3326kcypzmjkrgawwn5sp3",
             "url": "https://github.com/Weathercold/nixfiles"
         },
         "aciceri": {
@@ -1319,6 +1324,11 @@
             "sha256": "169mwjn3qp87x8nj1pjyskg25idwlpzjwl1d1x17ax829gmdpzl5",
             "url": "https://github.com/j4ger/nix-packages"
         },
+        "jaiganesh6999": {
+            "rev": "d1cc3334d0e5e6c2a07d186945f84f06c6f52cec",
+            "sha256": "0pv8m6q3s72v9p2z6bp0hxx6bwgs45xyjas36iap04kjyrd53x9x",
+            "url": "https://github.com/jaiganesh6999/seowebchecker-seoaudit-sdk"
+        },
         "jakobrs": {
             "rev": "7bd8e62ecab7891f7b9c3aaa23aaefd884755ba0",
             "sha256": "118fyji32az9iwn5lr5h2kz073h7zbk27zzh18z0qhhism83kwlh",
@@ -1934,8 +1944,8 @@
             "url": "https://github.com/nginxinc/nur"
         },
         "nickheyer": {
-            "rev": "fb6200faea11e4c0a7be1819a9483198d68329ef",
-            "sha256": "1743hi7j9551p0q2ymap03lp2w6v094gc6h0m0s522wc1wgq7xcl",
+            "rev": "741b48e7a382671accdef3e5e6aa95ab3d28c454",
+            "sha256": "0qaf7swz5p6msh2vmxnfyri38lxwn03gnlnjm4hrp752p5wvwbd1",
             "url": "https://github.com/nickheyer/nixpkg"
         },
         "nighthawk": {
@@ -2485,8 +2495,8 @@
             "url": "https://github.com/sn0wm1x/ur"
         },
         "so1ve": {
-            "rev": "969bb6f5731984a5f0e110579cfb8acd252d006e",
-            "sha256": "0lppigly5fflp5sv34gg100aqjp281grj50ip7dws30lkf66lhnw",
+            "rev": "86131f08d07474b4495b3f3cdf434b8eed6f3d53",
+            "sha256": "145rgp1inhlwq782bypxyimkrs3i8m4xvmjn6yilg27ms7dr7wkv",
             "url": "https://github.com/so1ve/nur-packages"
         },
         "some-pkgs": {
