@@ -230,6 +230,27 @@ Using overlays and modules from NUR in your configuration is fairly straightforw
 Integrating with [Home Manager](https://github.com/rycee/home-manager) can be done by adding your modules to the `imports` attribute.
 You can then configure your services like usual.
 
+**Warning:** `nur.modules.homeManager.default` sets `nixpkgs.overlays` in Home Manager's package set.
+When Home Manager is embedded in NixOS or nix-darwin with `home-manager.useGlobalPkgs = true`, it shares the host's package set instead.
+Importing the NUR Home Manager overlay module in this setup can therefore trigger a warning about `nixpkgs.config` or `nixpkgs.overlays`, even if you do not set those options yourself.
+
+Install the overlay at the host level instead, with `nur` available from your flake inputs:
+
+```nix
+# In a NixOS or nix-darwin module, inside your flake's outputs where nur is in scope
+{
+  nixpkgs.overlays = [ nur.overlays.default ];
+  home-manager.useGlobalPkgs = true;
+}
+```
+
+Home Manager then receives `pkgs.nur` from the host; omit `nur.modules.homeManager.default` from your Home Manager imports.
+If the host already imports `nur.modules.nixos.default` or `nur.modules.darwin.default`, that module installs the same overlay, so choose either the host module or the explicit overlay assignment above.
+Repository-provided Home Manager modules, such as `nur.repos.<repo>.modules.homeManager.<module>`, remain importable; they are distinct from NUR's overlay module.
+
+Alternatively, use a separate Home Manager package set with `home-manager.useGlobalPkgs = false` and import `nur.modules.homeManager.default` there, or reference `nur.legacyPackages.${pkgs.stdenv.hostPlatform.system}.repos.<repo>.<package>` directly without installing the Home Manager overlay.
+For standalone Home Manager, see [Using the flake in a standalone Home Manager configuration](#using-the-flake-in-a-standalone-home-manager-configuration).
+
 When using flakes, Home Manager modules can be accessed directly:
 
 ```nix
