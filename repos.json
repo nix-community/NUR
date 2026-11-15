@@ -2500,7 +2500,9 @@
             "url": "https://github.com/zzzsyyy/flakes"
         },
         "esmegayt": {
-            "url": "https://github.com/Esmegayt/nur-packages/archive/main.tar.gz"
+            "file": "default.nix",
+            "github-contact": "Esmegayt",
+            "url": "https://github.com/Esmegayt/nur-packages"
         }
     }
 }
