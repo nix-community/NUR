@@ -23,7 +23,7 @@ jobs:
         application_private_key: '${{ secrets.GH_APPLICATION_PRIVATE_KEY }}'
         permissions: "contents:write"
         revoke_token: true
-    - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+    - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
     - uses: cachix/install-nix-action@630ae543ea3a38a9a4166f03376c02c50f408342 # v31
       with:
         nix_path: nixpkgs=channel:nixos-unstable
